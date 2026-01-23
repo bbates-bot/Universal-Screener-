@@ -1,0 +1,1086 @@
+{
+  "metadata": {
+    "subject": "Reading",
+    "gradeLevel": "4",
+    "domain": "RI",
+    "domainName": "Reading Informational Text",
+    "lastUpdated": "2026-01-22",
+    "totalQuestions": 50
+  },
+  "questions": [
+    {
+      "id": "reading-4-ri-001",
+      "bankId": "reading-4-ri",
+      "text": "What is the main idea of a paragraph?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["The first sentence", "What the paragraph is mostly about", "The last sentence", "A supporting detail"],
+        "correctAnswer": "What the paragraph is mostly about"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas & Details",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.2"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-002",
+      "bankId": "reading-4-ri",
+      "text": "A text feature like a heading tells you what a section is about.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft & Structure",
+      "difficulty": 1,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.5"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.5",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-003",
+      "bankId": "reading-4-ri",
+      "text": "Which text structure shows how things are alike and different?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Sequence", "Compare and contrast", "Cause and effect", "Problem and solution"],
+        "correctAnswer": "Compare and contrast"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft & Structure",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.5"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.5",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-004",
+      "bankId": "reading-4-ri",
+      "text": "Match each text feature to its purpose.",
+      "format": "matching",
+      "questionOptions": {
+        "leftItems": ["Caption", "Glossary", "Index"],
+        "rightItems": ["Lists topics and page numbers", "Explains a picture or diagram", "Defines vocabulary words"],
+        "correctMatches": {"0": 1, "1": 2, "2": 0}
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft & Structure",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.5"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.5",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-005",
+      "bankId": "reading-4-ri",
+      "text": "When explaining what you learned from a text, you should refer to details and examples.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas & Details",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.1"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-006",
+      "bankId": "reading-4-ri",
+      "text": "Signal words like 'first,' 'next,' and 'finally' show sequence.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft & Structure",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.5"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.5",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-007",
+      "bankId": "reading-4-ri",
+      "text": "Order the steps to summarize an informational text.",
+      "format": "drag_and_drop",
+      "questionOptions": {
+        "draggableItems": ["Write the summary in your own words", "Find the main idea", "Identify key details"],
+        "dropZones": [
+          {"id": "step1", "label": "Step 1"},
+          {"id": "step2", "label": "Step 2"},
+          {"id": "step3", "label": "Step 3"}
+        ],
+        "correctPlacements": {"0": 2, "1": 0, "2": 1}
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas & Details",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.2"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-008",
+      "bankId": "reading-4-ri",
+      "text": "What does 'habitat' mean in the sentence: 'The rainforest is the habitat of many colorful birds'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["A type of food", "A natural home or environment", "A kind of weather", "A group of animals"],
+        "correctAnswer": "A natural home or environment"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft & Structure",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.4"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.4",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-009",
+      "bankId": "reading-4-ri",
+      "text": "Context clues can help you figure out unknown words.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft & Structure",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.4"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.4",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-010",
+      "bankId": "reading-4-ri",
+      "text": "Match each text structure to its signal words.",
+      "format": "matching",
+      "questionOptions": {
+        "leftItems": ["Cause and Effect", "Compare and Contrast", "Sequence"],
+        "rightItems": ["First, then, finally", "Because, as a result, therefore", "Similarly, however, on the other hand"],
+        "correctMatches": {"0": 1, "1": 2, "2": 0}
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft & Structure",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.5"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.5",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-011",
+      "bankId": "reading-4-ri",
+      "text": "What is a fact?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Something that can be proven true", "Someone's belief or feeling", "An educated guess", "A question"],
+        "correctAnswer": "Something that can be proven true"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas & Details",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.1"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-012",
+      "bankId": "reading-4-ri",
+      "text": "Which question would best help you find the main idea of a passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["What is this passage mostly about?", "Who is the author?", "How many paragraphs are there?", "What is the last word?"],
+        "correctAnswer": "What is this passage mostly about?"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas & Details",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.2"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-013",
+      "bankId": "reading-4-ri",
+      "text": "What does the word 'migrate' mean in this sentence: 'Many birds migrate south during the winter'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["To build a nest", "To move from one place to another", "To find food", "To sleep for the winter"],
+        "correctAnswer": "To move from one place to another"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft & Structure",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.4"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.4",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-014",
+      "bankId": "reading-4-ri",
+      "text": "A summary should include every detail from the text.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": false
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas & Details",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.2"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-015",
+      "bankId": "reading-4-ri",
+      "text": "Which text structure explains why something happened and what happened as a result?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Description", "Cause and effect", "Chronological order", "Problem and solution"],
+        "correctAnswer": "Cause and effect"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft & Structure",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.5"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.5",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-016",
+      "bankId": "reading-4-ri",
+      "text": "Order the steps in the water cycle from first to last.",
+      "format": "drag_and_drop",
+      "questionOptions": {
+        "draggableItems": ["Precipitation falls", "Water evaporates", "Water condenses into clouds", "Water collects in bodies of water"],
+        "dropZones": [
+          {"id": "step1", "label": "Step 1"},
+          {"id": "step2", "label": "Step 2"},
+          {"id": "step3", "label": "Step 3"},
+          {"id": "step4", "label": "Step 4"}
+        ],
+        "correctPlacements": {"0": 2, "1": 0, "2": 1, "3": 3}
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas & Details",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.3"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.3",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-017",
+      "bankId": "reading-4-ri",
+      "text": "Match each vocabulary term to its definition.",
+      "format": "matching",
+      "questionOptions": {
+        "leftItems": ["Summarize", "Inference", "Evidence"],
+        "rightItems": ["Facts or details that support an idea", "To briefly retell the main points", "A conclusion based on clues in the text"],
+        "correctMatches": {"0": 1, "1": 2, "2": 0}
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft & Structure",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.4"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.4",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-018",
+      "bankId": "reading-4-ri",
+      "text": "What is the purpose of referring to specific details when answering questions about a text?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["To make your answer longer", "To support and prove your answer", "To copy the author's words", "To confuse the reader"],
+        "correctAnswer": "To support and prove your answer"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas & Details",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.1"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-019",
+      "bankId": "reading-4-ri",
+      "text": "Supporting details help explain or prove the main idea.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas & Details",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.2"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-020",
+      "bankId": "reading-4-ri",
+      "text": "What does 'procedure' mean in this sentence: 'The scientist followed a careful procedure to conduct the experiment'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["A series of steps to follow", "A type of equipment", "A scientific discovery", "A laboratory building"],
+        "correctAnswer": "A series of steps to follow"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft & Structure",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.4"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.4",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-021",
+      "bankId": "reading-4-ri",
+      "text": "Which text structure presents a difficulty and how it was solved?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Compare and contrast", "Cause and effect", "Problem and solution", "Description"],
+        "correctAnswer": "Problem and solution"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft & Structure",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.5"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.5",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-022",
+      "bankId": "reading-4-ri",
+      "text": "Order the steps to explain how a caterpillar becomes a butterfly.",
+      "format": "drag_and_drop",
+      "questionOptions": {
+        "draggableItems": ["Adult butterfly emerges", "Egg is laid on a leaf", "Caterpillar forms a chrysalis", "Caterpillar hatches and eats"],
+        "dropZones": [
+          {"id": "step1", "label": "Step 1"},
+          {"id": "step2", "label": "Step 2"},
+          {"id": "step3", "label": "Step 3"},
+          {"id": "step4", "label": "Step 4"}
+        ],
+        "correctPlacements": {"0": 3, "1": 0, "2": 2, "3": 1}
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas & Details",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.3"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.3",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-023",
+      "bankId": "reading-4-ri",
+      "text": "Match each type of detail to its example.",
+      "format": "matching",
+      "questionOptions": {
+        "leftItems": ["Fact", "Statistic", "Example"],
+        "rightItems": ["Dogs are mammals that bark", "75% of Earth is covered by water", "Fruits include apples, oranges, and bananas"],
+        "correctMatches": {"0": 0, "1": 1, "2": 2}
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas & Details",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.1"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-024",
+      "bankId": "reading-4-ri",
+      "text": "A good summary is usually longer than the original text.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": false
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas & Details",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.2"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-025",
+      "bankId": "reading-4-ri",
+      "text": "What does 'adaptation' mean in this sentence: 'The camel's hump is an adaptation that helps it survive in the desert'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["A body part that looks unusual", "A feature that helps an animal survive in its environment", "A type of desert animal", "A way to store food"],
+        "correctAnswer": "A feature that helps an animal survive in its environment"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft & Structure",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.4"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.4",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-026",
+      "bankId": "reading-4-ri",
+      "text": "If a text explains events in the order they happened, what structure is being used?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Compare and contrast", "Chronological order", "Cause and effect", "Description"],
+        "correctAnswer": "Chronological order"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft & Structure",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.5"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.5",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-027",
+      "bankId": "reading-4-ri",
+      "text": "Which of the following would be the best evidence to support the main idea that 'exercise is good for your health'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Many people enjoy playing sports", "Exercise helps strengthen your heart and muscles", "Gyms are open every day", "Running shoes come in many colors"],
+        "correctAnswer": "Exercise helps strengthen your heart and muscles"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas & Details",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.1"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-028",
+      "bankId": "reading-4-ri",
+      "text": "The main idea can sometimes be found in the first or last sentence of a paragraph.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas & Details",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.2"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-029",
+      "bankId": "reading-4-ri",
+      "text": "Match each signal word to the text structure it indicates.",
+      "format": "matching",
+      "questionOptions": {
+        "leftItems": ["As a result", "In contrast", "After that"],
+        "rightItems": ["Sequence", "Compare and contrast", "Cause and effect"],
+        "correctMatches": {"0": 2, "1": 1, "2": 0}
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft & Structure",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.5"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.5",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-030",
+      "bankId": "reading-4-ri",
+      "text": "What does 'nutrient' mean in this sentence: 'Plants need nutrients from the soil to grow'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["A type of plant", "A substance that provides nourishment", "A gardening tool", "A kind of soil"],
+        "correctAnswer": "A substance that provides nourishment"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft & Structure",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.4"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.4",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-031",
+      "bankId": "reading-4-ri",
+      "text": "Order the steps to explain how to make a peanut butter and jelly sandwich.",
+      "format": "drag_and_drop",
+      "questionOptions": {
+        "draggableItems": ["Put the two slices together", "Get two slices of bread", "Spread jelly on one slice", "Spread peanut butter on one slice"],
+        "dropZones": [
+          {"id": "step1", "label": "Step 1"},
+          {"id": "step2", "label": "Step 2"},
+          {"id": "step3", "label": "Step 3"},
+          {"id": "step4", "label": "Step 4"}
+        ],
+        "correctPlacements": {"0": 3, "1": 0, "2": 2, "3": 1}
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas & Details",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.3"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.3",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-032",
+      "bankId": "reading-4-ri",
+      "text": "When an author describes what something looks like, feels like, or sounds like, they are using which text structure?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Cause and effect", "Compare and contrast", "Description", "Sequence"],
+        "correctAnswer": "Description"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft & Structure",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.5"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.5",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-033",
+      "bankId": "reading-4-ri",
+      "text": "Key details are the most important pieces of information that support the main idea.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas & Details",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.2"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-034",
+      "bankId": "reading-4-ri",
+      "text": "Which is an example of using details to explain an answer about a text?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["I think the answer is yes", "The text says that dolphins are mammals because they breathe air", "I read the whole article", "The answer is on page 5"],
+        "correctAnswer": "The text says that dolphins are mammals because they breathe air"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas & Details",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.1"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-035",
+      "bankId": "reading-4-ri",
+      "text": "Match each academic vocabulary word to its meaning.",
+      "format": "matching",
+      "questionOptions": {
+        "leftItems": ["Analyze", "Compare", "Contrast"],
+        "rightItems": ["To show how things are different", "To examine something carefully", "To show how things are alike"],
+        "correctMatches": {"0": 1, "1": 2, "2": 0}
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft & Structure",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.4"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.4",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-036",
+      "bankId": "reading-4-ri",
+      "text": "What does 'extinct' mean in this sentence: 'Dinosaurs have been extinct for millions of years'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Very large", "No longer existing", "Living in groups", "Found underground"],
+        "correctAnswer": "No longer existing"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft & Structure",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.4"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.4",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-037",
+      "bankId": "reading-4-ri",
+      "text": "A text that explains how to do something uses which structure?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Problem and solution", "Cause and effect", "Procedural/Sequential", "Compare and contrast"],
+        "correctAnswer": "Procedural/Sequential"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft & Structure",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.5"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.5",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-038",
+      "bankId": "reading-4-ri",
+      "text": "The main idea is a small detail from the text.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": false
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas & Details",
+      "difficulty": 1,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.2"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-039",
+      "bankId": "reading-4-ri",
+      "text": "Order how a historical event might be explained in a text.",
+      "format": "drag_and_drop",
+      "questionOptions": {
+        "draggableItems": ["Describe the effects of the event", "Introduce the historical event", "Explain why the event happened", "Tell what happened during the event"],
+        "dropZones": [
+          {"id": "step1", "label": "Step 1"},
+          {"id": "step2", "label": "Step 2"},
+          {"id": "step3", "label": "Step 3"},
+          {"id": "step4", "label": "Step 4"}
+        ],
+        "correctPlacements": {"0": 3, "1": 0, "2": 1, "3": 2}
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas & Details",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.3"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.3",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-040",
+      "bankId": "reading-4-ri",
+      "text": "What does 'ecosystem' mean in this sentence: 'A coral reef is a complex ecosystem with many different species'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["A type of coral", "A community of living things and their environment", "A deep part of the ocean", "A group of fish"],
+        "correctAnswer": "A community of living things and their environment"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft & Structure",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.4"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.4",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-041",
+      "bankId": "reading-4-ri",
+      "text": "Match each reading strategy to when you would use it.",
+      "format": "matching",
+      "questionOptions": {
+        "leftItems": ["Summarize", "Use context clues", "Identify text structure"],
+        "rightItems": ["When you encounter an unknown word", "When you want to retell the main points", "When you want to understand how ideas are organized"],
+        "correctMatches": {"0": 1, "1": 0, "2": 2}
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas & Details",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.2"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-042",
+      "bankId": "reading-4-ri",
+      "text": "Which word would signal that the author is showing cause and effect?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["However", "Therefore", "Similarly", "First"],
+        "correctAnswer": "Therefore"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft & Structure",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.5"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.5",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-043",
+      "bankId": "reading-4-ri",
+      "text": "When answering a question about text, you should only use your own opinions.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": false
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas & Details",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.1"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-044",
+      "bankId": "reading-4-ri",
+      "text": "What does 'conclusion' mean in this sentence: 'Based on the evidence, the scientist reached a conclusion about the experiment'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["A question to be answered", "A final decision based on reasoning", "The beginning of an experiment", "A piece of equipment"],
+        "correctAnswer": "A final decision based on reasoning"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft & Structure",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.4"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.4",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-045",
+      "bankId": "reading-4-ri",
+      "text": "Which is the best summary of a passage about how bees make honey?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Bees are insects with wings", "Bees collect nectar from flowers and turn it into honey through a process in the hive", "Honey tastes sweet and is yellow", "Bees live in hives with a queen"],
+        "correctAnswer": "Bees collect nectar from flowers and turn it into honey through a process in the hive"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas & Details",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.2"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-046",
+      "bankId": "reading-4-ri",
+      "text": "A diagram can help readers understand information in a text.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft & Structure",
+      "difficulty": 1,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.5"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.5",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-047",
+      "bankId": "reading-4-ri",
+      "text": "What does 'civilization' mean in this sentence: 'The ancient Egyptian civilization built the pyramids'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["A type of building", "A society with its own culture and way of life", "A desert region", "A group of workers"],
+        "correctAnswer": "A society with its own culture and way of life"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft & Structure",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.4"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.4",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-048",
+      "bankId": "reading-4-ri",
+      "text": "Match each part of an informational text to its function.",
+      "format": "matching",
+      "questionOptions": {
+        "leftItems": ["Introduction", "Body paragraphs", "Conclusion"],
+        "rightItems": ["Provide details and explanations about the topic", "Summarize the main points and give final thoughts", "Present the topic and main idea"],
+        "correctMatches": {"0": 2, "1": 0, "2": 1}
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft & Structure",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.5"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.5",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-049",
+      "bankId": "reading-4-ri",
+      "text": "Which text structure would an author use to explain how tornadoes form?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Compare and contrast", "Cause and effect", "Problem and solution", "Sequence/Process"],
+        "correctAnswer": "Sequence/Process"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft & Structure",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.5"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.5",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-4-ri-050",
+      "bankId": "reading-4-ri",
+      "text": "Examples from the text help prove or explain the author's points.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas & Details",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.4.1"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.4.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    }
+  ]
+}

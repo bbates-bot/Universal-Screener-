@@ -1,0 +1,1091 @@
+{
+  "metadata": {
+    "subject": "Reading",
+    "gradeLevel": "8",
+    "domain": "RI",
+    "domainName": "Reading Informational Text",
+    "lastUpdated": "2026-01-22",
+    "totalQuestions": 50
+  },
+  "questions": [
+    {
+      "id": "reading-8-ri-001",
+      "bankId": "reading-8-ri",
+      "text": "What is rhetoric?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["A type of poetry", "The art of persuasive speaking or writing", "A literary genre", "A grammatical structure"],
+        "correctAnswer": "The art of persuasive speaking or writing"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft & Structure",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.6"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.6",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-002",
+      "bankId": "reading-8-ri",
+      "text": "Ethos is an appeal to the audience's emotions.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": false
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft & Structure",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.6"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.6",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0,
+      "explanation": "Ethos appeals to credibility/ethics; Pathos appeals to emotions."
+    },
+    {
+      "id": "reading-8-ri-003",
+      "bankId": "reading-8-ri",
+      "text": "Which rhetorical appeal uses logic and facts?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Ethos", "Pathos", "Logos", "Kairos"],
+        "correctAnswer": "Logos"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft & Structure",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.6"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.6",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-004",
+      "bankId": "reading-8-ri",
+      "text": "Match each rhetorical appeal to its description.",
+      "format": "matching",
+      "questionOptions": {
+        "leftItems": ["Ethos", "Pathos", "Logos"],
+        "rightItems": ["Appeal to logic and reason", "Appeal to credibility and trust", "Appeal to emotions"],
+        "correctMatches": {"0": 1, "1": 2, "2": 0}
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft & Structure",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.6"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.6",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-005",
+      "bankId": "reading-8-ri",
+      "text": "What is a counterargument?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["A restatement of the main claim", "An argument that opposes the main claim", "Supporting evidence", "The conclusion"],
+        "correctAnswer": "An argument that opposes the main claim"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Integration of Knowledge",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.8"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.8",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-006",
+      "bankId": "reading-8-ri",
+      "text": "A strong argument acknowledges and refutes counterarguments.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Integration of Knowledge",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.8"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.8",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-007",
+      "bankId": "reading-8-ri",
+      "text": "Order the steps to analyze an author's argument.",
+      "format": "drag_and_drop",
+      "questionOptions": {
+        "draggableItems": ["Evaluate the effectiveness of evidence", "Identify the author's claim", "Examine the evidence provided"],
+        "dropZones": [
+          {"id": "step1", "label": "Step 1"},
+          {"id": "step2", "label": "Step 2"},
+          {"id": "step3", "label": "Step 3"}
+        ],
+        "correctPlacements": {"0": 2, "1": 0, "2": 1}
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Integration of Knowledge",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.8"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.8",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-008",
+      "bankId": "reading-8-ri",
+      "text": "Which is a logical fallacy?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Using statistics to support a claim", "Attacking the person instead of the argument", "Citing expert opinions", "Providing multiple examples"],
+        "correctAnswer": "Attacking the person instead of the argument"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Integration of Knowledge",
+      "difficulty": 4,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.8"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.8",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0,
+      "explanation": "This is called 'ad hominem' - a logical fallacy that attacks the person rather than addressing the argument."
+    },
+    {
+      "id": "reading-8-ri-009",
+      "bankId": "reading-8-ri",
+      "text": "Relevant evidence directly supports the author's claim.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.8"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.8",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-010",
+      "bankId": "reading-8-ri",
+      "text": "Match each term to its meaning in argumentation.",
+      "format": "matching",
+      "questionOptions": {
+        "leftItems": ["Claim", "Rebuttal", "Warrant"],
+        "rightItems": ["The connection between evidence and claim", "A response to a counterargument", "The main argument being made"],
+        "correctMatches": {"0": 2, "1": 1, "2": 0}
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft & Structure",
+      "difficulty": 4,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.8"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.8",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-011",
+      "bankId": "reading-8-ri",
+      "text": "What makes evidence sufficient?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["It comes from one source", "There is enough to adequately support the claim", "It is emotional", "It is brief"],
+        "correctAnswer": "There is enough to adequately support the claim"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Integration of Knowledge",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.8"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.8",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-012",
+      "bankId": "reading-8-ri",
+      "text": "Conflicting viewpoints in different texts can both be valid depending on evidence.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Integration of Knowledge",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.9"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.9",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-013",
+      "bankId": "reading-8-ri",
+      "text": "What is the central idea of an informational text?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["The first sentence of the passage", "The main point the author wants to convey", "A supporting detail", "The title of the text"],
+        "correctAnswer": "The main point the author wants to convey"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas & Details",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.2"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-014",
+      "bankId": "reading-8-ri",
+      "text": "An inference is a conclusion drawn from evidence and reasoning.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas & Details",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.1"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-015",
+      "bankId": "reading-8-ri",
+      "text": "Which text structure presents events in time order?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Compare and contrast", "Cause and effect", "Chronological", "Problem and solution"],
+        "correctAnswer": "Chronological"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft & Structure",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.5"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.5",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-016",
+      "bankId": "reading-8-ri",
+      "text": "Match each text structure to its signal words.",
+      "format": "matching",
+      "questionOptions": {
+        "leftItems": ["Cause and Effect", "Compare and Contrast", "Chronological"],
+        "rightItems": ["First, next, then, finally", "Similarly, however, on the other hand", "Because, as a result, therefore"],
+        "correctMatches": {"0": 2, "1": 1, "2": 0}
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft & Structure",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.5"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.5",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-017",
+      "bankId": "reading-8-ri",
+      "text": "What does it mean to cite textual evidence?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["To guess what the text means", "To use specific quotes or details from the text to support an answer", "To summarize the entire text", "To copy the text word for word"],
+        "correctAnswer": "To use specific quotes or details from the text to support an answer"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas & Details",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.1"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-018",
+      "bankId": "reading-8-ri",
+      "text": "Order the steps for summarizing an informational text.",
+      "format": "drag_and_drop",
+      "questionOptions": {
+        "draggableItems": ["Write a brief summary using key ideas", "Read the entire text carefully", "Identify the central idea and key details", "Eliminate minor details"],
+        "dropZones": [
+          {"id": "step1", "label": "Step 1"},
+          {"id": "step2", "label": "Step 2"},
+          {"id": "step3", "label": "Step 3"},
+          {"id": "step4", "label": "Step 4"}
+        ],
+        "correctPlacements": {"0": 3, "1": 0, "2": 1, "3": 2}
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas & Details",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.2"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-019",
+      "bankId": "reading-8-ri",
+      "text": "Author's purpose refers to why an author writes a text.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft & Structure",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.6"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.6",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-020",
+      "bankId": "reading-8-ri",
+      "text": "Which word best describes a text written to teach readers about a topic?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Persuasive", "Entertaining", "Informative", "Narrative"],
+        "correctAnswer": "Informative"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft & Structure",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.6"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.6",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-021",
+      "bankId": "reading-8-ri",
+      "text": "Match each author's purpose to its description.",
+      "format": "matching",
+      "questionOptions": {
+        "leftItems": ["To persuade", "To inform", "To entertain"],
+        "rightItems": ["To provide facts and information objectively", "To amuse or engage the reader's interest", "To convince the reader to think or act a certain way"],
+        "correctMatches": {"0": 2, "1": 0, "2": 1}
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft & Structure",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.6"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.6",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-022",
+      "bankId": "reading-8-ri",
+      "text": "What is the difference between a fact and an opinion?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Facts are longer than opinions", "Facts can be proven; opinions express beliefs or feelings", "Opinions are always true; facts are sometimes false", "There is no difference"],
+        "correctAnswer": "Facts can be proven; opinions express beliefs or feelings"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.8"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.8",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-023",
+      "bankId": "reading-8-ri",
+      "text": "Primary sources are firsthand accounts of events.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.9"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.9",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-024",
+      "bankId": "reading-8-ri",
+      "text": "Which is an example of a primary source?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["A textbook about World War II", "A diary written during World War II", "A documentary film about the war", "An encyclopedia article"],
+        "correctAnswer": "A diary written during World War II"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Integration of Knowledge",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.9"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.9",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-025",
+      "bankId": "reading-8-ri",
+      "text": "Match each source type to its example.",
+      "format": "matching",
+      "questionOptions": {
+        "leftItems": ["Primary source", "Secondary source", "Tertiary source"],
+        "rightItems": ["Encyclopedia or textbook", "Historical speech or letter", "Biography or analysis"],
+        "correctMatches": {"0": 1, "1": 2, "2": 0}
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Integration of Knowledge",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.9"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.9",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-026",
+      "bankId": "reading-8-ri",
+      "text": "What is author's point of view?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["The physical location where the author wrote", "The author's perspective or position on a topic", "The genre of the text", "The intended audience"],
+        "correctAnswer": "The author's perspective or position on a topic"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft & Structure",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.6"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.6",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-027",
+      "bankId": "reading-8-ri",
+      "text": "Order the elements of analyzing an author's point of view.",
+      "format": "drag_and_drop",
+      "questionOptions": {
+        "draggableItems": ["Consider how the point of view affects the message", "Identify the author's position on the topic", "Look for words that reveal bias or perspective", "Compare with other viewpoints on the same topic"],
+        "dropZones": [
+          {"id": "step1", "label": "Step 1"},
+          {"id": "step2", "label": "Step 2"},
+          {"id": "step3", "label": "Step 3"},
+          {"id": "step4", "label": "Step 4"}
+        ],
+        "correctPlacements": {"0": 2, "1": 0, "2": 1, "3": 3}
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft & Structure",
+      "difficulty": 4,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.6"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.6",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-028",
+      "bankId": "reading-8-ri",
+      "text": "Connotation refers to the literal dictionary definition of a word.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": false
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft & Structure",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.4"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.4",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0,
+      "explanation": "Denotation is the literal definition; connotation refers to the emotional associations of a word."
+    },
+    {
+      "id": "reading-8-ri-029",
+      "bankId": "reading-8-ri",
+      "text": "Which word has a more positive connotation?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Cheap", "Affordable", "Stingy", "Miserly"],
+        "correctAnswer": "Affordable"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft & Structure",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.4"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.4",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-030",
+      "bankId": "reading-8-ri",
+      "text": "Match each vocabulary term to its definition.",
+      "format": "matching",
+      "questionOptions": {
+        "leftItems": ["Denotation", "Connotation", "Context clues"],
+        "rightItems": ["Words or phrases that help determine word meaning", "The literal dictionary definition", "The emotional or cultural associations"],
+        "correctMatches": {"0": 1, "1": 2, "2": 0}
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft & Structure",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.4"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.4",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-031",
+      "bankId": "reading-8-ri",
+      "text": "What is a thesis statement?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["A question the author asks", "The main argument or claim of an essay", "A summary of the conclusion", "A list of topics"],
+        "correctAnswer": "The main argument or claim of an essay"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas & Details",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.2"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-032",
+      "bankId": "reading-8-ri",
+      "text": "Anecdotal evidence is as reliable as statistical evidence in an argument.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": false
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Integration of Knowledge",
+      "difficulty": 4,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.8"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.8",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0,
+      "explanation": "Anecdotal evidence is personal stories and less reliable than statistical data from research."
+    },
+    {
+      "id": "reading-8-ri-033",
+      "bankId": "reading-8-ri",
+      "text": "Which logical fallacy assumes that because two events occur together, one caused the other?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Ad hominem", "False cause (post hoc)", "Straw man", "Appeal to authority"],
+        "correctAnswer": "False cause (post hoc)"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Integration of Knowledge",
+      "difficulty": 4,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.8"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.8",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-034",
+      "bankId": "reading-8-ri",
+      "text": "Match each logical fallacy to its description.",
+      "format": "matching",
+      "questionOptions": {
+        "leftItems": ["Straw man", "Bandwagon", "False dilemma"],
+        "rightItems": ["Presenting only two options when more exist", "Misrepresenting someone's argument to make it easier to attack", "Arguing something is true because many people believe it"],
+        "correctMatches": {"0": 1, "1": 2, "2": 0}
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Integration of Knowledge",
+      "difficulty": 4,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.8"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.8",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-035",
+      "bankId": "reading-8-ri",
+      "text": "What is bias in informational text?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Presenting balanced information", "A preference that influences the author's perspective", "Using factual evidence", "Writing in third person"],
+        "correctAnswer": "A preference that influences the author's perspective"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft & Structure",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.6"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.6",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-036",
+      "bankId": "reading-8-ri",
+      "text": "Order the steps for evaluating source credibility.",
+      "format": "drag_and_drop",
+      "questionOptions": {
+        "draggableItems": ["Check for bias or conflicts of interest", "Identify the author and their qualifications", "Verify information with other sources", "Examine the date of publication"],
+        "dropZones": [
+          {"id": "step1", "label": "Step 1"},
+          {"id": "step2", "label": "Step 2"},
+          {"id": "step3", "label": "Step 3"},
+          {"id": "step4", "label": "Step 4"}
+        ],
+        "correctPlacements": {"0": 1, "1": 0, "2": 3, "3": 2}
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Integration of Knowledge",
+      "difficulty": 4,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.8"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.8",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-037",
+      "bankId": "reading-8-ri",
+      "text": "A text that only presents one side of an issue is likely biased.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft & Structure",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.6"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.6",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-038",
+      "bankId": "reading-8-ri",
+      "text": "Which strategy helps determine the meaning of an unfamiliar word?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Skip the word entirely", "Use context clues from surrounding text", "Assume it means the same as a similar-sounding word", "Ignore it and continue reading"],
+        "correctAnswer": "Use context clues from surrounding text"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft & Structure",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.4"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.4",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-039",
+      "bankId": "reading-8-ri",
+      "text": "When comparing two texts on the same topic, readers should identify areas of agreement and disagreement.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.9"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.9",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-040",
+      "bankId": "reading-8-ri",
+      "text": "What is the purpose of a rebuttal in an argument?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["To introduce the main claim", "To respond to and counter opposing arguments", "To provide background information", "To conclude the essay"],
+        "correctAnswer": "To respond to and counter opposing arguments"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Integration of Knowledge",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.8"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.8",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-041",
+      "bankId": "reading-8-ri",
+      "text": "Match each type of evidence to its example.",
+      "format": "matching",
+      "questionOptions": {
+        "leftItems": ["Statistical evidence", "Expert testimony", "Anecdotal evidence"],
+        "rightItems": ["A personal story or example", "Data from research studies", "A quote from a specialist in the field"],
+        "correctMatches": {"0": 1, "1": 2, "2": 0}
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Integration of Knowledge",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.8"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.8",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-042",
+      "bankId": "reading-8-ri",
+      "text": "Which element is essential for a well-structured argument?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Personal attacks", "Unsupported opinions", "Logical organization with clear evidence", "Emotional manipulation only"],
+        "correctAnswer": "Logical organization with clear evidence"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Integration of Knowledge",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.8"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.8",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-043",
+      "bankId": "reading-8-ri",
+      "text": "Technical vocabulary is specific language used within a particular field or discipline.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft & Structure",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.4"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.4",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-044",
+      "bankId": "reading-8-ri",
+      "text": "What does it mean to analyze how a text makes connections?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["To memorize the text", "To examine how ideas, events, or individuals are linked", "To count the number of paragraphs", "To identify spelling errors"],
+        "correctAnswer": "To examine how ideas, events, or individuals are linked"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas & Details",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.3"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.3",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-045",
+      "bankId": "reading-8-ri",
+      "text": "Order the process for comparing two argumentative texts.",
+      "format": "drag_and_drop",
+      "questionOptions": {
+        "draggableItems": ["Determine which argument is more convincing and why", "Read both texts carefully", "Identify the claim and evidence in each text", "Note similarities and differences in their approaches"],
+        "dropZones": [
+          {"id": "step1", "label": "Step 1"},
+          {"id": "step2", "label": "Step 2"},
+          {"id": "step3", "label": "Step 3"},
+          {"id": "step4", "label": "Step 4"}
+        ],
+        "correctPlacements": {"0": 3, "1": 0, "2": 1, "3": 2}
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Integration of Knowledge",
+      "difficulty": 4,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.9"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.9",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-046",
+      "bankId": "reading-8-ri",
+      "text": "Which sentence structure creates emphasis through repetition?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["A simple sentence", "Anaphora", "A compound sentence", "A question"],
+        "correctAnswer": "Anaphora"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft & Structure",
+      "difficulty": 4,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.5"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.5",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0,
+      "explanation": "Anaphora is the repetition of words or phrases at the beginning of successive clauses for emphasis."
+    },
+    {
+      "id": "reading-8-ri-047",
+      "bankId": "reading-8-ri",
+      "text": "Match each rhetorical device to its example.",
+      "format": "matching",
+      "questionOptions": {
+        "leftItems": ["Rhetorical question", "Parallelism", "Antithesis"],
+        "rightItems": ["Contrasting ideas in balanced phrases", "A question asked for effect, not answer", "Repeated grammatical structures"],
+        "correctMatches": {"0": 1, "1": 2, "2": 0}
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft & Structure",
+      "difficulty": 4,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.5"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.5",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-048",
+      "bankId": "reading-8-ri",
+      "text": "A claim must be supported by reasoning and evidence to be convincing.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.8"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.8",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-049",
+      "bankId": "reading-8-ri",
+      "text": "What is the main purpose of signal words in informational text?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["To make the text longer", "To help readers understand text organization and relationships between ideas", "To confuse readers", "To replace proper nouns"],
+        "correctAnswer": "To help readers understand text organization and relationships between ideas"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft & Structure",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.5"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.5",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "reading-8-ri-050",
+      "bankId": "reading-8-ri",
+      "text": "When analyzing conflicting information from two sources, a reader should evaluate the credibility of each source.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Integration of Knowledge",
+      "difficulty": 3,
+      "ccssStandards": ["CCSS.ELA-LITERACY.RI.8.9"],
+      "primaryStandard": "CCSS.ELA-LITERACY.RI.8.9",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    }
+  ]
+}
