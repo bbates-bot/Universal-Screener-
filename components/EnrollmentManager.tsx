@@ -130,8 +130,9 @@ const EnrollmentManager: React.FC<EnrollmentManagerProps> = ({ schools, students
         assignedAssessments 
       });
     }
-    
-    setNewStudent({ username: '', firstName: '', lastName: '', grade: 'K', schoolId: '', language: 'English' });
+
+    // Reset form with appropriate default grade for current curriculum
+    setNewStudent({ username: '', firstName: '', lastName: '', grade: isEdexcel ? '6' : 'K', schoolId: '', language: 'English' });
     setAssignedAssessments([]);
     setIsEnrolling(false);
   };
@@ -167,10 +168,11 @@ const EnrollmentManager: React.FC<EnrollmentManagerProps> = ({ schools, students
           <p className="text-slate-500 text-sm">Manage learners and assessment assignments.</p>
         </div>
         {canEnroll && (
-          <button 
+          <button
             onClick={() => {
               setEditingStudent(null);
-              setNewStudent({ username: '', firstName: '', lastName: '', grade: 'K', schoolId: '', language: 'English' });
+              // Use appropriate default grade for current curriculum
+              setNewStudent({ username: '', firstName: '', lastName: '', grade: isEdexcel ? '6' : 'K', schoolId: '', language: 'English' });
               setAssignedAssessments([]);
               setIsEnrolling(true);
             }}

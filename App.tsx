@@ -136,14 +136,12 @@ const AppContent: React.FC = () => {
     });
   }, [results, filterSubject, filterGrade, filterSchool]);
 
-  // K-12 General Screener results for Screener Dashboard
-  const generalScreenerResults = useMemo(() => {
-    return results.filter(r => GENERAL_SUBJECTS_LIST.includes(r.subject));
-  }, [results]);
-
-  // Edexcel IGCSE results for Screener Dashboard
-  const edexcelScreenerResults = useMemo(() => {
-    return results.filter(r => EDEXCEL_SUBJECTS_LIST.includes(r.subject));
+  // All screener results for Screener Dashboard (includes both CCSS/General AND Edexcel)
+  const screenerResults = useMemo(() => {
+    return results.filter(r =>
+      GENERAL_SUBJECTS_LIST.includes(r.subject) ||
+      EDEXCEL_SUBJECTS_LIST.includes(r.subject)
+    );
   }, [results]);
 
   const handleCompleteScreener = async (newResult: StudentResult) => {
@@ -157,29 +155,32 @@ const AppContent: React.FC = () => {
         console.error('Student not found for ID:', selectedStudentId);
         // Still save the result with the data we have from newResult
         const { id, ...resultData } = newResult;
-        await addResult({ ...resultData, studentId: selectedStudentId || undefined });
-        console.log('Result saved without student match');
+        const savedId = await addResult({ ...resultData, studentId: selectedStudentId || undefined });
+        console.log('Result saved without student match, ID:', savedId);
+        alert('Results saved (note: student record not found)');
       } else {
         // Merge student data, preserving the new result's calculated fields
-        // Important: explicitly set username from student record (not auto-generated from ScreenerTest)
+        // Important: explicitly set username and grade from student record
         const finalResult: StudentResult = {
           ...student,
           ...newResult,
           studentId: student.id, // Store reference to student
           username: student.username, // Preserve actual student username for matching
+          grade: student.grade, // Preserve student's enrolled grade (not test calibration grade)
           id: newResult.id,
           testDate: new Date().toISOString().split('T')[0]
         };
         const { id, ...resultData } = finalResult;
-        console.log('Final result to save:', { studentId: resultData.studentId, username: resultData.username, subject: resultData.subject });
-        await addResult(resultData);
-        console.log('Result saved successfully');
+        console.log('Final result to save:', { studentId: resultData.studentId, username: resultData.username, grade: resultData.grade, subject: resultData.subject });
+        const savedId = await addResult(resultData);
+        console.log('Result saved successfully with ID:', savedId);
+        alert(`Results saved successfully for ${student.firstName}!`);
       }
       setStudentTestMode(false);
       setSelectedSubject(null);
     } catch (error) {
       console.error('Error saving test results:', error);
-      alert('There was an error saving your results. Please try again.');
+      alert('There was an error saving your results: ' + (error as Error).message);
     }
   };
 
@@ -327,7 +328,7 @@ const AppContent: React.FC = () => {
             ) : adminSubView === 'screener' && canSeeScreener ? (
               <ScreenerDashboard
                 students={students}
-                results={generalScreenerResults}
+                results={screenerResults}
                 schools={schools}
               />
             ) : adminSubView === 'schools' && canSeeSchools ? (

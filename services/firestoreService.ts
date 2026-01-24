@@ -42,12 +42,19 @@ export const subscribeToStudents = (callback: (students: Student[]) => void): Un
 
 // Subscribe to results
 export const subscribeToResults = (callback: (results: StudentResult[]) => void): Unsubscribe => {
+  console.log('[Firestore] Setting up results subscription...');
   return onSnapshot(resultsCol, (snapshot) => {
     const results = snapshot.docs.map(doc => ({
       id: doc.id,
       ...doc.data()
     })) as StudentResult[];
+    console.log('[Firestore] Results received from Firebase:', results.length, 'results');
+    if (results.length > 0) {
+      results.forEach(r => console.log(`  - ${r.firstName} ${r.lastName}: ${r.subject}`));
+    }
     callback(results);
+  }, (error) => {
+    console.error('[Firestore] Error in results subscription:', error);
   });
 };
 
@@ -93,8 +100,21 @@ export const deleteStudent = async (id: string): Promise<void> => {
 
 // Add result
 export const addResult = async (result: Omit<StudentResult, 'id'>): Promise<string> => {
-  const docRef = await addDoc(resultsCol, result);
-  return docRef.id;
+  console.log('[Firestore] Saving result to Firebase:', {
+    firstName: result.firstName,
+    lastName: result.lastName,
+    subject: result.subject,
+    studentId: (result as any).studentId,
+    username: result.username
+  });
+  try {
+    const docRef = await addDoc(resultsCol, result);
+    console.log('[Firestore] Result saved successfully! Document ID:', docRef.id);
+    return docRef.id;
+  } catch (error) {
+    console.error('[Firestore] FAILED to save result:', error);
+    throw error;
+  }
 };
 
 // Add user

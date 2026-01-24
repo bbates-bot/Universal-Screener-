@@ -184,20 +184,26 @@ const normalizeQuestion = (q: any): ExtendedQuestion | null => {
  * Load questions from a static JSON file
  */
 const loadQuestionsFromFile = async (path: string): Promise<ExtendedQuestion[]> => {
+  console.log(`[QuestionBank] Loading questions from: ${path}`);
   try {
     const response = await fetch(path);
     if (!response.ok) {
-      console.warn(`Failed to load questions from ${path}: ${response.status}`);
+      console.warn(`[QuestionBank] Failed to load from ${path}: HTTP ${response.status}`);
       return [];
     }
     const data = await response.json();
     const questions = data.questions || [];
+    console.log(`[QuestionBank] Loaded ${questions.length} raw questions from ${path}`);
+
     // Normalize all questions to handle different formats, filter out invalid ones
-    return questions
+    const normalized = questions
       .map(normalizeQuestion)
       .filter((q: ExtendedQuestion | null): q is ExtendedQuestion => q !== null);
+
+    console.log(`[QuestionBank] After normalization: ${normalized.length} valid questions`);
+    return normalized;
   } catch (error) {
-    console.warn(`Error loading questions from ${path}:`, error);
+    console.warn(`[QuestionBank] Error loading from ${path}:`, error);
     return [];
   }
 };
@@ -209,9 +215,11 @@ export const loadAllQuestionsForGrade = async (
   subject: QuestionSubject | string,
   gradeOrStage: string
 ): Promise<ExtendedQuestion[]> => {
+  console.log(`[QuestionBank] loadAllQuestionsForGrade called with subject="${subject}", gradeOrStage="${gradeOrStage}"`);
   const cacheKey = `${subject}-${gradeOrStage}`;
 
   if (questionCache.has(cacheKey)) {
+    console.log(`[QuestionBank] Returning ${questionCache.get(cacheKey)!.length} cached questions for ${cacheKey}`);
     return questionCache.get(cacheKey)!;
   }
 
@@ -286,6 +294,7 @@ export const loadAllQuestionsForGrade = async (
     }
   }
 
+  console.log(`[QuestionBank] Total questions loaded for ${cacheKey}: ${questions.length}`);
   questionCache.set(cacheKey, questions);
   return questions;
 };

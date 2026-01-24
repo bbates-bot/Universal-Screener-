@@ -34,6 +34,38 @@ const ScreenerDashboard: React.FC<ScreenerDashboardProps> = ({ students, results
   const [filterSubject, setFilterSubject] = useState('All');
   const [searchQuery, setSearchQuery] = useState('');
 
+  // Debug: Log all results and students on load - helps diagnose matching issues
+  React.useEffect(() => {
+    console.log('========================================');
+    console.log('DASHBOARD DEBUG - Results:', results.length, '| Students:', students.length);
+    console.log('========================================');
+
+    if (results.length === 0) {
+      console.log('⚠️ NO RESULTS IN FIREBASE - Results array is empty!');
+    } else {
+      console.log('📊 RESULTS IN FIREBASE:');
+      results.forEach((r, i) => {
+        console.log(`  [${i}] ${r.firstName} ${r.lastName} | studentId: ${(r as any).studentId} | username: ${r.username} | subject: ${r.subject} | level: ${r.overallLevel}`);
+      });
+    }
+
+    console.log('👥 STUDENTS:');
+    students.forEach((s, i) => {
+      console.log(`  [${i}] ${s.firstName} ${s.lastName} | id: ${s.id} | username: ${s.username} | grade: ${s.grade}`);
+    });
+
+    // Check for Moria specifically
+    const moriaStudent = students.find(s => s.firstName?.toLowerCase() === 'moria');
+    const moriaResults = results.filter(r => r.firstName?.toLowerCase() === 'moria' || (r as any).studentId === moriaStudent?.id);
+    console.log('🔍 MORIA CHECK:');
+    console.log('  Student record:', moriaStudent ? `id=${moriaStudent.id}, username=${moriaStudent.username}` : 'NOT FOUND');
+    console.log('  Results found:', moriaResults.length);
+    if (moriaResults.length > 0) {
+      moriaResults.forEach(r => console.log('    Result:', r.subject, '| studentId:', (r as any).studentId));
+    }
+    console.log('========================================');
+  }, [results, students]);
+
   // Curriculum-aware grade utilities
   const {
     currentSystem,
@@ -54,16 +86,35 @@ const ScreenerDashboard: React.FC<ScreenerDashboardProps> = ({ students, results
     const student = students.find(s => s.id === studentId);
     if (!student) return ScreenerLevel.NOT_STARTED;
 
-    // Match results by studentId first (new), fallback to username (legacy)
-    let studentResults = results.filter(r =>
-      (r as any).studentId === studentId || r.username === student.username
-    );
+    // Match results to student - try multiple strategies
+    let studentResults = results.filter(r => {
+      const result = r as any;
 
-    // Debug logging
-    if (studentResults.length === 0 && results.length > 0) {
-      console.log(`No results found for student ${student.firstName} ${student.lastName} (id: ${studentId}, username: ${student.username})`);
-      console.log('Available results:', results.map(r => ({ studentId: (r as any).studentId, username: r.username, subject: r.subject })));
-    }
+      // 1. Match by studentId (most reliable for new records)
+      if (result.studentId && result.studentId === studentId) {
+        return true;
+      }
+
+      // 2. Match by exact username
+      if (r.username && student.username && r.username === student.username) {
+        return true;
+      }
+
+      // 3. Match by username case-insensitive
+      if (r.username && student.username &&
+          r.username.toLowerCase() === student.username.toLowerCase()) {
+        return true;
+      }
+
+      // 4. Match by first + last name (case-insensitive)
+      if (r.firstName && r.lastName && student.firstName && student.lastName &&
+          r.firstName.toLowerCase() === student.firstName.toLowerCase() &&
+          r.lastName.toLowerCase() === student.lastName.toLowerCase()) {
+        return true;
+      }
+
+      return false;
+    });
 
     // Filter by subject if specified
     if (filterSubject !== 'All') {
@@ -101,9 +152,37 @@ const ScreenerDashboard: React.FC<ScreenerDashboardProps> = ({ students, results
   // Match results by studentId first (new), fallback to username (legacy)
   const selectedStudentResults = useMemo(() => {
     if (!selectedStudent) return [];
-    let studentResults = results.filter(r =>
-      (r as any).studentId === selectedStudentId || r.username === selectedStudent.username
-    );
+
+    // Match results to selected student - try multiple strategies
+    let studentResults = results.filter(r => {
+      const result = r as any;
+
+      // 1. Match by studentId (most reliable for new records)
+      if (result.studentId && result.studentId === selectedStudentId) {
+        return true;
+      }
+
+      // 2. Match by exact username
+      if (r.username && selectedStudent.username && r.username === selectedStudent.username) {
+        return true;
+      }
+
+      // 3. Match by username case-insensitive
+      if (r.username && selectedStudent.username &&
+          r.username.toLowerCase() === selectedStudent.username.toLowerCase()) {
+        return true;
+      }
+
+      // 4. Match by first + last name (case-insensitive)
+      if (r.firstName && r.lastName && selectedStudent.firstName && selectedStudent.lastName &&
+          r.firstName.toLowerCase() === selectedStudent.firstName.toLowerCase() &&
+          r.lastName.toLowerCase() === selectedStudent.lastName.toLowerCase()) {
+        return true;
+      }
+
+      return false;
+    });
+
     // Filter by subject if specified
     if (filterSubject !== 'All') {
       studentResults = studentResults.filter(r => r.subject === filterSubject);

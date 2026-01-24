@@ -249,14 +249,17 @@ const ScreenerTest: React.FC<ScreenerTestProps> = ({
         // Adaptive mode: Load question bank and create session
         try {
           const questionSubject = getQuestionSubject();
+          console.log('[ScreenerTest] Initializing adaptive test:', { subject, questionSubject, grade, effectiveGrade, questionBankGrade });
 
           // Try to load from static question bank first
           // For Edexcel, this uses the stage (e.g., 'Pre-IG1')
           // For CCSS, this uses the grade (e.g., '7')
           let questions = await loadAllQuestionsForGrade(questionSubject, questionBankGrade);
+          console.log(`[ScreenerTest] Loaded ${questions.length} questions from question bank`);
 
           // If no static questions, generate with AI
           if (questions.length < 10) {
+            console.log('[ScreenerTest] Less than 10 questions loaded, falling back to AI generation');
             questions = await generateHybridQuestionSet(effectiveGrade, questionSubject, 25, questions);
           } else {
             // Get a balanced set
@@ -353,7 +356,9 @@ const ScreenerTest: React.FC<ScreenerTestProps> = ({
 
   // Calculate and submit results
   const finishTest = () => {
-    let level = ScreenerLevel.ON_ABOVE;
+    try {
+      console.log('[ScreenerTest] finishTest called - preparing to submit results');
+      let level = ScreenerLevel.ON_ABOVE;
     let percentile = 50;
     const strandScores: Record<string, number> = {};
     const standardsPerformance: Record<string, { attempted: number; correct: number; name: string }> = {};
@@ -501,7 +506,18 @@ const ScreenerTest: React.FC<ScreenerTestProps> = ({
       }))
     };
 
+    console.log('[ScreenerTest] Submitting result:', {
+      studentId: result.studentId,
+      username: result.username,
+      subject: result.subject,
+      percentile: result.percentile,
+      level: result.overallLevel
+    });
     onComplete(result);
+    } catch (error) {
+      console.error('[ScreenerTest] Error in finishTest:', error);
+      alert('Error preparing results: ' + (error as Error).message);
+    }
   };
 
   // Loading state
