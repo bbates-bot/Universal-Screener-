@@ -59,6 +59,12 @@ const ScreenerDashboard: React.FC<ScreenerDashboardProps> = ({ students, results
       (r as any).studentId === studentId || r.username === student.username
     );
 
+    // Debug logging
+    if (studentResults.length === 0 && results.length > 0) {
+      console.log(`No results found for student ${student.firstName} ${student.lastName} (id: ${studentId}, username: ${student.username})`);
+      console.log('Available results:', results.map(r => ({ studentId: (r as any).studentId, username: r.username, subject: r.subject })));
+    }
+
     // Filter by subject if specified
     if (filterSubject !== 'All') {
       studentResults = studentResults.filter(r => r.subject === filterSubject);

@@ -149,11 +149,16 @@ const AppContent: React.FC = () => {
   const handleCompleteScreener = async (newResult: StudentResult) => {
     try {
       const student = students.find(s => s.id === selectedStudentId);
+      console.log('Saving result - selectedStudentId:', selectedStudentId);
+      console.log('Saving result - found student:', student);
+      console.log('Saving result - newResult subject:', newResult.subject);
+
       if (!student) {
         console.error('Student not found for ID:', selectedStudentId);
         // Still save the result with the data we have from newResult
         const { id, ...resultData } = newResult;
         await addResult({ ...resultData, studentId: selectedStudentId || undefined });
+        console.log('Result saved without student match');
       } else {
         // Merge student data, preserving the new result's calculated fields
         // Important: explicitly set username from student record (not auto-generated from ScreenerTest)
@@ -166,7 +171,9 @@ const AppContent: React.FC = () => {
           testDate: new Date().toISOString().split('T')[0]
         };
         const { id, ...resultData } = finalResult;
+        console.log('Final result to save:', { studentId: resultData.studentId, username: resultData.username, subject: resultData.subject });
         await addResult(resultData);
+        console.log('Result saved successfully');
       }
       setStudentTestMode(false);
       setSelectedSubject(null);
