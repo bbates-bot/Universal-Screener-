@@ -473,6 +473,7 @@ const ScreenerTest: React.FC<ScreenerTestProps> = ({
 
     const result: StudentResult = {
       id: Math.random().toString(36).substr(2, 9),
+      studentId: studentId, // Link to the original student record
       username: studentName.toLowerCase().split(' ').join('.'),
       firstName: studentName.split(' ')[0],
       lastName: studentName.split(' ')[1] || 'Student',

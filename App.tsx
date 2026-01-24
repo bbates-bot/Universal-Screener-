@@ -156,10 +156,12 @@ const AppContent: React.FC = () => {
         await addResult({ ...resultData, studentId: selectedStudentId || undefined });
       } else {
         // Merge student data, preserving the new result's calculated fields
+        // Important: explicitly set username from student record (not auto-generated from ScreenerTest)
         const finalResult: StudentResult = {
           ...student,
           ...newResult,
           studentId: student.id, // Store reference to student
+          username: student.username, // Preserve actual student username for matching
           id: newResult.id,
           testDate: new Date().toISOString().split('T')[0]
         };
