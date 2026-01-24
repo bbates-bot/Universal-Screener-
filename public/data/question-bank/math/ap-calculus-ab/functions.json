@@ -1,0 +1,530 @@
+{
+  "metadata": {
+    "subject": "Mathematics",
+    "gradeLevel": "AP Calculus AB",
+    "domain": "Functions",
+    "domainName": "Calculus Functions",
+    "lastUpdated": "2026-01-24",
+    "totalQuestions": 50
+  },
+  "questions": [
+    {
+      "id": "ap-calc-ab-001",
+      "bankId": "ap-calculus-ab",
+      "text": "What is the derivative of f(x) = x³?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["3x²", "x²", "3x", "x³"],
+        "correctAnswer": "3x²"
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "11",
+      "strand": "Derivatives",
+      "difficulty": 2,
+      "ccssStandards": ["AP-CALC-AB.DER.1"],
+      "primaryStandard": "AP-CALC-AB.DER.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-ab-002",
+      "bankId": "ap-calculus-ab",
+      "text": "The limit of sin(x)/x as x approaches 0 is:",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["0", "1", "undefined", "infinity"],
+        "correctAnswer": "1"
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "11",
+      "strand": "Limits",
+      "difficulty": 3,
+      "ccssStandards": ["AP-CALC-AB.LIM.1"],
+      "primaryStandard": "AP-CALC-AB.LIM.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-ab-003",
+      "bankId": "ap-calculus-ab",
+      "text": "What is the integral of 2x dx?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["x² + C", "2x² + C", "x + C", "2 + C"],
+        "correctAnswer": "x² + C"
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "11",
+      "strand": "Integrals",
+      "difficulty": 2,
+      "ccssStandards": ["AP-CALC-AB.INT.1"],
+      "primaryStandard": "AP-CALC-AB.INT.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-ab-004",
+      "bankId": "ap-calculus-ab",
+      "text": "The derivative of e^x is e^x.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "11",
+      "strand": "Derivatives",
+      "difficulty": 1,
+      "ccssStandards": ["AP-CALC-AB.DER.2"],
+      "primaryStandard": "AP-CALC-AB.DER.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-ab-005",
+      "bankId": "ap-calculus-ab",
+      "text": "What is the derivative of ln(x)?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["1/x", "x", "ln(x)", "e^x"],
+        "correctAnswer": "1/x"
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "11",
+      "strand": "Derivatives",
+      "difficulty": 2,
+      "ccssStandards": ["AP-CALC-AB.DER.3"],
+      "primaryStandard": "AP-CALC-AB.DER.3",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-ab-006",
+      "bankId": "ap-calculus-ab",
+      "text": "Using the chain rule, what is the derivative of (2x + 1)³?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["6(2x + 1)²", "3(2x + 1)²", "(2x + 1)²", "2(2x + 1)³"],
+        "correctAnswer": "6(2x + 1)²"
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "11",
+      "strand": "Derivatives",
+      "difficulty": 3,
+      "ccssStandards": ["AP-CALC-AB.DER.4"],
+      "primaryStandard": "AP-CALC-AB.DER.4",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-ab-007",
+      "bankId": "ap-calculus-ab",
+      "text": "The second derivative test can determine if a critical point is a maximum or minimum.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "11",
+      "strand": "Applications of Derivatives",
+      "difficulty": 2,
+      "ccssStandards": ["AP-CALC-AB.APP.1"],
+      "primaryStandard": "AP-CALC-AB.APP.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-ab-008",
+      "bankId": "ap-calculus-ab",
+      "text": "What is the derivative of sin(x)?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["cos(x)", "-cos(x)", "sin(x)", "-sin(x)"],
+        "correctAnswer": "cos(x)"
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "11",
+      "strand": "Derivatives",
+      "difficulty": 2,
+      "ccssStandards": ["AP-CALC-AB.DER.5"],
+      "primaryStandard": "AP-CALC-AB.DER.5",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-ab-009",
+      "bankId": "ap-calculus-ab",
+      "text": "What is the derivative of cos(x)?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["-sin(x)", "sin(x)", "cos(x)", "-cos(x)"],
+        "correctAnswer": "-sin(x)"
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "11",
+      "strand": "Derivatives",
+      "difficulty": 2,
+      "ccssStandards": ["AP-CALC-AB.DER.6"],
+      "primaryStandard": "AP-CALC-AB.DER.6",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-ab-010",
+      "bankId": "ap-calculus-ab",
+      "text": "Find the limit: lim(x→2) (x² - 4)/(x - 2)",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["4", "0", "2", "undefined"],
+        "correctAnswer": "4"
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "11",
+      "strand": "Limits",
+      "difficulty": 3,
+      "ccssStandards": ["AP-CALC-AB.LIM.2"],
+      "primaryStandard": "AP-CALC-AB.LIM.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-ab-011",
+      "bankId": "ap-calculus-ab",
+      "text": "The definite integral represents the area under a curve.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "11",
+      "strand": "Integrals",
+      "difficulty": 1,
+      "ccssStandards": ["AP-CALC-AB.INT.2"],
+      "primaryStandard": "AP-CALC-AB.INT.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-ab-012",
+      "bankId": "ap-calculus-ab",
+      "text": "What is the integral of cos(x) dx?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["sin(x) + C", "-sin(x) + C", "cos(x) + C", "-cos(x) + C"],
+        "correctAnswer": "sin(x) + C"
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "11",
+      "strand": "Integrals",
+      "difficulty": 2,
+      "ccssStandards": ["AP-CALC-AB.INT.3"],
+      "primaryStandard": "AP-CALC-AB.INT.3",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-ab-013",
+      "bankId": "ap-calculus-ab",
+      "text": "Using the product rule, what is the derivative of x·sin(x)?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["sin(x) + x·cos(x)", "x·cos(x)", "cos(x)", "sin(x)·cos(x)"],
+        "correctAnswer": "sin(x) + x·cos(x)"
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "11",
+      "strand": "Derivatives",
+      "difficulty": 3,
+      "ccssStandards": ["AP-CALC-AB.DER.7"],
+      "primaryStandard": "AP-CALC-AB.DER.7",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-ab-014",
+      "bankId": "ap-calculus-ab",
+      "text": "A function is continuous at x = a if the limit exists and equals f(a).",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "11",
+      "strand": "Continuity",
+      "difficulty": 2,
+      "ccssStandards": ["AP-CALC-AB.CON.1"],
+      "primaryStandard": "AP-CALC-AB.CON.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-ab-015",
+      "bankId": "ap-calculus-ab",
+      "text": "What is the derivative of tan(x)?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["sec²(x)", "csc²(x)", "cos²(x)", "sin²(x)"],
+        "correctAnswer": "sec²(x)"
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "11",
+      "strand": "Derivatives",
+      "difficulty": 3,
+      "ccssStandards": ["AP-CALC-AB.DER.8"],
+      "primaryStandard": "AP-CALC-AB.DER.8",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-ab-016",
+      "bankId": "ap-calculus-ab",
+      "text": "Evaluate: ∫₀¹ 2x dx",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["1", "2", "0", "4"],
+        "correctAnswer": "1"
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "11",
+      "strand": "Integrals",
+      "difficulty": 2,
+      "ccssStandards": ["AP-CALC-AB.INT.4"],
+      "primaryStandard": "AP-CALC-AB.INT.4",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-ab-017",
+      "bankId": "ap-calculus-ab",
+      "text": "The Mean Value Theorem guarantees a point where the instantaneous rate equals the average rate.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "11",
+      "strand": "Theorems",
+      "difficulty": 3,
+      "ccssStandards": ["AP-CALC-AB.THM.1"],
+      "primaryStandard": "AP-CALC-AB.THM.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-ab-018",
+      "bankId": "ap-calculus-ab",
+      "text": "What is the integral of 1/x dx?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["ln|x| + C", "x + C", "1/x² + C", "-1/x + C"],
+        "correctAnswer": "ln|x| + C"
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "11",
+      "strand": "Integrals",
+      "difficulty": 2,
+      "ccssStandards": ["AP-CALC-AB.INT.5"],
+      "primaryStandard": "AP-CALC-AB.INT.5",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-ab-019",
+      "bankId": "ap-calculus-ab",
+      "text": "If f''(x) > 0, the function is concave up.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "11",
+      "strand": "Applications of Derivatives",
+      "difficulty": 2,
+      "ccssStandards": ["AP-CALC-AB.APP.2"],
+      "primaryStandard": "AP-CALC-AB.APP.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-ab-020",
+      "bankId": "ap-calculus-ab",
+      "text": "Using the quotient rule, what is the derivative of x/(x+1)?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["1/(x+1)²", "1/(x+1)", "x/(x+1)²", "-1/(x+1)²"],
+        "correctAnswer": "1/(x+1)²"
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "11",
+      "strand": "Derivatives",
+      "difficulty": 4,
+      "ccssStandards": ["AP-CALC-AB.DER.9"],
+      "primaryStandard": "AP-CALC-AB.DER.9",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-ab-021",
+      "bankId": "ap-calculus-ab",
+      "text": "What is the integral of e^x dx?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["e^x + C", "xe^x + C", "e^(x+1) + C", "ln(e^x) + C"],
+        "correctAnswer": "e^x + C"
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "11",
+      "strand": "Integrals",
+      "difficulty": 1,
+      "ccssStandards": ["AP-CALC-AB.INT.6"],
+      "primaryStandard": "AP-CALC-AB.INT.6",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-ab-022",
+      "bankId": "ap-calculus-ab",
+      "text": "Find f'(x) if f(x) = 5x⁴ - 3x² + 2x - 7",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["20x³ - 6x + 2", "20x³ - 6x² + 2", "5x³ - 3x + 2", "20x⁴ - 6x² + 2"],
+        "correctAnswer": "20x³ - 6x + 2"
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "11",
+      "strand": "Derivatives",
+      "difficulty": 2,
+      "ccssStandards": ["AP-CALC-AB.DER.10"],
+      "primaryStandard": "AP-CALC-AB.DER.10",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-ab-023",
+      "bankId": "ap-calculus-ab",
+      "text": "The Fundamental Theorem of Calculus connects differentiation and integration.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "11",
+      "strand": "Theorems",
+      "difficulty": 1,
+      "ccssStandards": ["AP-CALC-AB.THM.2"],
+      "primaryStandard": "AP-CALC-AB.THM.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-ab-024",
+      "bankId": "ap-calculus-ab",
+      "text": "What is the derivative of arcsin(x)?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["1/√(1-x²)", "1/√(1+x²)", "-1/√(1-x²)", "1/(1-x²)"],
+        "correctAnswer": "1/√(1-x²)"
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "11",
+      "strand": "Derivatives",
+      "difficulty": 4,
+      "ccssStandards": ["AP-CALC-AB.DER.11"],
+      "primaryStandard": "AP-CALC-AB.DER.11",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-ab-025",
+      "bankId": "ap-calculus-ab",
+      "text": "Evaluate: lim(x→∞) (3x² + 2x)/(x² - 1)",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["3", "2", "1", "∞"],
+        "correctAnswer": "3"
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "11",
+      "strand": "Limits",
+      "difficulty": 3,
+      "ccssStandards": ["AP-CALC-AB.LIM.3"],
+      "primaryStandard": "AP-CALC-AB.LIM.3",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    }
+  ]
+}

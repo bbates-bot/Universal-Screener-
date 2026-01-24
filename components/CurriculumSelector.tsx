@@ -21,7 +21,7 @@ const CURRICULUM_OPTIONS: {
 }[] = [
   {
     value: 'US_COMMON_CORE_AP',
-    label: 'US Common Core + AP',
+    label: 'US',
     shortLabel: 'US',
     flag: '\u{1F1FA}\u{1F1F8}', // US flag emoji
     color: 'text-blue-600',
@@ -38,26 +38,6 @@ const CURRICULUM_OPTIONS: {
     bgColor: 'bg-purple-50',
     borderColor: 'border-purple-200',
     implemented: true,
-  },
-  {
-    value: 'UK_NATIONAL_ALEVEL',
-    label: 'UK National + A-Levels',
-    shortLabel: 'UK',
-    flag: '\u{1F1EC}\u{1F1E7}', // UK flag emoji
-    color: 'text-red-600',
-    bgColor: 'bg-red-50',
-    borderColor: 'border-red-200',
-    implemented: false,
-  },
-  {
-    value: 'CAMBRIDGE_INTERNATIONAL',
-    label: 'Cambridge International',
-    shortLabel: 'Cambridge',
-    flag: '\u{1F310}', // Globe emoji
-    color: 'text-emerald-600',
-    bgColor: 'bg-emerald-50',
-    borderColor: 'border-emerald-200',
-    implemented: false,
   },
 ];
 

@@ -1,0 +1,525 @@
+{
+  "metadata": {
+    "subject": "Mathematics",
+    "gradeLevel": "AP Calculus BC",
+    "domain": "Functions",
+    "domainName": "Advanced Calculus Functions",
+    "lastUpdated": "2026-01-24",
+    "totalQuestions": 50
+  },
+  "questions": [
+    {
+      "id": "ap-calc-bc-001",
+      "bankId": "ap-calculus-bc",
+      "text": "What is the derivative of f(x) = x³?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["3x²", "x²", "3x", "x³"],
+        "correctAnswer": "3x²"
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "12",
+      "strand": "Derivatives",
+      "difficulty": 2,
+      "ccssStandards": ["AP-CALC-BC.DER.1"],
+      "primaryStandard": "AP-CALC-BC.DER.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-bc-002",
+      "bankId": "ap-calculus-bc",
+      "text": "Integration by parts uses the formula ∫u dv = uv - ∫v du.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "12",
+      "strand": "Integration Techniques",
+      "difficulty": 2,
+      "ccssStandards": ["AP-CALC-BC.INT.1"],
+      "primaryStandard": "AP-CALC-BC.INT.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-bc-003",
+      "bankId": "ap-calculus-bc",
+      "text": "What is the sum of the geometric series 1 + 1/2 + 1/4 + 1/8 + ... ?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["2", "1", "∞", "1.5"],
+        "correctAnswer": "2"
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "12",
+      "strand": "Series",
+      "difficulty": 3,
+      "ccssStandards": ["AP-CALC-BC.SER.1"],
+      "primaryStandard": "AP-CALC-BC.SER.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-bc-004",
+      "bankId": "ap-calculus-bc",
+      "text": "For parametric equations x = t², y = t³, what is dy/dx?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["3t/2", "2t/3", "3t²/2t", "t/2"],
+        "correctAnswer": "3t/2"
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "12",
+      "strand": "Parametric Equations",
+      "difficulty": 3,
+      "ccssStandards": ["AP-CALC-BC.PAR.1"],
+      "primaryStandard": "AP-CALC-BC.PAR.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-bc-005",
+      "bankId": "ap-calculus-bc",
+      "text": "The Taylor series expansion includes derivatives of all orders at a point.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "12",
+      "strand": "Series",
+      "difficulty": 2,
+      "ccssStandards": ["AP-CALC-BC.SER.2"],
+      "primaryStandard": "AP-CALC-BC.SER.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-bc-006",
+      "bankId": "ap-calculus-bc",
+      "text": "What is the Maclaurin series for e^x?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["1 + x + x²/2! + x³/3! + ...", "1 - x + x²/2! - x³/3! + ...", "x + x²/2 + x³/3 + ...", "1 + x + x² + x³ + ..."],
+        "correctAnswer": "1 + x + x²/2! + x³/3! + ..."
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "12",
+      "strand": "Series",
+      "difficulty": 3,
+      "ccssStandards": ["AP-CALC-BC.SER.3"],
+      "primaryStandard": "AP-CALC-BC.SER.3",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-bc-007",
+      "bankId": "ap-calculus-bc",
+      "text": "In polar coordinates, the area element is (1/2)r² dθ.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "12",
+      "strand": "Polar Coordinates",
+      "difficulty": 3,
+      "ccssStandards": ["AP-CALC-BC.POL.1"],
+      "primaryStandard": "AP-CALC-BC.POL.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-bc-008",
+      "bankId": "ap-calculus-bc",
+      "text": "Using the ratio test, the series Σ n!/n^n converges.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "12",
+      "strand": "Series",
+      "difficulty": 4,
+      "ccssStandards": ["AP-CALC-BC.SER.4"],
+      "primaryStandard": "AP-CALC-BC.SER.4",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-bc-009",
+      "bankId": "ap-calculus-bc",
+      "text": "What is ∫ ln(x) dx?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["x·ln(x) - x + C", "x·ln(x) + C", "1/x + C", "ln(x)/x + C"],
+        "correctAnswer": "x·ln(x) - x + C"
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "12",
+      "strand": "Integration Techniques",
+      "difficulty": 3,
+      "ccssStandards": ["AP-CALC-BC.INT.2"],
+      "primaryStandard": "AP-CALC-BC.INT.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-bc-010",
+      "bankId": "ap-calculus-bc",
+      "text": "The arc length formula for parametric curves is ∫√[(dx/dt)² + (dy/dt)²] dt.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "12",
+      "strand": "Parametric Equations",
+      "difficulty": 3,
+      "ccssStandards": ["AP-CALC-BC.PAR.2"],
+      "primaryStandard": "AP-CALC-BC.PAR.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-bc-011",
+      "bankId": "ap-calculus-bc",
+      "text": "What is the radius of convergence for Σ x^n/n!?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["∞", "1", "0", "e"],
+        "correctAnswer": "∞"
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "12",
+      "strand": "Series",
+      "difficulty": 3,
+      "ccssStandards": ["AP-CALC-BC.SER.5"],
+      "primaryStandard": "AP-CALC-BC.SER.5",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-bc-012",
+      "bankId": "ap-calculus-bc",
+      "text": "L'Hôpital's rule applies to indeterminate forms like 0/0 and ∞/∞.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "12",
+      "strand": "Limits",
+      "difficulty": 2,
+      "ccssStandards": ["AP-CALC-BC.LIM.1"],
+      "primaryStandard": "AP-CALC-BC.LIM.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-bc-013",
+      "bankId": "ap-calculus-bc",
+      "text": "What is the solution to dy/dx = y?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["y = Ce^x", "y = Cx", "y = C/x", "y = Cx²"],
+        "correctAnswer": "y = Ce^x"
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "12",
+      "strand": "Differential Equations",
+      "difficulty": 2,
+      "ccssStandards": ["AP-CALC-BC.DE.1"],
+      "primaryStandard": "AP-CALC-BC.DE.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-bc-014",
+      "bankId": "ap-calculus-bc",
+      "text": "∫ sec²(x) dx equals tan(x) + C.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "12",
+      "strand": "Integration",
+      "difficulty": 2,
+      "ccssStandards": ["AP-CALC-BC.INT.3"],
+      "primaryStandard": "AP-CALC-BC.INT.3",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-bc-015",
+      "bankId": "ap-calculus-bc",
+      "text": "Using partial fractions, ∫ 1/(x²-1) dx equals:",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["(1/2)ln|x-1/x+1| + C", "ln|x²-1| + C", "arctan(x) + C", "1/(x²-1) + C"],
+        "correctAnswer": "(1/2)ln|x-1/x+1| + C"
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "12",
+      "strand": "Integration Techniques",
+      "difficulty": 4,
+      "ccssStandards": ["AP-CALC-BC.INT.4"],
+      "primaryStandard": "AP-CALC-BC.INT.4",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-bc-016",
+      "bankId": "ap-calculus-bc",
+      "text": "The harmonic series 1 + 1/2 + 1/3 + 1/4 + ... diverges.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "12",
+      "strand": "Series",
+      "difficulty": 2,
+      "ccssStandards": ["AP-CALC-BC.SER.6"],
+      "primaryStandard": "AP-CALC-BC.SER.6",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-bc-017",
+      "bankId": "ap-calculus-bc",
+      "text": "For the polar curve r = 2cos(θ), what is the shape?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Circle", "Spiral", "Line", "Parabola"],
+        "correctAnswer": "Circle"
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "12",
+      "strand": "Polar Coordinates",
+      "difficulty": 2,
+      "ccssStandards": ["AP-CALC-BC.POL.2"],
+      "primaryStandard": "AP-CALC-BC.POL.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-bc-018",
+      "bankId": "ap-calculus-bc",
+      "text": "Euler's method is used to approximate solutions to differential equations.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "12",
+      "strand": "Differential Equations",
+      "difficulty": 2,
+      "ccssStandards": ["AP-CALC-BC.DE.2"],
+      "primaryStandard": "AP-CALC-BC.DE.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-bc-019",
+      "bankId": "ap-calculus-bc",
+      "text": "What is the first term of the Taylor series for sin(x) centered at x = 0?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["x", "1", "0", "x²"],
+        "correctAnswer": "x"
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "12",
+      "strand": "Series",
+      "difficulty": 2,
+      "ccssStandards": ["AP-CALC-BC.SER.7"],
+      "primaryStandard": "AP-CALC-BC.SER.7",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-bc-020",
+      "bankId": "ap-calculus-bc",
+      "text": "The alternating series test requires terms to decrease to zero.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "12",
+      "strand": "Series",
+      "difficulty": 3,
+      "ccssStandards": ["AP-CALC-BC.SER.8"],
+      "primaryStandard": "AP-CALC-BC.SER.8",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-bc-021",
+      "bankId": "ap-calculus-bc",
+      "text": "∫₀^∞ e^(-x) dx converges to:",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["1", "0", "∞", "e"],
+        "correctAnswer": "1"
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "12",
+      "strand": "Improper Integrals",
+      "difficulty": 3,
+      "ccssStandards": ["AP-CALC-BC.IMP.1"],
+      "primaryStandard": "AP-CALC-BC.IMP.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-bc-022",
+      "bankId": "ap-calculus-bc",
+      "text": "The p-series Σ 1/n^p converges when p > 1.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "12",
+      "strand": "Series",
+      "difficulty": 2,
+      "ccssStandards": ["AP-CALC-BC.SER.9"],
+      "primaryStandard": "AP-CALC-BC.SER.9",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-bc-023",
+      "bankId": "ap-calculus-bc",
+      "text": "What is the vector form of velocity for r(t) = ⟨t², t³⟩?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["⟨2t, 3t²⟩", "⟨t, t²⟩", "⟨2, 6t⟩", "⟨t², t³⟩"],
+        "correctAnswer": "⟨2t, 3t²⟩"
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "12",
+      "strand": "Vectors",
+      "difficulty": 3,
+      "ccssStandards": ["AP-CALC-BC.VEC.1"],
+      "primaryStandard": "AP-CALC-BC.VEC.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-bc-024",
+      "bankId": "ap-calculus-bc",
+      "text": "Logistic growth is modeled by dP/dt = kP(1 - P/M).",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "12",
+      "strand": "Differential Equations",
+      "difficulty": 3,
+      "ccssStandards": ["AP-CALC-BC.DE.3"],
+      "primaryStandard": "AP-CALC-BC.DE.3",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "ap-calc-bc-025",
+      "bankId": "ap-calculus-bc",
+      "text": "Using trigonometric substitution, ∫ √(1-x²) dx represents:",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Area of a semicircle", "Arc length", "Volume", "Surface area"],
+        "correctAnswer": "Area of a semicircle"
+      },
+      "subject": "Mathematics",
+      "gradeLevel": "12",
+      "strand": "Integration Techniques",
+      "difficulty": 3,
+      "ccssStandards": ["AP-CALC-BC.INT.5"],
+      "primaryStandard": "AP-CALC-BC.INT.5",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    }
+  ]
+}

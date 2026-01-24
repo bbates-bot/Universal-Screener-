@@ -11,7 +11,8 @@ import UserManager from './components/UserManager';
 import TestReview from './components/TestReview';
 import { CurriculumSelector } from './components/CurriculumSelector';
 import { RegionSelector } from './components/RegionSelector';
-import { CurriculumProvider } from './contexts/CurriculumContext';
+import { CurriculumProvider, useCurriculum } from './contexts/CurriculumContext';
+import { GRADE_MAPPINGS } from './constants/gradeMappings';
 import {
   subscribeToSchools,
   subscribeToStudents,
@@ -33,7 +34,23 @@ const INITIAL_USERS: User[] = [
   { id: 'u-1', name: 'System Admin', email: 'admin@crimsonglobalacademy.com', role: UserRole.ADMIN }
 ];
 
-const App: React.FC = () => {
+// Inner component that uses curriculum context
+const AppContent: React.FC = () => {
+  const { currentSystem, displayRegion } = useCurriculum();
+  const isEdexcel = currentSystem === 'EDEXCEL_INTERNATIONAL';
+  const isUS = currentSystem === 'US_COMMON_CORE_AP';
+
+  // Get grade display based on curriculum
+  const getGradeDisplay = (usGrade: string): string => {
+    if (isUS) {
+      return usGrade === 'K' ? 'Kindergarten' : `Grade ${usGrade}`;
+    }
+    // For Edexcel, show UK/NZ year
+    const mapping = GRADE_MAPPINGS.find(m => m.us === usGrade);
+    if (!mapping) return usGrade;
+    return displayRegion === 'NZ' ? mapping.nz : mapping.uk;
+  };
+
   const [view, setView] = useState<'admin' | 'student'>('admin');
   const [role, setRole] = useState<UserRole>(UserRole.ADMIN);
   const [adminSubView, setAdminSubView] = useState<'dashboard' | 'screener' | 'schools' | 'students' | 'users' | 'test-review'>('dashboard');
@@ -101,7 +118,7 @@ const App: React.FC = () => {
     }
   }, [role]);
 
-  const AP_SUBJECTS_LIST: Subject[] = ['AP Precalculus', 'AP Calculus AB', 'AP Calculus BC', 'AP Statistics', 'AP English Language', 'AP English Literature'];
+  const AP_SUBJECTS_LIST: Subject[] = ['AP Precalculus', 'AP Calculus AB', 'AP Calculus BC', 'AP Statistics', 'AP Macroeconomics', 'AP English Language', 'AP English Literature'];
   const GENERAL_SUBJECTS_LIST: Subject[] = ['Math', 'Reading Foundations', 'Reading Comprehension', 'ELA'];
   const EDEXCEL_SUBJECTS_LIST: Subject[] = [
     'Edexcel Math Pre-IG1', 'Edexcel Math Pre-IG2', 'Edexcel Math IG1', 'Edexcel Math IG2',
@@ -201,7 +218,6 @@ const App: React.FC = () => {
   }
 
   return (
-    <CurriculumProvider>
     <div className="min-h-screen bg-slate-50 font-sans text-slate-900 pb-10">
       <nav className="bg-white border-b border-slate-200 sticky top-0 z-40">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -283,10 +299,10 @@ const App: React.FC = () => {
                     </select>
                   </div>
                   <div>
-                     <label className="text-xs font-bold text-slate-400 uppercase block mb-1">Grade Level</label>
+                     <label className="text-xs font-bold text-slate-400 uppercase block mb-1">{isEdexcel ? 'Year Group' : 'Grade Level'}</label>
                      <select className="w-full bg-slate-50 border-none rounded-lg font-medium" value={filterGrade} onChange={e => setFilterGrade(e.target.value)}>
-                       <option value="All">All Grades</option>
-                       {GRADES.filter(g => ['9', '10', '11', '12'].includes(g)).map(g => <option key={g} value={g}>Grade {g}</option>)}
+                       <option value="All">All {isEdexcel ? 'Years' : 'Grades'}</option>
+                       {GRADES.filter(g => ['9', '10', '11', '12'].includes(g)).map(g => <option key={g} value={g}>{getGradeDisplay(g)}</option>)}
                      </select>
                   </div>
                   <div>
@@ -372,7 +388,7 @@ const App: React.FC = () => {
                         </div>
                         <div>
                           <p className="font-bold text-indigo-900">Welcome back, {currentStudent.firstName}!</p>
-                          <p className="text-xs text-indigo-600 font-bold uppercase tracking-wider">Grade {currentStudent.grade} Learner</p>
+                          <p className="text-xs text-indigo-600 font-bold uppercase tracking-wider">{getGradeDisplay(currentStudent.grade)} Learner</p>
                         </div>
                       </div>
 
@@ -385,7 +401,8 @@ const App: React.FC = () => {
                           </div>
                         ) : (
                           <div className="space-y-6">
-                            {assignedGeneral.length > 0 && (
+                            {/* US Curriculum: Show General and AP Assessments */}
+                            {isUS && assignedGeneral.length > 0 && (
                               <div className="space-y-3">
                                 <p className="text-[10px] font-black text-slate-300 uppercase tracking-widest">General Assessment</p>
                                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -403,7 +420,7 @@ const App: React.FC = () => {
                               </div>
                             )}
 
-                            {assignedAP.length > 0 && (
+                            {isUS && assignedAP.length > 0 && (
                               <div className="space-y-3">
                                 <p className="text-[10px] font-black text-slate-300 uppercase tracking-widest">AP Prerequisite Screening</p>
                                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -421,9 +438,10 @@ const App: React.FC = () => {
                               </div>
                             )}
 
-                            {assignedEdexcel.length > 0 && (
+                            {/* Edexcel Curriculum: Show IGCSE Assessments */}
+                            {isEdexcel && assignedEdexcel.length > 0 && (
                               <div className="space-y-3">
-                                <p className="text-[10px] font-black text-slate-300 uppercase tracking-widest">Edexcel IGCSE Screening</p>
+                                <p className="text-[10px] font-black text-purple-300 uppercase tracking-widest">Edexcel IGCSE Screening</p>
                                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                                   {assignedEdexcel.map(a => (
                                     <button
@@ -436,6 +454,14 @@ const App: React.FC = () => {
                                     </button>
                                   ))}
                                 </div>
+                              </div>
+                            )}
+
+                            {/* Show message if no assessments match current curriculum */}
+                            {((isUS && assignedGeneral.length === 0 && assignedAP.length === 0) ||
+                              (isEdexcel && assignedEdexcel.length === 0)) && (
+                              <div className="p-8 text-center bg-slate-50 rounded-2xl border-2 border-dashed border-slate-200">
+                                <p className="text-slate-400 font-medium">No {isEdexcel ? 'Edexcel' : 'US'} assessments assigned. Switch curriculum to see other assessments.</p>
                               </div>
                             )}
                           </div>
@@ -471,6 +497,14 @@ const App: React.FC = () => {
         )}
       </main>
     </div>
+  );
+};
+
+// Main App component that provides curriculum context
+const App: React.FC = () => {
+  return (
+    <CurriculumProvider>
+      <AppContent />
     </CurriculumProvider>
   );
 };

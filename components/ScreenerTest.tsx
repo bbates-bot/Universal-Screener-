@@ -197,14 +197,12 @@ const ScreenerTest: React.FC<ScreenerTestProps> = ({
     if (subject === 'Math') return 'Mathematics';
     if (subject.includes('Reading')) return 'Reading';
     if (subject === 'ELA') return 'ELA';
-    // AP subjects map to Mathematics or ELA
-    if (subject.includes('Calculus') || subject.includes('Statistics') || subject.includes('Precalculus')) {
-      return 'Mathematics';
-    }
+    // AP subjects - preserve original name for question bank routing
+    if (subject.includes('AP ')) return subject;
+    // Edexcel subjects - preserve original name for question bank routing
+    if (subject.includes('Edexcel Math')) return subject;
+    if (subject.includes('Edexcel English')) return subject;
     if (subject.includes('English')) return 'ELA';
-    // Edexcel subjects map to Mathematics or ELA
-    if (subject.includes('Edexcel Math')) return 'Mathematics';
-    if (subject.includes('Edexcel English')) return 'ELA';
     return 'ELA';
   }, [subject]);
 

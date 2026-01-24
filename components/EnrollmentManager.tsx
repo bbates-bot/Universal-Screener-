@@ -2,6 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import { School, Student, Subject, AssignedAssessment, UserRole } from '../types';
 import { GRADES } from '../constants';
+import { useCurriculum } from '../contexts/CurriculumContext';
+import { GRADE_MAPPINGS } from '../constants/gradeMappings';
 
 interface EnrollmentManagerProps {
   schools: School[];
@@ -53,25 +55,53 @@ const CopyButton: React.FC<{ text: string; className?: string }> = ({ text, clas
 };
 
 const EnrollmentManager: React.FC<EnrollmentManagerProps> = ({ schools, students, role, onEnrollStudent, onUpdateStudent, onRemoveStudent }) => {
+  const { currentSystem, displayRegion } = useCurriculum();
+  const isEdexcel = currentSystem === 'EDEXCEL_INTERNATIONAL';
+  const isUS = currentSystem === 'US_COMMON_CORE_AP';
+
   const [isEnrolling, setIsEnrolling] = useState(false);
   const [editingStudent, setEditingStudent] = useState<Student | null>(null);
   const [newStudent, setNewStudent] = useState({
     username: '',
     firstName: '',
     lastName: '',
-    grade: 'K',
+    grade: isEdexcel ? '7' : 'K',
     schoolId: '',
     language: 'English' as 'English' | 'Spanish'
   });
 
   const [assignedAssessments, setAssignedAssessments] = useState<AssignedAssessment[]>([]);
 
+  // US curriculum subjects
   const GENERAL_SUBJECTS: Subject[] = ['Math', 'Reading Foundations', 'Reading Comprehension', 'ELA'];
-  const AP_SUBJECTS: Subject[] = ['AP Precalculus', 'AP Calculus AB', 'AP Calculus BC', 'AP Statistics', 'AP English Language', 'AP English Literature'];
+  const AP_SUBJECTS: Subject[] = ['AP Precalculus', 'AP Calculus AB', 'AP Calculus BC', 'AP Statistics', 'AP Macroeconomics', 'AP English Language', 'AP English Literature'];
+
+  // Edexcel curriculum subjects
   const EDEXCEL_SUBJECTS: Subject[] = [
     'Edexcel Math Pre-IG1', 'Edexcel Math Pre-IG2', 'Edexcel Math IG1', 'Edexcel Math IG2',
     'Edexcel English Pre-IG1', 'Edexcel English Pre-IG2', 'Edexcel English IG1', 'Edexcel English IG2'
   ];
+
+  // Get grade display based on curriculum
+  const getGradeDisplay = (usGrade: string): string => {
+    if (isUS) {
+      return usGrade === 'K' ? 'Kindergarten' : `Grade ${usGrade}`;
+    }
+    // For Edexcel, show UK/NZ year
+    const mapping = GRADE_MAPPINGS.find(m => m.us === usGrade);
+    if (!mapping) return usGrade;
+    return displayRegion === 'NZ' ? mapping.nz : mapping.uk;
+  };
+
+  // Get available grades based on curriculum
+  const getAvailableGrades = (): string[] => {
+    if (isEdexcel) {
+      // Edexcel covers UK Years 7-13 (US Grades 6-12)
+      return GRADES.filter(g => ['6', '7', '8', '9', '10', '11', '12'].includes(g));
+    }
+    // US curriculum covers K-12
+    return GRADES;
+  };
 
   const canEnroll = role === UserRole.ADMIN || role === UserRole.ADMISSIONS;
   const canAssign = true;
@@ -157,7 +187,7 @@ const EnrollmentManager: React.FC<EnrollmentManagerProps> = ({ schools, students
             <tr>
               <th className="px-6 py-4">Full Name</th>
               <th className="px-6 py-4">Assigned Username</th>
-              <th className="px-6 py-4">Grade</th>
+              <th className="px-6 py-4">{isEdexcel ? 'Year' : 'Grade'}</th>
               <th className="px-6 py-4">Assigned Campus</th>
               <th className="px-6 py-4 text-right">Actions</th>
             </tr>
@@ -184,7 +214,7 @@ const EnrollmentManager: React.FC<EnrollmentManagerProps> = ({ schools, students
                   </div>
                 </td>
                 <td className="px-6 py-4">
-                  <span className="px-2 py-1 bg-slate-100 rounded text-slate-600 font-bold text-xs">Grade {s.grade}</span>
+                  <span className="px-2 py-1 bg-slate-100 rounded text-slate-600 font-bold text-xs">{getGradeDisplay(s.grade)}</span>
                 </td>
                 <td className="px-6 py-4 text-slate-500 font-medium">
                   {schools.find(sc => sc.id === s.schoolId)?.name || 'N/A'}
@@ -244,9 +274,9 @@ const EnrollmentManager: React.FC<EnrollmentManagerProps> = ({ schools, students
 
                   <div className="grid grid-cols-2 gap-4">
                     <div>
-                      <label className="block text-xs font-black text-slate-400 uppercase mb-1">GRADE</label>
+                      <label className="block text-xs font-black text-slate-400 uppercase mb-1">{isEdexcel ? 'YEAR GROUP' : 'GRADE'}</label>
                       <select className="w-full px-4 py-2.5 bg-slate-50 border-2 border-slate-50 rounded-xl focus:border-indigo-500 outline-none transition-all" value={newStudent.grade} onChange={e => setNewStudent({...newStudent, grade: e.target.value})}>
-                        {GRADES.map(g => <option key={g} value={g}>{g}</option>)}
+                        {getAvailableGrades().map(g => <option key={g} value={g}>{getGradeDisplay(g)}</option>)}
                       </select>
                     </div>
                     <div>
@@ -265,62 +295,70 @@ const EnrollmentManager: React.FC<EnrollmentManagerProps> = ({ schools, students
                    <div className="w-10 h-10 bg-indigo-600 text-white rounded-lg flex items-center justify-center font-bold">{editingStudent.firstName[0]}</div>
                    <div>
                      <p className="font-bold text-indigo-900">{editingStudent.firstName} {editingStudent.lastName}</p>
-                     <p className="text-xs text-indigo-500 uppercase font-bold tracking-widest">Assigning tests for Grade {editingStudent.grade}</p>
+                     <p className="text-xs text-indigo-500 uppercase font-bold tracking-widest">Assigning tests for {getGradeDisplay(editingStudent.grade)}</p>
                    </div>
                 </div>
               )}
 
               <div>
                 <label className="block text-xs font-black text-slate-400 uppercase mb-4">ASSIGN SCREENERS & PREREQUISITES</label>
-                
+
                 <div className="space-y-4">
-                  <div>
-                    <h4 className="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-2">General Assessment</h4>
-                    <div className="flex flex-wrap gap-2">
-                      {GENERAL_SUBJECTS.map(subj => (
-                        <button
-                          key={subj}
-                          type="button"
-                          onClick={() => toggleAssessment(subj, 'General')}
-                          className={`px-4 py-2 rounded-xl border-2 font-bold text-sm transition-all ${assignedAssessments.find(a => a.subject === subj) ? 'bg-indigo-600 border-indigo-600 text-white' : 'bg-white border-slate-100 text-slate-500 hover:border-slate-200'}`}
-                        >
-                          {subj}
-                        </button>
-                      ))}
-                    </div>
-                  </div>
+                  {/* US Curriculum: General and AP Assessments */}
+                  {isUS && (
+                    <>
+                      <div>
+                        <h4 className="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-2">General Assessment</h4>
+                        <div className="flex flex-wrap gap-2">
+                          {GENERAL_SUBJECTS.map(subj => (
+                            <button
+                              key={subj}
+                              type="button"
+                              onClick={() => toggleAssessment(subj, 'General')}
+                              className={`px-4 py-2 rounded-xl border-2 font-bold text-sm transition-all ${assignedAssessments.find(a => a.subject === subj) ? 'bg-indigo-600 border-indigo-600 text-white' : 'bg-white border-slate-100 text-slate-500 hover:border-slate-200'}`}
+                            >
+                              {subj}
+                            </button>
+                          ))}
+                        </div>
+                      </div>
 
-                  <div>
-                    <h4 className="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-2">AP Prerequisite Screening</h4>
-                    <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
-                      {AP_SUBJECTS.map(subj => (
-                        <button
-                          key={subj}
-                          type="button"
-                          onClick={() => toggleAssessment(subj, 'AP Readiness')}
-                          className={`px-3 py-2 rounded-xl border-2 font-bold text-xs text-left transition-all ${assignedAssessments.find(a => a.subject === subj) ? 'bg-indigo-600 border-indigo-600 text-white' : 'bg-white border-slate-100 text-slate-500 hover:border-slate-200'}`}
-                        >
-                          {subj}
-                        </button>
-                      ))}
-                    </div>
-                  </div>
+                      <div>
+                        <h4 className="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-2">AP Prerequisite Screening</h4>
+                        <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
+                          {AP_SUBJECTS.map(subj => (
+                            <button
+                              key={subj}
+                              type="button"
+                              onClick={() => toggleAssessment(subj, 'AP Readiness')}
+                              className={`px-3 py-2 rounded-xl border-2 font-bold text-xs text-left transition-all ${assignedAssessments.find(a => a.subject === subj) ? 'bg-indigo-600 border-indigo-600 text-white' : 'bg-white border-slate-100 text-slate-500 hover:border-slate-200'}`}
+                            >
+                              {subj}
+                            </button>
+                          ))}
+                        </div>
+                      </div>
+                    </>
+                  )}
 
-                  <div>
-                    <h4 className="text-[10px] font-black text-purple-400 uppercase tracking-widest mb-2">Edexcel IGCSE Screening</h4>
-                    <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
-                      {EDEXCEL_SUBJECTS.map(subj => (
-                        <button
-                          key={subj}
-                          type="button"
-                          onClick={() => toggleAssessment(subj, 'Edexcel IGCSE')}
-                          className={`px-3 py-2 rounded-xl border-2 font-bold text-xs text-left transition-all ${assignedAssessments.find(a => a.subject === subj) ? 'bg-purple-600 border-purple-600 text-white' : 'bg-white border-slate-100 text-slate-500 hover:border-slate-200'}`}
-                        >
-                          {subj.replace('Edexcel ', '')}
-                        </button>
-                      ))}
+                  {/* Edexcel Curriculum: IGCSE Assessments */}
+                  {isEdexcel && (
+                    <div>
+                      <h4 className="text-[10px] font-black text-purple-400 uppercase tracking-widest mb-2">Edexcel IGCSE Screening</h4>
+                      <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+                        {EDEXCEL_SUBJECTS.map(subj => (
+                          <button
+                            key={subj}
+                            type="button"
+                            onClick={() => toggleAssessment(subj, 'Edexcel IGCSE')}
+                            className={`px-3 py-2 rounded-xl border-2 font-bold text-xs text-left transition-all ${assignedAssessments.find(a => a.subject === subj) ? 'bg-purple-600 border-purple-600 text-white' : 'bg-white border-slate-100 text-slate-500 hover:border-slate-200'}`}
+                          >
+                            {subj.replace('Edexcel ', '')}
+                          </button>
+                        ))}
+                      </div>
                     </div>
-                  </div>
+                  )}
                 </div>
               </div>
 

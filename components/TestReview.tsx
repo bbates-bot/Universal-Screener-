@@ -24,7 +24,9 @@ type CurriculumType = 'CCSS' | 'Edexcel' | 'AP';
 const SUBJECTS: QuestionSubject[] = ['Mathematics', 'Reading', 'ELA'];
 
 const AP_COURSES = [
-  { value: 'ap-precalculus', label: 'AP Pre-Calculus', subject: 'Mathematics' as QuestionSubject },
+  { value: 'ap-precalculus', label: 'AP Precalculus', subject: 'Mathematics' as QuestionSubject },
+  { value: 'ap-calculus-ab', label: 'AP Calculus AB', subject: 'Mathematics' as QuestionSubject },
+  { value: 'ap-calculus-bc', label: 'AP Calculus BC', subject: 'Mathematics' as QuestionSubject },
   { value: 'ap-statistics', label: 'AP Statistics', subject: 'Mathematics' as QuestionSubject },
   { value: 'ap-macroeconomics', label: 'AP Macroeconomics', subject: 'Mathematics' as QuestionSubject }
 ];
@@ -76,15 +78,17 @@ const TestReview: React.FC<TestReviewProps> = ({ userRole }) => {
     return selectedGrade;
   }, [curriculumType, edexcelStage, selectedGrade, apCourse]);
 
-  const effectiveSubject = useMemo((): QuestionSubject => {
+  const effectiveSubject = useMemo((): QuestionSubject | string => {
     if (curriculumType === 'Edexcel') {
-      return edexcelSubject === 'Math' ? 'Mathematics' : 'ELA';
+      // Return full subject name for question bank routing
+      return `Edexcel ${edexcelSubject} ${edexcelStage}`;
     }
     if (curriculumType === 'AP') {
-      return AP_COURSES.find(c => c.value === apCourse)?.subject || 'Mathematics';
+      // Return AP course name for question bank routing
+      return AP_COURSES.find(c => c.value === apCourse)?.label || apCourse;
     }
     return selectedSubject;
-  }, [curriculumType, edexcelSubject, selectedSubject, apCourse]);
+  }, [curriculumType, edexcelSubject, edexcelStage, selectedSubject, apCourse]);
 
   // Get the full Edexcel subject name for display
   const edexcelFullSubject = useMemo((): Subject | null => {

@@ -1,0 +1,1035 @@
+{
+  "metadata": {
+    "subject": "ELA",
+    "gradeLevel": "IG1",
+    "domain": "Edexcel-IGCSE",
+    "domainName": "Edexcel IGCSE English Language IG Stage 1",
+    "lastUpdated": "2026-01-24",
+    "totalQuestions": 50
+  },
+  "questions": [
+    {
+      "id": "edexcel-eng-ig1-001",
+      "bankId": "edexcel-eng-ig1",
+      "text": "Analyse the effect of the writer's use of a minor sentence in: 'The door slammed. Silence.'",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["It shows the writer is lazy", "It creates dramatic impact and emphasises the sudden change", "It is grammatically incorrect", "It indicates dialogue"],
+        "correctAnswer": "It creates dramatic impact and emphasises the sudden change"
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Text Analysis",
+      "difficulty": 3,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.TA1.1"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.TA1.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-002",
+      "bankId": "edexcel-eng-ig1",
+      "text": "The term 'semantic field' refers to:",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["A type of punctuation", "A group of words related to the same topic or theme", "The structure of a sentence", "The font used in writing"],
+        "correctAnswer": "A group of words related to the same topic or theme"
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Text Analysis",
+      "difficulty": 3,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.TA1.2"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.TA1.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-003",
+      "bankId": "edexcel-eng-ig1",
+      "text": "In the context of Paper 1 Section B, 'transactional writing' includes:",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Only creative stories", "Letters, articles, speeches, and reports", "Poetry only", "Drama scripts"],
+        "correctAnswer": "Letters, articles, speeches, and reports"
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Transactional Writing",
+      "difficulty": 2,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.TW1.1"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.TW1.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-004",
+      "bankId": "edexcel-eng-ig1",
+      "text": "When evaluating a text, you should consider the writer's methods AND their effects.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Reading Comprehension",
+      "difficulty": 2,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.RC1.1"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.RC1.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-005",
+      "bankId": "edexcel-eng-ig1",
+      "text": "Anaphora is the repetition of a word or phrase at the beginning of successive clauses.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Text Analysis",
+      "difficulty": 3,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.TA2.1"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.TA2.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-006",
+      "bankId": "edexcel-eng-ig1",
+      "text": "Which technique involves addressing the reader directly?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Third person narration", "Direct address (second person)", "Passive voice", "Reported speech"],
+        "correctAnswer": "Direct address (second person)"
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Transactional Writing",
+      "difficulty": 2,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.TW1.2"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.TW1.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-007",
+      "bankId": "edexcel-eng-ig1",
+      "text": "The word 'perfunctory' means:",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Done with great care and attention", "Carried out with minimal effort or reflection", "Extremely expensive", "Related to perfume"],
+        "correctAnswer": "Carried out with minimal effort or reflection"
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Grammar & Vocabulary",
+      "difficulty": 4,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.GV1.1"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.GV1.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-008",
+      "bankId": "edexcel-eng-ig1",
+      "text": "In imaginative writing, 'zooming in' refers to:",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Using a camera", "Moving from general to specific details", "Writing faster", "Increasing font size"],
+        "correctAnswer": "Moving from general to specific details"
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Imaginative Writing",
+      "difficulty": 2,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.IW1.1"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.IW1.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-009",
+      "bankId": "edexcel-eng-ig1",
+      "text": "Epistrophe is the repetition of words at the END of successive clauses.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Text Analysis",
+      "difficulty": 4,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.TA2.2"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.TA2.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-010",
+      "bankId": "edexcel-eng-ig1",
+      "text": "When comparing two texts, you should analyse them completely separately.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": false
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Reading Comprehension",
+      "difficulty": 2,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.RC2.1"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.RC2.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-011",
+      "bankId": "edexcel-eng-ig1",
+      "text": "The word 'insidious' means:",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Obviously harmful", "Proceeding in a gradual, subtle way but with harmful effects", "Loud and obvious", "Helpful and kind"],
+        "correctAnswer": "Proceeding in a gradual, subtle way but with harmful effects"
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Grammar & Vocabulary",
+      "difficulty": 4,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.GV1.2"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.GV1.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-012",
+      "bankId": "edexcel-eng-ig1",
+      "text": "A speech should be written exactly like an essay.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": false
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Transactional Writing",
+      "difficulty": 2,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.TW2.1"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.TW2.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-013",
+      "bankId": "edexcel-eng-ig1",
+      "text": "Asyndeton is the deliberate omission of conjunctions between words or phrases.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Text Analysis",
+      "difficulty": 4,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.TA3.1"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.TA3.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-014",
+      "bankId": "edexcel-eng-ig1",
+      "text": "Which of the following best creates tension in narrative writing?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Long, flowing sentences throughout", "Short sentences, delayed information, and sensory details", "Telling the reader exactly what will happen", "Using only dialogue"],
+        "correctAnswer": "Short sentences, delayed information, and sensory details"
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Imaginative Writing",
+      "difficulty": 3,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.IW1.2"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.IW1.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-015",
+      "bankId": "edexcel-eng-ig1",
+      "text": "The word 'sycophant' means:",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["A type of elephant", "A person who acts obsequiously to gain advantage", "A musical instrument", "A geometric shape"],
+        "correctAnswer": "A person who acts obsequiously to gain advantage"
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Grammar & Vocabulary",
+      "difficulty": 5,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.GV2.1"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.GV2.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-016",
+      "bankId": "edexcel-eng-ig1",
+      "text": "Polysyndeton uses multiple conjunctions in close succession for effect.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Text Analysis",
+      "difficulty": 4,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.TA3.2"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.TA3.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-017",
+      "bankId": "edexcel-eng-ig1",
+      "text": "When writing an article, the headline should:",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Be as long as possible", "Engage the reader and indicate the topic", "Include the date", "Use only lowercase letters"],
+        "correctAnswer": "Engage the reader and indicate the topic"
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Transactional Writing",
+      "difficulty": 2,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.TW2.2"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.TW2.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-018",
+      "bankId": "edexcel-eng-ig1",
+      "text": "Free indirect discourse blends narrator's voice with character's thoughts.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Text Analysis",
+      "difficulty": 5,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.TA4.1"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.TA4.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-019",
+      "bankId": "edexcel-eng-ig1",
+      "text": "The word 'ubiquitous' means:",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Rare and precious", "Present or appearing everywhere", "Underwater", "Underground"],
+        "correctAnswer": "Present or appearing everywhere"
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Grammar & Vocabulary",
+      "difficulty": 3,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.GV2.2"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.GV2.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-020",
+      "bankId": "edexcel-eng-ig1",
+      "text": "Dual narrative involves telling a story from two different perspectives or time periods.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Imaginative Writing",
+      "difficulty": 3,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.IW2.1"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.IW2.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-021",
+      "bankId": "edexcel-eng-ig1",
+      "text": "Which is an example of litotes?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["She's the best singer ever", "He's not unintelligent", "The thunder roared", "Time flies"],
+        "correctAnswer": "He's not unintelligent"
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Text Analysis",
+      "difficulty": 4,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.TA4.2"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.TA4.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-022",
+      "bankId": "edexcel-eng-ig1",
+      "text": "The word 'obsequious' means:",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Rebellious and defiant", "Obedient or attentive to an excessive degree", "Forgetful", "Extremely loud"],
+        "correctAnswer": "Obedient or attentive to an excessive degree"
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Grammar & Vocabulary",
+      "difficulty": 5,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.GV3.1"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.GV3.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-023",
+      "bankId": "edexcel-eng-ig1",
+      "text": "In a discursive essay, you should present a balanced view of different perspectives.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Transactional Writing",
+      "difficulty": 2,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.TW3.1"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.TW3.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-024",
+      "bankId": "edexcel-eng-ig1",
+      "text": "Bathos is an unintentional descent from the elevated to the ridiculous.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Text Analysis",
+      "difficulty": 5,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.TA5.1"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.TA5.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-025",
+      "bankId": "edexcel-eng-ig1",
+      "text": "An epiphany in narrative writing is:",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["The opening scene", "A sudden moment of realisation or insight", "The climax of action", "A type of dialogue"],
+        "correctAnswer": "A sudden moment of realisation or insight"
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Imaginative Writing",
+      "difficulty": 3,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.IW2.2"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.IW2.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-026",
+      "bankId": "edexcel-eng-ig1",
+      "text": "The word 'equivocal' means:",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Absolutely certain", "Open to more than one interpretation; ambiguous", "Equal in value", "Related to horses"],
+        "correctAnswer": "Open to more than one interpretation; ambiguous"
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Grammar & Vocabulary",
+      "difficulty": 4,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.GV3.2"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.GV3.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-027",
+      "bankId": "edexcel-eng-ig1",
+      "text": "When inferring meaning, you must base your interpretation on evidence from the text.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Reading Comprehension",
+      "difficulty": 2,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.RC2.2"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.RC2.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-028",
+      "bankId": "edexcel-eng-ig1",
+      "text": "Zeugma uses one word to govern or modify two or more words in different ways.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Text Analysis",
+      "difficulty": 5,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.TA5.2"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.TA5.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-029",
+      "bankId": "edexcel-eng-ig1",
+      "text": "A well-structured argument should address and refute counterarguments.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Transactional Writing",
+      "difficulty": 3,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.TW3.2"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.TW3.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-030",
+      "bankId": "edexcel-eng-ig1",
+      "text": "The word 'vicarious' means:",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Done in a cruel manner", "Experienced through another person's actions", "Related to victory", "Extremely rare"],
+        "correctAnswer": "Experienced through another person's actions"
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Grammar & Vocabulary",
+      "difficulty": 4,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.GV4.1"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.GV4.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-031",
+      "bankId": "edexcel-eng-ig1",
+      "text": "Shifting perspective within a narrative can create dramatic irony.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Imaginative Writing",
+      "difficulty": 3,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.IW3.1"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.IW3.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-032",
+      "bankId": "edexcel-eng-ig1",
+      "text": "Which technique involves attributing human emotions to nature?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Simile", "Pathetic fallacy", "Alliteration", "Onomatopoeia"],
+        "correctAnswer": "Pathetic fallacy"
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Text Analysis",
+      "difficulty": 3,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.TA6.1"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.TA6.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-033",
+      "bankId": "edexcel-eng-ig1",
+      "text": "The word 'pernicious' means:",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Beneficial and helpful", "Having a harmful effect, especially gradually", "Very precise", "Extremely beautiful"],
+        "correctAnswer": "Having a harmful effect, especially gradually"
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Grammar & Vocabulary",
+      "difficulty": 5,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.GV4.2"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.GV4.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-034",
+      "bankId": "edexcel-eng-ig1",
+      "text": "Ethos, pathos, and logos are the three modes of persuasion.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Transactional Writing",
+      "difficulty": 3,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.TW4.1"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.TW4.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-035",
+      "bankId": "edexcel-eng-ig1",
+      "text": "A frame narrative is a story within a story.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Imaginative Writing",
+      "difficulty": 3,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.IW3.2"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.IW3.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-036",
+      "bankId": "edexcel-eng-ig1",
+      "text": "The word 'inexorable' means:",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Easy to change", "Impossible to stop or prevent", "Very small", "Extremely complex"],
+        "correctAnswer": "Impossible to stop or prevent"
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Grammar & Vocabulary",
+      "difficulty": 4,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.GV5.1"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.GV5.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-037",
+      "bankId": "edexcel-eng-ig1",
+      "text": "Chiasmus reverses the grammatical structure in successive phrases.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Text Analysis",
+      "difficulty": 5,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.TA6.2"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.TA6.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-038",
+      "bankId": "edexcel-eng-ig1",
+      "text": "Evaluating a text requires you to make judgements about its effectiveness.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Reading Comprehension",
+      "difficulty": 2,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.RC3.1"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.RC3.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-039",
+      "bankId": "edexcel-eng-ig1",
+      "text": "The word 'laconic' means:",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Very talkative", "Using very few words", "Related to lakes", "Extremely slow"],
+        "correctAnswer": "Using very few words"
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Grammar & Vocabulary",
+      "difficulty": 4,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.GV5.2"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.GV5.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-040",
+      "bankId": "edexcel-eng-ig1",
+      "text": "Pathos appeals to the audience's emotions.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Transactional Writing",
+      "difficulty": 2,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.TW4.2"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.TW4.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-041",
+      "bankId": "edexcel-eng-ig1",
+      "text": "Prolepsis (flash-forward) shows events that will occur later in the narrative.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Imaginative Writing",
+      "difficulty": 4,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.IW4.1"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.IW4.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-042",
+      "bankId": "edexcel-eng-ig1",
+      "text": "The word 'didactic' means:",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Entertaining and amusing", "Intended to teach or instruct, especially morally", "Very quiet", "Extremely colourful"],
+        "correctAnswer": "Intended to teach or instruct, especially morally"
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Grammar & Vocabulary",
+      "difficulty": 4,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.GV6.1"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.GV6.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-043",
+      "bankId": "edexcel-eng-ig1",
+      "text": "When synthesising from two texts, you should identify both similarities and differences.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Reading Comprehension",
+      "difficulty": 3,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.RC3.2"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.RC3.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-044",
+      "bankId": "edexcel-eng-ig1",
+      "text": "Logos appeals to logic and reason.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Transactional Writing",
+      "difficulty": 2,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.TW5.1"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.TW5.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-045",
+      "bankId": "edexcel-eng-ig1",
+      "text": "The word 'sanguine' means:",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Pessimistic and gloomy", "Optimistic and positive", "Related to blood only", "Very old"],
+        "correctAnswer": "Optimistic and positive"
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Grammar & Vocabulary",
+      "difficulty": 4,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.GV6.2"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.GV6.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-046",
+      "bankId": "edexcel-eng-ig1",
+      "text": "Stream of consciousness mimics the natural flow of thoughts.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Imaginative Writing",
+      "difficulty": 3,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.IW4.2"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.IW4.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-047",
+      "bankId": "edexcel-eng-ig1",
+      "text": "Euphemism replaces harsh or direct language with milder expressions.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Text Analysis",
+      "difficulty": 3,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.TA7.1"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.TA7.1",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-048",
+      "bankId": "edexcel-eng-ig1",
+      "text": "The word 'taciturn' means:",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Very talkative", "Reserved or uncommunicative in speech", "Quick to anger", "Extremely happy"],
+        "correctAnswer": "Reserved or uncommunicative in speech"
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Grammar & Vocabulary",
+      "difficulty": 4,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.GV6.3"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.GV6.3",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-049",
+      "bankId": "edexcel-eng-ig1",
+      "text": "Ethos establishes the writer's credibility and authority.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Transactional Writing",
+      "difficulty": 2,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.TW5.2"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.TW5.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    },
+    {
+      "id": "edexcel-eng-ig1-050",
+      "bankId": "edexcel-eng-ig1",
+      "text": "Dysphemism uses harsh or offensive terms instead of neutral ones.",
+      "format": "true_false",
+      "questionOptions": {
+        "correctAnswer": true
+      },
+      "subject": "ELA",
+      "gradeLevel": "IG1",
+      "strand": "Text Analysis",
+      "difficulty": 4,
+      "ccssStandards": ["EDEXCEL.ENG.IG1.TA7.2"],
+      "primaryStandard": "EDEXCEL.ENG.IG1.TA7.2",
+      "source": "static",
+      "reviewStatus": "approved",
+      "timesUsed": 0,
+      "correctRate": 0,
+      "averageTimeSeconds": 0
+    }
+  ]
+}
