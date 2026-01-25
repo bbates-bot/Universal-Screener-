@@ -18,26 +18,26 @@ describe('AnalyticsContext', () => {
     it('provides initial state values', () => {
       const { result } = renderHook(() => useAnalytics(), { wrapper });
 
-      expect(result.current.state.filters.curriculum).toBe('US_COMMON_CORE_AP');
+      expect(result.current.state.filters.curriculum).toBe('EDEXCEL_INTERNATIONAL');
       expect(result.current.state.filters.schools).toEqual([]);
       expect(result.current.state.filters.grades).toEqual([]);
       expect(result.current.state.filters.subjects).toEqual([]);
       expect(result.current.state.filters.searchQuery).toBe('');
       expect(result.current.state.selectedStudentId).toBeNull();
-      expect(result.current.state.viewMode).toBe('overview');
+      expect(result.current.state.viewMode).toBe('school-wide');
     });
 
     it('provides initial pagination state', () => {
       const { result } = renderHook(() => useAnalytics(), { wrapper });
 
       expect(result.current.state.pagination.currentPage).toBe(1);
-      expect(result.current.state.pagination.pageSize).toBe(10);
+      expect(result.current.state.pagination.pageSize).toBe(20);
     });
 
     it('provides initial sort state', () => {
       const { result } = renderHook(() => useAnalytics(), { wrapper });
 
-      expect(result.current.state.sort.column).toBe('name');
+      expect(result.current.state.sort.column).toBe('lastName');
       expect(result.current.state.sort.direction).toBe('asc');
     });
   });
@@ -57,7 +57,7 @@ describe('AnalyticsContext', () => {
       const { result } = renderHook(() => useAnalytics(), { wrapper });
 
       act(() => {
-        result.current.actions.setSchools(['school-1', 'school-2']);
+        result.current.actions.setFilters({ schools: ['school-1', 'school-2'] });
       });
 
       expect(result.current.state.filters.schools).toEqual(['school-1', 'school-2']);
@@ -67,7 +67,7 @@ describe('AnalyticsContext', () => {
       const { result } = renderHook(() => useAnalytics(), { wrapper });
 
       act(() => {
-        result.current.actions.setGrades(['6', '7', '8']);
+        result.current.actions.setFilters({ grades: ['6', '7', '8'] });
       });
 
       expect(result.current.state.filters.grades).toEqual(['6', '7', '8']);
@@ -77,7 +77,7 @@ describe('AnalyticsContext', () => {
       const { result } = renderHook(() => useAnalytics(), { wrapper });
 
       act(() => {
-        result.current.actions.setSubjects(['math', 'ela']);
+        result.current.actions.setFilters({ subjects: ['math', 'ela'] });
       });
 
       expect(result.current.state.filters.subjects).toEqual(['math', 'ela']);
@@ -87,7 +87,7 @@ describe('AnalyticsContext', () => {
       const { result } = renderHook(() => useAnalytics(), { wrapper });
 
       act(() => {
-        result.current.actions.setSearchQuery('alice');
+        result.current.actions.setFilters({ searchQuery: 'alice' });
       });
 
       expect(result.current.state.filters.searchQuery).toBe('alice');
@@ -98,9 +98,11 @@ describe('AnalyticsContext', () => {
 
       // Set some filters
       act(() => {
-        result.current.actions.setSchools(['school-1']);
-        result.current.actions.setGrades(['6']);
-        result.current.actions.setSearchQuery('test');
+        result.current.actions.setFilters({
+          schools: ['school-1'],
+          grades: ['6'],
+          searchQuery: 'test',
+        });
       });
 
       // Reset
@@ -138,7 +140,7 @@ describe('AnalyticsContext', () => {
       });
 
       expect(result.current.state.selectedStudentId).toBeNull();
-      expect(result.current.state.viewMode).toBe('overview');
+      expect(result.current.state.viewMode).toBe('school-wide');
     });
   });
 

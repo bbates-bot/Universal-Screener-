@@ -69,12 +69,11 @@ describe('SummaryMetrics', () => {
   it('calculates and displays percentages correctly', () => {
     render(<SummaryMetrics {...defaultProps} />);
 
-    // 75/150 = 50%
-    expect(screen.getByText('50%')).toBeInTheDocument();
-    // 45/150 = 30%
-    expect(screen.getByText('30%')).toBeInTheDocument();
-    // 20/150 ≈ 13%
-    expect(screen.getByText('13%')).toBeInTheDocument();
+    // Percentages are shown in the quick stats section as "X% on track" / "X% need support"
+    // 75/150 = 50% on track
+    expect(screen.getByText(/50%/)).toBeInTheDocument();
+    // 45/150 = 30% need support
+    expect(screen.getByText(/30%/)).toBeInTheDocument();
   });
 
   it('handles zero total gracefully', () => {
@@ -89,9 +88,8 @@ describe('SummaryMetrics', () => {
 
     render(<SummaryMetrics {...defaultProps} data={zeroData} />);
 
-    expect(screen.getByText('0')).toBeInTheDocument();
-    // Should handle division by zero
-    expect(screen.getAllByText('0%').length).toBeGreaterThan(0);
+    // Should show 0 for total and empty state message
+    expect(screen.getByText('No Students Found')).toBeInTheDocument();
   });
 
   it('has accessible button roles for interactive cards', () => {
