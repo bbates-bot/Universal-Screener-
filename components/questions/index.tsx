@@ -30,25 +30,33 @@ export const QuestionRenderer: React.FC<QuestionRendererProps> = ({
 
   const handleMultipleChoiceSelect = (choice: string) => {
     if (answered) return;
-
     setSelectedAnswer(choice);
+  };
+
+  const handleMultipleChoiceSubmit = () => {
+    if (answered || selectedAnswer === null) return;
+
     setAnswered(true);
 
     if (isMultipleChoiceOptions(question.questionOptions)) {
-      const isCorrect = choice === question.questionOptions.correctAnswer;
-      onAnswer(choice, isCorrect);
+      const isCorrect = selectedAnswer === question.questionOptions.correctAnswer;
+      onAnswer(selectedAnswer, isCorrect);
     }
   };
 
   const handleTrueFalseSelect = (value: boolean) => {
     if (answered) return;
-
     setSelectedAnswer(value);
+  };
+
+  const handleTrueFalseSubmit = () => {
+    if (answered || selectedAnswer === null) return;
+
     setAnswered(true);
 
     if (isTrueFalseOptions(question.questionOptions)) {
-      const isCorrect = value === question.questionOptions.correctAnswer;
-      onAnswer(value, isCorrect);
+      const isCorrect = selectedAnswer === question.questionOptions.correctAnswer;
+      onAnswer(selectedAnswer, isCorrect);
     }
   };
 
@@ -149,6 +157,16 @@ export const QuestionRenderer: React.FC<QuestionRendererProps> = ({
               );
             })}
           </div>
+          {!answered && selectedAnswer !== null && (
+            <div className="flex justify-end">
+              <button
+                onClick={handleMultipleChoiceSubmit}
+                className="px-8 py-3 bg-blue-600 text-white rounded-xl font-bold text-lg hover:bg-blue-700 transition-colors"
+              >
+                Submit
+              </button>
+            </div>
+          )}
         </div>
       </div>
     );
@@ -187,6 +205,16 @@ export const QuestionRenderer: React.FC<QuestionRendererProps> = ({
               );
             })}
           </div>
+          {!answered && selectedAnswer !== null && (
+            <div className="flex justify-end">
+              <button
+                onClick={handleTrueFalseSubmit}
+                className="px-8 py-3 bg-blue-600 text-white rounded-xl font-bold text-lg hover:bg-blue-700 transition-colors"
+              >
+                Submit
+              </button>
+            </div>
+          )}
         </div>
       </div>
     );
@@ -230,12 +258,14 @@ export const QuestionRenderer: React.FC<QuestionRendererProps> = ({
           </div>
 
           {!answered && Object.keys(matchingSelections).length === leftItems.length && (
-            <button
-              onClick={handleMatchingComplete}
-              className="w-full py-4 bg-blue-600 text-white rounded-xl font-bold text-lg hover:bg-blue-700 transition-colors"
-            >
-              Submit Answer
-            </button>
+            <div className="flex justify-end">
+              <button
+                onClick={handleMatchingComplete}
+                className="px-8 py-3 bg-blue-600 text-white rounded-xl font-bold text-lg hover:bg-blue-700 transition-colors"
+              >
+                Submit
+              </button>
+            </div>
           )}
         </div>
       </div>
@@ -301,12 +331,14 @@ export const QuestionRenderer: React.FC<QuestionRendererProps> = ({
           </div>
 
           {!answered && Object.keys(dragDropPlacements).length === draggableItems.length && (
-            <button
-              onClick={handleDragDropComplete}
-              className="w-full py-4 bg-blue-600 text-white rounded-xl font-bold text-lg hover:bg-blue-700 transition-colors"
-            >
-              Submit Answer
-            </button>
+            <div className="flex justify-end">
+              <button
+                onClick={handleDragDropComplete}
+                className="px-8 py-3 bg-blue-600 text-white rounded-xl font-bold text-lg hover:bg-blue-700 transition-colors"
+              >
+                Submit
+              </button>
+            </div>
           )}
         </div>
       </div>

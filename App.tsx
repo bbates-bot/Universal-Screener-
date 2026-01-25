@@ -121,12 +121,21 @@ const AppContent: React.FC = () => {
     'Edexcel English Pre-IG1', 'Edexcel English Pre-IG2', 'Edexcel English IG1', 'Edexcel English IG2'
   ];
 
-  // All screener results for Student Analytics (includes both CCSS/General AND Edexcel)
+  // All screener results for Student Analytics (includes CCSS/General, AP, AND Edexcel)
   const screenerResults = useMemo(() => {
-    return results.filter(r =>
-      GENERAL_SUBJECTS_LIST.includes(r.subject) ||
-      EDEXCEL_SUBJECTS_LIST.includes(r.subject)
-    );
+    return results.filter(r => {
+      // Check exact matches first
+      if (GENERAL_SUBJECTS_LIST.includes(r.subject) ||
+          AP_SUBJECTS_LIST.includes(r.subject) ||
+          EDEXCEL_SUBJECTS_LIST.includes(r.subject)) {
+        return true;
+      }
+      // Also include any AP subjects (handles legacy naming like "AP Pre-Calculus")
+      if (r.subject.startsWith('AP ')) {
+        return true;
+      }
+      return false;
+    });
   }, [results]);
 
   const handleCompleteScreener = async (newResult: StudentResult) => {

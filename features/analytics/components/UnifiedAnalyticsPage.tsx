@@ -105,8 +105,13 @@ const UnifiedAnalyticsContent: React.FC<UnifiedAnalyticsPageProps> = ({
 
       // Filter by subject if specified
       if (filters.subjects.length > 0) {
-        const subjectId = result.subject.toLowerCase().replace(/\s+/g, '-');
-        if (!filters.subjects.some((s) => s.includes(subjectId) || subjectId.includes(s))) {
+        // Normalize subject for comparison (remove hyphens, spaces, lowercase)
+        const normalizeSubject = (s: string) => s.toLowerCase().replace(/[-\s]+/g, '');
+        const normalizedResultSubject = normalizeSubject(result.subject);
+        if (!filters.subjects.some((s) => {
+          const normalizedFilter = normalizeSubject(s);
+          return normalizedResultSubject.includes(normalizedFilter) || normalizedFilter.includes(normalizedResultSubject);
+        })) {
           return false;
         }
       }

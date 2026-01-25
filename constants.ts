@@ -4,7 +4,7 @@ export const GRADES = ['K', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '
 
 // Advanced Placement (AP) course options
 export const AP_COURSES = [
-  'AP Pre-Calculus',
+  'AP Precalculus',
   'AP Calculus AB',
   'AP Calculus BC',
   'AP Statistics',
@@ -19,7 +19,7 @@ export const ALL_SUBJECTS = [
   'Reading',
   'Reading Comprehension',
   'ELA',
-  'AP Pre-Calculus',
+  'AP Precalculus',
   'AP Statistics',
   'AP Macroeconomics'
 ];
