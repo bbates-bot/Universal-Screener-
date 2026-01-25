@@ -236,8 +236,17 @@ export const loadAllQuestionsForGrade = async (
       }
     }
   } else if (subject === 'Reading' || subject === 'Reading Foundations' || subject === 'Reading Comprehension' || subject === 'ELA') {
-    // ELA uses reading question bank since they cover similar skills
-    const domains = READING_DOMAINS[gradeOrStage] || READING_DOMAINS[gradeOrStage.toLowerCase()];
+    // Determine which domains to load based on subject
+    let domains: string[] | undefined;
+
+    if (subject === 'Reading Comprehension') {
+      // Reading Comprehension only loads 'rc' domain
+      domains = ['rc'];
+    } else {
+      // Other reading/ELA subjects load all available domains for the grade
+      domains = READING_DOMAINS[gradeOrStage] || READING_DOMAINS[gradeOrStage.toLowerCase()];
+    }
+
     if (domains) {
       for (const domain of domains) {
         const path = `/data/question-bank/reading/${gradeOrStage.toLowerCase()}/${domain}.json`;

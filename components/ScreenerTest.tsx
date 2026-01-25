@@ -195,6 +195,7 @@ const ScreenerTest: React.FC<ScreenerTestProps> = ({
   // Map subject to QuestionSubject
   const getQuestionSubject = useCallback(() => {
     if (subject === 'Math') return 'Mathematics';
+    if (subject === 'Reading Comprehension') return 'Reading Comprehension';
     if (subject.includes('Reading')) return 'Reading';
     if (subject === 'ELA') return 'ELA';
     // AP subjects - preserve original name for question bank routing
