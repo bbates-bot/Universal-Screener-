@@ -13,6 +13,7 @@ import React, {
   useEffect,
 } from 'react';
 import { CurriculumSystem } from '../../../types/curriculum';
+import { useCurriculum } from '../../../contexts/CurriculumContext';
 import {
   AnalyticsState,
   AnalyticsContextValue,
@@ -29,7 +30,7 @@ import {
 // ============================================
 
 const initialFilters: FilterState = {
-  curriculum: 'EDEXCEL_INTERNATIONAL',
+  curriculum: 'US_COMMON_CORE_AP', // Will be synced with global CurriculumContext
   schools: [],
   grades: [],
   subjects: [],
@@ -274,16 +275,20 @@ interface AnalyticsProviderProps {
 }
 
 export function AnalyticsProvider({ children }: AnalyticsProviderProps) {
+  // Get global curriculum from CurriculumContext
+  const { currentSystem: globalCurriculum } = useCurriculum();
+
   // Initialize state with URL params or localStorage
   const getInitialState = (): AnalyticsState => {
     const urlFilters = getFiltersFromURL();
     const storedFilters = getFiltersFromStorage();
 
-    // URL params take precedence over localStorage
+    // URL params take precedence over localStorage, global curriculum takes highest precedence
     const mergedFilters = {
       ...initialFilters,
       ...storedFilters,
       ...urlFilters,
+      curriculum: globalCurriculum, // Always sync with global curriculum
     };
 
     return {
@@ -293,6 +298,13 @@ export function AnalyticsProvider({ children }: AnalyticsProviderProps) {
   };
 
   const [state, dispatch] = useReducer(analyticsReducer, undefined, getInitialState);
+
+  // Sync with global curriculum context when it changes
+  useEffect(() => {
+    if (state.filters.curriculum !== globalCurriculum) {
+      dispatch({ type: 'SET_CURRICULUM', payload: globalCurriculum });
+    }
+  }, [globalCurriculum, state.filters.curriculum]);
 
   // Sync filters to URL and localStorage
   useEffect(() => {

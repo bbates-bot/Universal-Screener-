@@ -7,18 +7,22 @@ import { render, screen, act } from '@testing-library/react';
 import { renderHook } from '@testing-library/react';
 import { describe, it, expect, vi } from 'vitest';
 import { AnalyticsProvider, useAnalytics } from '../context';
+import { CurriculumProvider } from '../../../contexts/CurriculumContext';
 import { CurriculumSystem } from '../types';
 
 describe('AnalyticsContext', () => {
   const wrapper: React.FC<{ children: React.ReactNode }> = ({ children }) => (
-    <AnalyticsProvider>{children}</AnalyticsProvider>
+    <CurriculumProvider>
+      <AnalyticsProvider>{children}</AnalyticsProvider>
+    </CurriculumProvider>
   );
 
   describe('Initial State', () => {
     it('provides initial state values', () => {
       const { result } = renderHook(() => useAnalytics(), { wrapper });
 
-      expect(result.current.state.filters.curriculum).toBe('EDEXCEL_INTERNATIONAL');
+      // Curriculum syncs with global CurriculumContext (default is US_COMMON_CORE_AP)
+      expect(result.current.state.filters.curriculum).toBe('US_COMMON_CORE_AP');
       expect(result.current.state.filters.schools).toEqual([]);
       expect(result.current.state.filters.grades).toEqual([]);
       expect(result.current.state.filters.subjects).toEqual([]);
@@ -43,14 +47,12 @@ describe('AnalyticsContext', () => {
   });
 
   describe('Filter Actions', () => {
-    it('updates curriculum filter', () => {
+    it('syncs curriculum with global context', () => {
       const { result } = renderHook(() => useAnalytics(), { wrapper });
 
-      act(() => {
-        result.current.actions.setCurriculum('EDEXCEL_INTERNATIONAL' as CurriculumSystem);
-      });
-
-      expect(result.current.state.filters.curriculum).toBe('EDEXCEL_INTERNATIONAL');
+      // Curriculum is synced from global CurriculumContext
+      // Default is US_COMMON_CORE_AP from curriculumConfigs
+      expect(result.current.state.filters.curriculum).toBe('US_COMMON_CORE_AP');
     });
 
     it('updates schools filter', () => {

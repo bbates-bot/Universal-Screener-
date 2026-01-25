@@ -6,6 +6,7 @@
 import React, { ReactElement } from 'react';
 import { render, RenderOptions } from '@testing-library/react';
 import { AnalyticsProvider } from '../context';
+import { CurriculumProvider } from '../../../contexts/CurriculumContext';
 import {
   SummaryData,
   ReadinessDistribution,
@@ -198,7 +199,11 @@ export const renderWithProviders = (
   options?: CustomRenderOptions
 ) => {
   const Wrapper: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-    return <AnalyticsProvider>{children}</AnalyticsProvider>;
+    return (
+      <CurriculumProvider>
+        <AnalyticsProvider>{children}</AnalyticsProvider>
+      </CurriculumProvider>
+    );
   };
 
   return render(ui, { wrapper: Wrapper, ...options });

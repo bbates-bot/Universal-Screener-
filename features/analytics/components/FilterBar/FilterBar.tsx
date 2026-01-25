@@ -5,7 +5,6 @@
  */
 
 import React, { useId } from 'react';
-import { CurriculumSelector } from './CurriculumSelector';
 import { FilterDropdown } from './FilterDropdown';
 import { StudentSearch } from './StudentSearch';
 import { useAnalyticsFilters } from '../../hooks/useAnalyticsFilters';
@@ -24,10 +23,8 @@ export const FilterBar: React.FC<FilterBarProps> = ({
   const {
     filters,
     gradeLevelLabel,
-    curriculumOptions,
     gradeOptions,
     subjectOptions,
-    handleCurriculumChange,
     handleSchoolChange,
     handleGradeChange,
     handleSubjectChange,
@@ -67,47 +64,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
       aria-label="Filter students"
       id={filterBarId}
     >
-      {/* Top Row: Curriculum Selector */}
-      <div className="flex flex-wrap items-center justify-between gap-4 mb-4 pb-4 border-b border-slate-100">
-        <CurriculumSelector
-          value={filters.curriculum}
-          onChange={handleCurriculumChange}
-        />
-
-        {/* Reset Filters Button */}
-        {hasActiveFilters && (
-          <button
-            type="button"
-            onClick={handleResetFilters}
-            className="
-              flex items-center gap-1.5 px-3 py-1.5
-              text-xs font-bold text-slate-500
-              hover:text-rose-600 hover:bg-rose-50
-              rounded-lg transition-colors
-              focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-1
-            "
-            aria-label={`Reset all filters. Currently ${activeFilterCount} filter${activeFilterCount !== 1 ? 's' : ''} active.`}
-          >
-            <svg
-              className="w-4 h-4"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              aria-hidden="true"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
-              />
-            </svg>
-            Reset Filters
-          </button>
-        )}
-      </div>
-
-      {/* Main Filter Row */}
+      {/* Filter Row */}
       <div className="flex flex-wrap gap-4 items-end">
         {/* School Filter */}
         <FilterDropdown
@@ -217,6 +174,36 @@ export const FilterBar: React.FC<FilterBarProps> = ({
                 onRemove={() => handleSearchChange('')}
               />
             )}
+
+            {/* Reset all button */}
+            <button
+              type="button"
+              onClick={handleResetFilters}
+              className="
+                flex items-center gap-1 px-2 py-1
+                text-xs font-medium text-slate-500
+                hover:text-rose-600 hover:bg-rose-50
+                rounded-lg transition-colors
+                focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-1
+              "
+              aria-label={`Reset all filters. Currently ${activeFilterCount} filter${activeFilterCount !== 1 ? 's' : ''} active.`}
+            >
+              <svg
+                className="w-3 h-3"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+              Clear All
+            </button>
           </div>
         </div>
       )}
