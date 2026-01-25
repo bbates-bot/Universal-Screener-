@@ -372,19 +372,25 @@ const UnifiedAnalyticsContent: React.FC<UnifiedAnalyticsPageProps> = ({
     const screenerData = latestResult ? {
       subject: latestResult.subject,
       testDate: latestResult.testDate,
-      overallScore: latestResult.totalCorrect,
-      maxScore: latestResult.totalQuestions,
-      overallPercentage: Math.round((latestResult.totalCorrect / latestResult.totalQuestions) * 100),
+      overallScore: latestResult.totalCorrect || 0,
+      maxScore: latestResult.totalQuestions || 1,
+      overallPercentage: latestResult.totalCorrect && latestResult.totalQuestions
+        ? Math.round((latestResult.totalCorrect / latestResult.totalQuestions) * 100)
+        : 0,
       domains: latestResult.domains?.map((d: any) => ({
         domain: d.name || d.domain,
-        score: d.correct || d.score,
-        maxScore: d.total || d.maxScore,
-        percentage: Math.round(((d.correct || d.score) / (d.total || d.maxScore)) * 100),
+        score: d.correct || d.score || 0,
+        maxScore: d.total || d.maxScore || 1,
+        percentage: (d.correct || d.score) && (d.total || d.maxScore)
+          ? Math.round(((d.correct || d.score) / (d.total || d.maxScore)) * 100)
+          : 0,
         level: d.level === ScreenerLevel.ON_ABOVE ? 'on-or-above' as GradeCategory :
                d.level === ScreenerLevel.BELOW ? 'below' as GradeCategory :
                d.level === ScreenerLevel.FAR_BELOW ? 'far-below' as GradeCategory :
                'non-applicable' as GradeCategory,
       })) || [],
+      masteredStandards: (latestResult as any).masteredObjectives || [],
+      gapStandards: (latestResult as any).gapObjectives || [],
     } : null;
 
     // Determine if student has AP or IGCSE assessments assigned

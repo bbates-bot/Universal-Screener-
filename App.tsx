@@ -203,6 +203,15 @@ const AppContent: React.FC = () => {
     return currentStudent?.assignedAssessments?.filter(a => a.type === 'Edexcel IGCSE') || [];
   }, [currentStudent]);
 
+  // Check if a student has already completed a specific assessment
+  const isTestCompleted = (subject: Subject): boolean => {
+    if (!currentStudent) return false;
+    return results.some(r =>
+      (r.studentId === currentStudent.id || r.username === currentStudent.username) &&
+      r.subject === subject
+    );
+  };
+
   const canSeeDashboard = role === UserRole.ADMIN || role === UserRole.TEACHER;
   const canSeeSchools = role === UserRole.ADMIN;
   const canSeeStudents = true;
@@ -386,17 +395,35 @@ const AppContent: React.FC = () => {
                               <div className="space-y-3">
                                 <p className="text-[10px] font-black text-slate-300 uppercase tracking-widest">General Assessment</p>
                                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                                  {assignedGeneral.map(a => (
-                                    <button
-                                      key={a.subject}
-                                      onClick={() => setSelectedSubject(a.subject)}
-                                      className={`p-4 rounded-2xl border-2 text-left transition-all ${selectedSubject === a.subject ? 'shadow-md ring-2' : 'border-slate-50 bg-white hover:border-slate-200 shadow-sm'}`}
-                                      style={selectedSubject === a.subject ? { borderColor: COMPASS_COLORS.navyDark, backgroundColor: `${COMPASS_COLORS.blueMid}10`, ringColor: `${COMPASS_COLORS.blueMid}20` } : {}}
-                                    >
-                                      <p className="font-bold" style={{ color: selectedSubject === a.subject ? COMPASS_COLORS.navyDark : '#334155' }}>{a.subject}</p>
-                                      <p className="text-xs text-slate-400">Universal Screener</p>
-                                    </button>
-                                  ))}
+                                  {assignedGeneral.map(a => {
+                                    const completed = isTestCompleted(a.subject);
+                                    return (
+                                      <button
+                                        key={a.subject}
+                                        onClick={() => !completed && setSelectedSubject(a.subject)}
+                                        disabled={completed}
+                                        className={`p-4 rounded-2xl border-2 text-left transition-all ${
+                                          completed
+                                            ? 'border-slate-100 bg-slate-50 cursor-not-allowed opacity-60'
+                                            : selectedSubject === a.subject
+                                              ? 'shadow-md ring-2'
+                                              : 'border-slate-50 bg-white hover:border-slate-200 shadow-sm'
+                                        }`}
+                                        style={!completed && selectedSubject === a.subject ? { borderColor: COMPASS_COLORS.navyDark, backgroundColor: `${COMPASS_COLORS.blueMid}10`, ringColor: `${COMPASS_COLORS.blueMid}20` } : {}}
+                                      >
+                                        <div className="flex items-center justify-between">
+                                          <p className="font-bold" style={{ color: completed ? '#94a3b8' : selectedSubject === a.subject ? COMPASS_COLORS.navyDark : '#334155' }}>{a.subject}</p>
+                                          {completed && (
+                                            <span className="flex items-center text-emerald-600 text-xs font-bold">
+                                              <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
+                                              Done
+                                            </span>
+                                          )}
+                                        </div>
+                                        <p className="text-xs text-slate-400">{completed ? 'Completed' : 'Universal Screener'}</p>
+                                      </button>
+                                    );
+                                  })}
                                 </div>
                               </div>
                             )}
@@ -405,17 +432,35 @@ const AppContent: React.FC = () => {
                               <div className="space-y-3">
                                 <p className="text-[10px] font-black uppercase tracking-widest" style={{ color: COMPASS_COLORS.yellow }}>AP Prerequisite Screening</p>
                                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                                  {assignedAP.map(a => (
-                                    <button
-                                      key={a.subject}
-                                      onClick={() => setSelectedSubject(a.subject)}
-                                      className={`p-4 rounded-2xl border-2 text-left transition-all ${selectedSubject === a.subject ? 'shadow-md ring-2' : 'border-slate-50 bg-white hover:border-slate-200 shadow-sm'}`}
-                                      style={selectedSubject === a.subject ? { borderColor: COMPASS_COLORS.navyDark, backgroundColor: `${COMPASS_COLORS.blueMid}10` } : {}}
-                                    >
-                                      <p className="font-bold" style={{ color: selectedSubject === a.subject ? COMPASS_COLORS.navyDark : '#334155' }}>{a.subject}</p>
-                                      <p className="text-xs text-slate-400">Readiness Evaluation</p>
-                                    </button>
-                                  ))}
+                                  {assignedAP.map(a => {
+                                    const completed = isTestCompleted(a.subject);
+                                    return (
+                                      <button
+                                        key={a.subject}
+                                        onClick={() => !completed && setSelectedSubject(a.subject)}
+                                        disabled={completed}
+                                        className={`p-4 rounded-2xl border-2 text-left transition-all ${
+                                          completed
+                                            ? 'border-slate-100 bg-slate-50 cursor-not-allowed opacity-60'
+                                            : selectedSubject === a.subject
+                                              ? 'shadow-md ring-2'
+                                              : 'border-slate-50 bg-white hover:border-slate-200 shadow-sm'
+                                        }`}
+                                        style={!completed && selectedSubject === a.subject ? { borderColor: COMPASS_COLORS.navyDark, backgroundColor: `${COMPASS_COLORS.blueMid}10` } : {}}
+                                      >
+                                        <div className="flex items-center justify-between">
+                                          <p className="font-bold" style={{ color: completed ? '#94a3b8' : selectedSubject === a.subject ? COMPASS_COLORS.navyDark : '#334155' }}>{a.subject}</p>
+                                          {completed && (
+                                            <span className="flex items-center text-emerald-600 text-xs font-bold">
+                                              <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
+                                              Done
+                                            </span>
+                                          )}
+                                        </div>
+                                        <p className="text-xs text-slate-400">{completed ? 'Completed' : 'Readiness Evaluation'}</p>
+                                      </button>
+                                    );
+                                  })}
                                 </div>
                               </div>
                             )}
@@ -425,16 +470,34 @@ const AppContent: React.FC = () => {
                               <div className="space-y-3">
                                 <p className="text-[10px] font-black text-purple-300 uppercase tracking-widest">Edexcel IGCSE Screening</p>
                                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                                  {assignedEdexcel.map(a => (
-                                    <button
-                                      key={a.subject}
-                                      onClick={() => setSelectedSubject(a.subject)}
-                                      className={`p-4 rounded-2xl border-2 text-left transition-all ${selectedSubject === a.subject ? 'border-purple-600 bg-purple-50 shadow-md ring-2 ring-purple-100' : 'border-slate-50 bg-white hover:border-slate-200 shadow-sm'}`}
-                                    >
-                                      <p className={`font-bold ${selectedSubject === a.subject ? 'text-purple-800' : 'text-slate-700'}`}>{a.subject}</p>
-                                      <p className="text-xs text-slate-400">IGCSE Readiness</p>
-                                    </button>
-                                  ))}
+                                  {assignedEdexcel.map(a => {
+                                    const completed = isTestCompleted(a.subject);
+                                    return (
+                                      <button
+                                        key={a.subject}
+                                        onClick={() => !completed && setSelectedSubject(a.subject)}
+                                        disabled={completed}
+                                        className={`p-4 rounded-2xl border-2 text-left transition-all ${
+                                          completed
+                                            ? 'border-slate-100 bg-slate-50 cursor-not-allowed opacity-60'
+                                            : selectedSubject === a.subject
+                                              ? 'border-purple-600 bg-purple-50 shadow-md ring-2 ring-purple-100'
+                                              : 'border-slate-50 bg-white hover:border-slate-200 shadow-sm'
+                                        }`}
+                                      >
+                                        <div className="flex items-center justify-between">
+                                          <p className={`font-bold ${completed ? 'text-slate-400' : selectedSubject === a.subject ? 'text-purple-800' : 'text-slate-700'}`}>{a.subject}</p>
+                                          {completed && (
+                                            <span className="flex items-center text-emerald-600 text-xs font-bold">
+                                              <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
+                                              Done
+                                            </span>
+                                          )}
+                                        </div>
+                                        <p className="text-xs text-slate-400">{completed ? 'Completed' : 'IGCSE Readiness'}</p>
+                                      </button>
+                                    );
+                                  })}
                                 </div>
                               </div>
                             )}

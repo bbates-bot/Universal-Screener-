@@ -535,47 +535,23 @@ const ScreenerTest: React.FC<ScreenerTestProps> = ({
 
   // Finished state
   if (isFinished) {
-    const questionsAnswered = useAdaptive && session
-      ? session.questionHistory.length
-      : legacyQuestions.length;
-
-    const correctCount = useAdaptive && session
-      ? session.questionHistory.filter(r => r.isCorrect).length
-      : Object.entries(legacyAnswers).filter(([id, ans]) =>
-          legacyQuestions.find(q => q.id === id)?.correctAnswer === ans
-        ).length;
-
     return (
-      <div className="max-w-md mx-auto text-center space-y-6 animate-in slide-in-from-bottom duration-500">
-        <div className="w-24 h-24 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto">
-          <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <div className="max-w-md mx-auto text-center space-y-8 animate-in slide-in-from-bottom duration-500">
+        <div className="w-28 h-28 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto">
+          <svg className="w-14 h-14" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
           </svg>
         </div>
-        <h2 className="text-3xl font-bold text-gray-800">All Done!</h2>
-        <p className="text-gray-600">
-          Great job, {studentName}! You've completed your {subject} screener.
-        </p>
-
-        {useAdaptive && session && (
-          <div className="bg-blue-50 rounded-xl p-4 text-left">
-            <h3 className="font-semibold text-blue-800 mb-2">Test Summary</h3>
-            <div className="grid grid-cols-2 gap-2 text-sm">
-              <div className="text-gray-600">Questions Answered:</div>
-              <div className="font-medium">{questionsAnswered}</div>
-              <div className="text-gray-600">Correct Answers:</div>
-              <div className="font-medium">{correctCount}</div>
-              <div className="text-gray-600">Estimated Percentile:</div>
-              <div className="font-medium">{abilityToPercentile(session.currentAbilityEstimate)}%</div>
-            </div>
-          </div>
-        )}
+        <div className="space-y-3">
+          <h2 className="text-4xl font-bold text-gray-800">You did it!</h2>
+          <p className="text-xl text-gray-600">Screening test complete.</p>
+        </div>
 
         <button
           onClick={finishTest}
           className="w-full py-4 bg-gradient-to-r from-blue-600 to-cyan-500 text-white rounded-xl font-bold text-lg shadow-lg hover:shadow-xl transition-all"
         >
-          Submit Results
+          Continue
         </button>
       </div>
     );

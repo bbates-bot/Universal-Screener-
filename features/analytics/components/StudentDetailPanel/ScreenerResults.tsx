@@ -14,6 +14,12 @@ interface DomainResult {
   level: GradeCategory;
 }
 
+interface StandardPerformance {
+  standardCode: string;
+  standardName: string;
+  mastery: 'proficient' | 'developing' | 'needs-support';
+}
+
 interface ScreenerResultsProps {
   subject: string;
   testDate: string;
@@ -22,6 +28,9 @@ interface ScreenerResultsProps {
   overallPercentage: number;
   overallLevel: GradeCategory;
   domains: DomainResult[];
+  masteredStandards?: string[];
+  gapStandards?: string[];
+  standardsPerformance?: StandardPerformance[];
   isLoading?: boolean;
 }
 
@@ -40,6 +49,9 @@ export const ScreenerResults: React.FC<ScreenerResultsProps> = ({
   overallPercentage,
   overallLevel,
   domains,
+  masteredStandards = [],
+  gapStandards = [],
+  standardsPerformance = [],
   isLoading = false,
 }) => {
   const formatDate = (dateStr: string) => {
@@ -82,62 +94,97 @@ export const ScreenerResults: React.FC<ScreenerResultsProps> = ({
         <div className="flex items-center justify-between mb-3">
           <div>
             <p className="text-xs text-slate-500 font-medium">{subject}</p>
-            <p className="text-3xl font-black text-slate-800">{overallPercentage}%</p>
           </div>
-          <div className="text-right">
-            <p className="text-sm text-slate-500">
-              {overallScore} / {maxScore}
-            </p>
-            <span className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-bold ${levelConfig[overallLevel].color} ${levelConfig[overallLevel].bg.replace('bg-', 'bg-opacity-20 bg-')}`}>
-              <span className={`w-1.5 h-1.5 rounded-full ${level.bg}`} />
-              {level.label}
-            </span>
-          </div>
+          <span className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-bold ${levelConfig[overallLevel].color} ${levelConfig[overallLevel].bg.replace('bg-', 'bg-opacity-20 bg-')}`}>
+            <span className={`w-1.5 h-1.5 rounded-full ${level.bg}`} />
+            {level.label}
+          </span>
         </div>
 
         {/* Progress bar */}
         <div className="h-3 bg-slate-200 rounded-full overflow-hidden">
           <div
             className={`h-full rounded-full transition-all duration-500 ${level.bg}`}
-            style={{ width: `${overallPercentage}%` }}
+            style={{ width: `${Math.min(overallPercentage || 0, 100)}%` }}
           />
         </div>
       </div>
 
       {/* Domain breakdown */}
-      <div className="space-y-3">
-        <p className="text-xs font-bold text-slate-500 uppercase tracking-wider">
-          Domain Breakdown
-        </p>
+      {domains.length > 0 && (
+        <div className="space-y-3 mb-6">
+          <p className="text-xs font-bold text-slate-500 uppercase tracking-wider">
+            Domain Breakdown
+          </p>
 
-        {domains.map((domain, index) => {
-          const domainLevel = levelConfig[domain.level];
+          {domains.map((domain, index) => {
+            const domainLevel = levelConfig[domain.level];
 
-          return (
-            <div
-              key={index}
-              className="bg-slate-50 rounded-lg p-3 hover:bg-slate-100 transition-colors"
-            >
-              <div className="flex items-center justify-between mb-2">
-                <span className="font-medium text-slate-700 text-sm">{domain.domain}</span>
-                <div className="flex items-center gap-2">
-                  <span className="text-sm font-bold text-slate-600">
-                    {domain.percentage}%
-                  </span>
+            return (
+              <div
+                key={index}
+                className="bg-slate-50 rounded-lg p-3 hover:bg-slate-100 transition-colors"
+              >
+                <div className="flex items-center justify-between mb-2">
+                  <span className="font-medium text-slate-700 text-sm">{domain.domain}</span>
                   <span className={`w-2 h-2 rounded-full ${domainLevel.bg}`} />
                 </div>
-              </div>
 
-              <div className="h-1.5 bg-slate-200 rounded-full overflow-hidden">
-                <div
-                  className={`h-full rounded-full transition-all duration-500 ${domainLevel.bg}`}
-                  style={{ width: `${domain.percentage}%` }}
-                />
+                <div className="h-1.5 bg-slate-200 rounded-full overflow-hidden">
+                  <div
+                    className={`h-full rounded-full transition-all duration-500 ${domainLevel.bg}`}
+                    style={{ width: `${domain.percentage || 0}%` }}
+                  />
+                </div>
               </div>
-            </div>
-          );
-        })}
-      </div>
+            );
+          })}
+        </div>
+      )}
+
+      {/* Standards Being Met */}
+      {masteredStandards.length > 0 && (
+        <div className="space-y-3 mb-6">
+          <p className="text-xs font-bold text-emerald-600 uppercase tracking-wider flex items-center gap-2">
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+            </svg>
+            Standards Being Met
+          </p>
+          <div className="space-y-2">
+            {masteredStandards.map((standard, index) => (
+              <div
+                key={index}
+                className="bg-emerald-50 border border-emerald-100 rounded-lg px-3 py-2 text-sm text-emerald-800"
+              >
+                {standard}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Standards Not Being Met */}
+      {gapStandards.length > 0 && (
+        <div className="space-y-3">
+          <p className="text-xs font-bold text-rose-600 uppercase tracking-wider flex items-center gap-2">
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+            </svg>
+            Standards Not Being Met
+          </p>
+          <div className="space-y-2">
+            {gapStandards.map((standard, index) => (
+              <div
+                key={index}
+                className="bg-rose-50 border border-rose-100 rounded-lg px-3 py-2 text-sm text-rose-800"
+              >
+                {standard}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 };

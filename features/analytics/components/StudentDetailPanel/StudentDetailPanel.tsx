@@ -44,6 +44,8 @@ export interface StudentDetailData {
     maxScore: number;
     overallPercentage: number;
     domains: DomainResult[];
+    masteredStandards?: string[];
+    gapStandards?: string[];
   } | null;
   readiness: {
     course: string;
@@ -230,6 +232,8 @@ export const StudentDetailPanel: React.FC<StudentDetailPanelProps> = ({
                   overallPercentage={student.screener.overallPercentage}
                   overallLevel={student.screenerStatus}
                   domains={student.screener.domains}
+                  masteredStandards={student.screener.masteredStandards}
+                  gapStandards={student.screener.gapStandards}
                 />
               )}
 
