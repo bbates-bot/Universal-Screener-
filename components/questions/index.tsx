@@ -94,10 +94,29 @@ export const QuestionRenderer: React.FC<QuestionRendererProps> = ({
     }
   };
 
+  // Render passage section if passage text exists (for reading comprehension)
+  const PassageSection = () => {
+    if (!question.passageText) return null;
+
+    return (
+      <div className="mb-6 p-6 bg-slate-50 border border-slate-200 rounded-2xl">
+        {question.passage && (
+          <p className="text-sm font-bold text-slate-500 uppercase tracking-wider mb-3">
+            {question.passage}
+          </p>
+        )}
+        <p className="text-gray-700 leading-relaxed whitespace-pre-wrap">
+          {question.passageText}
+        </p>
+      </div>
+    );
+  };
+
   // Render based on question format
   if (question.format === QuestionFormat.MULTIPLE_CHOICE && isMultipleChoiceOptions(question.questionOptions)) {
     return (
       <div className="bg-white p-8 rounded-3xl shadow-xl border border-gray-100">
+        <PassageSection />
         <div className="space-y-6">
           <p className="text-2xl font-semibold text-gray-800 leading-tight">{question.text}</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -138,6 +157,7 @@ export const QuestionRenderer: React.FC<QuestionRendererProps> = ({
   if (question.format === QuestionFormat.TRUE_FALSE && isTrueFalseOptions(question.questionOptions)) {
     return (
       <div className="bg-white p-8 rounded-3xl shadow-xl border border-gray-100">
+        <PassageSection />
         <div className="space-y-6">
           <p className="text-2xl font-semibold text-gray-800 leading-tight">{question.text}</p>
           <div className="flex gap-4 justify-center">
@@ -177,6 +197,7 @@ export const QuestionRenderer: React.FC<QuestionRendererProps> = ({
 
     return (
       <div className="bg-white p-8 rounded-3xl shadow-xl border border-gray-100">
+        <PassageSection />
         <div className="space-y-6">
           <p className="text-2xl font-semibold text-gray-800 leading-tight">{question.text}</p>
           <p className="text-gray-500">Match each item on the left with the correct item on the right.</p>
@@ -226,6 +247,7 @@ export const QuestionRenderer: React.FC<QuestionRendererProps> = ({
 
     return (
       <div className="bg-white p-8 rounded-3xl shadow-xl border border-gray-100">
+        <PassageSection />
         <div className="space-y-6">
           <p className="text-2xl font-semibold text-gray-800 leading-tight">{question.text}</p>
           <p className="text-gray-500">Place each item in the correct zone.</p>

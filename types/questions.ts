@@ -91,6 +91,9 @@ export interface ExtendedQuestion {
   audioUrl?: string;
   createdAt?: string;
   updatedAt?: string;
+  // Reading comprehension passage fields
+  passage?: string;        // Passage identifier (e.g., "G5-L1: The Treasure of Willow Creek")
+  passageText?: string;    // Full passage text for reading comprehension questions
 }
 
 /**
