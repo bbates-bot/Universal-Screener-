@@ -63,20 +63,6 @@ export const CurriculumSelector: React.FC<CurriculumSelectorProps> = ({
           US CCSS
         </button>
       </div>
-
-      {/* Curriculum indicator badge */}
-      <div
-        className={`
-          ml-2 px-2 py-0.5 rounded-full text-[10px] font-black uppercase tracking-wider
-          hidden md:block
-          ${isEdexcel
-            ? 'bg-purple-100 text-purple-700'
-            : 'bg-indigo-100 text-indigo-700'
-          }
-        `}
-      >
-        {isEdexcel ? 'IGCSE Readiness' : 'AP Readiness'}
-      </div>
     </div>
   );
 };
