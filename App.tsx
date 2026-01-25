@@ -12,6 +12,7 @@ import { CurriculumSelector } from './components/CurriculumSelector';
 import { RegionSelector } from './components/RegionSelector';
 import { CurriculumProvider, useCurriculum } from './contexts/CurriculumContext';
 import { GRADE_MAPPINGS } from './constants/gradeMappings';
+import { CompassLogo, CompassLogoWithText, COMPASS_COLORS } from './components/CompassLogo';
 import {
   subscribeToSchools,
   subscribeToStudents,
@@ -201,24 +202,28 @@ const AppContent: React.FC = () => {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-slate-50 flex items-center justify-center">
+      <div className="min-h-screen flex items-center justify-center" style={{ backgroundColor: COMPASS_COLORS.navyDark }}>
         <div className="text-center">
-          <div className="w-16 h-16 bg-indigo-600 rounded-2xl flex items-center justify-center text-white font-black text-2xl shadow-lg shadow-indigo-100 mx-auto mb-4 animate-pulse">IX</div>
-          <p className="text-slate-500 font-medium">Loading CGA Screener...</p>
+          <div className="animate-pulse mb-4">
+            <CompassLogo size={64} variant="white" />
+          </div>
+          <h1 style={{ fontFamily: "'DM Serif Display', serif", color: COMPASS_COLORS.white }} className="text-2xl mb-2">
+            Compass
+          </h1>
+          <p style={{ fontFamily: "'Inter', sans-serif", color: COMPASS_COLORS.blueLight }} className="text-sm">
+            Loading...
+          </p>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-slate-50 font-sans text-slate-900 pb-10">
+    <div className="min-h-screen bg-slate-50 font-sans text-slate-900 pb-10" style={{ fontFamily: "'Inter', sans-serif" }}>
       <nav className="bg-white border-b border-slate-200 sticky top-0 z-40">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16 items-center">
-            <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-indigo-600 rounded-xl flex items-center justify-center text-white font-black text-xl shadow-lg shadow-indigo-100">IX</div>
-              <span className="text-xl font-extrabold tracking-tight text-indigo-900 uppercase">CGA Screener</span>
-            </div>
+            <CompassLogoWithText size="md" showTagline={false} />
 
             {/* Curriculum System Toggle with Region Selector */}
             <div className="flex items-center gap-2">
@@ -231,7 +236,8 @@ const AppContent: React.FC = () => {
                 <div className="hidden md:flex items-center space-x-2 bg-slate-50 border border-slate-200 px-3 py-1.5 rounded-xl">
                   <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest">Active Role:</span>
                   <select
-                    className="bg-transparent border-none text-xs font-bold text-indigo-600 focus:ring-0 cursor-pointer"
+                    className="bg-transparent border-none text-xs font-bold focus:ring-0 cursor-pointer"
+                    style={{ color: COMPASS_COLORS.navyDark }}
                     value={role}
                     onChange={(e) => setRole(e.target.value as UserRole)}
                   >
@@ -241,9 +247,9 @@ const AppContent: React.FC = () => {
                   </select>
                 </div>
               )}
-              <div className="flex items-center space-x-2 bg-slate-100 p-1 rounded-xl">
-                <button onClick={() => { setView('admin'); setStudentTestMode(false); }} className={`px-4 py-2 rounded-lg text-sm font-bold transition-all ${view === 'admin' ? 'bg-white text-indigo-600 shadow-sm' : 'text-slate-500'}`}>ADMIN</button>
-                <button onClick={() => setView('student')} className={`px-4 py-2 rounded-lg text-sm font-bold transition-all ${view === 'student' ? 'bg-white text-indigo-600 shadow-sm' : 'text-slate-500'}`}>STUDENT</button>
+              <div className="flex items-center space-x-2 p-1 rounded-xl" style={{ backgroundColor: COMPASS_COLORS.grayLight }}>
+                <button onClick={() => { setView('admin'); setStudentTestMode(false); }} className={`px-4 py-2 rounded-lg text-sm font-bold transition-all ${view === 'admin' ? 'bg-white shadow-sm' : 'text-slate-500'}`} style={view === 'admin' ? { color: COMPASS_COLORS.navyDark } : {}}>ADMIN</button>
+                <button onClick={() => setView('student')} className={`px-4 py-2 rounded-lg text-sm font-bold transition-all ${view === 'student' ? 'bg-white shadow-sm' : 'text-slate-500'}`} style={view === 'student' ? { color: COMPASS_COLORS.navyDark } : {}}>STUDENT</button>
               </div>
             </div>
           </div>
@@ -255,8 +261,8 @@ const AppContent: React.FC = () => {
           <div className="space-y-8 animate-in fade-in duration-500">
             <div className="flex justify-between items-center">
               <div>
-                <h1 className="text-3xl font-black text-slate-900">District Oversight</h1>
-                <p className="text-slate-500">Logged in as <span className="text-indigo-600 font-bold">{role}</span></p>
+                <h1 className="text-3xl font-black" style={{ color: COMPASS_COLORS.navyDark, fontFamily: "'Montserrat', sans-serif" }}>District Oversight</h1>
+                <p className="text-slate-500">Logged in as <span className="font-bold" style={{ color: COMPASS_COLORS.blueMid }}>{role}</span></p>
               </div>
             </div>
 
@@ -320,18 +326,20 @@ const AppContent: React.FC = () => {
             {!studentTestMode ? (
               <div className="space-y-8 animate-in fade-in duration-500">
                 <div className="text-center space-y-4">
-                  <h1 className="text-4xl font-black text-slate-900 leading-tight">Learner Assessment Portal</h1>
-                  <p className="text-xl text-slate-500">Enter your assigned credentials to begin.</p>
+                  <CompassLogoWithText size="lg" variant="stacked" showTagline className="mx-auto mb-4" />
+                  <h1 className="text-3xl font-black leading-tight" style={{ color: COMPASS_COLORS.navyDark, fontFamily: "'Montserrat', sans-serif" }}>Learner Assessment Portal</h1>
+                  <p className="text-lg text-slate-500">Enter your assigned credentials to begin.</p>
                 </div>
 
                 <div className="bg-white p-10 rounded-3xl shadow-xl border border-slate-100 space-y-8">
                   <div className="space-y-4">
                     <label className="block text-xs font-black text-slate-400 uppercase tracking-widest">ASSIGNED USERNAME</label>
                     <div className="relative">
-                      <input 
-                        type="text" 
+                      <input
+                        type="text"
                         placeholder="Enter your username (e.g. j.smith123)"
-                        className={`w-full px-5 py-4 bg-slate-50 border-2 rounded-2xl font-bold text-lg outline-none transition-all ${selectedStudentId ? 'border-emerald-500 ring-2 ring-emerald-50 bg-emerald-50/20' : 'border-slate-100 focus:border-indigo-500'}`}
+                        className={`w-full px-5 py-4 bg-slate-50 border-2 rounded-2xl font-bold text-lg outline-none transition-all ${selectedStudentId ? 'border-emerald-500 ring-2 ring-emerald-50 bg-emerald-50/20' : 'border-slate-100'}`}
+                        style={{ fontFamily: "'Inter', sans-serif" }}
                         value={loginUsername}
                         onChange={e => handleLoginChange(e.target.value)}
                       />
@@ -345,13 +353,13 @@ const AppContent: React.FC = () => {
 
                   {selectedStudentId && currentStudent && (
                     <div className="space-y-6 animate-in slide-in-from-top duration-300">
-                      <div className="bg-indigo-50 p-4 rounded-2xl flex items-center space-x-4">
-                        <div className="w-12 h-12 bg-indigo-600 text-white rounded-xl flex items-center justify-center font-black text-lg">
+                      <div className="p-4 rounded-2xl flex items-center space-x-4" style={{ backgroundColor: `${COMPASS_COLORS.blueMid}15` }}>
+                        <div className="w-12 h-12 text-white rounded-xl flex items-center justify-center font-black text-lg" style={{ backgroundColor: COMPASS_COLORS.navyDark }}>
                           {currentStudent.firstName[0]}
                         </div>
                         <div>
-                          <p className="font-bold text-indigo-900">Welcome back, {currentStudent.firstName}!</p>
-                          <p className="text-xs text-indigo-600 font-bold uppercase tracking-wider">{getGradeDisplay(currentStudent.grade)} Learner</p>
+                          <p className="font-bold" style={{ color: COMPASS_COLORS.navyDark }}>Welcome back, {currentStudent.firstName}!</p>
+                          <p className="text-xs font-bold uppercase tracking-wider" style={{ color: COMPASS_COLORS.blueMid }}>{getGradeDisplay(currentStudent.grade)} Learner</p>
                         </div>
                       </div>
 
@@ -373,9 +381,10 @@ const AppContent: React.FC = () => {
                                     <button
                                       key={a.subject}
                                       onClick={() => setSelectedSubject(a.subject)}
-                                      className={`p-4 rounded-2xl border-2 text-left transition-all ${selectedSubject === a.subject ? 'border-indigo-600 bg-indigo-50 shadow-md ring-2 ring-indigo-100' : 'border-slate-50 bg-white hover:border-slate-200 shadow-sm'}`}
+                                      className={`p-4 rounded-2xl border-2 text-left transition-all ${selectedSubject === a.subject ? 'shadow-md ring-2' : 'border-slate-50 bg-white hover:border-slate-200 shadow-sm'}`}
+                                      style={selectedSubject === a.subject ? { borderColor: COMPASS_COLORS.navyDark, backgroundColor: `${COMPASS_COLORS.blueMid}10`, ringColor: `${COMPASS_COLORS.blueMid}20` } : {}}
                                     >
-                                      <p className={`font-bold ${selectedSubject === a.subject ? 'text-indigo-800' : 'text-slate-700'}`}>{a.subject}</p>
+                                      <p className="font-bold" style={{ color: selectedSubject === a.subject ? COMPASS_COLORS.navyDark : '#334155' }}>{a.subject}</p>
                                       <p className="text-xs text-slate-400">Universal Screener</p>
                                     </button>
                                   ))}
@@ -385,15 +394,16 @@ const AppContent: React.FC = () => {
 
                             {isUS && assignedAP.length > 0 && (
                               <div className="space-y-3">
-                                <p className="text-[10px] font-black text-slate-300 uppercase tracking-widest">AP Prerequisite Screening</p>
+                                <p className="text-[10px] font-black uppercase tracking-widest" style={{ color: COMPASS_COLORS.yellow }}>AP Prerequisite Screening</p>
                                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                                   {assignedAP.map(a => (
                                     <button
                                       key={a.subject}
                                       onClick={() => setSelectedSubject(a.subject)}
-                                      className={`p-4 rounded-2xl border-2 text-left transition-all ${selectedSubject === a.subject ? 'border-indigo-600 bg-indigo-50 shadow-md ring-2 ring-indigo-100' : 'border-slate-50 bg-white hover:border-slate-200 shadow-sm'}`}
+                                      className={`p-4 rounded-2xl border-2 text-left transition-all ${selectedSubject === a.subject ? 'shadow-md ring-2' : 'border-slate-50 bg-white hover:border-slate-200 shadow-sm'}`}
+                                      style={selectedSubject === a.subject ? { borderColor: COMPASS_COLORS.navyDark, backgroundColor: `${COMPASS_COLORS.blueMid}10` } : {}}
                                     >
-                                      <p className={`font-bold ${selectedSubject === a.subject ? 'text-indigo-800' : 'text-slate-700'}`}>{a.subject}</p>
+                                      <p className="font-bold" style={{ color: selectedSubject === a.subject ? COMPASS_COLORS.navyDark : '#334155' }}>{a.subject}</p>
                                       <p className="text-xs text-slate-400">Readiness Evaluation</p>
                                     </button>
                                   ))}
@@ -433,10 +443,11 @@ const AppContent: React.FC = () => {
                     </div>
                   )}
                   
-                  <button 
-                    disabled={!selectedStudentId || !selectedSubject} 
-                    onClick={() => setStudentTestMode(true)} 
-                    className="w-full py-5 bg-indigo-600 text-white rounded-2xl font-black text-xl shadow-xl shadow-indigo-100 hover:scale-[1.02] active:scale-95 disabled:opacity-30 disabled:grayscale disabled:scale-100 transition-all"
+                  <button
+                    disabled={!selectedStudentId || !selectedSubject}
+                    onClick={() => setStudentTestMode(true)}
+                    className="w-full py-5 text-white rounded-2xl font-black text-xl shadow-xl hover:scale-[1.02] active:scale-95 disabled:opacity-30 disabled:grayscale disabled:scale-100 transition-all"
+                    style={{ backgroundColor: COMPASS_COLORS.navyDark, fontFamily: "'Montserrat', sans-serif" }}
                   >
                     BEGIN ASSESSMENT
                   </button>

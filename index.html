@@ -4,8 +4,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CGA Screener</title>
+    <title>Compass | Student Screener</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Montserrat:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              compass: {
+                'navy-dark': '#0D1B52',
+                'navy': '#18307B',
+                'blue': '#2945A3',
+                'blue-light': '#375acc',
+                'yellow': '#ffb820',
+                'yellow-dark': '#fda002',
+              }
+            },
+            fontFamily: {
+              'serif-display': ['"DM Serif Display"', 'serif'],
+              'heading': ['Montserrat', 'sans-serif'],
+              'body': ['Inter', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
   <script type="importmap">
 {
   "imports": {
