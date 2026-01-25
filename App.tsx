@@ -1,11 +1,9 @@
 
 import React, { useState, useEffect, useMemo } from 'react';
-import { INITIAL_RESULTS, INITIAL_SCHOOLS, INITIAL_STUDENTS, GRADES } from './constants';
+import { INITIAL_RESULTS, INITIAL_SCHOOLS, INITIAL_STUDENTS } from './constants';
 import { StudentResult, Subject, School, Student, UserRole, User } from './types';
-import Dashboard from './components/Dashboard';
 import ScreenerTest from './components/ScreenerTest';
 import EnrollmentManager from './components/EnrollmentManager';
-import ScreenerDashboard from './components/ScreenerDashboard';
 import SchoolManager from './components/SchoolManager';
 import UserManager from './components/UserManager';
 import TestReview from './components/TestReview';
@@ -63,10 +61,6 @@ const AppContent: React.FC = () => {
   const [users, setUsers] = useState<User[]>([]);
 
   const [studentTestMode, setStudentTestMode] = useState(false);
-
-  const [filterSubject, setFilterSubject] = useState<string>('All');
-  const [filterGrade, setFilterGrade] = useState<string>('All');
-  const [filterSchool, setFilterSchool] = useState<string>('All');
 
   // Student portal login state
   const [loginUsername, setLoginUsername] = useState('');
@@ -126,18 +120,7 @@ const AppContent: React.FC = () => {
     'Edexcel English Pre-IG1', 'Edexcel English Pre-IG2', 'Edexcel English IG1', 'Edexcel English IG2'
   ];
 
-  // AP Readiness results for Readiness Analytics dashboard
-  const apReadinessResults = useMemo(() => {
-    return results.filter(r => {
-      const isAPSubject = AP_SUBJECTS_LIST.includes(r.subject);
-      const matchSubject = filterSubject === 'All' || r.subject === filterSubject;
-      const matchGrade = filterGrade === 'All' || r.grade === filterGrade;
-      const matchSchool = filterSchool === 'All' || r.schoolId === filterSchool;
-      return isAPSubject && matchSubject && matchGrade && matchSchool;
-    });
-  }, [results, filterSubject, filterGrade, filterSchool]);
-
-  // All screener results for Screener Dashboard (includes both CCSS/General AND Edexcel)
+  // All screener results for Student Analytics (includes both CCSS/General AND Edexcel)
   const screenerResults = useMemo(() => {
     return results.filter(r =>
       GENERAL_SUBJECTS_LIST.includes(r.subject) ||
@@ -211,7 +194,6 @@ const AppContent: React.FC = () => {
   }, [currentStudent]);
 
   const canSeeDashboard = role === UserRole.ADMIN || role === UserRole.TEACHER;
-  const canSeeScreener = true;
   const canSeeSchools = role === UserRole.ADMIN;
   const canSeeStudents = true;
   const canSeeUsers = role === UserRole.ADMIN;
@@ -282,12 +264,6 @@ const AppContent: React.FC = () => {
                {canSeeDashboard && (
                  <button onClick={() => setAdminSubView('analytics')} className={`px-6 py-2 font-bold rounded-xl text-xs transition-all ${adminSubView === 'analytics' ? 'bg-purple-50 text-purple-600' : 'text-slate-500 hover:bg-slate-50'}`}>STUDENT ANALYTICS</button>
                )}
-               {canSeeDashboard && (
-                 <button onClick={() => setAdminSubView('dashboard')} className={`px-6 py-2 font-bold rounded-xl text-xs transition-all ${adminSubView === 'dashboard' ? 'bg-indigo-50 text-indigo-600' : 'text-slate-500 hover:bg-slate-50'}`}>AP READINESS</button>
-               )}
-               {canSeeScreener && (
-                 <button onClick={() => setAdminSubView('screener')} className={`px-6 py-2 font-bold rounded-xl text-xs transition-all ${adminSubView === 'screener' ? 'bg-indigo-50 text-indigo-600' : 'text-slate-500 hover:bg-slate-50'}`}>SCREENER</button>
-               )}
                {canSeeSchools && (
                  <button onClick={() => setAdminSubView('schools')} className={`px-6 py-2 font-bold rounded-xl text-xs transition-all ${adminSubView === 'schools' ? 'bg-indigo-50 text-indigo-600' : 'text-slate-500 hover:bg-slate-50'}`}>SCHOOLS</button>
                )}
@@ -304,39 +280,6 @@ const AppContent: React.FC = () => {
 
             {adminSubView === 'analytics' && canSeeDashboard ? (
               <UnifiedAnalyticsPage
-                students={students}
-                results={screenerResults}
-                schools={schools}
-              />
-            ) : adminSubView === 'dashboard' && canSeeDashboard ? (
-              <>
-                <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 grid grid-cols-1 md:grid-cols-3 gap-6">
-                  <div>
-                    <label className="text-xs font-bold text-slate-400 uppercase block mb-1">AP Course</label>
-                    <select className="w-full bg-slate-50 border-none rounded-lg font-medium" value={filterSubject} onChange={e => setFilterSubject(e.target.value)}>
-                      <option value="All">All AP Courses</option>
-                      {AP_SUBJECTS_LIST.map(s => <option key={s} value={s}>{s}</option>)}
-                    </select>
-                  </div>
-                  <div>
-                     <label className="text-xs font-bold text-slate-400 uppercase block mb-1">{isEdexcel ? 'Year Group' : 'Grade Level'}</label>
-                     <select className="w-full bg-slate-50 border-none rounded-lg font-medium" value={filterGrade} onChange={e => setFilterGrade(e.target.value)}>
-                       <option value="All">All {isEdexcel ? 'Years' : 'Grades'}</option>
-                       {GRADES.filter(g => ['9', '10', '11', '12'].includes(g)).map(g => <option key={g} value={g}>{getGradeDisplay(g)}</option>)}
-                     </select>
-                  </div>
-                  <div>
-                    <label className="text-xs font-bold text-slate-400 uppercase block mb-1">Campus</label>
-                    <select className="w-full bg-slate-50 border-none rounded-lg font-medium" value={filterSchool} onChange={e => setFilterSchool(e.target.value)}>
-                      <option value="All">All Campuses</option>
-                      {schools.map(s => <option key={s.id} value={s.id}>{s.name}</option>)}
-                    </select>
-                  </div>
-                </div>
-                <Dashboard results={apReadinessResults} subject={filterSubject === 'All' ? 'AP Precalculus' : filterSubject} schools={schools} />
-              </>
-            ) : adminSubView === 'screener' && canSeeScreener ? (
-              <ScreenerDashboard
                 students={students}
                 results={screenerResults}
                 schools={schools}
