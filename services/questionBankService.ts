@@ -145,6 +145,18 @@ const normalizeQuestion = (q: any): ExtendedQuestion | null => {
       }
       break;
 
+    case 'picture_choice':
+      if (q.questionOptions) {
+        questionOptions = q.questionOptions;
+      } else if (q.images && q.correctAnswerIndex !== undefined) {
+        // Convert legacy picture_choice format
+        questionOptions = {
+          images: q.images,
+          correctAnswerIndex: q.correctAnswerIndex
+        };
+      }
+      break;
+
     default:
       // Unknown format, skip this question
       return null;
@@ -399,10 +411,11 @@ export const getQuestionsWithFormatDistribution = (
 
   // Target distribution
   const targets: Record<QuestionFormat, number> = {
-    [QuestionFormat.MULTIPLE_CHOICE]: Math.floor(count * 0.60),
+    [QuestionFormat.MULTIPLE_CHOICE]: Math.floor(count * 0.55),
     [QuestionFormat.TRUE_FALSE]: Math.floor(count * 0.15),
-    [QuestionFormat.MATCHING]: Math.floor(count * 0.15),
-    [QuestionFormat.DRAG_AND_DROP]: Math.floor(count * 0.10)
+    [QuestionFormat.MATCHING]: Math.floor(count * 0.12),
+    [QuestionFormat.DRAG_AND_DROP]: Math.floor(count * 0.10),
+    [QuestionFormat.PICTURE_CHOICE]: Math.floor(count * 0.08)
   };
 
   const selected: ExtendedQuestion[] = [];
@@ -410,7 +423,8 @@ export const getQuestionsWithFormatDistribution = (
     [QuestionFormat.MULTIPLE_CHOICE]: [],
     [QuestionFormat.TRUE_FALSE]: [],
     [QuestionFormat.MATCHING]: [],
-    [QuestionFormat.DRAG_AND_DROP]: []
+    [QuestionFormat.DRAG_AND_DROP]: [],
+    [QuestionFormat.PICTURE_CHOICE]: []
   };
 
   // Group questions by format

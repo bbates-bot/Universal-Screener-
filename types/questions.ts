@@ -7,7 +7,8 @@ export enum QuestionFormat {
   MULTIPLE_CHOICE = 'multiple_choice',
   TRUE_FALSE = 'true_false',
   MATCHING = 'matching',
-  DRAG_AND_DROP = 'drag_and_drop'
+  DRAG_AND_DROP = 'drag_and_drop',
+  PICTURE_CHOICE = 'picture_choice'
 }
 
 export enum DifficultyLevel {
@@ -55,12 +56,25 @@ export interface DropZone {
   description?: string;
 }
 
+// Picture Choice (for K-2 visual questions)
+export interface PictureChoice {
+  imageUrl: string;
+  altText: string;
+  label?: string;
+}
+
+export interface PictureChoiceOptions {
+  images: PictureChoice[];
+  correctAnswerIndex: number;
+}
+
 // Union type for all question options
 export type QuestionOptions =
   | MultipleChoiceOptions
   | TrueFalseOptions
   | MatchingOptions
-  | DragDropOptions;
+  | DragDropOptions
+  | PictureChoiceOptions;
 
 /**
  * Extended Question interface for the question bank
@@ -144,4 +158,8 @@ export function isMatchingOptions(options: QuestionOptions): options is Matching
 
 export function isDragDropOptions(options: QuestionOptions): options is DragDropOptions {
   return 'draggableItems' in options && 'dropZones' in options && 'correctPlacements' in options;
+}
+
+export function isPictureChoiceOptions(options: QuestionOptions): options is PictureChoiceOptions {
+  return 'images' in options && 'correctAnswerIndex' in options;
 }

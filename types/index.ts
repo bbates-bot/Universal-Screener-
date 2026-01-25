@@ -14,6 +14,8 @@ export {
   type MatchingOptions,
   type DragDropOptions,
   type DropZone,
+  type PictureChoice,
+  type PictureChoiceOptions,
   type QuestionOptions,
   type ExtendedQuestion,
   type QuestionBankMetadata,
@@ -22,7 +24,8 @@ export {
   isMultipleChoiceOptions,
   isTrueFalseOptions,
   isMatchingOptions,
-  isDragDropOptions
+  isDragDropOptions,
+  isPictureChoiceOptions
 } from './questions';
 
 // Adaptive testing types
