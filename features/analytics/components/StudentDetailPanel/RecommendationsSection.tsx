@@ -3,14 +3,39 @@
  * Displays actionable recommendations for the student
  */
 
-import React from 'react';
+import React, { useState } from 'react';
+import jsPDF from 'jspdf';
 import { GradeCategory, ReadinessStatus } from '../../types';
+
+interface MasteredStandard {
+  code: string;
+  name: string;
+}
+
+interface SkillGap {
+  code: string;
+  standard: string;
+  description: string;
+  domain: string;
+}
+
+interface StudentInfo {
+  firstName: string;
+  lastName: string;
+  grade: string;
+  schoolName: string;
+  testDate?: string;
+  subject?: string;
+}
 
 interface RecommendationsSectionProps {
   screenerStatus: GradeCategory;
   readinessStatus: ReadinessStatus | null;
   recommendations: string[];
   skillGapCount: number;
+  masteredStandards?: MasteredStandard[];
+  skillGaps?: SkillGap[];
+  studentInfo?: StudentInfo;
   isLoading?: boolean;
 }
 
@@ -110,8 +135,178 @@ export const RecommendationsSection: React.FC<RecommendationsSectionProps> = ({
   readinessStatus,
   recommendations: customRecommendations,
   skillGapCount,
+  masteredStandards = [],
+  skillGaps = [],
+  studentInfo,
   isLoading = false,
 }) => {
+  const [isGeneratingPdf, setIsGeneratingPdf] = useState(false);
+
+  const generatePDF = async () => {
+    if (!studentInfo) return;
+
+    setIsGeneratingPdf(true);
+
+    try {
+      const doc = new jsPDF();
+      const pageWidth = doc.internal.pageSize.getWidth();
+      let yPosition = 20;
+      const leftMargin = 20;
+      const lineHeight = 7;
+
+      // Header
+      doc.setFontSize(10);
+      doc.setTextColor(100);
+      doc.text('COMPASS STUDENT ASSESSMENT REPORT', leftMargin, yPosition);
+      yPosition += lineHeight * 2;
+
+      // Student Name
+      doc.setFontSize(24);
+      doc.setTextColor(30, 41, 59);
+      doc.text(`${studentInfo.firstName} ${studentInfo.lastName}`, leftMargin, yPosition);
+      yPosition += lineHeight * 1.5;
+
+      // Grade and School
+      doc.setFontSize(11);
+      doc.setTextColor(100);
+      doc.text(`Grade ${studentInfo.grade} • ${studentInfo.schoolName}`, leftMargin, yPosition);
+      yPosition += lineHeight;
+
+      if (studentInfo.testDate) {
+        doc.text(`Assessment Date: ${new Date(studentInfo.testDate).toLocaleDateString()}`, leftMargin, yPosition);
+        yPosition += lineHeight;
+      }
+
+      if (studentInfo.subject) {
+        doc.text(`Subject: ${studentInfo.subject}`, leftMargin, yPosition);
+        yPosition += lineHeight;
+      }
+
+      // Status
+      yPosition += lineHeight;
+      doc.setFontSize(12);
+      doc.setTextColor(30, 41, 59);
+      const statusLabel = screenerStatus === 'on-or-above' ? 'On/Above Grade Level' :
+                          screenerStatus === 'below' ? 'Below Grade Level' :
+                          screenerStatus === 'far-below' ? 'Far Below Grade Level' : 'Not Assessed';
+      doc.text(`Status: ${statusLabel}`, leftMargin, yPosition);
+      yPosition += lineHeight * 2;
+
+      // Standards Met Section
+      if (masteredStandards.length > 0) {
+        doc.setFontSize(14);
+        doc.setTextColor(16, 185, 129); // Emerald color
+        doc.text('STANDARDS MET', leftMargin, yPosition);
+        yPosition += lineHeight * 1.5;
+
+        doc.setFontSize(10);
+        doc.setTextColor(30, 41, 59);
+
+        masteredStandards.forEach((standard) => {
+          if (yPosition > 270) {
+            doc.addPage();
+            yPosition = 20;
+          }
+          doc.setFont('helvetica', 'bold');
+          doc.text(`${standard.code}`, leftMargin, yPosition);
+          doc.setFont('helvetica', 'normal');
+          const nameText = doc.splitTextToSize(standard.name, pageWidth - leftMargin - 60);
+          doc.text(nameText, leftMargin + 50, yPosition);
+          yPosition += lineHeight * Math.max(nameText.length, 1) + 2;
+        });
+
+        yPosition += lineHeight;
+      }
+
+      // Skill Gaps Section
+      if (skillGaps.length > 0) {
+        if (yPosition > 250) {
+          doc.addPage();
+          yPosition = 20;
+        }
+
+        doc.setFontSize(14);
+        doc.setTextColor(239, 68, 68); // Rose color
+        doc.text('SKILL GAPS', leftMargin, yPosition);
+        yPosition += lineHeight * 1.5;
+
+        doc.setFontSize(10);
+        doc.setTextColor(30, 41, 59);
+
+        skillGaps.forEach((gap) => {
+          if (yPosition > 260) {
+            doc.addPage();
+            yPosition = 20;
+          }
+          doc.setFont('helvetica', 'bold');
+          doc.text(`${gap.code}`, leftMargin, yPosition);
+          doc.setFont('helvetica', 'normal');
+          const standardText = doc.splitTextToSize(gap.standard, pageWidth - leftMargin - 60);
+          doc.text(standardText, leftMargin + 50, yPosition);
+          yPosition += lineHeight * Math.max(standardText.length, 1);
+
+          if (gap.description) {
+            doc.setTextColor(100);
+            const descText = doc.splitTextToSize(gap.description, pageWidth - leftMargin - 30);
+            doc.text(descText, leftMargin + 10, yPosition);
+            doc.setTextColor(30, 41, 59);
+            yPosition += lineHeight * descText.length;
+          }
+          yPosition += 3;
+        });
+
+        yPosition += lineHeight;
+      }
+
+      // Recommendations Section
+      if (defaultRecs.length > 0) {
+        if (yPosition > 240) {
+          doc.addPage();
+          yPosition = 20;
+        }
+
+        doc.setFontSize(14);
+        doc.setTextColor(79, 70, 229); // Indigo color
+        doc.text('RECOMMENDATIONS', leftMargin, yPosition);
+        yPosition += lineHeight * 1.5;
+
+        doc.setFontSize(10);
+        doc.setTextColor(30, 41, 59);
+
+        defaultRecs.forEach((rec, index) => {
+          if (yPosition > 270) {
+            doc.addPage();
+            yPosition = 20;
+          }
+          const recText = doc.splitTextToSize(`${index + 1}. ${rec.text}`, pageWidth - leftMargin - 20);
+          doc.text(recText, leftMargin, yPosition);
+          yPosition += lineHeight * recText.length + 2;
+        });
+      }
+
+      // Footer
+      const pageCount = doc.getNumberOfPages();
+      for (let i = 1; i <= pageCount; i++) {
+        doc.setPage(i);
+        doc.setFontSize(8);
+        doc.setTextColor(150);
+        doc.text(
+          `Generated by Compass • Page ${i} of ${pageCount}`,
+          pageWidth / 2,
+          doc.internal.pageSize.getHeight() - 10,
+          { align: 'center' }
+        );
+      }
+
+      // Save the PDF
+      doc.save(`${studentInfo.firstName}_${studentInfo.lastName}_Assessment_Report.pdf`);
+    } catch (error) {
+      console.error('Error generating PDF:', error);
+      alert('Error generating PDF. Please try again.');
+    } finally {
+      setIsGeneratingPdf(false);
+    }
+  };
   const defaultRecs = getDefaultRecommendations(screenerStatus, readinessStatus, skillGapCount);
 
   // Combine custom and default recommendations
@@ -180,20 +375,33 @@ export const RecommendationsSection: React.FC<RecommendationsSectionProps> = ({
         })}
       </div>
 
-      {/* Action buttons */}
-      <div className="flex gap-2 mt-4">
-        <button className="flex-1 flex items-center justify-center gap-2 px-4 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-sm rounded-xl transition-colors">
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
-          </svg>
-          Create Action Plan
-        </button>
-        <button className="px-4 py-2.5 border border-slate-200 hover:bg-slate-50 text-slate-600 font-bold text-sm rounded-xl transition-colors">
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
-          </svg>
-        </button>
-      </div>
+      {/* Generate PDF button */}
+      {studentInfo && (
+        <div className="mt-4">
+          <button
+            onClick={generatePDF}
+            disabled={isGeneratingPdf}
+            className="w-full flex items-center justify-center gap-2 px-4 py-2.5 bg-indigo-600 hover:bg-indigo-700 disabled:bg-indigo-400 text-white font-bold text-sm rounded-xl transition-colors"
+          >
+            {isGeneratingPdf ? (
+              <>
+                <svg className="w-4 h-4 animate-spin" fill="none" viewBox="0 0 24 24">
+                  <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                  <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                </svg>
+                Generating...
+              </>
+            ) : (
+              <>
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                </svg>
+                Generate PDF Report
+              </>
+            )}
+          </button>
+        </div>
+      )}
     </div>
   );
 };

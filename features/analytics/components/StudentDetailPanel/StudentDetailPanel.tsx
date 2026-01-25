@@ -276,6 +276,16 @@ export const StudentDetailPanel: React.FC<StudentDetailPanelProps> = ({
                 readinessStatus={student.readinessStatus}
                 recommendations={student.recommendations}
                 skillGapCount={student.readiness?.gaps.length || 0}
+                masteredStandards={student.readiness?.masteredStandards}
+                skillGaps={student.readiness?.gaps}
+                studentInfo={{
+                  firstName: student.firstName,
+                  lastName: student.lastName,
+                  grade: student.grade,
+                  schoolName: student.schoolName,
+                  testDate: student.screener?.testDate,
+                  subject: student.screener?.subject,
+                }}
               />
             </>
           ) : (
