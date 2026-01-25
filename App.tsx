@@ -9,6 +9,7 @@ import ScreenerDashboard from './components/ScreenerDashboard';
 import SchoolManager from './components/SchoolManager';
 import UserManager from './components/UserManager';
 import TestReview from './components/TestReview';
+import { UnifiedAnalyticsPage } from './features/analytics';
 import { CurriculumSelector } from './components/CurriculumSelector';
 import { RegionSelector } from './components/RegionSelector';
 import { CurriculumProvider, useCurriculum } from './contexts/CurriculumContext';
@@ -53,7 +54,7 @@ const AppContent: React.FC = () => {
 
   const [view, setView] = useState<'admin' | 'student'>('admin');
   const [role, setRole] = useState<UserRole>(UserRole.ADMIN);
-  const [adminSubView, setAdminSubView] = useState<'dashboard' | 'screener' | 'schools' | 'students' | 'users' | 'test-review'>('dashboard');
+  const [adminSubView, setAdminSubView] = useState<'dashboard' | 'screener' | 'analytics' | 'schools' | 'students' | 'users' | 'test-review'>('analytics');
   const [loading, setLoading] = useState(true);
 
   const [schools, setSchools] = useState<School[]>([]);
@@ -279,10 +280,13 @@ const AppContent: React.FC = () => {
 
             <div className="bg-white p-1.5 rounded-2xl shadow-sm border border-slate-100 flex space-x-1 max-w-fit flex-wrap gap-y-1">
                {canSeeDashboard && (
-                 <button onClick={() => setAdminSubView('dashboard')} className={`px-6 py-2 font-bold rounded-xl text-xs transition-all ${adminSubView === 'dashboard' ? 'bg-indigo-50 text-indigo-600' : 'text-slate-500 hover:bg-slate-50'}`}>READINESS ANALYTICS</button>
+                 <button onClick={() => setAdminSubView('analytics')} className={`px-6 py-2 font-bold rounded-xl text-xs transition-all ${adminSubView === 'analytics' ? 'bg-purple-50 text-purple-600' : 'text-slate-500 hover:bg-slate-50'}`}>STUDENT ANALYTICS</button>
+               )}
+               {canSeeDashboard && (
+                 <button onClick={() => setAdminSubView('dashboard')} className={`px-6 py-2 font-bold rounded-xl text-xs transition-all ${adminSubView === 'dashboard' ? 'bg-indigo-50 text-indigo-600' : 'text-slate-500 hover:bg-slate-50'}`}>AP READINESS</button>
                )}
                {canSeeScreener && (
-                 <button onClick={() => setAdminSubView('screener')} className={`px-6 py-2 font-bold rounded-xl text-xs transition-all ${adminSubView === 'screener' ? 'bg-indigo-50 text-indigo-600' : 'text-slate-500 hover:bg-slate-50'}`}>SCREENER DASHBOARD</button>
+                 <button onClick={() => setAdminSubView('screener')} className={`px-6 py-2 font-bold rounded-xl text-xs transition-all ${adminSubView === 'screener' ? 'bg-indigo-50 text-indigo-600' : 'text-slate-500 hover:bg-slate-50'}`}>SCREENER</button>
                )}
                {canSeeSchools && (
                  <button onClick={() => setAdminSubView('schools')} className={`px-6 py-2 font-bold rounded-xl text-xs transition-all ${adminSubView === 'schools' ? 'bg-indigo-50 text-indigo-600' : 'text-slate-500 hover:bg-slate-50'}`}>SCHOOLS</button>
@@ -298,7 +302,13 @@ const AppContent: React.FC = () => {
                )}
             </div>
 
-            {adminSubView === 'dashboard' && canSeeDashboard ? (
+            {adminSubView === 'analytics' && canSeeDashboard ? (
+              <UnifiedAnalyticsPage
+                students={students}
+                results={screenerResults}
+                schools={schools}
+              />
+            ) : adminSubView === 'dashboard' && canSeeDashboard ? (
               <>
                 <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 grid grid-cols-1 md:grid-cols-3 gap-6">
                   <div>
