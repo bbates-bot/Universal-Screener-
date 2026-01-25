@@ -149,7 +149,7 @@ export const SkillGapsChart: React.FC<SkillGapsChartProps> = ({
       <div className="flex items-center justify-between mb-4">
         <div>
           <h3 className="text-sm font-bold text-slate-600 uppercase tracking-wider">
-            Prerequisite Skill Gaps by Domain
+            Skill Gaps by Domain
           </h3>
           <p className="text-xs text-slate-400 mt-1">
             Showing top {Math.min(maxItems, data.length)} areas needing attention

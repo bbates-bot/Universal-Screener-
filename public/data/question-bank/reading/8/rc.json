@@ -1,0 +1,2730 @@
+{
+  "metadata": {
+    "subject": "Reading",
+    "gradeLevel": "8",
+    "domain": "RC",
+    "domainName": "Reading Comprehension",
+    "lastUpdated": "2026-01-25",
+    "totalQuestions": 100,
+    "description": "CCSS-aligned reading comprehension assessment with literary and informational texts",
+    "lexileRange": "900L-1080L"
+  },
+  "questions": [
+    {
+      "id": "reading-8-rc-001",
+      "bankId": "reading-8-rc",
+      "text": "What can the reader infer about the protagonist's internal conflict in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She is struggling with loyalty to her family versus her own ambitions",
+          "She is worried about her physical appearance",
+          "She is concerned about failing her exams",
+          "She is afraid of traveling alone"
+        ],
+        "correctAnswer": "She is struggling with loyalty to her family versus her own ambitions"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.8.1"
+      ],
+      "primaryStandard": "RL.8.1",
+      "passage": "G8-L1: The Weight of Expectations",
+      "passageText": "Mei stared at the acceptance letter from the conservatory in New York, her hands trembling slightly. For years, she had dreamed of studying violin at a prestigious institution, of losing herself in the soaring melodies that seemed to speak what words could not express. Yet her grandmother's words echoed in her mind: 'Family is the river that flows through all our lives.' Her parents had sacrificed everything to build their restaurant, working eighteen-hour days so she could have opportunities they never had. They needed her help now more than ever. The letter felt impossibly heavy in her hands, as if it contained not just her future but the weight of generations of obligation. She thought of her grandmother's calloused hands, her father's tired smile, her mother's quiet pride whenever Mei performed. How could she choose between the music that made her soul sing and the people who had given her everything?",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage reveals Mei's internal struggle between pursuing her dreams at the conservatory and staying to help her family with their restaurant."
+    },
+    {
+      "id": "reading-8-rc-002",
+      "bankId": "reading-8-rc",
+      "text": "Which theme is most strongly developed in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The dangers of ambition",
+          "The tension between personal dreams and family duty",
+          "The importance of financial success",
+          "The value of musical education"
+        ],
+        "correctAnswer": "The tension between personal dreams and family duty"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.8.2"
+      ],
+      "primaryStandard": "RL.8.2",
+      "passage": "G8-L1: The Weight of Expectations",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The entire passage explores Mei's struggle between pursuing her musical dreams and fulfilling her obligations to her family."
+    },
+    {
+      "id": "reading-8-rc-003",
+      "bankId": "reading-8-rc",
+      "text": "How does the grandmother's quote 'Family is the river that flows through all our lives' contribute to the development of Mei's conflict?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It suggests family connections are unavoidable and enduring",
+          "It implies that water is important to the family",
+          "It indicates the grandmother disapproves of music",
+          "It shows the family lives near a river"
+        ],
+        "correctAnswer": "It suggests family connections are unavoidable and enduring"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.8.3"
+      ],
+      "primaryStandard": "RL.8.3",
+      "passage": "G8-L1: The Weight of Expectations",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The metaphor of family as a river suggests that family ties are constant and flow through every aspect of life, intensifying Mei's sense of obligation."
+    },
+    {
+      "id": "reading-8-rc-004",
+      "bankId": "reading-8-rc",
+      "text": "What is the effect of describing the letter as feeling 'impossibly heavy'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It shows the letter was printed on thick paper",
+          "It emphasizes the emotional weight of the decision Mei faces",
+          "It indicates Mei is physically weak",
+          "It suggests the envelope contained many pages"
+        ],
+        "correctAnswer": "It emphasizes the emotional weight of the decision Mei faces"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.8.4"
+      ],
+      "primaryStandard": "RL.8.4",
+      "passage": "G8-L1: The Weight of Expectations",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The figurative description emphasizes that the letter represents a difficult decision with significant emotional consequences."
+    },
+    {
+      "id": "reading-8-rc-005",
+      "bankId": "reading-8-rc",
+      "text": "How does the author structure this passage to create tension?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By alternating between Mei's dreams and her family obligations",
+          "By using dialogue between family members",
+          "By describing events in chronological order",
+          "By comparing Mei to other musicians"
+        ],
+        "correctAnswer": "By alternating between Mei's dreams and her family obligations"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.8.5"
+      ],
+      "primaryStandard": "RL.8.5",
+      "passage": "G8-L1: The Weight of Expectations",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage moves back and forth between Mei's musical aspirations and memories of her family's sacrifices, creating tension through juxtaposition."
+    },
+    {
+      "id": "reading-8-rc-006",
+      "bankId": "reading-8-rc",
+      "text": "From whose point of view is the story told, and how does this affect the reader's understanding?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "First person, limiting us to Mei's direct experiences",
+          "Third person limited, giving us access to Mei's thoughts while maintaining narrative distance",
+          "Third person omniscient, showing all characters' thoughts",
+          "Second person, making the reader the protagonist"
+        ],
+        "correctAnswer": "Third person limited, giving us access to Mei's thoughts while maintaining narrative distance"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.8.6"
+      ],
+      "primaryStandard": "RL.8.6",
+      "passage": "G8-L1: The Weight of Expectations",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The third person limited point of view allows readers to understand Mei's internal thoughts while the narrator maintains some objectivity."
+    },
+    {
+      "id": "reading-8-rc-007",
+      "bankId": "reading-8-rc",
+      "text": "Which sentence from the passage best supports the inference that Mei's family values hard work and sacrifice?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Mei stared at the acceptance letter from the conservatory in New York",
+          "Her parents had sacrificed everything to build their restaurant, working eighteen-hour days",
+          "The letter felt impossibly heavy in her hands",
+          "For years, she had dreamed of studying violin"
+        ],
+        "correctAnswer": "Her parents had sacrificed everything to build their restaurant, working eighteen-hour days"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RL.8.1"
+      ],
+      "primaryStandard": "RL.8.1",
+      "passage": "G8-L1: The Weight of Expectations",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "This sentence directly shows the family's work ethic and sacrifices made for Mei's benefit."
+    },
+    {
+      "id": "reading-8-rc-008",
+      "bankId": "reading-8-rc",
+      "text": "What is the central idea of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Neuroplasticity allows the brain to change and adapt throughout life",
+          "The brain stops developing after childhood",
+          "Only young people can learn new skills",
+          "Brain damage is always permanent"
+        ],
+        "correctAnswer": "Neuroplasticity allows the brain to change and adapt throughout life"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.8.2"
+      ],
+      "primaryStandard": "RI.8.2",
+      "passage": "G8-I1: The Remarkable Plasticity of the Human Brain",
+      "passageText": "For decades, scientists believed that the human brain was essentially fixed after early childhood, incapable of significant change or growth. However, groundbreaking research in neuroscience has revolutionized our understanding of the brain's remarkable adaptability. Neuroplasticity, the brain's ability to reorganize itself by forming new neural connections, continues throughout our entire lives. This discovery has profound implications for education, rehabilitation, and human potential. Studies of London taxi drivers revealed that their hippocampi, the brain regions associated with spatial memory, were significantly larger than average due to their constant navigation of complex city streets. Similarly, research on musicians demonstrated that areas of their brains responsible for motor control and auditory processing showed measurable differences compared to non-musicians. Perhaps most remarkably, individuals who have suffered brain injuries have shown the ability to recover functions by essentially rewiring their neural pathways. The brain, it seems, is not a static organ but a dynamic system constantly shaped by our experiences, learning, and environment.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage's main focus is explaining how neuroplasticity enables the brain to continue changing and adapting throughout life."
+    },
+    {
+      "id": "reading-8-rc-009",
+      "bankId": "reading-8-rc",
+      "text": "Which evidence from the passage best supports the claim that the brain changes in response to specific activities?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Scientists believed the brain was fixed after childhood",
+          "Neuroplasticity continues throughout our entire lives",
+          "London taxi drivers had significantly larger hippocampi due to navigation demands",
+          "The brain is not a static organ"
+        ],
+        "correctAnswer": "London taxi drivers had significantly larger hippocampi due to navigation demands"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.8.1"
+      ],
+      "primaryStandard": "RI.8.1",
+      "passage": "G8-I1: The Remarkable Plasticity of the Human Brain",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The example of taxi drivers shows a direct correlation between a specific activity (navigation) and brain changes (larger hippocampi)."
+    },
+    {
+      "id": "reading-8-rc-010",
+      "bankId": "reading-8-rc",
+      "text": "How does the author use the examples of taxi drivers and musicians to develop the central idea?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To show that only certain professions affect brain development",
+          "To provide concrete evidence that specific activities lead to measurable brain changes",
+          "To argue that everyone should become a taxi driver or musician",
+          "To demonstrate that brain research is unreliable"
+        ],
+        "correctAnswer": "To provide concrete evidence that specific activities lead to measurable brain changes"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.8.3"
+      ],
+      "primaryStandard": "RI.8.3",
+      "passage": "G8-I1: The Remarkable Plasticity of the Human Brain",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The examples serve as evidence supporting the claim that the brain physically changes in response to specific activities and learning."
+    },
+    {
+      "id": "reading-8-rc-011",
+      "bankId": "reading-8-rc",
+      "text": "What does the word 'groundbreaking' mean as used in the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Related to construction work",
+          "Revolutionary and pioneering",
+          "Causing damage to foundations",
+          "Ordinary and expected"
+        ],
+        "correctAnswer": "Revolutionary and pioneering"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.8.4"
+      ],
+      "primaryStandard": "RI.8.4",
+      "passage": "G8-I1: The Remarkable Plasticity of the Human Brain",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "In this context, 'groundbreaking' means innovative research that changes fundamental understanding."
+    },
+    {
+      "id": "reading-8-rc-012",
+      "bankId": "reading-8-rc",
+      "text": "How is this passage structured?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Problem and solution",
+          "Chronological order of discoveries",
+          "Old belief contrasted with new understanding, supported by evidence",
+          "Comparison of different brain regions"
+        ],
+        "correctAnswer": "Old belief contrasted with new understanding, supported by evidence"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.8.5"
+      ],
+      "primaryStandard": "RI.8.5",
+      "passage": "G8-I1: The Remarkable Plasticity of the Human Brain",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage begins with the old scientific belief, introduces the new understanding, and provides evidence through examples."
+    },
+    {
+      "id": "reading-8-rc-013",
+      "bankId": "reading-8-rc",
+      "text": "What is the author's purpose in writing this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To entertain readers with stories about taxi drivers",
+          "To inform readers about the brain's ability to change and adapt",
+          "To persuade readers to become neuroscientists",
+          "To argue against traditional education methods"
+        ],
+        "correctAnswer": "To inform readers about the brain's ability to change and adapt"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.8.6"
+      ],
+      "primaryStandard": "RI.8.6",
+      "passage": "G8-I1: The Remarkable Plasticity of the Human Brain",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author's primary purpose is to explain the scientific concept of neuroplasticity and its implications."
+    },
+    {
+      "id": "reading-8-rc-014",
+      "bankId": "reading-8-rc",
+      "text": "Which statement best evaluates the reasoning in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The argument is weak because it relies only on personal opinions",
+          "The argument is strong because it cites specific research examples as evidence",
+          "The argument is flawed because it uses emotional appeals",
+          "The argument is invalid because it contradicts itself"
+        ],
+        "correctAnswer": "The argument is strong because it cites specific research examples as evidence"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Integration of Knowledge",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.8.8"
+      ],
+      "primaryStandard": "RI.8.8",
+      "passage": "G8-I1: The Remarkable Plasticity of the Human Brain",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage supports its claims with specific research studies on taxi drivers, musicians, and brain injury recovery."
+    },
+    {
+      "id": "reading-8-rc-015",
+      "bankId": "reading-8-rc",
+      "text": "What can the reader infer about Marcus's character based on his actions in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He is impulsive and acts without thinking",
+          "He is thoughtful and considers the consequences of his actions",
+          "He is selfish and only thinks of himself",
+          "He is cowardly and avoids difficult situations"
+        ],
+        "correctAnswer": "He is thoughtful and considers the consequences of his actions"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.8.1"
+      ],
+      "primaryStandard": "RL.8.1",
+      "passage": "G8-L2: The Crossroads",
+      "passageText": "Marcus stood at the edge of the abandoned lot where his friends gathered, the evening air thick with tension and the acrid smell of spray paint. They had asked him to be the lookout while they tagged the side of the old warehouse, a rite of passage they claimed would prove his loyalty to the group. His phone buzzed in his pocket, a text from his younger brother asking when he would be home to help with homework. Marcus thought of his mother working double shifts at the hospital, trusting him to set a good example. He thought of his father's voice, always urging him to think three steps ahead, to consider who he wanted to become. The can of spray paint felt cold and foreign in his hand. His friends' laughter seemed distant now, like sounds heard underwater. Marcus set the can down slowly on a crumbling brick wall. 'I have to go,' he said, his voice steady despite the pounding in his chest. As he walked away, he could feel their stares boring into his back, but each step felt lighter than the last.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Marcus considers his family responsibilities, his father's advice, and the kind of person he wants to be before making his decision."
+    },
+    {
+      "id": "reading-8-rc-016",
+      "bankId": "reading-8-rc",
+      "text": "What theme does the author develop through Marcus's decision?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "True friendship requires loyalty at any cost",
+          "Making ethical choices requires courage and self-awareness",
+          "Family obligations are burdensome",
+          "Peer pressure always leads to positive outcomes"
+        ],
+        "correctAnswer": "Making ethical choices requires courage and self-awareness"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.8.2"
+      ],
+      "primaryStandard": "RL.8.2",
+      "passage": "G8-L2: The Crossroads",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage shows Marcus making a difficult but ethical choice despite peer pressure, demonstrating courage and self-knowledge."
+    },
+    {
+      "id": "reading-8-rc-017",
+      "bankId": "reading-8-rc",
+      "text": "How does the detail about Marcus's brother's text contribute to the plot?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It provides comic relief from the tension",
+          "It reminds Marcus of his responsibilities and influences his decision",
+          "It shows that Marcus is popular",
+          "It establishes the time of day"
+        ],
+        "correctAnswer": "It reminds Marcus of his responsibilities and influences his decision"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.8.3"
+      ],
+      "primaryStandard": "RL.8.3",
+      "passage": "G8-L2: The Crossroads",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text from his brother serves as a catalyst, reminding Marcus of his role model responsibilities to his family."
+    },
+    {
+      "id": "reading-8-rc-018",
+      "bankId": "reading-8-rc",
+      "text": "What is the effect of the simile 'like sounds heard underwater'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It suggests Marcus is near a swimming pool",
+          "It indicates Marcus's friends are whispering",
+          "It conveys Marcus's psychological distance from the situation as he makes his decision",
+          "It shows that Marcus has poor hearing"
+        ],
+        "correctAnswer": "It conveys Marcus's psychological distance from the situation as he makes his decision"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.8.4"
+      ],
+      "primaryStandard": "RL.8.4",
+      "passage": "G8-L2: The Crossroads",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The simile creates a sense of detachment, showing that Marcus is mentally withdrawing from the group as he reaches his decision."
+    },
+    {
+      "id": "reading-8-rc-019",
+      "bankId": "reading-8-rc",
+      "text": "How does the author use pacing in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Quick, action-packed sentences throughout",
+          "Slow, reflective passages building to a decisive moment",
+          "Rapid dialogue exchanges",
+          "A series of flashbacks"
+        ],
+        "correctAnswer": "Slow, reflective passages building to a decisive moment"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.8.5"
+      ],
+      "primaryStandard": "RL.8.5",
+      "passage": "G8-L2: The Crossroads",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage moves slowly through Marcus's thoughts and memories before arriving at his decisive action."
+    },
+    {
+      "id": "reading-8-rc-020",
+      "bankId": "reading-8-rc",
+      "text": "What does the phrase 'each step felt lighter than the last' reveal about Marcus's feelings?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He is physically exhausted",
+          "He feels relieved and confident in his choice",
+          "He is walking downhill",
+          "He regrets his decision"
+        ],
+        "correctAnswer": "He feels relieved and confident in his choice"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.8.4"
+      ],
+      "primaryStandard": "RL.8.4",
+      "passage": "G8-L2: The Crossroads",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The figurative language suggests that leaving brought Marcus relief and affirmation that he made the right choice."
+    },
+    {
+      "id": "reading-8-rc-021",
+      "bankId": "reading-8-rc",
+      "text": "What claim does the author make about social media in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Social media has only positive effects on society",
+          "Social media has fundamentally changed political engagement in complex ways",
+          "Social media should be banned",
+          "Social media has no effect on democracy"
+        ],
+        "correctAnswer": "Social media has fundamentally changed political engagement in complex ways"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.8.2"
+      ],
+      "primaryStandard": "RI.8.2",
+      "passage": "G8-I2: The Digital Town Square",
+      "passageText": "The rise of social media has fundamentally transformed how citizens engage with democracy, creating both unprecedented opportunities and significant challenges. Platforms like Twitter, Facebook, and Instagram have democratized political discourse, allowing ordinary citizens to share their views, organize movements, and hold leaders accountable in ways that were impossible a generation ago. The Arab Spring protests and the global climate strikes demonstrate how social media can mobilize millions of people around shared causes within hours. However, this digital revolution has a darker dimension that threatens the very democratic values it claims to serve. The algorithmic systems designed to maximize engagement often amplify sensational and divisive content, creating echo chambers that reinforce existing beliefs rather than encouraging thoughtful debate. Misinformation spreads six times faster than accurate news on these platforms, according to research from MIT. Foreign actors have exploited these vulnerabilities to interfere in elections worldwide. The question facing modern democracies is not whether to embrace or reject social media, but how to harness its democratizing potential while mitigating its capacity for manipulation and division.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author presents a nuanced view that social media has both benefits (democratization) and challenges (misinformation, echo chambers)."
+    },
+    {
+      "id": "reading-8-rc-022",
+      "bankId": "reading-8-rc",
+      "text": "Which evidence does the author use to support the claim that social media can be beneficial for democracy?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Misinformation spreads six times faster than accurate news",
+          "Algorithmic systems amplify sensational content",
+          "The Arab Spring protests and global climate strikes mobilized millions",
+          "Foreign actors have interfered in elections"
+        ],
+        "correctAnswer": "The Arab Spring protests and global climate strikes mobilized millions"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.8.1"
+      ],
+      "primaryStandard": "RI.8.1",
+      "passage": "G8-I2: The Digital Town Square",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "These examples show social media's positive potential for organizing large-scale democratic movements."
+    },
+    {
+      "id": "reading-8-rc-023",
+      "bankId": "reading-8-rc",
+      "text": "How does the author develop the argument that social media also poses risks to democracy?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By providing only personal opinions",
+          "By citing research on misinformation and explaining echo chambers",
+          "By ignoring counterarguments",
+          "By using emotional appeals only"
+        ],
+        "correctAnswer": "By citing research on misinformation and explaining echo chambers"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.8.3"
+      ],
+      "primaryStandard": "RI.8.3",
+      "passage": "G8-I2: The Digital Town Square",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author cites MIT research on misinformation and explains how algorithms create echo chambers to support concerns about social media."
+    },
+    {
+      "id": "reading-8-rc-024",
+      "bankId": "reading-8-rc",
+      "text": "What does the phrase 'echo chambers' mean in this context?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Rooms designed for acoustic experiments",
+          "Online environments where people only encounter views similar to their own",
+          "Social media platforms that repeat messages",
+          "Government surveillance programs"
+        ],
+        "correctAnswer": "Online environments where people only encounter views similar to their own"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.8.4"
+      ],
+      "primaryStandard": "RI.8.4",
+      "passage": "G8-I2: The Digital Town Square",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "In this context, echo chambers refers to online spaces where algorithms show users content that reinforces their existing beliefs."
+    },
+    {
+      "id": "reading-8-rc-025",
+      "bankId": "reading-8-rc",
+      "text": "How does the author's structure support the balanced argument presented?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By presenting only one perspective throughout",
+          "By presenting benefits first, then challenges, then a synthesis question",
+          "By using only chronological order",
+          "By focusing entirely on statistics"
+        ],
+        "correctAnswer": "By presenting benefits first, then challenges, then a synthesis question"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.8.5"
+      ],
+      "primaryStandard": "RI.8.5",
+      "passage": "G8-I2: The Digital Town Square",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The structure moves from positive aspects to negative concerns, ending with a nuanced question that acknowledges both sides."
+    },
+    {
+      "id": "reading-8-rc-026",
+      "bankId": "reading-8-rc",
+      "text": "What is the author's point of view on social media and democracy?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Entirely positive",
+          "Entirely negative",
+          "Balanced, acknowledging both benefits and dangers",
+          "Indifferent"
+        ],
+        "correctAnswer": "Balanced, acknowledging both benefits and dangers"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.8.6"
+      ],
+      "primaryStandard": "RI.8.6",
+      "passage": "G8-I2: The Digital Town Square",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author presents both the democratizing benefits and the risks of manipulation, maintaining a balanced perspective."
+    },
+    {
+      "id": "reading-8-rc-027",
+      "bankId": "reading-8-rc",
+      "text": "Is the evidence about misinformation spreading 'six times faster' sufficient to support the author's claim about social media risks?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "No, because it is only one statistic without context",
+          "Yes, because it is cited research combined with other supporting points",
+          "No, because the author made it up",
+          "Yes, because statistics are always reliable"
+        ],
+        "correctAnswer": "Yes, because it is cited research combined with other supporting points"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Integration of Knowledge",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.8.8"
+      ],
+      "primaryStandard": "RI.8.8",
+      "passage": "G8-I2: The Digital Town Square",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The MIT research statistic is credible and combined with other evidence about echo chambers and election interference."
+    },
+    {
+      "id": "reading-8-rc-028",
+      "bankId": "reading-8-rc",
+      "text": "What can the reader infer about Elena's relationship with her grandfather from this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "They rarely communicate and have nothing in common",
+          "They share a deep bond connected to family history and identity",
+          "They argue frequently about politics",
+          "They have only recently met"
+        ],
+        "correctAnswer": "They share a deep bond connected to family history and identity"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.8.1"
+      ],
+      "primaryStandard": "RL.8.1",
+      "passage": "G8-L3: The Language of Memory",
+      "passageText": "Elena traced her fingers over the faded photograph, its edges soft and worn from years of handling. Her grandfather sat beside her on the porch, his weathered hands wrapped around a cup of coffee that had long grown cold. 'Abuela would sit right here,' he said in Spanish, his voice carrying the cadence of another place, another time. 'She would tell me stories about the mountains, about the village where our family lived for generations before we came to this country.' Elena understood only fragments of his Spanish now, the language slipping away from her like water through cupped hands. She had stopped speaking it in middle school, embarrassed by the way it marked her as different. Now, watching the sunset paint her grandfather's face in shades of gold and amber, she felt the weight of all those unspoken words, all those stories she might never fully understand. 'Teach me, Abuelo,' she said softly. 'I want to remember.' His eyes, the same dark brown as hers, filled with something that looked like hope reborn.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage shows Elena's emotional connection to her grandfather through shared heritage, photographs, and her desire to learn Spanish again."
+    },
+    {
+      "id": "reading-8-rc-029",
+      "bankId": "reading-8-rc",
+      "text": "Which theme is most fully developed in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The challenges of immigration",
+          "The preservation of cultural identity across generations",
+          "The dangers of assimilation",
+          "The importance of photographs"
+        ],
+        "correctAnswer": "The preservation of cultural identity across generations"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.8.2"
+      ],
+      "primaryStandard": "RL.8.2",
+      "passage": "G8-L3: The Language of Memory",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explores how language, stories, and family connections preserve cultural identity from generation to generation."
+    },
+    {
+      "id": "reading-8-rc-030",
+      "bankId": "reading-8-rc",
+      "text": "How does Elena's choice to stop speaking Spanish in middle school contribute to the conflict in the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It has no effect on the conflict",
+          "It creates distance between her and her cultural heritage that she now regrets",
+          "It improved her relationship with her grandfather",
+          "It helped her fit in perfectly at school"
+        ],
+        "correctAnswer": "It creates distance between her and her cultural heritage that she now regrets"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.8.3"
+      ],
+      "primaryStandard": "RL.8.3",
+      "passage": "G8-L3: The Language of Memory",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Elena's earlier rejection of Spanish creates the internal conflict she experiences, as she now struggles to understand her grandfather's stories."
+    },
+    {
+      "id": "reading-8-rc-031",
+      "bankId": "reading-8-rc",
+      "text": "What does the simile 'slipping away from her like water through cupped hands' suggest about Elena's connection to Spanish?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She is learning Spanish quickly",
+          "Her knowledge of Spanish is gradually and inevitably diminishing",
+          "She prefers swimming to speaking Spanish",
+          "Spanish is easy to hold onto"
+        ],
+        "correctAnswer": "Her knowledge of Spanish is gradually and inevitably diminishing"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.8.4"
+      ],
+      "primaryStandard": "RL.8.4",
+      "passage": "G8-L3: The Language of Memory",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The simile compares her fading Spanish to water slipping away, suggesting a gradual, difficult-to-prevent loss."
+    },
+    {
+      "id": "reading-8-rc-032",
+      "bankId": "reading-8-rc",
+      "text": "How does the author use sensory details to develop the setting and mood?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By focusing only on sounds",
+          "Through visual imagery of the sunset, tactile details of the photograph, and references to cold coffee",
+          "By describing only the weather",
+          "Through dialogue exclusively"
+        ],
+        "correctAnswer": "Through visual imagery of the sunset, tactile details of the photograph, and references to cold coffee"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.8.5"
+      ],
+      "primaryStandard": "RL.8.5",
+      "passage": "G8-L3: The Language of Memory",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author uses multiple senses to create an intimate, nostalgic mood through visual, tactile, and other sensory details."
+    },
+    {
+      "id": "reading-8-rc-033",
+      "bankId": "reading-8-rc",
+      "text": "What does the description of the grandfather's eyes filling with 'something that looked like hope reborn' reveal?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He is feeling tired",
+          "He is experiencing renewed hope that Elena wants to reconnect with her heritage",
+          "He is sad about the past",
+          "He is thinking about coffee"
+        ],
+        "correctAnswer": "He is experiencing renewed hope that Elena wants to reconnect with her heritage"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.8.6"
+      ],
+      "primaryStandard": "RL.8.6",
+      "passage": "G8-L3: The Language of Memory",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "This description shows the grandfather's emotional response to Elena's request to learn Spanish, suggesting hope for cultural continuity."
+    },
+    {
+      "id": "reading-8-rc-034",
+      "bankId": "reading-8-rc",
+      "text": "According to the passage, what is the primary cause of coral reef decline?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Natural predators",
+          "Rising ocean temperatures due to climate change",
+          "Fishing activities alone",
+          "Underwater earthquakes"
+        ],
+        "correctAnswer": "Rising ocean temperatures due to climate change"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.8.1"
+      ],
+      "primaryStandard": "RI.8.1",
+      "passage": "G8-I3: The Silent Crisis Beneath the Waves",
+      "passageText": "Beneath the surface of our warming oceans, a silent crisis unfolds that threatens one of Earth's most biodiverse ecosystems. Coral reefs, often called the rainforests of the sea, support approximately twenty-five percent of all marine species despite covering less than one percent of the ocean floor. Yet these remarkable structures are dying at an alarming rate, with scientists estimating that we have already lost half of the world's coral reefs in the past three decades. The primary culprit is rising ocean temperatures caused by climate change. When water temperatures exceed a critical threshold, corals expel the symbiotic algae living in their tissues, a phenomenon known as coral bleaching. Without these algae, which provide corals with nutrients through photosynthesis, the corals turn white and, if conditions do not improve, eventually starve. Ocean acidification, also driven by increased atmospheric carbon dioxide, further compounds the problem by making it harder for corals to build their calcium carbonate skeletons. The loss of coral reefs would devastate not only marine ecosystems but also the estimated one billion people who depend on reef fisheries for food and income.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explicitly states that rising ocean temperatures caused by climate change is the primary culprit."
+    },
+    {
+      "id": "reading-8-rc-035",
+      "bankId": "reading-8-rc",
+      "text": "What is the central idea of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Coral reefs are beautiful tourist destinations",
+          "Climate change is causing rapid coral reef decline with serious ecological and human consequences",
+          "Ocean acidification is the only threat to coral reefs",
+          "Marine species are adapting well to reef loss"
+        ],
+        "correctAnswer": "Climate change is causing rapid coral reef decline with serious ecological and human consequences"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.8.2"
+      ],
+      "primaryStandard": "RI.8.2",
+      "passage": "G8-I3: The Silent Crisis Beneath the Waves",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage focuses on how climate change is destroying coral reefs and the resulting impacts on ecosystems and human populations."
+    },
+    {
+      "id": "reading-8-rc-036",
+      "bankId": "reading-8-rc",
+      "text": "How does the author connect the ideas of coral bleaching and coral death?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Through unrelated examples",
+          "By explaining the causal chain from temperature rise to algae loss to starvation",
+          "Through emotional appeals only",
+          "By comparing different types of coral"
+        ],
+        "correctAnswer": "By explaining the causal chain from temperature rise to algae loss to starvation"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.8.3"
+      ],
+      "primaryStandard": "RI.8.3",
+      "passage": "G8-I3: The Silent Crisis Beneath the Waves",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author traces a cause-effect relationship: high temperatures cause algae expulsion, which leads to bleaching and eventual starvation."
+    },
+    {
+      "id": "reading-8-rc-037",
+      "bankId": "reading-8-rc",
+      "text": "What does the term 'symbiotic' mean in the context of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Harmful to corals",
+          "A mutually beneficial relationship between different organisms",
+          "Related to ocean currents",
+          "A type of coral disease"
+        ],
+        "correctAnswer": "A mutually beneficial relationship between different organisms"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.8.4"
+      ],
+      "primaryStandard": "RI.8.4",
+      "passage": "G8-I3: The Silent Crisis Beneath the Waves",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explains that algae provide nutrients to corals through photosynthesis, indicating a mutually beneficial relationship."
+    },
+    {
+      "id": "reading-8-rc-038",
+      "bankId": "reading-8-rc",
+      "text": "How is this passage organized?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Chronological order of coral evolution",
+          "Problem introduction, cause-effect explanation, consequences",
+          "Comparison of different reef types",
+          "Step-by-step instructions for coral conservation"
+        ],
+        "correctAnswer": "Problem introduction, cause-effect explanation, consequences"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.8.5"
+      ],
+      "primaryStandard": "RI.8.5",
+      "passage": "G8-I3: The Silent Crisis Beneath the Waves",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage introduces the crisis, explains the causes and mechanisms of coral decline, and concludes with the consequences."
+    },
+    {
+      "id": "reading-8-rc-039",
+      "bankId": "reading-8-rc",
+      "text": "What is the author's purpose in calling this a 'silent crisis'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To indicate that corals make no sounds",
+          "To suggest that this serious problem is happening without much public awareness",
+          "To describe the quiet ocean environment",
+          "To compare coral reefs to rainforests"
+        ],
+        "correctAnswer": "To suggest that this serious problem is happening without much public awareness"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.8.6"
+      ],
+      "primaryStandard": "RI.8.6",
+      "passage": "G8-I3: The Silent Crisis Beneath the Waves",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The phrase 'silent crisis' suggests that this major environmental problem is occurring largely unnoticed by the general public."
+    },
+    {
+      "id": "reading-8-rc-040",
+      "bankId": "reading-8-rc",
+      "text": "Which evidence most strongly supports the claim that coral reef loss would have significant human impacts?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Corals turn white when bleached",
+          "Half of the world's coral reefs have been lost",
+          "One billion people depend on reef fisheries for food and income",
+          "Coral reefs cover less than one percent of the ocean floor"
+        ],
+        "correctAnswer": "One billion people depend on reef fisheries for food and income"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.8.8"
+      ],
+      "primaryStandard": "RI.8.8",
+      "passage": "G8-I3: The Silent Crisis Beneath the Waves",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The statistic about one billion people depending on reefs directly shows the human impact of coral reef loss."
+    },
+    {
+      "id": "reading-8-rc-041",
+      "bankId": "reading-8-rc",
+      "text": "What can the reader infer about Aiden's feelings toward the championship game?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He is indifferent and does not care about the outcome",
+          "He feels intense pressure and conflicting emotions about expectations",
+          "He is confident and has no doubts",
+          "He wishes he had never joined the team"
+        ],
+        "correctAnswer": "He feels intense pressure and conflicting emotions about expectations"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.8.1"
+      ],
+      "primaryStandard": "RL.8.1",
+      "passage": "G8-L4: The Final Quarter",
+      "passageText": "The scoreboard glowed like a beacon in the gymnasium, its numbers telling a story of pressure and possibility: Home 58, Visitors 60, with three minutes remaining. Aiden wiped the sweat from his forehead and glanced at the stands, where his father sat rigid with expectation, the same father who had installed a basketball hoop before Aiden could even walk. Every shot Aiden had ever taken seemed to lead to this moment, but now the ball felt foreign in his hands, heavier than physics could explain. His teammate Marcus caught his eye and gave a slight nod, a gesture that said more than words could convey. Aiden thought of all the early morning practices, the sacrifices his whole team had made, the bond they had forged through countless hours of shared struggle. This was not just about meeting his father's expectations or proving something to himself. This was about twelve players who had become family. When the whistle blew and the ball was inbounded, Aiden saw the play develop differently than before. He drove toward the basket but noticed Tyler cutting toward an open position. Without hesitation, Aiden passed the ball, choosing the team over personal glory.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage shows Aiden's internal pressure through details about his father's expectations and the 'heavier than physics' ball metaphor."
+    },
+    {
+      "id": "reading-8-rc-042",
+      "bankId": "reading-8-rc",
+      "text": "What theme does the author develop through Aiden's decision to pass the ball?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Individual achievement matters most",
+          "Teamwork and sacrifice are more valuable than personal glory",
+          "Fathers should not pressure their children",
+          "Basketball is about physical strength alone"
+        ],
+        "correctAnswer": "Teamwork and sacrifice are more valuable than personal glory"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.8.2"
+      ],
+      "primaryStandard": "RL.8.2",
+      "passage": "G8-L4: The Final Quarter",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Aiden's choice to pass to Tyler demonstrates valuing team success over individual recognition."
+    },
+    {
+      "id": "reading-8-rc-043",
+      "bankId": "reading-8-rc",
+      "text": "How does the detail about Aiden's father installing a basketball hoop before Aiden could walk contribute to the story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It shows the family is wealthy",
+          "It establishes the long history of expectations placed on Aiden",
+          "It indicates Aiden learned basketball at a young age",
+          "It has no connection to the plot"
+        ],
+        "correctAnswer": "It establishes the long history of expectations placed on Aiden"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.8.3"
+      ],
+      "primaryStandard": "RL.8.3",
+      "passage": "G8-L4: The Final Quarter",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "This detail reveals that Aiden has been groomed for basketball his entire life, adding weight to the pressure he feels."
+    },
+    {
+      "id": "reading-8-rc-044",
+      "bankId": "reading-8-rc",
+      "text": "What is the effect of the metaphor describing the ball as 'heavier than physics could explain'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It suggests the ball was made of unusual materials",
+          "It conveys the psychological weight of the pressure Aiden feels",
+          "It indicates Aiden is physically weak",
+          "It shows the gym has unusual gravity"
+        ],
+        "correctAnswer": "It conveys the psychological weight of the pressure Aiden feels"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.8.4"
+      ],
+      "primaryStandard": "RL.8.4",
+      "passage": "G8-L4: The Final Quarter",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The metaphor expresses Aiden's emotional and psychological burden, not literal physical weight."
+    },
+    {
+      "id": "reading-8-rc-045",
+      "bankId": "reading-8-rc",
+      "text": "How does the author use the final sentence to create resolution?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By describing the final score of the game",
+          "By showing Aiden's choice to prioritize team over self, completing his character arc",
+          "By revealing what Aiden's father thought",
+          "By introducing a new conflict"
+        ],
+        "correctAnswer": "By showing Aiden's choice to prioritize team over self, completing his character arc"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.8.5"
+      ],
+      "primaryStandard": "RL.8.5",
+      "passage": "G8-L4: The Final Quarter",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Aiden's decision to pass represents his growth from focusing on external expectations to valuing his team."
+    },
+    {
+      "id": "reading-8-rc-046",
+      "bankId": "reading-8-rc",
+      "text": "What can be inferred from the passage about the relationship between automation and employment?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Automation will eliminate all jobs",
+          "Automation creates some jobs while eliminating others, requiring adaptation",
+          "Automation has no effect on employment",
+          "Only manual labor jobs are affected by automation"
+        ],
+        "correctAnswer": "Automation creates some jobs while eliminating others, requiring adaptation"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.8.1"
+      ],
+      "primaryStandard": "RI.8.1",
+      "passage": "G8-I4: The Automation Paradox",
+      "passageText": "The rapid advancement of artificial intelligence and automation technologies has sparked intense debate about the future of work. Economists and technologists are divided: some predict mass unemployment as machines become capable of performing tasks once thought exclusively human, while others argue that technological innovation has historically created more jobs than it has destroyed. The truth, as with most complex issues, likely lies somewhere between these extremes. Consider the ATM, introduced in the 1970s as a technology that would surely eliminate bank teller jobs. Instead, the reduced cost of operating bank branches led to more branches being opened, and the number of bank tellers actually increased for decades. However, the nature of their work shifted from processing transactions to customer service and financial advising. This pattern of displacement, adaptation, and evolution appears throughout economic history. The challenge facing today's workforce is the unprecedented speed of technological change. Workers who once could master a single set of skills for an entire career now face the prospect of multiple career transitions. Educational institutions, businesses, and governments must collaborate to create systems that support lifelong learning and help workers develop the adaptability and critical thinking skills that will remain valuable regardless of which specific tasks machines learn to perform.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage presents a nuanced view: automation changes jobs but also creates new ones, requiring workers to adapt."
+    },
+    {
+      "id": "reading-8-rc-047",
+      "bankId": "reading-8-rc",
+      "text": "What is the central idea of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Automation will destroy the economy",
+          "The impact of automation is complex, requiring adaptation rather than fear",
+          "ATMs have been beneficial for banks",
+          "Education is unnecessary in the modern world"
+        ],
+        "correctAnswer": "The impact of automation is complex, requiring adaptation rather than fear"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.8.2"
+      ],
+      "primaryStandard": "RI.8.2",
+      "passage": "G8-I4: The Automation Paradox",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage argues that automation's impact is nuanced and the key is adaptation and lifelong learning."
+    },
+    {
+      "id": "reading-8-rc-048",
+      "bankId": "reading-8-rc",
+      "text": "How does the author use the ATM example to support the argument?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To show that technology always fails",
+          "To demonstrate that predicted job losses from technology do not always occur as expected",
+          "To argue against technological progress",
+          "To explain how ATMs work"
+        ],
+        "correctAnswer": "To demonstrate that predicted job losses from technology do not always occur as expected"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.8.3"
+      ],
+      "primaryStandard": "RI.8.3",
+      "passage": "G8-I4: The Automation Paradox",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The ATM example shows that technology predicted to eliminate jobs actually led to different outcomes, supporting the nuanced argument."
+    },
+    {
+      "id": "reading-8-rc-049",
+      "bankId": "reading-8-rc",
+      "text": "What does the phrase 'the automation paradox' suggest about the topic?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Automation is simple and predictable",
+          "Automation produces seemingly contradictory outcomes",
+          "Automation should be avoided",
+          "Paradoxes cannot be resolved"
+        ],
+        "correctAnswer": "Automation produces seemingly contradictory outcomes"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.8.4"
+      ],
+      "primaryStandard": "RI.8.4",
+      "passage": "G8-I4: The Automation Paradox",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "A paradox involves seemingly contradictory outcomes; automation eliminating and creating jobs simultaneously is paradoxical."
+    },
+    {
+      "id": "reading-8-rc-050",
+      "bankId": "reading-8-rc",
+      "text": "How does the structure of the passage support the author's balanced argument?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By presenting only one viewpoint",
+          "By presenting opposing views, providing evidence, and offering a synthesis",
+          "By using only emotional appeals",
+          "By avoiding any evidence"
+        ],
+        "correctAnswer": "By presenting opposing views, providing evidence, and offering a synthesis"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.8.5"
+      ],
+      "primaryStandard": "RI.8.5",
+      "passage": "G8-I4: The Automation Paradox",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage presents pessimistic and optimistic views, uses the ATM as evidence, and synthesizes a balanced conclusion."
+    },
+    {
+      "id": "reading-8-rc-051",
+      "bankId": "reading-8-rc",
+      "text": "What is the author's purpose in writing this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To frighten readers about technology",
+          "To inform readers about the complex relationship between automation and work",
+          "To entertain readers with stories about ATMs",
+          "To persuade readers to avoid technology"
+        ],
+        "correctAnswer": "To inform readers about the complex relationship between automation and work"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.8.6"
+      ],
+      "primaryStandard": "RI.8.6",
+      "passage": "G8-I4: The Automation Paradox",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author aims to inform readers by presenting multiple perspectives and evidence about automation's impact on work."
+    },
+    {
+      "id": "reading-8-rc-052",
+      "bankId": "reading-8-rc",
+      "text": "Which statement best evaluates the evidence in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The evidence is weak because it relies on one example",
+          "The evidence is strong because the ATM example is specific and demonstrates a historical pattern",
+          "The evidence is irrelevant to the argument",
+          "The evidence contradicts the main claim"
+        ],
+        "correctAnswer": "The evidence is strong because the ATM example is specific and demonstrates a historical pattern"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Integration of Knowledge",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.8.8"
+      ],
+      "primaryStandard": "RI.8.8",
+      "passage": "G8-I4: The Automation Paradox",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The ATM example provides concrete evidence that supports the pattern of 'displacement, adaptation, and evolution.'"
+    },
+    {
+      "id": "reading-8-rc-053",
+      "bankId": "reading-8-rc",
+      "text": "What can the reader infer about Zara's emotional state as she explores the abandoned library?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She is bored and uninterested",
+          "She is curious and drawn to the mystery of the place",
+          "She is angry about being there",
+          "She wants to leave immediately"
+        ],
+        "correctAnswer": "She is curious and drawn to the mystery of the place"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.8.1"
+      ],
+      "primaryStandard": "RL.8.1",
+      "passage": "G8-L5: The Forgotten Archive",
+      "passageText": "Dust motes danced in the slanted afternoon light that filtered through the cracked windows of the abandoned library. Zara ran her fingers along the spines of books that had not been touched in decades, their leather covers cracked and faded like ancient maps. She had discovered this place by accident, following a stray cat through a gap in the fence surrounding the condemned building. Now, standing among towers of forgotten knowledge, she felt as though she had stepped through a portal into another time. A book caught her eye, its spine unmarked, different from the others. When she opened it, she found not printed text but handwritten pages, the ink faded but still legible. The first entry was dated fifty years ago exactly, written by someone who signed only as 'The Keeper.' As Zara read, she realized this was not just a diary but a record of secrets about her town that had been deliberately hidden from history. Her hands trembled slightly as she turned each page, uncovering truths that challenged everything she thought she knew about the place she called home.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Zara's actions and the description of her trembling hands show she is curious and intrigued by the mystery she has discovered."
+    },
+    {
+      "id": "reading-8-rc-054",
+      "bankId": "reading-8-rc",
+      "text": "Which theme is introduced in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The unimportance of history",
+          "The discovery of hidden truths that challenge assumptions",
+          "The dangers of reading",
+          "The value of modern technology"
+        ],
+        "correctAnswer": "The discovery of hidden truths that challenge assumptions"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.8.2"
+      ],
+      "primaryStandard": "RL.8.2",
+      "passage": "G8-L5: The Forgotten Archive",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage introduces a theme about discovering secrets that change one's understanding of the past."
+    },
+    {
+      "id": "reading-8-rc-055",
+      "bankId": "reading-8-rc",
+      "text": "How does the setting contribute to the mood of the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The bright, modern library creates a cheerful mood",
+          "The abandoned, dusty library creates an atmosphere of mystery and discovery",
+          "The outdoor setting creates an adventurous mood",
+          "The setting has no effect on the mood"
+        ],
+        "correctAnswer": "The abandoned, dusty library creates an atmosphere of mystery and discovery"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.8.5"
+      ],
+      "primaryStandard": "RL.8.5",
+      "passage": "G8-L5: The Forgotten Archive",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Details like dust motes, cracked windows, faded books, and the condemned building establish a mysterious atmosphere."
+    },
+    {
+      "id": "reading-8-rc-056",
+      "bankId": "reading-8-rc",
+      "text": "What is the effect of the simile comparing book covers to 'ancient maps'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It suggests the books contain geographical information",
+          "It emphasizes the age and weathered condition of the books while suggesting hidden knowledge",
+          "It indicates the library was used by travelers",
+          "It shows that maps were stored in the library"
+        ],
+        "correctAnswer": "It emphasizes the age and weathered condition of the books while suggesting hidden knowledge"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.8.4"
+      ],
+      "primaryStandard": "RL.8.4",
+      "passage": "G8-L5: The Forgotten Archive",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The simile connects the cracked, faded books to ancient maps, suggesting age, mystery, and potential for discovery."
+    },
+    {
+      "id": "reading-8-rc-057",
+      "bankId": "reading-8-rc",
+      "text": "How does the author create suspense at the end of the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By revealing all the secrets immediately",
+          "By hinting at 'secrets' and 'truths' without disclosing what they are",
+          "By ending with a happy resolution",
+          "By introducing a new character"
+        ],
+        "correctAnswer": "By hinting at 'secrets' and 'truths' without disclosing what they are"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.8.5"
+      ],
+      "primaryStandard": "RL.8.5",
+      "passage": "G8-L5: The Forgotten Archive",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage creates suspense by mentioning secrets that 'challenged everything' without revealing their content."
+    },
+    {
+      "id": "reading-8-rc-058",
+      "bankId": "reading-8-rc",
+      "text": "According to the passage, why are microplastics particularly concerning?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "They are easy to clean up",
+          "They are too small to be filtered and can enter the food chain",
+          "They dissolve quickly in water",
+          "They are only found in the ocean"
+        ],
+        "correctAnswer": "They are too small to be filtered and can enter the food chain"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.8.1"
+      ],
+      "primaryStandard": "RI.8.1",
+      "passage": "G8-I5: The Invisible Threat",
+      "passageText": "Every minute, the equivalent of one garbage truck full of plastic enters the world's oceans. While large plastic debris poses obvious dangers to marine life through entanglement and ingestion, an even more insidious threat has emerged: microplastics. These tiny plastic particles, measuring less than five millimeters in diameter, result from the breakdown of larger plastic items and from products like synthetic clothing and cosmetics. Unlike larger pieces of plastic, microplastics are nearly impossible to remove from the environment. They are too small to be captured by most water treatment facilities and have been found in virtually every ecosystem on Earth, from the deepest ocean trenches to Arctic snow. Marine organisms consume these particles, mistaking them for food. The plastics then accumulate in the food chain, ultimately reaching humans who eat seafood. Recent studies have detected microplastics in human blood, lungs, and placental tissue. While researchers are still investigating the health impacts of this contamination, early evidence suggests potential links to inflammation, cellular damage, and hormone disruption. The plastic pollution crisis demands immediate action on multiple fronts: reducing single-use plastic production, improving waste management systems, and developing biodegradable alternatives.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states microplastics are 'too small to be captured by most water treatment facilities' and enter the food chain."
+    },
+    {
+      "id": "reading-8-rc-059",
+      "bankId": "reading-8-rc",
+      "text": "What is the central idea of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Plastic pollution is a minor problem",
+          "Microplastics represent a widespread and potentially harmful environmental and health threat",
+          "Seafood is unsafe to eat",
+          "Water treatment facilities are effective at removing all pollutants"
+        ],
+        "correctAnswer": "Microplastics represent a widespread and potentially harmful environmental and health threat"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.8.2"
+      ],
+      "primaryStandard": "RI.8.2",
+      "passage": "G8-I5: The Invisible Threat",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage focuses on explaining the pervasive nature of microplastics and their potential health and environmental impacts."
+    },
+    {
+      "id": "reading-8-rc-060",
+      "bankId": "reading-8-rc",
+      "text": "How does the author trace the connection between microplastics and human health?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By explaining how microplastics move through the food chain from ocean to humans",
+          "By describing only ocean ecosystems",
+          "By focusing on manufacturing processes",
+          "Through unrelated examples"
+        ],
+        "correctAnswer": "By explaining how microplastics move through the food chain from ocean to humans"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.8.3"
+      ],
+      "primaryStandard": "RI.8.3",
+      "passage": "G8-I5: The Invisible Threat",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author traces the path from microplastics in oceans to marine organisms to humans through the food chain."
+    },
+    {
+      "id": "reading-8-rc-061",
+      "bankId": "reading-8-rc",
+      "text": "What does the word 'insidious' mean in the context of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Obvious and easily detected",
+          "Harmful in a gradual, subtle way",
+          "Beneficial to the environment",
+          "Extremely loud"
+        ],
+        "correctAnswer": "Harmful in a gradual, subtle way"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.8.4"
+      ],
+      "primaryStandard": "RI.8.4",
+      "passage": "G8-I5: The Invisible Threat",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The context contrasts microplastics with 'obvious dangers,' suggesting 'insidious' means subtly harmful."
+    },
+    {
+      "id": "reading-8-rc-062",
+      "bankId": "reading-8-rc",
+      "text": "Why does the author describe microplastics as an 'invisible threat'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Because they cannot be seen with the naked eye and their effects are not immediately apparent",
+          "Because they do not exist",
+          "Because scientists refuse to study them",
+          "Because they are beneficial"
+        ],
+        "correctAnswer": "Because they cannot be seen with the naked eye and their effects are not immediately apparent"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.8.6"
+      ],
+      "primaryStandard": "RI.8.6",
+      "passage": "G8-I5: The Invisible Threat",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The title reflects that microplastics are microscopic and their health effects are still being discovered."
+    },
+    {
+      "id": "reading-8-rc-063",
+      "bankId": "reading-8-rc",
+      "text": "How strong is the evidence linking microplastics to human health effects?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Definitive and conclusive",
+          "Preliminary, with 'early evidence' suggesting 'potential links'",
+          "Nonexistent",
+          "Based only on opinions"
+        ],
+        "correctAnswer": "Preliminary, with 'early evidence' suggesting 'potential links'"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Integration of Knowledge",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.8.8"
+      ],
+      "primaryStandard": "RI.8.8",
+      "passage": "G8-I5: The Invisible Threat",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author uses careful language like 'early evidence' and 'potential links,' indicating the evidence is still developing."
+    },
+    {
+      "id": "reading-8-rc-064",
+      "bankId": "reading-8-rc",
+      "text": "What can the reader infer about the narrator's feelings toward their grandmother?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Resentment and frustration",
+          "Deep love and admiration mixed with fear of loss",
+          "Indifference and boredom",
+          "Jealousy and competition"
+        ],
+        "correctAnswer": "Deep love and admiration mixed with fear of loss"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.8.1"
+      ],
+      "primaryStandard": "RL.8.1",
+      "passage": "G8-L6: The Garden of Memory",
+      "passageText": "My grandmother's hands moved through her garden with the practiced grace of someone who had tended these flowers for sixty years. I watched her fingers, gnarled now like the old oak by the fence, gently cup a rose bloom as though it were something infinitely precious. She spoke to her plants in a language I could not understand, a mixture of her native tongue and private endearments that seemed to make them flourish. The doctors had said her memory was fading, that soon she might not remember the names of things or the faces of people she loved. But here, in this garden she had created from nothing but patience and devotion, every flower was a story she had not forgotten. 'This rose,' she said, turning to me with eyes that held more clarity than I had seen in months, 'I planted when your mother was born.' Her voice caught on some invisible memory, and I felt my own throat tighten. I knelt beside her in the rich soil, determined to learn every plant, every story, every secret this garden held before time could steal them away from both of us.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The narrator's attention to detail, emotional reactions, and determination to learn the grandmother's stories reveal deep love and fear of losing her."
+    },
+    {
+      "id": "reading-8-rc-065",
+      "bankId": "reading-8-rc",
+      "text": "What theme does the author develop through the relationship between the narrator and grandmother?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The challenges of gardening",
+          "The preservation of memory and connection across generations",
+          "The difficulties of aging",
+          "The beauty of roses"
+        ],
+        "correctAnswer": "The preservation of memory and connection across generations"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.8.2"
+      ],
+      "primaryStandard": "RL.8.2",
+      "passage": "G8-L6: The Garden of Memory",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The narrator's effort to learn the grandmother's stories before they are lost develops themes of memory and generational connection."
+    },
+    {
+      "id": "reading-8-rc-066",
+      "bankId": "reading-8-rc",
+      "text": "How does the garden function symbolically in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It represents the grandmother's wealth",
+          "It represents the grandmother's memories and life history",
+          "It represents modern technology",
+          "It represents the narrator's ambitions"
+        ],
+        "correctAnswer": "It represents the grandmother's memories and life history"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.8.4"
+      ],
+      "primaryStandard": "RL.8.4",
+      "passage": "G8-L6: The Garden of Memory",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explicitly states that 'every flower was a story,' connecting the garden to the grandmother's memories."
+    },
+    {
+      "id": "reading-8-rc-067",
+      "bankId": "reading-8-rc",
+      "text": "What is the effect of comparing the grandmother's fingers to 'the old oak by the fence'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It suggests she is unnaturally strong",
+          "It emphasizes her age and deep roots in this place while suggesting strength and endurance",
+          "It indicates she spends too much time outside",
+          "It shows she needs medical attention"
+        ],
+        "correctAnswer": "It emphasizes her age and deep roots in this place while suggesting strength and endurance"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.8.4"
+      ],
+      "primaryStandard": "RL.8.4",
+      "passage": "G8-L6: The Garden of Memory",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The comparison to an old oak suggests age, rootedness, and endurance, qualities that characterize the grandmother."
+    },
+    {
+      "id": "reading-8-rc-068",
+      "bankId": "reading-8-rc",
+      "text": "How does the author use contrast to develop the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By comparing different types of flowers",
+          "By contrasting the grandmother's fading medical condition with her clarity in the garden",
+          "By comparing the narrator to the grandmother",
+          "By contrasting seasons"
+        ],
+        "correctAnswer": "By contrasting the grandmother's fading medical condition with her clarity in the garden"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.8.5"
+      ],
+      "primaryStandard": "RL.8.5",
+      "passage": "G8-L6: The Garden of Memory",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage contrasts the doctors' diagnosis of fading memory with the grandmother's clear memories in the garden."
+    },
+    {
+      "id": "reading-8-rc-069",
+      "bankId": "reading-8-rc",
+      "text": "According to the passage, what distinguished Frederick Douglass's approach to abolition?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He focused only on written arguments",
+          "He combined personal testimony with logical argumentation and moral appeals",
+          "He avoided public speaking",
+          "He worked only with white abolitionists"
+        ],
+        "correctAnswer": "He combined personal testimony with logical argumentation and moral appeals"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.8.1"
+      ],
+      "primaryStandard": "RI.8.1",
+      "passage": "G8-I6: The Power of Witness",
+      "passageText": "Frederick Douglass stands among the most influential abolitionists in American history, yet his path to prominence was forged not in universities or political offices but in the crucible of slavery itself. Born into bondage around 1818, Douglass escaped to freedom in 1838 and soon became the most powerful voice against the institution that had once claimed him as property. What distinguished Douglass from other abolitionists was his ability to combine personal testimony with rigorous logical argumentation. His autobiographies, particularly his 1845 Narrative, provided irrefutable evidence of slavery's brutality at a time when some defenders of the institution claimed that enslaved people were content with their condition. Douglass's eloquence as a speaker was so remarkable that skeptics accused him of having never been enslaved at all, a charge he refuted by naming the very people who had claimed ownership of him. His rhetoric employed all three classical appeals: ethos established through his firsthand experience, logos demonstrated through systematic dismantling of pro-slavery arguments, and pathos evoked through his vivid descriptions of suffering. Douglass understood that changing hearts and minds required not just emotional appeals but also intellectual rigor and unassailable credibility.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage emphasizes Douglass's combination of 'personal testimony with rigorous logical argumentation' and all three rhetorical appeals."
+    },
+    {
+      "id": "reading-8-rc-070",
+      "bankId": "reading-8-rc",
+      "text": "What is the central idea of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Frederick Douglass was born into slavery",
+          "Douglass's effectiveness as an abolitionist came from his unique combination of personal experience and rhetorical skill",
+          "Slavery was common in the 19th century",
+          "Douglass wrote several autobiographies"
+        ],
+        "correctAnswer": "Douglass's effectiveness as an abolitionist came from his unique combination of personal experience and rhetorical skill"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.8.2"
+      ],
+      "primaryStandard": "RI.8.2",
+      "passage": "G8-I6: The Power of Witness",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage focuses on explaining what made Douglass uniquely effective: his combination of experience and rhetorical mastery."
+    },
+    {
+      "id": "reading-8-rc-071",
+      "bankId": "reading-8-rc",
+      "text": "How does the author use the skeptics' accusation to strengthen the characterization of Douglass?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It shows that Douglass was dishonest",
+          "It demonstrates that Douglass was so eloquent people could not believe he had been enslaved",
+          "It proves that skeptics were correct",
+          "It has no relevance to the passage"
+        ],
+        "correctAnswer": "It demonstrates that Douglass was so eloquent people could not believe he had been enslaved"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.8.3"
+      ],
+      "primaryStandard": "RI.8.3",
+      "passage": "G8-I6: The Power of Witness",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The accusation paradoxically demonstrates Douglass's remarkable eloquence and his courage in refuting it by naming names."
+    },
+    {
+      "id": "reading-8-rc-072",
+      "bankId": "reading-8-rc",
+      "text": "What does the phrase 'forged in the crucible of slavery' mean in this context?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Douglass worked in a metal forge",
+          "His path to prominence was shaped by the intense experience of enslavement",
+          "He studied metallurgy",
+          "He was a blacksmith before becoming an abolitionist"
+        ],
+        "correctAnswer": "His path to prominence was shaped by the intense experience of enslavement"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.8.4"
+      ],
+      "primaryStandard": "RI.8.4",
+      "passage": "G8-I6: The Power of Witness",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "A crucible is a vessel for melting metals; metaphorically, it means Douglass was shaped by the intense experience of slavery."
+    },
+    {
+      "id": "reading-8-rc-073",
+      "bankId": "reading-8-rc",
+      "text": "How does the structure of the passage support the author's argument about Douglass's rhetorical effectiveness?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By listing dates chronologically",
+          "By organizing around Douglass's use of ethos, logos, and pathos",
+          "By comparing Douglass to other abolitionists",
+          "By focusing only on his early life"
+        ],
+        "correctAnswer": "By organizing around Douglass's use of ethos, logos, and pathos"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.8.5"
+      ],
+      "primaryStandard": "RI.8.5",
+      "passage": "G8-I6: The Power of Witness",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explicitly discusses how Douglass employed ethos, logos, and pathos to make its argument."
+    },
+    {
+      "id": "reading-8-rc-074",
+      "bankId": "reading-8-rc",
+      "text": "What is the author's purpose in writing this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To entertain readers with a story",
+          "To analyze what made Douglass an effective abolitionist and communicator",
+          "To argue that slavery was wrong",
+          "To compare different abolitionists"
+        ],
+        "correctAnswer": "To analyze what made Douglass an effective abolitionist and communicator"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.8.6"
+      ],
+      "primaryStandard": "RI.8.6",
+      "passage": "G8-I6: The Power of Witness",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage analyzes the specific qualities that made Douglass's rhetoric powerful and persuasive."
+    },
+    {
+      "id": "reading-8-rc-075",
+      "bankId": "reading-8-rc",
+      "text": "What can the reader infer about Jonas's internal struggle from this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He is excited about following in his father's footsteps",
+          "He is conflicted between family expectations and his own artistic passion",
+          "He has no interest in art",
+          "He wants to leave his family permanently"
+        ],
+        "correctAnswer": "He is conflicted between family expectations and his own artistic passion"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.8.1"
+      ],
+      "primaryStandard": "RL.8.1",
+      "passage": "G8-L7: The Sculptor's Son",
+      "passageText": "The smell of sawdust and varnish had permeated Jonas's childhood, seeping into his earliest memories like water into wood. His father's carpentry shop, with its organized chaos of tools and timber, had been his playground and his classroom. Three generations of Larsson men had built their lives from oak and pine, their reputation for fine furniture known throughout the county. But when Jonas's hands touched clay instead of wood, something different awakened in him. In the school art room, he discovered that his fingers knew how to coax shapes from formless earth, how to capture emotion in curved surfaces and negative space. His sculptures began winning regional competitions, drawing attention from art schools that promised pathways his father could not imagine. The acceptance letter from the Rhode Island School of Design sat in his desk drawer like a dangerous secret. Every evening, he watched his father sand the same patterns into wood that his grandfather had sanded, and he wondered if following a new path meant betraying everything that had come before. The question haunted him: could he honor his heritage while still becoming who he was meant to be?",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Jonas's hiding of the acceptance letter and his wondering about 'betraying everything' reveals his internal conflict."
+    },
+    {
+      "id": "reading-8-rc-076",
+      "bankId": "reading-8-rc",
+      "text": "What theme does the author develop through Jonas's situation?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The importance of manual labor",
+          "The tension between honoring tradition and pursuing individual identity",
+          "The dangers of art school",
+          "The superiority of carpentry over sculpture"
+        ],
+        "correctAnswer": "The tension between honoring tradition and pursuing individual identity"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.8.2"
+      ],
+      "primaryStandard": "RL.8.2",
+      "passage": "G8-L7: The Sculptor's Son",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Jonas's conflict between family tradition and his own artistic calling develops this theme throughout the passage."
+    },
+    {
+      "id": "reading-8-rc-077",
+      "bankId": "reading-8-rc",
+      "text": "How does the detail about 'three generations of Larsson men' contribute to Jonas's conflict?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It shows the family is wealthy",
+          "It increases the weight of expectation and the potential cost of breaking tradition",
+          "It suggests Jonas should become a carpenter",
+          "It has no effect on the conflict"
+        ],
+        "correctAnswer": "It increases the weight of expectation and the potential cost of breaking tradition"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.8.3"
+      ],
+      "primaryStandard": "RL.8.3",
+      "passage": "G8-L7: The Sculptor's Son",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The multi-generational legacy adds weight to Jonas's decision, making the potential break with tradition more significant."
+    },
+    {
+      "id": "reading-8-rc-078",
+      "bankId": "reading-8-rc",
+      "text": "What is the effect of describing the acceptance letter as a 'dangerous secret'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It suggests the letter contains bad news",
+          "It conveys that Jonas fears revealing his artistic ambitions to his family",
+          "It indicates the letter is literally hazardous",
+          "It shows Jonas does not want to attend art school"
+        ],
+        "correctAnswer": "It conveys that Jonas fears revealing his artistic ambitions to his family"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.8.4"
+      ],
+      "primaryStandard": "RL.8.4",
+      "passage": "G8-L7: The Sculptor's Son",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Describing the letter as 'dangerous' suggests Jonas fears the consequences of revealing his desire to pursue art."
+    },
+    {
+      "id": "reading-8-rc-079",
+      "bankId": "reading-8-rc",
+      "text": "How does the author use parallel imagery of hands working with materials to develop the contrast between father and son?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Both work with the same materials in the same way",
+          "The father's hands work wood while Jonas's hands shape clay, showing similar skill applied differently",
+          "There is no mention of hands in the passage",
+          "The hands imagery is negative for both characters"
+        ],
+        "correctAnswer": "The father's hands work wood while Jonas's hands shape clay, showing similar skill applied differently"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.8.5"
+      ],
+      "primaryStandard": "RL.8.5",
+      "passage": "G8-L7: The Sculptor's Son",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The parallel imagery shows father and son share craftsman instincts but apply them to different materials and arts."
+    },
+    {
+      "id": "reading-8-rc-080",
+      "bankId": "reading-8-rc",
+      "text": "According to the passage, what is one benefit of urban vertical farming?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It requires more water than traditional farming",
+          "It can produce crops year-round regardless of weather",
+          "It is less expensive than all other farming methods",
+          "It requires large amounts of land"
+        ],
+        "correctAnswer": "It can produce crops year-round regardless of weather"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.8.1"
+      ],
+      "primaryStandard": "RI.8.1",
+      "passage": "G8-I7: Farming in the Sky",
+      "passageText": "As the global population approaches nine billion by 2050, traditional agriculture faces unprecedented challenges: climate change is disrupting growing seasons, arable land is becoming scarce, and the environmental costs of transporting food across continents are increasingly unsustainable. Vertical farming, the practice of growing crops in stacked layers within controlled indoor environments, offers a compelling vision of agriculture's future. These urban farms can produce crops year-round, regardless of weather conditions, using ninety percent less water than conventional farming through recirculating hydroponic systems. LED lighting tuned to specific wavelengths optimizes photosynthesis while consuming less energy than traditional grow lights. Proponents argue that vertical farms could transform vacant urban buildings into productive agricultural spaces, reducing the distance food travels from farm to table and revitalizing neglected neighborhoods. Critics, however, point to significant challenges: the high startup costs, substantial energy requirements for lighting and climate control, and the current limitation to leafy greens and herbs that provide relatively few calories. Whether vertical farming becomes a significant part of our food system or remains a niche supplement to traditional agriculture depends on continued technological innovation and changing economic conditions.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states vertical farms 'can produce crops year-round, regardless of weather conditions.'"
+    },
+    {
+      "id": "reading-8-rc-081",
+      "bankId": "reading-8-rc",
+      "text": "What is the central idea of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Vertical farming will definitely replace traditional agriculture",
+          "Vertical farming offers potential solutions to food production challenges but faces significant obstacles",
+          "Traditional farming is no longer viable",
+          "Critics of vertical farming are always wrong"
+        ],
+        "correctAnswer": "Vertical farming offers potential solutions to food production challenges but faces significant obstacles"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.8.2"
+      ],
+      "primaryStandard": "RI.8.2",
+      "passage": "G8-I7: Farming in the Sky",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage presents both the benefits and challenges of vertical farming in a balanced way."
+    },
+    {
+      "id": "reading-8-rc-082",
+      "bankId": "reading-8-rc",
+      "text": "How does the author develop the contrast between proponents and critics of vertical farming?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By ignoring the critics' points",
+          "By presenting specific benefits claimed by proponents and specific challenges raised by critics",
+          "By stating that one side is correct",
+          "By avoiding any mention of challenges"
+        ],
+        "correctAnswer": "By presenting specific benefits claimed by proponents and specific challenges raised by critics"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.8.3"
+      ],
+      "primaryStandard": "RI.8.3",
+      "passage": "G8-I7: Farming in the Sky",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author lists specific benefits (water efficiency, year-round production) and specific challenges (cost, energy, limited crops)."
+    },
+    {
+      "id": "reading-8-rc-083",
+      "bankId": "reading-8-rc",
+      "text": "What does 'arable' mean in the context of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Suitable for growing crops",
+          "Located near cities",
+          "Available for purchase",
+          "Protected by law"
+        ],
+        "correctAnswer": "Suitable for growing crops"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.8.4"
+      ],
+      "primaryStandard": "RI.8.4",
+      "passage": "G8-I7: Farming in the Sky",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The context of discussing agricultural land challenges indicates 'arable' means suitable for farming."
+    },
+    {
+      "id": "reading-8-rc-084",
+      "bankId": "reading-8-rc",
+      "text": "How is the passage organized?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Chronologically",
+          "Problem, potential solution with benefits, challenges, and uncertain conclusion",
+          "Comparison of two different farming methods only",
+          "Cause and effect only"
+        ],
+        "correctAnswer": "Problem, potential solution with benefits, challenges, and uncertain conclusion"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.8.5"
+      ],
+      "primaryStandard": "RI.8.5",
+      "passage": "G8-I7: Farming in the Sky",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The structure moves from problem to proposed solution to benefits to challenges to uncertain future."
+    },
+    {
+      "id": "reading-8-rc-085",
+      "bankId": "reading-8-rc",
+      "text": "What is the author's point of view on vertical farming?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Strongly supportive",
+          "Strongly opposed",
+          "Balanced and uncertain about its future role",
+          "Indifferent"
+        ],
+        "correctAnswer": "Balanced and uncertain about its future role"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.8.6"
+      ],
+      "primaryStandard": "RI.8.6",
+      "passage": "G8-I7: Farming in the Sky",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author presents both sides fairly and concludes that the future 'depends on' various factors."
+    },
+    {
+      "id": "reading-8-rc-086",
+      "bankId": "reading-8-rc",
+      "text": "Which criticism of vertical farming does the passage identify as most fundamental?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The farms are unattractive",
+          "Current vertical farms are limited to low-calorie crops like leafy greens",
+          "Vertical farms cannot be built in cities",
+          "The technology does not exist"
+        ],
+        "correctAnswer": "Current vertical farms are limited to low-calorie crops like leafy greens"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Integration of Knowledge",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.8.8"
+      ],
+      "primaryStandard": "RI.8.8",
+      "passage": "G8-I7: Farming in the Sky",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage notes the 'limitation to leafy greens and herbs that provide relatively few calories' as a key challenge."
+    },
+    {
+      "id": "reading-8-rc-087",
+      "bankId": "reading-8-rc",
+      "text": "What can the reader infer about Priya's character from her response to the situation?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She is selfish and only thinks of herself",
+          "She is principled and willing to risk social consequences for fairness",
+          "She enjoys getting others in trouble",
+          "She is indifferent to cheating"
+        ],
+        "correctAnswer": "She is principled and willing to risk social consequences for fairness"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.8.1"
+      ],
+      "primaryStandard": "RL.8.1",
+      "passage": "G8-L8: The Test",
+      "passageText": "The answer key was there on Ms. Rodriguez's desk, partially hidden under a stack of ungraded essays, but visible enough for anyone who looked. Priya had noticed it immediately when she came in early to ask about her missing homework. The midterm was in three hours, a test that would determine whether she maintained her GPA and kept her scholarship. Her heart raced as she considered the possibilities. No one would ever know. The words echoed in her mind like a temptation and a warning. But then she thought of her younger sister, who looked up to her with unconditional admiration, and her parents, who had worked so hard to give her opportunities they never had. She thought of the other students who had studied honestly, who would be disadvantaged if she cheated. The answer key seemed to glow with a malevolent light, offering success at the cost of something she could not name but knew she could not afford to lose. Priya turned away from the desk and walked to the door. 'Ms. Rodriguez,' she said to the teacher entering the classroom, 'I think you may have left something on your desk that should be locked away.'",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Priya's decision to alert the teacher, despite the pressure of the scholarship, shows she values integrity over personal gain."
+    },
+    {
+      "id": "reading-8-rc-088",
+      "bankId": "reading-8-rc",
+      "text": "What theme does the author develop through Priya's dilemma?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The importance of winning at any cost",
+          "The value of integrity even when honesty has personal costs",
+          "The unfairness of standardized tests",
+          "The dangers of coming to school early"
+        ],
+        "correctAnswer": "The value of integrity even when honesty has personal costs"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.8.2"
+      ],
+      "primaryStandard": "RL.8.2",
+      "passage": "G8-L8: The Test",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Priya chooses honesty despite the high stakes, developing the theme of integrity over personal advantage."
+    },
+    {
+      "id": "reading-8-rc-089",
+      "bankId": "reading-8-rc",
+      "text": "How does the detail about Priya's scholarship contribute to the tension in the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It shows she is wealthy",
+          "It raises the stakes of her decision by adding financial pressure",
+          "It has no effect on the story",
+          "It suggests she should cheat"
+        ],
+        "correctAnswer": "It raises the stakes of her decision by adding financial pressure"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.8.3"
+      ],
+      "primaryStandard": "RL.8.3",
+      "passage": "G8-L8: The Test",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The scholarship detail makes the temptation to cheat more understandable and Priya's honesty more meaningful."
+    },
+    {
+      "id": "reading-8-rc-090",
+      "bankId": "reading-8-rc",
+      "text": "What is the effect of describing the phrase 'No one would ever know' as 'a temptation and a warning'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It shows Priya is confused",
+          "It reveals her internal conflict between the appeal of cheating and her conscience",
+          "It indicates someone is speaking to her",
+          "It suggests she is hearing voices"
+        ],
+        "correctAnswer": "It reveals her internal conflict between the appeal of cheating and her conscience"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.8.4"
+      ],
+      "primaryStandard": "RL.8.4",
+      "passage": "G8-L8: The Test",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The dual description shows Priya recognizes both the appeal of cheating and its moral danger."
+    },
+    {
+      "id": "reading-8-rc-091",
+      "bankId": "reading-8-rc",
+      "text": "How does the author use the description of the answer key glowing with 'malevolent light' to develop the conflict?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It suggests the room has unusual lighting",
+          "It personifies the temptation as evil, emphasizing Priya's moral struggle",
+          "It indicates the paper is made of special material",
+          "It shows Priya has vision problems"
+        ],
+        "correctAnswer": "It personifies the temptation as evil, emphasizing Priya's moral struggle"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.8.4"
+      ],
+      "primaryStandard": "RL.8.4",
+      "passage": "G8-L8: The Test",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The 'malevolent light' personifies the temptation as something evil, heightening the moral dimension of Priya's choice."
+    },
+    {
+      "id": "reading-8-rc-092",
+      "bankId": "reading-8-rc",
+      "text": "According to the passage, what is one reason why sleep is important for adolescents?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It helps them avoid homework",
+          "It allows the brain to consolidate memories and learning",
+          "It makes them grow taller immediately",
+          "It is not actually important"
+        ],
+        "correctAnswer": "It allows the brain to consolidate memories and learning"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.8.1"
+      ],
+      "primaryStandard": "RI.8.1",
+      "passage": "G8-I8: The Sleep Deficit",
+      "passageText": "American teenagers are in the midst of a sleep deprivation crisis that threatens their physical health, mental well-being, and academic performance. The American Academy of Pediatrics recommends that adolescents between thirteen and eighteen years old get eight to ten hours of sleep per night, yet studies indicate that fewer than fifteen percent of teenagers meet this benchmark. This chronic sleep deficit has biological, social, and institutional causes. During puberty, the circadian rhythm shifts later, making it physiologically difficult for teenagers to fall asleep before eleven o'clock at night. Combined with early school start times that often require waking before six in the morning, this biological reality creates an impossible equation. Sleep deprivation in adolescents is linked to increased rates of depression, anxiety, and obesity, as well as impaired memory consolidation and learning. The prefrontal cortex, responsible for decision-making and impulse control, is particularly affected by insufficient sleep. Several school districts that have shifted to later start times have reported improvements in attendance, graduation rates, and standardized test scores. While changing school schedules presents logistical challenges involving transportation, athletics, and working parents, the evidence increasingly suggests that aligning education with adolescent biology yields significant benefits.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states that sleep deprivation leads to 'impaired memory consolidation and learning.'"
+    },
+    {
+      "id": "reading-8-rc-093",
+      "bankId": "reading-8-rc",
+      "text": "What is the central idea of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Teenagers need more activities",
+          "Adolescent sleep deprivation is a serious problem with biological causes and potential institutional solutions",
+          "School should be eliminated entirely",
+          "Sleep is unimportant for young people"
+        ],
+        "correctAnswer": "Adolescent sleep deprivation is a serious problem with biological causes and potential institutional solutions"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.8.2"
+      ],
+      "primaryStandard": "RI.8.2",
+      "passage": "G8-I8: The Sleep Deficit",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explains the biological causes of teen sleep issues and presents later school start times as a potential solution."
+    },
+    {
+      "id": "reading-8-rc-094",
+      "bankId": "reading-8-rc",
+      "text": "How does the author connect circadian rhythm changes to the sleep deprivation crisis?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By showing that puberty shifts sleep timing later while school starts early, creating a conflict",
+          "By ignoring biological factors",
+          "By focusing only on social media use",
+          "By blaming students for their choices"
+        ],
+        "correctAnswer": "By showing that puberty shifts sleep timing later while school starts early, creating a conflict"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.8.3"
+      ],
+      "primaryStandard": "RI.8.3",
+      "passage": "G8-I8: The Sleep Deficit",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author explains the biological shift toward later sleep times and contrasts it with early school start times."
+    },
+    {
+      "id": "reading-8-rc-095",
+      "bankId": "reading-8-rc",
+      "text": "What does the term 'circadian rhythm' mean in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "A type of music",
+          "The body's natural sleep-wake cycle",
+          "A school scheduling system",
+          "A type of exercise"
+        ],
+        "correctAnswer": "The body's natural sleep-wake cycle"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.8.4"
+      ],
+      "primaryStandard": "RI.8.4",
+      "passage": "G8-I8: The Sleep Deficit",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Context clues about sleep timing and biological patterns indicate circadian rhythm is the body's sleep-wake cycle."
+    },
+    {
+      "id": "reading-8-rc-096",
+      "bankId": "reading-8-rc",
+      "text": "How does the author structure the argument for later school start times?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By presenting only emotional appeals",
+          "By establishing the problem, explaining causes, presenting evidence for solutions, and acknowledging counterarguments",
+          "By ignoring any evidence",
+          "By focusing only on test scores"
+        ],
+        "correctAnswer": "By establishing the problem, explaining causes, presenting evidence for solutions, and acknowledging counterarguments"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.8.5"
+      ],
+      "primaryStandard": "RI.8.5",
+      "passage": "G8-I8: The Sleep Deficit",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage moves from problem to causes to evidence for solutions while acknowledging logistical challenges."
+    },
+    {
+      "id": "reading-8-rc-097",
+      "bankId": "reading-8-rc",
+      "text": "What is the author's purpose in including the statistic that 'fewer than fifteen percent of teenagers' get enough sleep?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To show that most teenagers are fine",
+          "To demonstrate the widespread nature of the sleep deficit problem",
+          "To criticize teenagers",
+          "To suggest the AAP recommendations are wrong"
+        ],
+        "correctAnswer": "To demonstrate the widespread nature of the sleep deficit problem"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.8.6"
+      ],
+      "primaryStandard": "RI.8.6",
+      "passage": "G8-I8: The Sleep Deficit",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The statistic shows that the vast majority of teens are sleep-deprived, establishing the scale of the problem."
+    },
+    {
+      "id": "reading-8-rc-098",
+      "bankId": "reading-8-rc",
+      "text": "Which evidence best supports the claim that later school start times could be beneficial?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The prefrontal cortex is affected by lack of sleep",
+          "School districts with later start times reported improved attendance and test scores",
+          "Teenagers cannot fall asleep before eleven",
+          "Sleep deprivation is linked to depression"
+        ],
+        "correctAnswer": "School districts with later start times reported improved attendance and test scores"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.8.8"
+      ],
+      "primaryStandard": "RI.8.8",
+      "passage": "G8-I8: The Sleep Deficit",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The real-world evidence from districts that changed start times directly supports the proposed solution."
+    },
+    {
+      "id": "reading-8-rc-099",
+      "bankId": "reading-8-rc",
+      "text": "How does the author acknowledge potential counterarguments to later school start times?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By ignoring any objections",
+          "By mentioning logistical challenges involving transportation, athletics, and working parents",
+          "By stating that there are no challenges",
+          "By dismissing all concerns as unimportant"
+        ],
+        "correctAnswer": "By mentioning logistical challenges involving transportation, athletics, and working parents"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Integration of Knowledge",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.8.8"
+      ],
+      "primaryStandard": "RI.8.8",
+      "passage": "G8-I8: The Sleep Deficit",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author acknowledges practical challenges while arguing that the benefits outweigh these concerns."
+    },
+    {
+      "id": "reading-8-rc-100",
+      "bankId": "reading-8-rc",
+      "text": "Based on the evidence presented in the passage, which conclusion is most strongly supported?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Teenagers should simply go to sleep earlier",
+          "The mismatch between adolescent biology and school schedules contributes significantly to sleep deprivation",
+          "Sleep deprivation has no effect on academic performance",
+          "School start times have no relationship to student sleep"
+        ],
+        "correctAnswer": "The mismatch between adolescent biology and school schedules contributes significantly to sleep deprivation"
+      },
+      "subject": "Reading",
+      "gradeLevel": "8",
+      "strand": "Integration of Knowledge",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.8.8"
+      ],
+      "primaryStandard": "RI.8.8",
+      "passage": "G8-I8: The Sleep Deficit",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage's evidence about circadian shifts and early start times supports the conclusion about the biology-schedule mismatch."
+    }
+  ]
+}

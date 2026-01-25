@@ -1,0 +1,2729 @@
+{
+  "metadata": {
+    "subject": "Reading",
+    "gradeLevel": "6",
+    "domain": "RC",
+    "domainName": "Reading Comprehension",
+    "lastUpdated": "2026-01-25",
+    "totalQuestions": 100,
+    "description": "CCSS-aligned reading comprehension assessment with literary and informational texts",
+    "lexileRange": "740L-1010L"
+  },
+  "questions": [
+    {
+      "id": "reading-6-rc-001",
+      "bankId": "reading-6-rc",
+      "text": "Based on the passage, what evidence supports the idea that Maya is determined?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She enjoys watching television",
+          "She practices her violin for three hours every day despite her busy schedule",
+          "She has many friends at school",
+          "She likes to read books"
+        ],
+        "correctAnswer": "She practices her violin for three hours every day despite her busy schedule"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.6.1"
+      ],
+      "primaryStandard": "RL.6.1",
+      "passage": "G6-L1: The Audition",
+      "passageText": "Maya's fingers trembled as she waited backstage at the regional orchestra auditions. She had practiced her violin for three hours every day for the past six months, even when she had mountains of homework and her friends begged her to join them at the movies. Her mother had sacrificed her own savings to pay for private lessons, and Maya couldn't bear the thought of disappointing her. When her name was called, she walked onto the stage with her chin held high. The judges sat in the front row, their faces expressionless. Maya closed her eyes, took a deep breath, and began to play. The music flowed through her like water through a riverbed, natural and unstoppable.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text explicitly states Maya 'practiced her violin for three hours every day for the past six months, even when she had mountains of homework,' which directly demonstrates her determination."
+    },
+    {
+      "id": "reading-6-rc-002",
+      "bankId": "reading-6-rc",
+      "text": "What theme is BEST supported by the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Natural talent is more important than hard work",
+          "Dedication and sacrifice can lead to meaningful achievement",
+          "Family relationships are complicated",
+          "Music is the most important art form"
+        ],
+        "correctAnswer": "Dedication and sacrifice can lead to meaningful achievement"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.6.2"
+      ],
+      "primaryStandard": "RL.6.2",
+      "passage": "G6-L1: The Audition",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage emphasizes Maya's months of dedicated practice and her mother's financial sacrifice, culminating in her confident performance, supporting the theme of dedication leading to achievement."
+    },
+    {
+      "id": "reading-6-rc-003",
+      "bankId": "reading-6-rc",
+      "text": "How does Maya's emotional state change from the beginning to the end of the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "From confident to nervous",
+          "From nervous to focused and flowing",
+          "From angry to peaceful",
+          "From excited to disappointed"
+        ],
+        "correctAnswer": "From nervous to focused and flowing"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.6.3"
+      ],
+      "primaryStandard": "RL.6.3",
+      "passage": "G6-L1: The Audition",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Maya begins with trembling fingers (nervous) but ends with music flowing through her 'natural and unstoppable,' indicating she became focused and at ease."
+    },
+    {
+      "id": "reading-6-rc-004",
+      "bankId": "reading-6-rc",
+      "text": "What does the phrase 'mountains of homework' suggest about Maya's situation?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She attends a school in the mountains",
+          "She had an overwhelming amount of schoolwork",
+          "She enjoys doing homework",
+          "Her homework was physically heavy"
+        ],
+        "correctAnswer": "She had an overwhelming amount of schoolwork"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.6.4"
+      ],
+      "primaryStandard": "RL.6.4",
+      "passage": "G6-L1: The Audition",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The phrase 'mountains of homework' is a figurative expression (hyperbole) suggesting Maya had a very large, overwhelming amount of schoolwork."
+    },
+    {
+      "id": "reading-6-rc-005",
+      "bankId": "reading-6-rc",
+      "text": "How does the author build suspense in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By describing the weather outside",
+          "By showing Maya's nervousness and the expressionless judges before revealing her performance",
+          "By listing all the songs Maya knows",
+          "By describing the auditorium's decorations"
+        ],
+        "correctAnswer": "By showing Maya's nervousness and the expressionless judges before revealing her performance"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.6.5"
+      ],
+      "primaryStandard": "RL.6.5",
+      "passage": "G6-L1: The Audition",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author builds suspense by contrasting Maya's physical nervousness (trembling fingers) and the intimidating judges with expressionless faces before the release of her flowing performance."
+    },
+    {
+      "id": "reading-6-rc-006",
+      "bankId": "reading-6-rc",
+      "text": "From whose point of view is this story told?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "First person, from Maya's perspective",
+          "Third person limited, focusing on Maya's thoughts and feelings",
+          "Third person omniscient, knowing everyone's thoughts",
+          "Second person, addressing the reader directly"
+        ],
+        "correctAnswer": "Third person limited, focusing on Maya's thoughts and feelings"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.6.6"
+      ],
+      "primaryStandard": "RL.6.6",
+      "passage": "G6-L1: The Audition",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The story uses third person pronouns (she, her) but only reveals Maya's internal thoughts and feelings, making it third person limited point of view."
+    },
+    {
+      "id": "reading-6-rc-007",
+      "bankId": "reading-6-rc",
+      "text": "What does the simile 'The music flowed through her like water through a riverbed' suggest about Maya's performance?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Her playing was wet and cold",
+          "Her performance felt natural and effortless",
+          "She played very loudly",
+          "She made many mistakes"
+        ],
+        "correctAnswer": "Her performance felt natural and effortless"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.6.4"
+      ],
+      "primaryStandard": "RL.6.4",
+      "passage": "G6-L1: The Audition",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Comparing music to water flowing through a riverbed suggests smooth, natural, effortless movement, indicating Maya's performance felt instinctive and fluid."
+    },
+    {
+      "id": "reading-6-rc-008",
+      "bankId": "reading-6-rc",
+      "text": "According to the passage, what is the main reason ocean temperatures are rising?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Underwater volcanoes",
+          "Increased greenhouse gas emissions trapping heat in the atmosphere",
+          "Changes in Earth's orbit",
+          "Natural ocean cycles"
+        ],
+        "correctAnswer": "Increased greenhouse gas emissions trapping heat in the atmosphere"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.6.1"
+      ],
+      "primaryStandard": "RI.6.1",
+      "passage": "G6-I1: Ocean Warming and Coral Reefs",
+      "passageText": "Earth's oceans are warming at an alarming rate, and coral reefs are paying the price. Scientists have documented that ocean temperatures have increased by approximately 1.5 degrees Fahrenheit since 1900, primarily due to increased greenhouse gas emissions trapping heat in the atmosphere. This warming causes a phenomenon called coral bleaching. When water temperatures rise even slightly above normal, corals expel the colorful algae living in their tissues. Without these algae, corals turn white and can starve to death. The Great Barrier Reef has experienced three major bleaching events in just the past decade. Researchers estimate that half of the world's coral reefs have already been lost. These ecosystems support roughly 25 percent of all marine species, making their decline a critical concern for ocean biodiversity.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explicitly states that ocean temperatures have increased 'primarily due to increased greenhouse gas emissions trapping heat in the atmosphere.'"
+    },
+    {
+      "id": "reading-6-rc-009",
+      "bankId": "reading-6-rc",
+      "text": "What is the central idea of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The Great Barrier Reef is the largest reef in the world",
+          "Ocean warming caused by climate change is severely threatening coral reef ecosystems",
+          "Coral reefs are colorful and beautiful",
+          "Scientists study ocean temperatures"
+        ],
+        "correctAnswer": "Ocean warming caused by climate change is severely threatening coral reef ecosystems"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.6.2"
+      ],
+      "primaryStandard": "RI.6.2",
+      "passage": "G6-I1: Ocean Warming and Coral Reefs",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage focuses on how rising ocean temperatures (caused by greenhouse gases) lead to coral bleaching and the decline of reef ecosystems."
+    },
+    {
+      "id": "reading-6-rc-010",
+      "bankId": "reading-6-rc",
+      "text": "According to the passage, what happens during coral bleaching?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Corals grow faster than normal",
+          "Corals expel the algae living in their tissues and turn white",
+          "Corals move to cooler water",
+          "Corals change into different species"
+        ],
+        "correctAnswer": "Corals expel the algae living in their tissues and turn white"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.6.3"
+      ],
+      "primaryStandard": "RI.6.3",
+      "passage": "G6-I1: Ocean Warming and Coral Reefs",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage directly states that when water temperatures rise, 'corals expel the colorful algae living in their tissues' and 'turn white.'"
+    },
+    {
+      "id": "reading-6-rc-011",
+      "bankId": "reading-6-rc",
+      "text": "What does the word 'expel' mean as used in the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To absorb",
+          "To force out",
+          "To protect",
+          "To create"
+        ],
+        "correctAnswer": "To force out"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.6.4"
+      ],
+      "primaryStandard": "RI.6.4",
+      "passage": "G6-I1: Ocean Warming and Coral Reefs",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "In context, 'expel' means to force out or eject. The corals are forcing out the algae from their tissues."
+    },
+    {
+      "id": "reading-6-rc-012",
+      "bankId": "reading-6-rc",
+      "text": "How does the author structure the information in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By comparing different types of coral",
+          "By presenting a problem (ocean warming) and explaining its effects on coral reefs",
+          "By telling a story in chronological order",
+          "By listing the names of different reefs around the world"
+        ],
+        "correctAnswer": "By presenting a problem (ocean warming) and explaining its effects on coral reefs"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.6.5"
+      ],
+      "primaryStandard": "RI.6.5",
+      "passage": "G6-I1: Ocean Warming and Coral Reefs",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage uses a cause-and-effect structure, introducing the problem of ocean warming and then explaining how it causes coral bleaching and reef decline."
+    },
+    {
+      "id": "reading-6-rc-013",
+      "bankId": "reading-6-rc",
+      "text": "What is the author's purpose in including the statistic that coral reefs 'support roughly 25 percent of all marine species'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To show that coral reefs are not very important",
+          "To emphasize the critical ecological importance of coral reefs",
+          "To compare coral reefs to other ecosystems",
+          "To suggest that scientists are uncertain about reef importance"
+        ],
+        "correctAnswer": "To emphasize the critical ecological importance of coral reefs"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.6.6"
+      ],
+      "primaryStandard": "RI.6.6",
+      "passage": "G6-I1: Ocean Warming and Coral Reefs",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "By including this statistic, the author emphasizes that coral reefs are crucial to ocean biodiversity, making their decline a serious concern."
+    },
+    {
+      "id": "reading-6-rc-014",
+      "bankId": "reading-6-rc",
+      "text": "Which claim from the passage is supported by specific numerical evidence?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Coral bleaching is harmful",
+          "Ocean temperatures have increased by approximately 1.5 degrees Fahrenheit since 1900",
+          "Corals are important",
+          "Climate change affects the ocean"
+        ],
+        "correctAnswer": "Ocean temperatures have increased by approximately 1.5 degrees Fahrenheit since 1900"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.6.8"
+      ],
+      "primaryStandard": "RI.6.8",
+      "passage": "G6-I1: Ocean Warming and Coral Reefs",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "This claim includes the specific number '1.5 degrees Fahrenheit' and the time frame 'since 1900' as evidence."
+    },
+    {
+      "id": "reading-6-rc-015",
+      "bankId": "reading-6-rc",
+      "text": "What inference can you make about why the author mentions that 'half of the world's coral reefs have already been lost'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To suggest the problem is not serious",
+          "To convey urgency about the need to address ocean warming",
+          "To celebrate scientific research",
+          "To explain how coral reefs form"
+        ],
+        "correctAnswer": "To convey urgency about the need to address ocean warming"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.6.1"
+      ],
+      "primaryStandard": "RI.6.1",
+      "passage": "G6-I1: Ocean Warming and Coral Reefs",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The phrase 'already been lost' combined with the alarming statistic of 'half' suggests urgency and the serious nature of the problem."
+    },
+    {
+      "id": "reading-6-rc-016",
+      "bankId": "reading-6-rc",
+      "text": "What textual evidence BEST supports the idea that Marcus values his grandfather's wisdom?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Marcus rode his bike to his grandfather's house",
+          "Marcus carefully wrote down every piece of advice his grandfather shared",
+          "Marcus ate dinner at the table",
+          "Marcus looked out the window"
+        ],
+        "correctAnswer": "Marcus carefully wrote down every piece of advice his grandfather shared"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.6.1"
+      ],
+      "primaryStandard": "RL.6.1",
+      "passage": "G6-L2: The Notebook",
+      "passageText": "Marcus pedaled his rusty bicycle down the familiar gravel path to his grandfather's farmhouse every Saturday morning without fail. The wooden porch creaked beneath his feet as he entered, greeted by the smell of coffee and old books. His grandfather sat in the same worn armchair he'd occupied for decades, his weathered hands wrapped around a ceramic mug. They would talk for hours about everything and nothing. Marcus carefully wrote down every piece of advice his grandfather shared in a small leather notebook. 'Wisdom is like seeds,' his grandfather once told him. 'You have to plant it while you're young so it can grow.' Now, years later, Marcus still carries that notebook everywhere, its pages yellowed but its words as powerful as ever.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The action of 'carefully' writing down 'every piece of advice' demonstrates Marcus's respect for and value of his grandfather's wisdom."
+    },
+    {
+      "id": "reading-6-rc-017",
+      "bankId": "reading-6-rc",
+      "text": "What theme does the grandfather's quote about wisdom and seeds convey?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Farming is difficult work",
+          "Learning and wisdom acquired early in life will benefit you as you grow",
+          "Seeds need water to grow",
+          "Old people know everything"
+        ],
+        "correctAnswer": "Learning and wisdom acquired early in life will benefit you as you grow"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.6.2"
+      ],
+      "primaryStandard": "RL.6.2",
+      "passage": "G6-L2: The Notebook",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The metaphor comparing wisdom to seeds that must be 'planted while you're young so it can grow' conveys that early learning develops and benefits you over time."
+    },
+    {
+      "id": "reading-6-rc-018",
+      "bankId": "reading-6-rc",
+      "text": "How does the setting contribute to the mood of the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The modern city creates an exciting atmosphere",
+          "The farmhouse details create a warm, nostalgic mood",
+          "The beach setting creates a relaxing mood",
+          "The school setting creates an anxious mood"
+        ],
+        "correctAnswer": "The farmhouse details create a warm, nostalgic mood"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.6.5"
+      ],
+      "primaryStandard": "RL.6.5",
+      "passage": "G6-L2: The Notebook",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Details like the creaking wooden porch, smell of coffee and old books, worn armchair, and weathered hands create a warm, comfortable, nostalgic atmosphere."
+    },
+    {
+      "id": "reading-6-rc-019",
+      "bankId": "reading-6-rc",
+      "text": "What does the word 'weathered' mean as used to describe the grandfather's hands?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Clean and soft",
+          "Rough and worn from age and work",
+          "Cold and wet",
+          "Small and delicate"
+        ],
+        "correctAnswer": "Rough and worn from age and work"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.6.4"
+      ],
+      "primaryStandard": "RL.6.4",
+      "passage": "G6-L2: The Notebook",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "'Weathered' describes something that shows the effects of exposure to time and elements, suggesting rough, worn hands that have seen years of work."
+    },
+    {
+      "id": "reading-6-rc-020",
+      "bankId": "reading-6-rc",
+      "text": "What can you infer about Marcus's current relationship with his grandfather based on the last sentence?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Marcus has forgotten his grandfather",
+          "Marcus's grandfather is likely no longer alive, but his wisdom lives on through the notebook",
+          "Marcus sees his grandfather every day",
+          "Marcus lost the notebook years ago"
+        ],
+        "correctAnswer": "Marcus's grandfather is likely no longer alive, but his wisdom lives on through the notebook"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.6.1"
+      ],
+      "primaryStandard": "RL.6.1",
+      "passage": "G6-L2: The Notebook",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The phrase 'years later' and 'pages yellowed' suggest significant time has passed, while Marcus still carrying the notebook implies his grandfather may be gone but his wisdom remains."
+    },
+    {
+      "id": "reading-6-rc-021",
+      "bankId": "reading-6-rc",
+      "text": "According to the passage, what was the main purpose of the Underground Railroad?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To build train tracks across America",
+          "To help enslaved people escape to freedom in the North",
+          "To transport goods between cities",
+          "To create a postal service"
+        ],
+        "correctAnswer": "To help enslaved people escape to freedom in the North"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.6.1"
+      ],
+      "primaryStandard": "RI.6.1",
+      "passage": "G6-I2: The Underground Railroad",
+      "passageText": "The Underground Railroad was neither underground nor a railroad. It was a secret network of routes, safe houses, and brave individuals who helped enslaved African Americans escape to freedom in the Northern states and Canada during the mid-1800s. The network used railroad terminology as code: safe houses were called 'stations,' those who helped were 'conductors,' and the escaping people were 'passengers.' Harriet Tubman, one of the most famous conductors, made approximately 13 trips back to the South and helped rescue around 70 people, including her own family members. The journey was extremely dangerous, often covering hundreds of miles through forests, swamps, and hostile territory. Those who were caught faced severe punishment or death. Despite these risks, historians estimate that approximately 100,000 people escaped slavery through this network between 1810 and 1850.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage clearly states the Underground Railroad 'helped enslaved African Americans escape to freedom in the Northern states and Canada.'"
+    },
+    {
+      "id": "reading-6-rc-022",
+      "bankId": "reading-6-rc",
+      "text": "What is the central idea of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Harriet Tubman was a famous American",
+          "Trains were important in American history",
+          "The Underground Railroad was a courageous secret network that helped enslaved people escape to freedom",
+          "Canada is north of the United States"
+        ],
+        "correctAnswer": "The Underground Railroad was a courageous secret network that helped enslaved people escape to freedom"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.6.2"
+      ],
+      "primaryStandard": "RI.6.2",
+      "passage": "G6-I2: The Underground Railroad",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage focuses on explaining what the Underground Railroad was, how it operated, and its significance in helping enslaved people reach freedom."
+    },
+    {
+      "id": "reading-6-rc-023",
+      "bankId": "reading-6-rc",
+      "text": "Why did the Underground Railroad use railroad terminology?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Because it was an actual railroad",
+          "To serve as a secret code to protect the network",
+          "Because the conductors liked trains",
+          "To confuse historians"
+        ],
+        "correctAnswer": "To serve as a secret code to protect the network"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.6.3"
+      ],
+      "primaryStandard": "RI.6.3",
+      "passage": "G6-I2: The Underground Railroad",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage indicates the network was 'secret' and used railroad terms 'as code,' implying the terminology helped maintain secrecy."
+    },
+    {
+      "id": "reading-6-rc-024",
+      "bankId": "reading-6-rc",
+      "text": "What does the word 'hostile' mean as used in the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Friendly and welcoming",
+          "Unfriendly and dangerous",
+          "Flat and easy",
+          "Warm and pleasant"
+        ],
+        "correctAnswer": "Unfriendly and dangerous"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.6.4"
+      ],
+      "primaryStandard": "RI.6.4",
+      "passage": "G6-I2: The Underground Railroad",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "In context, 'hostile territory' refers to areas that were unfriendly and dangerous to escaping enslaved people."
+    },
+    {
+      "id": "reading-6-rc-025",
+      "bankId": "reading-6-rc",
+      "text": "How does the author develop the idea that escape was dangerous?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By describing pleasant scenery",
+          "By providing details about difficult terrain and consequences of being caught",
+          "By explaining how trains work",
+          "By listing the names of Northern states"
+        ],
+        "correctAnswer": "By providing details about difficult terrain and consequences of being caught"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.6.5"
+      ],
+      "primaryStandard": "RI.6.5",
+      "passage": "G6-I2: The Underground Railroad",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author develops this idea by mentioning 'forests, swamps, and hostile territory' and that those caught 'faced severe punishment or death.'"
+    },
+    {
+      "id": "reading-6-rc-026",
+      "bankId": "reading-6-rc",
+      "text": "What is the author's point of view toward Harriet Tubman?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Critical and disapproving",
+          "Neutral and uninterested",
+          "Admiring and respectful",
+          "Confused and uncertain"
+        ],
+        "correctAnswer": "Admiring and respectful"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.6.6"
+      ],
+      "primaryStandard": "RI.6.6",
+      "passage": "G6-I2: The Underground Railroad",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author describes Tubman as 'one of the most famous conductors' and highlights her bravery in making multiple dangerous trips, suggesting admiration."
+    },
+    {
+      "id": "reading-6-rc-027",
+      "bankId": "reading-6-rc",
+      "text": "Which piece of evidence BEST supports the claim that the Underground Railroad was effective?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It was a secret network",
+          "Safe houses were called stations",
+          "Approximately 100,000 people escaped slavery through this network",
+          "Harriet Tubman was famous"
+        ],
+        "correctAnswer": "Approximately 100,000 people escaped slavery through this network"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.6.8"
+      ],
+      "primaryStandard": "RI.6.8",
+      "passage": "G6-I2: The Underground Railroad",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The statistic of 100,000 people escaping provides concrete numerical evidence of the network's effectiveness."
+    },
+    {
+      "id": "reading-6-rc-028",
+      "bankId": "reading-6-rc",
+      "text": "Based on the passage, what can you infer about why the network was called 'underground'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It operated in tunnels beneath the ground",
+          "It was a secret operation that had to remain hidden",
+          "People traveled only at night",
+          "The stations were in basements"
+        ],
+        "correctAnswer": "It was a secret operation that had to remain hidden"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.6.1"
+      ],
+      "primaryStandard": "RI.6.1",
+      "passage": "G6-I2: The Underground Railroad",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states it was 'neither underground nor a railroad' but was a 'secret network,' implying 'underground' referred to its hidden, secretive nature."
+    },
+    {
+      "id": "reading-6-rc-029",
+      "bankId": "reading-6-rc",
+      "text": "What evidence from the passage shows that Sarah feels conflicted about moving?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She packed her bags quickly",
+          "She touched the doorframe 'one last time' and whispered goodbye to the house",
+          "She was excited about her new school",
+          "She helped her parents load the truck"
+        ],
+        "correctAnswer": "She touched the doorframe 'one last time' and whispered goodbye to the house"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.6.1"
+      ],
+      "primaryStandard": "RL.6.1",
+      "passage": "G6-L3: The Last Summer",
+      "passageText": "Sarah stood in her empty bedroom, her voice echoing off the bare walls that once held posters of her favorite bands and photos of her best friends. The moving truck sat in the driveway like a hungry beast waiting to swallow her entire life. Her father had explained the job transfer a dozen times, always ending with 'It's a great opportunity for our family.' But Sarah couldn't see past the loss of everything familiar. She touched the doorframe one last time, her fingers tracing the pencil marks that tracked her height over the years. Each mark was a memory: her seventh birthday, the summer she learned to ride a bike, the day she'd grown taller than her mother. 'Goodbye, house,' she whispered. Outside, a car horn honked impatiently. Time to go.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "These actions show Sarah's emotional attachment to her home and reluctance to leave, demonstrating her inner conflict about the move."
+    },
+    {
+      "id": "reading-6-rc-030",
+      "bankId": "reading-6-rc",
+      "text": "What theme is developed in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Moving to a new place is always exciting",
+          "Change can be difficult even when it may lead to good things",
+          "Children should always obey their parents",
+          "Houses are just buildings without meaning"
+        ],
+        "correctAnswer": "Change can be difficult even when it may lead to good things"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.6.2"
+      ],
+      "primaryStandard": "RL.6.2",
+      "passage": "G6-L3: The Last Summer",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage shows Sarah's struggle with leaving (change is difficult) while her father emphasizes it's a 'great opportunity' (may lead to good things)."
+    },
+    {
+      "id": "reading-6-rc-031",
+      "bankId": "reading-6-rc",
+      "text": "What effect does the metaphor comparing the moving truck to a 'hungry beast' create?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It makes the truck seem friendly",
+          "It shows Sarah's fear and sense of being consumed by unwanted change",
+          "It describes the truck's size",
+          "It explains how trucks work"
+        ],
+        "correctAnswer": "It shows Sarah's fear and sense of being consumed by unwanted change"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.6.4"
+      ],
+      "primaryStandard": "RL.6.4",
+      "passage": "G6-L3: The Last Summer",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Describing the truck as a 'hungry beast waiting to swallow her entire life' personifies it as threatening, reflecting Sarah's fear of losing her familiar world."
+    },
+    {
+      "id": "reading-6-rc-032",
+      "bankId": "reading-6-rc",
+      "text": "How does the author use the pencil marks on the doorframe to develop Sarah's character?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To show she is messy",
+          "To reveal her deep connection to memories and her past in this home",
+          "To explain how tall she is",
+          "To show she likes to draw"
+        ],
+        "correctAnswer": "To reveal her deep connection to memories and her past in this home"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.6.5"
+      ],
+      "primaryStandard": "RL.6.5",
+      "passage": "G6-L3: The Last Summer",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The pencil marks represent milestones in Sarah's life, and her focus on them shows her emotional attachment to her memories and history in this house."
+    },
+    {
+      "id": "reading-6-rc-033",
+      "bankId": "reading-6-rc",
+      "text": "How does the father's perspective differ from Sarah's perspective?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The father sees the move as a problem; Sarah sees it as an adventure",
+          "The father sees the move as an opportunity; Sarah sees it as a loss",
+          "Both see the move the same way",
+          "The father is sad; Sarah is excited"
+        ],
+        "correctAnswer": "The father sees the move as an opportunity; Sarah sees it as a loss"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.6.6"
+      ],
+      "primaryStandard": "RL.6.6",
+      "passage": "G6-L3: The Last Summer",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The father repeatedly calls it 'a great opportunity' while Sarah 'couldn't see past the loss of everything familiar.'"
+    },
+    {
+      "id": "reading-6-rc-034",
+      "bankId": "reading-6-rc",
+      "text": "What is the effect of the last two sentences?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "They create a happy ending",
+          "They show Sarah has changed her mind",
+          "They create a sense of finality and forward momentum",
+          "They explain why the family is moving"
+        ],
+        "correctAnswer": "They create a sense of finality and forward momentum"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.6.5"
+      ],
+      "primaryStandard": "RL.6.5",
+      "passage": "G6-L3: The Last Summer",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The car horn and the short sentence 'Time to go' create urgency and finality, pushing the narrative forward and ending the moment of reflection."
+    },
+    {
+      "id": "reading-6-rc-035",
+      "bankId": "reading-6-rc",
+      "text": "According to the passage, what makes invasive species harmful to ecosystems?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "They are always large animals",
+          "They outcompete native species for resources and lack natural predators",
+          "They only live in water",
+          "They are too small to see"
+        ],
+        "correctAnswer": "They outcompete native species for resources and lack natural predators"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.6.1"
+      ],
+      "primaryStandard": "RI.6.1",
+      "passage": "G6-I3: Invasive Species",
+      "passageText": "Invasive species are plants, animals, or other organisms that are introduced to an environment where they did not evolve naturally. Without the predators, diseases, or competition that kept them in check in their native habitat, these species can spread rapidly and cause significant damage. The Asian carp, for example, was brought to the United States in the 1970s to clean algae from fish farms. When floods allowed them to escape into the Mississippi River system, they multiplied explosively. These fish can grow up to four feet long and consume up to 40 percent of their body weight daily, outcompeting native fish for food. Similarly, the kudzu vine, introduced from Japan as an ornamental plant, now covers over seven million acres of the southeastern United States, smothering native vegetation. Scientists estimate that invasive species cause approximately $120 billion in economic damage annually in the United States alone.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states invasive species spread rapidly 'without the predators, diseases, or competition that kept them in check' and can 'outcompete native' species."
+    },
+    {
+      "id": "reading-6-rc-036",
+      "bankId": "reading-6-rc",
+      "text": "What is the central idea of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Asian carp are interesting fish",
+          "Japan has many beautiful plants",
+          "Invasive species can cause serious ecological and economic damage when introduced to new environments",
+          "Fish farms are important to the economy"
+        ],
+        "correctAnswer": "Invasive species can cause serious ecological and economic damage when introduced to new environments"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.6.2"
+      ],
+      "primaryStandard": "RI.6.2",
+      "passage": "G6-I3: Invasive Species",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explains what invasive species are and provides examples of the ecological and economic harm they cause."
+    },
+    {
+      "id": "reading-6-rc-037",
+      "bankId": "reading-6-rc",
+      "text": "How did Asian carp end up in the Mississippi River system?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "They swam from Asia",
+          "They were released intentionally",
+          "Floods allowed them to escape from fish farms",
+          "Scientists put them there"
+        ],
+        "correctAnswer": "Floods allowed them to escape from fish farms"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.6.3"
+      ],
+      "primaryStandard": "RI.6.3",
+      "passage": "G6-I3: Invasive Species",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage directly states 'When floods allowed them to escape into the Mississippi River system, they multiplied explosively.'"
+    },
+    {
+      "id": "reading-6-rc-038",
+      "bankId": "reading-6-rc",
+      "text": "What does 'smothering' mean as used to describe what kudzu does to native vegetation?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Helping it grow",
+          "Covering and suffocating it",
+          "Decorating it",
+          "Watering it"
+        ],
+        "correctAnswer": "Covering and suffocating it"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.6.4"
+      ],
+      "primaryStandard": "RI.6.4",
+      "passage": "G6-I3: Invasive Species",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "In context, 'smothering' means covering so completely that native plants cannot get light or air, effectively suffocating them."
+    },
+    {
+      "id": "reading-6-rc-039",
+      "bankId": "reading-6-rc",
+      "text": "How does the author organize the information about invasive species?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By comparing two types of ecosystems",
+          "By defining the concept and then providing specific examples",
+          "By listing events in chronological order",
+          "By presenting an argument and counterargument"
+        ],
+        "correctAnswer": "By defining the concept and then providing specific examples"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.6.5"
+      ],
+      "primaryStandard": "RI.6.5",
+      "passage": "G6-I3: Invasive Species",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage first defines invasive species and explains why they're harmful, then provides specific examples (Asian carp, kudzu vine)."
+    },
+    {
+      "id": "reading-6-rc-040",
+      "bankId": "reading-6-rc",
+      "text": "What is the author's purpose in including the economic damage figure of $120 billion?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To show that money is not important",
+          "To emphasize the massive scale of the problem invasive species cause",
+          "To suggest the government should spend more money",
+          "To compare prices of different plants"
+        ],
+        "correctAnswer": "To emphasize the massive scale of the problem invasive species cause"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.6.6"
+      ],
+      "primaryStandard": "RI.6.6",
+      "passage": "G6-I3: Invasive Species",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Including the large dollar figure emphasizes that invasive species are not just an ecological problem but also cause enormous economic harm."
+    },
+    {
+      "id": "reading-6-rc-041",
+      "bankId": "reading-6-rc",
+      "text": "Which claim is supported with the MOST specific evidence?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Invasive species are harmful",
+          "Asian carp consume up to 40 percent of their body weight daily",
+          "Kudzu is from Japan",
+          "Invasive species spread rapidly"
+        ],
+        "correctAnswer": "Asian carp consume up to 40 percent of their body weight daily"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.6.8"
+      ],
+      "primaryStandard": "RI.6.8",
+      "passage": "G6-I3: Invasive Species",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "This claim includes a specific percentage (40 percent) as concrete numerical evidence."
+    },
+    {
+      "id": "reading-6-rc-042",
+      "bankId": "reading-6-rc",
+      "text": "What can you infer about why Asian carp were originally brought to the United States?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To harm the ecosystem",
+          "People thought they would be useful and did not anticipate the problems they would cause",
+          "Scientists wanted to study them",
+          "They were accidentally shipped with other goods"
+        ],
+        "correctAnswer": "People thought they would be useful and did not anticipate the problems they would cause"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.6.1"
+      ],
+      "primaryStandard": "RI.6.1",
+      "passage": "G6-I3: Invasive Species",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage says they were brought 'to clean algae from fish farms,' suggesting they were introduced intentionally for a beneficial purpose without anticipating future problems."
+    },
+    {
+      "id": "reading-6-rc-043",
+      "bankId": "reading-6-rc",
+      "text": "What textual evidence shows that Elena is resourceful?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She complained about the power outage",
+          "She gathered candles, organized activities, and made shadow puppets to entertain her siblings",
+          "She went to sleep early",
+          "She called for help"
+        ],
+        "correctAnswer": "She gathered candles, organized activities, and made shadow puppets to entertain her siblings"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.6.1"
+      ],
+      "primaryStandard": "RL.6.1",
+      "passage": "G6-L4: The Storm",
+      "passageText": "The power went out just as Elena's parents left for their dinner reservation, leaving her in charge of her twin siblings during the worst thunderstorm in years. Lightning flickered through the windows like a strobe light, and seven-year-old twins Marco and Sofia huddled under a blanket, their eyes wide with fear. Elena's own heart raced, but she forced her voice to stay calm. 'Who wants to have an adventure?' she asked, grabbing a flashlight. She gathered candles from the kitchen and arranged them in a circle on the living room floor. Then she pulled out board games, told silly stories, and made shadow puppets on the wall. By the time the lights flickered back on two hours later, the twins were laughing so hard they'd forgotten about the storm. Their parents returned to find all three children asleep on the couch, smiling peacefully.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Elena's actions of gathering candles, organizing games, telling stories, and making shadow puppets demonstrate her resourcefulness in a challenging situation."
+    },
+    {
+      "id": "reading-6-rc-044",
+      "bankId": "reading-6-rc",
+      "text": "What theme is BEST supported by this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Storms are always dangerous",
+          "Leadership means staying calm and helping others through difficult times",
+          "Younger siblings are always scared",
+          "Parents should not leave children alone"
+        ],
+        "correctAnswer": "Leadership means staying calm and helping others through difficult times"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.6.2"
+      ],
+      "primaryStandard": "RL.6.2",
+      "passage": "G6-L4: The Storm",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Elena demonstrates leadership by managing her own fear and keeping her siblings calm and entertained during a scary situation."
+    },
+    {
+      "id": "reading-6-rc-045",
+      "bankId": "reading-6-rc",
+      "text": "How does Elena change from the beginning to the end of the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "From bored to excited",
+          "From scared but determined to confident and successful",
+          "From happy to sad",
+          "From calm to panicked"
+        ],
+        "correctAnswer": "From scared but determined to confident and successful"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.6.3"
+      ],
+      "primaryStandard": "RL.6.3",
+      "passage": "G6-L4: The Storm",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Elena begins with a racing heart (scared) but forces herself to stay calm, and by the end she has successfully kept everyone safe and happy."
+    },
+    {
+      "id": "reading-6-rc-046",
+      "bankId": "reading-6-rc",
+      "text": "What effect does the simile 'Lightning flickered through the windows like a strobe light' create?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It makes the storm seem gentle",
+          "It creates a sense of intense, disorienting chaos",
+          "It shows the children were dancing",
+          "It describes a party atmosphere"
+        ],
+        "correctAnswer": "It creates a sense of intense, disorienting chaos"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.6.4"
+      ],
+      "primaryStandard": "RL.6.4",
+      "passage": "G6-L4: The Storm",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Comparing lightning to a strobe light suggests rapid, flashing, disorienting illumination that creates chaos and tension."
+    },
+    {
+      "id": "reading-6-rc-047",
+      "bankId": "reading-6-rc",
+      "text": "How does the ending contribute to the overall meaning of the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It shows the power came back on",
+          "It demonstrates that Elena successfully protected and comforted her siblings through the crisis",
+          "It explains why the parents left",
+          "It describes what the family ate for dinner"
+        ],
+        "correctAnswer": "It demonstrates that Elena successfully protected and comforted her siblings through the crisis"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.6.5"
+      ],
+      "primaryStandard": "RL.6.5",
+      "passage": "G6-L4: The Storm",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The image of all three children asleep and 'smiling peacefully' shows Elena succeeded in her role as caretaker during the storm."
+    },
+    {
+      "id": "reading-6-rc-048",
+      "bankId": "reading-6-rc",
+      "text": "Why does the author include the detail that 'Elena's own heart raced'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To show she had been exercising",
+          "To reveal that she was also afraid but chose to be brave for her siblings",
+          "To indicate she was excited",
+          "To explain her medical condition"
+        ],
+        "correctAnswer": "To reveal that she was also afraid but chose to be brave for her siblings"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.6.6"
+      ],
+      "primaryStandard": "RL.6.6",
+      "passage": "G6-L4: The Storm",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "This detail shows Elena was scared too, but she 'forced her voice to stay calm,' demonstrating her courage and maturity."
+    },
+    {
+      "id": "reading-6-rc-049",
+      "bankId": "reading-6-rc",
+      "text": "According to the passage, what is the primary function of sleep?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Entertainment",
+          "Allowing the body and brain to repair, consolidate memories, and regulate hormones",
+          "Passing time",
+          "Avoiding homework"
+        ],
+        "correctAnswer": "Allowing the body and brain to repair, consolidate memories, and regulate hormones"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.6.1"
+      ],
+      "primaryStandard": "RI.6.1",
+      "passage": "G6-I4: The Science of Sleep",
+      "passageText": "Sleep might seem like a waste of time, but it is actually one of the most important things humans do. During sleep, the body repairs tissues, builds muscle, and strengthens the immune system. The brain is equally busy, consolidating memories from the day and clearing out waste products that accumulate during waking hours. Teenagers require eight to ten hours of sleep per night, yet studies show that more than 70 percent of high school students get fewer than eight hours on school nights. This chronic sleep deprivation affects academic performance, emotional regulation, and physical health. Sleep-deprived students have difficulty concentrating, are more likely to experience anxiety and depression, and have weakened immune systems. The hormone melatonin, which helps regulate sleep, is released later in the evening for teenagers than for adults, making it naturally harder for them to fall asleep early. Many experts recommend that schools start later to align with teenage biology.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states that during sleep, 'the body repairs tissues' and 'the brain is equally busy, consolidating memories' and regulating hormones like melatonin."
+    },
+    {
+      "id": "reading-6-rc-050",
+      "bankId": "reading-6-rc",
+      "text": "What is the central idea of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Teenagers do not need much sleep",
+          "Sleep is essential for health, and most teenagers do not get enough of it",
+          "Schools should never change their schedules",
+          "Adults need more sleep than teenagers"
+        ],
+        "correctAnswer": "Sleep is essential for health, and most teenagers do not get enough of it"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.6.2"
+      ],
+      "primaryStandard": "RI.6.2",
+      "passage": "G6-I4: The Science of Sleep",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage emphasizes the importance of sleep and the fact that over 70% of high school students do not get enough sleep."
+    },
+    {
+      "id": "reading-6-rc-051",
+      "bankId": "reading-6-rc",
+      "text": "According to the passage, what are the effects of sleep deprivation on students?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Improved test scores",
+          "Better athletic performance",
+          "Difficulty concentrating, increased anxiety, and weakened immune systems",
+          "More energy and focus"
+        ],
+        "correctAnswer": "Difficulty concentrating, increased anxiety, and weakened immune systems"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.6.3"
+      ],
+      "primaryStandard": "RI.6.3",
+      "passage": "G6-I4: The Science of Sleep",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage lists these specific effects: 'difficulty concentrating, are more likely to experience anxiety and depression, and have weakened immune systems.'"
+    },
+    {
+      "id": "reading-6-rc-052",
+      "bankId": "reading-6-rc",
+      "text": "What does 'chronic' mean as used in the phrase 'chronic sleep deprivation'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Occasional",
+          "Ongoing and persistent",
+          "Sudden",
+          "Mild"
+        ],
+        "correctAnswer": "Ongoing and persistent"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.6.4"
+      ],
+      "primaryStandard": "RI.6.4",
+      "passage": "G6-I4: The Science of Sleep",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "'Chronic' means lasting for a long time or constantly recurring, indicating ongoing, persistent sleep deprivation."
+    },
+    {
+      "id": "reading-6-rc-053",
+      "bankId": "reading-6-rc",
+      "text": "How does the author structure the argument about school start times?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By presenting the problem of teen sleep deprivation and then offering a solution based on biology",
+          "By listing different schools and their schedules",
+          "By telling a story about a tired student",
+          "By comparing American schools to European schools"
+        ],
+        "correctAnswer": "By presenting the problem of teen sleep deprivation and then offering a solution based on biology"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.6.5"
+      ],
+      "primaryStandard": "RI.6.5",
+      "passage": "G6-I4: The Science of Sleep",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author presents the problem (teens not getting enough sleep) and provides a solution (later school start times) supported by biological evidence (melatonin release patterns)."
+    },
+    {
+      "id": "reading-6-rc-054",
+      "bankId": "reading-6-rc",
+      "text": "What is the author's point of view on school start times?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Schools should start earlier",
+          "Schools should consider starting later to match teenage biology",
+          "Start times do not matter",
+          "Only teenagers can decide when school should start"
+        ],
+        "correctAnswer": "Schools should consider starting later to match teenage biology"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.6.6"
+      ],
+      "primaryStandard": "RI.6.6",
+      "passage": "G6-I4: The Science of Sleep",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author states that 'Many experts recommend that schools start later to align with teenage biology,' presenting this favorably as a solution."
+    },
+    {
+      "id": "reading-6-rc-055",
+      "bankId": "reading-6-rc",
+      "text": "Which piece of evidence BEST supports the claim that sleep deprivation is a widespread problem among teenagers?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Sleep is important for health",
+          "Melatonin is a hormone",
+          "More than 70 percent of high school students get fewer than eight hours of sleep on school nights",
+          "Teenagers need eight to ten hours of sleep"
+        ],
+        "correctAnswer": "More than 70 percent of high school students get fewer than eight hours of sleep on school nights"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.6.8"
+      ],
+      "primaryStandard": "RI.6.8",
+      "passage": "G6-I4: The Science of Sleep",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The statistic '70 percent' provides concrete numerical evidence that the majority of teens are not getting enough sleep."
+    },
+    {
+      "id": "reading-6-rc-056",
+      "bankId": "reading-6-rc",
+      "text": "Based on the passage, why might it be biologically unfair to expect teenagers to go to bed early?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Teenagers are naturally rebellious",
+          "The hormone melatonin is released later in teens, making it harder for them to fall asleep early",
+          "Teenagers have too much homework",
+          "Parents do not enforce bedtimes"
+        ],
+        "correctAnswer": "The hormone melatonin is released later in teens, making it harder for them to fall asleep early"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.6.1"
+      ],
+      "primaryStandard": "RI.6.1",
+      "passage": "G6-I4: The Science of Sleep",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explains that melatonin 'is released later in the evening for teenagers than for adults, making it naturally harder for them to fall asleep early.'"
+    },
+    {
+      "id": "reading-6-rc-057",
+      "bankId": "reading-6-rc",
+      "text": "What evidence from the passage BEST shows that Kai values his cultural heritage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He likes to eat lunch at school",
+          "He learned to carve traditional Hawaiian designs and wants to teach others",
+          "He has a cell phone",
+          "He likes surfing"
+        ],
+        "correctAnswer": "He learned to carve traditional Hawaiian designs and wants to teach others"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.6.1"
+      ],
+      "primaryStandard": "RL.6.1",
+      "passage": "G6-L5: The Carver's Apprentice",
+      "passageText": "Kai spent every Saturday morning in his grandfather's workshop, surrounded by the sweet smell of koa wood and the soft sound of chisels against timber. His grandfather, a master carver, created traditional Hawaiian sculptures that told stories of their ancestors. At first, Kai had been reluctant to learn. His friends spent their weekends playing video games and going to the beach. But as months passed, something changed. Each curve he carved connected him to generations of artisans before him. When his grandfather's hands began to shake too much to hold the tools steadily, Kai realized he might be the last link in an unbroken chain stretching back centuries. Now, at thirteen, he could carve the basic traditional patterns himself. 'Grandfather,' he said one evening, 'when I am older, I want to teach others what you have taught me.' His grandfather's eyes glistened with tears.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Kai's decision to learn traditional carving and his desire to 'teach others what you have taught me' shows his commitment to preserving his cultural heritage."
+    },
+    {
+      "id": "reading-6-rc-058",
+      "bankId": "reading-6-rc",
+      "text": "What theme is developed through Kai's story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Technology is better than tradition",
+          "Preserving cultural traditions connects us to our past and gives our lives meaning",
+          "Grandparents should not teach their grandchildren",
+          "Weekends should only be for fun"
+        ],
+        "correctAnswer": "Preserving cultural traditions connects us to our past and gives our lives meaning"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.6.2"
+      ],
+      "primaryStandard": "RL.6.2",
+      "passage": "G6-L5: The Carver's Apprentice",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage emphasizes how carving connects Kai to 'generations of artisans' and makes him part of 'an unbroken chain stretching back centuries.'"
+    },
+    {
+      "id": "reading-6-rc-059",
+      "bankId": "reading-6-rc",
+      "text": "How does Kai's attitude change throughout the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "From excited to bored",
+          "From reluctant to deeply committed",
+          "From confident to afraid",
+          "From angry to sad"
+        ],
+        "correctAnswer": "From reluctant to deeply committed"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.6.3"
+      ],
+      "primaryStandard": "RL.6.3",
+      "passage": "G6-L5: The Carver's Apprentice",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states Kai 'had been reluctant to learn' but ends with him wanting to teach others, showing his deep commitment."
+    },
+    {
+      "id": "reading-6-rc-060",
+      "bankId": "reading-6-rc",
+      "text": "What does the metaphor 'the last link in an unbroken chain' suggest?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Kai is imprisoned",
+          "Kai has an important responsibility to continue a long tradition",
+          "Kai likes jewelry",
+          "Kai is physically strong"
+        ],
+        "correctAnswer": "Kai has an important responsibility to continue a long tradition"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.6.4"
+      ],
+      "primaryStandard": "RL.6.4",
+      "passage": "G6-L5: The Carver's Apprentice",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The chain metaphor represents generations of carvers, and Kai being the 'last link' suggests he must continue the tradition or it will be broken."
+    },
+    {
+      "id": "reading-6-rc-061",
+      "bankId": "reading-6-rc",
+      "text": "How does the author create a sense of urgency in the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By describing the beautiful scenery",
+          "By revealing that the grandfather's hands shake and Kai might be the last to carry on the tradition",
+          "By listing all the tools in the workshop",
+          "By describing Kai's friends"
+        ],
+        "correctAnswer": "By revealing that the grandfather's hands shake and Kai might be the last to carry on the tradition"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.6.5"
+      ],
+      "primaryStandard": "RL.6.5",
+      "passage": "G6-L5: The Carver's Apprentice",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The detail about the grandfather's shaking hands and Kai being the 'last link' creates urgency about preserving the tradition before it is lost."
+    },
+    {
+      "id": "reading-6-rc-062",
+      "bankId": "reading-6-rc",
+      "text": "Why do the grandfather's eyes glisten with tears at the end?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He is sad that Kai is leaving",
+          "He is proud and moved that Kai will continue the tradition",
+          "He hurt himself while carving",
+          "He is allergic to the wood"
+        ],
+        "correctAnswer": "He is proud and moved that Kai will continue the tradition"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.6.1"
+      ],
+      "primaryStandard": "RL.6.1",
+      "passage": "G6-L5: The Carver's Apprentice",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The grandfather's emotional response comes after Kai expresses his desire to teach others, indicating pride and joy that the tradition will continue."
+    },
+    {
+      "id": "reading-6-rc-063",
+      "bankId": "reading-6-rc",
+      "text": "According to the passage, what is the primary purpose of the United Nations?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To govern all countries",
+          "To maintain international peace and security and promote cooperation",
+          "To create a world army",
+          "To control world trade"
+        ],
+        "correctAnswer": "To maintain international peace and security and promote cooperation"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.6.1"
+      ],
+      "primaryStandard": "RI.6.1",
+      "passage": "G6-I5: The United Nations",
+      "passageText": "The United Nations was established in 1945, after World War II, with the goal of preventing future conflicts and promoting international cooperation. Today, 193 countries are members of this global organization. The UN has six main organs, including the General Assembly, where all member nations have equal representation, and the Security Council, which is responsible for maintaining international peace and security. The UN also works to protect human rights, deliver humanitarian aid, and promote sustainable development. Through agencies like UNICEF, the UN provides education, healthcare, and emergency relief to millions of children worldwide. Critics argue that the UN is often slow to act and that powerful nations can block important decisions. Supporters counter that despite its limitations, the UN provides an essential forum for dialogue and has helped prevent numerous conflicts through diplomacy and peacekeeping missions.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states the UN was established 'with the goal of preventing future conflicts and promoting international cooperation.'"
+    },
+    {
+      "id": "reading-6-rc-064",
+      "bankId": "reading-6-rc",
+      "text": "What is the central idea of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The UN is a perfect organization",
+          "The UN should be abolished",
+          "The UN is a global organization that promotes peace and cooperation, though it has both supporters and critics",
+          "Only large countries belong to the UN"
+        ],
+        "correctAnswer": "The UN is a global organization that promotes peace and cooperation, though it has both supporters and critics"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.6.2"
+      ],
+      "primaryStandard": "RI.6.2",
+      "passage": "G6-I5: The United Nations",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explains the UN's purpose and functions while presenting both criticisms and support for the organization."
+    },
+    {
+      "id": "reading-6-rc-065",
+      "bankId": "reading-6-rc",
+      "text": "How does UNICEF support the UN's mission?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By building military bases",
+          "By providing education, healthcare, and emergency relief to children",
+          "By collecting taxes",
+          "By electing government officials"
+        ],
+        "correctAnswer": "By providing education, healthcare, and emergency relief to children"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.6.3"
+      ],
+      "primaryStandard": "RI.6.3",
+      "passage": "G6-I5: The United Nations",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage directly states that UNICEF 'provides education, healthcare, and emergency relief to millions of children worldwide.'"
+    },
+    {
+      "id": "reading-6-rc-066",
+      "bankId": "reading-6-rc",
+      "text": "What does 'humanitarian' mean as used in the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Related to war",
+          "Concerned with human welfare and reducing suffering",
+          "Related to science",
+          "Concerning entertainment"
+        ],
+        "correctAnswer": "Concerned with human welfare and reducing suffering"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.6.4"
+      ],
+      "primaryStandard": "RI.6.4",
+      "passage": "G6-I5: The United Nations",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "'Humanitarian aid' refers to assistance focused on human welfare, helping people in need, and reducing suffering."
+    },
+    {
+      "id": "reading-6-rc-067",
+      "bankId": "reading-6-rc",
+      "text": "How does the author present different perspectives on the UN?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By only presenting criticism",
+          "By only presenting support",
+          "By presenting both critics' concerns and supporters' counterarguments",
+          "By not mentioning any opinions"
+        ],
+        "correctAnswer": "By presenting both critics' concerns and supporters' counterarguments"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.6.6"
+      ],
+      "primaryStandard": "RI.6.6",
+      "passage": "G6-I5: The United Nations",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author presents 'Critics argue...' and then 'Supporters counter...,' showing both perspectives."
+    },
+    {
+      "id": "reading-6-rc-068",
+      "bankId": "reading-6-rc",
+      "text": "What is one argument critics make against the UN?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It has too many members",
+          "It is often slow to act and powerful nations can block decisions",
+          "It focuses too much on children",
+          "It spends too much money on peacekeeping"
+        ],
+        "correctAnswer": "It is often slow to act and powerful nations can block decisions"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.6.8"
+      ],
+      "primaryStandard": "RI.6.8",
+      "passage": "G6-I5: The United Nations",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'Critics argue that the UN is often slow to act and that powerful nations can block important decisions.'"
+    },
+    {
+      "id": "reading-6-rc-069",
+      "bankId": "reading-6-rc",
+      "text": "How does the structure of the passage help readers understand the UN?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It presents information chronologically from 1945 to today",
+          "It describes the UN's history, structure, functions, and different viewpoints in an organized way",
+          "It compares the UN to other organizations",
+          "It tells a story about a UN worker"
+        ],
+        "correctAnswer": "It describes the UN's history, structure, functions, and different viewpoints in an organized way"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.6.5"
+      ],
+      "primaryStandard": "RI.6.5",
+      "passage": "G6-I5: The United Nations",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage is organized to cover when the UN was founded, how many members it has, its structure, its functions, and then presents different viewpoints."
+    },
+    {
+      "id": "reading-6-rc-070",
+      "bankId": "reading-6-rc",
+      "text": "What evidence supports the claim that Amir feels isolated at his new school?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He has many friends",
+          "He sits alone in the corner of the cafeteria watching other students laugh together",
+          "He enjoys his classes",
+          "He plays on the soccer team"
+        ],
+        "correctAnswer": "He sits alone in the corner of the cafeteria watching other students laugh together"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.6.1"
+      ],
+      "primaryStandard": "RL.6.1",
+      "passage": "G6-L6: The New Kid",
+      "passageText": "Amir sat alone in the corner of the cafeteria, pushing his food around his plate while watching the other students laugh and talk in their established friend groups. Three weeks at Jefferson Middle School, and he still felt like a ghost, visible but unseen. Back in Pakistan, he had been the one telling jokes, the center of attention. Here, his accent made him self-conscious, and cultural references flew over his head. During lunch, a girl with curly red hair approached his table. 'Mind if I sit here?' she asked. 'I'm Olivia. I noticed you're new.' Amir's heart raced with both hope and fear. 'I am Amir,' he managed. Olivia smiled. 'I moved here last year. I know how hard it is. Want me to show you around?' For the first time in weeks, Amir felt the tight knot in his chest begin to loosen.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Sitting alone while 'watching the other students laugh and talk' demonstrates his isolation from his peers."
+    },
+    {
+      "id": "reading-6-rc-071",
+      "bankId": "reading-6-rc",
+      "text": "What theme is developed in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Schools in America are better than schools elsewhere",
+          "A small act of kindness can make a significant difference to someone who feels alone",
+          "Moving to a new place is always easy",
+          "Children should not talk to strangers"
+        ],
+        "correctAnswer": "A small act of kindness can make a significant difference to someone who feels alone"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.6.2"
+      ],
+      "primaryStandard": "RL.6.2",
+      "passage": "G6-L6: The New Kid",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Olivia's simple gesture of sitting with Amir and offering to help causes the 'tight knot in his chest' to loosen, showing the power of kindness."
+    },
+    {
+      "id": "reading-6-rc-072",
+      "bankId": "reading-6-rc",
+      "text": "How is Amir's experience in America different from his experience in Pakistan?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "In Pakistan he was shy; in America he is outgoing",
+          "In Pakistan he was confident and popular; in America he feels invisible and self-conscious",
+          "In Pakistan he was alone; in America he has many friends",
+          "There is no difference"
+        ],
+        "correctAnswer": "In Pakistan he was confident and popular; in America he feels invisible and self-conscious"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.6.3"
+      ],
+      "primaryStandard": "RL.6.3",
+      "passage": "G6-L6: The New Kid",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states in Pakistan 'he had been the one telling jokes, the center of attention' but in America he feels like 'a ghost' and is 'self-conscious.'"
+    },
+    {
+      "id": "reading-6-rc-073",
+      "bankId": "reading-6-rc",
+      "text": "What does the simile 'he still felt like a ghost, visible but unseen' reveal about Amir?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He is transparent",
+          "He feels present but unnoticed and unconnected to others",
+          "He is scary",
+          "He can walk through walls"
+        ],
+        "correctAnswer": "He feels present but unnoticed and unconnected to others"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.6.4"
+      ],
+      "primaryStandard": "RL.6.4",
+      "passage": "G6-L6: The New Kid",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The ghost simile suggests Amir is physically present but feels ignored and disconnected, as if people cannot truly see him."
+    },
+    {
+      "id": "reading-6-rc-074",
+      "bankId": "reading-6-rc",
+      "text": "How does the author build toward the hopeful ending?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By showing Amir becoming angry",
+          "By contrasting Amir's isolation with Olivia's friendly approach and offer of help",
+          "By having Amir leave the school",
+          "By describing the cafeteria food"
+        ],
+        "correctAnswer": "By contrasting Amir's isolation with Olivia's friendly approach and offer of help"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.6.5"
+      ],
+      "primaryStandard": "RL.6.5",
+      "passage": "G6-L6: The New Kid",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author first establishes Amir's loneliness, then introduces Olivia's kindness, creating a contrast that leads to the hopeful resolution."
+    },
+    {
+      "id": "reading-6-rc-075",
+      "bankId": "reading-6-rc",
+      "text": "Why does Amir's heart race 'with both hope and fear' when Olivia approaches?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He is allergic to her",
+          "He hopes for friendship but fears rejection or embarrassment",
+          "He wants to run away",
+          "He is late for class"
+        ],
+        "correctAnswer": "He hopes for friendship but fears rejection or embarrassment"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.6.1"
+      ],
+      "primaryStandard": "RL.6.1",
+      "passage": "G6-L6: The New Kid",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Given his isolation and self-consciousness about his accent, Amir likely hopes for connection but fears another disappointing interaction."
+    },
+    {
+      "id": "reading-6-rc-076",
+      "bankId": "reading-6-rc",
+      "text": "What does the phrase 'the tight knot in his chest begin to loosen' suggest?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Amir has a medical problem",
+          "Amir's anxiety and tension are starting to ease",
+          "Amir is getting sick",
+          "Amir is wearing uncomfortable clothes"
+        ],
+        "correctAnswer": "Amir's anxiety and tension are starting to ease"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.6.4"
+      ],
+      "primaryStandard": "RL.6.4",
+      "passage": "G6-L6: The New Kid",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The 'tight knot' is a physical metaphor for emotional tension and anxiety. It 'loosening' indicates his stress is decreasing."
+    },
+    {
+      "id": "reading-6-rc-077",
+      "bankId": "reading-6-rc",
+      "text": "According to the passage, what is the main cause of plastic pollution in the ocean?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Natural disasters",
+          "Single-use plastics and improper waste disposal",
+          "Ocean animals",
+          "Fishing boats"
+        ],
+        "correctAnswer": "Single-use plastics and improper waste disposal"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.6.1"
+      ],
+      "primaryStandard": "RI.6.1",
+      "passage": "G6-I6: The Plastic Problem",
+      "passageText": "Every year, approximately eight million metric tons of plastic waste enters the world's oceans. Much of this pollution comes from single-use items like bottles, bags, and food packaging that are improperly disposed of on land and eventually wash into waterways. This plastic breaks down into tiny fragments called microplastics, which marine animals often mistake for food. Sea turtles eat plastic bags thinking they are jellyfish. Seabirds feed plastic pieces to their chicks. Scientists have found microplastics inside fish sold for human consumption. The Great Pacific Garbage Patch, a collection of floating debris, now covers an area twice the size of Texas. While cleanup efforts are underway, many experts argue that the most effective solution is reducing plastic production and consumption. Some countries have banned single-use plastic bags, and many companies are developing biodegradable alternatives. Individual actions, like using reusable bags and bottles, can also make a difference when practiced by millions of people.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'Much of this pollution comes from single-use items like bottles, bags, and food packaging that are improperly disposed of.'"
+    },
+    {
+      "id": "reading-6-rc-078",
+      "bankId": "reading-6-rc",
+      "text": "What is the central idea of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The ocean is very large",
+          "Plastic pollution in the ocean is a serious problem that requires solutions at multiple levels",
+          "Fish are not safe to eat",
+          "Texas is a big state"
+        ],
+        "correctAnswer": "Plastic pollution in the ocean is a serious problem that requires solutions at multiple levels"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.6.2"
+      ],
+      "primaryStandard": "RI.6.2",
+      "passage": "G6-I6: The Plastic Problem",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage describes the plastic pollution problem and then discusses solutions at government, corporate, and individual levels."
+    },
+    {
+      "id": "reading-6-rc-079",
+      "bankId": "reading-6-rc",
+      "text": "How do microplastics enter the food chain?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "People add them to fish food",
+          "Marine animals mistake them for food and eat them",
+          "They grow naturally in the ocean",
+          "Scientists put them there for research"
+        ],
+        "correctAnswer": "Marine animals mistake them for food and eat them"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.6.3"
+      ],
+      "primaryStandard": "RI.6.3",
+      "passage": "G6-I6: The Plastic Problem",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explains that 'marine animals often mistake [microplastics] for food' and provides examples of turtles and seabirds consuming plastic."
+    },
+    {
+      "id": "reading-6-rc-080",
+      "bankId": "reading-6-rc",
+      "text": "What does 'biodegradable' mean in the context of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Made of metal",
+          "Able to break down naturally in the environment",
+          "Very expensive",
+          "Made from recycled materials"
+        ],
+        "correctAnswer": "Able to break down naturally in the environment"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.6.4"
+      ],
+      "primaryStandard": "RI.6.4",
+      "passage": "G6-I6: The Plastic Problem",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "'Biodegradable alternatives' to plastic would break down naturally, unlike regular plastic which persists in the environment."
+    },
+    {
+      "id": "reading-6-rc-081",
+      "bankId": "reading-6-rc",
+      "text": "How does the author organize the information about solutions to plastic pollution?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "From least to most important",
+          "From government and corporate actions to individual actions",
+          "In chronological order",
+          "By comparing different countries"
+        ],
+        "correctAnswer": "From government and corporate actions to individual actions"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.6.5"
+      ],
+      "primaryStandard": "RI.6.5",
+      "passage": "G6-I6: The Plastic Problem",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage discusses 'reducing plastic production' (policy level), 'countries have banned' (government), 'companies are developing' (corporate), and then 'individual actions.'"
+    },
+    {
+      "id": "reading-6-rc-082",
+      "bankId": "reading-6-rc",
+      "text": "What is the author's purpose in including the comparison to Texas?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To explain Texas geography",
+          "To help readers visualize the enormous scale of the garbage patch",
+          "To argue that Texas is polluted",
+          "To discuss American states"
+        ],
+        "correctAnswer": "To help readers visualize the enormous scale of the garbage patch"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.6.6"
+      ],
+      "primaryStandard": "RI.6.6",
+      "passage": "G6-I6: The Plastic Problem",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "By comparing the garbage patch to 'twice the size of Texas,' the author helps readers understand just how massive the pollution problem is."
+    },
+    {
+      "id": "reading-6-rc-083",
+      "bankId": "reading-6-rc",
+      "text": "Which claim is BEST supported by specific evidence in the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Plastic is useful",
+          "Eight million metric tons of plastic waste enters the oceans every year",
+          "Fish taste bad",
+          "Cleanup efforts are easy"
+        ],
+        "correctAnswer": "Eight million metric tons of plastic waste enters the oceans every year"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.6.8"
+      ],
+      "primaryStandard": "RI.6.8",
+      "passage": "G6-I6: The Plastic Problem",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "This claim includes a specific numerical figure ('eight million metric tons') as concrete evidence."
+    },
+    {
+      "id": "reading-6-rc-084",
+      "bankId": "reading-6-rc",
+      "text": "What evidence from the passage shows that Darius is nervous about his speech?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He ate breakfast quickly",
+          "His palms were sweating and his legs felt like rubber",
+          "He wore nice clothes",
+          "He arrived at school on time"
+        ],
+        "correctAnswer": "His palms were sweating and his legs felt like rubber"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RL.6.1"
+      ],
+      "primaryStandard": "RL.6.1",
+      "passage": "G6-L7: The Speech",
+      "passageText": "Darius stood backstage, his palms sweating and his legs feeling like rubber. In five minutes, he would walk onto the auditorium stage and deliver his campaign speech for student body president in front of the entire sixth grade. He had practiced for weeks, memorizing every word, but now his mind felt blank. His opponent, Jessica Martinez, had given speeches since elementary school and made it look effortless. What made him think he could compete? Just then, his best friend Marcus appeared beside him. 'Remember why you're doing this,' Marcus whispered. 'You have ideas that could really help our school. Nobody else is talking about extending library hours or starting a peer tutoring program.' Darius nodded slowly. He wasn't doing this to be popular. He was doing it because he believed he could make a difference. Taking a deep breath, he stepped toward the stage, his nervousness transforming into determination.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Physical symptoms like sweating palms and legs feeling 'like rubber' are clear evidence of nervousness."
+    },
+    {
+      "id": "reading-6-rc-085",
+      "bankId": "reading-6-rc",
+      "text": "What theme does this passage convey?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Winning is everything",
+          "Having a meaningful purpose can help overcome fear and self-doubt",
+          "Student government is not important",
+          "Practice makes no difference"
+        ],
+        "correctAnswer": "Having a meaningful purpose can help overcome fear and self-doubt"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.6.2"
+      ],
+      "primaryStandard": "RL.6.2",
+      "passage": "G6-L7: The Speech",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "When Darius remembers his purpose (helping the school), his 'nervousness transform[s] into determination,' showing that purpose can overcome fear."
+    },
+    {
+      "id": "reading-6-rc-086",
+      "bankId": "reading-6-rc",
+      "text": "How does Marcus help Darius overcome his self-doubt?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By telling him to quit",
+          "By reminding him of his meaningful ideas and purpose",
+          "By writing the speech for him",
+          "By making fun of Jessica"
+        ],
+        "correctAnswer": "By reminding him of his meaningful ideas and purpose"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.6.3"
+      ],
+      "primaryStandard": "RL.6.3",
+      "passage": "G6-L7: The Speech",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Marcus says 'Remember why you're doing this' and mentions Darius's specific ideas, helping him focus on his purpose rather than his fear."
+    },
+    {
+      "id": "reading-6-rc-087",
+      "bankId": "reading-6-rc",
+      "text": "What does the phrase 'legs feeling like rubber' suggest?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Darius has strong legs",
+          "Darius's legs feel weak and unsteady from nervousness",
+          "Darius is wearing rubber boots",
+          "Darius has been exercising"
+        ],
+        "correctAnswer": "Darius's legs feel weak and unsteady from nervousness"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.6.4"
+      ],
+      "primaryStandard": "RL.6.4",
+      "passage": "G6-L7: The Speech",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Rubber is flexible and unstable. The simile suggests Darius's legs feel weak and shaky, a physical sign of nervousness."
+    },
+    {
+      "id": "reading-6-rc-088",
+      "bankId": "reading-6-rc",
+      "text": "How does the author show Darius's internal conflict?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By describing the auditorium",
+          "By contrasting his preparation with his self-doubt and comparing himself unfavorably to Jessica",
+          "By listing his campaign promises",
+          "By describing Marcus's appearance"
+        ],
+        "correctAnswer": "By contrasting his preparation with his self-doubt and comparing himself unfavorably to Jessica"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.6.5"
+      ],
+      "primaryStandard": "RL.6.5",
+      "passage": "G6-L7: The Speech",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage shows Darius practiced for weeks but 'now his mind felt blank' and he doubts himself against Jessica, revealing his internal struggle."
+    },
+    {
+      "id": "reading-6-rc-089",
+      "bankId": "reading-6-rc",
+      "text": "What can you infer about why Darius decided to run for student body president?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He wanted to be popular",
+          "He wanted to compete with Jessica",
+          "He genuinely wanted to improve his school with specific ideas",
+          "His parents made him"
+        ],
+        "correctAnswer": "He genuinely wanted to improve his school with specific ideas"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.6.1"
+      ],
+      "primaryStandard": "RL.6.1",
+      "passage": "G6-L7: The Speech",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'He wasn't doing this to be popular' and mentions his specific ideas like extending library hours and peer tutoring."
+    },
+    {
+      "id": "reading-6-rc-090",
+      "bankId": "reading-6-rc",
+      "text": "According to the passage, why is the Amazon Rainforest important for the global climate?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It contains gold and diamonds",
+          "It absorbs carbon dioxide and produces oxygen",
+          "It is very hot",
+          "It has many rivers"
+        ],
+        "correctAnswer": "It absorbs carbon dioxide and produces oxygen"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.6.1"
+      ],
+      "primaryStandard": "RI.6.1",
+      "passage": "G6-I7: The Amazon Rainforest",
+      "passageText": "The Amazon Rainforest spans approximately 2.7 million square miles across nine South American countries, making it the largest tropical rainforest on Earth. Often called the 'lungs of the planet,' the Amazon absorbs billions of tons of carbon dioxide and produces approximately 20 percent of the world's oxygen. This massive ecosystem contains an estimated 10 percent of all species on Earth, including jaguars, pink river dolphins, and countless insects that scientists have yet to discover. However, the Amazon faces serious threats. Deforestation, primarily for cattle ranching and soy farming, has destroyed roughly 17 percent of the forest in the past 50 years. Scientists warn that if destruction continues at current rates, the Amazon could reach a 'tipping point' where it transforms from a carbon absorber into a carbon emitter, accelerating climate change. Indigenous communities who have lived in the Amazon for thousands of years are leading many conservation efforts, combining traditional knowledge with modern environmental science.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage describes the Amazon as 'the lungs of the planet' because it 'absorbs billions of tons of carbon dioxide and produces approximately 20 percent of the world's oxygen.'"
+    },
+    {
+      "id": "reading-6-rc-091",
+      "bankId": "reading-6-rc",
+      "text": "What is the central idea of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The Amazon has many animals",
+          "Cattle ranching is profitable",
+          "The Amazon Rainforest is critically important for the planet but faces serious threats from deforestation",
+          "South America has nine countries"
+        ],
+        "correctAnswer": "The Amazon Rainforest is critically important for the planet but faces serious threats from deforestation"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.6.2"
+      ],
+      "primaryStandard": "RI.6.2",
+      "passage": "G6-I7: The Amazon Rainforest",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage emphasizes both the Amazon's importance (climate, biodiversity) and the threats it faces (deforestation, tipping point)."
+    },
+    {
+      "id": "reading-6-rc-092",
+      "bankId": "reading-6-rc",
+      "text": "What are the main causes of deforestation in the Amazon?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Tourism and recreation",
+          "Cattle ranching and soy farming",
+          "Building cities",
+          "Natural disasters"
+        ],
+        "correctAnswer": "Cattle ranching and soy farming"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.6.3"
+      ],
+      "primaryStandard": "RI.6.3",
+      "passage": "G6-I7: The Amazon Rainforest",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage directly states 'Deforestation, primarily for cattle ranching and soy farming' is the main threat."
+    },
+    {
+      "id": "reading-6-rc-093",
+      "bankId": "reading-6-rc",
+      "text": "What does 'tipping point' mean in the context of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "A place where things fall over",
+          "A critical threshold beyond which a dramatic, irreversible change occurs",
+          "The highest point of a mountain",
+          "A type of payment"
+        ],
+        "correctAnswer": "A critical threshold beyond which a dramatic, irreversible change occurs"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.6.4"
+      ],
+      "primaryStandard": "RI.6.4",
+      "passage": "G6-I7: The Amazon Rainforest",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "In context, 'tipping point' refers to a threshold where the Amazon would fundamentally change from helping to absorbing carbon to emitting it."
+    },
+    {
+      "id": "reading-6-rc-094",
+      "bankId": "reading-6-rc",
+      "text": "How does the author organize the information in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By telling a story",
+          "By describing the Amazon's importance, then its threats, then conservation efforts",
+          "By comparing different rainforests",
+          "By listing all the animals in order"
+        ],
+        "correctAnswer": "By describing the Amazon's importance, then its threats, then conservation efforts"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.6.5"
+      ],
+      "primaryStandard": "RI.6.5",
+      "passage": "G6-I7: The Amazon Rainforest",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage begins with the Amazon's size and importance, moves to threats (deforestation, tipping point), and ends with conservation efforts."
+    },
+    {
+      "id": "reading-6-rc-095",
+      "bankId": "reading-6-rc",
+      "text": "Why does the author mention indigenous communities at the end of the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To explain why deforestation happens",
+          "To highlight that local knowledge can contribute to conservation solutions",
+          "To describe traditional clothing",
+          "To discuss ancient history"
+        ],
+        "correctAnswer": "To highlight that local knowledge can contribute to conservation solutions"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.6.6"
+      ],
+      "primaryStandard": "RI.6.6",
+      "passage": "G6-I7: The Amazon Rainforest",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author presents indigenous communities as 'leading many conservation efforts, combining traditional knowledge with modern environmental science.'"
+    },
+    {
+      "id": "reading-6-rc-096",
+      "bankId": "reading-6-rc",
+      "text": "Which piece of evidence BEST supports the claim that the Amazon is biologically diverse?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It spans nine countries",
+          "It contains an estimated 10 percent of all species on Earth",
+          "It produces oxygen",
+          "It is called the lungs of the planet"
+        ],
+        "correctAnswer": "It contains an estimated 10 percent of all species on Earth"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.6.8"
+      ],
+      "primaryStandard": "RI.6.8",
+      "passage": "G6-I7: The Amazon Rainforest",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The statistic that the Amazon contains '10 percent of all species on Earth' directly supports the claim about biodiversity."
+    },
+    {
+      "id": "reading-6-rc-097",
+      "bankId": "reading-6-rc",
+      "text": "What evidence suggests that Zoe values her grandmother's memory?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She threw away her grandmother's recipes",
+          "She carefully copied each recipe by hand and added her own notes and memories",
+          "She never cooked",
+          "She bought a new cookbook"
+        ],
+        "correctAnswer": "She carefully copied each recipe by hand and added her own notes and memories"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.6.1"
+      ],
+      "primaryStandard": "RL.6.1",
+      "passage": "G6-L8: The Recipe Book",
+      "passageText": "The leather-bound cookbook had sat on Zoe's grandmother's kitchen counter for as long as she could remember. Now, six months after her grandmother's passing, Zoe finally felt ready to open it. The pages were stained with oil splatters and dusted with flour, evidence of decades of use. Her grandmother's handwriting filled the margins with notes: 'Add extra cinnamon for your father' and 'Zoe loves the frosting.' Tears blurred Zoe's vision as she realized these recipes were more than instructions for food. They were her grandmother's love, preserved in measurements and mixing times. Zoe made a decision. She would copy each recipe into a new notebook, adding her own memories: 'Grandma made this every Christmas' or 'We baked this together on rainy afternoons.' The tradition wouldn't end. It would grow, one recipe at a time.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The act of carefully copying recipes and adding personal memories shows Zoe's desire to preserve and honor her grandmother's legacy."
+    },
+    {
+      "id": "reading-6-rc-098",
+      "bankId": "reading-6-rc",
+      "text": "What theme does this passage develop?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Cooking is difficult",
+          "Family traditions and memories can be preserved and continued across generations",
+          "Old things should be thrown away",
+          "Grandparents are always good cooks"
+        ],
+        "correctAnswer": "Family traditions and memories can be preserved and continued across generations"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.6.2"
+      ],
+      "primaryStandard": "RL.6.2",
+      "passage": "G6-L8: The Recipe Book",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Zoe's decision to continue and expand the recipe book shows how traditions can be preserved and grow across generations."
+    },
+    {
+      "id": "reading-6-rc-099",
+      "bankId": "reading-6-rc",
+      "text": "What does the phrase 'her grandmother's love, preserved in measurements and mixing times' suggest?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Her grandmother measured love",
+          "The recipes represent and contain the grandmother's care and affection for her family",
+          "Cooking requires exact measurements",
+          "Love can be frozen"
+        ],
+        "correctAnswer": "The recipes represent and contain the grandmother's care and affection for her family"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.6.4"
+      ],
+      "primaryStandard": "RL.6.4",
+      "passage": "G6-L8: The Recipe Book",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "This phrase suggests the recipes are a tangible representation of the grandmother's love for her family, expressed through cooking for them."
+    },
+    {
+      "id": "reading-6-rc-100",
+      "bankId": "reading-6-rc",
+      "text": "Why does the author include details like 'oil splatters' and 'dusted with flour' on the pages?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To show the book was dirty and should be thrown away",
+          "To demonstrate that the cookbook was well-used and loved over many years",
+          "To explain how to make recipes",
+          "To describe what flour looks like"
+        ],
+        "correctAnswer": "To demonstrate that the cookbook was well-used and loved over many years"
+      },
+      "subject": "Reading",
+      "gradeLevel": "6",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.6.5"
+      ],
+      "primaryStandard": "RL.6.5",
+      "passage": "G6-L8: The Recipe Book",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "These details show the cookbook was actively used for 'decades,' making it more meaningful as evidence of the grandmother's cooking and love."
+    }
+  ]
+}

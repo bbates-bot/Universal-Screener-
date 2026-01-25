@@ -382,12 +382,62 @@ const UnifiedAnalyticsContent: React.FC<UnifiedAnalyticsPageProps> = ({
       })) || [],
     } : null;
 
-    // Build mock readiness data based on screener status
+    // Determine if student has AP or IGCSE assessments assigned
+    const hasAPAssessments = student.assignedAssessments?.some(a => a.type === 'AP Readiness') || false;
+    const hasIGCSEAssessments = student.assignedAssessments?.some(a => a.type === 'Edexcel IGCSE') || false;
+    const isEdexcelCurriculum = filters.curriculum === 'EDEXCEL_INTERNATIONAL';
+
+    // Determine course label based on student's actual assessments and grade
+    // For students without AP/IGCSE assessments, show grade-level performance
+    const getGradeLevelLabel = (grade: string) => {
+      if (hasAPAssessments && !isEdexcelCurriculum) {
+        return { course: 'AP Readiness', courseLabel: 'AP' };
+      }
+      if (hasIGCSEAssessments && isEdexcelCurriculum) {
+        return { course: 'IGCSE Readiness', courseLabel: 'IGCSE' };
+      }
+      // For grade-level screener students, show grade-level performance
+      return {
+        course: `Grade ${grade} Performance`,
+        courseLabel: `Grade ${grade}`
+      };
+    };
+
+    const { course: courseTitle, courseLabel: courseLevelLabel } = getGradeLevelLabel(student.grade);
+
+    // Build grade-level performance description based on screener status
+    const getPerformanceDescription = () => {
+      if (hasAPAssessments || hasIGCSEAssessments) {
+        return category === 'on-or-above'
+          ? 'Student has demonstrated mastery of prerequisite skills'
+          : category === 'below'
+          ? 'Student is close but needs support in some areas'
+          : 'Student needs significant support before starting';
+      }
+      // For grade-level students, describe their standing relative to their grade
+      switch (category) {
+        case 'on-or-above':
+          return `Student is performing at or above Grade ${student.grade} expectations`;
+        case 'below':
+          return `Student is approaching Grade ${student.grade} expectations and needs targeted support`;
+        case 'far-below':
+          return `Student is below Grade ${student.grade} expectations and needs intervention`;
+        default:
+          return 'Assessment data not available';
+      }
+    };
+
+    // Calculate performance score from screener results
+    const performanceScore = latestResult
+      ? Math.round((latestResult.percentile || ((latestResult as any).totalCorrect / (latestResult as any).totalQuestions * 100)))
+      : category === 'on-or-above' ? 85 : category === 'below' ? 65 : 45;
+
+    // Build readiness/performance data based on screener status
     const readinessData = readinessStatus ? {
-      course: filters.curriculum === 'EDEXCEL_INTERNATIONAL' ? 'IGCSE Mathematics' : 'AP Calculus',
-      courseLabel: filters.curriculum === 'EDEXCEL_INTERNATIONAL' ? 'IGCSE' : 'AP',
+      course: courseTitle,
+      courseLabel: courseLevelLabel,
       status: readinessStatus,
-      score: category === 'on-or-above' ? 85 : category === 'below' ? 65 : 45,
+      score: performanceScore,
       assessmentDate: latestResult?.testDate || new Date().toISOString(),
       prerequisitesMet: category === 'on-or-above' ? 8 : category === 'below' ? 6 : 3,
       prerequisitesTotal: 10,

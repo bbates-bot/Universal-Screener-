@@ -17,6 +17,7 @@ export const AP_COURSES = [
 export const ALL_SUBJECTS = [
   'Mathematics',
   'Reading',
+  'Reading Comprehension',
   'ELA',
   'AP Pre-Calculus',
   'AP Statistics',

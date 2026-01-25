@@ -1,0 +1,2731 @@
+{
+  "metadata": {
+    "subject": "Reading",
+    "gradeLevel": "9",
+    "domain": "RC",
+    "domainName": "Reading Comprehension",
+    "lastUpdated": "2026-01-25",
+    "totalQuestions": 100,
+    "description": "CCSS-aligned reading comprehension assessment with literary and informational texts",
+    "lexileRange": "1050L-1260L"
+  },
+  "questions": [
+    {
+      "id": "reading-9-rc-001",
+      "bankId": "reading-9-rc",
+      "text": "What central idea does the author develop throughout this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Industrial progress always benefits society",
+          "The pursuit of wealth can corrupt moral values",
+          "Technology solves all human problems",
+          "Social class determines character"
+        ],
+        "correctAnswer": "The pursuit of wealth can corrupt moral values"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.2"
+      ],
+      "primaryStandard": "RL.9-10.2",
+      "passage": "G9-L1: The Gilded Surface",
+      "passageText": "Marcus had always believed that wealth would bring him happiness, a conviction reinforced by the gleaming mansions that lined the avenues of his youth. Now, standing in his own marble foyer, he felt only the cold echo of his footsteps. His business dealings had made him rich beyond measure, yet each transaction had required a small compromise, a slight erosion of the principles his father had instilled. The servants who attended him wore masks of deference, but he caught their whispered judgments. His old friends from the factory floor no longer recognized him, and truthfully, he no longer recognized himself. The gilt-framed mirror in his study reflected a stranger in expensive clothes. He had climbed the ladder of success only to find it leaning against the wrong wall. The pursuit that had consumed his youth now revealed itself as a hollow victory, a gilded surface concealing emptiness beneath.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage traces Marcus's moral decline as he pursues wealth, showing how his compromises eroded his principles and left him feeling empty despite his material success."
+    },
+    {
+      "id": "reading-9-rc-002",
+      "bankId": "reading-9-rc",
+      "text": "How does the author use the mirror as a symbol in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To show Marcus's vanity",
+          "To represent his loss of identity",
+          "To demonstrate his wealth",
+          "To indicate the passage of time"
+        ],
+        "correctAnswer": "To represent his loss of identity"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.4"
+      ],
+      "primaryStandard": "RL.9-10.4",
+      "passage": "G9-L1: The Gilded Surface",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The mirror reflecting a stranger symbolizes Marcus's loss of identity and his inability to recognize who he has become."
+    },
+    {
+      "id": "reading-9-rc-003",
+      "bankId": "reading-9-rc",
+      "text": "What does the phrase 'climbed the ladder of success only to find it leaning against the wrong wall' suggest?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Marcus made poor business decisions",
+          "Marcus achieved goals that ultimately proved meaningless",
+          "Marcus was physically exhausted from his efforts",
+          "Marcus needed to find a new career"
+        ],
+        "correctAnswer": "Marcus achieved goals that ultimately proved meaningless"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.9-10.4"
+      ],
+      "primaryStandard": "RL.9-10.4",
+      "passage": "G9-L1: The Gilded Surface",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "This metaphor suggests that despite achieving his goals of wealth and success, Marcus realizes these were the wrong objectives to pursue."
+    },
+    {
+      "id": "reading-9-rc-004",
+      "bankId": "reading-9-rc",
+      "text": "How does the author develop the contrast between Marcus's external success and internal state?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Through dialogue with other characters",
+          "Through juxtaposing images of wealth with feelings of emptiness",
+          "Through flashbacks to his childhood",
+          "Through comparing him to other wealthy people"
+        ],
+        "correctAnswer": "Through juxtaposing images of wealth with feelings of emptiness"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.5"
+      ],
+      "primaryStandard": "RL.9-10.5",
+      "passage": "G9-L1: The Gilded Surface",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author pairs descriptions of material wealth (marble foyer, gilt-framed mirror) with emotional emptiness (cold echo, hollow victory)."
+    },
+    {
+      "id": "reading-9-rc-005",
+      "bankId": "reading-9-rc",
+      "text": "What inference can be made about Marcus's relationship with his father?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "His father was also wealthy",
+          "His father taught him strong moral values",
+          "His father disapproved of his career",
+          "His father worked in finance"
+        ],
+        "correctAnswer": "His father taught him strong moral values"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.1"
+      ],
+      "primaryStandard": "RL.9-10.1",
+      "passage": "G9-L1: The Gilded Surface",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text states each transaction required a slight erosion of the principles his father had instilled, implying his father taught him moral values."
+    },
+    {
+      "id": "reading-9-rc-006",
+      "bankId": "reading-9-rc",
+      "text": "What is the author's primary purpose in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To celebrate entrepreneurial success",
+          "To critique the American Dream's emphasis on material wealth",
+          "To describe nineteenth-century architecture",
+          "To explain business practices"
+        ],
+        "correctAnswer": "To critique the American Dream's emphasis on material wealth"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.9-10.6"
+      ],
+      "primaryStandard": "RL.9-10.6",
+      "passage": "G9-L1: The Gilded Surface",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage's title The Gilded Surface and its portrayal of hollow success critique the pursuit of wealth at the expense of integrity."
+    },
+    {
+      "id": "reading-9-rc-007",
+      "bankId": "reading-9-rc",
+      "text": "According to the passage, what is the primary cause of declining bee populations?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Climate change alone",
+          "A combination of pesticides, habitat loss, and disease",
+          "Competition from other insects",
+          "Lack of flowering plants"
+        ],
+        "correctAnswer": "A combination of pesticides, habitat loss, and disease"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.9-10.1"
+      ],
+      "primaryStandard": "RI.9-10.1",
+      "passage": "G9-I1: The Silent Crisis",
+      "passageText": "The decline of bee populations represents one of the most pressing environmental crises of our time, yet it unfolds largely unnoticed by the general public. Scientists have identified multiple contributing factors: neonicotinoid pesticides that disrupt neural pathways, habitat fragmentation that reduces foraging options, and parasitic mites that weaken colonies. These stressors rarely act in isolation; rather, they compound one another in devastating synergy. A bee weakened by pesticide exposure becomes more susceptible to disease, while a colony struggling with mite infestation cannot adequately respond to habitat changes. The implications extend far beyond honey production. Approximately seventy percent of the crops that feed the world depend on pollination, meaning bee decline threatens global food security. Agricultural economists estimate that pollinators contribute over two hundred billion dollars annually to the global economy. Without immediate intervention through pesticide regulation, habitat restoration, and disease management, we risk triggering a cascade of ecological and economic consequences that would prove catastrophic for human civilization.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explicitly states that scientists have identified multiple contributing factors including pesticides, habitat fragmentation, and parasitic mites."
+    },
+    {
+      "id": "reading-9-rc-008",
+      "bankId": "reading-9-rc",
+      "text": "What does the phrase 'compound one another in devastating synergy' mean in context?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The factors cancel each other out",
+          "The factors work together to create worse effects",
+          "The factors occur at the same time by coincidence",
+          "The factors can be easily separated"
+        ],
+        "correctAnswer": "The factors work together to create worse effects"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.4"
+      ],
+      "primaryStandard": "RI.9-10.4",
+      "passage": "G9-I1: The Silent Crisis",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The phrase indicates that multiple stressors combine to produce effects more severe than any single factor would cause alone."
+    },
+    {
+      "id": "reading-9-rc-009",
+      "bankId": "reading-9-rc",
+      "text": "How does the author develop the argument about the importance of bees?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By providing personal anecdotes",
+          "By citing statistics and economic data",
+          "By comparing bees to other insects",
+          "By describing bee behavior in detail"
+        ],
+        "correctAnswer": "By citing statistics and economic data"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.5"
+      ],
+      "primaryStandard": "RI.9-10.5",
+      "passage": "G9-I1: The Silent Crisis",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author uses statistics (seventy percent of crops, two hundred billion dollars) to demonstrate the economic and agricultural importance of bees."
+    },
+    {
+      "id": "reading-9-rc-010",
+      "bankId": "reading-9-rc",
+      "text": "What is the author's purpose in describing this as a 'silent crisis'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To suggest bees make no sound",
+          "To emphasize public unawareness of the problem",
+          "To indicate the crisis is not serious",
+          "To describe how bees communicate"
+        ],
+        "correctAnswer": "To emphasize public unawareness of the problem"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.6"
+      ],
+      "primaryStandard": "RI.9-10.6",
+      "passage": "G9-I1: The Silent Crisis",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The title and opening sentence emphasize that this crisis unfolds largely unnoticed by the general public, hence silent."
+    },
+    {
+      "id": "reading-9-rc-011",
+      "bankId": "reading-9-rc",
+      "text": "Which evidence best supports the claim that bee decline has economic implications?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Neonicotinoid pesticides disrupt neural pathways",
+          "Parasitic mites weaken colonies",
+          "Pollinators contribute over two hundred billion dollars annually",
+          "Habitat fragmentation reduces foraging options"
+        ],
+        "correctAnswer": "Pollinators contribute over two hundred billion dollars annually"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.8"
+      ],
+      "primaryStandard": "RI.9-10.8",
+      "passage": "G9-I1: The Silent Crisis",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The two hundred billion dollar figure directly supports the economic importance of pollinators."
+    },
+    {
+      "id": "reading-9-rc-012",
+      "bankId": "reading-9-rc",
+      "text": "What solutions does the author propose for addressing bee decline?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Breeding more bees",
+          "Pesticide regulation, habitat restoration, and disease management",
+          "Importing bees from other countries",
+          "Developing artificial pollinators"
+        ],
+        "correctAnswer": "Pesticide regulation, habitat restoration, and disease management"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.9-10.2"
+      ],
+      "primaryStandard": "RI.9-10.2",
+      "passage": "G9-I1: The Silent Crisis",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explicitly calls for pesticide regulation, habitat restoration, and disease management as necessary interventions."
+    },
+    {
+      "id": "reading-9-rc-013",
+      "bankId": "reading-9-rc",
+      "text": "What motivates the narrator's initial reluctance to speak at the town meeting?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Fear of public speaking",
+          "Uncertainty about the facts",
+          "Concern about social consequences",
+          "Lack of interest in the topic"
+        ],
+        "correctAnswer": "Concern about social consequences"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.3"
+      ],
+      "primaryStandard": "RL.9-10.3",
+      "passage": "G9-L2: The Weight of Words",
+      "passageText": "Elena sat in the back row of the town hall, her prepared statement folded in her pocket. The proposed factory would bring jobs to their struggling community, and the mayor had powerful friends who supported it. Everyone knew that speaking against the project meant risking social exile in a town where everyone knew everyone. Her neighbor Mrs. Patterson had lost her teaching position after questioning the school board's decisions. Yet Elena had seen the environmental impact reports that the mayor conveniently overlooked. The river that sustained their farms would become a dumping ground for industrial waste. She thought of her grandmother, who had taught her that silence in the face of wrong was itself a wrong. The microphone stood at the front of the room, waiting. Her heart pounded as she considered the cost of speaking and the greater cost of remaining silent. Finally, she rose from her seat, her legs trembling but her resolve firm. Some truths demanded to be spoken, regardless of the personal price.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage emphasizes Elena's fear of social exile and mentions Mrs. Patterson losing her job for speaking out, showing concern about social consequences."
+    },
+    {
+      "id": "reading-9-rc-014",
+      "bankId": "reading-9-rc",
+      "text": "How does the author use Mrs. Patterson's story within the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "As comic relief",
+          "As an example of the risks of speaking out",
+          "As the main conflict of the story",
+          "As a happy ending"
+        ],
+        "correctAnswer": "As an example of the risks of speaking out"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.5"
+      ],
+      "primaryStandard": "RL.9-10.5",
+      "passage": "G9-L2: The Weight of Words",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Mrs. Patterson's story serves as a concrete example of the consequences Elena fears, showing that speaking out can result in losing one's job."
+    },
+    {
+      "id": "reading-9-rc-015",
+      "bankId": "reading-9-rc",
+      "text": "What does the grandmother's teaching reveal about Elena's values?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She values tradition above all",
+          "She believes moral courage requires action",
+          "She prioritizes family loyalty",
+          "She avoids conflict whenever possible"
+        ],
+        "correctAnswer": "She believes moral courage requires action"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.3"
+      ],
+      "primaryStandard": "RL.9-10.3",
+      "passage": "G9-L2: The Weight of Words",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The grandmother taught that silence in the face of wrong was itself a wrong, indicating that moral principles require active expression."
+    },
+    {
+      "id": "reading-9-rc-016",
+      "bankId": "reading-9-rc",
+      "text": "How does the author create tension in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Through fast-paced action",
+          "Through internal conflict between fear and moral duty",
+          "Through dialogue between characters",
+          "Through describing violent events"
+        ],
+        "correctAnswer": "Through internal conflict between fear and moral duty"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.5"
+      ],
+      "primaryStandard": "RL.9-10.5",
+      "passage": "G9-L2: The Weight of Words",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The tension comes from Elena weighing the cost of speaking and the greater cost of remaining silent - her internal moral struggle."
+    },
+    {
+      "id": "reading-9-rc-017",
+      "bankId": "reading-9-rc",
+      "text": "What does the image of 'legs trembling but her resolve firm' convey about Elena?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She is physically weak",
+          "She is brave despite her fear",
+          "She is uncertain about her decision",
+          "She is angry at the mayor"
+        ],
+        "correctAnswer": "She is brave despite her fear"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.4"
+      ],
+      "primaryStandard": "RL.9-10.4",
+      "passage": "G9-L2: The Weight of Words",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The contrast between physical trembling and firm resolve shows courage is not the absence of fear but action despite it."
+    },
+    {
+      "id": "reading-9-rc-018",
+      "bankId": "reading-9-rc",
+      "text": "What theme does this passage explore?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The importance of economic development",
+          "The courage required for moral action",
+          "The power of local government",
+          "The beauty of small-town life"
+        ],
+        "correctAnswer": "The courage required for moral action"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.2"
+      ],
+      "primaryStandard": "RL.9-10.2",
+      "passage": "G9-L2: The Weight of Words",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage centers on Elena's struggle to speak truth despite personal risk, exploring the theme of moral courage."
+    },
+    {
+      "id": "reading-9-rc-019",
+      "bankId": "reading-9-rc",
+      "text": "According to the passage, what was the primary purpose of the Declaration of Independence?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To establish a new government",
+          "To justify separation from Britain and articulate natural rights",
+          "To declare war on Britain",
+          "To create a constitution"
+        ],
+        "correctAnswer": "To justify separation from Britain and articulate natural rights"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.2"
+      ],
+      "primaryStandard": "RI.9-10.2",
+      "passage": "G9-I2: The Rhetoric of Revolution",
+      "passageText": "The Declaration of Independence stands as one of history's most influential documents, not merely for its political impact but for its masterful use of rhetoric. Thomas Jefferson, its principal author, understood that the colonists needed more than a list of grievances; they needed a philosophical justification for revolution. By grounding the argument in natural rights theory, asserting that all men are created equal and endowed with unalienable rights, Jefferson transformed a colonial dispute into a universal statement about human dignity. The document's structure reveals careful rhetorical strategy: it opens with abstract principles, establishes the conditions under which revolution becomes justified, presents specific evidence of British tyranny, and concludes with a formal declaration of independence. Each element builds upon the previous, creating an argument that is both logically compelling and emotionally resonant. The phrase 'life, liberty, and the pursuit of happiness' has echoed through subsequent movements for civil rights, women's suffrage, and human rights worldwide, demonstrating how effectively crafted language can shape history for centuries.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states Jefferson understood colonists needed a philosophical justification for revolution based on natural rights."
+    },
+    {
+      "id": "reading-9-rc-020",
+      "bankId": "reading-9-rc",
+      "text": "How does the author describe the structure of the Declaration?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Random and disorganized",
+          "Deliberately organized to build a compelling argument",
+          "Focused only on grievances",
+          "Written as a personal letter"
+        ],
+        "correctAnswer": "Deliberately organized to build a compelling argument"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.5"
+      ],
+      "primaryStandard": "RI.9-10.5",
+      "passage": "G9-I2: The Rhetoric of Revolution",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage describes the Declaration's careful rhetorical strategy with elements that build upon each other."
+    },
+    {
+      "id": "reading-9-rc-021",
+      "bankId": "reading-9-rc",
+      "text": "What does the author mean by calling the Declaration's argument 'logically compelling and emotionally resonant'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It appeals to both reason and feelings",
+          "It is difficult to understand",
+          "It focuses only on facts",
+          "It was written quickly"
+        ],
+        "correctAnswer": "It appeals to both reason and feelings"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.4"
+      ],
+      "primaryStandard": "RI.9-10.4",
+      "passage": "G9-I2: The Rhetoric of Revolution",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The phrase indicates the document succeeds through both logical reasoning and emotional appeal."
+    },
+    {
+      "id": "reading-9-rc-022",
+      "bankId": "reading-9-rc",
+      "text": "How does the author support the claim that the Declaration influenced later movements?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By quoting historians",
+          "By citing civil rights, women's suffrage, and human rights movements",
+          "By comparing it to other documents",
+          "By interviewing activists"
+        ],
+        "correctAnswer": "By citing civil rights, women's suffrage, and human rights movements"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.8"
+      ],
+      "primaryStandard": "RI.9-10.8",
+      "passage": "G9-I2: The Rhetoric of Revolution",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author specifically mentions civil rights, women's suffrage, and human rights movements as examples of the Declaration's influence."
+    },
+    {
+      "id": "reading-9-rc-023",
+      "bankId": "reading-9-rc",
+      "text": "What is the author's central claim about the Declaration?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It was poorly written",
+          "Its rhetorical craft contributed to its lasting influence",
+          "It should have been longer",
+          "It was only important in America"
+        ],
+        "correctAnswer": "Its rhetorical craft contributed to its lasting influence"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.2"
+      ],
+      "primaryStandard": "RI.9-10.2",
+      "passage": "G9-I2: The Rhetoric of Revolution",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage argues the Declaration is influential not merely for its political impact but for its masterful use of rhetoric."
+    },
+    {
+      "id": "reading-9-rc-024",
+      "bankId": "reading-9-rc",
+      "text": "What point of view does the author take toward the Declaration?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Critical and dismissive",
+          "Admiring of its rhetorical effectiveness",
+          "Neutral and uninterested",
+          "Confused about its meaning"
+        ],
+        "correctAnswer": "Admiring of its rhetorical effectiveness"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.6"
+      ],
+      "primaryStandard": "RI.9-10.6",
+      "passage": "G9-I2: The Rhetoric of Revolution",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author uses positive language like masterful, careful rhetorical strategy, and effectively crafted to show admiration."
+    },
+    {
+      "id": "reading-9-rc-025",
+      "bankId": "reading-9-rc",
+      "text": "What does the recurring image of the lighthouse represent in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Danger and warning",
+          "Hope and guidance through difficulty",
+          "Isolation and loneliness",
+          "Wealth and prosperity"
+        ],
+        "correctAnswer": "Hope and guidance through difficulty"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.4"
+      ],
+      "primaryStandard": "RL.9-10.4",
+      "passage": "G9-L3: Harbor Light",
+      "passageText": "Amara pressed her forehead against the cold window, watching the lighthouse beam sweep across the turbulent waters. Her mother had been a lighthouse keeper before the automation, one of the last to maintain the old ways. Now machines did the work, but the light remained constant, indifferent to who or what controlled it. Amara thought about her own uncertain future, the college rejections piling up on her desk, the disappointed look in her father's eyes. The beam swung around again, illuminating whitecaps that rose and fell in endless rhythm. Her mother used to say that the light never promised calm seas, only that sailors would not face the darkness alone. Perhaps that was enough. Perhaps certainty was too much to ask for in a world that offered only the next rotation of the beam, the next breath, the next small act of persistence. She watched the light complete another circuit, then another, finding in its steady revolution something like courage.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The lighthouse provides light in darkness and guidance for sailors, symbolizing hope and direction during difficult times."
+    },
+    {
+      "id": "reading-9-rc-026",
+      "bankId": "reading-9-rc",
+      "text": "How does the author connect Amara's personal struggles to the larger imagery?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Through direct comparison between her life and the sea",
+          "By ignoring her personal situation",
+          "Through unrelated tangents",
+          "By focusing only on the lighthouse mechanics"
+        ],
+        "correctAnswer": "Through direct comparison between her life and the sea"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.5"
+      ],
+      "primaryStandard": "RL.9-10.5",
+      "passage": "G9-L3: Harbor Light",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The turbulent waters parallel Amara's uncertain future; the lighthouse's guidance parallels the hope she seeks."
+    },
+    {
+      "id": "reading-9-rc-027",
+      "bankId": "reading-9-rc",
+      "text": "What is the significance of the mother's saying about the light?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It promises safety from all danger",
+          "It offers companionship rather than solutions",
+          "It suggests avoiding the sea entirely",
+          "It criticizes modern technology"
+        ],
+        "correctAnswer": "It offers companionship rather than solutions"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.9-10.2"
+      ],
+      "primaryStandard": "RL.9-10.2",
+      "passage": "G9-L3: Harbor Light",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The mother said the light never promised calm seas, only that sailors would not face the darkness alone - offering presence, not solutions."
+    },
+    {
+      "id": "reading-9-rc-028",
+      "bankId": "reading-9-rc",
+      "text": "How does the passage develop the theme of finding meaning in uncertainty?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By showing Amara achieving her goals",
+          "By showing Amara accepting small acts of persistence as meaningful",
+          "By having Amara give up entirely",
+          "By introducing a resolution to her problems"
+        ],
+        "correctAnswer": "By showing Amara accepting small acts of persistence as meaningful"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.9-10.2"
+      ],
+      "primaryStandard": "RL.9-10.2",
+      "passage": "G9-L3: Harbor Light",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Amara concludes that the next rotation of the beam, the next breath, the next small act of persistence might be enough."
+    },
+    {
+      "id": "reading-9-rc-029",
+      "bankId": "reading-9-rc",
+      "text": "What inference can be made about Amara's relationship with her father?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "They are very close and supportive",
+          "There is tension due to unmet expectations",
+          "He is unaware of her college applications",
+          "They never communicate"
+        ],
+        "correctAnswer": "There is tension due to unmet expectations"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.1"
+      ],
+      "primaryStandard": "RL.9-10.1",
+      "passage": "G9-L3: Harbor Light",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The disappointed look in her father's eyes suggests tension related to Amara's college rejections."
+    },
+    {
+      "id": "reading-9-rc-030",
+      "bankId": "reading-9-rc",
+      "text": "What does 'finding in its steady revolution something like courage' suggest about Amara?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She has given up hope",
+          "The lighthouse's consistency inspires her to persist",
+          "She wants to become a lighthouse keeper",
+          "She is planning to leave home"
+        ],
+        "correctAnswer": "The lighthouse's consistency inspires her to persist"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.4"
+      ],
+      "primaryStandard": "RL.9-10.4",
+      "passage": "G9-L3: Harbor Light",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The lighthouse's reliable, continuous rotation becomes a source of courage for Amara in her uncertainty."
+    },
+    {
+      "id": "reading-9-rc-031",
+      "bankId": "reading-9-rc",
+      "text": "According to the passage, what distinguishes artificial intelligence from human intelligence?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Speed of calculation",
+          "Capacity for genuine understanding and consciousness",
+          "Ability to store information",
+          "Physical appearance"
+        ],
+        "correctAnswer": "Capacity for genuine understanding and consciousness"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.1"
+      ],
+      "primaryStandard": "RI.9-10.1",
+      "passage": "G9-I3: Minds and Machines",
+      "passageText": "The rapid advancement of artificial intelligence has reignited philosophical debates about the nature of consciousness and what it means to truly understand. Current AI systems can generate human-like text, create art, and solve complex problems, yet researchers remain divided on whether these capabilities constitute genuine intelligence or sophisticated pattern matching. The distinction matters profoundly: if machines can truly think, they may deserve moral consideration; if they merely simulate thinking, they remain tools however impressive. Philosopher John Searle's Chinese Room argument suggests that processing symbols according to rules differs fundamentally from understanding meaning. A person following instructions to manipulate Chinese characters might produce correct responses without comprehending Chinese. Critics counter that understanding might emerge from complex systems even when absent from individual components. The debate extends beyond academia into practical concerns about autonomous vehicles, medical diagnosis, and criminal justice algorithms. As these systems increasingly influence human lives, determining whether they possess anything resembling judgment or merely execute programming becomes an urgent ethical and legal question.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage focuses on whether AI has genuine intelligence and understanding meaning versus sophisticated pattern matching."
+    },
+    {
+      "id": "reading-9-rc-032",
+      "bankId": "reading-9-rc",
+      "text": "What is the purpose of the Chinese Room argument as presented in the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To prove AI is conscious",
+          "To argue that symbol manipulation differs from understanding",
+          "To teach Chinese language",
+          "To promote AI development"
+        ],
+        "correctAnswer": "To argue that symbol manipulation differs from understanding"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.9-10.3"
+      ],
+      "primaryStandard": "RI.9-10.3",
+      "passage": "G9-I3: Minds and Machines",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Searle's argument suggests processing symbols according to rules differs fundamentally from understanding meaning."
+    },
+    {
+      "id": "reading-9-rc-033",
+      "bankId": "reading-9-rc",
+      "text": "How does the author present the debate about AI consciousness?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By taking a strong position on one side",
+          "By presenting multiple perspectives without resolving the question",
+          "By dismissing all viewpoints",
+          "By focusing only on technical details"
+        ],
+        "correctAnswer": "By presenting multiple perspectives without resolving the question"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.6"
+      ],
+      "primaryStandard": "RI.9-10.6",
+      "passage": "G9-I3: Minds and Machines",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author presents Searle's argument and critics counter, showing multiple perspectives without declaring a winner."
+    },
+    {
+      "id": "reading-9-rc-034",
+      "bankId": "reading-9-rc",
+      "text": "Why does the author mention autonomous vehicles, medical diagnosis, and criminal justice?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To demonstrate the debate's practical importance",
+          "To argue against AI use",
+          "To explain how AI works",
+          "To discuss career opportunities"
+        ],
+        "correctAnswer": "To demonstrate the debate's practical importance"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.5"
+      ],
+      "primaryStandard": "RI.9-10.5",
+      "passage": "G9-I3: Minds and Machines",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "These examples show how the philosophical debate extends beyond academia into practical concerns affecting human lives."
+    },
+    {
+      "id": "reading-9-rc-035",
+      "bankId": "reading-9-rc",
+      "text": "What does the phrase 'urgent ethical and legal question' suggest about the author's view?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The debate is unimportant",
+          "The debate requires immediate attention and resolution",
+          "The debate is purely theoretical",
+          "The debate has already been resolved"
+        ],
+        "correctAnswer": "The debate requires immediate attention and resolution"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.4"
+      ],
+      "primaryStandard": "RI.9-10.4",
+      "passage": "G9-I3: Minds and Machines",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The word urgent indicates the author believes this question needs prompt attention as AI increasingly affects human lives."
+    },
+    {
+      "id": "reading-9-rc-036",
+      "bankId": "reading-9-rc",
+      "text": "Which statement best summarizes the critics' counterargument to Searle?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The Chinese Room argument is flawless",
+          "Understanding might emerge from complex systems",
+          "AI will never be conscious",
+          "Symbol manipulation is the same as understanding"
+        ],
+        "correctAnswer": "Understanding might emerge from complex systems"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.2"
+      ],
+      "primaryStandard": "RI.9-10.2",
+      "passage": "G9-I3: Minds and Machines",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Critics argue that understanding might emerge from complex systems even when absent from individual components."
+    },
+    {
+      "id": "reading-9-rc-037",
+      "bankId": "reading-9-rc",
+      "text": "What motivates the protagonist's decision to return to her hometown?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "A job opportunity",
+          "Her grandmother's illness",
+          "Boredom with city life",
+          "A romantic relationship"
+        ],
+        "correctAnswer": "Her grandmother's illness"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RL.9-10.1"
+      ],
+      "primaryStandard": "RL.9-10.1",
+      "passage": "G9-L4: The Road Back",
+      "passageText": "The highway stretched before Kenji like an accusation, each mile marker reminding her of the years she had stayed away. Her grandmother's illness had finally done what guilt and obligation could not: it had forced her home. She had built a careful life in the city, one that required no explanation of where she came from or why she left. But the messages had grown urgent, and even her practiced indifference could not withstand the image of her grandmother asking for her by name. The landscape grew familiar, then painful. She passed the school where she had first discovered she was different, the diner where she had worked summer jobs, the cemetery where her parents lay. Each landmark demanded something from her that she was not sure she possessed. She had thought that distance would diminish the past, but she understood now that she had only been postponing the reckoning. The town limits sign appeared around a bend, faded but still legible, welcoming her to a place that felt less like home than like unfinished business.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states Her grandmother's illness had finally done what guilt and obligation could not: it had forced her home."
+    },
+    {
+      "id": "reading-9-rc-038",
+      "bankId": "reading-9-rc",
+      "text": "What does the phrase 'the highway stretched before Kenji like an accusation' reveal about her emotional state?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She is excited to return",
+          "She feels guilty about staying away",
+          "She is tired from driving",
+          "She dislikes highways"
+        ],
+        "correctAnswer": "She feels guilty about staying away"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.4"
+      ],
+      "primaryStandard": "RL.9-10.4",
+      "passage": "G9-L4: The Road Back",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Describing the highway as an accusation suggests Kenji feels judged for staying away so long."
+    },
+    {
+      "id": "reading-9-rc-039",
+      "bankId": "reading-9-rc",
+      "text": "How does the author use the physical journey to reflect the internal journey?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By describing weather conditions",
+          "By connecting landmarks to emotional memories and unresolved feelings",
+          "By focusing on driving techniques",
+          "By comparing different vehicles"
+        ],
+        "correctAnswer": "By connecting landmarks to emotional memories and unresolved feelings"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.9-10.5"
+      ],
+      "primaryStandard": "RL.9-10.5",
+      "passage": "G9-L4: The Road Back",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Each location (school, diner, cemetery) connects to painful memories, mirroring her internal emotional journey."
+    },
+    {
+      "id": "reading-9-rc-040",
+      "bankId": "reading-9-rc",
+      "text": "What does the phrase 'postponing the reckoning' suggest about Kenji's past?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She handled her past successfully",
+          "She avoided confronting unresolved issues",
+          "She has no connection to her hometown",
+          "She planned to return sooner"
+        ],
+        "correctAnswer": "She avoided confronting unresolved issues"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.4"
+      ],
+      "primaryStandard": "RL.9-10.4",
+      "passage": "G9-L4: The Road Back",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "A reckoning implies facing consequences or truths; postponing it means she delayed dealing with her past."
+    },
+    {
+      "id": "reading-9-rc-041",
+      "bankId": "reading-9-rc",
+      "text": "What theme does the passage develop through Kenji's return?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The impossibility of going home again",
+          "The necessity of confronting one's past",
+          "The advantages of city life",
+          "The importance of career success"
+        ],
+        "correctAnswer": "The necessity of confronting one's past"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.2"
+      ],
+      "primaryStandard": "RL.9-10.2",
+      "passage": "G9-L4: The Road Back",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage shows Kenji must finally face what she avoided, suggesting the past must eventually be confronted."
+    },
+    {
+      "id": "reading-9-rc-042",
+      "bankId": "reading-9-rc",
+      "text": "What does describing the town as 'unfinished business' reveal about Kenji's perspective?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She has financial debts there",
+          "She has unresolved emotional issues connected to the place",
+          "She owns property there",
+          "She wants to start a business"
+        ],
+        "correctAnswer": "She has unresolved emotional issues connected to the place"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.3"
+      ],
+      "primaryStandard": "RL.9-10.3",
+      "passage": "G9-L4: The Road Back",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Calling the town unfinished business suggests she left without resolving important emotional matters."
+    },
+    {
+      "id": "reading-9-rc-043",
+      "bankId": "reading-9-rc",
+      "text": "What is the author's main argument about social media's effect on democracy?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Social media only benefits democracy",
+          "Social media has both democratizing potential and dangerous tendencies",
+          "Social media should be banned",
+          "Social media has no political impact"
+        ],
+        "correctAnswer": "Social media has both democratizing potential and dangerous tendencies"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.2"
+      ],
+      "primaryStandard": "RI.9-10.2",
+      "passage": "G9-I4: The Digital Public Square",
+      "passageText": "Social media platforms have fundamentally transformed how citizens engage with political discourse, creating both unprecedented opportunities for democratic participation and alarming new threats to informed debate. On one hand, these platforms have democratized access to information, allowing marginalized voices to reach audiences previously gatekept by traditional media. Movements for social justice have organized and amplified their messages through hashtags and viral content. On the other hand, the same algorithms that connect like-minded individuals also create echo chambers that reinforce existing beliefs and shield users from contrary evidence. The business model of engagement-driven advertising incentivizes outrage and sensationalism over nuanced discussion. Misinformation spreads faster than corrections, and foreign actors have exploited these vulnerabilities to interfere in elections. The challenge facing democratic societies is not whether to embrace or reject these technologies but how to harness their democratizing potential while mitigating their capacity for manipulation. This requires media literacy education, platform accountability, and renewed commitment to the norms of civil discourse that democracy requires.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage presents both positive aspects (democratized access, social movements) and negatives (echo chambers, misinformation)."
+    },
+    {
+      "id": "reading-9-rc-044",
+      "bankId": "reading-9-rc",
+      "text": "How does the author structure the argument about social media?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By presenting only benefits",
+          "By presenting only drawbacks",
+          "By balancing benefits and drawbacks before proposing solutions",
+          "By avoiding any conclusions"
+        ],
+        "correctAnswer": "By balancing benefits and drawbacks before proposing solutions"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.5"
+      ],
+      "primaryStandard": "RI.9-10.5",
+      "passage": "G9-I4: The Digital Public Square",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author uses on one hand and on the other hand before concluding with proposed solutions."
+    },
+    {
+      "id": "reading-9-rc-045",
+      "bankId": "reading-9-rc",
+      "text": "What does the term 'echo chambers' mean in this context?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Rooms with good acoustics",
+          "Environments where people only hear views that reinforce their own",
+          "Social media platforms",
+          "News organizations"
+        ],
+        "correctAnswer": "Environments where people only hear views that reinforce their own"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.4"
+      ],
+      "primaryStandard": "RI.9-10.4",
+      "passage": "G9-I4: The Digital Public Square",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explains echo chambers reinforce existing beliefs and shield users from contrary evidence."
+    },
+    {
+      "id": "reading-9-rc-046",
+      "bankId": "reading-9-rc",
+      "text": "What solutions does the author propose for social media's negative effects?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Banning all social media",
+          "Media literacy education, platform accountability, and civil discourse norms",
+          "Increasing advertising",
+          "Removing all content moderation"
+        ],
+        "correctAnswer": "Media literacy education, platform accountability, and civil discourse norms"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.9-10.1"
+      ],
+      "primaryStandard": "RI.9-10.1",
+      "passage": "G9-I4: The Digital Public Square",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explicitly proposes media literacy education, platform accountability, and renewed commitment to civil discourse."
+    },
+    {
+      "id": "reading-9-rc-047",
+      "bankId": "reading-9-rc",
+      "text": "How does the author use the phrase 'digital public square' in the title?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Literally, to describe a physical space",
+          "Metaphorically, to compare social media to traditional forums for public debate",
+          "Ironically, to mock social media",
+          "Technically, to describe computer architecture"
+        ],
+        "correctAnswer": "Metaphorically, to compare social media to traditional forums for public debate"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.4"
+      ],
+      "primaryStandard": "RI.9-10.4",
+      "passage": "G9-I4: The Digital Public Square",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The public square metaphor connects social media to traditional spaces where citizens gathered for democratic discourse."
+    },
+    {
+      "id": "reading-9-rc-048",
+      "bankId": "reading-9-rc",
+      "text": "Is the claim that 'misinformation spreads faster than corrections' sufficiently supported in the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Yes, with detailed statistics",
+          "No, it is stated without supporting evidence",
+          "Yes, with multiple examples",
+          "The claim is never made"
+        ],
+        "correctAnswer": "No, it is stated without supporting evidence"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Integration of Knowledge",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.9-10.8"
+      ],
+      "primaryStandard": "RI.9-10.8",
+      "passage": "G9-I4: The Digital Public Square",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "While the claim is made, the passage provides no data or specific examples to support it."
+    },
+    {
+      "id": "reading-9-rc-049",
+      "bankId": "reading-9-rc",
+      "text": "How does the setting contribute to the mood of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The bright sunshine creates optimism",
+          "The abandoned factory creates a sense of loss and decay",
+          "The busy streets create excitement",
+          "The peaceful garden creates tranquility"
+        ],
+        "correctAnswer": "The abandoned factory creates a sense of loss and decay"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.4"
+      ],
+      "primaryStandard": "RL.9-10.4",
+      "passage": "G9-L5: Rust and Memory",
+      "passageText": "The factory had been closed for fifteen years, but its skeleton still dominated the riverfront. Dante walked through the gap in the chain-link fence where generations of trespassers had worn a path. His grandfather had worked here for forty years, had brought home the smell of machine oil in his clothes, had coughed his lungs out from the particulates that management swore were harmless. The cavernous interior echoed with absence. Rusted machinery stood like monuments to an industrial age that had promised prosperity and delivered pink slips. Pigeons nested in the broken windows, and weeds pushed through cracks in the concrete floor. Dante photographed everything, determined to preserve what remained before developers converted the site into luxury condominiums that no one in this neighborhood could afford. His grandfather's generation had built these machines with their hands, had sacrificed their health for wages that barely covered rent. Now their labor would be erased, replaced by amenities for strangers. He captured one final image of the supervisor's office, where decisions that shaped hundreds of lives had been made without consulting those lives.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The abandoned, rusted factory with broken windows and weeds creates a mood of decay, loss, and abandonment."
+    },
+    {
+      "id": "reading-9-rc-050",
+      "bankId": "reading-9-rc",
+      "text": "What theme does the passage develop through Dante's photography?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The importance of artistic expression",
+          "The need to preserve working-class history before it disappears",
+          "The beauty of industrial architecture",
+          "The benefits of urban development"
+        ],
+        "correctAnswer": "The need to preserve working-class history before it disappears"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.2"
+      ],
+      "primaryStandard": "RL.9-10.2",
+      "passage": "G9-L5: Rust and Memory",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Dante photographs determined to preserve what remained of working-class history before development erases it."
+    },
+    {
+      "id": "reading-9-rc-051",
+      "bankId": "reading-9-rc",
+      "text": "What is the significance of the grandfather's cough in the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It shows he was a smoker",
+          "It represents the physical cost workers paid for industrial jobs",
+          "It indicates the factory was well-ventilated",
+          "It demonstrates good healthcare"
+        ],
+        "correctAnswer": "It represents the physical cost workers paid for industrial jobs"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.1"
+      ],
+      "primaryStandard": "RL.9-10.1",
+      "passage": "G9-L5: Rust and Memory",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The grandfather coughed his lungs out from the particulates that management swore were harmless, showing workers' health sacrifices."
+    },
+    {
+      "id": "reading-9-rc-052",
+      "bankId": "reading-9-rc",
+      "text": "How does the author contrast the past and future of the factory site?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By showing both as equally positive",
+          "By contrasting workers' sacrifices with luxury condominiums for outsiders",
+          "By ignoring the past entirely",
+          "By celebrating the development"
+        ],
+        "correctAnswer": "By contrasting workers' sacrifices with luxury condominiums for outsiders"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.5"
+      ],
+      "primaryStandard": "RL.9-10.5",
+      "passage": "G9-L5: Rust and Memory",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage contrasts workers who sacrificed their health with luxury condominiums that no one in this neighborhood could afford."
+    },
+    {
+      "id": "reading-9-rc-053",
+      "bankId": "reading-9-rc",
+      "text": "What does 'rusted machinery stood like monuments' suggest?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The machines are still functional",
+          "The machines serve as memorials to a bygone era",
+          "The machines are being preserved",
+          "The machines were poorly made"
+        ],
+        "correctAnswer": "The machines serve as memorials to a bygone era"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.4"
+      ],
+      "primaryStandard": "RL.9-10.4",
+      "passage": "G9-L5: Rust and Memory",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Comparing machinery to monuments suggests they stand as memorials to the industrial past."
+    },
+    {
+      "id": "reading-9-rc-054",
+      "bankId": "reading-9-rc",
+      "text": "What critique does the passage make about power and decision-making?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Workers had too much power",
+          "Decisions affecting workers were made without their input",
+          "Management was always fair",
+          "Workers were consulted on all decisions"
+        ],
+        "correctAnswer": "Decisions affecting workers were made without their input"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.9-10.3"
+      ],
+      "primaryStandard": "RL.9-10.3",
+      "passage": "G9-L5: Rust and Memory",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The final sentence notes decisions that shaped hundreds of lives had been made without consulting those lives."
+    },
+    {
+      "id": "reading-9-rc-055",
+      "bankId": "reading-9-rc",
+      "text": "According to the passage, what was Lincoln's primary rhetorical strategy in the Gettysburg Address?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Attacking his political opponents",
+          "Redefining the Civil War as a test of democratic principles",
+          "Describing battle tactics",
+          "Listing the names of fallen soldiers"
+        ],
+        "correctAnswer": "Redefining the Civil War as a test of democratic principles"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.2"
+      ],
+      "primaryStandard": "RI.9-10.2",
+      "passage": "G9-I5: Lincoln's Rhetorical Genius",
+      "passageText": "Abraham Lincoln's Gettysburg Address, delivered in just over two minutes, achieved what longer orations could not: it redefined the meaning of the Civil War and articulated a vision of America that continues to shape national identity. Lincoln's genius lay in his ability to transform a dedication ceremony into a philosophical argument about democracy itself. By beginning with 'Four score and seven years ago,' he connected the war to the Declaration of Independence rather than the Constitution, emphasizing equality over union. This choice was deliberate and consequential, reframing the conflict not merely as a rebellion to be suppressed but as a test of whether democratic government could survive. The speech's brevity was itself rhetorical strategy; Lincoln understood that economy of language could convey gravity that verbosity diluted. His parallel structures and biblical cadences gave the address the quality of scripture, elevating political speech to something approaching the sacred. The final call to ensure 'that government of the people, by the people, for the people, shall not perish from the earth' has echoed through subsequent generations, demonstrating how precisely crafted language can shape a nation's understanding of itself.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states Lincoln redefined the meaning of the Civil War as a test of whether democratic government could survive."
+    },
+    {
+      "id": "reading-9-rc-056",
+      "bankId": "reading-9-rc",
+      "text": "Why does the author consider Lincoln's reference to 'four score and seven years ago' significant?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It showed Lincoln's mathematical ability",
+          "It connected the war to the Declaration of Independence and equality",
+          "It was a common phrase at the time",
+          "It referred to the Constitution"
+        ],
+        "correctAnswer": "It connected the war to the Declaration of Independence and equality"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.3"
+      ],
+      "primaryStandard": "RI.9-10.3",
+      "passage": "G9-I5: Lincoln's Rhetorical Genius",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explains this connected the war to the Declaration of Independence rather than the Constitution, emphasizing equality over union."
+    },
+    {
+      "id": "reading-9-rc-057",
+      "bankId": "reading-9-rc",
+      "text": "What does the author mean by saying the speech had 'the quality of scripture'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It was about religion",
+          "Its language had a sacred, timeless quality",
+          "It quoted the Bible directly",
+          "It was written by religious leaders"
+        ],
+        "correctAnswer": "Its language had a sacred, timeless quality"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.4"
+      ],
+      "primaryStandard": "RI.9-10.4",
+      "passage": "G9-I5: Lincoln's Rhetorical Genius",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The comparison to scripture suggests the speech's language was elevated and timeless, approaching the sacred."
+    },
+    {
+      "id": "reading-9-rc-058",
+      "bankId": "reading-9-rc",
+      "text": "How does the author support the claim that the speech was rhetorically effective?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By citing audience reactions",
+          "By analyzing specific rhetorical techniques and their effects",
+          "By comparing it to other speeches",
+          "By interviewing historians"
+        ],
+        "correctAnswer": "By analyzing specific rhetorical techniques and their effects"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.8"
+      ],
+      "primaryStandard": "RI.9-10.8",
+      "passage": "G9-I5: Lincoln's Rhetorical Genius",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author analyzes techniques like brevity, parallel structures, biblical cadences, and word choices."
+    },
+    {
+      "id": "reading-9-rc-059",
+      "bankId": "reading-9-rc",
+      "text": "What is the author's central claim about the Gettysburg Address?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It was too short to be effective",
+          "Its crafted language shaped national identity",
+          "It should have been longer",
+          "It was forgotten after the war"
+        ],
+        "correctAnswer": "Its crafted language shaped national identity"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.2"
+      ],
+      "primaryStandard": "RI.9-10.2",
+      "passage": "G9-I5: Lincoln's Rhetorical Genius",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage argues the address articulated a vision of America that continues to shape national identity."
+    },
+    {
+      "id": "reading-9-rc-060",
+      "bankId": "reading-9-rc",
+      "text": "Why does the author describe brevity as a 'rhetorical strategy'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Lincoln ran out of time",
+          "Shorter speeches were required",
+          "Economy of language conveyed gravity that verbosity would dilute",
+          "The audience demanded short speeches"
+        ],
+        "correctAnswer": "Economy of language conveyed gravity that verbosity would dilute"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.5"
+      ],
+      "primaryStandard": "RI.9-10.5",
+      "passage": "G9-I5: Lincoln's Rhetorical Genius",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states economy of language could convey gravity that verbosity diluted."
+    },
+    {
+      "id": "reading-9-rc-061",
+      "bankId": "reading-9-rc",
+      "text": "What is the central conflict in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "A physical battle between characters",
+          "An internal struggle between ambition and artistic integrity",
+          "A legal dispute over property",
+          "A romantic rivalry"
+        ],
+        "correctAnswer": "An internal struggle between ambition and artistic integrity"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.2"
+      ],
+      "primaryStandard": "RL.9-10.2",
+      "passage": "G9-L6: The Compromise",
+      "passageText": "The studio executives smiled across the conference table, their offer gleaming like fool's gold. Maya had spent seven years developing her screenplay, drawing from her grandmother's immigration story, filling it with details only someone who had lived that experience could know. Now these men wanted to buy it, but with conditions. They needed a happier ending, they explained. Audiences wanted hope, not the ambiguous conclusion Maya had written. They suggested changing the grandmother character to someone younger, more marketable. They offered a number that would change Maya's life, pay off her student loans, fund her next project without compromise. She thought of her grandmother, who had cleaned hotel rooms so Maya could attend film school, who had said that their stories mattered and deserved to be told truthfully. The executives waited for her answer, already confident. Every struggling artist eventually accepted. Maya felt the weight of the decision pressing against her chest. She could take the money and watch her vision transformed into something unrecognizable, or she could walk away and perhaps never get another chance like this.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Maya faces an internal conflict between accepting money that would compromise her artistic vision and staying true to her story."
+    },
+    {
+      "id": "reading-9-rc-062",
+      "bankId": "reading-9-rc",
+      "text": "What does the phrase 'gleaming like fool's gold' suggest about the offer?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It is genuinely valuable",
+          "It appears valuable but may be worthless or deceptive",
+          "It is made of actual gold",
+          "It is a small amount of money"
+        ],
+        "correctAnswer": "It appears valuable but may be worthless or deceptive"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.4"
+      ],
+      "primaryStandard": "RL.9-10.4",
+      "passage": "G9-L6: The Compromise",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Fool's gold looks valuable but is worthless, suggesting the offer may not be as good as it appears."
+    },
+    {
+      "id": "reading-9-rc-063",
+      "bankId": "reading-9-rc",
+      "text": "How does the grandmother function in the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "As the antagonist",
+          "As a moral compass representing authenticity and sacrifice",
+          "As a minor background character",
+          "As the narrator"
+        ],
+        "correctAnswer": "As a moral compass representing authenticity and sacrifice"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.3"
+      ],
+      "primaryStandard": "RL.9-10.3",
+      "passage": "G9-L6: The Compromise",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The grandmother's sacrifices and belief that their stories mattered and deserved to be told truthfully guide Maya's values."
+    },
+    {
+      "id": "reading-9-rc-064",
+      "bankId": "reading-9-rc",
+      "text": "What does 'every struggling artist eventually accepted' reveal about the executives' perspective?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "They respect artists",
+          "They assume financial pressure will override artistic principles",
+          "They want to support authentic storytelling",
+          "They are uncertain about the deal"
+        ],
+        "correctAnswer": "They assume financial pressure will override artistic principles"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.9-10.6"
+      ],
+      "primaryStandard": "RL.9-10.6",
+      "passage": "G9-L6: The Compromise",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "This shows the executives believe economic pressure makes artists compromise their vision."
+    },
+    {
+      "id": "reading-9-rc-065",
+      "bankId": "reading-9-rc",
+      "text": "How does the author create sympathy for Maya's dilemma?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By making the executives sympathetic",
+          "By showing Maya's financial struggles and the story's personal significance",
+          "By describing Maya's wealth",
+          "By minimizing the importance of the screenplay"
+        ],
+        "correctAnswer": "By showing Maya's financial struggles and the story's personal significance"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.5"
+      ],
+      "primaryStandard": "RL.9-10.5",
+      "passage": "G9-L6: The Compromise",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage details Maya's student loans, seven years of work, and the story's connection to her grandmother's experience."
+    },
+    {
+      "id": "reading-9-rc-066",
+      "bankId": "reading-9-rc",
+      "text": "What theme does this passage explore?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The ease of artistic success",
+          "The tension between commercial demands and artistic authenticity",
+          "The benefits of corporate sponsorship",
+          "The unimportance of family stories"
+        ],
+        "correctAnswer": "The tension between commercial demands and artistic authenticity"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.2"
+      ],
+      "primaryStandard": "RL.9-10.2",
+      "passage": "G9-L6: The Compromise",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage centers on Maya's choice between money with artistic compromise and authenticity without financial reward."
+    },
+    {
+      "id": "reading-9-rc-067",
+      "bankId": "reading-9-rc",
+      "text": "According to the passage, what is the main cause of antibiotic resistance?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Natural evolution without human influence",
+          "Overuse and misuse of antibiotics in medicine and agriculture",
+          "Lack of new antibiotics",
+          "Poor hospital sanitation"
+        ],
+        "correctAnswer": "Overuse and misuse of antibiotics in medicine and agriculture"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.1"
+      ],
+      "primaryStandard": "RI.9-10.1",
+      "passage": "G9-I6: The Invisible Threat",
+      "passageText": "Antibiotic resistance represents one of the most serious public health threats of the twenty-first century, yet it develops invisibly, noticed only when infections that once responded to treatment become incurable. The crisis stems from a fundamental misunderstanding of how evolution works. Bacteria reproduce rapidly, sometimes dividing every twenty minutes. Each division introduces the possibility of mutation. When antibiotics kill susceptible bacteria but leave resistant strains alive, those resistant bacteria multiply without competition. Decades of overuse in medicine, where antibiotics are prescribed for viral infections they cannot treat, and in agriculture, where they promote growth in livestock, have accelerated this process dramatically. The World Health Organization warns that without urgent action, we face a post-antibiotic era where common infections and minor injuries could once again kill. New antibiotic development has slowed because pharmaceutical companies find limited profit in drugs that should be used sparingly. The solution requires coordinated global action: restricting unnecessary prescriptions, investing in research, and developing rapid diagnostic tests that identify which bacteria cause infections before treatment begins.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage identifies overuse in medicine and in agriculture as causes that have accelerated this process dramatically."
+    },
+    {
+      "id": "reading-9-rc-068",
+      "bankId": "reading-9-rc",
+      "text": "How does the author explain the biological mechanism of resistance?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Bacteria intentionally become resistant",
+          "Antibiotics make bacteria stronger",
+          "Resistant bacteria survive and multiply when susceptible bacteria are killed",
+          "Resistance is transferred from humans to bacteria"
+        ],
+        "correctAnswer": "Resistant bacteria survive and multiply when susceptible bacteria are killed"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.3"
+      ],
+      "primaryStandard": "RI.9-10.3",
+      "passage": "G9-I6: The Invisible Threat",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explains that antibiotics kill susceptible bacteria but leave resistant strains alive which then multiply without competition."
+    },
+    {
+      "id": "reading-9-rc-069",
+      "bankId": "reading-9-rc",
+      "text": "What does 'post-antibiotic era' mean according to the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "A time with better antibiotics",
+          "A time when antibiotics are no longer effective against common infections",
+          "A time without any bacterial infections",
+          "A time with more antibiotic research"
+        ],
+        "correctAnswer": "A time when antibiotics are no longer effective against common infections"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.4"
+      ],
+      "primaryStandard": "RI.9-10.4",
+      "passage": "G9-I6: The Invisible Threat",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage defines this as an era where common infections and minor injuries could once again kill."
+    },
+    {
+      "id": "reading-9-rc-070",
+      "bankId": "reading-9-rc",
+      "text": "Why has new antibiotic development slowed according to the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The science is too difficult",
+          "There is no need for new antibiotics",
+          "Pharmaceutical companies find limited profit in drugs meant to be used sparingly",
+          "Governments have banned antibiotic research"
+        ],
+        "correctAnswer": "Pharmaceutical companies find limited profit in drugs meant to be used sparingly"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.1"
+      ],
+      "primaryStandard": "RI.9-10.1",
+      "passage": "G9-I6: The Invisible Threat",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states pharmaceutical companies find limited profit in drugs that should be used sparingly."
+    },
+    {
+      "id": "reading-9-rc-071",
+      "bankId": "reading-9-rc",
+      "text": "How does the author appeal to readers' sense of urgency?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By using calm, reassuring language",
+          "By describing worst-case scenarios and citing health authorities",
+          "By focusing only on historical information",
+          "By avoiding any warnings"
+        ],
+        "correctAnswer": "By describing worst-case scenarios and citing health authorities"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.6"
+      ],
+      "primaryStandard": "RI.9-10.6",
+      "passage": "G9-I6: The Invisible Threat",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author cites the World Health Organization's warning and describes potentially fatal common infections."
+    },
+    {
+      "id": "reading-9-rc-072",
+      "bankId": "reading-9-rc",
+      "text": "What solutions does the author propose?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Only developing new antibiotics",
+          "Restricting prescriptions, investing in research, and improving diagnostic tests",
+          "Banning all antibiotic use",
+          "Focusing only on hospital sanitation"
+        ],
+        "correctAnswer": "Restricting prescriptions, investing in research, and improving diagnostic tests"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.9-10.2"
+      ],
+      "primaryStandard": "RI.9-10.2",
+      "passage": "G9-I6: The Invisible Threat",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage calls for restricting unnecessary prescriptions, investing in research, and developing rapid diagnostic tests."
+    },
+    {
+      "id": "reading-9-rc-073",
+      "bankId": "reading-9-rc",
+      "text": "How does the point of view shift throughout this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "From first person to third person",
+          "From past to present tense only",
+          "From the son's perspective to including the father's unspoken thoughts",
+          "It remains entirely in second person"
+        ],
+        "correctAnswer": "From the son's perspective to including the father's unspoken thoughts"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.9-10.6"
+      ],
+      "primaryStandard": "RL.9-10.6",
+      "passage": "G9-L7: Words Unspoken",
+      "passageText": "Marcus watched his father pack the car for their annual fishing trip, each movement precise and unhurried. They had not spoken about the diagnosis, though it hung between them like morning fog that would not lift. His father tested the weight of the tackle box, nodded at some internal checklist, then glanced toward the house where Marcus stood in the doorway. Twenty years of these trips, and Marcus could read his father's silences like others read books. This particular silence said: we both know, and we both know the other knows, but saying it aloud makes it real in a way neither of us can bear. His father had never been a man for emotional displays. Love in their family had always been expressed through action: the early morning drives, the patient teaching of knots and casts, the thermoses of hot chocolate on cold mornings. Marcus stepped off the porch and took his place in the passenger seat. His father's hand briefly touched his shoulder before turning the ignition. Perhaps some things did not need to be said to be understood.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage begins with Marcus's observations but shifts to reveal his interpretation of his father's silence and unspoken thoughts."
+    },
+    {
+      "id": "reading-9-rc-074",
+      "bankId": "reading-9-rc",
+      "text": "What does the phrase 'hung between them like morning fog' reveal about the unspoken topic?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It is completely absent from their thoughts",
+          "It is constantly present but obscuring clear communication",
+          "It is a pleasant memory",
+          "It has been fully discussed"
+        ],
+        "correctAnswer": "It is constantly present but obscuring clear communication"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.4"
+      ],
+      "primaryStandard": "RL.9-10.4",
+      "passage": "G9-L7: Words Unspoken",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Fog is present but reduces visibility, like the diagnosis that is present but prevents clear communication."
+    },
+    {
+      "id": "reading-9-rc-075",
+      "bankId": "reading-9-rc",
+      "text": "How does the author convey the theme that love can be expressed without words?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Through the characters' long conversations",
+          "Through showing love expressed in actions like fishing trips and teaching",
+          "Through the father's verbal declarations",
+          "Through dramatic emotional scenes"
+        ],
+        "correctAnswer": "Through showing love expressed in actions like fishing trips and teaching"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.2"
+      ],
+      "primaryStandard": "RL.9-10.2",
+      "passage": "G9-L7: Words Unspoken",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states love had always been expressed through action including drives, teaching, and hot chocolate."
+    },
+    {
+      "id": "reading-9-rc-076",
+      "bankId": "reading-9-rc",
+      "text": "What can be inferred about the father's diagnosis?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It is positive news",
+          "It is serious and potentially terminal",
+          "It is a minor health issue",
+          "It affects Marcus, not the father"
+        ],
+        "correctAnswer": "It is serious and potentially terminal"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.1"
+      ],
+      "primaryStandard": "RL.9-10.1",
+      "passage": "G9-L7: Words Unspoken",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The heaviness of the unspoken topic and the statement that saying it aloud makes it real in a way neither of us can bear suggests serious illness."
+    },
+    {
+      "id": "reading-9-rc-077",
+      "bankId": "reading-9-rc",
+      "text": "What does the father's hand touching Marcus's shoulder signify?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "A warning",
+          "An expression of love and connection without words",
+          "A request for help",
+          "Physical discomfort"
+        ],
+        "correctAnswer": "An expression of love and connection without words"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.3"
+      ],
+      "primaryStandard": "RL.9-10.3",
+      "passage": "G9-L7: Words Unspoken",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "In the context of their non-verbal communication, this touch expresses the love they cannot verbalize."
+    },
+    {
+      "id": "reading-9-rc-078",
+      "bankId": "reading-9-rc",
+      "text": "How does the annual fishing trip function in the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "As the source of conflict",
+          "As a ritual that expresses and maintains their relationship",
+          "As an unwanted obligation",
+          "As a new experience for both characters"
+        ],
+        "correctAnswer": "As a ritual that expresses and maintains their relationship"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.3"
+      ],
+      "primaryStandard": "RL.9-10.3",
+      "passage": "G9-L7: Words Unspoken",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Twenty years of trips represent their method of maintaining connection and expressing care through shared activity."
+    },
+    {
+      "id": "reading-9-rc-079",
+      "bankId": "reading-9-rc",
+      "text": "What is the author's central argument about standardized testing?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Standardized tests are perfect measures of learning",
+          "Current tests measure test-taking skills more than genuine learning",
+          "Testing should be completely eliminated",
+          "Only wealthy students benefit from testing"
+        ],
+        "correctAnswer": "Current tests measure test-taking skills more than genuine learning"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.2"
+      ],
+      "primaryStandard": "RI.9-10.2",
+      "passage": "G9-I7: Measuring What Matters",
+      "passageText": "The debate over standardized testing in American education reveals a fundamental tension between accountability and authentic learning. Proponents argue that standardized assessments provide objective data for comparing student performance across schools and districts, enabling identification of achievement gaps and allocation of resources. Critics counter that these tests measure a narrow band of skills, often testing the ability to take tests rather than genuine understanding. The high stakes attached to results have transformed education in troubling ways: teachers report spending months on test preparation at the expense of deeper learning, and subjects not tested, including art, music, and physical education, receive diminished attention. Research suggests that test scores correlate strongly with socioeconomic status, raising questions about whether they measure learning or privilege. Alternative assessment methods, including portfolios, project-based evaluation, and performance tasks, offer richer pictures of student capability but lack the standardization that enables comparison. The challenge for education policy is finding assessment approaches that maintain accountability while honoring the complexity of genuine learning, a balance that has thus far proved elusive.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage argues tests often measure the ability to take tests rather than genuine understanding."
+    },
+    {
+      "id": "reading-9-rc-080",
+      "bankId": "reading-9-rc",
+      "text": "How does the author present both sides of the testing debate?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By only presenting arguments against testing",
+          "By presenting proponents' arguments then critics' counterarguments",
+          "By avoiding any controversial claims",
+          "By focusing only on test preparation"
+        ],
+        "correctAnswer": "By presenting proponents' arguments then critics' counterarguments"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.5"
+      ],
+      "primaryStandard": "RI.9-10.5",
+      "passage": "G9-I7: Measuring What Matters",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author presents proponents argue followed by critics counter to show both perspectives."
+    },
+    {
+      "id": "reading-9-rc-081",
+      "bankId": "reading-9-rc",
+      "text": "What unintended consequences of testing does the passage describe?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Improved teaching methods",
+          "Excessive test preparation and reduced attention to untested subjects",
+          "Better student engagement",
+          "Increased funding for all schools"
+        ],
+        "correctAnswer": "Excessive test preparation and reduced attention to untested subjects"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.3"
+      ],
+      "primaryStandard": "RI.9-10.3",
+      "passage": "G9-I7: Measuring What Matters",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage mentions spending months on test preparation and subjects not tested receive diminished attention."
+    },
+    {
+      "id": "reading-9-rc-082",
+      "bankId": "reading-9-rc",
+      "text": "What concern does the author raise about the correlation between test scores and socioeconomic status?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Wealthy students are naturally smarter",
+          "Tests may measure privilege rather than learning",
+          "All students have equal opportunities",
+          "Socioeconomic status does not affect education"
+        ],
+        "correctAnswer": "Tests may measure privilege rather than learning"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.1"
+      ],
+      "primaryStandard": "RI.9-10.1",
+      "passage": "G9-I7: Measuring What Matters",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage raises questions about whether they measure learning or privilege."
+    },
+    {
+      "id": "reading-9-rc-083",
+      "bankId": "reading-9-rc",
+      "text": "What limitation of alternative assessments does the author acknowledge?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "They are too expensive",
+          "They lack standardization for comparison across schools",
+          "They are too difficult for students",
+          "They favor wealthy students"
+        ],
+        "correctAnswer": "They lack standardization for comparison across schools"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.2"
+      ],
+      "primaryStandard": "RI.9-10.2",
+      "passage": "G9-I7: Measuring What Matters",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author notes alternatives lack the standardization that enables comparison."
+    },
+    {
+      "id": "reading-9-rc-084",
+      "bankId": "reading-9-rc",
+      "text": "What does 'a balance that has thus far proved elusive' suggest about the testing debate?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The problem has been solved",
+          "A satisfactory solution has not yet been found",
+          "Testing should be abandoned",
+          "The debate is unimportant"
+        ],
+        "correctAnswer": "A satisfactory solution has not yet been found"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.4"
+      ],
+      "primaryStandard": "RI.9-10.4",
+      "passage": "G9-I7: Measuring What Matters",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Elusive means difficult to achieve, suggesting the ideal balance between accountability and authentic learning remains unfound."
+    },
+    {
+      "id": "reading-9-rc-085",
+      "bankId": "reading-9-rc",
+      "text": "What literary technique does the author use to develop the character of the old woman?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Direct characterization through explicit description",
+          "Indirect characterization through her actions and surroundings",
+          "Stream of consciousness narration",
+          "Dialogue with other characters"
+        ],
+        "correctAnswer": "Indirect characterization through her actions and surroundings"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.3"
+      ],
+      "primaryStandard": "RL.9-10.3",
+      "passage": "G9-L8: The Keeper",
+      "passageText": "The old woman tended her garden with the patience of someone who had stopped counting years. Her cottage sat at the edge of the village, close enough to be seen but far enough to discourage casual visitors. The townspeople called her a witch, though what they meant was that she remembered things they preferred to forget. She had witnessed the fever that took a generation of children, had watched the factory rise and fall, had seen young men march away to wars they did not understand. Her garden held plants with names no one else remembered, remedies passed down through centuries of women who listened to the earth. When the village children fell ill and modern medicine failed, their parents would appear at her gate, pride abandoned, asking for the knowledge they had publicly scorned. She never refused them. She would prepare her tinctures in silence, offer instructions without judgment, and accept no payment but the satisfaction of seeing another child recover. The village needed her and resented her in equal measure, as people often resent those who hold mirrors to their contradictions.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author reveals character through the woman's actions (tending garden, helping children) and setting rather than direct statements."
+    },
+    {
+      "id": "reading-9-rc-086",
+      "bankId": "reading-9-rc",
+      "text": "What does the phrase 'remembered things they preferred to forget' suggest about the old woman's role?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She has poor memory",
+          "She preserves uncomfortable historical truth",
+          "She spreads gossip",
+          "She is delusional about the past"
+        ],
+        "correctAnswer": "She preserves uncomfortable historical truth"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.1"
+      ],
+      "primaryStandard": "RL.9-10.1",
+      "passage": "G9-L8: The Keeper",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "She represents historical memory that the village finds uncomfortable but cannot erase."
+    },
+    {
+      "id": "reading-9-rc-087",
+      "bankId": "reading-9-rc",
+      "text": "What theme does the passage develop through the village's relationship with the old woman?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The superiority of modern medicine",
+          "The contradiction between publicly rejecting and privately needing traditional knowledge",
+          "The danger of isolation",
+          "The importance of village gossip"
+        ],
+        "correctAnswer": "The contradiction between publicly rejecting and privately needing traditional knowledge"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.9-10.2"
+      ],
+      "primaryStandard": "RL.9-10.2",
+      "passage": "G9-L8: The Keeper",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The village needed her and resented her and parents sought knowledge they had publicly scorned."
+    },
+    {
+      "id": "reading-9-rc-088",
+      "bankId": "reading-9-rc",
+      "text": "What does the final sentence mean about people resenting 'those who hold mirrors to their contradictions'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "People dislike actual mirrors",
+          "People resent those who reveal their hypocrisies",
+          "People prefer to look in mirrors",
+          "The old woman sells mirrors"
+        ],
+        "correctAnswer": "People resent those who reveal their hypocrisies"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.9-10.4"
+      ],
+      "primaryStandard": "RL.9-10.4",
+      "passage": "G9-L8: The Keeper",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The mirror metaphor suggests the woman's existence reveals the village's contradiction between scorning and needing her knowledge."
+    },
+    {
+      "id": "reading-9-rc-089",
+      "bankId": "reading-9-rc",
+      "text": "How does the author use the cottage's location symbolically?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It represents the woman's wealth",
+          "It represents her position as both part of and apart from the community",
+          "It shows she is a poor gardener",
+          "It indicates she recently arrived"
+        ],
+        "correctAnswer": "It represents her position as both part of and apart from the community"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.4"
+      ],
+      "primaryStandard": "RL.9-10.4",
+      "passage": "G9-L8: The Keeper",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The cottage at the edge of the village, close enough to be seen but far enough to discourage casual visitors reflects her marginal social position."
+    },
+    {
+      "id": "reading-9-rc-090",
+      "bankId": "reading-9-rc",
+      "text": "What does the old woman's refusal of payment reveal about her character?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She is wealthy already",
+          "She values healing over profit and maintains dignity despite rejection",
+          "She does not understand money",
+          "She wants to be left alone"
+        ],
+        "correctAnswer": "She values healing over profit and maintains dignity despite rejection"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.3"
+      ],
+      "primaryStandard": "RL.9-10.3",
+      "passage": "G9-L8: The Keeper",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "She never refused help and accepted no payment but the satisfaction of seeing another child recover."
+    },
+    {
+      "id": "reading-9-rc-091",
+      "bankId": "reading-9-rc",
+      "text": "What is the author's main argument about criminal justice reform?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The current system works perfectly",
+          "Focusing on punishment over rehabilitation increases recidivism and costs",
+          "All criminals should receive longer sentences",
+          "Reform is impossible to achieve"
+        ],
+        "correctAnswer": "Focusing on punishment over rehabilitation increases recidivism and costs"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.2"
+      ],
+      "primaryStandard": "RI.9-10.2",
+      "passage": "G9-I8: Justice Reconsidered",
+      "passageText": "The American criminal justice system incarcerates more people per capita than any other developed nation, yet crime rates remain stubbornly high, suggesting that current approaches fail to achieve their stated goals of public safety and deterrence. Research increasingly demonstrates that punitive measures alone do little to reduce recidivism; in fact, the prison environment often exacerbates criminal behavior by exposing individuals to more serious offenders and limiting post-release opportunities. Reformers advocate for approaches that address root causes of crime: mental health treatment, substance abuse programs, job training, and educational opportunities. Countries that have implemented such rehabilitative models report significantly lower recidivism rates. Critics argue that focusing on rehabilitation coddles criminals and fails to provide justice for victims. However, evidence suggests that victims often prefer restorative justice approaches that require offenders to understand and repair harm rather than simply serve time. The economic argument is equally compelling: incarceration costs approximately forty thousand dollars per inmate annually, while rehabilitative programs cost far less and produce better outcomes. Reforming the criminal justice system requires moving beyond the false choice between being tough on crime and being smart about crime.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage argues that punishment alone fails and rehabilitation produces better outcomes at lower costs."
+    },
+    {
+      "id": "reading-9-rc-092",
+      "bankId": "reading-9-rc",
+      "text": "How does the author address the counterargument that rehabilitation 'coddles criminals'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By agreeing with the critics",
+          "By citing evidence that victims often prefer restorative approaches",
+          "By ignoring the criticism",
+          "By dismissing victims' concerns"
+        ],
+        "correctAnswer": "By citing evidence that victims often prefer restorative approaches"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.5"
+      ],
+      "primaryStandard": "RI.9-10.5",
+      "passage": "G9-I8: Justice Reconsidered",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author counters by noting victims often prefer restorative justice approaches."
+    },
+    {
+      "id": "reading-9-rc-093",
+      "bankId": "reading-9-rc",
+      "text": "What evidence does the author use to support the economic argument for reform?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Personal anecdotes",
+          "The forty thousand dollar annual cost per inmate versus cheaper rehabilitative programs",
+          "Historical data from the 1800s",
+          "Interviews with prisoners"
+        ],
+        "correctAnswer": "The forty thousand dollar annual cost per inmate versus cheaper rehabilitative programs"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.8"
+      ],
+      "primaryStandard": "RI.9-10.8",
+      "passage": "G9-I8: Justice Reconsidered",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author cites approximately forty thousand dollars per inmate annually compared to cheaper alternatives."
+    },
+    {
+      "id": "reading-9-rc-094",
+      "bankId": "reading-9-rc",
+      "text": "What does 'the false choice between being tough on crime and being smart about crime' mean?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "These are the only two options",
+          "Toughness and intelligence are actually compatible in crime policy",
+          "Being tough is always better",
+          "Being smart means being lenient"
+        ],
+        "correctAnswer": "Toughness and intelligence are actually compatible in crime policy"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.9-10.4"
+      ],
+      "primaryStandard": "RI.9-10.4",
+      "passage": "G9-I8: Justice Reconsidered",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Calling it a false choice suggests these approaches are not mutually exclusive and can be combined."
+    },
+    {
+      "id": "reading-9-rc-095",
+      "bankId": "reading-9-rc",
+      "text": "How does the author use international comparison to support the argument?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By showing the US has the lowest incarceration rate",
+          "By noting that countries with rehabilitative models have lower recidivism",
+          "By avoiding any comparison",
+          "By praising the US system"
+        ],
+        "correctAnswer": "By noting that countries with rehabilitative models have lower recidivism"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.5"
+      ],
+      "primaryStandard": "RI.9-10.5",
+      "passage": "G9-I8: Justice Reconsidered",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author states countries that have implemented such rehabilitative models report significantly lower recidivism rates."
+    },
+    {
+      "id": "reading-9-rc-096",
+      "bankId": "reading-9-rc",
+      "text": "What does the author suggest causes high recidivism in the current system?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Sentences that are too short",
+          "Prison exposure to serious offenders and limited post-release opportunities",
+          "Too much rehabilitation",
+          "Excessive job training"
+        ],
+        "correctAnswer": "Prison exposure to serious offenders and limited post-release opportunities"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.3"
+      ],
+      "primaryStandard": "RI.9-10.3",
+      "passage": "G9-I8: Justice Reconsidered",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states prison exacerbates criminal behavior by exposing individuals to more serious offenders and limiting post-release opportunities."
+    },
+    {
+      "id": "reading-9-rc-097",
+      "bankId": "reading-9-rc",
+      "text": "What is the effect of beginning the passage with 'I was born free'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It creates humor",
+          "It establishes a powerful ironic contrast with the narrator's actual condition",
+          "It shows the narrator's confusion",
+          "It describes a typical situation"
+        ],
+        "correctAnswer": "It establishes a powerful ironic contrast with the narrator's actual condition"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.5"
+      ],
+      "primaryStandard": "RL.9-10.5",
+      "passage": "G9-L9: Narrative of Freedom",
+      "passageText": "I was born free, in a village where my mother's name meant something, where my father's crops fed our extended family, where my existence was noted in the memories of elders who had watched me take my first steps. Then came the traders with their promises and their chains. The ship's hold swallowed us into darkness that lasted weeks, packed so tightly that the living could not be separated from the dead. I learned on that journey that freedom is not merely the absence of chains but the presence of identity, of history, of future. In the new land, they gave me a new name, one I refused to speak even as I answered to it. They taught me their language, which I learned better than they expected, turning their words into weapons of subtle resistance. They could own my body, but my mind remained that village, that mother, that father, that name. At night I would close my eyes and walk the paths of my childhood, keeping alive what they sought to erase. They called me property, but I knew I was proof that no document of ownership could extinguish a soul.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Opening with I was born free creates dramatic irony given the subsequent enslavement narrative."
+    },
+    {
+      "id": "reading-9-rc-098",
+      "bankId": "reading-9-rc",
+      "text": "How does the narrator define true freedom in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Physical movement",
+          "Absence of chains",
+          "Identity, history, and future",
+          "Economic prosperity"
+        ],
+        "correctAnswer": "Identity, history, and future"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.2"
+      ],
+      "primaryStandard": "RL.9-10.2",
+      "passage": "G9-L9: Narrative of Freedom",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The narrator states freedom is not merely the absence of chains but the presence of identity, of history, of future."
+    },
+    {
+      "id": "reading-9-rc-099",
+      "bankId": "reading-9-rc",
+      "text": "What does 'turning their words into weapons of subtle resistance' suggest about the narrator?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The narrator rejected learning English",
+          "The narrator used language strategically to resist oppression",
+          "The narrator was violent",
+          "The narrator taught others to read"
+        ],
+        "correctAnswer": "The narrator used language strategically to resist oppression"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.4"
+      ],
+      "primaryStandard": "RL.9-10.4",
+      "passage": "G9-L9: Narrative of Freedom",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Learning the language better than they expected and using it as weapons of subtle resistance shows strategic use of language."
+    },
+    {
+      "id": "reading-9-rc-100",
+      "bankId": "reading-9-rc",
+      "text": "What theme does the passage develop through the narrator's memories of home?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The futility of resistance",
+          "The preservation of identity as a form of resistance against dehumanization",
+          "The superiority of African culture",
+          "The benefits of adaptation"
+        ],
+        "correctAnswer": "The preservation of identity as a form of resistance against dehumanization"
+      },
+      "subject": "Reading",
+      "gradeLevel": "9",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.9-10.2"
+      ],
+      "primaryStandard": "RL.9-10.2",
+      "passage": "G9-L9: Narrative of Freedom",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The narrator maintains memories to keep alive what they sought to erase, using identity preservation as resistance."
+    }
+  ]
+}

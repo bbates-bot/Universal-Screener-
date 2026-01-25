@@ -1,0 +1,2734 @@
+{
+  "metadata": {
+    "subject": "Reading",
+    "gradeLevel": "11",
+    "domain": "RC",
+    "domainName": "Reading Comprehension",
+    "lastUpdated": "2026-01-25",
+    "totalQuestions": 100,
+    "description": "CCSS-aligned reading comprehension assessment with literary and informational texts",
+    "lexileRange": "1185L-1335L"
+  },
+  "questions": [
+    {
+      "id": "reading-11-rc-001",
+      "bankId": "reading-11-rc",
+      "text": "What central idea does Thoreau develop in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Government should have absolute authority",
+          "Individual conscience should guide moral decisions",
+          "Laws must always be obeyed without question",
+          "Civil disobedience leads to anarchy"
+        ],
+        "correctAnswer": "Individual conscience should guide moral decisions"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.2"
+      ],
+      "primaryStandard": "RL.11-12.2",
+      "passage": "G11-L1: Civil Disobedience",
+      "passageText": "I heartily accept the motto, 'That government is best which governs least'; and I should like to see it acted up to more rapidly and systematically. Carried out, it finally amounts to this, which also I believe: 'That government is best which governs not at all'; and when men are prepared for it, that will be the kind of government which they will have. Government is at best but an expedient; but most governments are usually, and all governments are sometimes, inexpedient. The objections which have been brought against a standing army, and they are many and weighty, and deserve to prevail, may also at last be brought against a standing government. The standing army is only an arm of the standing government. The government itself, which is only the mode which the people have chosen to execute their will, is equally liable to be abused and perverted before the people can act through it. Must the citizen ever for a moment, or in the least degree, resign his conscience to the legislator? Why has every man a conscience then? I think that we should be men first, and subjects afterward.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Thoreau argues that individual conscience should take precedence over governmental authority."
+    },
+    {
+      "id": "reading-11-rc-002",
+      "bankId": "reading-11-rc",
+      "text": "What does Thoreau mean by calling government 'an expedient'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "A necessary evil that serves practical purposes",
+          "An ideal system of governance",
+          "A permanent solution to social problems",
+          "An unnecessary burden on citizens"
+        ],
+        "correctAnswer": "A necessary evil that serves practical purposes"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.4"
+      ],
+      "primaryStandard": "RL.11-12.4",
+      "passage": "G11-L1: Civil Disobedience",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Thoreau views government as a practical tool that serves a purpose but is not inherently good."
+    },
+    {
+      "id": "reading-11-rc-003",
+      "bankId": "reading-11-rc",
+      "text": "How does Thoreau's comparison of government to a standing army strengthen his argument?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It shows government is necessary for defense",
+          "It suggests both can be corrupted and misused",
+          "It proves armies are more effective than laws",
+          "It demonstrates government's efficiency"
+        ],
+        "correctAnswer": "It suggests both can be corrupted and misused"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Integration of Knowledge",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.11-12.5"
+      ],
+      "primaryStandard": "RL.11-12.5",
+      "passage": "G11-L1: Civil Disobedience",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Thoreau draws a parallel to show that government, like a standing army, can be abused."
+    },
+    {
+      "id": "reading-11-rc-004",
+      "bankId": "reading-11-rc",
+      "text": "What rhetorical strategy does Thoreau employ with the question about conscience?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Appeal to authority",
+          "Rhetorical question to provoke reflection",
+          "Statistical evidence",
+          "Personal anecdote"
+        ],
+        "correctAnswer": "Rhetorical question to provoke reflection"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.6"
+      ],
+      "primaryStandard": "RL.11-12.6",
+      "passage": "G11-L1: Civil Disobedience",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Thoreau uses a rhetorical question to make readers consider why conscience exists."
+    },
+    {
+      "id": "reading-11-rc-005",
+      "bankId": "reading-11-rc",
+      "text": "What evidence supports Thoreau's claim that government can be 'perverted'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The existence of standing armies",
+          "The people's inability to act directly",
+          "Both A and B",
+          "Neither A nor B"
+        ],
+        "correctAnswer": "Both A and B"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.1"
+      ],
+      "primaryStandard": "RL.11-12.1",
+      "passage": "G11-L1: Civil Disobedience",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Thoreau cites both standing armies and the delay in people's will being enacted as evidence."
+    },
+    {
+      "id": "reading-11-rc-006",
+      "bankId": "reading-11-rc",
+      "text": "What central argument does Lincoln advance in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The war was fought primarily for economic reasons",
+          "The nation must honor the dead by continuing their work",
+          "Military victory is the only important outcome",
+          "The South should be severely punished"
+        ],
+        "correctAnswer": "The nation must honor the dead by continuing their work"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.2"
+      ],
+      "primaryStandard": "RI.11-12.2",
+      "passage": "G11-I1: Gettysburg Address",
+      "passageText": "Four score and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal. Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this. But, in a larger sense, we can not dedicate, we can not consecrate, we can not hallow this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Lincoln argues that the living must dedicate themselves to completing the work of the fallen."
+    },
+    {
+      "id": "reading-11-rc-007",
+      "bankId": "reading-11-rc",
+      "text": "What does 'four score and seven years ago' refer to?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The signing of the Constitution in 1787",
+          "The Declaration of Independence in 1776",
+          "The founding of the first colony",
+          "The end of the Revolutionary War"
+        ],
+        "correctAnswer": "The Declaration of Independence in 1776"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.11-12.4"
+      ],
+      "primaryStandard": "RI.11-12.4",
+      "passage": "G11-I1: Gettysburg Address",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "A score is 20 years; 87 years before 1863 is 1776, the year of the Declaration."
+    },
+    {
+      "id": "reading-11-rc-008",
+      "bankId": "reading-11-rc",
+      "text": "How does Lincoln's use of parallel structure in 'we can not dedicate, we can not consecrate, we can not hallow' enhance his message?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It creates confusion about his meaning",
+          "It emphasizes the inadequacy of words compared to actions",
+          "It suggests uncertainty about the ceremony",
+          "It diminishes the importance of the battlefield"
+        ],
+        "correctAnswer": "It emphasizes the inadequacy of words compared to actions"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.11-12.5"
+      ],
+      "primaryStandard": "RI.11-12.5",
+      "passage": "G11-I1: Gettysburg Address",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The repetition emphasizes that actions speak louder than ceremonial words."
+    },
+    {
+      "id": "reading-11-rc-009",
+      "bankId": "reading-11-rc",
+      "text": "What is the purpose of Lincoln connecting the current war to the nation's founding?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To remind people of historical dates",
+          "To frame the war as a continuation of founding principles",
+          "To criticize the founding fathers",
+          "To avoid discussing the battle"
+        ],
+        "correctAnswer": "To frame the war as a continuation of founding principles"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.6"
+      ],
+      "primaryStandard": "RI.11-12.6",
+      "passage": "G11-I1: Gettysburg Address",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Lincoln connects the war to the founding to show the fight is for original American ideals."
+    },
+    {
+      "id": "reading-11-rc-010",
+      "bankId": "reading-11-rc",
+      "text": "What does Lincoln mean by 'the unfinished work'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Completing the cemetery",
+          "Winning the Civil War and preserving the Union",
+          "Writing the Constitution",
+          "Building monuments"
+        ],
+        "correctAnswer": "Winning the Civil War and preserving the Union"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.1"
+      ],
+      "primaryStandard": "RI.11-12.1",
+      "passage": "G11-I1: Gettysburg Address",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The unfinished work refers to completing the goal of preserving the nation."
+    },
+    {
+      "id": "reading-11-rc-011",
+      "bankId": "reading-11-rc",
+      "text": "What does Fitzgerald's narrator suggest about Gatsby's smile?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It was insincere and practiced",
+          "It offered rare, concentrated understanding",
+          "It was menacing and cold",
+          "It revealed his true wealth"
+        ],
+        "correctAnswer": "It offered rare, concentrated understanding"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.1"
+      ],
+      "primaryStandard": "RL.11-12.1",
+      "passage": "G11-L2: The Great Gatsby",
+      "passageText": "He smiled understandingly, much more than understandingly. It was one of those rare smiles with a quality of eternal reassurance in it, that you may come across four or five times in life. It faced, or seemed to face, the whole external world for an instant and then concentrated on you with an irresistible prejudice in your favor. It understood you just as far as you wanted to be understood, believed in you as you would like to believe in yourself, and assured you that it had precisely the impression of you that, at your best, you hoped to convey. Precisely at that point it vanished, and I was looking at an elegant young roughneck, a year or two over thirty, whose elaborate formality of speech just missed being absurd. Some time before he introduced himself I had got a strong impression that he was picking his words with care. His tanned skin was drawn attractively tight on his face and his short hair looked as though it were trimmed every day. I could see nothing sinister about him.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The narrator describes Gatsby's smile as offering rare, concentrated understanding."
+    },
+    {
+      "id": "reading-11-rc-012",
+      "bankId": "reading-11-rc",
+      "text": "What does the phrase 'elegant young roughneck' reveal about Gatsby?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He is purely sophisticated",
+          "He contains contradictory qualities",
+          "He is entirely unsophisticated",
+          "He is elderly and refined"
+        ],
+        "correctAnswer": "He contains contradictory qualities"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.4"
+      ],
+      "primaryStandard": "RL.11-12.4",
+      "passage": "G11-L2: The Great Gatsby",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The oxymoron suggests Gatsby embodies both refinement and roughness."
+    },
+    {
+      "id": "reading-11-rc-013",
+      "bankId": "reading-11-rc",
+      "text": "How does Nick's observation about Gatsby's speech affect the reader's perception?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It confirms Gatsby's authenticity",
+          "It suggests Gatsby may be performing a role",
+          "It proves Gatsby is poorly educated",
+          "It shows Gatsby is naturally eloquent"
+        ],
+        "correctAnswer": "It suggests Gatsby may be performing a role"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.11-12.6"
+      ],
+      "primaryStandard": "RL.11-12.6",
+      "passage": "G11-L2: The Great Gatsby",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Nick's observation that Gatsby picks his words carefully suggests self-conscious performance."
+    },
+    {
+      "id": "reading-11-rc-014",
+      "bankId": "reading-11-rc",
+      "text": "What narrative technique does Fitzgerald use in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Omniscient third person narration",
+          "First person limited perspective",
+          "Second person direct address",
+          "Stream of consciousness"
+        ],
+        "correctAnswer": "First person limited perspective"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RL.11-12.5"
+      ],
+      "primaryStandard": "RL.11-12.5",
+      "passage": "G11-L2: The Great Gatsby",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Nick narrates in first person with limited access to others' thoughts."
+    },
+    {
+      "id": "reading-11-rc-015",
+      "bankId": "reading-11-rc",
+      "text": "What theme does Gatsby's carefully constructed appearance suggest?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The importance of natural beauty",
+          "The illusion of the American Dream",
+          "The value of simplicity",
+          "The permanence of social class"
+        ],
+        "correctAnswer": "The illusion of the American Dream"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.11-12.2"
+      ],
+      "primaryStandard": "RL.11-12.2",
+      "passage": "G11-L2: The Great Gatsby",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Gatsby's constructed persona reflects the illusory nature of reinvention in America."
+    },
+    {
+      "id": "reading-11-rc-016",
+      "bankId": "reading-11-rc",
+      "text": "What is the author's main argument about the relationship between liberty and equality?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "They are identical concepts",
+          "They exist in natural tension with each other",
+          "Equality should always supersede liberty",
+          "Liberty is irrelevant to democracy"
+        ],
+        "correctAnswer": "They exist in natural tension with each other"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.2"
+      ],
+      "primaryStandard": "RI.11-12.2",
+      "passage": "G11-I2: Democracy in America",
+      "passageText": "The principle of equality, which makes men independent of each other, gives them a habit and a taste for following in their private actions no other guide than their own will. This complete independence, which they constantly enjoy in regard to their equals and in the intercourse of private life, tends to make them look upon all authority with a jealous eye and speedily suggests to them the notion and the love of political freedom. Men living at such times have a natural bias toward free institutions. Take any one of them at a venture and search if you can his most deep-seated instincts, and you will find that, of all governments, he will soonest conceive and most highly value that government whose head he has himself elected and whose administration he may control. The very essence of democratic government consists in the absolute sovereignty of the majority; for there is nothing in democratic states that is capable of resisting it. Most of the American constitutions have sought to increase this natural strength of the majority by artificial means.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Tocqueville argues that equality leads to love of liberty but also majority tyranny."
+    },
+    {
+      "id": "reading-11-rc-017",
+      "bankId": "reading-11-rc",
+      "text": "What concern does Tocqueville raise about 'absolute sovereignty of the majority'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It is too difficult to achieve",
+          "It could lead to tyranny over minorities",
+          "It prevents efficient governance",
+          "It is not democratic enough"
+        ],
+        "correctAnswer": "It could lead to tyranny over minorities"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.1"
+      ],
+      "primaryStandard": "RI.11-12.1",
+      "passage": "G11-I2: Democracy in America",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Tocqueville warns that unchecked majority rule can oppress minorities."
+    },
+    {
+      "id": "reading-11-rc-018",
+      "bankId": "reading-11-rc",
+      "text": "How does Tocqueville's use of 'at a venture' affect the passage's tone?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It makes the argument seem uncertain",
+          "It suggests universal applicability of his observation",
+          "It indicates he is guessing",
+          "It weakens his claim"
+        ],
+        "correctAnswer": "It suggests universal applicability of his observation"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.4"
+      ],
+      "primaryStandard": "RI.11-12.4",
+      "passage": "G11-I2: Democracy in America",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The phrase suggests any random person would demonstrate his point."
+    },
+    {
+      "id": "reading-11-rc-019",
+      "bankId": "reading-11-rc",
+      "text": "What evidence does Tocqueville use to support his analysis?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Statistical data from elections",
+          "Observations of human psychology and behavior",
+          "Quotations from American politicians",
+          "Comparisons with ancient Greece"
+        ],
+        "correctAnswer": "Observations of human psychology and behavior"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.8"
+      ],
+      "primaryStandard": "RI.11-12.8",
+      "passage": "G11-I2: Democracy in America",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Tocqueville bases his argument on observations about human nature and instincts."
+    },
+    {
+      "id": "reading-11-rc-020",
+      "bankId": "reading-11-rc",
+      "text": "What does Tocqueville mean by 'artificial means' in the final sentence?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Technological innovations",
+          "Constitutional and legal structures",
+          "Military force",
+          "Economic incentives"
+        ],
+        "correctAnswer": "Constitutional and legal structures"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.4"
+      ],
+      "primaryStandard": "RI.11-12.4",
+      "passage": "G11-I2: Democracy in America",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Tocqueville refers to deliberate constitutional provisions that strengthen majority power."
+    },
+    {
+      "id": "reading-11-rc-021",
+      "bankId": "reading-11-rc",
+      "text": "What does the speaker's 'barbaric yawp' symbolize?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Anger at society",
+          "Primitive, authentic self-expression",
+          "Physical exhaustion",
+          "Musical ability"
+        ],
+        "correctAnswer": "Primitive, authentic self-expression"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.2"
+      ],
+      "primaryStandard": "RL.11-12.2",
+      "passage": "G11-L3: Song of Myself",
+      "passageText": "I celebrate myself, and sing myself, And what I assume you shall assume, For every atom belonging to me as good belongs to you. I loafe and invite my soul, I lean and loafe at my ease observing a spear of summer grass. My tongue, every atom of my blood, formed from this soil, this air, Born here of parents born here from parents the same, and their parents the same, I, now thirty-seven years old in perfect health begin, Hoping to cease not till death. Creeds and schools in abeyance, Retiring back a while sufficed at what they are, but never forgotten, I harbor for good or bad, I permit to speak at every hazard, Nature without check with original energy. The spotted hawk swoops by and accuses me, he complains of my gab and my loitering. I too am not a bit tamed, I too am untranslatable, I sound my barbaric yawp over the roofs of the world.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The 'barbaric yawp' represents raw, unrefined, authentic expression of self."
+    },
+    {
+      "id": "reading-11-rc-022",
+      "bankId": "reading-11-rc",
+      "text": "How does Whitman establish connection between the speaker and the reader?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By criticizing the reader",
+          "By claiming shared atomic composition",
+          "By describing his superiority",
+          "By maintaining formal distance"
+        ],
+        "correctAnswer": "By claiming shared atomic composition"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.5"
+      ],
+      "primaryStandard": "RL.11-12.5",
+      "passage": "G11-L3: Song of Myself",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Whitman writes that every atom belonging to him belongs equally to the reader."
+    },
+    {
+      "id": "reading-11-rc-023",
+      "bankId": "reading-11-rc",
+      "text": "What is the effect of 'Creeds and schools in abeyance'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Endorsement of formal education",
+          "Rejection of religious doctrine",
+          "Temporary suspension of conventional thinking",
+          "Praise for traditional institutions"
+        ],
+        "correctAnswer": "Temporary suspension of conventional thinking"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.11-12.4"
+      ],
+      "primaryStandard": "RL.11-12.4",
+      "passage": "G11-L3: Song of Myself",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Whitman puts aside conventional beliefs temporarily to embrace nature and self."
+    },
+    {
+      "id": "reading-11-rc-024",
+      "bankId": "reading-11-rc",
+      "text": "What is the significance of the spotted hawk image?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It represents danger",
+          "It serves as a kindred spirit in nature",
+          "It symbolizes death",
+          "It represents formal society"
+        ],
+        "correctAnswer": "It serves as a kindred spirit in nature"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.1"
+      ],
+      "primaryStandard": "RL.11-12.1",
+      "passage": "G11-L3: Song of Myself",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The hawk shares the speaker's wild, untamed nature."
+    },
+    {
+      "id": "reading-11-rc-025",
+      "bankId": "reading-11-rc",
+      "text": "How does Whitman's free verse form support his themes?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It demonstrates poetic incompetence",
+          "It reflects liberation from conventional constraints",
+          "It shows respect for tradition",
+          "It makes the poem easier to memorize"
+        ],
+        "correctAnswer": "It reflects liberation from conventional constraints"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.11-12.5"
+      ],
+      "primaryStandard": "RL.11-12.5",
+      "passage": "G11-L3: Song of Myself",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Free verse mirrors Whitman's themes of freedom and natural expression."
+    },
+    {
+      "id": "reading-11-rc-026",
+      "bankId": "reading-11-rc",
+      "text": "What is the primary purpose of this passage from the Federalist Papers?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To argue against the Constitution",
+          "To explain how the Constitution prevents tyranny",
+          "To describe the history of Greece",
+          "To promote direct democracy"
+        ],
+        "correctAnswer": "To explain how the Constitution prevents tyranny"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.2"
+      ],
+      "primaryStandard": "RI.11-12.2",
+      "passage": "G11-I3: Federalist No. 51",
+      "passageText": "But what is government itself, but the greatest of all reflections on human nature? If men were angels, no government would be necessary. If angels were to govern men, neither external nor internal controls on government would be necessary. In framing a government which is to be administered by men over men, the great difficulty lies in this: you must first enable the government to control the governed; and in the next place oblige it to control itself. A dependence on the people is, no doubt, the primary control on the government; but experience has taught mankind the necessity of auxiliary precautions. This policy of supplying, by opposite and rival interests, the defect of better motives, might be traced through the whole system of human affairs, private as well as public. We see it particularly displayed in all the subordinate distributions of power, where the constant aim is to divide and arrange the several offices in such a manner as that each may be a check on the other.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Madison explains how separation of powers and checks prevent governmental tyranny."
+    },
+    {
+      "id": "reading-11-rc-027",
+      "bankId": "reading-11-rc",
+      "text": "What does Madison mean by 'If men were angels, no government would be necessary'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Angels should govern humanity",
+          "Human imperfection necessitates government",
+          "Government corrupts human nature",
+          "Religion should guide politics"
+        ],
+        "correctAnswer": "Human imperfection necessitates government"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.4"
+      ],
+      "primaryStandard": "RI.11-12.4",
+      "passage": "G11-I3: Federalist No. 51",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Madison argues that human flaws make government necessary."
+    },
+    {
+      "id": "reading-11-rc-028",
+      "bankId": "reading-11-rc",
+      "text": "What are the 'auxiliary precautions' Madison refers to?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Military defenses",
+          "Separation of powers and checks and balances",
+          "Religious institutions",
+          "Economic regulations"
+        ],
+        "correctAnswer": "Separation of powers and checks and balances"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.1"
+      ],
+      "primaryStandard": "RI.11-12.1",
+      "passage": "G11-I3: Federalist No. 51",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Madison refers to structural checks beyond popular control."
+    },
+    {
+      "id": "reading-11-rc-029",
+      "bankId": "reading-11-rc",
+      "text": "How does Madison use hypothetical reasoning in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He imagines perfect beings to highlight human limitations",
+          "He proposes impossible scenarios without purpose",
+          "He avoids making direct arguments",
+          "He relies solely on historical examples"
+        ],
+        "correctAnswer": "He imagines perfect beings to highlight human limitations"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Integration of Knowledge",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.11-12.6"
+      ],
+      "primaryStandard": "RI.11-12.6",
+      "passage": "G11-I3: Federalist No. 51",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Madison uses the angel hypothetical to emphasize why checks are necessary."
+    },
+    {
+      "id": "reading-11-rc-030",
+      "bankId": "reading-11-rc",
+      "text": "What assumption underlies Madison's argument about 'opposite and rival interests'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "People always act for the common good",
+          "Competition between powers prevents any one from dominating",
+          "Conflict destroys government",
+          "Unity is more important than balance"
+        ],
+        "correctAnswer": "Competition between powers prevents any one from dominating"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Integration of Knowledge",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.11-12.8"
+      ],
+      "primaryStandard": "RI.11-12.8",
+      "passage": "G11-I3: Federalist No. 51",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Madison believes competing interests create balance and prevent tyranny."
+    },
+    {
+      "id": "reading-11-rc-031",
+      "bankId": "reading-11-rc",
+      "text": "What does the green light symbolize in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Environmental awareness",
+          "Gatsby's longing for an unattainable dream",
+          "Traffic safety",
+          "Wealth and materialism only"
+        ],
+        "correctAnswer": "Gatsby's longing for an unattainable dream"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.2"
+      ],
+      "primaryStandard": "RL.11-12.2",
+      "passage": "G11-L4: The Great Gatsby Conclusion",
+      "passageText": "And as I sat there brooding on the old, unknown world, I thought of Gatsby's wonder when he first picked out the green light at the end of Daisy's dock. He had come a long way to this blue lawn, and his dream must have seemed so close that he could hardly fail to grasp it. He did not know that it was already behind him, somewhere back in that vast obscurity beyond the city, where the dark fields of the republic rolled on under the night. Gatsby believed in the green light, the orgastic future that year by year recedes before us. It eluded us then, but that's no matter - tomorrow we will run faster, stretch out our arms farther... And one fine morning - So we beat on, boats against the current, borne back ceaselessly into the past.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The green light represents Gatsby's impossible dream of recapturing the past."
+    },
+    {
+      "id": "reading-11-rc-032",
+      "bankId": "reading-11-rc",
+      "text": "What is the significance of the final image of 'boats against the current'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It suggests successful progress",
+          "It represents the futile struggle against time and the past",
+          "It celebrates human determination",
+          "It describes literal boating"
+        ],
+        "correctAnswer": "It represents the futile struggle against time and the past"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.11-12.4"
+      ],
+      "primaryStandard": "RL.11-12.4",
+      "passage": "G11-L4: The Great Gatsby Conclusion",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The image suggests humanity's endless, futile effort to escape the past."
+    },
+    {
+      "id": "reading-11-rc-033",
+      "bankId": "reading-11-rc",
+      "text": "What does Fitzgerald mean by 'it was already behind him'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Daisy had moved away",
+          "The dream was rooted in an idealized past that could not be recovered",
+          "Gatsby forgot his goal",
+          "The dock was physically behind him"
+        ],
+        "correctAnswer": "The dream was rooted in an idealized past that could not be recovered"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.11-12.1"
+      ],
+      "primaryStandard": "RL.11-12.1",
+      "passage": "G11-L4: The Great Gatsby Conclusion",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Gatsby's dream was based on a past moment that could never return."
+    },
+    {
+      "id": "reading-11-rc-034",
+      "bankId": "reading-11-rc",
+      "text": "How does the shift from 'he' to 'we' in the final paragraph affect meaning?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It narrows the focus to Gatsby alone",
+          "It universalizes Gatsby's struggle to all humanity",
+          "It excludes the reader from the narrative",
+          "It creates confusion about the speaker"
+        ],
+        "correctAnswer": "It universalizes Gatsby's struggle to all humanity"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.11-12.6"
+      ],
+      "primaryStandard": "RL.11-12.6",
+      "passage": "G11-L4: The Great Gatsby Conclusion",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The shift suggests Gatsby's dream represents a universal human condition."
+    },
+    {
+      "id": "reading-11-rc-035",
+      "bankId": "reading-11-rc",
+      "text": "What role does the 'dark fields of the republic' play in the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It represents agricultural prosperity",
+          "It symbolizes the vast American landscape and its unfulfilled promise",
+          "It describes nighttime farming",
+          "It represents urban development"
+        ],
+        "correctAnswer": "It symbolizes the vast American landscape and its unfulfilled promise"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.4"
+      ],
+      "primaryStandard": "RL.11-12.4",
+      "passage": "G11-L4: The Great Gatsby Conclusion",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The phrase connects Gatsby's personal dream to broader American themes."
+    },
+    {
+      "id": "reading-11-rc-036",
+      "bankId": "reading-11-rc",
+      "text": "What is the central argument of this Supreme Court opinion?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Separate facilities are acceptable if equal",
+          "Racial segregation in schools is inherently unequal",
+          "Education is not a fundamental right",
+          "States should decide education policy independently"
+        ],
+        "correctAnswer": "Racial segregation in schools is inherently unequal"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.2"
+      ],
+      "primaryStandard": "RI.11-12.2",
+      "passage": "G11-I4: Brown v. Board of Education",
+      "passageText": "We come then to the question presented: Does segregation of children in public schools solely on the basis of race, even though the physical facilities and other 'tangible' factors may be equal, deprive the children of the minority group of equal educational opportunities? We believe that it does. To separate them from others of similar age and qualifications solely because of their race generates a feeling of inferiority as to their status in the community that may affect their hearts and minds in a way unlikely ever to be undone. We conclude that in the field of public education the doctrine of 'separate but equal' has no place. Separate educational facilities are inherently unequal. Therefore, we hold that the plaintiffs and others similarly situated for whom the actions have been brought are, by reason of the segregation complained of, deprived of the equal protection of the laws guaranteed by the Fourteenth Amendment.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The Court ruled that separate schools are inherently unequal."
+    },
+    {
+      "id": "reading-11-rc-037",
+      "bankId": "reading-11-rc",
+      "text": "What constitutional basis does the Court use for its decision?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "First Amendment freedom of speech",
+          "Fourteenth Amendment equal protection",
+          "Second Amendment rights",
+          "Tenth Amendment states' rights"
+        ],
+        "correctAnswer": "Fourteenth Amendment equal protection"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.11-12.1"
+      ],
+      "primaryStandard": "RI.11-12.1",
+      "passage": "G11-I4: Brown v. Board of Education",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The Court bases its ruling on the Fourteenth Amendment's equal protection clause."
+    },
+    {
+      "id": "reading-11-rc-038",
+      "bankId": "reading-11-rc",
+      "text": "What type of evidence does the Court cite regarding psychological harm?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Statistical crime data",
+          "The impact on children's feelings and development",
+          "Economic analysis",
+          "International comparisons"
+        ],
+        "correctAnswer": "The impact on children's feelings and development"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.8"
+      ],
+      "primaryStandard": "RI.11-12.8",
+      "passage": "G11-I4: Brown v. Board of Education",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The Court discusses how segregation affects children's hearts and minds."
+    },
+    {
+      "id": "reading-11-rc-039",
+      "bankId": "reading-11-rc",
+      "text": "How does the Court's reasoning overturn the 'separate but equal' doctrine?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By proving facilities were always unequal physically",
+          "By arguing that separation itself creates inequality",
+          "By ignoring previous precedent entirely",
+          "By focusing only on funding disparities"
+        ],
+        "correctAnswer": "By arguing that separation itself creates inequality"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Integration of Knowledge",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.11-12.6"
+      ],
+      "primaryStandard": "RI.11-12.6",
+      "passage": "G11-I4: Brown v. Board of Education",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The Court argues separation creates inequality regardless of physical equality."
+    },
+    {
+      "id": "reading-11-rc-040",
+      "bankId": "reading-11-rc",
+      "text": "What does the phrase 'unlikely ever to be undone' suggest about the Court's view?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Segregation's harm is temporary",
+          "The psychological damage is permanent and severe",
+          "Children easily forget experiences",
+          "Education can reverse all harm"
+        ],
+        "correctAnswer": "The psychological damage is permanent and severe"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.4"
+      ],
+      "primaryStandard": "RI.11-12.4",
+      "passage": "G11-I4: Brown v. Board of Education",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The phrase emphasizes the lasting, perhaps permanent, harm of segregation."
+    },
+    {
+      "id": "reading-11-rc-041",
+      "bankId": "reading-11-rc",
+      "text": "What does Dickinson suggest about the nature of truth in this poem?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Truth should always be stated directly",
+          "Truth should be revealed gradually and indirectly",
+          "Truth is unimportant",
+          "Truth is always obvious"
+        ],
+        "correctAnswer": "Truth should be revealed gradually and indirectly"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.2"
+      ],
+      "primaryStandard": "RL.11-12.2",
+      "passage": "G11-L5: Tell all the truth",
+      "passageText": "Tell all the truth but tell it slant - Success in Circuit lies Too bright for our infirm Delight The Truth's superb surprise As Lightning to the Children eased With explanation kind The Truth must dazzle gradually Or every man be blind - The truth, like lightning, can overwhelm if presented too suddenly. Dickinson argues that truth requires careful, oblique presentation. Just as we explain lightning to children to prevent fear, so must truth be revealed gradually. The poem reflects Dickinson's understanding that human perception has limits, and that the complete, unmediated experience of truth might be more than consciousness can bear. Her characteristic dashes create pauses that enact this gradual revelation within the poem itself.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Dickinson argues truth should be told 'slant' or indirectly to prevent overwhelming."
+    },
+    {
+      "id": "reading-11-rc-042",
+      "bankId": "reading-11-rc",
+      "text": "What does the lightning metaphor suggest about truth?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Truth is dangerous and should be avoided",
+          "Truth has power that must be carefully managed",
+          "Truth is as common as weather",
+          "Truth strikes randomly"
+        ],
+        "correctAnswer": "Truth has power that must be carefully managed"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.4"
+      ],
+      "primaryStandard": "RL.11-12.4",
+      "passage": "G11-L5: Tell all the truth",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Lightning represents truth's brilliance and potential to overwhelm."
+    },
+    {
+      "id": "reading-11-rc-043",
+      "bankId": "reading-11-rc",
+      "text": "How do Dickinson's dashes function in this poem?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "They indicate spelling errors",
+          "They create pauses that enact gradual revelation",
+          "They separate unrelated ideas",
+          "They replace periods only"
+        ],
+        "correctAnswer": "They create pauses that enact gradual revelation"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.11-12.5"
+      ],
+      "primaryStandard": "RL.11-12.5",
+      "passage": "G11-L5: Tell all the truth",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The dashes create pauses that mirror the poem's message about gradual truth."
+    },
+    {
+      "id": "reading-11-rc-044",
+      "bankId": "reading-11-rc",
+      "text": "What does 'infirm Delight' suggest about human nature?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Humans are physically strong",
+          "Human capacity for understanding has limits",
+          "Humans enjoy illness",
+          "Delight is always healthy"
+        ],
+        "correctAnswer": "Human capacity for understanding has limits"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.11-12.4"
+      ],
+      "primaryStandard": "RL.11-12.4",
+      "passage": "G11-L5: Tell all the truth",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "'Infirm' suggests weakness or limitation in human capacity to receive truth."
+    },
+    {
+      "id": "reading-11-rc-045",
+      "bankId": "reading-11-rc",
+      "text": "Why does Dickinson reference explaining lightning to children?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To discuss weather patterns",
+          "To illustrate how truth needs gentle mediation",
+          "To show children are smarter than adults",
+          "To criticize scientific education"
+        ],
+        "correctAnswer": "To illustrate how truth needs gentle mediation"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.1"
+      ],
+      "primaryStandard": "RL.11-12.1",
+      "passage": "G11-L5: Tell all the truth",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The example shows how potentially frightening things need careful explanation."
+    },
+    {
+      "id": "reading-11-rc-046",
+      "bankId": "reading-11-rc",
+      "text": "What is King's primary rhetorical strategy in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Appeal to fear",
+          "Appeal to shared religious and democratic values",
+          "Personal attacks on opponents",
+          "Statistical analysis"
+        ],
+        "correctAnswer": "Appeal to shared religious and democratic values"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.6"
+      ],
+      "primaryStandard": "RI.11-12.6",
+      "passage": "G11-I5: Letter from Birmingham Jail",
+      "passageText": "I would agree with St. Augustine that 'an unjust law is no law at all.' Now, what is the difference between the two? How does one determine whether a law is just or unjust? A just law is a man-made code that squares with the moral law or the law of God. An unjust law is a code that is out of harmony with the moral law. To put it in the terms of St. Thomas Aquinas: An unjust law is a human law that is not rooted in eternal law and natural law. Any law that uplifts human personality is just. Any law that degrades human personality is unjust. All segregation statutes are unjust because segregation distorts the soul and damages the personality. It gives the segregator a false sense of superiority and the segregated a false sense of inferiority. Segregation, to use the terminology of the Jewish philosopher Martin Buber, substitutes an 'I-it' relationship for an 'I-thou' relationship and ends up relegating persons to the status of things.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "King appeals to religious and philosophical traditions shared by his audience."
+    },
+    {
+      "id": "reading-11-rc-047",
+      "bankId": "reading-11-rc",
+      "text": "How does King define an unjust law?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Any law he personally disagrees with",
+          "A law that degrades human personality and contradicts moral law",
+          "Any law passed by state governments",
+          "Laws that are difficult to enforce"
+        ],
+        "correctAnswer": "A law that degrades human personality and contradicts moral law"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.1"
+      ],
+      "primaryStandard": "RI.11-12.1",
+      "passage": "G11-I5: Letter from Birmingham Jail",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "King defines unjust laws as those degrading personality and contradicting moral law."
+    },
+    {
+      "id": "reading-11-rc-048",
+      "bankId": "reading-11-rc",
+      "text": "Why does King cite St. Augustine, Aquinas, and Buber?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To show off his education",
+          "To ground his argument in respected philosophical and religious traditions",
+          "To confuse his opponents",
+          "To discuss ancient history"
+        ],
+        "correctAnswer": "To ground his argument in respected philosophical and religious traditions"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.8"
+      ],
+      "primaryStandard": "RI.11-12.8",
+      "passage": "G11-I5: Letter from Birmingham Jail",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "King uses respected authorities to strengthen his moral argument."
+    },
+    {
+      "id": "reading-11-rc-049",
+      "bankId": "reading-11-rc",
+      "text": "What does Buber's 'I-it' versus 'I-thou' distinction mean in this context?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The difference between objects and pronouns",
+          "Segregation treats people as objects rather than persons",
+          "Personal relationships versus business relationships",
+          "The distinction between self and other"
+        ],
+        "correctAnswer": "Segregation treats people as objects rather than persons"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.11-12.4"
+      ],
+      "primaryStandard": "RI.11-12.4",
+      "passage": "G11-I5: Letter from Birmingham Jail",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "King uses Buber to show segregation dehumanizes people into things."
+    },
+    {
+      "id": "reading-11-rc-050",
+      "bankId": "reading-11-rc",
+      "text": "How does King argue segregation harms the segregator?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It costs them money",
+          "It gives them a false sense of superiority",
+          "It makes them less intelligent",
+          "It isolates them physically"
+        ],
+        "correctAnswer": "It gives them a false sense of superiority"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.2"
+      ],
+      "primaryStandard": "RI.11-12.2",
+      "passage": "G11-I5: Letter from Birmingham Jail",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "King argues segregation distorts the segregator's soul with false superiority."
+    },
+    {
+      "id": "reading-11-rc-051",
+      "bankId": "reading-11-rc",
+      "text": "What internal conflict does the speaker reveal?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Confusion about directions",
+          "Tension between individual path and conventional expectations",
+          "Anger at other travelers",
+          "Regret about physical fitness"
+        ],
+        "correctAnswer": "Tension between individual path and conventional expectations"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.1"
+      ],
+      "primaryStandard": "RL.11-12.1",
+      "passage": "G11-L6: The Road Not Taken",
+      "passageText": "Two roads diverged in a yellow wood, And sorry I could not travel both And be one traveler, long I stood And looked down one as far as I could To where it bent in the undergrowth; Then took the other, as just as fair, And having perhaps the better claim, Because it was grassy and wanted wear; Though as for that the passing there Had worn them really about the same, And both that morning equally lay In leaves no step had trodden black. Oh, I kept the first for another day! Yet knowing how way leads on to way, I doubted if I should ever come back. I shall be telling this with a sigh Somewhere ages and ages hence: Two roads diverged in a wood, and I - I took the one less traveled by, And that has made all the difference.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The speaker struggles between conformity and individuality in life choices."
+    },
+    {
+      "id": "reading-11-rc-052",
+      "bankId": "reading-11-rc",
+      "text": "What irony exists in the speaker's future storytelling?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The roads were actually identical, not different",
+          "The speaker will exaggerate the difference between paths",
+          "The speaker forgot which road was taken",
+          "The story will be told too soon"
+        ],
+        "correctAnswer": "The speaker will exaggerate the difference between paths"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.11-12.6"
+      ],
+      "primaryStandard": "RL.11-12.6",
+      "passage": "G11-L6: The Road Not Taken",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The poem notes both roads were 'really about the same' despite future claims."
+    },
+    {
+      "id": "reading-11-rc-053",
+      "bankId": "reading-11-rc",
+      "text": "What does 'way leads on to way' suggest about life choices?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "All paths eventually merge",
+          "Each choice leads to more choices, making return impossible",
+          "Roads are always circular",
+          "Travel is easy"
+        ],
+        "correctAnswer": "Each choice leads to more choices, making return impossible"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.4"
+      ],
+      "primaryStandard": "RL.11-12.4",
+      "passage": "G11-L6: The Road Not Taken",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The phrase suggests life's choices compound, preventing return to earlier options."
+    },
+    {
+      "id": "reading-11-rc-054",
+      "bankId": "reading-11-rc",
+      "text": "What does the 'sigh' in the final stanza convey?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Pure satisfaction",
+          "Ambiguity - perhaps contentment, perhaps regret",
+          "Anger at the choice",
+          "Physical exhaustion"
+        ],
+        "correctAnswer": "Ambiguity - perhaps contentment, perhaps regret"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.11-12.4"
+      ],
+      "primaryStandard": "RL.11-12.4",
+      "passage": "G11-L6: The Road Not Taken",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The sigh's meaning is ambiguous - it could express satisfaction or regret."
+    },
+    {
+      "id": "reading-11-rc-055",
+      "bankId": "reading-11-rc",
+      "text": "How does the poem's structure reinforce its theme?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The four stanzas mirror four seasons",
+          "The regular form contrasts with the uncertain content",
+          "Free verse reflects freedom of choice",
+          "The structure has no thematic significance"
+        ],
+        "correctAnswer": "The regular form contrasts with the uncertain content"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.11-12.5"
+      ],
+      "primaryStandard": "RL.11-12.5",
+      "passage": "G11-L6: The Road Not Taken",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The ordered structure contrasts with the theme of uncertainty and choice."
+    },
+    {
+      "id": "reading-11-rc-056",
+      "bankId": "reading-11-rc",
+      "text": "What is Emerson's central claim about self-reliance?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "People should always follow experts",
+          "Trust in one's own mind is essential to greatness",
+          "Conformity leads to happiness",
+          "Society's opinions are always correct"
+        ],
+        "correctAnswer": "Trust in one's own mind is essential to greatness"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.2"
+      ],
+      "primaryStandard": "RI.11-12.2",
+      "passage": "G11-I6: Self-Reliance",
+      "passageText": "There is a time in every man's education when he arrives at the conviction that envy is ignorance; that imitation is suicide; that he must take himself for better for worse as his portion; that though the wide universe is full of good, no kernel of nourishing corn can come to him but through his toil bestowed on that plot of ground which is given to him to till. The power which resides in him is new in nature, and none but he knows what that is which he can do, nor does he know until he has tried. Trust thyself: every heart vibrates to that iron string. Accept the place the divine providence has found for you, the society of your contemporaries, the connection of events. Great men have always done so, and confided themselves childlike to the genius of their age, betraying their perception that the absolutely trustworthy was seated at their heart, working through their hands, predominating in all their being.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Emerson argues that trusting one's own mind is essential to achieving greatness."
+    },
+    {
+      "id": "reading-11-rc-057",
+      "bankId": "reading-11-rc",
+      "text": "What does Emerson mean by 'imitation is suicide'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Copying is physically dangerous",
+          "Imitating others destroys one's authentic self",
+          "Learning from others is useless",
+          "Artists should never study masters"
+        ],
+        "correctAnswer": "Imitating others destroys one's authentic self"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.4"
+      ],
+      "primaryStandard": "RI.11-12.4",
+      "passage": "G11-I6: Self-Reliance",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Emerson argues that copying others kills one's unique identity and potential."
+    },
+    {
+      "id": "reading-11-rc-058",
+      "bankId": "reading-11-rc",
+      "text": "What does the 'plot of ground' metaphor suggest?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Everyone should become a farmer",
+          "Each person has unique talents to cultivate",
+          "Land ownership is essential",
+          "Agriculture is the best profession"
+        ],
+        "correctAnswer": "Each person has unique talents to cultivate"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.4"
+      ],
+      "primaryStandard": "RI.11-12.4",
+      "passage": "G11-I6: Self-Reliance",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The farming metaphor represents each person's unique gifts to develop."
+    },
+    {
+      "id": "reading-11-rc-059",
+      "bankId": "reading-11-rc",
+      "text": "How does Emerson use great men as evidence for his argument?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He proves they followed convention",
+          "He shows they trusted themselves and their age",
+          "He argues they were lucky",
+          "He demonstrates they imitated others"
+        ],
+        "correctAnswer": "He shows they trusted themselves and their age"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.8"
+      ],
+      "primaryStandard": "RI.11-12.8",
+      "passage": "G11-I6: Self-Reliance",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Emerson cites great men as examples of self-trust leading to achievement."
+    },
+    {
+      "id": "reading-11-rc-060",
+      "bankId": "reading-11-rc",
+      "text": "What does 'every heart vibrates to that iron string' mean?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Hearts are made of metal",
+          "Self-trust resonates universally within people",
+          "Music affects the heart",
+          "Iron is the strongest metal"
+        ],
+        "correctAnswer": "Self-trust resonates universally within people"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.11-12.4"
+      ],
+      "primaryStandard": "RI.11-12.4",
+      "passage": "G11-I6: Self-Reliance",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The metaphor suggests self-trust strikes a chord in everyone's soul."
+    },
+    {
+      "id": "reading-11-rc-061",
+      "bankId": "reading-11-rc",
+      "text": "What does the opening image of the poem establish?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "A celebration of life",
+          "A world of decay, exhaustion, and despair",
+          "A romantic natural scene",
+          "An industrial cityscape"
+        ],
+        "correctAnswer": "A world of decay, exhaustion, and despair"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.1"
+      ],
+      "primaryStandard": "RL.11-12.1",
+      "passage": "G11-L7: The Love Song of J. Alfred Prufrock",
+      "passageText": "Let us go then, you and I, When the evening is spread out against the sky Like a patient etherized upon a table; Let us go, through certain half-deserted streets, The muttering retreats Of restless nights in one-night cheap hotels And sawdust restaurants with oyster-shells: Streets that follow like a tedious argument Of insidious intent To lead you to an overwhelming question... Oh, do not ask, 'What is it?' Let us go and make our visit. In the room the women come and go Talking of Michelangelo. And indeed there will be time For the yellow smoke that slides along the street, Rubbing its back upon the window-panes; There will be time, there will be time To prepare a face to meet the faces that you meet.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The etherized patient simile establishes paralysis, decay, and modern alienation."
+    },
+    {
+      "id": "reading-11-rc-062",
+      "bankId": "reading-11-rc",
+      "text": "What does the simile 'like a patient etherized upon a table' suggest?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The evening is beautiful",
+          "The world is paralyzed and deadened",
+          "Medicine is important",
+          "Surgery is common"
+        ],
+        "correctAnswer": "The world is paralyzed and deadened"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.4"
+      ],
+      "primaryStandard": "RL.11-12.4",
+      "passage": "G11-L7: The Love Song of J. Alfred Prufrock",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The medical imagery suggests numbness, paralysis, and modern spiritual death."
+    },
+    {
+      "id": "reading-11-rc-063",
+      "bankId": "reading-11-rc",
+      "text": "What does 'prepare a face to meet the faces' reveal about modern social life?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "People enjoy meeting each other",
+          "Social interaction requires masks and performance",
+          "Faces are literally prepared",
+          "Cosmetics are important"
+        ],
+        "correctAnswer": "Social interaction requires masks and performance"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.4"
+      ],
+      "primaryStandard": "RL.11-12.4",
+      "passage": "G11-L7: The Love Song of J. Alfred Prufrock",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The phrase suggests social life requires performing inauthentic roles."
+    },
+    {
+      "id": "reading-11-rc-064",
+      "bankId": "reading-11-rc",
+      "text": "What is the effect of the repeated 'there will be time'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It shows confidence about the future",
+          "It reveals procrastination and fear of action",
+          "It celebrates patience",
+          "It describes a schedule"
+        ],
+        "correctAnswer": "It reveals procrastination and fear of action"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.5"
+      ],
+      "primaryStandard": "RL.11-12.5",
+      "passage": "G11-L7: The Love Song of J. Alfred Prufrock",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The repetition emphasizes Prufrock's paralysis and endless deferral."
+    },
+    {
+      "id": "reading-11-rc-065",
+      "bankId": "reading-11-rc",
+      "text": "How does the Michelangelo refrain function in the poem?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It celebrates Renaissance art",
+          "It contrasts superficial chatter with real artistic achievement",
+          "It describes a museum visit",
+          "It praises the women's intelligence"
+        ],
+        "correctAnswer": "It contrasts superficial chatter with real artistic achievement"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.11-12.6"
+      ],
+      "primaryStandard": "RL.11-12.6",
+      "passage": "G11-L7: The Love Song of J. Alfred Prufrock",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The refrain ironically contrasts shallow social talk with genuine art."
+    },
+    {
+      "id": "reading-11-rc-066",
+      "bankId": "reading-11-rc",
+      "text": "What is Jefferson's primary purpose in the Declaration's opening?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To insult King George",
+          "To establish philosophical justification for independence",
+          "To describe military strategy",
+          "To propose trade agreements"
+        ],
+        "correctAnswer": "To establish philosophical justification for independence"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.2"
+      ],
+      "primaryStandard": "RI.11-12.2",
+      "passage": "G11-I7: Declaration of Independence",
+      "passageText": "When in the Course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume among the powers of the earth, the separate and equal station to which the Laws of Nature and of Nature's God entitle them, a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation. We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness. That to secure these rights, Governments are instituted among Men, deriving their just powers from the consent of the governed. That whenever any Form of Government becomes destructive of these ends, it is the Right of the People to alter or to abolish it.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Jefferson establishes natural rights philosophy to justify revolution."
+    },
+    {
+      "id": "reading-11-rc-067",
+      "bankId": "reading-11-rc",
+      "text": "What does 'self-evident' truths mean in context?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Truths that require extensive proof",
+          "Truths obvious to any reasonable person",
+          "Truths about the self",
+          "Truths that are uncertain"
+        ],
+        "correctAnswer": "Truths obvious to any reasonable person"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.11-12.4"
+      ],
+      "primaryStandard": "RI.11-12.4",
+      "passage": "G11-I7: Declaration of Independence",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Self-evident truths are presented as needing no external proof."
+    },
+    {
+      "id": "reading-11-rc-068",
+      "bankId": "reading-11-rc",
+      "text": "What is the relationship between natural rights and government in Jefferson's argument?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Government creates rights",
+          "Government exists to protect pre-existing natural rights",
+          "Rights come from voting",
+          "Government and rights are unrelated"
+        ],
+        "correctAnswer": "Government exists to protect pre-existing natural rights"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.1"
+      ],
+      "primaryStandard": "RI.11-12.1",
+      "passage": "G11-I7: Declaration of Independence",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Jefferson argues governments are created to secure pre-existing natural rights."
+    },
+    {
+      "id": "reading-11-rc-069",
+      "bankId": "reading-11-rc",
+      "text": "How does Jefferson's phrase 'consent of the governed' establish a political principle?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It supports divine right of kings",
+          "It establishes that legitimate government requires popular approval",
+          "It endorses hereditary monarchy",
+          "It describes military conquest"
+        ],
+        "correctAnswer": "It establishes that legitimate government requires popular approval"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.6"
+      ],
+      "primaryStandard": "RI.11-12.6",
+      "passage": "G11-I7: Declaration of Independence",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The phrase establishes that government derives legitimacy from the people."
+    },
+    {
+      "id": "reading-11-rc-070",
+      "bankId": "reading-11-rc",
+      "text": "What rhetorical purpose does 'a decent respect to the opinions of mankind' serve?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To insult other nations",
+          "To justify explaining their reasons to the world",
+          "To request military aid",
+          "To apologize for revolution"
+        ],
+        "correctAnswer": "To justify explaining their reasons to the world"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.5"
+      ],
+      "primaryStandard": "RI.11-12.5",
+      "passage": "G11-I7: Declaration of Independence",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "This phrase explains why they offer justification to the international community."
+    },
+    {
+      "id": "reading-11-rc-071",
+      "bankId": "reading-11-rc",
+      "text": "What does the whale symbolize in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Simple marine biology",
+          "The unknowable, the sublime, and obsession's object",
+          "Commercial fishing",
+          "Transportation across the ocean"
+        ],
+        "correctAnswer": "The unknowable, the sublime, and obsession's object"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.2"
+      ],
+      "primaryStandard": "RL.11-12.2",
+      "passage": "G11-L8: Moby-Dick",
+      "passageText": "Call me Ishmael. Some years ago - never mind how long precisely - having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world. It is a way I have of driving off the spleen and regulating the circulation. Whenever I find myself growing grim about the mouth; whenever it is a damp, drizzly November in my soul; whenever I find myself involuntarily pausing before coffin warehouses, and bringing up the rear of every funeral I meet; and especially whenever my hypos get such an upper hand of me, that it requires a strong moral principle to prevent me from deliberately stepping into the street, and methodically knocking people's hats off - then, I account it high time to get to sea as soon as I can. This is my substitute for pistol and ball. With a philosophical flourish Cato throws himself upon his sword; I quietly take to the ship.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The whale represents the mysterious, the incomprehensible, and destructive obsession."
+    },
+    {
+      "id": "reading-11-rc-072",
+      "bankId": "reading-11-rc",
+      "text": "What does 'a damp, drizzly November in my soul' reveal about Ishmael?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He dislikes autumn weather",
+          "He experiences melancholy and existential depression",
+          "He has a cold",
+          "He prefers summer"
+        ],
+        "correctAnswer": "He experiences melancholy and existential depression"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.4"
+      ],
+      "primaryStandard": "RL.11-12.4",
+      "passage": "G11-L8: Moby-Dick",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The weather metaphor expresses inner spiritual and emotional gloom."
+    },
+    {
+      "id": "reading-11-rc-073",
+      "bankId": "reading-11-rc",
+      "text": "What is the significance of Ishmael's reference to Cato?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He admires Roman politics",
+          "He contrasts dramatic suicide with his quieter escape to sea",
+          "He wants to become a philosopher",
+          "He criticizes ancient Rome"
+        ],
+        "correctAnswer": "He contrasts dramatic suicide with his quieter escape to sea"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Integration of Knowledge",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.11-12.5"
+      ],
+      "primaryStandard": "RL.11-12.5",
+      "passage": "G11-L8: Moby-Dick",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Ishmael ironically compares going to sea with Cato's dramatic suicide."
+    },
+    {
+      "id": "reading-11-rc-074",
+      "bankId": "reading-11-rc",
+      "text": "What does 'This is my substitute for pistol and ball' suggest?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Ishmael collects weapons",
+          "Going to sea prevents darker self-destructive impulses",
+          "He is a soldier",
+          "Ships carry weapons"
+        ],
+        "correctAnswer": "Going to sea prevents darker self-destructive impulses"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.1"
+      ],
+      "primaryStandard": "RL.11-12.1",
+      "passage": "G11-L8: Moby-Dick",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Ishmael suggests the sea voyage is an alternative to suicide."
+    },
+    {
+      "id": "reading-11-rc-075",
+      "bankId": "reading-11-rc",
+      "text": "How does Melville establish Ishmael's narrative voice?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Through formal, distant prose",
+          "Through intimate, humorous, philosophical confession",
+          "Through scientific objectivity",
+          "Through dialogue only"
+        ],
+        "correctAnswer": "Through intimate, humorous, philosophical confession"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.6"
+      ],
+      "primaryStandard": "RL.11-12.6",
+      "passage": "G11-L8: Moby-Dick",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Ishmael's voice combines humor, philosophy, and personal confession."
+    },
+    {
+      "id": "reading-11-rc-076",
+      "bankId": "reading-11-rc",
+      "text": "What is Douglass's main purpose in describing his learning to read?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To boast about his intelligence",
+          "To show how literacy enabled his pursuit of freedom",
+          "To criticize his teachers",
+          "To describe childhood memories"
+        ],
+        "correctAnswer": "To show how literacy enabled his pursuit of freedom"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.2"
+      ],
+      "primaryStandard": "RI.11-12.2",
+      "passage": "G11-I8: Narrative of the Life of Frederick Douglass",
+      "passageText": "Very soon after I went to live with Mr. and Mrs. Auld, she very kindly commenced to teach me the A, B, C. After I had learned this, she assisted me in learning to spell words of three or four letters. Just at this point of my progress, Mr. Auld found out what was going on, and at once forbade Mrs. Auld to instruct me further, telling her, among other things, that it was unlawful, as well as unsafe, to teach a slave to read. He said, 'If you give a nigger an inch, he will take an ell. A nigger should know nothing but to obey his master. Learning would spoil the best nigger in the world.' From that moment, I understood the pathway from slavery to freedom. It was a new and special revelation, explaining dark and mysterious things, with which my youthful understanding had struggled. I now understood the white man's power to enslave the black man.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Douglass shows literacy as the key to understanding and escaping slavery."
+    },
+    {
+      "id": "reading-11-rc-077",
+      "bankId": "reading-11-rc",
+      "text": "What 'revelation' does Douglass experience from Mr. Auld's words?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "That slavery is legal",
+          "That education is the path from slavery to freedom",
+          "That Mrs. Auld was wrong to teach him",
+          "That obedience is virtue"
+        ],
+        "correctAnswer": "That education is the path from slavery to freedom"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.1"
+      ],
+      "primaryStandard": "RI.11-12.1",
+      "passage": "G11-I8: Narrative of the Life of Frederick Douglass",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Douglass understands that literacy is the pathway to freedom."
+    },
+    {
+      "id": "reading-11-rc-078",
+      "bankId": "reading-11-rc",
+      "text": "Why does Douglass include Mr. Auld's exact words?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To show respect for Mr. Auld",
+          "To expose the dehumanizing logic of slavery directly",
+          "To demonstrate his memory skills",
+          "To entertain readers"
+        ],
+        "correctAnswer": "To expose the dehumanizing logic of slavery directly"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.6"
+      ],
+      "primaryStandard": "RI.11-12.6",
+      "passage": "G11-I8: Narrative of the Life of Frederick Douglass",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Quoting directly exposes the brutal ideology of slaveholders."
+    },
+    {
+      "id": "reading-11-rc-079",
+      "bankId": "reading-11-rc",
+      "text": "What does Douglass mean by 'the white man's power to enslave the black man'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Physical strength alone",
+          "The deliberate use of ignorance as a tool of control",
+          "Legal documents only",
+          "Military force"
+        ],
+        "correctAnswer": "The deliberate use of ignorance as a tool of control"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.1"
+      ],
+      "primaryStandard": "RI.11-12.1",
+      "passage": "G11-I8: Narrative of the Life of Frederick Douglass",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Douglass realizes that enforced ignorance is slavery's key mechanism."
+    },
+    {
+      "id": "reading-11-rc-080",
+      "bankId": "reading-11-rc",
+      "text": "How does Douglass's account function as both personal narrative and social argument?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It only tells his personal story",
+          "It uses personal experience to expose slavery's systematic cruelty",
+          "It avoids political commentary",
+          "It focuses only on legal arguments"
+        ],
+        "correctAnswer": "It uses personal experience to expose slavery's systematic cruelty"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Integration of Knowledge",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.11-12.8"
+      ],
+      "primaryStandard": "RI.11-12.8",
+      "passage": "G11-I8: Narrative of the Life of Frederick Douglass",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Douglass combines personal experience with broader critique of slavery."
+    },
+    {
+      "id": "reading-11-rc-081",
+      "bankId": "reading-11-rc",
+      "text": "What does 'I am large, I contain multitudes' suggest about identity?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Physical size is important",
+          "The self contains contradictions and multiple aspects",
+          "Crowd mentality is good",
+          "Identity is simple and fixed"
+        ],
+        "correctAnswer": "The self contains contradictions and multiple aspects"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.2"
+      ],
+      "primaryStandard": "RL.11-12.2",
+      "passage": "G11-L9: Song of Myself (Section 51)",
+      "passageText": "Do I contradict myself? Very well then I contradict myself, (I am large, I contain multitudes.) I concentrate toward them that are nigh, I wait on the door-slab. Who has done his day's work? who will soonest be through with his supper? Who wishes to walk with me? Will you speak before I am gone? will you prove already too late? The spotted hawk swoops by and accuses me, he complains of my gab and my loitering. I too am not a bit tamed, I too am untranslatable, I sound my barbaric yawp over the roofs of the world. The last scud of day holds back for me, It flings my likeness after the rest and true as any on the shadow'd wilds, It coaxes me to the vapor and the dusk. I depart as air, I shake my white locks at the runaway sun.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Whitman embraces contradiction as essential to a full, complex identity."
+    },
+    {
+      "id": "reading-11-rc-082",
+      "bankId": "reading-11-rc",
+      "text": "How does Whitman's embrace of contradiction relate to his poetic project?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It shows logical weakness",
+          "It reflects his democratic vision of encompassing all perspectives",
+          "It indicates confusion",
+          "It contradicts his earlier claims"
+        ],
+        "correctAnswer": "It reflects his democratic vision of encompassing all perspectives"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.11-12.5"
+      ],
+      "primaryStandard": "RL.11-12.5",
+      "passage": "G11-L9: Song of Myself (Section 51)",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Whitman's contradictions reflect his embrace of democracy's diversity."
+    },
+    {
+      "id": "reading-11-rc-083",
+      "bankId": "reading-11-rc",
+      "text": "What does 'I depart as air' suggest about the speaker's nature?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He is dying",
+          "His spirit is expansive and omnipresent",
+          "He is physically disappearing",
+          "He is traveling by balloon"
+        ],
+        "correctAnswer": "His spirit is expansive and omnipresent"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.4"
+      ],
+      "primaryStandard": "RL.11-12.4",
+      "passage": "G11-L9: Song of Myself (Section 51)",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The air imagery suggests the speaker's universal, transcendent nature."
+    },
+    {
+      "id": "reading-11-rc-084",
+      "bankId": "reading-11-rc",
+      "text": "What is the effect of Whitman's questions to the reader?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "They create distance",
+          "They invite active engagement and participation",
+          "They demonstrate confusion",
+          "They criticize the reader"
+        ],
+        "correctAnswer": "They invite active engagement and participation"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.6"
+      ],
+      "primaryStandard": "RL.11-12.6",
+      "passage": "G11-L9: Song of Myself (Section 51)",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The direct questions invite the reader to join the speaker's journey."
+    },
+    {
+      "id": "reading-11-rc-085",
+      "bankId": "reading-11-rc",
+      "text": "How does the image of 'shaking white locks at the runaway sun' function?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It shows physical aging only",
+          "It suggests joyful defiance of mortality and time",
+          "It describes bad weather",
+          "It indicates sadness"
+        ],
+        "correctAnswer": "It suggests joyful defiance of mortality and time"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.11-12.1"
+      ],
+      "primaryStandard": "RL.11-12.1",
+      "passage": "G11-L9: Song of Myself (Section 51)",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The image suggests playful, triumphant acceptance of life's cycle."
+    },
+    {
+      "id": "reading-11-rc-086",
+      "bankId": "reading-11-rc",
+      "text": "What is Roosevelt's main purpose in this speech?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To celebrate the attack",
+          "To unite the nation and justify war against Japan",
+          "To surrender to Japan",
+          "To criticize the military"
+        ],
+        "correctAnswer": "To unite the nation and justify war against Japan"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.11-12.2"
+      ],
+      "primaryStandard": "RI.11-12.2",
+      "passage": "G11-I9: Pearl Harbor Address",
+      "passageText": "Yesterday, December 7th, 1941 - a date which will live in infamy - the United States of America was suddenly and deliberately attacked by naval and air forces of the Empire of Japan. The United States was at peace with that nation and, at the solicitation of Japan, was still in conversation with its government and its Emperor looking toward the maintenance of peace in the Pacific. Indeed, one hour after Japanese air squadrons had commenced bombing in the American island of Oahu, the Japanese Ambassador to the United States and his colleague delivered to our Secretary of State a formal reply to a recent American message. And while this reply stated that it seemed useless to continue the existing diplomatic negotiations, it contained no threat or hint of war or of armed attack. It will be recorded that the distance of Hawaii from Japan makes it obvious that the attack was deliberately planned many days or even weeks ago.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Roosevelt aims to unite Americans and justify entering World War II."
+    },
+    {
+      "id": "reading-11-rc-087",
+      "bankId": "reading-11-rc",
+      "text": "What does 'a date which will live in infamy' accomplish rhetorically?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It minimizes the attack",
+          "It creates lasting emotional impact and moral condemnation",
+          "It confuses the timeline",
+          "It praises the attackers"
+        ],
+        "correctAnswer": "It creates lasting emotional impact and moral condemnation"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.4"
+      ],
+      "primaryStandard": "RI.11-12.4",
+      "passage": "G11-I9: Pearl Harbor Address",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The phrase creates memorable condemnation and rallies national emotion."
+    },
+    {
+      "id": "reading-11-rc-088",
+      "bankId": "reading-11-rc",
+      "text": "How does Roosevelt emphasize Japanese deception?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By praising their strategy",
+          "By contrasting peaceful negotiations with the surprise attack",
+          "By ignoring the attack",
+          "By discussing trade relations"
+        ],
+        "correctAnswer": "By contrasting peaceful negotiations with the surprise attack"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.6"
+      ],
+      "primaryStandard": "RI.11-12.6",
+      "passage": "G11-I9: Pearl Harbor Address",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Roosevelt emphasizes ongoing negotiations to highlight Japanese treachery."
+    },
+    {
+      "id": "reading-11-rc-089",
+      "bankId": "reading-11-rc",
+      "text": "What evidence does Roosevelt cite to prove the attack was premeditated?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Japanese confessions",
+          "The distance from Japan requiring advance planning",
+          "Weather reports",
+          "Eyewitness testimony"
+        ],
+        "correctAnswer": "The distance from Japan requiring advance planning"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.1"
+      ],
+      "primaryStandard": "RI.11-12.1",
+      "passage": "G11-I9: Pearl Harbor Address",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Roosevelt cites the distance from Japan as proof of deliberate planning."
+    },
+    {
+      "id": "reading-11-rc-090",
+      "bankId": "reading-11-rc",
+      "text": "How does the speech's structure build to its conclusion?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It meanders without purpose",
+          "It progresses from establishing facts to moral judgment to call for action",
+          "It starts with conclusions",
+          "It avoids making arguments"
+        ],
+        "correctAnswer": "It progresses from establishing facts to moral judgment to call for action"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.5"
+      ],
+      "primaryStandard": "RI.11-12.5",
+      "passage": "G11-I9: Pearl Harbor Address",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Roosevelt builds from facts to condemnation to request for war declaration."
+    },
+    {
+      "id": "reading-11-rc-091",
+      "bankId": "reading-11-rc",
+      "text": "What does the 'dream deferred' symbolize in this poem?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Sleep and rest",
+          "Unfulfilled aspirations and racial injustice",
+          "Personal laziness",
+          "Future plans"
+        ],
+        "correctAnswer": "Unfulfilled aspirations and racial injustice"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.2"
+      ],
+      "primaryStandard": "RL.11-12.2",
+      "passage": "G11-L10: Harlem",
+      "passageText": "What happens to a dream deferred? Does it dry up like a raisin in the sun? Or fester like a sore - And then run? Does it stink like rotten meat? Or crust and sugar over - like a syrupy sweet? Maybe it just sags like a heavy load. Or does it explode? Langston Hughes wrote 'Harlem' in 1951, during the early civil rights era. The poem uses a series of vivid, often disturbing similes to explore what happens when dreams are postponed or denied. The images progress from passive decay to potential violence, reflecting the frustration of African Americans whose aspirations for equality remained unfulfilled. The final line, set apart and italicized, suggests the explosive potential of continued injustice.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The dream deferred represents African Americans' postponed hopes for equality."
+    },
+    {
+      "id": "reading-11-rc-092",
+      "bankId": "reading-11-rc",
+      "text": "How do Hughes's similes create a progression in the poem?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "They remain static throughout",
+          "They move from passive decay to explosive potential",
+          "They become more peaceful",
+          "They focus on pleasant images"
+        ],
+        "correctAnswer": "They move from passive decay to explosive potential"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.5"
+      ],
+      "primaryStandard": "RL.11-12.5",
+      "passage": "G11-L10: Harlem",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The images escalate from drying up to festering to potential explosion."
+    },
+    {
+      "id": "reading-11-rc-093",
+      "bankId": "reading-11-rc",
+      "text": "What is the effect of the final line being set apart?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It is a printing error",
+          "It emphasizes the threatening possibility of violence",
+          "It shows the poem is incomplete",
+          "It suggests uncertainty"
+        ],
+        "correctAnswer": "It emphasizes the threatening possibility of violence"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.5"
+      ],
+      "primaryStandard": "RL.11-12.5",
+      "passage": "G11-L10: Harlem",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The isolation emphasizes the explosive climax and its warning."
+    },
+    {
+      "id": "reading-11-rc-094",
+      "bankId": "reading-11-rc",
+      "text": "Why does Hughes use images of decay and rot?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To discuss food safety",
+          "To show how postponed dreams become toxic and dangerous",
+          "To describe Harlem's sanitation",
+          "To create pleasant imagery"
+        ],
+        "correctAnswer": "To show how postponed dreams become toxic and dangerous"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.4"
+      ],
+      "primaryStandard": "RL.11-12.4",
+      "passage": "G11-L10: Harlem",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Decay images show deferred dreams become harmful and dangerous."
+    },
+    {
+      "id": "reading-11-rc-095",
+      "bankId": "reading-11-rc",
+      "text": "What historical context informs this poem?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The Revolutionary War",
+          "The early civil rights movement and continued racial inequality",
+          "World War I",
+          "The Industrial Revolution"
+        ],
+        "correctAnswer": "The early civil rights movement and continued racial inequality"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.6"
+      ],
+      "primaryStandard": "RL.11-12.6",
+      "passage": "G11-L10: Harlem",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The poem reflects African American frustration during the civil rights era."
+    },
+    {
+      "id": "reading-11-rc-096",
+      "bankId": "reading-11-rc",
+      "text": "What is Kennedy's main argument about civic responsibility?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Citizens should demand more from government",
+          "Citizens should ask what they can do for their country",
+          "Government owes citizens everything",
+          "Civic duty is optional"
+        ],
+        "correctAnswer": "Citizens should ask what they can do for their country"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.11-12.2"
+      ],
+      "primaryStandard": "RI.11-12.2",
+      "passage": "G11-I10: Inaugural Address",
+      "passageText": "In the long history of the world, only a few generations have been granted the role of defending freedom in its hour of maximum danger. I do not shrink from this responsibility - I welcome it. I do not believe that any of us would exchange places with any other people or any other generation. The energy, the faith, the devotion which we bring to this endeavor will light our country and all who serve it - and the glow from that fire can truly light the world. And so, my fellow Americans: ask not what your country can do for you - ask what you can do for your country. My fellow citizens of the world: ask not what America will do for you, but what together we can do for the freedom of man. Finally, whether you are citizens of America or citizens of the world, ask of us the same high standards of strength and sacrifice which we ask of you.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Kennedy calls on citizens to contribute to their country rather than only receive."
+    },
+    {
+      "id": "reading-11-rc-097",
+      "bankId": "reading-11-rc",
+      "text": "How does Kennedy's chiasmus ('ask not...ask') create rhetorical effect?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It confuses the audience",
+          "It creates memorable reversal that emphasizes civic duty",
+          "It weakens the argument",
+          "It is grammatically incorrect"
+        ],
+        "correctAnswer": "It creates memorable reversal that emphasizes civic duty"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.11-12.5"
+      ],
+      "primaryStandard": "RI.11-12.5",
+      "passage": "G11-I10: Inaugural Address",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The chiasmus creates a memorable phrase that inverts expectations."
+    },
+    {
+      "id": "reading-11-rc-098",
+      "bankId": "reading-11-rc",
+      "text": "What does Kennedy mean by 'defending freedom in its hour of maximum danger'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Freedom has never been threatened",
+          "The Cold War presents an existential threat to liberty",
+          "Danger is exaggerated",
+          "Freedom is not important"
+        ],
+        "correctAnswer": "The Cold War presents an existential threat to liberty"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.4"
+      ],
+      "primaryStandard": "RI.11-12.4",
+      "passage": "G11-I10: Inaugural Address",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Kennedy refers to the Cold War's existential threat to democratic freedom."
+    },
+    {
+      "id": "reading-11-rc-099",
+      "bankId": "reading-11-rc",
+      "text": "How does Kennedy expand his audience beyond Americans?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He ignores international concerns",
+          "He addresses 'fellow citizens of the world' with shared goals",
+          "He criticizes other nations",
+          "He focuses only on domestic issues"
+        ],
+        "correctAnswer": "He addresses 'fellow citizens of the world' with shared goals"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.6"
+      ],
+      "primaryStandard": "RI.11-12.6",
+      "passage": "G11-I10: Inaugural Address",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Kennedy addresses global citizens to frame freedom as a universal cause."
+    },
+    {
+      "id": "reading-11-rc-100",
+      "bankId": "reading-11-rc",
+      "text": "What is the effect of Kennedy's fire and light imagery?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It warns of destruction",
+          "It suggests American ideals can inspire the world",
+          "It describes actual fires",
+          "It criticizes other nations"
+        ],
+        "correctAnswer": "It suggests American ideals can inspire the world"
+      },
+      "subject": "Reading",
+      "gradeLevel": "11",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.4"
+      ],
+      "primaryStandard": "RI.11-12.4",
+      "passage": "G11-I10: Inaugural Address",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Fire and light imagery suggests American devotion can illuminate global freedom."
+    }
+  ]
+}

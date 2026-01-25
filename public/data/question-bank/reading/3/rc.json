@@ -1,0 +1,2738 @@
+{
+  "metadata": {
+    "subject": "Reading",
+    "gradeLevel": "3",
+    "domain": "RC",
+    "domainName": "Reading Comprehension",
+    "lastUpdated": "2026-01-25",
+    "totalQuestions": 100,
+    "description": "CCSS-aligned reading comprehension assessment with literary and informational texts",
+    "lexileRange": "520L-820L"
+  },
+  "questions": [
+    {
+      "id": "reading-3-rc-001",
+      "bankId": "reading-3-rc",
+      "text": "Why did the tortoise challenge the hare to a race?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The tortoise wanted to prove that being steady wins",
+          "The tortoise was faster than the hare",
+          "The hare made fun of the tortoise",
+          "The other animals forced them to race"
+        ],
+        "correctAnswer": "The hare made fun of the tortoise"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RL.3.1"
+      ],
+      "primaryStandard": "RL.3.1",
+      "passage": "G3-L1: The Tortoise and the Hare",
+      "passageText": "The hare was the fastest animal in the forest. He loved to brag about his speed. 'No one can beat me!' he would say. The tortoise grew tired of the hare's boasting. 'I challenge you to a race,' said the tortoise. The hare laughed. 'You? Race me? This will be easy!' The race began, and the hare sprinted far ahead. He was so confident that he decided to take a nap under a tree. Meanwhile, the tortoise kept moving slowly but steadily. When the hare woke up, he saw the tortoise crossing the finish line. The tortoise had won! The hare learned that being too proud can lead to failure.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states that 'The tortoise grew tired of the hare's boasting' and challenged him to prove him wrong."
+    },
+    {
+      "id": "reading-3-rc-002",
+      "bankId": "reading-3-rc",
+      "text": "What is the central message of this fable?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Fast animals always win races",
+          "Slow and steady can win the race",
+          "Napping is a good idea during races",
+          "Tortoises are smarter than hares"
+        ],
+        "correctAnswer": "Slow and steady can win the race"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.3.2"
+      ],
+      "primaryStandard": "RL.3.2",
+      "passage": "G3-L1: The Tortoise and the Hare",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The fable teaches that consistent effort can beat natural talent when talent becomes overconfident."
+    },
+    {
+      "id": "reading-3-rc-003",
+      "bankId": "reading-3-rc",
+      "text": "How did the hare's actions lead to his defeat?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He ran the wrong way",
+          "He was too confident and took a nap",
+          "The tortoise cheated",
+          "He got injured during the race"
+        ],
+        "correctAnswer": "He was too confident and took a nap"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.3.3"
+      ],
+      "primaryStandard": "RL.3.3",
+      "passage": "G3-L1: The Tortoise and the Hare",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The hare's overconfidence led him to take a nap, allowing the tortoise to pass him and win."
+    },
+    {
+      "id": "reading-3-rc-004",
+      "bankId": "reading-3-rc",
+      "text": "What does 'bragging' mean as used in this story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Speaking quietly",
+          "Talking proudly about oneself",
+          "Running very fast",
+          "Feeling nervous"
+        ],
+        "correctAnswer": "Talking proudly about oneself"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.3.4"
+      ],
+      "primaryStandard": "RL.3.4",
+      "passage": "G3-L1: The Tortoise and the Hare",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Bragging means boasting or talking too proudly about one's abilities."
+    },
+    {
+      "id": "reading-3-rc-005",
+      "bankId": "reading-3-rc",
+      "text": "How does the author build suspense in this story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By describing the weather",
+          "By having the hare fall asleep while the tortoise keeps going",
+          "By introducing new characters",
+          "By changing the setting"
+        ],
+        "correctAnswer": "By having the hare fall asleep while the tortoise keeps going"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.3.5"
+      ],
+      "primaryStandard": "RL.3.5",
+      "passage": "G3-L1: The Tortoise and the Hare",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The suspense builds as readers wonder if the tortoise can pass the sleeping hare."
+    },
+    {
+      "id": "reading-3-rc-006",
+      "bankId": "reading-3-rc",
+      "text": "From whose point of view is this story told?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The tortoise's point of view",
+          "The hare's point of view",
+          "A narrator outside the story",
+          "The other forest animals"
+        ],
+        "correctAnswer": "A narrator outside the story"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.3.6"
+      ],
+      "primaryStandard": "RL.3.6",
+      "passage": "G3-L1: The Tortoise and the Hare",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The story is told by a third-person narrator who is not a character in the story."
+    },
+    {
+      "id": "reading-3-rc-007",
+      "bankId": "reading-3-rc",
+      "text": "What is the main topic of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "How butterflies are born",
+          "What butterflies eat",
+          "The life cycle of a butterfly",
+          "Where butterflies live"
+        ],
+        "correctAnswer": "The life cycle of a butterfly"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.3.2"
+      ],
+      "primaryStandard": "RI.3.2",
+      "passage": "G3-I1: The Life Cycle of a Butterfly",
+      "passageText": "Butterflies go through an amazing change called metamorphosis. It begins when a female butterfly lays tiny eggs on a leaf. After a few days, a caterpillar hatches from each egg. The hungry caterpillar eats leaves and grows bigger. When it is ready, the caterpillar forms a chrysalis around itself. Inside the chrysalis, something magical happens. The caterpillar's body completely changes. After about two weeks, a beautiful butterfly emerges. Its wings are wet and crumpled at first. The butterfly rests while its wings dry and expand. Then it flies away to find flowers and start the cycle again.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage describes the complete life cycle of a butterfly from egg to adult."
+    },
+    {
+      "id": "reading-3-rc-008",
+      "bankId": "reading-3-rc",
+      "text": "What happens right after the caterpillar hatches?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It forms a chrysalis",
+          "It flies away",
+          "It eats leaves and grows",
+          "It lays eggs"
+        ],
+        "correctAnswer": "It eats leaves and grows"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.3.1"
+      ],
+      "primaryStandard": "RI.3.1",
+      "passage": "G3-I1: The Life Cycle of a Butterfly",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text states 'The hungry caterpillar eats leaves and grows bigger.'"
+    },
+    {
+      "id": "reading-3-rc-009",
+      "bankId": "reading-3-rc",
+      "text": "What is the relationship between the caterpillar stage and the butterfly stage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "They are different animals",
+          "The caterpillar transforms into the butterfly",
+          "They live together",
+          "The butterfly creates the caterpillar"
+        ],
+        "correctAnswer": "The caterpillar transforms into the butterfly"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.3.3"
+      ],
+      "primaryStandard": "RI.3.3",
+      "passage": "G3-I1: The Life Cycle of a Butterfly",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explains that the caterpillar's body completely changes into a butterfly inside the chrysalis."
+    },
+    {
+      "id": "reading-3-rc-010",
+      "bankId": "reading-3-rc",
+      "text": "What does 'metamorphosis' mean based on the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "A type of butterfly",
+          "A complete change in form",
+          "A kind of leaf",
+          "Flying through the air"
+        ],
+        "correctAnswer": "A complete change in form"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.3.4"
+      ],
+      "primaryStandard": "RI.3.4",
+      "passage": "G3-I1: The Life Cycle of a Butterfly",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage describes metamorphosis as an 'amazing change' where the caterpillar completely transforms."
+    },
+    {
+      "id": "reading-3-rc-011",
+      "bankId": "reading-3-rc",
+      "text": "How is this passage organized?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Problem and solution",
+          "Compare and contrast",
+          "Sequence of events",
+          "Cause and effect"
+        ],
+        "correctAnswer": "Sequence of events"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.3.5"
+      ],
+      "primaryStandard": "RI.3.5",
+      "passage": "G3-I1: The Life Cycle of a Butterfly",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage describes the life cycle in order from egg to caterpillar to chrysalis to butterfly."
+    },
+    {
+      "id": "reading-3-rc-012",
+      "bankId": "reading-3-rc",
+      "text": "What is the author's purpose in writing this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To entertain readers with a funny story",
+          "To persuade readers to protect butterflies",
+          "To inform readers about how butterflies develop",
+          "To describe a personal experience with butterflies"
+        ],
+        "correctAnswer": "To inform readers about how butterflies develop"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.3.6"
+      ],
+      "primaryStandard": "RI.3.6",
+      "passage": "G3-I1: The Life Cycle of a Butterfly",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author's purpose is to explain and inform readers about the butterfly life cycle."
+    },
+    {
+      "id": "reading-3-rc-013",
+      "bankId": "reading-3-rc",
+      "text": "Why did Anansi want to collect all the wisdom in the world?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To share it with everyone",
+          "To keep it all for himself",
+          "To throw it away",
+          "To give it to his son"
+        ],
+        "correctAnswer": "To keep it all for himself"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RL.3.1"
+      ],
+      "primaryStandard": "RL.3.1",
+      "passage": "G3-L2: Anansi and the Pot of Wisdom",
+      "passageText": "Long ago, Anansi the spider decided to collect all the wisdom in the world. He wanted to keep it for himself so he would be the wisest creature alive. He gathered wisdom from everywhere and put it in a large pot. Then he decided to hide the pot at the top of a tall tree. Anansi tied the pot to his belly and began to climb. But the pot kept bumping into the tree, making it hard to climb. His young son watched from below. 'Father, why not tie the pot to your back? Then it won't be in your way,' the boy called out. Anansi realized his son was right. But this made him angry. If his son was so wise, then Anansi had not collected ALL the wisdom! In his frustration, Anansi threw the pot down. It shattered, and wisdom scattered everywhere. That is why wisdom belongs to everyone.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states Anansi 'wanted to keep it for himself so he would be the wisest creature alive.'"
+    },
+    {
+      "id": "reading-3-rc-014",
+      "bankId": "reading-3-rc",
+      "text": "What is the central message of this folktale?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Spiders are very clever",
+          "Wisdom cannot be owned by one person",
+          "Children should not give advice",
+          "Climbing trees is dangerous"
+        ],
+        "correctAnswer": "Wisdom cannot be owned by one person"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.3.2"
+      ],
+      "primaryStandard": "RL.3.2",
+      "passage": "G3-L2: Anansi and the Pot of Wisdom",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The story teaches that wisdom is meant to be shared and cannot be possessed by one person."
+    },
+    {
+      "id": "reading-3-rc-015",
+      "bankId": "reading-3-rc",
+      "text": "How does Anansi's character trait lead to the outcome of the story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "His kindness helps everyone",
+          "His greed causes wisdom to be shared with all",
+          "His patience wins the day",
+          "His wisdom saves the village"
+        ],
+        "correctAnswer": "His greed causes wisdom to be shared with all"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.3.3"
+      ],
+      "primaryStandard": "RL.3.3",
+      "passage": "G3-L2: Anansi and the Pot of Wisdom",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Anansi's greed led him to try to hoard wisdom, but his frustration caused him to break the pot, sharing wisdom with everyone."
+    },
+    {
+      "id": "reading-3-rc-016",
+      "bankId": "reading-3-rc",
+      "text": "What does 'frustration' mean in this story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Feeling happy and excited",
+          "Feeling upset and annoyed",
+          "Feeling tired and sleepy",
+          "Feeling calm and peaceful"
+        ],
+        "correctAnswer": "Feeling upset and annoyed"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.3.4"
+      ],
+      "primaryStandard": "RL.3.4",
+      "passage": "G3-L2: Anansi and the Pot of Wisdom",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Frustration means feeling upset, which is shown when Anansi angrily throws the pot."
+    },
+    {
+      "id": "reading-3-rc-017",
+      "bankId": "reading-3-rc",
+      "text": "Where did George Washington Carver do most of his important work?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "A hospital",
+          "Tuskegee Institute",
+          "A factory",
+          "His childhood home"
+        ],
+        "correctAnswer": "Tuskegee Institute"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.3.1"
+      ],
+      "primaryStandard": "RI.3.1",
+      "passage": "G3-I2: George Washington Carver",
+      "passageText": "George Washington Carver was born into slavery around 1864. After slavery ended, he worked hard to get an education. He became a scientist and teacher at Tuskegee Institute in Alabama. Carver wanted to help poor farmers in the South. The soil was worn out from growing cotton year after year. Carver taught farmers to grow peanuts and sweet potatoes instead. These crops put nutrients back into the soil. But there was a problem. Nobody wanted to buy so many peanuts! So Carver invented over 300 products from peanuts, including dyes, plastics, and cooking oil. He invented over 100 products from sweet potatoes. Carver never patented most of his inventions. He wanted everyone to use them freely. His work helped farmers and improved many lives.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states that Carver 'became a scientist and teacher at Tuskegee Institute.'"
+    },
+    {
+      "id": "reading-3-rc-018",
+      "bankId": "reading-3-rc",
+      "text": "What was the main problem Carver tried to solve?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Farmers had too many peanuts",
+          "The soil was worn out from growing cotton",
+          "Students needed more teachers",
+          "Farmers were growing too many crops"
+        ],
+        "correctAnswer": "The soil was worn out from growing cotton"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.3.2"
+      ],
+      "primaryStandard": "RI.3.2",
+      "passage": "G3-I2: George Washington Carver",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explains that 'The soil was worn out from growing cotton year after year.'"
+    },
+    {
+      "id": "reading-3-rc-019",
+      "bankId": "reading-3-rc",
+      "text": "What is the connection between growing peanuts and Carver's inventions?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Peanuts were already popular products",
+          "Carver invented products so farmers could sell their peanuts",
+          "The inventions came before the peanut crops",
+          "There is no connection"
+        ],
+        "correctAnswer": "Carver invented products so farmers could sell their peanuts"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.3.3"
+      ],
+      "primaryStandard": "RI.3.3",
+      "passage": "G3-I2: George Washington Carver",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "When 'Nobody wanted to buy so many peanuts,' Carver invented products to create a market for them."
+    },
+    {
+      "id": "reading-3-rc-020",
+      "bankId": "reading-3-rc",
+      "text": "What does 'patented' mean in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Gave away for free",
+          "Protected legally so only the inventor could sell it",
+          "Threw in the trash",
+          "Taught to students"
+        ],
+        "correctAnswer": "Protected legally so only the inventor could sell it"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.3.4"
+      ],
+      "primaryStandard": "RI.3.4",
+      "passage": "G3-I2: George Washington Carver",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The context shows that by not patenting, Carver allowed 'everyone to use them freely.'"
+    },
+    {
+      "id": "reading-3-rc-021",
+      "bankId": "reading-3-rc",
+      "text": "How does the author show that Carver was generous?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By describing his childhood",
+          "By explaining he never patented most inventions",
+          "By listing his products",
+          "By naming his workplace"
+        ],
+        "correctAnswer": "By explaining he never patented most inventions"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.3.6"
+      ],
+      "primaryStandard": "RI.3.6",
+      "passage": "G3-I2: George Washington Carver",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author shows Carver's generosity by stating he wanted everyone to use his inventions freely."
+    },
+    {
+      "id": "reading-3-rc-022",
+      "bankId": "reading-3-rc",
+      "text": "What made the little red hen different from the other animals?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She was the biggest animal on the farm",
+          "She was willing to do the work herself",
+          "She could not bake bread",
+          "She was friends with everyone"
+        ],
+        "correctAnswer": "She was willing to do the work herself"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RL.3.3"
+      ],
+      "primaryStandard": "RL.3.3",
+      "passage": "G3-L3: The Little Red Hen",
+      "passageText": "A little red hen lived on a farm with a lazy cat, a sleepy dog, and a noisy duck. One day, the hen found some wheat seeds. 'Who will help me plant these seeds?' she asked. 'Not I,' said the cat. 'Not I,' said the dog. 'Not I,' said the duck. 'Then I will do it myself,' said the hen. And she did. When the wheat grew tall, she asked, 'Who will help me cut the wheat?' But the animals refused again. The hen cut, ground, and baked the wheat all by herself. When the bread was ready, she asked, 'Who will help me eat this bread?' 'I will!' said all the animals. 'No,' said the hen. 'I planted, cut, ground, and baked all by myself. Now I will eat it all by myself.' And she did.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Unlike the lazy animals, the hen was willing to do all the work herself."
+    },
+    {
+      "id": "reading-3-rc-023",
+      "bankId": "reading-3-rc",
+      "text": "What lesson does this story teach?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Bread is hard to make",
+          "If you do not help with the work, you should not share in the reward",
+          "Animals cannot make bread",
+          "Hens are the best bakers"
+        ],
+        "correctAnswer": "If you do not help with the work, you should not share in the reward"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.3.2"
+      ],
+      "primaryStandard": "RL.3.2",
+      "passage": "G3-L3: The Little Red Hen",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The story teaches that those who don't work shouldn't expect to enjoy the results."
+    },
+    {
+      "id": "reading-3-rc-024",
+      "bankId": "reading-3-rc",
+      "text": "How does the author use repetition in this story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The hen asks questions and animals refuse each time",
+          "The animals help the hen every time",
+          "The weather changes repeatedly",
+          "Different foods are made"
+        ],
+        "correctAnswer": "The hen asks questions and animals refuse each time"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.3.5"
+      ],
+      "primaryStandard": "RL.3.5",
+      "passage": "G3-L3: The Little Red Hen",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The pattern of the hen asking for help and animals saying 'Not I' repeats throughout."
+    },
+    {
+      "id": "reading-3-rc-025",
+      "bankId": "reading-3-rc",
+      "text": "What can you tell about the water cycle from this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It happens only once",
+          "It is a repeating process",
+          "It only happens in summer",
+          "It only involves oceans"
+        ],
+        "correctAnswer": "It is a repeating process"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.3.1"
+      ],
+      "primaryStandard": "RI.3.1",
+      "passage": "G3-I3: The Water Cycle",
+      "passageText": "Water on Earth is always moving in a cycle. The sun heats water in oceans, lakes, and rivers. The water evaporates, which means it turns into water vapor and rises into the air. High in the sky, the vapor cools and forms tiny water droplets. These droplets come together to make clouds. This is called condensation. When the droplets get heavy enough, they fall back to Earth as precipitation. Precipitation can be rain, snow, sleet, or hail. Some water flows into rivers and streams. Some soaks into the ground. Eventually, the water returns to oceans and lakes. Then the cycle starts again. The same water has been cycling around Earth for millions of years!",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage calls it a 'cycle' and states 'the cycle starts again,' showing it repeats."
+    },
+    {
+      "id": "reading-3-rc-026",
+      "bankId": "reading-3-rc",
+      "text": "What is the main idea of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Rain falls from clouds",
+          "Water moves in a continuous cycle on Earth",
+          "The sun is very hot",
+          "Oceans contain salt water"
+        ],
+        "correctAnswer": "Water moves in a continuous cycle on Earth"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.3.2"
+      ],
+      "primaryStandard": "RI.3.2",
+      "passage": "G3-I3: The Water Cycle",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage describes how water continuously moves through evaporation, condensation, and precipitation."
+    },
+    {
+      "id": "reading-3-rc-027",
+      "bankId": "reading-3-rc",
+      "text": "What causes water to evaporate?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The moon",
+          "Heat from the sun",
+          "Wind",
+          "Clouds"
+        ],
+        "correctAnswer": "Heat from the sun"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.3.3"
+      ],
+      "primaryStandard": "RI.3.3",
+      "passage": "G3-I3: The Water Cycle",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'The sun heats water' which causes it to evaporate."
+    },
+    {
+      "id": "reading-3-rc-028",
+      "bankId": "reading-3-rc",
+      "text": "What does 'precipitation' mean based on context clues?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Water rising into the air",
+          "Water falling from clouds to Earth",
+          "Water in the ocean",
+          "Water turning into vapor"
+        ],
+        "correctAnswer": "Water falling from clouds to Earth"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.3.4"
+      ],
+      "primaryStandard": "RI.3.4",
+      "passage": "G3-I3: The Water Cycle",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage says precipitation is when droplets 'fall back to Earth as rain, snow, sleet, or hail.'"
+    },
+    {
+      "id": "reading-3-rc-029",
+      "bankId": "reading-3-rc",
+      "text": "Why did the stonecutter first wish to be the sun?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He wanted to give light to people",
+          "He saw that the sun was more powerful than the rich man",
+          "He was cold",
+          "The mountain told him to"
+        ],
+        "correctAnswer": "He saw that the sun was more powerful than the rich man"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.3.1"
+      ],
+      "primaryStandard": "RL.3.1",
+      "passage": "G3-L4: The Stonecutter",
+      "passageText": "A stonecutter worked hard every day cutting stones from a mountain. One day, he saw a rich man carried in a fancy chair. 'I wish I could be rich like him!' A mountain spirit heard his wish and granted it. Now rich, he saw the hot sun making everyone uncomfortable. 'The sun is more powerful than me. I wish I were the sun!' He became the sun, but a cloud blocked his rays. 'The cloud is more powerful!' He became a cloud and made rain, but the mountain stood firm against his floods. 'The mountain is more powerful!' He became the mountain, strong and proud. But then he felt a tap, tap, tap. A stonecutter was chipping away at him! 'The stonecutter is more powerful than even the mountain!' He wished to be a stonecutter again. Finally content, he learned that what he had was enough.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "He saw the sun making everyone uncomfortable, showing it was more powerful than being rich."
+    },
+    {
+      "id": "reading-3-rc-030",
+      "bankId": "reading-3-rc",
+      "text": "What is the central message of this folktale?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Being rich is the best",
+          "Mountains are the strongest things",
+          "Be content with who you are",
+          "Magic can solve all problems"
+        ],
+        "correctAnswer": "Be content with who you are"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.3.2"
+      ],
+      "primaryStandard": "RL.3.2",
+      "passage": "G3-L4: The Stonecutter",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The stonecutter learns to be content with who he originally was."
+    },
+    {
+      "id": "reading-3-rc-031",
+      "bankId": "reading-3-rc",
+      "text": "How does the stonecutter's character change throughout the story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He becomes more greedy",
+          "He learns to appreciate what he has",
+          "He becomes a better stonecutter",
+          "He forgets how to work"
+        ],
+        "correctAnswer": "He learns to appreciate what he has"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.3.3"
+      ],
+      "primaryStandard": "RL.3.3",
+      "passage": "G3-L4: The Stonecutter",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "After many transformations, he becomes content and appreciates his original life."
+    },
+    {
+      "id": "reading-3-rc-032",
+      "bankId": "reading-3-rc",
+      "text": "What does 'content' mean in this story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Sad and angry",
+          "Happy and satisfied",
+          "Tired and sleepy",
+          "Confused and lost"
+        ],
+        "correctAnswer": "Happy and satisfied"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Craft and Structure",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RL.3.4"
+      ],
+      "primaryStandard": "RL.3.4",
+      "passage": "G3-L4: The Stonecutter",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Content means satisfied, shown when he finally 'learned that what he had was enough.'"
+    },
+    {
+      "id": "reading-3-rc-033",
+      "bankId": "reading-3-rc",
+      "text": "Where does this passage say honeybees live?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Underground",
+          "In hives with thousands of other bees",
+          "Alone in trees",
+          "In water"
+        ],
+        "correctAnswer": "In hives with thousands of other bees"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.3.1"
+      ],
+      "primaryStandard": "RI.3.1",
+      "passage": "G3-I4: Amazing Honeybees",
+      "passageText": "Honeybees are some of nature's hardest workers. They live in hives with thousands of other bees. Each bee has a special job. The queen bee lays all the eggs. Worker bees are all female. They collect nectar from flowers, make honey, and care for baby bees. Drones are male bees whose only job is to help make new queens. Bees communicate through a special 'waggle dance.' When a bee finds good flowers, it returns to the hive and dances. The dance tells other bees exactly where to find the flowers! Bees are very important to humans. They pollinate many of the fruits and vegetables we eat. Without bees, we would not have apples, strawberries, or almonds. Scientists are working to protect bees because their numbers are decreasing.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'They live in hives with thousands of other bees.'"
+    },
+    {
+      "id": "reading-3-rc-034",
+      "bankId": "reading-3-rc",
+      "text": "What is the main idea of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Bees like to dance",
+          "Honeybees are hardworking and important insects",
+          "Queens are the only important bees",
+          "Drones do all the work"
+        ],
+        "correctAnswer": "Honeybees are hardworking and important insects"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.3.2"
+      ],
+      "primaryStandard": "RI.3.2",
+      "passage": "G3-I4: Amazing Honeybees",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage describes bees as 'nature's hardest workers' and explains their importance."
+    },
+    {
+      "id": "reading-3-rc-035",
+      "bankId": "reading-3-rc",
+      "text": "What is the relationship between the waggle dance and finding food?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The dance celebrates finding food",
+          "The dance tells other bees where flowers are located",
+          "The dance scares away enemies",
+          "There is no relationship"
+        ],
+        "correctAnswer": "The dance tells other bees where flowers are located"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.3.3"
+      ],
+      "primaryStandard": "RI.3.3",
+      "passage": "G3-I4: Amazing Honeybees",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'The dance tells other bees exactly where to find the flowers!'"
+    },
+    {
+      "id": "reading-3-rc-036",
+      "bankId": "reading-3-rc",
+      "text": "What does 'pollinate' mean based on context clues?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Eat plants",
+          "Help plants make seeds and grow fruit",
+          "Build hives",
+          "Make honey"
+        ],
+        "correctAnswer": "Help plants make seeds and grow fruit"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.3.4"
+      ],
+      "primaryStandard": "RI.3.4",
+      "passage": "G3-I4: Amazing Honeybees",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The context shows pollination relates to fruits and vegetables growing."
+    },
+    {
+      "id": "reading-3-rc-037",
+      "bankId": "reading-3-rc",
+      "text": "How is this text organized?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "As a story with a beginning, middle, and end",
+          "By describing different aspects of honeybees",
+          "As a list of instructions",
+          "By comparing two different insects"
+        ],
+        "correctAnswer": "By describing different aspects of honeybees"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.3.5"
+      ],
+      "primaryStandard": "RI.3.5",
+      "passage": "G3-I4: Amazing Honeybees",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage covers different topics about bees: jobs, communication, and importance."
+    },
+    {
+      "id": "reading-3-rc-038",
+      "bankId": "reading-3-rc",
+      "text": "Why did the Emperor want new clothes?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "His old clothes were worn out",
+          "He wanted to look better than everyone else",
+          "His servants told him to",
+          "It was winter"
+        ],
+        "correctAnswer": "He wanted to look better than everyone else"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RL.3.1"
+      ],
+      "primaryStandard": "RL.3.1",
+      "passage": "G3-L5: The Emperor's New Clothes",
+      "passageText": "An emperor loved fine clothes more than anything. Two clever tricksters came to town. They said they could weave magical cloth that was invisible to anyone who was stupid or unfit for their job. The emperor paid them gold to make him a suit. The tricksters pretended to work on empty looms. When ministers came to check, they saw nothing but were afraid to admit it. 'How beautiful!' they lied. The emperor came to see the cloth. He saw nothing but was too proud to admit it. On parade day, he walked through the streets in his 'new clothes.' People cheered to avoid looking stupid. Then a child shouted, 'But he has nothing on!' Everyone laughed. The emperor realized he had been fooled by his own pride. He learned that honesty is more important than pride.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage shows the emperor 'loved fine clothes more than anything' and wanted to be impressive."
+    },
+    {
+      "id": "reading-3-rc-039",
+      "bankId": "reading-3-rc",
+      "text": "What is the central message of this story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Clothes are important",
+          "Honesty is more important than pride",
+          "Children should not speak",
+          "Tricksters always win"
+        ],
+        "correctAnswer": "Honesty is more important than pride"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.3.2"
+      ],
+      "primaryStandard": "RL.3.2",
+      "passage": "G3-L5: The Emperor's New Clothes",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The story ends with 'honesty is more important than pride' as its lesson."
+    },
+    {
+      "id": "reading-3-rc-040",
+      "bankId": "reading-3-rc",
+      "text": "Why did people pretend to see the clothes?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The clothes were very pretty",
+          "They were afraid to look stupid",
+          "The emperor made them",
+          "They wanted to trick the child"
+        ],
+        "correctAnswer": "They were afraid to look stupid"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.3.3"
+      ],
+      "primaryStandard": "RL.3.3",
+      "passage": "G3-L5: The Emperor's New Clothes",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage says people 'cheered to avoid looking stupid.'"
+    },
+    {
+      "id": "reading-3-rc-041",
+      "bankId": "reading-3-rc",
+      "text": "How is this story similar to other folktales?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It has animals that talk",
+          "It teaches a lesson about human behavior",
+          "It takes place in a forest",
+          "It has magic spells"
+        ],
+        "correctAnswer": "It teaches a lesson about human behavior"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Integration of Knowledge",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.3.7"
+      ],
+      "primaryStandard": "RL.3.7",
+      "passage": "G3-L5: The Emperor's New Clothes",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Like many folktales, this story teaches a moral lesson about pride and honesty."
+    },
+    {
+      "id": "reading-3-rc-042",
+      "bankId": "reading-3-rc",
+      "text": "Where was Harriet Tubman born?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "In the North as a free person",
+          "In slavery in Maryland",
+          "In Canada",
+          "In Philadelphia"
+        ],
+        "correctAnswer": "In slavery in Maryland"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.3.1"
+      ],
+      "primaryStandard": "RI.3.1",
+      "passage": "G3-I5: Harriet Tubman: A Brave Leader",
+      "passageText": "Harriet Tubman was born into slavery in Maryland around 1822. Life was very hard. She was beaten and forced to work in fields. In 1849, she escaped to freedom in the North by following the North Star. But Tubman did not forget those still enslaved. She became a conductor on the Underground Railroad. This was not a real railroad. It was a secret network of safe houses that helped enslaved people escape to freedom. Tubman made about thirteen trips back to the South. She risked her life to guide about seventy people to freedom, including her elderly parents. She was never caught and never lost a passenger. During the Civil War, she worked as a nurse, cook, and spy for the Union Army. Tubman spent her life fighting for freedom and equality.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'Harriet Tubman was born into slavery in Maryland.'"
+    },
+    {
+      "id": "reading-3-rc-043",
+      "bankId": "reading-3-rc",
+      "text": "What was the Underground Railroad?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "A train that ran underground",
+          "A secret network of safe houses",
+          "A river in the North",
+          "A type of boat"
+        ],
+        "correctAnswer": "A secret network of safe houses"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.3.2"
+      ],
+      "primaryStandard": "RI.3.2",
+      "passage": "G3-I5: Harriet Tubman: A Brave Leader",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explains it 'was a secret network of safe houses that helped enslaved people escape.'"
+    },
+    {
+      "id": "reading-3-rc-044",
+      "bankId": "reading-3-rc",
+      "text": "How did Tubman's escape connect to her work on the Underground Railroad?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She forgot about slavery after escaping",
+          "Her own escape inspired her to help others",
+          "She was forced to help others",
+          "There is no connection"
+        ],
+        "correctAnswer": "Her own escape inspired her to help others"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.3.3"
+      ],
+      "primaryStandard": "RI.3.3",
+      "passage": "G3-I5: Harriet Tubman: A Brave Leader",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage says 'She escaped to freedom' but 'did not forget those still enslaved.'"
+    },
+    {
+      "id": "reading-3-rc-045",
+      "bankId": "reading-3-rc",
+      "text": "What is the author's purpose in writing this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To entertain with a funny story",
+          "To inform readers about Harriet Tubman's brave life",
+          "To persuade readers to travel north",
+          "To explain how trains work"
+        ],
+        "correctAnswer": "To inform readers about Harriet Tubman's brave life"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.3.6"
+      ],
+      "primaryStandard": "RI.3.6",
+      "passage": "G3-I5: Harriet Tubman: A Brave Leader",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author informs readers about Tubman's courageous actions and achievements."
+    },
+    {
+      "id": "reading-3-rc-046",
+      "bankId": "reading-3-rc",
+      "text": "What problem did the lion face?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He was hungry",
+          "He was caught in a hunter's net",
+          "He lost his crown",
+          "He could not find his den"
+        ],
+        "correctAnswer": "He was caught in a hunter's net"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RL.3.1"
+      ],
+      "primaryStandard": "RL.3.1",
+      "passage": "G3-L6: The Lion and the Mouse",
+      "passageText": "A mighty lion was sleeping in the forest when a little mouse accidentally ran across his paw. The lion woke up and caught the mouse. 'Please let me go!' squeaked the mouse. 'Someday I might help you!' The lion laughed at the idea of a tiny mouse helping the king of beasts. But he was in a good mood and let the mouse go. Days later, the lion was caught in a hunter's net. He roared in anger, but he could not escape. The little mouse heard him and came running. She began to gnaw through the ropes with her sharp teeth. Soon the lion was free! 'You laughed when I said I would help you,' said the mouse. 'Now you see that even the smallest friend can be the greatest help.' The lion thanked his tiny friend.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'the lion was caught in a hunter's net.'"
+    },
+    {
+      "id": "reading-3-rc-047",
+      "bankId": "reading-3-rc",
+      "text": "What is the central message of this fable?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Lions are the strongest animals",
+          "Even small friends can be helpful",
+          "Mice should stay away from lions",
+          "Hunters are dangerous"
+        ],
+        "correctAnswer": "Even small friends can be helpful"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.3.2"
+      ],
+      "primaryStandard": "RL.3.2",
+      "passage": "G3-L6: The Lion and the Mouse",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The mouse proves that 'even the smallest friend can be the greatest help.'"
+    },
+    {
+      "id": "reading-3-rc-048",
+      "bankId": "reading-3-rc",
+      "text": "How did the lion's feelings about the mouse change?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He always hated the mouse",
+          "He laughed at first but later became grateful",
+          "He was scared of the mouse",
+          "His feelings never changed"
+        ],
+        "correctAnswer": "He laughed at first but later became grateful"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.3.3"
+      ],
+      "primaryStandard": "RL.3.3",
+      "passage": "G3-L6: The Lion and the Mouse",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The lion first laughed at the mouse but later 'thanked his tiny friend.'"
+    },
+    {
+      "id": "reading-3-rc-049",
+      "bankId": "reading-3-rc",
+      "text": "What does 'gnaw' mean in this story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To pull hard",
+          "To chew or bite repeatedly",
+          "To tie in a knot",
+          "To push away"
+        ],
+        "correctAnswer": "To chew or bite repeatedly"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.3.4"
+      ],
+      "primaryStandard": "RL.3.4",
+      "passage": "G3-L6: The Lion and the Mouse",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The mouse used 'sharp teeth' to gnaw, indicating biting or chewing."
+    },
+    {
+      "id": "reading-3-rc-050",
+      "bankId": "reading-3-rc",
+      "text": "What is the main topic of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "How to build a volcano",
+          "Why volcanoes erupt",
+          "Famous volcano explorers",
+          "Volcano safety tips"
+        ],
+        "correctAnswer": "Why volcanoes erupt"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.3.2"
+      ],
+      "primaryStandard": "RI.3.2",
+      "passage": "G3-I6: Volcanoes",
+      "passageText": "Deep beneath Earth's surface, it is extremely hot. Rocks melt into a thick, flowing substance called magma. Sometimes pressure builds up underground. When there is too much pressure, magma pushes up through cracks in Earth's crust. This is called a volcanic eruption. Once magma reaches the surface, it is called lava. Lava can be as hot as 2,000 degrees Fahrenheit! It flows down the sides of the volcano, destroying everything in its path. Volcanoes can also shoot ash, rocks, and gases high into the sky. Some eruptions are slow and gentle. Others are violent explosions. Scientists called volcanologists study volcanoes. They use special tools to predict when a volcano might erupt. This helps keep people safe. There are about 1,500 active volcanoes on Earth today.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explains the causes and process of volcanic eruptions."
+    },
+    {
+      "id": "reading-3-rc-051",
+      "bankId": "reading-3-rc",
+      "text": "What causes a volcanic eruption?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Earthquakes",
+          "Too much rain",
+          "Pressure from underground magma",
+          "Wind and storms"
+        ],
+        "correctAnswer": "Pressure from underground magma"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.3.3"
+      ],
+      "primaryStandard": "RI.3.3",
+      "passage": "G3-I6: Volcanoes",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'When there is too much pressure, magma pushes up through cracks.'"
+    },
+    {
+      "id": "reading-3-rc-052",
+      "bankId": "reading-3-rc",
+      "text": "What is the difference between magma and lava?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "They are the same thing",
+          "Magma is underground; lava is on the surface",
+          "Lava is hotter than magma",
+          "Magma is solid; lava is liquid"
+        ],
+        "correctAnswer": "Magma is underground; lava is on the surface"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.3.1"
+      ],
+      "primaryStandard": "RI.3.1",
+      "passage": "G3-I6: Volcanoes",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage says 'Once magma reaches the surface, it is called lava.'"
+    },
+    {
+      "id": "reading-3-rc-053",
+      "bankId": "reading-3-rc",
+      "text": "What does 'predict' mean as used in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To remember the past",
+          "To say what will happen in the future",
+          "To cause something",
+          "To stop something"
+        ],
+        "correctAnswer": "To say what will happen in the future"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.3.4"
+      ],
+      "primaryStandard": "RI.3.4",
+      "passage": "G3-I6: Volcanoes",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Scientists try to predict 'when a volcano might erupt' to keep people safe."
+    },
+    {
+      "id": "reading-3-rc-054",
+      "bankId": "reading-3-rc",
+      "text": "Why did the young crab walk sideways?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She wanted to be different",
+          "That is how crabs naturally walk",
+          "She hurt her legs",
+          "Her mother taught her wrong"
+        ],
+        "correctAnswer": "That is how crabs naturally walk"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RL.3.1"
+      ],
+      "primaryStandard": "RL.3.1",
+      "passage": "G3-L7: The Crab and Her Mother",
+      "passageText": "A mother crab watched her young daughter walking along the beach. 'My dear,' said the mother, 'why do you walk so awkwardly? You should walk straight forward, not sideways!' The young crab tried to walk straight, but she could not. Her legs would only move sideways. 'Mother,' she said, 'please show me how. Walk straight ahead, and I will follow your example.' The mother crab tried to walk straight forward. But her own legs only moved sideways too! She could not walk any differently than her daughter. The mother crab was embarrassed. She had criticized her daughter for something she could not do herself. She learned that you should not ask others to do things that you cannot do yourself.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explains that the crab's 'legs would only move sideways' because that is how crabs walk."
+    },
+    {
+      "id": "reading-3-rc-055",
+      "bankId": "reading-3-rc",
+      "text": "What lesson does this fable teach?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Crabs should learn to walk straight",
+          "Do not criticize others for things you cannot do",
+          "Mothers are always right",
+          "Practice makes perfect"
+        ],
+        "correctAnswer": "Do not criticize others for things you cannot do"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.3.2"
+      ],
+      "primaryStandard": "RL.3.2",
+      "passage": "G3-L7: The Crab and Her Mother",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The mother learns 'you should not ask others to do things that you cannot do yourself.'"
+    },
+    {
+      "id": "reading-3-rc-056",
+      "bankId": "reading-3-rc",
+      "text": "How did the mother crab's feelings change at the end?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She became proud",
+          "She became embarrassed",
+          "She became angry",
+          "She became tired"
+        ],
+        "correctAnswer": "She became embarrassed"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.3.3"
+      ],
+      "primaryStandard": "RL.3.3",
+      "passage": "G3-L7: The Crab and Her Mother",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'The mother crab was embarrassed.'"
+    },
+    {
+      "id": "reading-3-rc-057",
+      "bankId": "reading-3-rc",
+      "text": "What does 'awkwardly' mean in this story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Gracefully and smoothly",
+          "Clumsily or in a strange way",
+          "Quickly and easily",
+          "Slowly and carefully"
+        ],
+        "correctAnswer": "Clumsily or in a strange way"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.3.4"
+      ],
+      "primaryStandard": "RL.3.4",
+      "passage": "G3-L7: The Crab and Her Mother",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The mother thinks sideways walking looks strange or clumsy compared to straight walking."
+    },
+    {
+      "id": "reading-3-rc-058",
+      "bankId": "reading-3-rc",
+      "text": "What is the main idea of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Penguins are good swimmers",
+          "Penguins are unique birds adapted to cold climates",
+          "All penguins live at the South Pole",
+          "Penguins can fly short distances"
+        ],
+        "correctAnswer": "Penguins are unique birds adapted to cold climates"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.3.2"
+      ],
+      "primaryStandard": "RI.3.2",
+      "passage": "G3-I7: Penguins",
+      "passageText": "Penguins are birds that cannot fly. Instead, they are amazing swimmers! Their wings work like flippers to push them through the water. Penguins can swim up to 15 miles per hour. Most penguins live in the Southern Hemisphere, where it is very cold. To stay warm, they have waterproof feathers and a thick layer of fat called blubber. Emperor penguins are the largest, standing almost four feet tall. They survive the coldest winters on Earth in Antarctica. Penguins are social animals. They live in large groups called colonies. Some colonies have thousands of penguins! Parents take turns keeping their eggs warm and finding food. Penguin chicks are covered in fluffy down feathers. They huddle together for warmth until they grow adult feathers.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage describes how penguins are unique birds with special adaptations for cold climates."
+    },
+    {
+      "id": "reading-3-rc-059",
+      "bankId": "reading-3-rc",
+      "text": "How do penguins use their wings?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To fly short distances",
+          "To swim through water",
+          "To dig burrows",
+          "To fight other penguins"
+        ],
+        "correctAnswer": "To swim through water"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.3.1"
+      ],
+      "primaryStandard": "RI.3.1",
+      "passage": "G3-I7: Penguins",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'Their wings work like flippers to push them through the water.'"
+    },
+    {
+      "id": "reading-3-rc-060",
+      "bankId": "reading-3-rc",
+      "text": "What helps penguins stay warm?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Flying and exercise",
+          "Waterproof feathers and blubber",
+          "Living in warm areas",
+          "Sleeping all day"
+        ],
+        "correctAnswer": "Waterproof feathers and blubber"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.3.3"
+      ],
+      "primaryStandard": "RI.3.3",
+      "passage": "G3-I7: Penguins",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage says 'they have waterproof feathers and a thick layer of fat called blubber.'"
+    },
+    {
+      "id": "reading-3-rc-061",
+      "bankId": "reading-3-rc",
+      "text": "What does 'colonies' mean in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Baby penguins",
+          "Large groups of penguins living together",
+          "Types of fish",
+          "Penguin homes"
+        ],
+        "correctAnswer": "Large groups of penguins living together"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.3.4"
+      ],
+      "primaryStandard": "RI.3.4",
+      "passage": "G3-I7: Penguins",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage describes colonies as 'large groups' with 'thousands of penguins.'"
+    },
+    {
+      "id": "reading-3-rc-062",
+      "bankId": "reading-3-rc",
+      "text": "Why did Paul Bunyan plant trees after cutting them down?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To make the land look pretty",
+          "So new trees could grow for the future",
+          "Because Babe told him to",
+          "To hide from other lumberjacks"
+        ],
+        "correctAnswer": "So new trees could grow for the future"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.3.1"
+      ],
+      "primaryStandard": "RL.3.1",
+      "passage": "G3-L8: Paul Bunyan and the Big Woods",
+      "passageText": "Paul Bunyan was the greatest lumberjack who ever lived. He was so big that when he was a baby, his cradle was a ship! His best friend was Babe, a giant blue ox. Together, they could clear an entire forest in one day. When Paul walked, his footprints filled with water and became lakes. That is how the Great Lakes were made! Paul and Babe traveled across America, helping settlers clear land for farms. One winter was so cold that words froze in the air. People had to wait until spring to hear what others had said! Paul cared about the forest. For every tree he cut down, he planted two more. He wanted to make sure there would always be trees for the future. Paul Bunyan became a legend, and people still tell stories about him today.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage says 'He wanted to make sure there would always be trees for the future.'"
+    },
+    {
+      "id": "reading-3-rc-063",
+      "bankId": "reading-3-rc",
+      "text": "What is a tall tale?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "A true story about history",
+          "A story with funny, exaggerated details",
+          "A sad story about nature",
+          "A poem about giants"
+        ],
+        "correctAnswer": "A story with funny, exaggerated details"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.3.7"
+      ],
+      "primaryStandard": "RL.3.7",
+      "passage": "G3-L8: Paul Bunyan and the Big Woods",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The story has exaggerated elements like lakes from footprints and frozen words."
+    },
+    {
+      "id": "reading-3-rc-064",
+      "bankId": "reading-3-rc",
+      "text": "Which detail from the story is exaggerated?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Paul was a lumberjack",
+          "Paul had a friend named Babe",
+          "Paul's footprints created the Great Lakes",
+          "Paul cared about forests"
+        ],
+        "correctAnswer": "Paul's footprints created the Great Lakes"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.3.5"
+      ],
+      "primaryStandard": "RL.3.5",
+      "passage": "G3-L8: Paul Bunyan and the Big Woods",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The idea that footprints could create huge lakes is greatly exaggerated."
+    },
+    {
+      "id": "reading-3-rc-065",
+      "bankId": "reading-3-rc",
+      "text": "What does 'legend' mean in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "A true historical record",
+          "A famous story passed down over time",
+          "A type of tree",
+          "A map of America"
+        ],
+        "correctAnswer": "A famous story passed down over time"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.3.4"
+      ],
+      "primaryStandard": "RL.3.4",
+      "passage": "G3-L8: Paul Bunyan and the Big Woods",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "A legend is a story 'people still tell' that has been passed down over generations."
+    },
+    {
+      "id": "reading-3-rc-066",
+      "bankId": "reading-3-rc",
+      "text": "What was special about Ruby Bridges?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She was the first African American child at her New Orleans school",
+          "She was the youngest teacher in America",
+          "She invented a new toy",
+          "She won an art contest"
+        ],
+        "correctAnswer": "She was the first African American child at her New Orleans school"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.3.1"
+      ],
+      "primaryStandard": "RI.3.1",
+      "passage": "G3-I8: Ruby Bridges: A Brave First-Grader",
+      "passageText": "In 1960, Ruby Bridges was just six years old. She became one of the first African American children to attend an all-white school in New Orleans. At that time, laws had kept Black and white children separated. Ruby was very brave. Every day, she walked past angry crowds who yelled at her. Federal marshals had to protect her. Many white parents took their children out of the school. For a whole year, Ruby was the only student in her class. Her teacher, Mrs. Henry, became her friend. Ruby never missed a day of school. She later said, 'I was not afraid because I knew I was doing something important.' Ruby's courage helped change unfair laws. Today, she speaks to children about the importance of acceptance and treating everyone fairly.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states Ruby 'became one of the first African American children to attend an all-white school.'"
+    },
+    {
+      "id": "reading-3-rc-067",
+      "bankId": "reading-3-rc",
+      "text": "What was the main idea of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Schools are important for children",
+          "Ruby Bridges showed great courage in fighting for equality",
+          "New Orleans is a big city",
+          "Teachers help students learn"
+        ],
+        "correctAnswer": "Ruby Bridges showed great courage in fighting for equality"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.3.2"
+      ],
+      "primaryStandard": "RI.3.2",
+      "passage": "G3-I8: Ruby Bridges: A Brave First-Grader",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage emphasizes Ruby's bravery and how her courage helped change unfair laws."
+    },
+    {
+      "id": "reading-3-rc-068",
+      "bankId": "reading-3-rc",
+      "text": "How did Ruby's actions connect to changing laws?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She wrote new laws herself",
+          "Her courage showed that unfair separation was wrong",
+          "She asked the president for help",
+          "She started a new school"
+        ],
+        "correctAnswer": "Her courage showed that unfair separation was wrong"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.3.3"
+      ],
+      "primaryStandard": "RI.3.3",
+      "passage": "G3-I8: Ruby Bridges: A Brave First-Grader",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "By bravely attending school, Ruby helped show that segregation laws were wrong."
+    },
+    {
+      "id": "reading-3-rc-069",
+      "bankId": "reading-3-rc",
+      "text": "What is the author's viewpoint about Ruby Bridges?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Ruby was foolish to go to the school",
+          "Ruby was a brave and important person",
+          "Ruby should have waited until she was older",
+          "Ruby was scared the whole time"
+        ],
+        "correctAnswer": "Ruby was a brave and important person"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.3.6"
+      ],
+      "primaryStandard": "RI.3.6",
+      "passage": "G3-I8: Ruby Bridges: A Brave First-Grader",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author calls Ruby 'brave' multiple times and emphasizes her importance."
+    },
+    {
+      "id": "reading-3-rc-070",
+      "bankId": "reading-3-rc",
+      "text": "Why did Raven steal the sun?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To keep it for himself",
+          "To bring light to the dark world",
+          "To give it to the chief",
+          "To play a trick"
+        ],
+        "correctAnswer": "To bring light to the dark world"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RL.3.1"
+      ],
+      "primaryStandard": "RL.3.1",
+      "passage": "G3-L9: Raven Steals the Sun",
+      "passageText": "Long ago, the world was always dark. The sun was hidden in a box by a powerful chief. Raven, a clever bird, wanted to bring light to the world. He used magic to turn himself into a baby. The chief's daughter found the baby and took him home. The chief loved his new grandson. One day, Raven pointed at the box and cried. The chief gave him the box to play with. Raven opened it, and a glowing ball floated out. Quick as a flash, Raven turned back into a bird and grabbed the sun in his beak. He flew through the smoke hole and into the sky. Raven placed the sun high above the Earth. From that day on, the world had light. That is why the raven is black - the smoke from the fire turned his feathers dark.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states Raven 'wanted to bring light to the world' which was 'always dark.'"
+    },
+    {
+      "id": "reading-3-rc-071",
+      "bankId": "reading-3-rc",
+      "text": "What is the central message of this myth?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Cleverness can help others",
+          "Chiefs are always mean",
+          "Ravens like shiny things",
+          "Babies always cry"
+        ],
+        "correctAnswer": "Cleverness can help others"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.3.2"
+      ],
+      "primaryStandard": "RL.3.2",
+      "passage": "G3-L9: Raven Steals the Sun",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Raven uses his cleverness to bring light to help everyone in the dark world."
+    },
+    {
+      "id": "reading-3-rc-072",
+      "bankId": "reading-3-rc",
+      "text": "How does the story explain why ravens are black?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "They were always black",
+          "The smoke turned Raven's feathers dark",
+          "The sun burned them",
+          "The chief painted them"
+        ],
+        "correctAnswer": "The smoke turned Raven's feathers dark"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.3.3"
+      ],
+      "primaryStandard": "RL.3.3",
+      "passage": "G3-L9: Raven Steals the Sun",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage says 'the smoke from the fire turned his feathers dark.'"
+    },
+    {
+      "id": "reading-3-rc-073",
+      "bankId": "reading-3-rc",
+      "text": "What type of story is this?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "A true story",
+          "A myth that explains something in nature",
+          "A news report",
+          "A diary entry"
+        ],
+        "correctAnswer": "A myth that explains something in nature"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.3.7"
+      ],
+      "primaryStandard": "RL.3.7",
+      "passage": "G3-L9: Raven Steals the Sun",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "This is a myth that explains how light came to the world and why ravens are black."
+    },
+    {
+      "id": "reading-3-rc-074",
+      "bankId": "reading-3-rc",
+      "text": "What does the human body use food for?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Only to taste good",
+          "To provide energy, growth, and repair",
+          "Just to fill the stomach",
+          "Only to build muscle"
+        ],
+        "correctAnswer": "To provide energy, growth, and repair"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.3.1"
+      ],
+      "primaryStandard": "RI.3.1",
+      "passage": "G3-I9: How Your Body Uses Food",
+      "passageText": "Every day, your body works like a busy factory. Food provides the energy to run this factory. When you eat, your body breaks down food through digestion. First, you chew food into small pieces. Saliva starts breaking it down in your mouth. The food travels to your stomach, where acids and muscles mash it up. Then it moves to your small intestine. Here, nutrients are absorbed into your blood. Your blood carries these nutrients all over your body. Carbohydrates give you energy to run and play. Proteins help you grow and repair muscles. Fats store energy for later and keep you warm. Vitamins and minerals keep your bones, skin, and organs healthy. The leftover waste exits your body. Your digestive system works all day long!",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explains that food provides 'energy to run and play,' helps 'grow and repair,' and more."
+    },
+    {
+      "id": "reading-3-rc-075",
+      "bankId": "reading-3-rc",
+      "text": "What is the main idea of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Food tastes good",
+          "The digestive system breaks down food and provides nutrients to the body",
+          "Chewing is the most important part of eating",
+          "Everyone should eat the same foods"
+        ],
+        "correctAnswer": "The digestive system breaks down food and provides nutrients to the body"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.3.2"
+      ],
+      "primaryStandard": "RI.3.2",
+      "passage": "G3-I9: How Your Body Uses Food",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explains the digestion process and how nutrients help the body."
+    },
+    {
+      "id": "reading-3-rc-076",
+      "bankId": "reading-3-rc",
+      "text": "What happens after food is mashed in the stomach?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It goes back to the mouth",
+          "It moves to the small intestine",
+          "It becomes energy immediately",
+          "It exits the body"
+        ],
+        "correctAnswer": "It moves to the small intestine"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.3.3"
+      ],
+      "primaryStandard": "RI.3.3",
+      "passage": "G3-I9: How Your Body Uses Food",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage says 'Then it moves to your small intestine' after the stomach."
+    },
+    {
+      "id": "reading-3-rc-077",
+      "bankId": "reading-3-rc",
+      "text": "How is this passage organized?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By comparing different foods",
+          "In the order that digestion happens",
+          "By listing random facts",
+          "From least to most important"
+        ],
+        "correctAnswer": "In the order that digestion happens"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.3.5"
+      ],
+      "primaryStandard": "RI.3.5",
+      "passage": "G3-I9: How Your Body Uses Food",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage follows food from chewing to stomach to intestine to blood in sequence."
+    },
+    {
+      "id": "reading-3-rc-078",
+      "bankId": "reading-3-rc",
+      "text": "What does 'nutrients' mean based on context?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Types of food",
+          "Healthy parts of food the body uses",
+          "Leftovers from eating",
+          "Cooking ingredients"
+        ],
+        "correctAnswer": "Healthy parts of food the body uses"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.3.4"
+      ],
+      "primaryStandard": "RI.3.4",
+      "passage": "G3-I9: How Your Body Uses Food",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage shows nutrients are 'absorbed' and 'carried all over your body' to help it work."
+    },
+    {
+      "id": "reading-3-rc-079",
+      "bankId": "reading-3-rc",
+      "text": "What warning did Spider Grandmother give the people?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Do not open the box",
+          "Do not look at the treasure until home",
+          "Do not take too much light",
+          "Do not tell anyone about the light"
+        ],
+        "correctAnswer": "Do not look at the treasure until home"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RL.3.1"
+      ],
+      "primaryStandard": "RL.3.1",
+      "passage": "G3-L10: How Spider Grandmother Brought Light",
+      "passageText": "In the beginning, the animal people lived in darkness. They heard that the sun was far away in the east. Many animals tried to steal it, but failed. Possum hid a piece in his tail, but it burned off his fur. Buzzard put it on his head, but it burned off his feathers. Finally, tiny Spider Grandmother said she would try. She was so small no one noticed her. She spun a web all the way to the sun and took a tiny piece. She put it in a clay pot and carried it back home. 'Do not look at the treasure until we are home,' she warned. But Coyote was curious and opened the pot. Light burst out and flew into the sky! That is how the sun was placed so high above us. Spider Grandmother taught that patience and wisdom succeed where strength fails.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Spider Grandmother warned 'Do not look at the treasure until we are home.'"
+    },
+    {
+      "id": "reading-3-rc-080",
+      "bankId": "reading-3-rc",
+      "text": "What lesson does this myth teach?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Big animals are the strongest",
+          "Patience and wisdom succeed where strength fails",
+          "Coyotes are very helpful",
+          "Light should stay hidden"
+        ],
+        "correctAnswer": "Patience and wisdom succeed where strength fails"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.3.2"
+      ],
+      "primaryStandard": "RL.3.2",
+      "passage": "G3-L10: How Spider Grandmother Brought Light",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage ends with the lesson that 'patience and wisdom succeed where strength fails.'"
+    },
+    {
+      "id": "reading-3-rc-081",
+      "bankId": "reading-3-rc",
+      "text": "Why was Spider Grandmother successful when others failed?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She was the fastest",
+          "She was small and used clever thinking",
+          "She had magic powers",
+          "She got help from Coyote"
+        ],
+        "correctAnswer": "She was small and used clever thinking"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.3.3"
+      ],
+      "primaryStandard": "RL.3.3",
+      "passage": "G3-L10: How Spider Grandmother Brought Light",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Being 'so small no one noticed her' and using a web and pot showed her clever approach."
+    },
+    {
+      "id": "reading-3-rc-082",
+      "bankId": "reading-3-rc",
+      "text": "How is this story similar to 'Raven Steals the Sun'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Both have the same characters",
+          "Both explain how light came to the world",
+          "Both take place in the same location",
+          "Both end sadly"
+        ],
+        "correctAnswer": "Both explain how light came to the world"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Integration of Knowledge",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.3.7"
+      ],
+      "primaryStandard": "RL.3.7",
+      "passage": "G3-L10: How Spider Grandmother Brought Light",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Both are myths that explain how the sun came to light the world."
+    },
+    {
+      "id": "reading-3-rc-083",
+      "bankId": "reading-3-rc",
+      "text": "Where is most of Earth's water found?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "In rivers",
+          "In the oceans",
+          "In underground wells",
+          "In the atmosphere"
+        ],
+        "correctAnswer": "In the oceans"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.3.1"
+      ],
+      "primaryStandard": "RI.3.1",
+      "passage": "G3-I10: Saving Water",
+      "passageText": "Water covers most of Earth's surface, but most of it is salt water in the oceans. Only about three percent of Earth's water is fresh water that we can drink. Much of that fresh water is frozen in glaciers. This means the water we use every day is very precious. People use water for drinking, cooking, cleaning, and growing food. Some places have plenty of water, while other areas face droughts. Conservation means using water wisely so there is enough for everyone. You can conserve water in many ways. Turn off the faucet while brushing your teeth. Take shorter showers. Water plants in the morning when it is cool. Fix leaky faucets. If everyone saves a little water, it adds up to a lot! Protecting our water supply helps people, animals, and plants now and in the future.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'most of it is salt water in the oceans.'"
+    },
+    {
+      "id": "reading-3-rc-084",
+      "bankId": "reading-3-rc",
+      "text": "What is the main idea of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Oceans are very large",
+          "Fresh water is limited and we should conserve it",
+          "Plants need water to grow",
+          "Droughts happen in some places"
+        ],
+        "correctAnswer": "Fresh water is limited and we should conserve it"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.3.2"
+      ],
+      "primaryStandard": "RI.3.2",
+      "passage": "G3-I10: Saving Water",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explains that fresh water is 'precious' and gives conservation tips."
+    },
+    {
+      "id": "reading-3-rc-085",
+      "bankId": "reading-3-rc",
+      "text": "What is the author's purpose in writing this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To entertain with a funny story",
+          "To persuade readers to save water",
+          "To describe ocean animals",
+          "To explain how rain forms"
+        ],
+        "correctAnswer": "To persuade readers to save water"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.3.6"
+      ],
+      "primaryStandard": "RI.3.6",
+      "passage": "G3-I10: Saving Water",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author gives reasons and tips to convince readers to conserve water."
+    },
+    {
+      "id": "reading-3-rc-086",
+      "bankId": "reading-3-rc",
+      "text": "What does 'conservation' mean in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Using water for fun",
+          "Wasting as much water as possible",
+          "Using water wisely so there is enough for everyone",
+          "Finding new water sources"
+        ],
+        "correctAnswer": "Using water wisely so there is enough for everyone"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.3.4"
+      ],
+      "primaryStandard": "RI.3.4",
+      "passage": "G3-I10: Saving Water",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage defines conservation as 'using water wisely so there is enough for everyone.'"
+    },
+    {
+      "id": "reading-3-rc-087",
+      "bankId": "reading-3-rc",
+      "text": "What problem did the old man face?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He could not find his house",
+          "His donkey fell into a well",
+          "He had no food",
+          "Thieves stole his donkey"
+        ],
+        "correctAnswer": "His donkey fell into a well"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RL.3.1"
+      ],
+      "primaryStandard": "RL.3.1",
+      "passage": "G3-L11: The Donkey in the Well",
+      "passageText": "An old farmer had a donkey that fell into an abandoned well. The donkey brayed and brayed. The farmer tried to pull him out but could not. The farmer decided the old well needed to be filled anyway. He called his neighbors to help shovel dirt into the well. The donkey cried at first, but then something amazing happened. Each time dirt landed on his back, the donkey shook it off and stepped up onto it. Load after load, the donkey shook off the dirt and stepped higher. Soon he stepped out of the well! The farmer was amazed. The donkey had turned a bad situation into a good one. The lesson is clear: when life throws dirt at you, shake it off and take a step up.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'An old farmer had a donkey that fell into an abandoned well.'"
+    },
+    {
+      "id": "reading-3-rc-088",
+      "bankId": "reading-3-rc",
+      "text": "What is the central message of this fable?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Donkeys are smarter than farmers",
+          "Turn problems into opportunities to rise up",
+          "Wells are dangerous places",
+          "Farmers should be more careful"
+        ],
+        "correctAnswer": "Turn problems into opportunities to rise up"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.3.2"
+      ],
+      "primaryStandard": "RL.3.2",
+      "passage": "G3-L11: The Donkey in the Well",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The story teaches to 'shake it off and take a step up' when facing problems."
+    },
+    {
+      "id": "reading-3-rc-089",
+      "bankId": "reading-3-rc",
+      "text": "How did the donkey escape from the well?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He jumped very high",
+          "He climbed a rope",
+          "He shook off each load of dirt and stepped up on it",
+          "The farmer lifted him out"
+        ],
+        "correctAnswer": "He shook off each load of dirt and stepped up on it"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.3.3"
+      ],
+      "primaryStandard": "RL.3.3",
+      "passage": "G3-L11: The Donkey in the Well",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The donkey 'shook it off and stepped up onto it' until he climbed out."
+    },
+    {
+      "id": "reading-3-rc-090",
+      "bankId": "reading-3-rc",
+      "text": "What does 'abandoned' mean in this story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Full of water",
+          "No longer used",
+          "Very deep",
+          "Newly built"
+        ],
+        "correctAnswer": "No longer used"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.3.4"
+      ],
+      "primaryStandard": "RL.3.4",
+      "passage": "G3-L11: The Donkey in the Well",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The well 'needed to be filled anyway' shows it was no longer being used."
+    },
+    {
+      "id": "reading-3-rc-091",
+      "bankId": "reading-3-rc",
+      "text": "What is the main reason the author includes the diagram?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To make the page look pretty",
+          "To show exactly how the sun, Earth, and moon are positioned",
+          "To explain what the moon is made of",
+          "To show what astronauts see"
+        ],
+        "correctAnswer": "To show exactly how the sun, Earth, and moon are positioned"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.3.7"
+      ],
+      "primaryStandard": "RI.3.7",
+      "passage": "G3-I11: Why Do We Have Day and Night?",
+      "passageText": "Earth is always spinning like a top, but so slowly that we do not feel it. One complete spin takes 24 hours, which we call a day. As Earth spins, different parts face the sun. When your part of Earth faces the sun, you have daytime. The sun lights up the sky and keeps you warm. When your part of Earth turns away from the sun, you have night. The sky becomes dark, and you can see the moon and stars. While you sleep at night, people on the other side of Earth are having daytime! Earth also travels around the sun in a big circle. This trip takes one year. As Earth moves through the year, the amount of daylight changes. Summer days are longer because your part of Earth tilts toward the sun. Winter days are shorter because your part tilts away from the sun. [Diagram showing Earth's rotation and the sun's light]",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Diagrams help readers visualize scientific concepts like Earth's position and rotation."
+    },
+    {
+      "id": "reading-3-rc-092",
+      "bankId": "reading-3-rc",
+      "text": "What causes day and night?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The moon blocking the sun",
+          "Earth spinning so different parts face the sun",
+          "The sun moving around Earth",
+          "Clouds covering the sun"
+        ],
+        "correctAnswer": "Earth spinning so different parts face the sun"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.3.3"
+      ],
+      "primaryStandard": "RI.3.3",
+      "passage": "G3-I11: Why Do We Have Day and Night?",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explains that 'As Earth spins, different parts face the sun' causing day and night."
+    },
+    {
+      "id": "reading-3-rc-093",
+      "bankId": "reading-3-rc",
+      "text": "Why are summer days longer than winter days?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The sun is closer in summer",
+          "Your part of Earth tilts toward the sun",
+          "Earth spins faster in summer",
+          "There are more clouds in winter"
+        ],
+        "correctAnswer": "Your part of Earth tilts toward the sun"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.3.3"
+      ],
+      "primaryStandard": "RI.3.3",
+      "passage": "G3-I11: Why Do We Have Day and Night?",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage says 'Summer days are longer because your part of Earth tilts toward the sun.'"
+    },
+    {
+      "id": "reading-3-rc-094",
+      "bankId": "reading-3-rc",
+      "text": "Why did the farmer want to get rid of the weeds?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "They looked ugly",
+          "He was worried they would hurt the wheat",
+          "His wife told him to",
+          "The weeds were poisonous"
+        ],
+        "correctAnswer": "He was worried they would hurt the wheat"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RL.3.1"
+      ],
+      "primaryStandard": "RL.3.1",
+      "passage": "G3-L12: The Farmer and the Weeds",
+      "passageText": "A farmer planted wheat in his field. Soon, weeds began to grow among the wheat. 'I must pull out these weeds!' said the farmer. But a wise old woman stopped him. 'Wait,' she said. 'If you pull the weeds now, you will also pull up the young wheat. The roots are tangled together. Let them both grow. At harvest time, the wheat will be tall and golden. The weeds will be short and brown. Then you can easily separate them.' The farmer listened. He let the wheat and weeds grow together. At harvest time, just as the woman had said, he could easily tell them apart. He gathered all the good wheat and threw away the weeds. The farmer learned that patience often leads to better results than hasty action.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The farmer was worried about the weeds growing 'among the wheat' affecting his crop."
+    },
+    {
+      "id": "reading-3-rc-095",
+      "bankId": "reading-3-rc",
+      "text": "What lesson does this story teach?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Weeds are always bad",
+          "Patience often leads to better results",
+          "Old women are always right",
+          "Wheat grows faster than weeds"
+        ],
+        "correctAnswer": "Patience often leads to better results"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.3.2"
+      ],
+      "primaryStandard": "RL.3.2",
+      "passage": "G3-L12: The Farmer and the Weeds",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The story ends with 'patience often leads to better results than hasty action.'"
+    },
+    {
+      "id": "reading-3-rc-096",
+      "bankId": "reading-3-rc",
+      "text": "Why couldn't the farmer pull the weeds right away?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It was raining",
+          "The roots were tangled with the wheat roots",
+          "The weeds were too strong",
+          "He did not have time"
+        ],
+        "correctAnswer": "The roots were tangled with the wheat roots"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.3.3"
+      ],
+      "primaryStandard": "RL.3.3",
+      "passage": "G3-L12: The Farmer and the Weeds",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The wise woman said 'The roots are tangled together' so pulling weeds would harm the wheat."
+    },
+    {
+      "id": "reading-3-rc-097",
+      "bankId": "reading-3-rc",
+      "text": "What does 'hasty' mean in this story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Slow and careful",
+          "Quick without thinking",
+          "Happy and excited",
+          "Angry and upset"
+        ],
+        "correctAnswer": "Quick without thinking"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.3.4"
+      ],
+      "primaryStandard": "RL.3.4",
+      "passage": "G3-L12: The Farmer and the Weeds",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Hasty action is contrasted with patience, meaning acting too quickly without thinking."
+    },
+    {
+      "id": "reading-3-rc-098",
+      "bankId": "reading-3-rc",
+      "text": "What is an inventor?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Someone who fixes things",
+          "Someone who creates new things",
+          "Someone who sells products",
+          "Someone who teaches students"
+        ],
+        "correctAnswer": "Someone who creates new things"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Craft and Structure",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.3.4"
+      ],
+      "primaryStandard": "RI.3.4",
+      "passage": "G3-I12: Famous Inventors",
+      "passageText": "Inventors are people who create new things that solve problems or make life better. Thomas Edison invented the light bulb in 1879. Before that, people used candles and gas lamps for light. Edison also invented the phonograph, which could record and play sound. The Wright Brothers, Orville and Wilbur, invented the first successful airplane in 1903. Their flight lasted only 12 seconds but changed the world forever. Marie Curie discovered new elements and invented ways to use X-rays. Her work helps doctors see inside our bodies. Alexander Graham Bell invented the telephone in 1876. Now people could talk to each other from far away! All these inventors had something in common. They did not give up when things got hard. They kept trying until they found solutions. Today's inventors continue to create new technologies that improve our lives.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage defines inventors as 'people who create new things that solve problems.'"
+    },
+    {
+      "id": "reading-3-rc-099",
+      "bankId": "reading-3-rc",
+      "text": "What trait did all the inventors share?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "They all lived in the same country",
+          "They did not give up when things got hard",
+          "They all worked alone",
+          "They all invented similar things"
+        ],
+        "correctAnswer": "They did not give up when things got hard"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.3.2"
+      ],
+      "primaryStandard": "RI.3.2",
+      "passage": "G3-I12: Famous Inventors",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage says 'They did not give up when things got hard. They kept trying.'"
+    },
+    {
+      "id": "reading-3-rc-100",
+      "bankId": "reading-3-rc",
+      "text": "How does the author organize information about each inventor?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By telling their childhood stories",
+          "By describing what they invented and why it mattered",
+          "By comparing them to modern inventors",
+          "By listing their failures first"
+        ],
+        "correctAnswer": "By describing what they invented and why it mattered"
+      },
+      "subject": "Reading",
+      "gradeLevel": "3",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.3.5"
+      ],
+      "primaryStandard": "RI.3.5",
+      "passage": "G3-I12: Famous Inventors",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "For each inventor, the author tells what they invented and explains its importance."
+    }
+  ]
+}

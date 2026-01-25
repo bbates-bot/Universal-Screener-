@@ -1,0 +1,2730 @@
+{
+  "metadata": {
+    "subject": "Reading",
+    "gradeLevel": "12",
+    "domain": "RC",
+    "domainName": "Reading Comprehension",
+    "lastUpdated": "2026-01-25",
+    "totalQuestions": 100,
+    "description": "CCSS-aligned reading comprehension assessment with literary and informational texts",
+    "lexileRange": "1185L-1335L"
+  },
+  "questions": [
+    {
+      "id": "reading-12-rc-001",
+      "bankId": "reading-12-rc",
+      "text": "According to Plato's allegory, what do the shadows on the cave wall represent?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Objective reality",
+          "Illusions mistaken for reality",
+          "Divine revelations",
+          "Historical events"
+        ],
+        "correctAnswer": "Illusions mistaken for reality"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.1"
+      ],
+      "primaryStandard": "RL.11-12.1",
+      "passage": "G12-L1: The Allegory of the Cave",
+      "passageText": "In Plato's Republic, Socrates presents the Allegory of the Cave to illustrate the nature of reality and human perception. He describes prisoners who have been chained inside a dark cave since birth, facing a blank wall. Behind them burns a fire, and between the fire and the prisoners, puppeteers carry objects that cast shadows on the wall. These shadows constitute the only reality the prisoners have ever known. When one prisoner is freed and dragged into the sunlight, he is initially blinded and disoriented. Gradually, his eyes adjust, and he perceives the true forms of things rather than mere shadows. Upon returning to the cave, he finds he can no longer see in the darkness, and the other prisoners mock his claims about a world beyond shadows. Plato uses this allegory to argue that philosophical enlightenment requires leaving behind sensory illusions to grasp eternal truths. The journey from darkness to light symbolizes the philosopher's ascent from ignorance to knowledge, from the visible world to the intelligible realm of Forms.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states that 'shadows constitute the only reality the prisoners have ever known' and later contrasts these with 'true forms,' indicating shadows represent illusions mistaken for reality."
+    },
+    {
+      "id": "reading-12-rc-002",
+      "bankId": "reading-12-rc",
+      "text": "What is the central theme of Plato's allegory?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The importance of physical strength",
+          "The journey from ignorance to enlightenment",
+          "The dangers of cave exploration",
+          "The power of political authority"
+        ],
+        "correctAnswer": "The journey from ignorance to enlightenment"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.2"
+      ],
+      "primaryStandard": "RL.11-12.2",
+      "passage": "G12-L1: The Allegory of the Cave",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explicitly states that 'the journey from darkness to light symbolizes the philosopher's ascent from ignorance to knowledge.'"
+    },
+    {
+      "id": "reading-12-rc-003",
+      "bankId": "reading-12-rc",
+      "text": "Why do the prisoners mock the freed prisoner when he returns?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He cannot see well in the darkness anymore",
+          "He speaks a different language",
+          "He has become physically weaker",
+          "He refuses to share his discoveries"
+        ],
+        "correctAnswer": "He cannot see well in the darkness anymore"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.3"
+      ],
+      "primaryStandard": "RL.11-12.3",
+      "passage": "G12-L1: The Allegory of the Cave",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'Upon returning to the cave, he finds he can no longer see in the darkness, and the other prisoners mock his claims.'"
+    },
+    {
+      "id": "reading-12-rc-004",
+      "bankId": "reading-12-rc",
+      "text": "What does the word 'intelligible' mean as used in the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Visible to the eyes",
+          "Capable of being understood by the mind",
+          "Related to intelligence testing",
+          "Spoken clearly"
+        ],
+        "correctAnswer": "Capable of being understood by the mind"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.4"
+      ],
+      "primaryStandard": "RL.11-12.4",
+      "passage": "G12-L1: The Allegory of the Cave",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "In context, 'intelligible realm of Forms' contrasts with 'visible world,' indicating intelligible means grasped by the mind rather than the senses."
+    },
+    {
+      "id": "reading-12-rc-005",
+      "bankId": "reading-12-rc",
+      "text": "How does Plato structure this allegory to develop his argument?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Through a series of debates between philosophers",
+          "Through a progressive journey from imprisonment to freedom",
+          "Through comparison of different cave systems",
+          "Through historical chronology"
+        ],
+        "correctAnswer": "Through a progressive journey from imprisonment to freedom"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.11-12.5"
+      ],
+      "primaryStandard": "RL.11-12.5",
+      "passage": "G12-L1: The Allegory of the Cave",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The allegory follows a prisoner's journey from chains to sunlight to return, structuring the philosophical argument through narrative progression."
+    },
+    {
+      "id": "reading-12-rc-006",
+      "bankId": "reading-12-rc",
+      "text": "From whose perspective is this philosophical allegory primarily presented?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The prisoners in the cave",
+          "Socrates as narrator",
+          "The puppeteers",
+          "An objective historian"
+        ],
+        "correctAnswer": "Socrates as narrator"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.6"
+      ],
+      "primaryStandard": "RL.11-12.6",
+      "passage": "G12-L1: The Allegory of the Cave",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'Socrates presents the Allegory of the Cave,' indicating he is the narrator of this philosophical illustration."
+    },
+    {
+      "id": "reading-12-rc-007",
+      "bankId": "reading-12-rc",
+      "text": "What is the main idea of this passage about existentialism?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Existence is meaningless and should be rejected",
+          "Humans must create meaning through authentic choices",
+          "Traditional values should always be followed",
+          "Science can answer all philosophical questions"
+        ],
+        "correctAnswer": "Humans must create meaning through authentic choices"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.11-12.2"
+      ],
+      "primaryStandard": "RI.11-12.2",
+      "passage": "G12-I1: Existentialism and Human Freedom",
+      "passageText": "Existentialism emerged in the twentieth century as a philosophical movement centered on individual existence, freedom, and choice. Jean-Paul Sartre, one of its leading proponents, famously declared that 'existence precedes essence,' meaning that humans first exist and then define themselves through their actions. Unlike objects designed for specific purposes, humans possess no predetermined nature. This radical freedom brings with it profound responsibility, as individuals cannot blame their circumstances, upbringing, or nature for their choices. Sartre termed the anxiety accompanying this realization 'anguish' and the tendency to deny one's freedom 'bad faith.' Albert Camus, though he rejected the existentialist label, explored similar themes through the concept of the absurd\u2014the conflict between humans' search for meaning and the universe's indifference. Rather than succumbing to nihilism, Camus advocated for rebellion against absurdity through passionate engagement with life. Both thinkers emphasized authenticity: living in accordance with one's genuine values rather than conforming to external expectations. This philosophy influenced literature, psychology, and social movements, challenging individuals to take ownership of their lives.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage emphasizes that existentialism focuses on humans defining themselves through choices and living authentically."
+    },
+    {
+      "id": "reading-12-rc-008",
+      "bankId": "reading-12-rc",
+      "text": "According to the passage, what does Sartre mean by 'existence precedes essence'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Humans are born with a fixed purpose",
+          "Humans exist first and then define themselves through actions",
+          "Essence is more important than existence",
+          "Physical existence is an illusion"
+        ],
+        "correctAnswer": "Humans exist first and then define themselves through actions"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.1"
+      ],
+      "primaryStandard": "RI.11-12.1",
+      "passage": "G12-I1: Existentialism and Human Freedom",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explicitly states this phrase 'meaning that humans first exist and then define themselves through their actions.'"
+    },
+    {
+      "id": "reading-12-rc-009",
+      "bankId": "reading-12-rc",
+      "text": "How does the author develop the comparison between Sartre and Camus?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By showing they held identical views",
+          "By showing parallel concerns with different terminology",
+          "By arguing one was superior to the other",
+          "By presenting only their disagreements"
+        ],
+        "correctAnswer": "By showing parallel concerns with different terminology"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.11-12.3"
+      ],
+      "primaryStandard": "RI.11-12.3",
+      "passage": "G12-I1: Existentialism and Human Freedom",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage notes Camus 'rejected the existentialist label' but 'explored similar themes,' showing parallel concerns with different approaches."
+    },
+    {
+      "id": "reading-12-rc-010",
+      "bankId": "reading-12-rc",
+      "text": "What does 'bad faith' mean in the context of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Religious doubt",
+          "Denial of one's freedom",
+          "Dishonesty in business",
+          "Lack of trust in others"
+        ],
+        "correctAnswer": "Denial of one's freedom"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.4"
+      ],
+      "primaryStandard": "RI.11-12.4",
+      "passage": "G12-I1: Existentialism and Human Freedom",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage defines 'bad faith' as 'the tendency to deny one's freedom.'"
+    },
+    {
+      "id": "reading-12-rc-011",
+      "bankId": "reading-12-rc",
+      "text": "How does the structure of this passage organize the information about existentialism?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Chronologically by historical events",
+          "From general concepts to specific philosophers to broader influence",
+          "By geographical region",
+          "From least to most controversial ideas"
+        ],
+        "correctAnswer": "From general concepts to specific philosophers to broader influence"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.11-12.5"
+      ],
+      "primaryStandard": "RI.11-12.5",
+      "passage": "G12-I1: Existentialism and Human Freedom",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage begins with existentialism as a movement, discusses Sartre and Camus specifically, then ends with broader influence on various fields."
+    },
+    {
+      "id": "reading-12-rc-012",
+      "bankId": "reading-12-rc",
+      "text": "What is the author's purpose in writing this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To criticize existentialist philosophy",
+          "To explain key existentialist concepts and thinkers",
+          "To argue that existentialism is outdated",
+          "To compare existentialism unfavorably to other philosophies"
+        ],
+        "correctAnswer": "To explain key existentialist concepts and thinkers"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.6"
+      ],
+      "primaryStandard": "RI.11-12.6",
+      "passage": "G12-I1: Existentialism and Human Freedom",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage presents existentialist ideas and thinkers in an explanatory, informative manner without obvious advocacy or criticism."
+    },
+    {
+      "id": "reading-12-rc-013",
+      "bankId": "reading-12-rc",
+      "text": "What evidence does the passage provide to support the claim that existentialism emphasizes responsibility?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Statistics on existentialist followers",
+          "The assertion that individuals cannot blame circumstances for their choices",
+          "Quotes from critics of existentialism",
+          "Scientific studies on decision-making"
+        ],
+        "correctAnswer": "The assertion that individuals cannot blame circumstances for their choices"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.8"
+      ],
+      "primaryStandard": "RI.11-12.8",
+      "passage": "G12-I1: Existentialism and Human Freedom",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'individuals cannot blame their circumstances, upbringing, or nature for their choices' as evidence for existentialist responsibility."
+    },
+    {
+      "id": "reading-12-rc-014",
+      "bankId": "reading-12-rc",
+      "text": "What motivates Gregor Samsa's continued concern for his family after his transformation?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Hope that they will cure him",
+          "Ingrained sense of duty and provider role",
+          "Fear of being abandoned",
+          "Belief that the transformation is temporary"
+        ],
+        "correctAnswer": "Ingrained sense of duty and provider role"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.11-12.1"
+      ],
+      "primaryStandard": "RL.11-12.1",
+      "passage": "G12-L2: The Metamorphosis",
+      "passageText": "Franz Kafka's The Metamorphosis opens with one of literature's most striking first lines: Gregor Samsa wakes to find himself transformed into a monstrous insect. Yet what disturbs Gregor most is not his grotesque new form but his inability to catch his train to work. This absurd prioritization reveals how completely Gregor has internalized his role as the family's sole provider. Throughout the novella, Gregor's humanity persists within his insect body; he retains his memories, emotions, and concern for his family's welfare. His family's response traces a trajectory from horror to grudging accommodation to eventual rejection. His sister Grete, initially his caretaker, becomes the first to declare that the creature is no longer Gregor. Kafka explores how identity depends on social recognition and useful function. When Gregor can no longer fulfill his economic role, he becomes expendable, his humanity denied. The story functions as both psychological study and social critique, examining alienation in modern capitalist society where individuals are valued primarily for their productivity. Gregor's physical transformation merely makes visible the dehumanization he had already experienced.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states Gregor 'has internalized his role as the family's sole provider' and retains 'concern for his family's welfare.'"
+    },
+    {
+      "id": "reading-12-rc-015",
+      "bankId": "reading-12-rc",
+      "text": "What theme does Kafka develop through Gregor's transformation?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The beauty of nature",
+          "Alienation and dehumanization in modern society",
+          "The importance of family loyalty",
+          "The power of medical science"
+        ],
+        "correctAnswer": "Alienation and dehumanization in modern society"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.2"
+      ],
+      "primaryStandard": "RL.11-12.2",
+      "passage": "G12-L2: The Metamorphosis",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explicitly states Kafka is 'examining alienation in modern capitalist society where individuals are valued primarily for their productivity.'"
+    },
+    {
+      "id": "reading-12-rc-016",
+      "bankId": "reading-12-rc",
+      "text": "How does Grete's attitude toward Gregor change over the course of the story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "From rejection to acceptance",
+          "From caretaker to declaring he is no longer Gregor",
+          "From indifference to deep concern",
+          "From fear to scientific curiosity"
+        ],
+        "correctAnswer": "From caretaker to declaring he is no longer Gregor"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.3"
+      ],
+      "primaryStandard": "RL.11-12.3",
+      "passage": "G12-L2: The Metamorphosis",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'His sister Grete, initially his caretaker, becomes the first to declare that the creature is no longer Gregor.'"
+    },
+    {
+      "id": "reading-12-rc-017",
+      "bankId": "reading-12-rc",
+      "text": "What does 'expendable' mean as used in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Expensive to maintain",
+          "Able to be sacrificed or discarded",
+          "Capable of expansion",
+          "Requiring expert care"
+        ],
+        "correctAnswer": "Able to be sacrificed or discarded"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.4"
+      ],
+      "primaryStandard": "RL.11-12.4",
+      "passage": "G12-L2: The Metamorphosis",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "In context, 'expendable' describes how Gregor becomes disposable when he cannot fulfill his economic role, meaning he can be discarded."
+    },
+    {
+      "id": "reading-12-rc-018",
+      "bankId": "reading-12-rc",
+      "text": "Why does Kafka open the story with Gregor's concern about missing his train rather than horror at his transformation?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To show Gregor is mentally unstable",
+          "To emphasize how deeply he has internalized his work identity",
+          "To create comic relief",
+          "To suggest the transformation is a dream"
+        ],
+        "correctAnswer": "To emphasize how deeply he has internalized his work identity"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.11-12.5"
+      ],
+      "primaryStandard": "RL.11-12.5",
+      "passage": "G12-L2: The Metamorphosis",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states this 'absurd prioritization reveals how completely Gregor has internalized his role as the family's sole provider.'"
+    },
+    {
+      "id": "reading-12-rc-019",
+      "bankId": "reading-12-rc",
+      "text": "From what perspective does the author of this analysis approach Kafka's work?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Purely biographical",
+          "Sociological and psychological critique",
+          "Religious interpretation",
+          "Historical documentation"
+        ],
+        "correctAnswer": "Sociological and psychological critique"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.11-12.6"
+      ],
+      "primaryStandard": "RL.11-12.6",
+      "passage": "G12-L2: The Metamorphosis",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage describes the story as 'psychological study and social critique' examining 'alienation in modern capitalist society.'"
+    },
+    {
+      "id": "reading-12-rc-020",
+      "bankId": "reading-12-rc",
+      "text": "What central claim does this passage make about the scientific method?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It is the only valid way to acquire knowledge",
+          "It is a self-correcting process that approaches truth through falsification",
+          "It has been replaced by more modern approaches",
+          "It applies only to physics and chemistry"
+        ],
+        "correctAnswer": "It is a self-correcting process that approaches truth through falsification"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.11-12.2"
+      ],
+      "primaryStandard": "RI.11-12.2",
+      "passage": "G12-I2: The Philosophy of Science",
+      "passageText": "Karl Popper revolutionized the philosophy of science with his criterion of falsifiability. Rather than asking how scientific theories are verified, Popper argued we should ask how they can be falsified. A genuinely scientific theory makes predictions that could potentially be proven wrong; if no conceivable observation could refute a theory, it is not scientific but pseudoscientific. This demarcation criterion distinguished science from metaphysics, astrology, and other non-scientific claims. Thomas Kuhn complicated this picture with his concept of paradigm shifts. Kuhn observed that science does not progress through gradual accumulation but through revolutionary changes in fundamental frameworks. Normal science operates within a paradigm, solving puzzles according to its rules. When anomalies accumulate, a crisis emerges, eventually resolved by adoption of a new paradigm incommensurable with the old. Critics charged Kuhn with relativism, suggesting his view implies no paradigm is objectively better than another. Contemporary philosophers of science have synthesized these insights, recognizing science as a self-correcting enterprise that approaches truth asymptotically without claiming absolute certainty. This fallibilist epistemology acknowledges that all scientific knowledge is provisional, subject to revision in light of new evidence.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage concludes by describing science as 'a self-correcting enterprise that approaches truth asymptotically' through provisional, revisable knowledge."
+    },
+    {
+      "id": "reading-12-rc-021",
+      "bankId": "reading-12-rc",
+      "text": "According to Popper, what distinguishes scientific theories from pseudoscientific ones?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The complexity of their mathematics",
+          "Their ability to be potentially proven wrong",
+          "The number of scientists who support them",
+          "Their practical applications"
+        ],
+        "correctAnswer": "Their ability to be potentially proven wrong"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.1"
+      ],
+      "primaryStandard": "RI.11-12.1",
+      "passage": "G12-I2: The Philosophy of Science",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'if no conceivable observation could refute a theory, it is not scientific but pseudoscientific.'"
+    },
+    {
+      "id": "reading-12-rc-022",
+      "bankId": "reading-12-rc",
+      "text": "How does Kuhn's view of scientific progress differ from a gradual accumulation model?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Kuhn believes science never progresses",
+          "Kuhn argues progress occurs through revolutionary paradigm shifts",
+          "Kuhn thinks only physics progresses",
+          "Kuhn denies that anomalies exist"
+        ],
+        "correctAnswer": "Kuhn argues progress occurs through revolutionary paradigm shifts"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.3"
+      ],
+      "primaryStandard": "RI.11-12.3",
+      "passage": "G12-I2: The Philosophy of Science",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'Kuhn observed that science does not progress through gradual accumulation but through revolutionary changes in fundamental frameworks.'"
+    },
+    {
+      "id": "reading-12-rc-023",
+      "bankId": "reading-12-rc",
+      "text": "What does 'incommensurable' mean in the context of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Highly compatible",
+          "Unable to be compared by a common standard",
+          "Mathematically precise",
+          "Historically significant"
+        ],
+        "correctAnswer": "Unable to be compared by a common standard"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.11-12.4"
+      ],
+      "primaryStandard": "RI.11-12.4",
+      "passage": "G12-I2: The Philosophy of Science",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "In context, new paradigms being 'incommensurable with the old' means they cannot be directly compared, which led to charges of relativism."
+    },
+    {
+      "id": "reading-12-rc-024",
+      "bankId": "reading-12-rc",
+      "text": "How does the passage structure the presentation of ideas in philosophy of science?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Alphabetically by philosopher",
+          "Chronologically through Popper, Kuhn, and contemporary synthesis",
+          "From practical to theoretical",
+          "By scientific discipline"
+        ],
+        "correctAnswer": "Chronologically through Popper, Kuhn, and contemporary synthesis"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.5"
+      ],
+      "primaryStandard": "RI.11-12.5",
+      "passage": "G12-I2: The Philosophy of Science",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage moves from Popper to Kuhn to 'contemporary philosophers' who 'synthesized these insights.'"
+    },
+    {
+      "id": "reading-12-rc-025",
+      "bankId": "reading-12-rc",
+      "text": "What is the author's perspective on the debate between Popper and Kuhn?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Popper was entirely correct",
+          "Kuhn was entirely correct",
+          "Both contributed insights that have been synthesized",
+          "Both were fundamentally wrong"
+        ],
+        "correctAnswer": "Both contributed insights that have been synthesized"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.6"
+      ],
+      "primaryStandard": "RI.11-12.6",
+      "passage": "G12-I2: The Philosophy of Science",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'contemporary philosophers of science have synthesized these insights,' presenting both as contributing to current understanding."
+    },
+    {
+      "id": "reading-12-rc-026",
+      "bankId": "reading-12-rc",
+      "text": "What reasoning does the passage use to support the fallibilist view of scientific knowledge?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Appeal to scientific authority",
+          "The observation that theories are provisional and subject to revision",
+          "Statistical analysis of scientific discoveries",
+          "Comparison with religious knowledge"
+        ],
+        "correctAnswer": "The observation that theories are provisional and subject to revision"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Integration of Knowledge",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.11-12.8"
+      ],
+      "primaryStandard": "RI.11-12.8",
+      "passage": "G12-I2: The Philosophy of Science",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage supports fallibilism by stating 'all scientific knowledge is provisional, subject to revision in light of new evidence.'"
+    },
+    {
+      "id": "reading-12-rc-027",
+      "bankId": "reading-12-rc",
+      "text": "What does Marlow's journey into the Congo symbolize in Heart of Darkness?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "A simple adventure story",
+          "A descent into the darkness of human nature",
+          "The triumph of European civilization",
+          "The benefits of colonialism"
+        ],
+        "correctAnswer": "A descent into the darkness of human nature"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.11-12.2"
+      ],
+      "primaryStandard": "RL.11-12.2",
+      "passage": "G12-L3: Heart of Darkness",
+      "passageText": "Joseph Conrad's Heart of Darkness employs a frame narrative structure, with Marlow recounting his journey into the Congo to companions on a boat anchored in the Thames. This technique creates interpretive distance and raises questions about the reliability of Marlow's account. The physical journey upriver becomes increasingly surreal, mirroring a psychological descent into the unconscious. Kurtz, the ivory trader Marlow seeks, has abandoned the restraints of European civilization and now rules his territory through terror. His dying words, 'The horror! The horror!' encapsulate his recognition of the darkness within himself and humanity. Conrad's novella has generated extensive critical debate. Chinua Achebe's influential critique charged Conrad with dehumanizing Africans, reducing them to a backdrop for European psychological drama. Defenders argue Conrad was critiquing imperialism, revealing its brutal reality beneath civilizing rhetoric. The ambiguity may be intentional; Conrad forces readers to confront their own assumptions about civilization, savagery, and the human capacity for evil. The Thames itself becomes implicated in this darkness, as Marlow notes that London too was once 'one of the dark places of the earth,' suggesting that the boundary between civilization and savagery is permeable and provisional.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states the journey is 'a psychological descent into the unconscious' exploring 'the darkness within himself and humanity.'"
+    },
+    {
+      "id": "reading-12-rc-028",
+      "bankId": "reading-12-rc",
+      "text": "According to the passage, what textual evidence supports the claim that Marlow's narrative may be unreliable?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "His use of technical language",
+          "The frame narrative structure that creates interpretive distance",
+          "His friendship with Kurtz",
+          "The historical accuracy of his account"
+        ],
+        "correctAnswer": "The frame narrative structure that creates interpretive distance"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.1"
+      ],
+      "primaryStandard": "RL.11-12.1",
+      "passage": "G12-L3: Heart of Darkness",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states the 'frame narrative structure' creates 'interpretive distance and raises questions about the reliability of Marlow's account.'"
+    },
+    {
+      "id": "reading-12-rc-029",
+      "bankId": "reading-12-rc",
+      "text": "How does Kurtz's character develop according to this analysis?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "From savage to civilized",
+          "From civilized restraint to ruling through terror",
+          "From ignorance to wisdom",
+          "From poverty to wealth"
+        ],
+        "correctAnswer": "From civilized restraint to ruling through terror"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.3"
+      ],
+      "primaryStandard": "RL.11-12.3",
+      "passage": "G12-L3: Heart of Darkness",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states Kurtz 'has abandoned the restraints of European civilization and now rules his territory through terror.'"
+    },
+    {
+      "id": "reading-12-rc-030",
+      "bankId": "reading-12-rc",
+      "text": "What does 'permeable' mean as used in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Permanent and fixed",
+          "Allowing passage through",
+          "Clearly defined",
+          "Historically accurate"
+        ],
+        "correctAnswer": "Allowing passage through"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.4"
+      ],
+      "primaryStandard": "RL.11-12.4",
+      "passage": "G12-L3: Heart of Darkness",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "In context, the boundary being 'permeable and provisional' means it can be crossed or penetrated, not fixed."
+    },
+    {
+      "id": "reading-12-rc-031",
+      "bankId": "reading-12-rc",
+      "text": "How does Conrad use the setting of the Thames to develop his theme?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To contrast civilized London with savage Africa",
+          "To suggest that darkness exists in all civilizations",
+          "To celebrate British naval history",
+          "To provide geographical accuracy"
+        ],
+        "correctAnswer": "To suggest that darkness exists in all civilizations"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.11-12.5"
+      ],
+      "primaryStandard": "RL.11-12.5",
+      "passage": "G12-L3: Heart of Darkness",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage notes Marlow observes London 'was once one of the dark places of the earth,' implicating all civilizations in potential darkness."
+    },
+    {
+      "id": "reading-12-rc-032",
+      "bankId": "reading-12-rc",
+      "text": "How does the author present Achebe's critique of Conrad?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "As definitively correct",
+          "As one influential perspective in an ongoing debate",
+          "As completely misguided",
+          "As irrelevant to understanding the text"
+        ],
+        "correctAnswer": "As one influential perspective in an ongoing debate"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.6"
+      ],
+      "primaryStandard": "RL.11-12.6",
+      "passage": "G12-L3: Heart of Darkness",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage presents Achebe's 'influential critique' alongside 'defenders' who 'argue' differently, indicating ongoing debate."
+    },
+    {
+      "id": "reading-12-rc-033",
+      "bankId": "reading-12-rc",
+      "text": "What is the central argument of this passage about linguistic relativity?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "All languages are identical in structure",
+          "Language may influence but does not determine thought",
+          "Only European languages allow abstract thinking",
+          "Language has no connection to thought"
+        ],
+        "correctAnswer": "Language may influence but does not determine thought"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.11-12.2"
+      ],
+      "primaryStandard": "RI.11-12.2",
+      "passage": "G12-I3: Language and Thought",
+      "passageText": "The Sapir-Whorf hypothesis, also known as linguistic relativity, proposes that the structure of a language influences the cognition of its speakers. In its strong form, linguistic determinism, the hypothesis claims that language determines thought, making certain concepts literally unthinkable for speakers lacking the requisite vocabulary or grammatical structures. Benjamin Lee Whorf's studies of Hopi suggested the language lacked tenses, leading him to speculate that Hopi speakers experienced time differently than English speakers. Subsequent research has largely discredited the strong determinism claim while supporting weaker versions of linguistic relativity. Studies have shown that language can influence perception in measurable ways. Russian speakers, who have separate terms for light blue and dark blue, distinguish these colors faster than English speakers. However, these effects are typically small and can be overridden by other cognitive processes. The current scientific consensus holds that while language provides a default way of encoding experience, it does not create impenetrable barriers to thought. Speakers of any language can learn concepts from other languages, translate between languages, and think beyond their linguistic categories. Language shapes habitual thought without imprisoning it.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage concludes that 'language shapes habitual thought without imprisoning it,' supporting influence without determination."
+    },
+    {
+      "id": "reading-12-rc-034",
+      "bankId": "reading-12-rc",
+      "text": "What evidence does the passage provide for weak linguistic relativity?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Whorf's studies of Hopi time concepts",
+          "Russian speakers distinguishing blue shades faster",
+          "The impossibility of translation",
+          "The identical structure of all languages"
+        ],
+        "correctAnswer": "Russian speakers distinguishing blue shades faster"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.1"
+      ],
+      "primaryStandard": "RI.11-12.1",
+      "passage": "G12-I3: Language and Thought",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage cites that 'Russian speakers, who have separate terms for light blue and dark blue, distinguish these colors faster' as evidence for influence."
+    },
+    {
+      "id": "reading-12-rc-035",
+      "bankId": "reading-12-rc",
+      "text": "How does the passage distinguish between strong and weak versions of the Sapir-Whorf hypothesis?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Strong claims language determines thought; weak claims it influences thought",
+          "Strong focuses on grammar; weak focuses on vocabulary",
+          "Strong applies to all languages; weak only to some",
+          "There is no distinction presented"
+        ],
+        "correctAnswer": "Strong claims language determines thought; weak claims it influences thought"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.3"
+      ],
+      "primaryStandard": "RI.11-12.3",
+      "passage": "G12-I3: Language and Thought",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage distinguishes 'linguistic determinism' (strong form claiming determination) from 'weaker versions of linguistic relativity' (influence)."
+    },
+    {
+      "id": "reading-12-rc-036",
+      "bankId": "reading-12-rc",
+      "text": "What does 'requisite' mean as used in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Optional and unnecessary",
+          "Required or necessary",
+          "Historical and outdated",
+          "Simple and basic"
+        ],
+        "correctAnswer": "Required or necessary"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.11-12.4"
+      ],
+      "primaryStandard": "RI.11-12.4",
+      "passage": "G12-I3: Language and Thought",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "In context, 'requisite vocabulary or grammatical structures' refers to the vocabulary necessary for thinking certain concepts."
+    },
+    {
+      "id": "reading-12-rc-037",
+      "bankId": "reading-12-rc",
+      "text": "How does the author structure the argument about linguistic relativity?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Presents only supporting evidence",
+          "Presents the strong claim, refutes it, then supports a weaker version",
+          "Rejects all versions of the hypothesis",
+          "Presents competing theories without resolution"
+        ],
+        "correctAnswer": "Presents the strong claim, refutes it, then supports a weaker version"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.11-12.5"
+      ],
+      "primaryStandard": "RI.11-12.5",
+      "passage": "G12-I3: Language and Thought",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage introduces strong determinism, notes it has been 'largely discredited,' then provides evidence 'supporting weaker versions.'"
+    },
+    {
+      "id": "reading-12-rc-038",
+      "bankId": "reading-12-rc",
+      "text": "What is the author's purpose in citing 'the current scientific consensus'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To dismiss all research on the topic",
+          "To establish credibility for the moderate position",
+          "To argue against scientific methods",
+          "To support linguistic determinism"
+        ],
+        "correctAnswer": "To establish credibility for the moderate position"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.6"
+      ],
+      "primaryStandard": "RI.11-12.6",
+      "passage": "G12-I3: Language and Thought",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author cites scientific consensus to support the moderate view that language influences but does not determine thought."
+    },
+    {
+      "id": "reading-12-rc-039",
+      "bankId": "reading-12-rc",
+      "text": "Is the reasoning about Whorf's Hopi studies presented as valid evidence for linguistic determinism?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Yes, it definitively proves the theory",
+          "No, subsequent research has discredited this evidence",
+          "The passage takes no position on this",
+          "Yes, it remains the strongest evidence available"
+        ],
+        "correctAnswer": "No, subsequent research has discredited this evidence"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.8"
+      ],
+      "primaryStandard": "RI.11-12.8",
+      "passage": "G12-I3: Language and Thought",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'subsequent research has largely discredited the strong determinism claim' that Whorf's studies supported."
+    },
+    {
+      "id": "reading-12-rc-040",
+      "bankId": "reading-12-rc",
+      "text": "What does the green light at the end of Daisy's dock symbolize to Gatsby?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Money and material success",
+          "His impossible dream and idealized past",
+          "Environmental concerns",
+          "Nautical safety"
+        ],
+        "correctAnswer": "His impossible dream and idealized past"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.2"
+      ],
+      "primaryStandard": "RL.11-12.2",
+      "passage": "G12-L4: The Great Gatsby",
+      "passageText": "F. Scott Fitzgerald's The Great Gatsby stands as the quintessential American novel, a meditation on the corruption of the American Dream. Through Nick Carraway's retrospective narration, we witness Jay Gatsby's pursuit of Daisy Buchanan, a pursuit that conflates romantic love with social aspiration. Gatsby's elaborate parties, his fabricated past, and his accumulated wealth all serve one purpose: to recapture a moment five years past when he and Daisy first kissed. The green light at the end of Daisy's dock becomes the novel's central symbol, representing not just Daisy but the broader human tendency to project meaning onto the future while remaining captive to an idealized past. Nick's famous closing meditation extends this symbolism: 'So we beat on, boats against the current, borne back ceaselessly into the past.' The novel's critique of wealth distinguishes between old money's careless privilege and new money's desperate striving, finding corruption in both. Tom and Daisy Buchanan 'smashed up things and creatures and then retreated back into their money,' protected by class from consequences. Fitzgerald captures both the allure and the hollowness of the American Dream, making Gatsby simultaneously a romantic hero and a cautionary figure.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states the green light represents 'not just Daisy but the broader human tendency to project meaning onto the future while remaining captive to an idealized past.'"
+    },
+    {
+      "id": "reading-12-rc-041",
+      "bankId": "reading-12-rc",
+      "text": "What textual evidence supports the claim that Gatsby's pursuit conflates romance with social ambition?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "His love of parties",
+          "His fabricated past and accumulated wealth all serving to recapture Daisy",
+          "His friendship with Nick",
+          "His business dealings"
+        ],
+        "correctAnswer": "His fabricated past and accumulated wealth all serving to recapture Daisy"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.1"
+      ],
+      "primaryStandard": "RL.11-12.1",
+      "passage": "G12-L4: The Great Gatsby",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'Gatsby's elaborate parties, his fabricated past, and his accumulated wealth all serve one purpose: to recapture' Daisy."
+    },
+    {
+      "id": "reading-12-rc-042",
+      "bankId": "reading-12-rc",
+      "text": "How does the passage characterize the difference between old money and new money?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Old money is ethical; new money is corrupt",
+          "Old money has careless privilege; new money has desperate striving",
+          "There is no meaningful difference",
+          "New money is more refined"
+        ],
+        "correctAnswer": "Old money has careless privilege; new money has desperate striving"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.3"
+      ],
+      "primaryStandard": "RL.11-12.3",
+      "passage": "G12-L4: The Great Gatsby",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage distinguishes between 'old money's careless privilege and new money's desperate striving.'"
+    },
+    {
+      "id": "reading-12-rc-043",
+      "bankId": "reading-12-rc",
+      "text": "What does 'quintessential' mean as used in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "One of many examples",
+          "The most perfect or typical example",
+          "Historically first",
+          "Critically acclaimed"
+        ],
+        "correctAnswer": "The most perfect or typical example"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.4"
+      ],
+      "primaryStandard": "RL.11-12.4",
+      "passage": "G12-L4: The Great Gatsby",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Calling it 'the quintessential American novel' positions it as the most representative or perfect example of the American novel."
+    },
+    {
+      "id": "reading-12-rc-044",
+      "bankId": "reading-12-rc",
+      "text": "How does Fitzgerald use Nick Carraway's retrospective narration?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To provide objective journalism",
+          "To create interpretive distance and reflective perspective",
+          "To speed up the plot",
+          "To introduce multiple storylines"
+        ],
+        "correctAnswer": "To create interpretive distance and reflective perspective"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.11-12.5"
+      ],
+      "primaryStandard": "RL.11-12.5",
+      "passage": "G12-L4: The Great Gatsby",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The 'retrospective narration' allows Nick to reflect on events and provide the passage's meditation on the American Dream."
+    },
+    {
+      "id": "reading-12-rc-045",
+      "bankId": "reading-12-rc",
+      "text": "What is the author's perspective on Gatsby as a character?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Purely heroic",
+          "Purely villainous",
+          "Both romantic hero and cautionary figure",
+          "Historically insignificant"
+        ],
+        "correctAnswer": "Both romantic hero and cautionary figure"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.6"
+      ],
+      "primaryStandard": "RL.11-12.6",
+      "passage": "G12-L4: The Great Gatsby",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage concludes that the novel makes 'Gatsby simultaneously a romantic hero and a cautionary figure.'"
+    },
+    {
+      "id": "reading-12-rc-046",
+      "bankId": "reading-12-rc",
+      "text": "What central claim does the passage make about economic inequality?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Inequality is always beneficial",
+          "Inequality threatens democratic governance and social cohesion",
+          "Inequality does not exist in developed nations",
+          "Inequality only affects developing countries"
+        ],
+        "correctAnswer": "Inequality threatens democratic governance and social cohesion"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.2"
+      ],
+      "primaryStandard": "RI.11-12.2",
+      "passage": "G12-I4: Economic Inequality",
+      "passageText": "Economic inequality has reached levels not seen since the Gilded Age, prompting renewed debate about its causes, consequences, and remedies. Thomas Piketty's landmark study Capital in the Twenty-First Century demonstrated that when the rate of return on capital exceeds economic growth, wealth concentrates at the top, a pattern interrupted only by the catastrophes of world wars and the policies of the postwar era. Contemporary inequality manifests not only in income disparities but in divergent life outcomes: differences in health, education, housing, and life expectancy that correlate strongly with socioeconomic status. Critics argue that extreme inequality threatens democratic governance, as concentrated wealth translates into concentrated political influence. Defenders of inequality contend that it reflects differential productivity and provides incentives for innovation and effort. They warn that redistribution discourages economic growth and infringes on property rights. Empirical research complicates both positions. Some inequality may indeed provide incentives, but extreme inequality appears to reduce social mobility, eroding the meritocratic justification for inequality. Cross-national comparisons suggest that more equal societies often outperform unequal ones on measures of health, education, and social cohesion, challenging claims that equality necessarily sacrifices prosperity.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states inequality 'threatens democratic governance' and that 'more equal societies often outperform unequal ones on measures of...social cohesion.'"
+    },
+    {
+      "id": "reading-12-rc-047",
+      "bankId": "reading-12-rc",
+      "text": "According to Piketty's research cited in the passage, what causes wealth concentration?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Equal distribution policies",
+          "When return on capital exceeds economic growth",
+          "World wars and catastrophes",
+          "Government intervention"
+        ],
+        "correctAnswer": "When return on capital exceeds economic growth"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.1"
+      ],
+      "primaryStandard": "RI.11-12.1",
+      "passage": "G12-I4: Economic Inequality",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'when the rate of return on capital exceeds economic growth, wealth concentrates at the top.'"
+    },
+    {
+      "id": "reading-12-rc-048",
+      "bankId": "reading-12-rc",
+      "text": "How does the passage present the arguments of inequality's defenders?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "As definitively correct",
+          "As claims that empirical research complicates",
+          "As completely without merit",
+          "As the author's own position"
+        ],
+        "correctAnswer": "As claims that empirical research complicates"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.11-12.3"
+      ],
+      "primaryStandard": "RI.11-12.3",
+      "passage": "G12-I4: Economic Inequality",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "After presenting defenders' arguments, the passage states 'empirical research complicates both positions.'"
+    },
+    {
+      "id": "reading-12-rc-049",
+      "bankId": "reading-12-rc",
+      "text": "What does 'meritocratic' mean as used in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Based on inherited wealth",
+          "Based on individual ability and effort",
+          "Based on political connections",
+          "Based on random chance"
+        ],
+        "correctAnswer": "Based on individual ability and effort"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.4"
+      ],
+      "primaryStandard": "RI.11-12.4",
+      "passage": "G12-I4: Economic Inequality",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The 'meritocratic justification for inequality' refers to the idea that inequality reflects 'differential productivity' and effort."
+    },
+    {
+      "id": "reading-12-rc-050",
+      "bankId": "reading-12-rc",
+      "text": "How does the passage organize the debate about inequality?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Chronologically by historical period",
+          "By presenting critics, then defenders, then empirical evidence",
+          "Alphabetically by economist",
+          "By geographic region"
+        ],
+        "correctAnswer": "By presenting critics, then defenders, then empirical evidence"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.5"
+      ],
+      "primaryStandard": "RI.11-12.5",
+      "passage": "G12-I4: Economic Inequality",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage presents 'critics argue,' then 'defenders...contend,' then 'empirical research complicates both positions.'"
+    },
+    {
+      "id": "reading-12-rc-051",
+      "bankId": "reading-12-rc",
+      "text": "What is the author's apparent stance on the inequality debate?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Strongly in favor of complete equality",
+          "Strongly in favor of unlimited inequality",
+          "Nuanced, suggesting evidence supports moderate equality",
+          "Completely neutral with no position indicated"
+        ],
+        "correctAnswer": "Nuanced, suggesting evidence supports moderate equality"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.11-12.6"
+      ],
+      "primaryStandard": "RI.11-12.6",
+      "passage": "G12-I4: Economic Inequality",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage suggests 'some inequality may indeed provide incentives' but 'extreme inequality' is problematic, indicating a nuanced moderate position."
+    },
+    {
+      "id": "reading-12-rc-052",
+      "bankId": "reading-12-rc",
+      "text": "What evidence does the passage use to challenge claims that equality sacrifices prosperity?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Theoretical economic models",
+          "Cross-national comparisons showing equal societies often outperform unequal ones",
+          "Historical examples from ancient civilizations",
+          "Interviews with wealthy individuals"
+        ],
+        "correctAnswer": "Cross-national comparisons showing equal societies often outperform unequal ones"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.8"
+      ],
+      "primaryStandard": "RI.11-12.8",
+      "passage": "G12-I4: Economic Inequality",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage cites 'cross-national comparisons suggest that more equal societies often outperform unequal ones.'"
+    },
+    {
+      "id": "reading-12-rc-053",
+      "bankId": "reading-12-rc",
+      "text": "What does the narrator's observation about the raven's perching reveal?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Birds are common household pets",
+          "The supernatural has invaded the rational world",
+          "The room needs better lighting",
+          "The narrator enjoys ornithology"
+        ],
+        "correctAnswer": "The supernatural has invaded the rational world"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.1"
+      ],
+      "primaryStandard": "RL.11-12.1",
+      "passage": "G12-L5: The Raven",
+      "passageText": "Edgar Allan Poe's 'The Raven' exemplifies his theory of the single effect in poetry, every element contributing to an overwhelming atmosphere of melancholy and dread. The poem's speaker, grieving for his lost Lenore, is visited at midnight by a raven that speaks only one word: 'Nevermore.' This single utterance becomes increasingly ominous as the speaker, perhaps succumbing to madness, frames questions designed to receive this hopeless answer. Poe deliberately chose a non-reasoning creature to deliver the refrain, emphasizing the mechanical, inexorable quality of despair. The raven perches on a bust of Pallas Athena, goddess of wisdom, suggesting reason's impotence against grief. The poem's trochaic octameter creates a hypnotic, incantatory rhythm that mirrors the speaker's obsessive spiraling thoughts. Internal rhyme and alliteration intensify the sonic texture. Symbolically, the raven represents different things: death, memory, the unconscious, the speaker's self-destructive mourning. The poem ends not with resolution but with stasis\u2014the raven still sitting, casting shadow over the speaker's soul, his anguish permanent and inescapable. Poe's Gothic aesthetic transforms personal grief into universal terror, demonstrating poetry's power to create emotional experiences beyond ordinary language.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The raven perching on Pallas (wisdom) and speaking 'Nevermore' represents supernatural intrusion into rational space."
+    },
+    {
+      "id": "reading-12-rc-054",
+      "bankId": "reading-12-rc",
+      "text": "What theme does Poe develop through the speaker's interaction with the raven?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The joy of remembrance",
+          "The inescapable nature of grief and despair",
+          "The benefits of animal companionship",
+          "The triumph of reason over emotion"
+        ],
+        "correctAnswer": "The inescapable nature of grief and despair"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.2"
+      ],
+      "primaryStandard": "RL.11-12.2",
+      "passage": "G12-L5: The Raven",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states the poem ends with 'anguish permanent and inescapable' and emphasizes 'the mechanical, inexorable quality of despair.'"
+    },
+    {
+      "id": "reading-12-rc-055",
+      "bankId": "reading-12-rc",
+      "text": "Why does the speaker frame questions to receive 'Nevermore' as an answer?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To test the raven's vocabulary",
+          "To feed his own self-destructive mourning",
+          "To prove the raven is intelligent",
+          "To entertain himself"
+        ],
+        "correctAnswer": "To feed his own self-destructive mourning"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.11-12.3"
+      ],
+      "primaryStandard": "RL.11-12.3",
+      "passage": "G12-L5: The Raven",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage notes the raven represents 'the speaker's self-destructive mourning' and his 'obsessive spiraling thoughts.'"
+    },
+    {
+      "id": "reading-12-rc-056",
+      "bankId": "reading-12-rc",
+      "text": "What does 'incantatory' mean as used in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Quietly whispered",
+          "Like a magical chant or spell",
+          "Randomly organized",
+          "Conversationally casual"
+        ],
+        "correctAnswer": "Like a magical chant or spell"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.4"
+      ],
+      "primaryStandard": "RL.11-12.4",
+      "passage": "G12-L5: The Raven",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The 'hypnotic, incantatory rhythm' suggests spell-like, chant-like quality that mirrors obsessive thoughts."
+    },
+    {
+      "id": "reading-12-rc-057",
+      "bankId": "reading-12-rc",
+      "text": "How does the trochaic octameter contribute to the poem's effect?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It creates a lively, upbeat tone",
+          "It creates a hypnotic rhythm mirroring obsessive thoughts",
+          "It makes the poem easier to memorize",
+          "It reflects the raven's natural calls"
+        ],
+        "correctAnswer": "It creates a hypnotic rhythm mirroring obsessive thoughts"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.11-12.5"
+      ],
+      "primaryStandard": "RL.11-12.5",
+      "passage": "G12-L5: The Raven",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states the meter 'creates a hypnotic, incantatory rhythm that mirrors the speaker's obsessive spiraling thoughts.'"
+    },
+    {
+      "id": "reading-12-rc-058",
+      "bankId": "reading-12-rc",
+      "text": "What does the placement of the raven on Pallas's bust symbolize?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The importance of education",
+          "Reason's impotence against grief",
+          "Greek cultural influence",
+          "The speaker's love of classical art"
+        ],
+        "correctAnswer": "Reason's impotence against grief"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.6"
+      ],
+      "primaryStandard": "RL.11-12.6",
+      "passage": "G12-L5: The Raven",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states the raven perching on Pallas Athena 'goddess of wisdom, suggesting reason's impotence against grief.'"
+    },
+    {
+      "id": "reading-12-rc-059",
+      "bankId": "reading-12-rc",
+      "text": "What is the central argument of this passage about climate ethics?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Climate change is not a real problem",
+          "Climate ethics involves complex questions of intergenerational and international justice",
+          "Only current generations matter ethically",
+          "Wealthy nations bear no special responsibility"
+        ],
+        "correctAnswer": "Climate ethics involves complex questions of intergenerational and international justice"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.2"
+      ],
+      "primaryStandard": "RI.11-12.2",
+      "passage": "G12-I5: Climate Change Ethics",
+      "passageText": "Climate change presents unprecedented ethical challenges, requiring us to consider obligations to future generations and to people in distant countries. Traditional ethical frameworks struggle with the scope and complexity of the issue. Consequentialist approaches calculate costs and benefits, but discount rates that diminish future impacts raise concerns about intergenerational justice. How much weight should we give to the welfare of those not yet born? Deontological frameworks emphasize rights and duties but face the non-identity problem: future people's very existence depends on our current choices, complicating claims about our duties to them. The distribution of climate impacts raises questions of international justice. Developing nations, having contributed least to historical emissions, face the greatest climate vulnerabilities. Wealthy nations possess both greater historical responsibility and greater capacity for action, suggesting principles of differentiated responsibility. Some theorists propose a human rights framework, arguing climate change threatens fundamental rights to life, health, and subsistence. Others advocate for capabilities approaches that focus on what climate change prevents people from doing and being. The ethical dimensions of geoengineering, carbon markets, and climate migration policies add further complexity to an already challenging moral landscape.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage discusses 'intergenerational justice,' 'international justice,' and multiple ethical frameworks for addressing climate responsibility."
+    },
+    {
+      "id": "reading-12-rc-060",
+      "bankId": "reading-12-rc",
+      "text": "What challenge does the non-identity problem pose for climate ethics?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It proves climate change is not happening",
+          "Future people's existence depends on current choices, complicating duty claims",
+          "It shows we have no obligations to anyone",
+          "It demonstrates that ethics is irrelevant"
+        ],
+        "correctAnswer": "Future people's existence depends on current choices, complicating duty claims"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.11-12.1"
+      ],
+      "primaryStandard": "RI.11-12.1",
+      "passage": "G12-I5: Climate Change Ethics",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explains 'future people's very existence depends on our current choices, complicating claims about our duties to them.'"
+    },
+    {
+      "id": "reading-12-rc-061",
+      "bankId": "reading-12-rc",
+      "text": "How does the passage explain the concept of differentiated responsibility?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "All nations share equal responsibility",
+          "Wealthy nations have greater historical responsibility and capacity for action",
+          "Developing nations should bear the primary burden",
+          "Responsibility cannot be assigned"
+        ],
+        "correctAnswer": "Wealthy nations have greater historical responsibility and capacity for action"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.3"
+      ],
+      "primaryStandard": "RI.11-12.3",
+      "passage": "G12-I5: Climate Change Ethics",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'wealthy nations possess both greater historical responsibility and greater capacity for action.'"
+    },
+    {
+      "id": "reading-12-rc-062",
+      "bankId": "reading-12-rc",
+      "text": "What does 'consequentialist' mean as used in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Focused on intentions behind actions",
+          "Focused on calculating outcomes and results",
+          "Focused on following traditional rules",
+          "Focused on individual virtue"
+        ],
+        "correctAnswer": "Focused on calculating outcomes and results"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.4"
+      ],
+      "primaryStandard": "RI.11-12.4",
+      "passage": "G12-I5: Climate Change Ethics",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explains 'consequentialist approaches calculate costs and benefits,' focusing on consequences or outcomes."
+    },
+    {
+      "id": "reading-12-rc-063",
+      "bankId": "reading-12-rc",
+      "text": "How does the author organize the discussion of ethical frameworks?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "From oldest to newest theories",
+          "By presenting multiple frameworks and their limitations regarding climate change",
+          "From most to least popular",
+          "By geographic origin"
+        ],
+        "correctAnswer": "By presenting multiple frameworks and their limitations regarding climate change"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.11-12.5"
+      ],
+      "primaryStandard": "RI.11-12.5",
+      "passage": "G12-I5: Climate Change Ethics",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage presents consequentialism, deontology, rights-based, and capabilities approaches, noting challenges each faces with climate issues."
+    },
+    {
+      "id": "reading-12-rc-064",
+      "bankId": "reading-12-rc",
+      "text": "What is the author's purpose in discussing multiple ethical frameworks?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To prove one framework is superior",
+          "To demonstrate the complexity of climate ethics",
+          "To argue ethics is useless for climate policy",
+          "To advocate for a specific political position"
+        ],
+        "correctAnswer": "To demonstrate the complexity of climate ethics"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.6"
+      ],
+      "primaryStandard": "RI.11-12.6",
+      "passage": "G12-I5: Climate Change Ethics",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage's discussion of multiple frameworks and their limitations demonstrates 'an already challenging moral landscape.'"
+    },
+    {
+      "id": "reading-12-rc-065",
+      "bankId": "reading-12-rc",
+      "text": "What role does memory play in shaping Marcel's understanding of time?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It provides accurate historical documentation",
+          "It reveals that past selves live on through sensory associations",
+          "It proves that time is linear",
+          "It shows that forgetting is impossible"
+        ],
+        "correctAnswer": "It reveals that past selves live on through sensory associations"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.11-12.2"
+      ],
+      "primaryStandard": "RL.11-12.2",
+      "passage": "G12-L6: In Search of Lost Time",
+      "passageText": "Marcel Proust's monumental novel In Search of Lost Time revolutionized the treatment of memory and consciousness in fiction. The narrator Marcel's experience of involuntary memory, triggered by the taste of a madeleine dipped in tea, becomes the novel's foundational revelation. This moment demonstrates that the past is not lost but preserved in objects and sensations, awaiting resurrection through chance encounters. Proust distinguishes between voluntary memory, which produces only factual records, and involuntary memory, which recovers the emotional texture of experience. The novel's length and intricate syntax mirror the recursive, associative nature of consciousness. Proust's sentences spiral through parenthetical qualifications and embedded observations, replicating how thought actually unfolds. Time in the novel is not linear chronology but psychological duration, with moments expanding or contracting based on their emotional significance. The narrator's journey culminates in the decision to write the very novel we have been reading, a self-reflexive structure that transforms remembered experience into art. Proust suggests that only through art can we truly possess our experience, rescuing it from time's destruction. The novel thus becomes a meditation on aesthetics as much as memory, exploring how creative transformation redeems the losses inherent in temporal existence.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explains involuntary memory 'recovers the emotional texture of experience' and that 'the past is not lost but preserved in objects and sensations.'"
+    },
+    {
+      "id": "reading-12-rc-066",
+      "bankId": "reading-12-rc",
+      "text": "What triggers Marcel's foundational experience of involuntary memory?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Looking at old photographs",
+          "The taste of a madeleine dipped in tea",
+          "Reading his childhood diary",
+          "Visiting his grandmother's house"
+        ],
+        "correctAnswer": "The taste of a madeleine dipped in tea"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RL.11-12.1"
+      ],
+      "primaryStandard": "RL.11-12.1",
+      "passage": "G12-L6: In Search of Lost Time",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explicitly states involuntary memory is 'triggered by the taste of a madeleine dipped in tea.'"
+    },
+    {
+      "id": "reading-12-rc-067",
+      "bankId": "reading-12-rc",
+      "text": "How does Proust distinguish between voluntary and involuntary memory?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Voluntary is accurate; involuntary is false",
+          "Voluntary produces factual records; involuntary recovers emotional texture",
+          "There is no meaningful distinction",
+          "Involuntary is deliberate; voluntary is accidental"
+        ],
+        "correctAnswer": "Voluntary produces factual records; involuntary recovers emotional texture"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.3"
+      ],
+      "primaryStandard": "RL.11-12.3",
+      "passage": "G12-L6: In Search of Lost Time",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'voluntary memory...produces only factual records' while 'involuntary memory...recovers the emotional texture of experience.'"
+    },
+    {
+      "id": "reading-12-rc-068",
+      "bankId": "reading-12-rc",
+      "text": "What does 'self-reflexive' mean as used in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Automatically responding",
+          "Referring back to itself",
+          "Deeply personal",
+          "Physically flexible"
+        ],
+        "correctAnswer": "Referring back to itself"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.4"
+      ],
+      "primaryStandard": "RL.11-12.4",
+      "passage": "G12-L6: In Search of Lost Time",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The 'self-reflexive structure' refers to the novel describing its own creation, referring back to itself."
+    },
+    {
+      "id": "reading-12-rc-069",
+      "bankId": "reading-12-rc",
+      "text": "How does Proust's syntax relate to his subject matter?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It is simple to contrast with complex themes",
+          "Complex sentences mirror the recursive nature of consciousness",
+          "Short sentences create urgency",
+          "Syntax has no relation to content"
+        ],
+        "correctAnswer": "Complex sentences mirror the recursive nature of consciousness"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.11-12.5"
+      ],
+      "primaryStandard": "RL.11-12.5",
+      "passage": "G12-L6: In Search of Lost Time",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'intricate syntax mirror the recursive, associative nature of consciousness' and sentences 'replicat[e] how thought actually unfolds.'"
+    },
+    {
+      "id": "reading-12-rc-070",
+      "bankId": "reading-12-rc",
+      "text": "What does the author suggest is Proust's view of art's relationship to memory?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Art distorts memory",
+          "Art allows us to truly possess and redeem experience from time",
+          "Art is separate from memory",
+          "Art is inferior to direct experience"
+        ],
+        "correctAnswer": "Art allows us to truly possess and redeem experience from time"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.11-12.6"
+      ],
+      "primaryStandard": "RL.11-12.6",
+      "passage": "G12-L6: In Search of Lost Time",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'only through art can we truly possess our experience, rescuing it from time's destruction.'"
+    },
+    {
+      "id": "reading-12-rc-071",
+      "bankId": "reading-12-rc",
+      "text": "What central argument does this passage make about artificial intelligence?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "AI will definitely achieve consciousness",
+          "AI raises profound questions that challenge our understanding of mind",
+          "AI is impossible to develop further",
+          "AI is merely a passing trend"
+        ],
+        "correctAnswer": "AI raises profound questions that challenge our understanding of mind"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.2"
+      ],
+      "primaryStandard": "RI.11-12.2",
+      "passage": "G12-I6: Artificial Intelligence Ethics",
+      "passageText": "Artificial intelligence raises profound philosophical questions about the nature of mind, consciousness, and moral status. The Turing test proposed that if a machine's responses are indistinguishable from a human's, we should attribute intelligence to it. John Searle's Chinese Room argument challenged this behaviorist criterion, arguing that a system could manipulate symbols according to rules without understanding their meaning. The distinction between syntax and semantics, between rule-following and genuine comprehension, remains central to debates about AI consciousness. Contemporary AI systems exhibit remarkable capabilities while remaining, by most accounts, unconscious. Large language models generate human-like text without, presumably, subjective experience. This raises questions about the relationship between intelligence and consciousness and whether artificial systems could ever possess the latter. Ethical considerations extend beyond consciousness to questions of bias, accountability, and control. AI systems trained on historical data may perpetuate existing prejudices. Autonomous weapons raise questions about meaningful human control over lethal decisions. The prospect of artificial general intelligence prompts concerns about alignment: ensuring that powerful AI systems pursue goals consistent with human values. These challenges require interdisciplinary collaboration among computer scientists, philosophers, ethicists, and policymakers.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states AI 'raises profound philosophical questions' and discusses multiple dimensions of these challenges."
+    },
+    {
+      "id": "reading-12-rc-072",
+      "bankId": "reading-12-rc",
+      "text": "According to Searle's Chinese Room argument, what does symbol manipulation lack?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Speed of processing",
+          "Genuine understanding of meaning",
+          "Accurate rule-following",
+          "Sufficient memory capacity"
+        ],
+        "correctAnswer": "Genuine understanding of meaning"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.1"
+      ],
+      "primaryStandard": "RI.11-12.1",
+      "passage": "G12-I6: Artificial Intelligence Ethics",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states Searle argued a system could 'manipulate symbols according to rules without understanding their meaning.'"
+    },
+    {
+      "id": "reading-12-rc-073",
+      "bankId": "reading-12-rc",
+      "text": "How does the passage characterize the current state of AI development?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "AI has achieved consciousness",
+          "AI exhibits remarkable capabilities while remaining unconscious",
+          "AI development has stalled",
+          "AI has exceeded human intelligence in all domains"
+        ],
+        "correctAnswer": "AI exhibits remarkable capabilities while remaining unconscious"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.3"
+      ],
+      "primaryStandard": "RI.11-12.3",
+      "passage": "G12-I6: Artificial Intelligence Ethics",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'contemporary AI systems exhibit remarkable capabilities while remaining, by most accounts, unconscious.'"
+    },
+    {
+      "id": "reading-12-rc-074",
+      "bankId": "reading-12-rc",
+      "text": "What does 'alignment' mean in the context of AI ethics?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Physical positioning of hardware",
+          "Ensuring AI systems pursue goals consistent with human values",
+          "Agreement among AI researchers",
+          "Proper formatting of code"
+        ],
+        "correctAnswer": "Ensuring AI systems pursue goals consistent with human values"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.4"
+      ],
+      "primaryStandard": "RI.11-12.4",
+      "passage": "G12-I6: Artificial Intelligence Ethics",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage defines alignment as 'ensuring that powerful AI systems pursue goals consistent with human values.'"
+    },
+    {
+      "id": "reading-12-rc-075",
+      "bankId": "reading-12-rc",
+      "text": "How does the passage organize its discussion of AI ethics?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Chronologically by decade",
+          "From philosophical questions to practical ethical concerns",
+          "By level of technical difficulty",
+          "Alphabetically by concept"
+        ],
+        "correctAnswer": "From philosophical questions to practical ethical concerns"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.5"
+      ],
+      "primaryStandard": "RI.11-12.5",
+      "passage": "G12-I6: Artificial Intelligence Ethics",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage moves from philosophical questions (Turing test, Chinese Room) to practical ethics (bias, weapons, alignment)."
+    },
+    {
+      "id": "reading-12-rc-076",
+      "bankId": "reading-12-rc",
+      "text": "What does the author suggest is needed to address AI ethical challenges?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Computer scientists working alone",
+          "Halting all AI development",
+          "Interdisciplinary collaboration among multiple fields",
+          "Government control of all AI research"
+        ],
+        "correctAnswer": "Interdisciplinary collaboration among multiple fields"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.6"
+      ],
+      "primaryStandard": "RI.11-12.6",
+      "passage": "G12-I6: Artificial Intelligence Ethics",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage concludes by stating 'these challenges require interdisciplinary collaboration among computer scientists, philosophers, ethicists, and policymakers.'"
+    },
+    {
+      "id": "reading-12-rc-077",
+      "bankId": "reading-12-rc",
+      "text": "What does Hamlet's soliloquy reveal about his internal conflict?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He is eager to take immediate action",
+          "He is paralyzed between action and inaction, life and death",
+          "He has resolved his doubts about revenge",
+          "He is primarily concerned with political power"
+        ],
+        "correctAnswer": "He is paralyzed between action and inaction, life and death"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.3"
+      ],
+      "primaryStandard": "RL.11-12.3",
+      "passage": "G12-L7: Hamlet",
+      "passageText": "Shakespeare's Hamlet explores the paralysis of excessive deliberation through its protagonist's famous delay. Tasked by his father's ghost to avenge murder, Hamlet vacillates endlessly, finding reasons to postpone action. The 'To be or not to be' soliloquy encapsulates his dilemma: whether existence is worth its suffering, whether action is worth its consequences. Hamlet's philosophical temperament, his tendency to generalize from particular situations to universal conditions, both ennobles and incapacitates him. He sees too clearly that revenge will not restore his father or purify the court's corruption. The play-within-a-play, designed to 'catch the conscience of the king,' exemplifies Hamlet's preference for indirect action and his fascination with performance and authenticity. Throughout the play, Hamlet struggles with the gap between appearance and reality, suspecting hidden corruption everywhere. His treatment of Ophelia reflects his broader distrust and his disgust at sexuality and reproduction, which perpetuate a corrupt world. The graveyard scene provides memento mori meditation, as Hamlet confronts mortality's democracy in Yorick's skull. Shakespeare suggests that thought without action becomes self-defeating, yet the play's richness stems from Hamlet's very inability to reduce complexity to simple revenge narrative.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage describes Hamlet as 'vacillates endlessly' and his soliloquy questioning 'whether existence is worth its suffering.'"
+    },
+    {
+      "id": "reading-12-rc-078",
+      "bankId": "reading-12-rc",
+      "text": "What theme does Shakespeare develop through Hamlet's delay?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The importance of quick decisions",
+          "The paralysis that comes from excessive deliberation",
+          "The benefits of revenge",
+          "The simplicity of moral choices"
+        ],
+        "correctAnswer": "The paralysis that comes from excessive deliberation"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.2"
+      ],
+      "primaryStandard": "RL.11-12.2",
+      "passage": "G12-L7: Hamlet",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explicitly states the play 'explores the paralysis of excessive deliberation through its protagonist's famous delay.'"
+    },
+    {
+      "id": "reading-12-rc-079",
+      "bankId": "reading-12-rc",
+      "text": "What evidence supports the claim that Hamlet distrusts appearances?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "His love of court ceremonies",
+          "His struggle with the gap between appearance and reality, suspecting hidden corruption",
+          "His quick acceptance of others' claims",
+          "His indifference to the king's behavior"
+        ],
+        "correctAnswer": "His struggle with the gap between appearance and reality, suspecting hidden corruption"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.1"
+      ],
+      "primaryStandard": "RL.11-12.1",
+      "passage": "G12-L7: Hamlet",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'Hamlet struggles with the gap between appearance and reality, suspecting hidden corruption everywhere.'"
+    },
+    {
+      "id": "reading-12-rc-080",
+      "bankId": "reading-12-rc",
+      "text": "What does 'memento mori' mean as used in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "A type of theatrical performance",
+          "A reminder of death and mortality",
+          "A Danish funeral custom",
+          "A philosophical school of thought"
+        ],
+        "correctAnswer": "A reminder of death and mortality"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.4"
+      ],
+      "primaryStandard": "RL.11-12.4",
+      "passage": "G12-L7: Hamlet",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The graveyard scene with Yorick's skull provides 'memento mori meditation' as Hamlet 'confronts mortality.'"
+    },
+    {
+      "id": "reading-12-rc-081",
+      "bankId": "reading-12-rc",
+      "text": "What is the function of the play-within-a-play in Hamlet?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Pure entertainment for the court",
+          "A way to test the king's guilt through indirect action",
+          "A tribute to Hamlet's father",
+          "A distraction from the main plot"
+        ],
+        "correctAnswer": "A way to test the king's guilt through indirect action"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.5"
+      ],
+      "primaryStandard": "RL.11-12.5",
+      "passage": "G12-L7: Hamlet",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states the play-within-a-play 'catch the conscience of the king' and 'exemplifies Hamlet's preference for indirect action.'"
+    },
+    {
+      "id": "reading-12-rc-082",
+      "bankId": "reading-12-rc",
+      "text": "What paradox does the author identify in Hamlet's character?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "His bravery and cowardice",
+          "His philosophical temperament both ennobles and incapacitates him",
+          "His love and hatred of Ophelia",
+          "His loyalty and disloyalty to Denmark"
+        ],
+        "correctAnswer": "His philosophical temperament both ennobles and incapacitates him"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.11-12.6"
+      ],
+      "primaryStandard": "RL.11-12.6",
+      "passage": "G12-L7: Hamlet",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'Hamlet's philosophical temperament...both ennobles and incapacitates him.'"
+    },
+    {
+      "id": "reading-12-rc-083",
+      "bankId": "reading-12-rc",
+      "text": "What is the main argument of this passage about democracy?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Democracy is the perfect system of government",
+          "Democracy faces internal tensions that require ongoing vigilance",
+          "Democracy should be replaced with technocracy",
+          "Democratic principles are universally agreed upon"
+        ],
+        "correctAnswer": "Democracy faces internal tensions that require ongoing vigilance"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.2"
+      ],
+      "primaryStandard": "RI.11-12.2",
+      "passage": "G12-I7: Democratic Theory",
+      "passageText": "Democratic theory grapples with tensions inherent in self-governance. Majoritarian democracy emphasizes the will of the majority, yet unchecked majoritarianism can become tyranny over minorities. Constitutional democracy addresses this through rights that majorities cannot override, but this raises the counter-majoritarian difficulty: why should past constitutional framers bind current majorities? Deliberative democrats argue that legitimate decisions emerge from reasoned public discourse among free and equal citizens. Yet deliberative ideals face challenges in societies marked by deep disagreement, unequal resources, and strategic manipulation of information. Participatory democrats advocate expanding citizen involvement beyond periodic voting, through direct democracy, citizen assemblies, and community organizing. Critics worry about scalability, expertise requirements, and the demands such participation places on citizens' time. Representative democracy delegates decision-making to elected officials, raising questions about the relationship between representatives and constituents. Should representatives follow constituents' preferences or exercise independent judgment? Epistemic democrats argue democracy's value lies in its capacity to aggregate dispersed knowledge and correct errors through open debate. This defense links democratic legitimacy to truth-tracking rather than mere consent. These theoretical debates have practical implications for institutional design, from electoral systems to judicial review to the role of expertise in policymaking.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage presents multiple 'tensions inherent in self-governance' and challenges to different democratic models."
+    },
+    {
+      "id": "reading-12-rc-084",
+      "bankId": "reading-12-rc",
+      "text": "What is the 'counter-majoritarian difficulty' described in the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Minorities always opposing the majority",
+          "The question of why past constitutional framers should bind current majorities",
+          "Difficulty in counting votes accurately",
+          "Opposition to democratic principles"
+        ],
+        "correctAnswer": "The question of why past constitutional framers should bind current majorities"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.11-12.1"
+      ],
+      "primaryStandard": "RI.11-12.1",
+      "passage": "G12-I7: Democratic Theory",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage defines this as 'why should past constitutional framers bind current majorities?'"
+    },
+    {
+      "id": "reading-12-rc-085",
+      "bankId": "reading-12-rc",
+      "text": "How do deliberative democrats differ from epistemic democrats?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "They focus on reasoned discourse; epistemic democrats focus on truth-tracking",
+          "They are identical in approach",
+          "They reject all forms of expertise",
+          "They oppose constitutional rights"
+        ],
+        "correctAnswer": "They focus on reasoned discourse; epistemic democrats focus on truth-tracking"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.11-12.3"
+      ],
+      "primaryStandard": "RI.11-12.3",
+      "passage": "G12-I7: Democratic Theory",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Deliberative democrats emphasize 'reasoned public discourse' while epistemic democrats focus on 'truth-tracking' through knowledge aggregation."
+    },
+    {
+      "id": "reading-12-rc-086",
+      "bankId": "reading-12-rc",
+      "text": "What does 'scalability' mean as used in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The ability to weigh options",
+          "The ability to work at larger scales or populations",
+          "The measurement of citizen involvement",
+          "The ranking of democratic systems"
+        ],
+        "correctAnswer": "The ability to work at larger scales or populations"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.4"
+      ],
+      "primaryStandard": "RI.11-12.4",
+      "passage": "G12-I7: Democratic Theory",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Critics worry about 'scalability' of participatory democracy, questioning whether it can work beyond small communities."
+    },
+    {
+      "id": "reading-12-rc-087",
+      "bankId": "reading-12-rc",
+      "text": "How does the author structure the discussion of democratic theories?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By historical chronology",
+          "By presenting each theory with its corresponding challenges",
+          "From best to worst theories",
+          "By geographic origin"
+        ],
+        "correctAnswer": "By presenting each theory with its corresponding challenges"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.5"
+      ],
+      "primaryStandard": "RI.11-12.5",
+      "passage": "G12-I7: Democratic Theory",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Each democratic theory (majoritarian, deliberative, participatory, representative, epistemic) is presented alongside its challenges."
+    },
+    {
+      "id": "reading-12-rc-088",
+      "bankId": "reading-12-rc",
+      "text": "What is the author's purpose in discussing multiple democratic theories?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To advocate for one specific theory",
+          "To show that democratic theory involves ongoing debates with practical implications",
+          "To prove democracy is impossible",
+          "To rank theories by popularity"
+        ],
+        "correctAnswer": "To show that democratic theory involves ongoing debates with practical implications"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.6"
+      ],
+      "primaryStandard": "RI.11-12.6",
+      "passage": "G12-I7: Democratic Theory",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage concludes noting 'these theoretical debates have practical implications for institutional design.'"
+    },
+    {
+      "id": "reading-12-rc-089",
+      "bankId": "reading-12-rc",
+      "text": "What does Dostoevsky explore through the character of the Underground Man?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The benefits of rational self-interest",
+          "The irrational depths of human consciousness that resist systematic explanation",
+          "The success of social reform",
+          "The harmony of individual and society"
+        ],
+        "correctAnswer": "The irrational depths of human consciousness that resist systematic explanation"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.11-12.2"
+      ],
+      "primaryStandard": "RL.11-12.2",
+      "passage": "G12-L8: Notes from Underground",
+      "passageText": "Fyodor Dostoevsky's Notes from Underground anticipates existentialism and psychoanalysis in its exploration of irrational consciousness. The Underground Man, a retired civil servant, delivers a rambling monologue attacking the rational egoism and utopian socialism prevalent in 1860s Russia. He insists that human beings are not calculating machines seeking advantage but perverse creatures who sometimes desire their own destruction. The crystal palace of rational utopia, he argues, would be a prison, for humans value free will above happiness. The novella's second part narrates the Underground Man's social humiliations, revealing the gap between his intellectual pretensions and his petty, spiteful behavior. His cruelty toward Liza, a prostitute who offers genuine feeling, demonstrates his inability to accept love. Dostoevsky portrays consciousness as inherently divided, capable of observing and judging itself yet unable to achieve integration. The Underground Man knows his spite harms himself yet persists, illustrating that self-knowledge does not guarantee self-mastery. This psychological realism anticipates Freud's recognition of unconscious motivations and the compulsion to repeat. Dostoevsky's critique of rationalism prefigures existentialist emphasis on human freedom, absurdity, and the limitations of systematic thought in capturing lived experience.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage describes the novella as exploring 'irrational consciousness' and critiquing the idea that 'humans value free will above happiness.'"
+    },
+    {
+      "id": "reading-12-rc-090",
+      "bankId": "reading-12-rc",
+      "text": "What does the Underground Man's treatment of Liza reveal about his character?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "His capacity for deep love",
+          "His inability to accept genuine feeling",
+          "His desire for social reform",
+          "His rationality and calculation"
+        ],
+        "correctAnswer": "His inability to accept genuine feeling"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.3"
+      ],
+      "primaryStandard": "RL.11-12.3",
+      "passage": "G12-L8: Notes from Underground",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states his cruelty toward Liza 'demonstrates his inability to accept love' despite her 'genuine feeling.'"
+    },
+    {
+      "id": "reading-12-rc-091",
+      "bankId": "reading-12-rc",
+      "text": "What textual evidence supports the claim that the Underground Man is self-aware yet self-destructive?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "His successful career",
+          "He knows his spite harms himself yet persists",
+          "His harmonious relationships",
+          "His acceptance of utopian ideals"
+        ],
+        "correctAnswer": "He knows his spite harms himself yet persists"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.1"
+      ],
+      "primaryStandard": "RL.11-12.1",
+      "passage": "G12-L8: Notes from Underground",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explicitly states 'The Underground Man knows his spite harms himself yet persists.'"
+    },
+    {
+      "id": "reading-12-rc-092",
+      "bankId": "reading-12-rc",
+      "text": "What does the 'crystal palace' symbolize in the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Artistic achievement",
+          "The prison of rational utopia",
+          "Religious salvation",
+          "Political freedom"
+        ],
+        "correctAnswer": "The prison of rational utopia"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.4"
+      ],
+      "primaryStandard": "RL.11-12.4",
+      "passage": "G12-L8: Notes from Underground",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'the crystal palace of rational utopia...would be a prison' because humans value free will."
+    },
+    {
+      "id": "reading-12-rc-093",
+      "bankId": "reading-12-rc",
+      "text": "How does the two-part structure of the novella function?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Part one provides theory; part two reveals the gap between thought and behavior",
+          "Both parts are identical in content",
+          "Part two contradicts part one",
+          "The structure is merely chronological"
+        ],
+        "correctAnswer": "Part one provides theory; part two reveals the gap between thought and behavior"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.11-12.5"
+      ],
+      "primaryStandard": "RL.11-12.5",
+      "passage": "G12-L8: Notes from Underground",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage describes part one's 'monologue' and part two's narration of 'social humiliations, revealing the gap between his intellectual pretensions and his petty, spiteful behavior.'"
+    },
+    {
+      "id": "reading-12-rc-094",
+      "bankId": "reading-12-rc",
+      "text": "What intellectual movements does the author connect to Dostoevsky's novella?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Romanticism and classicism",
+          "Existentialism and psychoanalysis",
+          "Marxism and capitalism",
+          "Empiricism and rationalism"
+        ],
+        "correctAnswer": "Existentialism and psychoanalysis"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.11-12.6"
+      ],
+      "primaryStandard": "RL.11-12.6",
+      "passage": "G12-L8: Notes from Underground",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states the novella 'anticipates existentialism and psychoanalysis' and mentions Freud specifically."
+    },
+    {
+      "id": "reading-12-rc-095",
+      "bankId": "reading-12-rc",
+      "text": "What is the central argument of this passage about consciousness?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Consciousness is fully explained by neuroscience",
+          "Consciousness presents a hard problem that resists purely physical explanation",
+          "Consciousness does not exist",
+          "Only humans have consciousness"
+        ],
+        "correctAnswer": "Consciousness presents a hard problem that resists purely physical explanation"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.11-12.2"
+      ],
+      "primaryStandard": "RI.11-12.2",
+      "passage": "G12-I8: Philosophy of Mind",
+      "passageText": "The problem of consciousness has been called the 'hard problem' of philosophy of mind, distinguishing it from 'easy problems' concerning cognitive functions that might be explained mechanistically. David Chalmers formulated this distinction, arguing that even a complete functional explanation of perception, memory, and behavior would leave unexplained why there is something it is like to have these experiences. This subjective, qualitative dimension\u2014qualia\u2014seems to resist reduction to physical processes. Physicalists respond in various ways. Some deny the existence of qualia as conceived by dualists, arguing that careful analysis dissolves the hard problem. Others accept the explanatory gap but deny an ontological gap, holding that consciousness is physical even if we cannot explain how. Mysterians suggest human cognitive limitations may prevent us from ever understanding consciousness. Panpsychists propose that consciousness is fundamental, present in some form throughout nature, with complex consciousness emerging from simpler forms. This view avoids the problem of emergence but faces the combination problem: how do micro-experiences combine into unified consciousness? These debates have implications beyond philosophy, informing neuroscientific research programs, artificial intelligence development, and ethical questions about the moral status of non-human animals and potentially conscious machines.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage centers on the 'hard problem' that subjective experience 'seems to resist reduction to physical processes.'"
+    },
+    {
+      "id": "reading-12-rc-096",
+      "bankId": "reading-12-rc",
+      "text": "According to Chalmers, what distinguishes the 'hard problem' from 'easy problems'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Hard problems take longer to solve",
+          "Easy problems concern functions; the hard problem concerns subjective experience",
+          "Hard problems require more scientists",
+          "There is no real distinction"
+        ],
+        "correctAnswer": "Easy problems concern functions; the hard problem concerns subjective experience"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.1"
+      ],
+      "primaryStandard": "RI.11-12.1",
+      "passage": "G12-I8: Philosophy of Mind",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage distinguishes 'easy problems concerning cognitive functions' from the hard problem of 'why there is something it is like to have these experiences.'"
+    },
+    {
+      "id": "reading-12-rc-097",
+      "bankId": "reading-12-rc",
+      "text": "How does panpsychism attempt to solve the consciousness problem?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By denying consciousness exists",
+          "By proposing consciousness is fundamental throughout nature",
+          "By reducing consciousness to computation",
+          "By ignoring the hard problem"
+        ],
+        "correctAnswer": "By proposing consciousness is fundamental throughout nature"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.3"
+      ],
+      "primaryStandard": "RI.11-12.3",
+      "passage": "G12-I8: Philosophy of Mind",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'panpsychists propose that consciousness is fundamental, present in some form throughout nature.'"
+    },
+    {
+      "id": "reading-12-rc-098",
+      "bankId": "reading-12-rc",
+      "text": "What does 'qualia' refer to in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Brain structures",
+          "Subjective, qualitative aspects of experience",
+          "Logical propositions",
+          "Physical measurements"
+        ],
+        "correctAnswer": "Subjective, qualitative aspects of experience"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.4"
+      ],
+      "primaryStandard": "RI.11-12.4",
+      "passage": "G12-I8: Philosophy of Mind",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage defines qualia as 'this subjective, qualitative dimension' of experience."
+    },
+    {
+      "id": "reading-12-rc-099",
+      "bankId": "reading-12-rc",
+      "text": "How does the passage organize the various responses to the hard problem?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Chronologically by when they were proposed",
+          "By presenting physicalist responses, then alternative theories",
+          "Alphabetically by philosopher",
+          "From most to least popular"
+        ],
+        "correctAnswer": "By presenting physicalist responses, then alternative theories"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.5"
+      ],
+      "primaryStandard": "RI.11-12.5",
+      "passage": "G12-I8: Philosophy of Mind",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage presents 'physicalists respond' first, then discusses mysterians and panpsychists as alternatives."
+    },
+    {
+      "id": "reading-12-rc-100",
+      "bankId": "reading-12-rc",
+      "text": "What practical implications does the author identify for consciousness debates?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "None; these are purely abstract debates",
+          "Implications for neuroscience, AI, and ethics regarding non-human consciousness",
+          "Only implications for philosophy departments",
+          "Implications only for religious institutions"
+        ],
+        "correctAnswer": "Implications for neuroscience, AI, and ethics regarding non-human consciousness"
+      },
+      "subject": "Reading",
+      "gradeLevel": "12",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.11-12.8"
+      ],
+      "primaryStandard": "RI.11-12.8",
+      "passage": "G12-I8: Philosophy of Mind",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states these debates have 'implications beyond philosophy, informing neuroscientific research programs, artificial intelligence development, and ethical questions.'"
+    }
+  ]
+}

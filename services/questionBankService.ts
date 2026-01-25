@@ -31,19 +31,19 @@ const MATH_DOMAINS: Record<string, string[]> = {
 };
 
 const READING_DOMAINS: Record<string, string[]> = {
-  'K': ['rf'],
-  '1': ['rf'],
-  '2': ['rl'],
-  '3': ['rl'],
-  '4': ['ri'],
-  '5': ['rl'],
-  '6': ['ri'],
-  '7': ['rl'],
-  '8': ['ri'],
-  '9': ['rl'],
-  '10': ['rl'],
-  '11': ['ri'],
-  '12': ['rl']
+  'K': ['rf', 'rc'],
+  '1': ['rf', 'rc'],
+  '2': ['rl', 'rc'],
+  '3': ['rl', 'rc'],
+  '4': ['ri', 'rc'],
+  '5': ['rl', 'rc'],
+  '6': ['ri', 'rc'],
+  '7': ['rl', 'rc'],
+  '8': ['ri', 'rc'],
+  '9': ['rl', 'rc'],
+  '10': ['rl', 'rc'],
+  '11': ['ri', 'rc'],
+  '12': ['rl', 'rc']
 };
 
 const EDEXCEL_MATH_STAGES = ['pre-ig1', 'pre-ig2', 'ig1', 'ig2'];

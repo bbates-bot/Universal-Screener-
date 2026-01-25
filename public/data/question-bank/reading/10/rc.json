@@ -1,0 +1,2762 @@
+{
+  "metadata": {
+    "subject": "Reading",
+    "gradeLevel": "10",
+    "domain": "RC",
+    "domainName": "Reading Comprehension",
+    "lastUpdated": "2026-01-25",
+    "totalQuestions": 100,
+    "description": "CCSS-aligned reading comprehension assessment with literary and informational texts for Grade 10",
+    "lexileRange": "1050L-1260L"
+  },
+  "questions": [
+    {
+      "id": "reading-10-rc-001",
+      "bankId": "reading-10-rc",
+      "text": "What internal conflict does the protagonist experience throughout the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Whether to pursue wealth or artistic integrity",
+          "Whether to leave the village or stay with family",
+          "Whether to reveal the truth or protect a friend",
+          "Whether to accept tradition or embrace modernity"
+        ],
+        "correctAnswer": "Whether to reveal the truth or protect a friend"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.1",
+        "RL.9-10.3"
+      ],
+      "primaryStandard": "RL.9-10.1",
+      "passage": "G10-L1: The Weight of Silence",
+      "passageText": "Elena stood at the precipice of confession, her conscience warring with loyalty. For three months, she had harbored Marcus's secret, watching as investigators questioned her neighbors, as suspicion fell on innocent shoulders. The warehouse fire had claimed no lives, but the insurance fraud threatened to destroy the Hendersons, whose business records had been stored there. Marcus, her childhood friend, had needed money desperately for his mother's surgery. His desperation had bred recklessness, and now Elena was complicit in her silence. She observed Marcus across the courtyard, his face gaunt with guilt, and wondered whether protecting him was truly an act of friendship or merely cowardice dressed in noble clothing. The truth, she realized, would devastate him, but the lie was slowly poisoning everyone it touched.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explicitly shows Elena struggling between revealing the truth about the fire and protecting Marcus."
+    },
+    {
+      "id": "reading-10-rc-002",
+      "bankId": "reading-10-rc",
+      "text": "How does the author develop Elena's character throughout the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Through dialogue with other characters",
+          "Through her internal thoughts and moral reasoning",
+          "Through physical descriptions and actions",
+          "Through flashbacks to her childhood"
+        ],
+        "correctAnswer": "Through her internal thoughts and moral reasoning"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.3",
+        "RL.9-10.5"
+      ],
+      "primaryStandard": "RL.9-10.3",
+      "passage": "G10-L1: The Weight of Silence",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author reveals Elena's character primarily through her internal conflict and moral deliberation."
+    },
+    {
+      "id": "reading-10-rc-003",
+      "bankId": "reading-10-rc",
+      "text": "What does the phrase 'cowardice dressed in noble clothing' suggest about Elena's self-perception?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She believes her actions are genuinely heroic",
+          "She suspects her motives may be selfish despite appearing loyal",
+          "She thinks others misunderstand her intentions",
+          "She feels superior to those around her"
+        ],
+        "correctAnswer": "She suspects her motives may be selfish despite appearing loyal"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.9-10.4",
+        "RL.9-10.1"
+      ],
+      "primaryStandard": "RL.9-10.4",
+      "passage": "G10-L1: The Weight of Silence",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The metaphor suggests Elena questions whether her silence is truly loyalty or simply fear of confrontation."
+    },
+    {
+      "id": "reading-10-rc-004",
+      "bankId": "reading-10-rc",
+      "text": "Which theme is most strongly developed in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The corrupting influence of wealth",
+          "The complexity of moral responsibility",
+          "The importance of family bonds",
+          "The dangers of ambition"
+        ],
+        "correctAnswer": "The complexity of moral responsibility"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.2"
+      ],
+      "primaryStandard": "RL.9-10.2",
+      "passage": "G10-L1: The Weight of Silence",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage centers on Elena's struggle with moral responsibility regarding truth, loyalty, and consequences."
+    },
+    {
+      "id": "reading-10-rc-005",
+      "bankId": "reading-10-rc",
+      "text": "How does the setting contribute to the mood of the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The courtyard creates a sense of public exposure and judgment",
+          "The warehouse suggests industrial progress",
+          "The neighborhood implies community solidarity",
+          "The domestic setting emphasizes comfort and security"
+        ],
+        "correctAnswer": "The courtyard creates a sense of public exposure and judgment"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.5"
+      ],
+      "primaryStandard": "RL.9-10.5",
+      "passage": "G10-L1: The Weight of Silence",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Elena observing Marcus 'across the courtyard' suggests a public space where secrets could be exposed."
+    },
+    {
+      "id": "reading-10-rc-006",
+      "bankId": "reading-10-rc",
+      "text": "What is the author's apparent purpose in describing Marcus as 'gaunt with guilt'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To show that Marcus is physically ill",
+          "To demonstrate that concealing truth has physical and emotional costs",
+          "To suggest Marcus is untrustworthy",
+          "To indicate Marcus regrets the surgery decision"
+        ],
+        "correctAnswer": "To demonstrate that concealing truth has physical and emotional costs"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.6",
+        "RL.9-10.4"
+      ],
+      "primaryStandard": "RL.9-10.6",
+      "passage": "G10-L1: The Weight of Silence",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The physical description of Marcus reinforces the theme that secrets exact a toll on those who keep them."
+    },
+    {
+      "id": "reading-10-rc-007",
+      "bankId": "reading-10-rc",
+      "text": "According to the passage, what is the primary function of CRISPR-Cas9 technology?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To sequence entire genomes rapidly",
+          "To precisely edit specific genes in DNA",
+          "To clone organisms from genetic material",
+          "To synthesize proteins artificially"
+        ],
+        "correctAnswer": "To precisely edit specific genes in DNA"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.9-10.1"
+      ],
+      "primaryStandard": "RI.9-10.1",
+      "passage": "G10-I1: The CRISPR Revolution",
+      "passageText": "The emergence of CRISPR-Cas9 technology represents one of the most significant biotechnological advances of the twenty-first century. CRISPR, an acronym for Clustered Regularly Interspaced Short Palindromic Repeats, functions as a molecular scissors capable of precisely cutting and editing specific sequences within an organism's DNA. Originally discovered as a bacterial immune defense mechanism, scientists Jennifer Doudna and Emmanuelle Charpentier recognized its potential for targeted genetic modification in 2012. The technology works by guiding the Cas9 protein to a specific DNA location using a customized RNA sequence, where it creates a precise cut. The cell's natural repair mechanisms then either disable the gene or insert new genetic material. This precision has revolutionized fields from agriculture to medicine, offering potential cures for genetic diseases like sickle cell anemia and muscular dystrophy. However, the technology raises profound ethical questions about germline editing, which would create heritable genetic changes passed to future generations.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states CRISPR-Cas9 functions as 'molecular scissors capable of precisely cutting and editing specific sequences within an organism's DNA.'"
+    },
+    {
+      "id": "reading-10-rc-008",
+      "bankId": "reading-10-rc",
+      "text": "What is the central idea of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "CRISPR technology was discovered accidentally by bacterial researchers",
+          "CRISPR offers revolutionary medical possibilities but raises ethical concerns",
+          "Genetic diseases will soon be completely eliminated",
+          "Scientists disagree about the safety of CRISPR technology"
+        ],
+        "correctAnswer": "CRISPR offers revolutionary medical possibilities but raises ethical concerns"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.2"
+      ],
+      "primaryStandard": "RI.9-10.2",
+      "passage": "G10-I1: The CRISPR Revolution",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage describes CRISPR's potential benefits while noting 'profound ethical questions' about its use."
+    },
+    {
+      "id": "reading-10-rc-009",
+      "bankId": "reading-10-rc",
+      "text": "How does the author structure the information in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Chronological order of scientific discoveries",
+          "Problem and solution format",
+          "Definition followed by applications and implications",
+          "Comparison of competing technologies"
+        ],
+        "correctAnswer": "Definition followed by applications and implications"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.5"
+      ],
+      "primaryStandard": "RI.9-10.5",
+      "passage": "G10-I1: The CRISPR Revolution",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author first defines CRISPR, then explains how it works, discusses applications, and concludes with ethical implications."
+    },
+    {
+      "id": "reading-10-rc-010",
+      "bankId": "reading-10-rc",
+      "text": "Based on context, what does 'germline editing' most likely mean?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Editing genes in adult organisms only",
+          "Making genetic changes that can be inherited by offspring",
+          "Removing harmful bacteria from the body",
+          "Modifying plant genetics for agriculture"
+        ],
+        "correctAnswer": "Making genetic changes that can be inherited by offspring"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.4"
+      ],
+      "primaryStandard": "RI.9-10.4",
+      "passage": "G10-I1: The CRISPR Revolution",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage clarifies germline editing as creating 'heritable genetic changes passed to future generations.'"
+    },
+    {
+      "id": "reading-10-rc-011",
+      "bankId": "reading-10-rc",
+      "text": "What evidence does the author provide to support the claim that CRISPR has 'revolutionized' multiple fields?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Statistics on successful gene therapies",
+          "Examples of potential medical applications",
+          "Testimonials from patients",
+          "Comparative data with older technologies"
+        ],
+        "correctAnswer": "Examples of potential medical applications"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.8"
+      ],
+      "primaryStandard": "RI.9-10.8",
+      "passage": "G10-I1: The CRISPR Revolution",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author mentions 'potential cures for genetic diseases like sickle cell anemia and muscular dystrophy' as examples."
+    },
+    {
+      "id": "reading-10-rc-012",
+      "bankId": "reading-10-rc",
+      "text": "What is the author's purpose in mentioning that CRISPR was 'originally discovered as a bacterial immune defense mechanism'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To emphasize how scientific discoveries can have unexpected applications",
+          "To argue that bacteria are more sophisticated than previously thought",
+          "To suggest the technology is still experimental",
+          "To credit bacterial research as the most important scientific field"
+        ],
+        "correctAnswer": "To emphasize how scientific discoveries can have unexpected applications"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.9-10.6"
+      ],
+      "primaryStandard": "RI.9-10.6",
+      "passage": "G10-I1: The CRISPR Revolution",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Mentioning the original context highlights how a basic science discovery became a transformative technology."
+    },
+    {
+      "id": "reading-10-rc-013",
+      "bankId": "reading-10-rc",
+      "text": "What literary device does the author employ in the phrase 'the ocean breathed against the shore'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Simile",
+          "Personification",
+          "Hyperbole",
+          "Alliteration"
+        ],
+        "correctAnswer": "Personification"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RL.9-10.4"
+      ],
+      "primaryStandard": "RL.9-10.4",
+      "passage": "G10-L2: The Lighthouse Keeper's Daughter",
+      "passageText": "Marguerite had inherited more than the lighthouse from her father; she had inherited his solitude, his stubborn resilience, and his inexplicable conversation with the sea. Each evening, as the ocean breathed against the shore and the last fishing boats sought harbor, she climbed the spiral staircase to ignite the beacon. The ritual connected her to generations of keepers who had performed the same sacred duty. The mainland villagers considered her eccentric, perhaps even touched by madness, this woman who chose isolation over community. They did not understand that loneliness was not the same as being alone. In the lighthouse, surrounded by the rhythmic pulse of waves and the sweeping arc of light, Marguerite had found a peace that eluded those who feared silence. Her father had taught her that some souls require vast spaces to breathe, and the cramped expectations of society would only suffocate them.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Describing the ocean as 'breathing' attributes human qualities to a natural element, which is personification."
+    },
+    {
+      "id": "reading-10-rc-014",
+      "bankId": "reading-10-rc",
+      "text": "Which statement best expresses a theme developed in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Family traditions should always be preserved",
+          "True peace can be found in solitude rather than society",
+          "Lighthouses are essential to maritime safety",
+          "Villagers are inherently cruel to outsiders"
+        ],
+        "correctAnswer": "True peace can be found in solitude rather than society"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.2"
+      ],
+      "primaryStandard": "RL.9-10.2",
+      "passage": "G10-L2: The Lighthouse Keeper's Daughter",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage emphasizes that Marguerite found peace in isolation that 'eluded those who feared silence.'"
+    },
+    {
+      "id": "reading-10-rc-015",
+      "bankId": "reading-10-rc",
+      "text": "What does the author imply by stating 'loneliness was not the same as being alone'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Marguerite has many visitors at the lighthouse",
+          "One can feel lonely in a crowd but content in solitude",
+          "The villagers are lonelier than Marguerite",
+          "Marguerite denies feeling isolated"
+        ],
+        "correctAnswer": "One can feel lonely in a crowd but content in solitude"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.1"
+      ],
+      "primaryStandard": "RL.9-10.1",
+      "passage": "G10-L2: The Lighthouse Keeper's Daughter",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The distinction suggests that physical isolation does not necessarily produce emotional loneliness."
+    },
+    {
+      "id": "reading-10-rc-016",
+      "bankId": "reading-10-rc",
+      "text": "How does the author characterize the villagers' perspective on Marguerite?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Admiring but distant",
+          "Misunderstanding and dismissive",
+          "Fearful and hostile",
+          "Curious and welcoming"
+        ],
+        "correctAnswer": "Misunderstanding and dismissive"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.6"
+      ],
+      "primaryStandard": "RL.9-10.6",
+      "passage": "G10-L2: The Lighthouse Keeper's Daughter",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The villagers 'considered her eccentric, perhaps even touched by madness' and 'did not understand' her choice."
+    },
+    {
+      "id": "reading-10-rc-017",
+      "bankId": "reading-10-rc",
+      "text": "What effect does the metaphor 'the cramped expectations of society would only suffocate them' create?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It suggests society is physically dangerous",
+          "It emphasizes how conformity can feel oppressive to certain individuals",
+          "It implies that Marguerite has respiratory problems",
+          "It criticizes all forms of social interaction"
+        ],
+        "correctAnswer": "It emphasizes how conformity can feel oppressive to certain individuals"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.9-10.4"
+      ],
+      "primaryStandard": "RL.9-10.4",
+      "passage": "G10-L2: The Lighthouse Keeper's Daughter",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The suffocation metaphor conveys how social expectations can feel restrictive and life-draining to independent spirits."
+    },
+    {
+      "id": "reading-10-rc-018",
+      "bankId": "reading-10-rc",
+      "text": "What narrative purpose does the spiral staircase serve in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It represents Marguerite's physical fitness",
+          "It symbolizes the ritual connection to ancestral duty",
+          "It shows the lighthouse's poor condition",
+          "It demonstrates the difficulty of the keeper's job"
+        ],
+        "correctAnswer": "It symbolizes the ritual connection to ancestral duty"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.9-10.5"
+      ],
+      "primaryStandard": "RL.9-10.5",
+      "passage": "G10-L2: The Lighthouse Keeper's Daughter",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The staircase climbing 'connected her to generations of keepers' in a 'sacred duty.'"
+    },
+    {
+      "id": "reading-10-rc-019",
+      "bankId": "reading-10-rc",
+      "text": "What is the author's main argument in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Social media should be banned for teenagers",
+          "Mental health effects of social media are complex and not uniformly negative",
+          "Parents should limit screen time for children",
+          "Social media companies prioritize profit over user wellbeing"
+        ],
+        "correctAnswer": "Mental health effects of social media are complex and not uniformly negative"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.2"
+      ],
+      "primaryStandard": "RI.9-10.2",
+      "passage": "G10-I2: The Social Media Paradox",
+      "passageText": "The relationship between social media use and adolescent mental health defies simplistic characterization. While numerous studies have documented correlations between heavy social media consumption and increased rates of anxiety, depression, and diminished self-esteem, particularly among teenage girls, emerging research reveals a more nuanced picture. A longitudinal study from Oxford University found that social media's impact on life satisfaction was minimal compared to factors like family relationships and sleep quality. Moreover, for marginalized youth, including LGBTQ+ teenagers in unsupportive environments, online communities can provide crucial social support and identity affirmation unavailable in their physical surroundings. The issue is further complicated by the distinction between passive consumption, which tends toward negative outcomes, and active engagement, which may foster meaningful connections. Rather than condemning social media wholesale, researchers increasingly advocate for digital literacy education that helps young people navigate these platforms mindfully.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage argues against 'simplistic characterization' and presents evidence of both negative and positive effects."
+    },
+    {
+      "id": "reading-10-rc-020",
+      "bankId": "reading-10-rc",
+      "text": "How does the author use the Oxford University study?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To prove social media is completely harmless",
+          "To challenge the assumption that social media is the primary factor affecting teen wellbeing",
+          "To argue that family relationships don't matter",
+          "To dismiss all concerns about social media"
+        ],
+        "correctAnswer": "To challenge the assumption that social media is the primary factor affecting teen wellbeing"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.8"
+      ],
+      "primaryStandard": "RI.9-10.8",
+      "passage": "G10-I2: The Social Media Paradox",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The study is used to show social media's impact was 'minimal compared to factors like family relationships and sleep quality.'"
+    },
+    {
+      "id": "reading-10-rc-021",
+      "bankId": "reading-10-rc",
+      "text": "What does the phrase 'defies simplistic characterization' suggest about the author's perspective?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The author thinks the issue is too difficult to understand",
+          "The author believes the issue requires careful, nuanced analysis",
+          "The author is confused about the evidence",
+          "The author wants to avoid taking a position"
+        ],
+        "correctAnswer": "The author believes the issue requires careful, nuanced analysis"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.4",
+        "RI.9-10.6"
+      ],
+      "primaryStandard": "RI.9-10.4",
+      "passage": "G10-I2: The Social Media Paradox",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The phrase indicates the author rejects simple answers and values complex, evidence-based analysis."
+    },
+    {
+      "id": "reading-10-rc-022",
+      "bankId": "reading-10-rc",
+      "text": "What distinction does the author make to complicate the social media debate?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Between teenagers and adults",
+          "Between passive consumption and active engagement",
+          "Between popular and unpopular platforms",
+          "Between wealthy and poor users"
+        ],
+        "correctAnswer": "Between passive consumption and active engagement"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.3"
+      ],
+      "primaryStandard": "RI.9-10.3",
+      "passage": "G10-I2: The Social Media Paradox",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author distinguishes between 'passive consumption' with negative outcomes and 'active engagement' which may be beneficial."
+    },
+    {
+      "id": "reading-10-rc-023",
+      "bankId": "reading-10-rc",
+      "text": "What solution does the author advocate for addressing social media's effects on youth?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Government regulation of social media companies",
+          "Digital literacy education",
+          "Age restrictions on all platforms",
+          "Parental monitoring software"
+        ],
+        "correctAnswer": "Digital literacy education"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.9-10.1"
+      ],
+      "primaryStandard": "RI.9-10.1",
+      "passage": "G10-I2: The Social Media Paradox",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states researchers 'advocate for digital literacy education that helps young people navigate these platforms mindfully.'"
+    },
+    {
+      "id": "reading-10-rc-024",
+      "bankId": "reading-10-rc",
+      "text": "How does the author establish credibility in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By sharing personal experiences with social media",
+          "By citing specific research studies and findings",
+          "By interviewing teenagers directly",
+          "By using emotional appeals"
+        ],
+        "correctAnswer": "By citing specific research studies and findings"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.8",
+        "RI.9-10.6"
+      ],
+      "primaryStandard": "RI.9-10.8",
+      "passage": "G10-I2: The Social Media Paradox",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author references 'numerous studies,' 'a longitudinal study from Oxford University,' and 'emerging research.'"
+    },
+    {
+      "id": "reading-10-rc-025",
+      "bankId": "reading-10-rc",
+      "text": "What motivates the narrator to return to his ancestral village?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To claim an inheritance",
+          "To escape urban pressures and reconnect with his heritage",
+          "To attend a family funeral",
+          "To start a new business"
+        ],
+        "correctAnswer": "To escape urban pressures and reconnect with his heritage"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.1",
+        "RL.9-10.3"
+      ],
+      "primaryStandard": "RL.9-10.1",
+      "passage": "G10-L3: Return to Okonkwo's Land",
+      "passageText": "Lagos had drained something essential from Chukwuemeka, leaving him hollow despite his architectural success. The city's relentless pace, its indifference to tradition, its worship of imported values had slowly eroded his sense of self. His grandfather's voice echoed in memory: 'A tree that forgets its roots will wither when the harmattan winds blow.' So Chukwuemeka returned to Umuofia, the village his family had abandoned two generations ago in pursuit of colonial education and urban opportunity. The elders received him with cautious hospitality, this stranger who bore the face of their kinsman. He understood their hesitation; he was an outsider wearing an insider's skin. The red earth beneath his feet felt foreign yet familiar, like a language he once spoke fluently but now grasped only in fragments. Each evening, he sat with the elders under the ancient iroko tree, listening to stories that his father had been too ashamed to pass down, stories that explained why he had always felt incomplete.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage describes Lagos draining him and his desire to reconnect with 'tradition' and ancestral stories."
+    },
+    {
+      "id": "reading-10-rc-026",
+      "bankId": "reading-10-rc",
+      "text": "What does the proverb 'A tree that forgets its roots will wither when the harmattan winds blow' suggest about the theme?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Trees need water to survive",
+          "Those who abandon their heritage lose resilience",
+          "Weather patterns affect agriculture",
+          "Older generations are always wiser"
+        ],
+        "correctAnswer": "Those who abandon their heritage lose resilience"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.4",
+        "RL.9-10.2"
+      ],
+      "primaryStandard": "RL.9-10.4",
+      "passage": "G10-L3: Return to Okonkwo's Land",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The proverb metaphorically connects cultural roots to strength and survival."
+    },
+    {
+      "id": "reading-10-rc-027",
+      "bankId": "reading-10-rc",
+      "text": "What tension does the phrase 'an outsider wearing an insider's skin' reveal?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Physical discomfort in the village",
+          "The complexity of belonging after cultural displacement",
+          "Hostility from villagers",
+          "Deceptive intentions"
+        ],
+        "correctAnswer": "The complexity of belonging after cultural displacement"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.9-10.4"
+      ],
+      "primaryStandard": "RL.9-10.4",
+      "passage": "G10-L3: Return to Okonkwo's Land",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The metaphor captures how Chukwuemeka has ancestral connection but lacks lived cultural experience."
+    },
+    {
+      "id": "reading-10-rc-028",
+      "bankId": "reading-10-rc",
+      "text": "How does the author develop the theme of cultural loss?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Through direct criticism of colonialism",
+          "Through the father's shame about passing down stories",
+          "Through descriptions of village poverty",
+          "Through dialogue between characters"
+        ],
+        "correctAnswer": "Through the father's shame about passing down stories"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.2",
+        "RL.9-10.3"
+      ],
+      "primaryStandard": "RL.9-10.2",
+      "passage": "G10-L3: Return to Okonkwo's Land",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage notes 'stories that his father had been too ashamed to pass down,' showing how cultural transmission was disrupted."
+    },
+    {
+      "id": "reading-10-rc-029",
+      "bankId": "reading-10-rc",
+      "text": "What does the simile comparing the village to 'a language he once spoke fluently but now grasped only in fragments' suggest?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The narrator has forgotten how to speak Igbo",
+          "Cultural identity can be partially recovered through immersion",
+          "The village has changed beyond recognition",
+          "Language is more important than culture"
+        ],
+        "correctAnswer": "Cultural identity can be partially recovered through immersion"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.9-10.4",
+        "RL.9-10.5"
+      ],
+      "primaryStandard": "RL.9-10.4",
+      "passage": "G10-L3: Return to Okonkwo's Land",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Like a partially forgotten language that can be relearned, cultural connection remains accessible though diminished."
+    },
+    {
+      "id": "reading-10-rc-030",
+      "bankId": "reading-10-rc",
+      "text": "What criticism of Lagos is implicit in the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Its architecture is poorly designed",
+          "Its pursuit of modernity sacrifices cultural authenticity",
+          "Its population is too large",
+          "Its infrastructure is inadequate"
+        ],
+        "correctAnswer": "Its pursuit of modernity sacrifices cultural authenticity"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.6"
+      ],
+      "primaryStandard": "RL.9-10.6",
+      "passage": "G10-L3: Return to Okonkwo's Land",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The narrator criticizes the city's 'indifference to tradition' and 'worship of imported values.'"
+    },
+    {
+      "id": "reading-10-rc-031",
+      "bankId": "reading-10-rc",
+      "text": "According to the passage, what primary factor led to the decline of the Roman Republic?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Foreign invasion by Germanic tribes",
+          "Economic collapse due to trade disruptions",
+          "Concentration of power and erosion of constitutional norms",
+          "Natural disasters and plague"
+        ],
+        "correctAnswer": "Concentration of power and erosion of constitutional norms"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.1",
+        "RI.9-10.2"
+      ],
+      "primaryStandard": "RI.9-10.1",
+      "passage": "G10-I3: The Fall of the Republic",
+      "passageText": "The transformation of Rome from republic to empire was not a sudden revolution but a gradual erosion of constitutional norms spanning nearly a century. The seeds of autocracy were planted when successful generals like Marius, Sulla, and eventually Caesar accumulated unprecedented military and political power. The Roman constitution, which had relied on tradition and voluntary restraint rather than written law, proved vulnerable when ambitious leaders prioritized personal advancement over collective governance. The Senate, once the republic's deliberative heart, became increasingly paralyzed by factional conflict and unable to address pressing issues like land reform and citizen unrest. Julius Caesar's crossing of the Rubicon in 49 BCE symbolized the point of no return, when a leader chose civil war over constitutional constraints. His assassination did not restore the republic but merely initiated another round of civil conflict, culminating in Octavian's transformation into Augustus. The lesson endures: democratic institutions require not just structural checks but a cultural commitment to their preservation.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage emphasizes 'gradual erosion of constitutional norms' and 'concentration of power' as primary factors."
+    },
+    {
+      "id": "reading-10-rc-032",
+      "bankId": "reading-10-rc",
+      "text": "What does the author mean by describing the Roman constitution as relying on 'voluntary restraint'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Leaders were legally required to limit their power",
+          "The system depended on leaders choosing to respect unwritten norms",
+          "Citizens voluntarily gave up their rights",
+          "The military controlled political decisions"
+        ],
+        "correctAnswer": "The system depended on leaders choosing to respect unwritten norms"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.4"
+      ],
+      "primaryStandard": "RI.9-10.4",
+      "passage": "G10-I3: The Fall of the Republic",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states the constitution 'relied on tradition and voluntary restraint rather than written law.'"
+    },
+    {
+      "id": "reading-10-rc-033",
+      "bankId": "reading-10-rc",
+      "text": "What is the significance of the phrase 'crossing the Rubicon' as used in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "A literal river crossing for military purposes",
+          "A symbolic point of no return in abandoning constitutional government",
+          "A tactical military maneuver",
+          "The beginning of Roman territorial expansion"
+        ],
+        "correctAnswer": "A symbolic point of no return in abandoning constitutional government"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.4",
+        "RI.9-10.3"
+      ],
+      "primaryStandard": "RI.9-10.4",
+      "passage": "G10-I3: The Fall of the Republic",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author explicitly states it 'symbolized the point of no return' when Caesar chose 'civil war over constitutional constraints.'"
+    },
+    {
+      "id": "reading-10-rc-034",
+      "bankId": "reading-10-rc",
+      "text": "How does the author structure the argument about Rome's fall?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By comparing Rome to modern democracies",
+          "By tracing a chronological progression of constitutional breakdown",
+          "By contrasting Roman and Greek governance",
+          "By analyzing economic factors exclusively"
+        ],
+        "correctAnswer": "By tracing a chronological progression of constitutional breakdown"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.5"
+      ],
+      "primaryStandard": "RI.9-10.5",
+      "passage": "G10-I3: The Fall of the Republic",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author moves from Marius and Sulla to Caesar to Octavian/Augustus in chronological order."
+    },
+    {
+      "id": "reading-10-rc-035",
+      "bankId": "reading-10-rc",
+      "text": "What contemporary relevance does the author imply in the final sentence?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Modern economies face similar challenges",
+          "Democratic institutions remain vulnerable without cultural support",
+          "Military leaders are the greatest threat to democracy",
+          "Assassination is never politically effective"
+        ],
+        "correctAnswer": "Democratic institutions remain vulnerable without cultural support"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.9-10.6"
+      ],
+      "primaryStandard": "RI.9-10.6",
+      "passage": "G10-I3: The Fall of the Republic",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The 'lesson endures' that 'democratic institutions require not just structural checks but a cultural commitment.'"
+    },
+    {
+      "id": "reading-10-rc-036",
+      "bankId": "reading-10-rc",
+      "text": "What evidence does the author provide for the Senate's ineffectiveness?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Senators were poorly educated",
+          "The Senate was 'paralyzed by factional conflict' and unable to address key issues",
+          "Senators were bribed by foreign powers",
+          "The Senate building was destroyed"
+        ],
+        "correctAnswer": "The Senate was 'paralyzed by factional conflict' and unable to address key issues"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.8"
+      ],
+      "primaryStandard": "RI.9-10.8",
+      "passage": "G10-I3: The Fall of the Republic",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states the Senate was 'paralyzed by factional conflict and unable to address pressing issues.'"
+    },
+    {
+      "id": "reading-10-rc-037",
+      "bankId": "reading-10-rc",
+      "text": "What motivates the speaker's initial refusal in this poem?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Fear of failure",
+          "Awareness of personal unworthiness",
+          "Anger at being asked",
+          "Disbelief in the cause"
+        ],
+        "correctAnswer": "Awareness of personal unworthiness"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.1"
+      ],
+      "primaryStandard": "RL.9-10.1",
+      "passage": "G10-L4: The Reluctant Prophet",
+      "passageText": "They asked me to speak truth to power, but my tongue was leaden, my throat parched with years of prudent silence. Who was I to challenge the comfortable lies that held our world together? I had built my modest house upon those lies, raised children who believed them, taught them to bow when bowing was expected. The voice came again, insistent, ancient: 'Before I formed you in the womb, I knew you.' But knowing and choosing are different things, and I had chosen safety, the blessed anonymity of the crowd. Yet the words burned within me, a fire in my bones that I could not contain. To speak was to lose everything: my name, my family's standing, the carefully constructed peace of ordinary days. To remain silent was to lose myself. In the end, we do not choose our callings; they choose us, and our only power lies in how we answer.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The speaker asks 'Who was I to challenge' and describes having 'built my modest house upon those lies.'"
+    },
+    {
+      "id": "reading-10-rc-038",
+      "bankId": "reading-10-rc",
+      "text": "What does the phrase 'a fire in my bones that I could not contain' suggest about the speaker's internal state?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Physical illness",
+          "An irrepressible compulsion to speak truth",
+          "Anger at society",
+          "Religious fervor without direction"
+        ],
+        "correctAnswer": "An irrepressible compulsion to speak truth"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.4"
+      ],
+      "primaryStandard": "RL.9-10.4",
+      "passage": "G10-L4: The Reluctant Prophet",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The fire metaphor (echoing Jeremiah) represents truth that demands expression despite personal cost."
+    },
+    {
+      "id": "reading-10-rc-039",
+      "bankId": "reading-10-rc",
+      "text": "How does the allusion 'Before I formed you in the womb, I knew you' function in the poem?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It provides historical context",
+          "It connects the speaker's struggle to prophetic tradition",
+          "It questions the existence of fate",
+          "It criticizes religious institutions"
+        ],
+        "correctAnswer": "It connects the speaker's struggle to prophetic tradition"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.9-10.4",
+        "RL.9-10.6"
+      ],
+      "primaryStandard": "RL.9-10.4",
+      "passage": "G10-L4: The Reluctant Prophet",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The biblical allusion to Jeremiah's calling places the speaker within a tradition of reluctant prophets."
+    },
+    {
+      "id": "reading-10-rc-040",
+      "bankId": "reading-10-rc",
+      "text": "What paradox does the speaker identify in the final lines?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Speaking truth is both dangerous and safe",
+          "We choose our callings but they also choose us",
+          "Silence is both prudent and self-destructive",
+          "Family loyalty conflicts with moral duty"
+        ],
+        "correctAnswer": "Silence is both prudent and self-destructive"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.9-10.2"
+      ],
+      "primaryStandard": "RL.9-10.2",
+      "passage": "G10-L4: The Reluctant Prophet",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "'To speak was to lose everything... To remain silent was to lose myself' presents silence as both protective and destructive."
+    },
+    {
+      "id": "reading-10-rc-041",
+      "bankId": "reading-10-rc",
+      "text": "What is the effect of the speaker's description of having 'taught them to bow when bowing was expected'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It shows respect for tradition",
+          "It reveals complicity in maintaining social conformity",
+          "It demonstrates good parenting",
+          "It criticizes children's behavior"
+        ],
+        "correctAnswer": "It reveals complicity in maintaining social conformity"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.6",
+        "RL.9-10.4"
+      ],
+      "primaryStandard": "RL.9-10.6",
+      "passage": "G10-L4: The Reluctant Prophet",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Teaching children to 'bow when bowing was expected' shows the speaker participated in perpetuating 'comfortable lies.'"
+    },
+    {
+      "id": "reading-10-rc-042",
+      "bankId": "reading-10-rc",
+      "text": "What theme is developed through the speaker's internal conflict?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The importance of family loyalty",
+          "The cost of moral courage versus comfortable conformity",
+          "The unreliability of religious experiences",
+          "The danger of political involvement"
+        ],
+        "correctAnswer": "The cost of moral courage versus comfortable conformity"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.2"
+      ],
+      "primaryStandard": "RL.9-10.2",
+      "passage": "G10-L4: The Reluctant Prophet",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The entire poem contrasts the safety of silence with the moral imperative to 'speak truth to power.'"
+    },
+    {
+      "id": "reading-10-rc-043",
+      "bankId": "reading-10-rc",
+      "text": "What is the primary purpose of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To argue for eliminating all fossil fuel use immediately",
+          "To explain the scientific basis for renewable energy transitions",
+          "To compare costs of different energy sources",
+          "To describe the history of energy production"
+        ],
+        "correctAnswer": "To explain the scientific basis for renewable energy transitions"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.6"
+      ],
+      "primaryStandard": "RI.9-10.6",
+      "passage": "G10-I4: The Energy Transition",
+      "passageText": "The transition from fossil fuels to renewable energy sources represents one of the most significant technological and economic transformations in human history. Solar photovoltaic cells convert sunlight directly into electricity through the photovoltaic effect, wherein photons from sunlight knock electrons free from atoms in semiconductor materials, generating electrical current. Wind turbines harness kinetic energy from moving air, converting it to mechanical rotation and then to electricity through generators. Both technologies have experienced dramatic cost reductions over the past decade, with solar costs declining approximately 90% since 2010. However, the intermittent nature of these sources presents challenges for grid stability, as electricity generation fluctuates with weather conditions. Energy storage technologies, particularly lithium-ion batteries, have emerged as crucial solutions, though their production raises concerns about resource extraction and environmental impact. The transition also requires massive infrastructure investment, workforce retraining, and careful attention to communities dependent on fossil fuel industries. Ultimately, the energy transition is not merely a technical challenge but a complex social and economic transformation.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage primarily explains how renewable energy technologies work and the challenges of transitioning to them."
+    },
+    {
+      "id": "reading-10-rc-044",
+      "bankId": "reading-10-rc",
+      "text": "According to the passage, what is the photovoltaic effect?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Wind converting to electrical energy",
+          "Photons releasing electrons from atoms to generate current",
+          "Heat from the sun warming panels",
+          "Chemical reactions in batteries"
+        ],
+        "correctAnswer": "Photons releasing electrons from atoms to generate current"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.1"
+      ],
+      "primaryStandard": "RI.9-10.1",
+      "passage": "G10-I4: The Energy Transition",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage defines it as 'photons from sunlight knock electrons free from atoms in semiconductor materials, generating electrical current.'"
+    },
+    {
+      "id": "reading-10-rc-045",
+      "bankId": "reading-10-rc",
+      "text": "What challenge to renewable energy does the author identify as requiring battery technology?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "High production costs",
+          "Intermittent generation dependent on weather",
+          "Lack of skilled workers",
+          "Environmental damage from manufacturing"
+        ],
+        "correctAnswer": "Intermittent generation dependent on weather"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.3"
+      ],
+      "primaryStandard": "RI.9-10.3",
+      "passage": "G10-I4: The Energy Transition",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage notes 'the intermittent nature of these sources' and presents batteries as 'crucial solutions.'"
+    },
+    {
+      "id": "reading-10-rc-046",
+      "bankId": "reading-10-rc",
+      "text": "What statistic does the author use to demonstrate progress in renewable energy?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Wind energy now powers 50% of homes",
+          "Solar costs have declined approximately 90% since 2010",
+          "Battery storage has doubled annually",
+          "Fossil fuel use has decreased by half"
+        ],
+        "correctAnswer": "Solar costs have declined approximately 90% since 2010"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Integration of Knowledge",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.9-10.8"
+      ],
+      "primaryStandard": "RI.9-10.8",
+      "passage": "G10-I4: The Energy Transition",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage directly states 'solar costs declining approximately 90% since 2010.'"
+    },
+    {
+      "id": "reading-10-rc-047",
+      "bankId": "reading-10-rc",
+      "text": "How does the author's conclusion frame the energy transition?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "As primarily an engineering problem",
+          "As a complex social, economic, and technical transformation",
+          "As an inevitable and smooth process",
+          "As a political controversy"
+        ],
+        "correctAnswer": "As a complex social, economic, and technical transformation"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.5",
+        "RI.9-10.6"
+      ],
+      "primaryStandard": "RI.9-10.5",
+      "passage": "G10-I4: The Energy Transition",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The conclusion states the transition 'is not merely a technical challenge but a complex social and economic transformation.'"
+    },
+    {
+      "id": "reading-10-rc-048",
+      "bankId": "reading-10-rc",
+      "text": "What concern does the author raise about battery technology?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Batteries are too expensive for widespread use",
+          "Battery production raises resource extraction and environmental concerns",
+          "Batteries cannot store enough energy",
+          "Battery technology is too complicated for workers"
+        ],
+        "correctAnswer": "Battery production raises resource extraction and environmental concerns"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.1"
+      ],
+      "primaryStandard": "RI.9-10.1",
+      "passage": "G10-I4: The Energy Transition",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage notes that battery 'production raises concerns about resource extraction and environmental impact.'"
+    },
+    {
+      "id": "reading-10-rc-049",
+      "bankId": "reading-10-rc",
+      "text": "What central conflict does the protagonist face in this scene?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Whether to fight in the war or flee",
+          "Whether to accept an arranged marriage or pursue love",
+          "Whether to preserve cultural authenticity or adapt to colonial expectations",
+          "Whether to betray a friend or remain loyal"
+        ],
+        "correctAnswer": "Whether to preserve cultural authenticity or adapt to colonial expectations"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.1",
+        "RL.9-10.2"
+      ],
+      "primaryStandard": "RL.9-10.1",
+      "passage": "G10-L5: The Merchant's Dilemma",
+      "passageText": "Rashid stood before the British commissioner, his traditional robes suddenly feeling like a costume rather than an identity. The contract would secure his family's trading house for generations, but its terms required him to adopt English dress, speak English in all business dealings, and rename his establishment 'Richardson's Spice Company.' His grandfather's voice echoed: 'Our name is our honor; it carries the dust of every road our ancestors traveled.' The commissioner drummed impatient fingers on mahogany. 'Consider it modernization, old chap. The future belongs to those who adapt.' But adaptation and erasure wore different masks over the same face. Rashid thought of his children, who already spoke English more fluently than Arabic, who had never walked the ancient trade routes, who knew the spice by its English name but not by its origin story. To sign was to prosper; to refuse was to preserve something that perhaps only he still valued. The pen felt impossibly heavy in his hand.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Rashid must choose between economic success (adapting to colonial requirements) and cultural identity (preserving his heritage)."
+    },
+    {
+      "id": "reading-10-rc-050",
+      "bankId": "reading-10-rc",
+      "text": "What does the grandfather's statement about their name suggest about cultural values?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Names should be changed regularly",
+          "Family names carry ancestral heritage and honor",
+          "Traveling merchants are respected",
+          "Business success is the highest value"
+        ],
+        "correctAnswer": "Family names carry ancestral heritage and honor"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.1"
+      ],
+      "primaryStandard": "RL.9-10.1",
+      "passage": "G10-L5: The Merchant's Dilemma",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The grandfather says the name 'is our honor' and 'carries the dust of every road our ancestors traveled.'"
+    },
+    {
+      "id": "reading-10-rc-051",
+      "bankId": "reading-10-rc",
+      "text": "What irony does the author develop through the description of Rashid's children?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Children are better at languages than adults",
+          "Cultural loss has already begun before Rashid's decision",
+          "English is a superior language for business",
+          "Children prefer modern ways"
+        ],
+        "correctAnswer": "Cultural loss has already begun before Rashid's decision"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.9-10.6",
+        "RL.9-10.5"
+      ],
+      "primaryStandard": "RL.9-10.6",
+      "passage": "G10-L5: The Merchant's Dilemma",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Rashid's children already speak English more than Arabic and don't know origin stories, showing erasure is already occurring."
+    },
+    {
+      "id": "reading-10-rc-052",
+      "bankId": "reading-10-rc",
+      "text": "How does the author use the phrase 'adaptation and erasure wore different masks over the same face'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To suggest adaptation is always positive",
+          "To imply that what is called progress may actually be cultural destruction",
+          "To criticize wearing masks",
+          "To praise the commissioner's diplomacy"
+        ],
+        "correctAnswer": "To imply that what is called progress may actually be cultural destruction"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.9-10.4"
+      ],
+      "primaryStandard": "RL.9-10.4",
+      "passage": "G10-L5: The Merchant's Dilemma",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The metaphor reveals that 'modernization' and 'adaptation' are euphemisms for cultural erasure."
+    },
+    {
+      "id": "reading-10-rc-053",
+      "bankId": "reading-10-rc",
+      "text": "What does the detail of the 'mahogany' desk and the commissioner's 'impatient fingers' suggest?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The commissioner is nervous about the deal",
+          "Colonial power is associated with wealth and contempt for indigenous time",
+          "Mahogany is a valuable wood",
+          "The commissioner respects Rashid"
+        ],
+        "correctAnswer": "Colonial power is associated with wealth and contempt for indigenous time"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.9-10.5",
+        "RL.9-10.4"
+      ],
+      "primaryStandard": "RL.9-10.5",
+      "passage": "G10-L5: The Merchant's Dilemma",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The expensive furniture suggests colonial wealth, while the impatience shows dismissiveness toward Rashid's deliberation."
+    },
+    {
+      "id": "reading-10-rc-054",
+      "bankId": "reading-10-rc",
+      "text": "What effect does the phrase 'the pen felt impossibly heavy' create at the passage's conclusion?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It emphasizes Rashid's physical weakness",
+          "It conveys the moral weight of the decision",
+          "It suggests the pen is defective",
+          "It shows Rashid's illiteracy"
+        ],
+        "correctAnswer": "It conveys the moral weight of the decision"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.4"
+      ],
+      "primaryStandard": "RL.9-10.4",
+      "passage": "G10-L5: The Merchant's Dilemma",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The metaphorical heaviness represents the significance and difficulty of choosing between identity and prosperity."
+    },
+    {
+      "id": "reading-10-rc-055",
+      "bankId": "reading-10-rc",
+      "text": "According to the passage, what distinguishes artificial intelligence from traditional computer programming?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "AI programs run faster",
+          "AI systems learn and improve from data rather than following explicit instructions",
+          "AI requires more electricity",
+          "AI can only perform one task"
+        ],
+        "correctAnswer": "AI systems learn and improve from data rather than following explicit instructions"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.1",
+        "RI.9-10.3"
+      ],
+      "primaryStandard": "RI.9-10.1",
+      "passage": "G10-I5: The AI Revolution",
+      "passageText": "Artificial intelligence has transitioned from science fiction speculation to practical reality, transforming industries from healthcare to transportation. Unlike traditional computer programs that follow explicitly coded instructions, AI systems learn from vast datasets, identifying patterns and improving performance through experience. Machine learning, a subset of AI, enables algorithms to make predictions or decisions without being specifically programmed for each scenario. Deep learning, which uses neural networks inspired by the human brain's architecture, has achieved remarkable success in image recognition, natural language processing, and game playing. However, AI systems exhibit significant limitations: they can perpetuate biases present in training data, lack genuine understanding or consciousness, and often function as 'black boxes' whose decision-making processes are opaque even to their creators. Ethical concerns abound regarding AI's impact on employment, privacy, and autonomous weapons systems. As AI capabilities expand, society must grapple with fundamental questions about the relationship between human and machine intelligence.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states AI systems 'learn from vast datasets' and 'improve performance through experience' unlike traditional programs."
+    },
+    {
+      "id": "reading-10-rc-056",
+      "bankId": "reading-10-rc",
+      "text": "What does the author mean by describing AI systems as 'black boxes'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "They are physically dark in color",
+          "Their decision-making processes are difficult to understand or explain",
+          "They can only be accessed by experts",
+          "They are manufactured in secret"
+        ],
+        "correctAnswer": "Their decision-making processes are difficult to understand or explain"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.4"
+      ],
+      "primaryStandard": "RI.9-10.4",
+      "passage": "G10-I5: The AI Revolution",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage clarifies that AI systems' 'decision-making processes are opaque even to their creators.'"
+    },
+    {
+      "id": "reading-10-rc-057",
+      "bankId": "reading-10-rc",
+      "text": "How does the author organize the information about AI in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Chronologically by invention date",
+          "From definition and capabilities to limitations and ethical concerns",
+          "By comparing different AI companies",
+          "From most to least important applications"
+        ],
+        "correctAnswer": "From definition and capabilities to limitations and ethical concerns"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.5"
+      ],
+      "primaryStandard": "RI.9-10.5",
+      "passage": "G10-I5: The AI Revolution",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage moves from explaining what AI is and what it can do to its limitations and ethical implications."
+    },
+    {
+      "id": "reading-10-rc-058",
+      "bankId": "reading-10-rc",
+      "text": "What limitation of AI does the author identify regarding bias?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "AI cannot recognize faces",
+          "AI can perpetuate biases present in training data",
+          "AI is too expensive for widespread use",
+          "AI requires constant human supervision"
+        ],
+        "correctAnswer": "AI can perpetuate biases present in training data"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.9-10.1"
+      ],
+      "primaryStandard": "RI.9-10.1",
+      "passage": "G10-I5: The AI Revolution",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explicitly states AI systems 'can perpetuate biases present in training data.'"
+    },
+    {
+      "id": "reading-10-rc-059",
+      "bankId": "reading-10-rc",
+      "text": "What is the author's apparent stance on AI development?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Entirely optimistic about AI's benefits",
+          "Balanced, acknowledging both capabilities and concerns",
+          "Completely opposed to AI development",
+          "Neutral, presenting only facts without evaluation"
+        ],
+        "correctAnswer": "Balanced, acknowledging both capabilities and concerns"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.6"
+      ],
+      "primaryStandard": "RI.9-10.6",
+      "passage": "G10-I5: The AI Revolution",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author presents AI's 'remarkable success' while also noting 'significant limitations' and 'ethical concerns.'"
+    },
+    {
+      "id": "reading-10-rc-060",
+      "bankId": "reading-10-rc",
+      "text": "What rhetorical effect does the phrase 'from science fiction speculation to practical reality' create?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It dismisses science fiction as unimportant",
+          "It emphasizes the dramatic transformation AI represents",
+          "It suggests AI is dangerous",
+          "It argues science fiction predicted AI accurately"
+        ],
+        "correctAnswer": "It emphasizes the dramatic transformation AI represents"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.4",
+        "RI.9-10.6"
+      ],
+      "primaryStandard": "RI.9-10.4",
+      "passage": "G10-I5: The AI Revolution",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The contrast between speculation and reality highlights how dramatically AI technology has advanced."
+    },
+    {
+      "id": "reading-10-rc-061",
+      "bankId": "reading-10-rc",
+      "text": "What does the narrator's observation about the 'ancient tree' suggest about his state of mind?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He is interested in botany",
+          "He finds permanence and continuity comforting amid personal turmoil",
+          "He wants to become a gardener",
+          "He is lost and looking for landmarks"
+        ],
+        "correctAnswer": "He finds permanence and continuity comforting amid personal turmoil"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.1",
+        "RL.9-10.3"
+      ],
+      "primaryStandard": "RL.9-10.1",
+      "passage": "G10-L6: The Garden of Exile",
+      "passageText": "Viktor returned to the garden after forty years of exile, expecting to find ruins but discovering instead that time had been kinder to the roses than to him. The ancient chestnut tree still spread its branches over the stone bench where he had once read Pushkin to Katya, who was now bones in foreign soil. The iron gate's hinges sang the same mournful note he remembered from childhood. His grandson, born in America, filmed everything with his phone, unable to understand why an old man would weep over flowers. 'These were planted by your great-great-grandmother,' Viktor explained, though the words felt inadequate. How could he convey that this garden held more of his identity than any passport, that the soil knew his footsteps, that the walls had absorbed his family's laughter and grief for generations? The boy nodded politely, already composing the post for his followers. Viktor understood then that some forms of home could not be translated, only inherited or forever lost.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The tree's presence across forty years offers stability and connection amid Viktor's experiences of loss and displacement."
+    },
+    {
+      "id": "reading-10-rc-062",
+      "bankId": "reading-10-rc",
+      "text": "What theme does the contrast between Viktor and his grandson develop?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The benefits of technology",
+          "The generational loss of cultural and emotional connections",
+          "The importance of social media",
+          "The conflict between different languages"
+        ],
+        "correctAnswer": "The generational loss of cultural and emotional connections"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.2"
+      ],
+      "primaryStandard": "RL.9-10.2",
+      "passage": "G10-L6: The Garden of Exile",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The grandson 'unable to understand' and 'already composing the post' contrasts with Viktor's deep emotional connection."
+    },
+    {
+      "id": "reading-10-rc-063",
+      "bankId": "reading-10-rc",
+      "text": "What literary device is used in 'the walls had absorbed his family's laughter and grief'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Simile",
+          "Personification",
+          "Alliteration",
+          "Hyperbole"
+        ],
+        "correctAnswer": "Personification"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RL.9-10.4"
+      ],
+      "primaryStandard": "RL.9-10.4",
+      "passage": "G10-L6: The Garden of Exile",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Attributing the ability to 'absorb' human emotions to walls gives them human-like qualities."
+    },
+    {
+      "id": "reading-10-rc-064",
+      "bankId": "reading-10-rc",
+      "text": "What does the author suggest about 'home' in the passage's final sentence?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Home can be easily recreated anywhere",
+          "Home is primarily about physical location",
+          "Emotional connection to home can only be inherited, not taught",
+          "Home is unimportant in modern society"
+        ],
+        "correctAnswer": "Emotional connection to home can only be inherited, not taught"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.9-10.2",
+        "RL.9-10.1"
+      ],
+      "primaryStandard": "RL.9-10.2",
+      "passage": "G10-L6: The Garden of Exile",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage concludes that 'some forms of home could not be translated, only inherited or forever lost.'"
+    },
+    {
+      "id": "reading-10-rc-065",
+      "bankId": "reading-10-rc",
+      "text": "What effect does the phrase 'Katya, who was now bones in foreign soil' create?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It emphasizes the passage of time and loss of loved ones in exile",
+          "It suggests Katya chose to leave",
+          "It implies Katya is still alive",
+          "It celebrates international travel"
+        ],
+        "correctAnswer": "It emphasizes the passage of time and loss of loved ones in exile"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.4",
+        "RL.9-10.5"
+      ],
+      "primaryStandard": "RL.9-10.4",
+      "passage": "G10-L6: The Garden of Exile",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The stark, physical description of death in 'foreign soil' emphasizes both mortality and displacement."
+    },
+    {
+      "id": "reading-10-rc-066",
+      "bankId": "reading-10-rc",
+      "text": "Why does Viktor feel his explanation is 'inadequate'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He speaks English poorly",
+          "He cannot express in words the deep emotional significance of the garden",
+          "He doesn't remember the garden's history",
+          "His grandson is not listening"
+        ],
+        "correctAnswer": "He cannot express in words the deep emotional significance of the garden"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.1",
+        "RL.9-10.3"
+      ],
+      "primaryStandard": "RL.9-10.1",
+      "passage": "G10-L6: The Garden of Exile",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Viktor recognizes that facts about the garden cannot convey its identity-defining emotional significance."
+    },
+    {
+      "id": "reading-10-rc-067",
+      "bankId": "reading-10-rc",
+      "text": "What is the main argument presented in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Vaccines are completely without risk",
+          "Vaccine hesitancy is primarily caused by social media misinformation",
+          "Vaccine hesitancy has multiple causes requiring varied solutions",
+          "Medical professionals should ignore vaccine concerns"
+        ],
+        "correctAnswer": "Vaccine hesitancy has multiple causes requiring varied solutions"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.2"
+      ],
+      "primaryStandard": "RI.9-10.2",
+      "passage": "G10-I6: Understanding Vaccine Hesitancy",
+      "passageText": "Vaccine hesitancy, defined by the World Health Organization as the reluctance or refusal to vaccinate despite availability, presents a complex public health challenge with multiple contributing factors. Contrary to popular assumption, hesitancy does not arise primarily from ignorance; many hesitant individuals are well-educated and have engaged extensively with medical literature. Distrust often stems from historical injustices, such as the Tuskegee syphilis study, which deliberately left African American men untreated, or from religious and cultural beliefs about bodily autonomy. Social media algorithms amplify misinformation by creating echo chambers where false claims circulate without correction. Additionally, the success of vaccines paradoxically contributes to hesitancy: as diseases become rare, perceived risks of vaccination can outweigh perceived benefits. Effective communication requires acknowledging legitimate concerns rather than dismissing them, providing clear information about both risks and benefits, and building trust through consistent, transparent public health messaging. One-size-fits-all approaches often backfire, reinforcing the skepticism they attempt to address.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage discusses 'multiple contributing factors' and argues that 'one-size-fits-all approaches often backfire.'"
+    },
+    {
+      "id": "reading-10-rc-068",
+      "bankId": "reading-10-rc",
+      "text": "What historical example does the author provide to explain distrust of medical institutions?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The Spanish flu pandemic",
+          "The Tuskegee syphilis study",
+          "The development of penicillin",
+          "The polio vaccine trials"
+        ],
+        "correctAnswer": "The Tuskegee syphilis study"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.9-10.1"
+      ],
+      "primaryStandard": "RI.9-10.1",
+      "passage": "G10-I6: Understanding Vaccine Hesitancy",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage cites 'the Tuskegee syphilis study, which deliberately left African American men untreated.'"
+    },
+    {
+      "id": "reading-10-rc-069",
+      "bankId": "reading-10-rc",
+      "text": "What paradox does the author identify regarding vaccine success?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Successful vaccines are more expensive",
+          "When vaccines eliminate diseases, people may undervalue vaccination",
+          "Vaccine production becomes difficult with success",
+          "Doctors become complacent about administering vaccines"
+        ],
+        "correctAnswer": "When vaccines eliminate diseases, people may undervalue vaccination"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.3"
+      ],
+      "primaryStandard": "RI.9-10.3",
+      "passage": "G10-I6: Understanding Vaccine Hesitancy",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'as diseases become rare, perceived risks of vaccination can outweigh perceived benefits.'"
+    },
+    {
+      "id": "reading-10-rc-070",
+      "bankId": "reading-10-rc",
+      "text": "What does the author suggest about the typical assumption that hesitant individuals are ignorant?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It is accurate and well-supported",
+          "It is incorrect, as many hesitant people are well-educated",
+          "It is partially true for some populations",
+          "It has never been studied"
+        ],
+        "correctAnswer": "It is incorrect, as many hesitant people are well-educated"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.1",
+        "RI.9-10.8"
+      ],
+      "primaryStandard": "RI.9-10.1",
+      "passage": "G10-I6: Understanding Vaccine Hesitancy",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author states 'hesitancy does not arise primarily from ignorance; many hesitant individuals are well-educated.'"
+    },
+    {
+      "id": "reading-10-rc-071",
+      "bankId": "reading-10-rc",
+      "text": "How does the author recommend addressing vaccine hesitancy?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By mandating vaccines for everyone",
+          "By acknowledging concerns, providing clear information, and building trust",
+          "By dismissing concerns as irrational",
+          "By limiting access to social media"
+        ],
+        "correctAnswer": "By acknowledging concerns, providing clear information, and building trust"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.1"
+      ],
+      "primaryStandard": "RI.9-10.1",
+      "passage": "G10-I6: Understanding Vaccine Hesitancy",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage advocates 'acknowledging legitimate concerns,' 'providing clear information,' and 'building trust.'"
+    },
+    {
+      "id": "reading-10-rc-072",
+      "bankId": "reading-10-rc",
+      "text": "What role does the author say social media plays in vaccine hesitancy?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It provides accurate medical information",
+          "Its algorithms create echo chambers amplifying misinformation",
+          "It has no significant impact",
+          "It primarily supports pro-vaccine messaging"
+        ],
+        "correctAnswer": "Its algorithms create echo chambers amplifying misinformation"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.1"
+      ],
+      "primaryStandard": "RI.9-10.1",
+      "passage": "G10-I6: Understanding Vaccine Hesitancy",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'Social media algorithms amplify misinformation by creating echo chambers.'"
+    },
+    {
+      "id": "reading-10-rc-073",
+      "bankId": "reading-10-rc",
+      "text": "What does the speaker's reference to Sisyphus suggest about his view of his work?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He finds his work rewarding",
+          "He sees his labor as eternally repetitive but finds meaning in it",
+          "He wants to quit his job",
+          "He believes in punishment after death"
+        ],
+        "correctAnswer": "He sees his labor as eternally repetitive but finds meaning in it"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.9-10.1",
+        "RL.9-10.4"
+      ],
+      "primaryStandard": "RL.9-10.1",
+      "passage": "G10-L7: The Factory Philosopher",
+      "passageText": "Twenty years on the assembly line had transformed Miguel into an unlikely philosopher. His hands moved automatically through the motions of inserting components while his mind wandered corridors of thought that would have surprised his supervisors. 'We are all Sisyphus,' he told the new worker, 'but unlike him, we get paid, and unlike him, we can imagine the stone is climbing too.' The young man laughed nervously, uncertain whether Miguel was joking or mad. But Miguel had long ago stopped caring about such distinctions. He had discovered that repetitive labor, far from numbing the mind, could liberate it. While his body performed its choreographed movements, his consciousness roamed free, composing poems he would never write down, solving problems that would never be assigned. The factory's roar became a kind of white noise, within which he constructed cathedrals of thought that no one else could see. When the shift ended, he returned to being just another tired worker; but during those eight hours, he was more alive than anyone watching would have believed possible.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Miguel compares work to Sisyphus's punishment but finds freedom through imaginative thought during labor."
+    },
+    {
+      "id": "reading-10-rc-074",
+      "bankId": "reading-10-rc",
+      "text": "What paradox does the passage explore about repetitive labor?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "That physical work is more valuable than mental work",
+          "That monotonous work can actually free the mind for deeper thought",
+          "That workers should not think while working",
+          "That factories produce both goods and pollution"
+        ],
+        "correctAnswer": "That monotonous work can actually free the mind for deeper thought"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.2"
+      ],
+      "primaryStandard": "RL.9-10.2",
+      "passage": "G10-L7: The Factory Philosopher",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Miguel discovered that 'repetitive labor, far from numbing the mind, could liberate it.'"
+    },
+    {
+      "id": "reading-10-rc-075",
+      "bankId": "reading-10-rc",
+      "text": "What does the metaphor 'constructed cathedrals of thought' suggest about Miguel's inner life?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He is religious",
+          "His internal world is rich, complex, and beautiful despite outward simplicity",
+          "He dreams of becoming an architect",
+          "He is distracted and unproductive"
+        ],
+        "correctAnswer": "His internal world is rich, complex, and beautiful despite outward simplicity"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.9-10.4"
+      ],
+      "primaryStandard": "RL.9-10.4",
+      "passage": "G10-L7: The Factory Philosopher",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Cathedrals are elaborate, magnificent structures, suggesting Miguel's thoughts are sophisticated and valuable."
+    },
+    {
+      "id": "reading-10-rc-076",
+      "bankId": "reading-10-rc",
+      "text": "How does the author develop the theme of hidden depths?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By describing the factory's machinery in detail",
+          "By contrasting Miguel's outward appearance with his rich inner life",
+          "By interviewing other workers",
+          "By describing Miguel's home life"
+        ],
+        "correctAnswer": "By contrasting Miguel's outward appearance with his rich inner life"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.5",
+        "RL.9-10.3"
+      ],
+      "primaryStandard": "RL.9-10.5",
+      "passage": "G10-L7: The Factory Philosopher",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author contrasts 'just another tired worker' with being 'more alive than anyone watching would have believed.'"
+    },
+    {
+      "id": "reading-10-rc-077",
+      "bankId": "reading-10-rc",
+      "text": "What does Miguel mean by 'we can imagine the stone is climbing too'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Workers can find meaning and growth even in repetitive tasks",
+          "Factory work requires heavy lifting",
+          "Workers should form unions",
+          "Imagination is a waste of time"
+        ],
+        "correctAnswer": "Workers can find meaning and growth even in repetitive tasks"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.9-10.1",
+        "RL.9-10.4"
+      ],
+      "primaryStandard": "RL.9-10.1",
+      "passage": "G10-L7: The Factory Philosopher",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Unlike Sisyphus's pointless eternal labor, workers can imagine progress and meaning in their work."
+    },
+    {
+      "id": "reading-10-rc-078",
+      "bankId": "reading-10-rc",
+      "text": "What effect does describing Miguel's poems as ones 'he would never write down' create?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It suggests he is illiterate",
+          "It emphasizes the private, ephemeral nature of his creative life",
+          "It indicates he has a bad memory",
+          "It shows he values speaking over writing"
+        ],
+        "correctAnswer": "It emphasizes the private, ephemeral nature of his creative life"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.6"
+      ],
+      "primaryStandard": "RL.9-10.6",
+      "passage": "G10-L7: The Factory Philosopher",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The unwritten poems represent creativity that exists only in Miguel's mind, invisible to the outside world."
+    },
+    {
+      "id": "reading-10-rc-079",
+      "bankId": "reading-10-rc",
+      "text": "What is the main claim of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Sleep should be eliminated to increase productivity",
+          "Sleep is a biological necessity with crucial cognitive functions",
+          "Most adults need less than six hours of sleep",
+          "Sleep disorders are rare and easily treated"
+        ],
+        "correctAnswer": "Sleep is a biological necessity with crucial cognitive functions"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.2"
+      ],
+      "primaryStandard": "RI.9-10.2",
+      "passage": "G10-I7: The Science of Sleep",
+      "passageText": "Sleep, once dismissed as mere downtime for the brain, has emerged as one of the most critical factors in cognitive function, emotional regulation, and physical health. During sleep, the brain consolidates memories, transferring information from short-term to long-term storage through a process involving the hippocampus and neocortex. The glymphatic system, discovered in 2012, actively clears metabolic waste products from the brain during sleep, including beta-amyloid proteins associated with Alzheimer's disease. Sleep deprivation impairs attention, decision-making, and emotional regulation, with chronic insufficient sleep linked to increased risk of obesity, diabetes, cardiovascular disease, and depression. Adolescents require eight to ten hours of sleep, yet school start times often conflict with their naturally delayed circadian rhythms, creating widespread chronic sleep debt. Despite overwhelming scientific evidence of sleep's importance, cultural attitudes continue to valorize sleep deprivation as evidence of dedication and productivity. This disconnect between scientific knowledge and social practice represents a significant public health challenge.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage argues that sleep is essential for multiple biological functions and that sleep deprivation has serious consequences."
+    },
+    {
+      "id": "reading-10-rc-080",
+      "bankId": "reading-10-rc",
+      "text": "What is the function of the glymphatic system according to the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To regulate body temperature during sleep",
+          "To clear metabolic waste from the brain during sleep",
+          "To produce dreams",
+          "To control circadian rhythms"
+        ],
+        "correctAnswer": "To clear metabolic waste from the brain during sleep"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.1"
+      ],
+      "primaryStandard": "RI.9-10.1",
+      "passage": "G10-I7: The Science of Sleep",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states the glymphatic system 'actively clears metabolic waste products from the brain during sleep.'"
+    },
+    {
+      "id": "reading-10-rc-081",
+      "bankId": "reading-10-rc",
+      "text": "What problem does the author identify regarding adolescent sleep?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Teenagers don't need much sleep",
+          "School start times conflict with teen circadian rhythms",
+          "Teenagers sleep too much on weekends",
+          "Parents prevent teens from sleeping"
+        ],
+        "correctAnswer": "School start times conflict with teen circadian rhythms"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.3"
+      ],
+      "primaryStandard": "RI.9-10.3",
+      "passage": "G10-I7: The Science of Sleep",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage notes 'school start times often conflict with their naturally delayed circadian rhythms.'"
+    },
+    {
+      "id": "reading-10-rc-082",
+      "bankId": "reading-10-rc",
+      "text": "What cultural attitude does the author criticize?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Respect for scientific research",
+          "Valorizing sleep deprivation as showing dedication",
+          "Emphasis on work-life balance",
+          "Concern for adolescent health"
+        ],
+        "correctAnswer": "Valorizing sleep deprivation as showing dedication"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.6"
+      ],
+      "primaryStandard": "RI.9-10.6",
+      "passage": "G10-I7: The Science of Sleep",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author criticizes 'cultural attitudes' that 'valorize sleep deprivation as evidence of dedication and productivity.'"
+    },
+    {
+      "id": "reading-10-rc-083",
+      "bankId": "reading-10-rc",
+      "text": "How does the author support the claim that sleep deprivation has serious health consequences?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By citing personal experiences",
+          "By listing multiple diseases linked to insufficient sleep",
+          "By interviewing doctors",
+          "By comparing humans to other animals"
+        ],
+        "correctAnswer": "By listing multiple diseases linked to insufficient sleep"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.8"
+      ],
+      "primaryStandard": "RI.9-10.8",
+      "passage": "G10-I7: The Science of Sleep",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author lists 'obesity, diabetes, cardiovascular disease, and depression' as conditions linked to sleep deprivation."
+    },
+    {
+      "id": "reading-10-rc-084",
+      "bankId": "reading-10-rc",
+      "text": "What does the author mean by 'disconnect between scientific knowledge and social practice'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Scientists don't communicate well",
+          "Society ignores what science has proven about sleep's importance",
+          "Social media spreads misinformation",
+          "Scientific research is unreliable"
+        ],
+        "correctAnswer": "Society ignores what science has proven about sleep's importance"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.4"
+      ],
+      "primaryStandard": "RI.9-10.4",
+      "passage": "G10-I7: The Science of Sleep",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The phrase highlights how 'overwhelming scientific evidence' is contradicted by cultural attitudes that dismiss sleep's importance."
+    },
+    {
+      "id": "reading-10-rc-085",
+      "bankId": "reading-10-rc",
+      "text": "What does the narrator's description of the letters reveal about her grandmother's past?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Her grandmother was a famous author",
+          "Her grandmother had a secret romantic life before marriage",
+          "Her grandmother traveled extensively",
+          "Her grandmother was a spy"
+        ],
+        "correctAnswer": "Her grandmother had a secret romantic life before marriage"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.1"
+      ],
+      "primaryStandard": "RL.9-10.1",
+      "passage": "G10-L8: Letters from Before",
+      "passageText": "In the attic, among mothballed dresses and forgotten photograph albums, I discovered the letters my grandmother had never meant for anyone to find. They were written in an elegant hand I didn't recognize, addressed to 'My dearest Eleanora,' and signed with only the initial 'J.' The dates preceded my grandfather's courtship by two years. Here was a version of my grandmother I had never imagined: passionate, uncertain, capable of the kind of love that burned through proper stationery and social convention. 'I dream of us in Paris,' one letter read, 'walking along the Seine as ourselves, not as the people our families require us to be.' J, whoever he was, had understood her hunger for a larger life. My grandfather had offered security and respectability instead. I wondered whether she had chosen wisely or merely safely, whether the woman who baked cookies and quoted scripture had buried that other Eleanora completely, or whether she had lived on somewhere, waiting by a river in a dream of what might have been.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The letters reveal a passionate correspondence with 'J' before the grandfather's 'courtship.'"
+    },
+    {
+      "id": "reading-10-rc-086",
+      "bankId": "reading-10-rc",
+      "text": "What contrast does the narrator draw between J and the grandfather?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "J was older while the grandfather was younger",
+          "J offered passion and freedom while the grandfather offered security",
+          "J was poor while the grandfather was wealthy",
+          "J was educated while the grandfather was not"
+        ],
+        "correctAnswer": "J offered passion and freedom while the grandfather offered security"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.3"
+      ],
+      "primaryStandard": "RL.9-10.3",
+      "passage": "G10-L8: Letters from Before",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "J understood 'her hunger for a larger life' while the grandfather 'offered security and respectability.'"
+    },
+    {
+      "id": "reading-10-rc-087",
+      "bankId": "reading-10-rc",
+      "text": "What theme does the passage develop through the grandmother's story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The importance of honesty in relationships",
+          "The tension between personal desires and social expectations",
+          "The dangers of keeping secrets",
+          "The value of family traditions"
+        ],
+        "correctAnswer": "The tension between personal desires and social expectations"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.2"
+      ],
+      "primaryStandard": "RL.9-10.2",
+      "passage": "G10-L8: Letters from Before",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The letters describe longing to be 'ourselves, not as the people our families require us to be.'"
+    },
+    {
+      "id": "reading-10-rc-088",
+      "bankId": "reading-10-rc",
+      "text": "What is the effect of describing the grandmother as someone who 'baked cookies and quoted scripture'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It shows she was a good cook",
+          "It emphasizes the conventional life that contrasted with her earlier passion",
+          "It proves she was religious",
+          "It suggests she was boring"
+        ],
+        "correctAnswer": "It emphasizes the conventional life that contrasted with her earlier passion"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.6",
+        "RL.9-10.4"
+      ],
+      "primaryStandard": "RL.9-10.6",
+      "passage": "G10-L8: Letters from Before",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The domestic, pious image contrasts sharply with the passionate woman in the letters."
+    },
+    {
+      "id": "reading-10-rc-089",
+      "bankId": "reading-10-rc",
+      "text": "What does the narrator question about her grandmother's life choice?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Whether she should have had more children",
+          "Whether she chose wisely or merely safely",
+          "Whether she should have moved to Paris",
+          "Whether she should have kept the letters"
+        ],
+        "correctAnswer": "Whether she chose wisely or merely safely"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.1"
+      ],
+      "primaryStandard": "RL.9-10.1",
+      "passage": "G10-L8: Letters from Before",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The narrator explicitly wonders 'whether she had chosen wisely or merely safely.'"
+    },
+    {
+      "id": "reading-10-rc-090",
+      "bankId": "reading-10-rc",
+      "text": "What literary device is used in the phrase 'love that burned through proper stationery and social convention'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Simile",
+          "Hyperbole",
+          "Metaphor with personification",
+          "Alliteration"
+        ],
+        "correctAnswer": "Metaphor with personification"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.9-10.4"
+      ],
+      "primaryStandard": "RL.9-10.4",
+      "passage": "G10-L8: Letters from Before",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Love is described as 'burning through' objects and conventions, giving it active, transformative power."
+    },
+    {
+      "id": "reading-10-rc-091",
+      "bankId": "reading-10-rc",
+      "text": "What is the main argument of this passage regarding free speech on college campuses?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "All speech should be unrestricted on campuses",
+          "Campuses should protect students from all offensive speech",
+          "Balancing free expression with inclusive environments presents genuine tensions",
+          "Free speech concerns are exaggerated by media"
+        ],
+        "correctAnswer": "Balancing free expression with inclusive environments presents genuine tensions"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.2"
+      ],
+      "primaryStandard": "RI.9-10.2",
+      "passage": "G10-I8: The Free Speech Debate",
+      "passageText": "The debate over free speech on college campuses reflects deeper tensions in democratic society between liberty and equality, between protecting expression and preventing harm. Advocates of robust free speech protections argue that universities should be marketplaces of ideas where even offensive viewpoints can be challenged and debated. They contend that exposure to disagreeable ideas strengthens critical thinking and prepares students for civic participation. Critics counter that not all speech contributes equally to intellectual discourse; some speech, particularly that targeting marginalized groups, can create hostile environments that impede learning and equal access to education. The distinction between restricting harmful conduct and suppressing unpopular ideas often proves elusive in practice. Historical context matters: universities have at times suppressed progressive and conservative viewpoints alike. Contemporary debates frequently generate more heat than light, with both sides sometimes caricaturing their opponents. A thoughtful approach recognizes that both free expression and inclusive educational environments represent genuine values that can exist in tension, requiring careful negotiation rather than absolutist positions.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage argues for 'careful negotiation rather than absolutist positions' regarding 'genuine values that can exist in tension.'"
+    },
+    {
+      "id": "reading-10-rc-092",
+      "bankId": "reading-10-rc",
+      "text": "What argument do free speech advocates make according to the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Students should never hear offensive ideas",
+          "Exposure to disagreeable ideas strengthens critical thinking",
+          "Universities should remain politically neutral",
+          "All speech causes equal harm"
+        ],
+        "correctAnswer": "Exposure to disagreeable ideas strengthens critical thinking"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.1"
+      ],
+      "primaryStandard": "RI.9-10.1",
+      "passage": "G10-I8: The Free Speech Debate",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Advocates argue 'exposure to disagreeable ideas strengthens critical thinking and prepares students for civic participation.'"
+    },
+    {
+      "id": "reading-10-rc-093",
+      "bankId": "reading-10-rc",
+      "text": "What counter-argument do critics of unrestricted speech make?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "All speech should be banned",
+          "Some speech targeting marginalized groups can impede learning",
+          "Universities are not places for debate",
+          "Free speech is outdated"
+        ],
+        "correctAnswer": "Some speech targeting marginalized groups can impede learning"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.1",
+        "RI.9-10.8"
+      ],
+      "primaryStandard": "RI.9-10.1",
+      "passage": "G10-I8: The Free Speech Debate",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Critics argue some speech 'can create hostile environments that impede learning and equal access to education.'"
+    },
+    {
+      "id": "reading-10-rc-094",
+      "bankId": "reading-10-rc",
+      "text": "What does the phrase 'generate more heat than light' mean in this context?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The debates cause physical discomfort",
+          "The debates produce more emotional conflict than intellectual clarity",
+          "The debates are ineffective at changing minds",
+          "The debates take place in hot rooms"
+        ],
+        "correctAnswer": "The debates produce more emotional conflict than intellectual clarity"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.4"
+      ],
+      "primaryStandard": "RI.9-10.4",
+      "passage": "G10-I8: The Free Speech Debate",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The idiom suggests debates create anger (heat) rather than understanding (light)."
+    },
+    {
+      "id": "reading-10-rc-095",
+      "bankId": "reading-10-rc",
+      "text": "How does the author characterize both sides of the debate?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "One side is correct, the other wrong",
+          "Both sides sometimes caricature their opponents",
+          "Both sides agree on fundamental principles",
+          "Both sides refuse to engage with each other"
+        ],
+        "correctAnswer": "Both sides sometimes caricature their opponents"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.6"
+      ],
+      "primaryStandard": "RI.9-10.6",
+      "passage": "G10-I8: The Free Speech Debate",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author states 'both sides sometimes caricaturing their opponents.'"
+    },
+    {
+      "id": "reading-10-rc-096",
+      "bankId": "reading-10-rc",
+      "text": "What historical observation does the author make about university speech restrictions?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Universities have never restricted speech",
+          "Universities have suppressed both progressive and conservative viewpoints",
+          "Only conservative speech has been suppressed",
+          "Only progressive speech has been suppressed"
+        ],
+        "correctAnswer": "Universities have suppressed both progressive and conservative viewpoints"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.9-10.1"
+      ],
+      "primaryStandard": "RI.9-10.1",
+      "passage": "G10-I8: The Free Speech Debate",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage notes 'universities have at times suppressed progressive and conservative viewpoints alike.'"
+    },
+    {
+      "id": "reading-10-rc-097",
+      "bankId": "reading-10-rc",
+      "text": "What does the speaker's reaction to the news reveal about her character?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She is impulsive and reckless",
+          "She maintains composure while processing complex emotions",
+          "She is indifferent to family matters",
+          "She is quick to anger"
+        ],
+        "correctAnswer": "She maintains composure while processing complex emotions"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.1",
+        "RL.9-10.3"
+      ],
+      "primaryStandard": "RL.9-10.3",
+      "passage": "G10-L9: The Inheritance",
+      "passageText": "Amara received the news of her inheritance with the same composure she had cultivated through years of boardroom negotiations. The estate was substantial, her aunt's attorney explained, but came with conditions: she must live in the ancestral home for one year, maintaining it exactly as her aunt had left it. 'Your aunt believed you had forgotten where you came from,' the attorney added, not unkindly. The words stung because they were true. Amara had spent two decades building a life that deliberately erased her origins, trading her accent for corporate neutrality, her grandmother's recipes for restaurant reservations, her family stories for professional credentials. The house, she knew, would be full of ghosts: not supernatural ones, but the more terrifying kind that reminded you of choices made and roads not taken. She signed the documents with a hand that barely trembled. Perhaps this was not punishment but an invitation, her aunt's final act of faith that somewhere beneath the expensive suits and careful diction, the girl who had once climbed mango trees and feared nothing still existed.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Amara signs 'with a hand that barely trembled' and reflects thoughtfully rather than reacting emotionally."
+    },
+    {
+      "id": "reading-10-rc-098",
+      "bankId": "reading-10-rc",
+      "text": "What does the attorney's comment reveal about the aunt's motivation?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The aunt wanted to punish Amara",
+          "The aunt wanted to reconnect Amara with her cultural roots",
+          "The aunt had no other heirs",
+          "The aunt distrusted attorneys"
+        ],
+        "correctAnswer": "The aunt wanted to reconnect Amara with her cultural roots"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.1"
+      ],
+      "primaryStandard": "RL.9-10.1",
+      "passage": "G10-L9: The Inheritance",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The aunt believed Amara 'had forgotten where you came from' and designed the inheritance to reconnect her."
+    },
+    {
+      "id": "reading-10-rc-099",
+      "bankId": "reading-10-rc",
+      "text": "What does the author mean by 'ghosts' that are 'more terrifying' than supernatural ones?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The house is haunted",
+          "Memories and regrets are more disturbing than imaginary spirits",
+          "The house is in poor condition",
+          "Amara is afraid of the dark"
+        ],
+        "correctAnswer": "Memories and regrets are more disturbing than imaginary spirits"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.9-10.4"
+      ],
+      "primaryStandard": "RL.9-10.4",
+      "passage": "G10-L9: The Inheritance",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The ghosts are described as 'choices made and roads not taken,' representing regret and memory."
+    },
+    {
+      "id": "reading-10-rc-100",
+      "bankId": "reading-10-rc",
+      "text": "How does the passage's ending reframe the inheritance conditions?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "As an unfair burden",
+          "As a potential opportunity for self-rediscovery",
+          "As a legal complication",
+          "As financial manipulation"
+        ],
+        "correctAnswer": "As a potential opportunity for self-rediscovery"
+      },
+      "subject": "Reading",
+      "gradeLevel": "10",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.9-10.2"
+      ],
+      "primaryStandard": "RL.9-10.2",
+      "passage": "G10-L9: The Inheritance",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Amara wonders if the inheritance is 'not punishment but an invitation' to reconnect with her authentic self."
+    }
+  ]
+}

@@ -1,0 +1,2734 @@
+{
+  "metadata": {
+    "subject": "Reading",
+    "gradeLevel": "5",
+    "domain": "RC",
+    "domainName": "Reading Comprehension",
+    "lastUpdated": "2026-01-25",
+    "totalQuestions": 100,
+    "description": "CCSS-aligned reading comprehension assessment with literary and informational texts",
+    "lexileRange": "730L-920L"
+  },
+  "questions": [
+    {
+      "id": "reading-5-rc-001",
+      "bankId": "reading-5-rc",
+      "text": "What is the main theme of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Friendship is more valuable than material wealth",
+          "Hard work always leads to success",
+          "Nature is unpredictable and dangerous",
+          "Technology improves daily life"
+        ],
+        "correctAnswer": "Friendship is more valuable than material wealth"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.2"
+      ],
+      "primaryStandard": "RL.5.2",
+      "passage": "G5-L1: The Treasure of Willow Creek",
+      "passageText": "Marcus had spent three summers searching for the legendary treasure of Willow Creek, convinced it would change his life forever. He pored over old maps, interviewed elderly residents, and dug countless holes throughout the forest. One August afternoon, his best friend Elena found him slumped against a tree, exhausted and discouraged. Without a word, she sat beside him and shared her sandwich. As the sun set, Marcus realized that Elena had been there through every failed expedition, never complaining. He looked at the shovel in his hands, then at his loyal friend. Perhaps, he thought, the real treasure had been beside him all along.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage contrasts Marcus's fruitless search for material treasure with Elena's steadfast friendship, ultimately revealing that true value lies in genuine relationships."
+    },
+    {
+      "id": "reading-5-rc-002",
+      "bankId": "reading-5-rc",
+      "text": "Which quote from the text best supports the theme?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Marcus had spent three summers searching for the legendary treasure",
+          "He pored over old maps, interviewed elderly residents",
+          "Elena had been there through every failed expedition, never complaining",
+          "He looked at the shovel in his hands"
+        ],
+        "correctAnswer": "Elena had been there through every failed expedition, never complaining"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.1"
+      ],
+      "primaryStandard": "RL.5.1",
+      "passage": "G5-L1: The Treasure of Willow Creek",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "This quote directly shows Elena's loyal friendship throughout Marcus's long search, supporting the theme that friendship is the real treasure."
+    },
+    {
+      "id": "reading-5-rc-003",
+      "bankId": "reading-5-rc",
+      "text": "How does Marcus change from the beginning to the end of the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He becomes more determined to find treasure",
+          "He realizes what truly matters in life",
+          "He decides to give up on his dreams entirely",
+          "He becomes angry at Elena for interrupting"
+        ],
+        "correctAnswer": "He realizes what truly matters in life"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.3"
+      ],
+      "primaryStandard": "RL.5.3",
+      "passage": "G5-L1: The Treasure of Willow Creek",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Marcus transforms from being focused solely on material treasure to recognizing the value of friendship."
+    },
+    {
+      "id": "reading-5-rc-004",
+      "bankId": "reading-5-rc",
+      "text": "What does the word 'pored' mean in the context of the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Spilled liquid on",
+          "Studied carefully and thoroughly",
+          "Quickly glanced at",
+          "Threw away carelessly"
+        ],
+        "correctAnswer": "Studied carefully and thoroughly"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.4"
+      ],
+      "primaryStandard": "RL.5.4",
+      "passage": "G5-L1: The Treasure of Willow Creek",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "In this context, 'pored over' means to examine or study something with great attention and care."
+    },
+    {
+      "id": "reading-5-rc-005",
+      "bankId": "reading-5-rc",
+      "text": "From which point of view is this story told?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "First person (Marcus tells the story)",
+          "First person (Elena tells the story)",
+          "Third person limited (narrator focuses on Marcus)",
+          "Second person (the reader is addressed as 'you')"
+        ],
+        "correctAnswer": "Third person limited (narrator focuses on Marcus)"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.6"
+      ],
+      "primaryStandard": "RL.5.6",
+      "passage": "G5-L1: The Treasure of Willow Creek",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The story uses third person pronouns (he, his) and focuses on Marcus's thoughts and perspective."
+    },
+    {
+      "id": "reading-5-rc-006",
+      "bankId": "reading-5-rc",
+      "text": "How does the setting of sunset contribute to the story's meaning?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It shows that Marcus ran out of daylight to dig",
+          "It symbolizes the end of Marcus's misguided search and a new understanding",
+          "It indicates that Elena arrived too late to help",
+          "It proves that treasure hunting should only happen at night"
+        ],
+        "correctAnswer": "It symbolizes the end of Marcus's misguided search and a new understanding"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.5.5"
+      ],
+      "primaryStandard": "RL.5.5",
+      "passage": "G5-L1: The Treasure of Willow Creek",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The sunset symbolically represents the closing of one chapter (the treasure hunt) and Marcus's awakening to deeper truths about friendship."
+    },
+    {
+      "id": "reading-5-rc-007",
+      "bankId": "reading-5-rc",
+      "text": "What is the main idea of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Volcanoes are dangerous natural disasters",
+          "Volcanic eruptions are complex geological processes with multiple stages",
+          "Scientists cannot predict volcanic eruptions",
+          "All volcanoes look the same"
+        ],
+        "correctAnswer": "Volcanic eruptions are complex geological processes with multiple stages"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.2"
+      ],
+      "primaryStandard": "RI.5.2",
+      "passage": "G5-I1: Inside a Volcano",
+      "passageText": "Deep beneath Earth's surface, tremendous heat and pressure create conditions that lead to volcanic eruptions. Magma, which is molten rock mixed with dissolved gases, forms in chambers miles underground. As pressure builds, the magma begins its journey upward through cracks and weaknesses in the rock. Scientists monitor volcanoes using seismographs to detect small earthquakes that signal rising magma. When magma reaches the surface, it becomes known as lava and can flow at temperatures exceeding 2,000 degrees Fahrenheit. The type of eruption depends on the magma's composition; thick, gas-rich magma often produces explosive eruptions, while thinner magma tends to flow more gently. Understanding these processes helps communities prepare for potential volcanic events.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explains the multiple stages and factors involved in volcanic eruptions, from magma formation to different eruption types."
+    },
+    {
+      "id": "reading-5-rc-008",
+      "bankId": "reading-5-rc",
+      "text": "According to the text, what is the relationship between magma and lava?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "They are completely different substances",
+          "Magma becomes lava when it reaches Earth's surface",
+          "Lava turns into magma underground",
+          "They exist at the same temperatures"
+        ],
+        "correctAnswer": "Magma becomes lava when it reaches Earth's surface"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.5.1"
+      ],
+      "primaryStandard": "RI.5.1",
+      "passage": "G5-I1: Inside a Volcano",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text explicitly states 'When magma reaches the surface, it becomes known as lava.'"
+    },
+    {
+      "id": "reading-5-rc-009",
+      "bankId": "reading-5-rc",
+      "text": "What text structure does the author primarily use in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Problem and solution",
+          "Cause and effect",
+          "Compare and contrast",
+          "Chronological order"
+        ],
+        "correctAnswer": "Cause and effect"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.5"
+      ],
+      "primaryStandard": "RI.5.5",
+      "passage": "G5-I1: Inside a Volcano",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explains how heat and pressure cause magma formation, how pressure causes magma to rise, and how magma composition causes different eruption types."
+    },
+    {
+      "id": "reading-5-rc-010",
+      "bankId": "reading-5-rc",
+      "text": "What does the word 'composition' mean as used in the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "A written essay or story",
+          "The makeup or ingredients of something",
+          "A musical piece",
+          "The arrangement of a photograph"
+        ],
+        "correctAnswer": "The makeup or ingredients of something"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.4"
+      ],
+      "primaryStandard": "RI.5.4",
+      "passage": "G5-I1: Inside a Volcano",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "In this scientific context, composition refers to what the magma is made of or its chemical makeup."
+    },
+    {
+      "id": "reading-5-rc-011",
+      "bankId": "reading-5-rc",
+      "text": "What is the author's purpose in writing this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To persuade readers to become volcanologists",
+          "To inform readers about how volcanic eruptions occur",
+          "To entertain readers with a dramatic story",
+          "To argue that volcanoes are the most dangerous natural phenomena"
+        ],
+        "correctAnswer": "To inform readers about how volcanic eruptions occur"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.6"
+      ],
+      "primaryStandard": "RI.5.6",
+      "passage": "G5-I1: Inside a Volcano",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage provides factual information about volcanic processes without trying to persuade or entertain, indicating an informative purpose."
+    },
+    {
+      "id": "reading-5-rc-012",
+      "bankId": "reading-5-rc",
+      "text": "Which detail from the passage supports the idea that scientists work to protect communities?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Magma forms in chambers miles underground",
+          "Lava can flow at temperatures exceeding 2,000 degrees Fahrenheit",
+          "Scientists monitor volcanoes using seismographs to detect small earthquakes",
+          "Thick, gas-rich magma often produces explosive eruptions"
+        ],
+        "correctAnswer": "Scientists monitor volcanoes using seismographs to detect small earthquakes"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.3"
+      ],
+      "primaryStandard": "RI.5.3",
+      "passage": "G5-I1: Inside a Volcano",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "This detail shows scientists actively working to detect volcanic activity early, which helps protect nearby communities."
+    },
+    {
+      "id": "reading-5-rc-013",
+      "bankId": "reading-5-rc",
+      "text": "What is the central conflict in this story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Maya versus another competitor",
+          "Maya versus the difficult mountain terrain",
+          "Maya versus her own self-doubt and fear",
+          "Maya versus the weather conditions"
+        ],
+        "correctAnswer": "Maya versus her own self-doubt and fear"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.2"
+      ],
+      "primaryStandard": "RL.5.2",
+      "passage": "G5-L2: The Summit",
+      "passageText": "Maya's legs burned as she stared at the final stretch of the mountain trail. Every cell in her body screamed to turn back, to accept defeat as she had so many times before. Her father's words echoed in her mind: 'The mountain doesn't care if you reach the top. Only you do.' She had always interpreted this as harsh, but now she understood its deeper meaning. The summit wasn't about proving anything to anyone else; it was about proving something to herself. Taking a deep breath, she pushed through the pain, placing one foot deliberately in front of the other. When she finally reached the peak, tears streamed down her face\u2014not from exhaustion, but from the overwhelming realization that she was stronger than her doubts had ever allowed her to believe.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The story focuses on Maya's internal struggle against her self-doubt and the urge to give up, making it a character vs. self conflict."
+    },
+    {
+      "id": "reading-5-rc-014",
+      "bankId": "reading-5-rc",
+      "text": "What does Maya's father's quote mean in the context of the story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Mountains are dangerous and uncaring",
+          "Success is meaningless to others",
+          "Personal achievement matters only to the individual striving for it",
+          "Her father didn't want her to climb"
+        ],
+        "correctAnswer": "Personal achievement matters only to the individual striving for it"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.5.4"
+      ],
+      "primaryStandard": "RL.5.4",
+      "passage": "G5-L2: The Summit",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The quote emphasizes that the goal of reaching the summit is a personal challenge that only matters to Maya herself, not to external forces."
+    },
+    {
+      "id": "reading-5-rc-015",
+      "bankId": "reading-5-rc",
+      "text": "How does the author build tension in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By describing beautiful scenery",
+          "By using dialogue between multiple characters",
+          "By showing Maya's physical pain and internal struggle",
+          "By including facts about mountain climbing"
+        ],
+        "correctAnswer": "By showing Maya's physical pain and internal struggle"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.5"
+      ],
+      "primaryStandard": "RL.5.5",
+      "passage": "G5-L2: The Summit",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author creates tension through descriptions of Maya's burning legs, her body screaming to turn back, and her internal battle with self-doubt."
+    },
+    {
+      "id": "reading-5-rc-016",
+      "bankId": "reading-5-rc",
+      "text": "Why does Maya cry when she reaches the summit?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The wind hurt her eyes",
+          "She was disappointed with the view",
+          "She realized she was stronger than her doubts",
+          "She missed her father"
+        ],
+        "correctAnswer": "She realized she was stronger than her doubts"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.1"
+      ],
+      "primaryStandard": "RL.5.1",
+      "passage": "G5-L2: The Summit",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text explicitly states the tears came 'from the overwhelming realization that she was stronger than her doubts had ever allowed her to believe.'"
+    },
+    {
+      "id": "reading-5-rc-017",
+      "bankId": "reading-5-rc",
+      "text": "What does the phrase 'screamed to turn back' suggest about Maya's situation?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Someone was yelling at her to stop",
+          "Her body was experiencing intense discomfort and fatigue",
+          "She heard echoes on the mountain",
+          "Other climbers were warning her of danger"
+        ],
+        "correctAnswer": "Her body was experiencing intense discomfort and fatigue"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.4"
+      ],
+      "primaryStandard": "RL.5.4",
+      "passage": "G5-L2: The Summit",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "This figurative language personifies Maya's body to emphasize the extreme physical strain she was experiencing."
+    },
+    {
+      "id": "reading-5-rc-018",
+      "bankId": "reading-5-rc",
+      "text": "What is the main idea of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The Underground Railroad was an actual railroad system",
+          "Harriet Tubman was the only conductor on the Underground Railroad",
+          "The Underground Railroad was a secret network that helped enslaved people escape to freedom",
+          "The Underground Railroad only operated in the North"
+        ],
+        "correctAnswer": "The Underground Railroad was a secret network that helped enslaved people escape to freedom"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.2"
+      ],
+      "primaryStandard": "RI.5.2",
+      "passage": "G5-I2: The Underground Railroad",
+      "passageText": "Despite its name, the Underground Railroad was neither underground nor a railroad. It was a secret network of routes, safe houses, and brave individuals who helped enslaved African Americans escape to freedom in the North and Canada during the mid-1800s. The network used railroad terminology as code: safe houses were called 'stations,' guides were known as 'conductors,' and the freedom seekers themselves were called 'passengers.' Harriet Tubman, perhaps the most famous conductor, made approximately thirteen missions to rescue around seventy enslaved people. The journey was extremely dangerous, with freedom seekers traveling mostly at night and relying on the North Star for direction. Those caught faced severe punishment or death, yet thousands risked everything for the chance at liberty.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage primarily explains what the Underground Railroad was and how it functioned as a secret escape network."
+    },
+    {
+      "id": "reading-5-rc-019",
+      "bankId": "reading-5-rc",
+      "text": "Why did the Underground Railroad use railroad terminology?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Because it used actual trains",
+          "To confuse authorities and keep operations secret",
+          "Because Harriet Tubman worked for a railroad company",
+          "To make the journey seem less frightening"
+        ],
+        "correctAnswer": "To confuse authorities and keep operations secret"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.3"
+      ],
+      "primaryStandard": "RI.5.3",
+      "passage": "G5-I2: The Underground Railroad",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage indicates the network was secret, and using code words helped maintain that secrecy to protect those involved."
+    },
+    {
+      "id": "reading-5-rc-020",
+      "bankId": "reading-5-rc",
+      "text": "Based on the passage, what can you infer about the people who participated in the Underground Railroad?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "They were all professional conductors",
+          "They were courageous and willing to risk their lives for others' freedom",
+          "They only worked during the daytime",
+          "They received payment for their services"
+        ],
+        "correctAnswer": "They were courageous and willing to risk their lives for others' freedom"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.1"
+      ],
+      "primaryStandard": "RI.5.1",
+      "passage": "G5-I2: The Underground Railroad",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text describes the 'brave individuals' and mentions that participants faced 'severe punishment or death,' indicating their courage."
+    },
+    {
+      "id": "reading-5-rc-021",
+      "bankId": "reading-5-rc",
+      "text": "What does the word 'liberty' mean in the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "A type of railroad station",
+          "Freedom from oppression or captivity",
+          "A city in the North",
+          "Permission to travel"
+        ],
+        "correctAnswer": "Freedom from oppression or captivity"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.5.4"
+      ],
+      "primaryStandard": "RI.5.4",
+      "passage": "G5-I2: The Underground Railroad",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "In this historical context about escaping slavery, liberty means freedom from being enslaved."
+    },
+    {
+      "id": "reading-5-rc-022",
+      "bankId": "reading-5-rc",
+      "text": "How does the author organize this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By comparing the Underground Railroad to modern transportation",
+          "By presenting a problem and its solution",
+          "By describing what the Underground Railroad was and providing details about how it operated",
+          "By arguing for the importance of freedom"
+        ],
+        "correctAnswer": "By describing what the Underground Railroad was and providing details about how it operated"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.5"
+      ],
+      "primaryStandard": "RI.5.5",
+      "passage": "G5-I2: The Underground Railroad",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage uses a descriptive structure, first defining what the Underground Railroad was, then explaining its operations."
+    },
+    {
+      "id": "reading-5-rc-023",
+      "bankId": "reading-5-rc",
+      "text": "What theme is developed throughout this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Greed leads to destruction",
+          "The power of imagination can transform reality",
+          "True friends reveal themselves in difficult times",
+          "Appearances can be deceiving"
+        ],
+        "correctAnswer": "Appearances can be deceiving"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.2"
+      ],
+      "primaryStandard": "RL.5.2",
+      "passage": "G5-L3: The New Student",
+      "passageText": "When Kai transferred to Jefferson Middle School, whispers followed him everywhere. With his worn clothes and quiet demeanor, students assumed he had nothing interesting to offer. Sophia, the most popular girl in fifth grade, initially ignored him like everyone else. But when their teacher assigned them as science fair partners, Sophia was forced to interact with Kai. She quickly discovered that beneath his shy exterior was a brilliant mind fascinated by robotics. Kai had built his first robot at age eight using discarded electronics. As they worked together, Sophia realized how wrong everyone's assumptions had been. By the time they won first place, Sophia had not only gained a trophy but also a genuine appreciation for looking beyond the surface.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The story demonstrates that initial judgments based on appearance (Kai's worn clothes, quiet nature) were wrong, revealing his hidden talents."
+    },
+    {
+      "id": "reading-5-rc-024",
+      "bankId": "reading-5-rc",
+      "text": "How do Sophia's feelings about Kai change throughout the story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She remains indifferent to him from start to finish",
+          "She dislikes him more as the story progresses",
+          "She moves from ignoring him to genuinely appreciating him",
+          "She becomes jealous of his abilities"
+        ],
+        "correctAnswer": "She moves from ignoring him to genuinely appreciating him"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.3"
+      ],
+      "primaryStandard": "RL.5.3",
+      "passage": "G5-L3: The New Student",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Sophia transforms from initially ignoring Kai to developing 'a genuine appreciation for looking beyond the surface.'"
+    },
+    {
+      "id": "reading-5-rc-025",
+      "bankId": "reading-5-rc",
+      "text": "What does the word 'demeanor' mean in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Type of clothing",
+          "Outward behavior or manner",
+          "Level of intelligence",
+          "Social status"
+        ],
+        "correctAnswer": "Outward behavior or manner"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.4"
+      ],
+      "primaryStandard": "RL.5.4",
+      "passage": "G5-L3: The New Student",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Demeanor refers to a person's outward manner or behavior, which in Kai's case was quiet."
+    },
+    {
+      "id": "reading-5-rc-026",
+      "bankId": "reading-5-rc",
+      "text": "Why is the detail about Kai building a robot at age eight important to the story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It shows that Kai is younger than the other students",
+          "It demonstrates that Kai has exceptional talent despite his appearance",
+          "It explains why Kai transferred schools",
+          "It proves that robotics is easy to learn"
+        ],
+        "correctAnswer": "It demonstrates that Kai has exceptional talent despite his appearance"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.5"
+      ],
+      "primaryStandard": "RL.5.5",
+      "passage": "G5-L3: The New Student",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "This detail reinforces the theme by showing the hidden abilities that contradict the students' superficial judgments."
+    },
+    {
+      "id": "reading-5-rc-027",
+      "bankId": "reading-5-rc",
+      "text": "From whose perspective does the reader experience the story's events?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Kai's perspective",
+          "The teacher's perspective",
+          "A third-person narrator with focus on Sophia and Kai",
+          "First-person narrator who is a student"
+        ],
+        "correctAnswer": "A third-person narrator with focus on Sophia and Kai"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.6"
+      ],
+      "primaryStandard": "RL.5.6",
+      "passage": "G5-L3: The New Student",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The story is told by an outside narrator who reveals thoughts about both main characters."
+    },
+    {
+      "id": "reading-5-rc-028",
+      "bankId": "reading-5-rc",
+      "text": "What is the primary purpose of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To persuade readers to use renewable energy",
+          "To explain how solar panels convert sunlight into electricity",
+          "To compare solar power to wind power",
+          "To describe the history of energy production"
+        ],
+        "correctAnswer": "To explain how solar panels convert sunlight into electricity"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.6"
+      ],
+      "primaryStandard": "RI.5.6",
+      "passage": "G5-I3: How Solar Panels Work",
+      "passageText": "Solar panels have become an increasingly common sight on rooftops and in fields across the country. These remarkable devices convert sunlight directly into electricity through a process called the photovoltaic effect. Each panel contains many smaller units called solar cells, typically made from silicon. When sunlight strikes the silicon, it knocks electrons loose from their atoms, creating an electrical current. This direct current (DC) electricity then flows to an inverter, which converts it to alternating current (AC) electricity that can power homes and businesses. A single solar panel can generate enough electricity to power several light bulbs, while an array of panels can meet a household's entire energy needs. As technology improves, solar panels are becoming more efficient and affordable, making clean energy accessible to more people.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage focuses on explaining the process of how solar panels convert sunlight to electricity."
+    },
+    {
+      "id": "reading-5-rc-029",
+      "bankId": "reading-5-rc",
+      "text": "According to the passage, what is the photovoltaic effect?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The process of storing electricity in batteries",
+          "The conversion of sunlight into electricity",
+          "The transformation of DC to AC current",
+          "The heating of silicon panels"
+        ],
+        "correctAnswer": "The conversion of sunlight into electricity"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.1"
+      ],
+      "primaryStandard": "RI.5.1",
+      "passage": "G5-I3: How Solar Panels Work",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text states that panels 'convert sunlight directly into electricity through a process called the photovoltaic effect.'"
+    },
+    {
+      "id": "reading-5-rc-030",
+      "bankId": "reading-5-rc",
+      "text": "What is the correct sequence of events in solar energy conversion?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Inverter converts current, sunlight strikes silicon, electrons flow",
+          "Sunlight strikes silicon, electrons become loose, DC flows to inverter, inverter converts to AC",
+          "AC electricity is created, then converted to DC, then used in homes",
+          "Electrons are knocked loose, silicon is created, sunlight is absorbed"
+        ],
+        "correctAnswer": "Sunlight strikes silicon, electrons become loose, DC flows to inverter, inverter converts to AC"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.3"
+      ],
+      "primaryStandard": "RI.5.3",
+      "passage": "G5-I3: How Solar Panels Work",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage describes this sequence: sunlight hits silicon, electrons are knocked loose creating DC, then inverter converts DC to AC."
+    },
+    {
+      "id": "reading-5-rc-031",
+      "bankId": "reading-5-rc",
+      "text": "What does the word 'array' mean in the context of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "A single solar panel",
+          "A type of electricity",
+          "A group or collection arranged together",
+          "A measurement of energy"
+        ],
+        "correctAnswer": "A group or collection arranged together"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.4"
+      ],
+      "primaryStandard": "RI.5.4",
+      "passage": "G5-I3: How Solar Panels Work",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "An array of panels refers to multiple panels arranged together as a group or system."
+    },
+    {
+      "id": "reading-5-rc-032",
+      "bankId": "reading-5-rc",
+      "text": "What evidence from the text supports the idea that solar energy is becoming more popular?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Solar cells are made from silicon",
+          "Direct current flows to an inverter",
+          "Solar panels have become an increasingly common sight",
+          "Each panel contains many smaller units"
+        ],
+        "correctAnswer": "Solar panels have become an increasingly common sight"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.8"
+      ],
+      "primaryStandard": "RI.5.8",
+      "passage": "G5-I3: How Solar Panels Work",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The phrase 'increasingly common sight' directly supports the growing popularity of solar panels."
+    },
+    {
+      "id": "reading-5-rc-033",
+      "bankId": "reading-5-rc",
+      "text": "What theme does the author develop through Grandma Rosa's story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Technology is destroying family traditions",
+          "Cultural heritage connects generations and shapes identity",
+          "Old recipes are better than modern ones",
+          "Immigration is always difficult"
+        ],
+        "correctAnswer": "Cultural heritage connects generations and shapes identity"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.2"
+      ],
+      "primaryStandard": "RL.5.2",
+      "passage": "G5-L4: Grandma Rosa's Recipe",
+      "passageText": "Every Sunday, the aroma of Grandma Rosa's tamales filled our small kitchen. As she spread masa onto corn husks, she would share stories of her childhood in Mexico. 'My grandmother taught me this recipe,' she would say, her weathered hands moving with practiced precision. 'And her grandmother taught her. These tamales carry our family's history in every bite.' I used to think she was being dramatic, but as I grew older, I understood what she meant. Each ingredient represented something: the corn for our indigenous roots, the chili for the fire of our ancestors' spirits. When Grandma Rosa passed away last spring, I thought the tradition might end. But I surprised myself by remembering every step, every story. Now, as I teach my own daughter to spread masa, I realize that Grandma Rosa lives on through the recipes and stories we continue to share.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage shows how the tamale recipe connects multiple generations and becomes a way to preserve and pass on cultural identity."
+    },
+    {
+      "id": "reading-5-rc-034",
+      "bankId": "reading-5-rc",
+      "text": "What does the narrator mean by 'These tamales carry our family's history in every bite'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The tamales contain historical documents",
+          "The recipe and tradition connect the family across generations",
+          "The tamales are very old",
+          "Eating tamales helps you remember facts"
+        ],
+        "correctAnswer": "The recipe and tradition connect the family across generations"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.4"
+      ],
+      "primaryStandard": "RL.5.4",
+      "passage": "G5-L4: Grandma Rosa's Recipe",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "This figurative language means the recipe has been passed through generations, making each tamale a connection to family heritage."
+    },
+    {
+      "id": "reading-5-rc-035",
+      "bankId": "reading-5-rc",
+      "text": "How does the narrator's understanding of the tamales change over time?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "From thinking Grandma was dramatic to understanding the deep meaning",
+          "From loving tamales to disliking them",
+          "From being unable to cook to becoming a chef",
+          "From living in Mexico to moving away"
+        ],
+        "correctAnswer": "From thinking Grandma was dramatic to understanding the deep meaning"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.3"
+      ],
+      "primaryStandard": "RL.5.3",
+      "passage": "G5-L4: Grandma Rosa's Recipe",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The narrator explicitly states 'I used to think she was being dramatic, but as I grew older, I understood what she meant.'"
+    },
+    {
+      "id": "reading-5-rc-036",
+      "bankId": "reading-5-rc",
+      "text": "What point of view is used in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Third person omniscient",
+          "Third person limited",
+          "First person",
+          "Second person"
+        ],
+        "correctAnswer": "First person"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RL.5.6"
+      ],
+      "primaryStandard": "RL.5.6",
+      "passage": "G5-L4: Grandma Rosa's Recipe",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The narrator uses 'I,' 'me,' and 'our,' indicating first-person point of view."
+    },
+    {
+      "id": "reading-5-rc-037",
+      "bankId": "reading-5-rc",
+      "text": "How does the structure of the passage contribute to its meaning?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It uses compare and contrast to show differences between generations",
+          "It moves through time to show how tradition continues despite loss",
+          "It presents a problem and then solves it immediately",
+          "It lists ingredients in sequential order"
+        ],
+        "correctAnswer": "It moves through time to show how tradition continues despite loss"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.5.5"
+      ],
+      "primaryStandard": "RL.5.5",
+      "passage": "G5-L4: Grandma Rosa's Recipe",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage moves from past memories to Grandma's death to the present, showing how traditions survive across generations."
+    },
+    {
+      "id": "reading-5-rc-038",
+      "bankId": "reading-5-rc",
+      "text": "What is the main idea of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Octopuses are dangerous sea creatures",
+          "Octopuses possess remarkable intelligence demonstrated through complex behaviors",
+          "Octopuses live only in warm ocean waters",
+          "Scientists are unable to study octopus behavior"
+        ],
+        "correctAnswer": "Octopuses possess remarkable intelligence demonstrated through complex behaviors"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.2"
+      ],
+      "primaryStandard": "RI.5.2",
+      "passage": "G5-I4: The Intelligent Octopus",
+      "passageText": "Among all invertebrates, the octopus stands out as one of the most intelligent creatures in the ocean. Scientists have observed octopuses solving complex puzzles, using tools, and even escaping from supposedly secure tanks in aquariums. In one famous case, an octopus named Inky escaped from his tank at the National Aquarium of New Zealand by squeezing through a small gap and sliding down a drainpipe to the ocean. Octopuses can also change their skin color and texture in milliseconds, not just for camouflage but also to communicate. Research shows they can recognize individual human faces and may even hold grudges against people who have treated them poorly. With approximately 500 million neurons\u2014about the same as a dog\u2014the octopus brain challenges our assumptions about what invertebrates can achieve.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage focuses on demonstrating octopus intelligence through various examples of complex behavior."
+    },
+    {
+      "id": "reading-5-rc-039",
+      "bankId": "reading-5-rc",
+      "text": "Which detail from the passage best supports the claim that octopuses are intelligent?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Octopuses are invertebrates",
+          "Octopuses live in the ocean",
+          "An octopus escaped by squeezing through a gap and sliding down a drainpipe",
+          "Octopuses have soft bodies"
+        ],
+        "correctAnswer": "An octopus escaped by squeezing through a gap and sliding down a drainpipe"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.8"
+      ],
+      "primaryStandard": "RI.5.8",
+      "passage": "G5-I4: The Intelligent Octopus",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Inky's complex escape demonstrates problem-solving ability, directly supporting the intelligence claim."
+    },
+    {
+      "id": "reading-5-rc-040",
+      "bankId": "reading-5-rc",
+      "text": "What does the word 'invertebrates' mean based on context clues?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Animals that live underwater",
+          "Animals without a backbone",
+          "Animals that can change color",
+          "Animals that are very large"
+        ],
+        "correctAnswer": "Animals without a backbone"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.4"
+      ],
+      "primaryStandard": "RI.5.4",
+      "passage": "G5-I4: The Intelligent Octopus",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text contrasts octopuses with assumptions about invertebrates and compares their neurons to dogs, implying invertebrates are animals without backbones."
+    },
+    {
+      "id": "reading-5-rc-041",
+      "bankId": "reading-5-rc",
+      "text": "Why does the author include the comparison to dogs?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To show that dogs are smarter than octopuses",
+          "To help readers understand the octopus's brain capacity by relating it to a familiar animal",
+          "To argue that dogs and octopuses should be treated the same",
+          "To explain that octopuses can be trained like dogs"
+        ],
+        "correctAnswer": "To help readers understand the octopus's brain capacity by relating it to a familiar animal"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.5"
+      ],
+      "primaryStandard": "RI.5.5",
+      "passage": "G5-I4: The Intelligent Octopus",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Comparing octopus neurons to those of dogs gives readers a familiar reference point for understanding octopus brain capacity."
+    },
+    {
+      "id": "reading-5-rc-042",
+      "bankId": "reading-5-rc",
+      "text": "What is the author's point of view about octopuses?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Octopuses are overrated by scientists",
+          "Octopuses are fascinating and impressive creatures",
+          "Octopuses are dangerous and should be avoided",
+          "Octopuses are similar to all other sea creatures"
+        ],
+        "correctAnswer": "Octopuses are fascinating and impressive creatures"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.6"
+      ],
+      "primaryStandard": "RI.5.6",
+      "passage": "G5-I4: The Intelligent Octopus",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author uses positive language like 'remarkable' and 'stands out' while describing impressive behaviors, showing admiration."
+    },
+    {
+      "id": "reading-5-rc-043",
+      "bankId": "reading-5-rc",
+      "text": "What is the main conflict in this story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Amara versus her classmates",
+          "Amara versus the competition judges",
+          "Amara versus her own perfectionism and fear of failure",
+          "Amara versus her music teacher"
+        ],
+        "correctAnswer": "Amara versus her own perfectionism and fear of failure"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.2"
+      ],
+      "primaryStandard": "RL.5.2",
+      "passage": "G5-L5: The Imperfect Performance",
+      "passageText": "Amara's fingers trembled above the piano keys. She had practiced Beethoven's Moonlight Sonata hundreds of times, pursuing perfection in every note. Yet here, at the regional competition, her mind went blank. She hit a wrong note in the second measure and felt her face flush with embarrassment. Her instinct was to stop, to run offstage in shame. Instead, she remembered her grandmother's words: 'Music isn't about perfection\u2014it's about connection.' Closing her eyes, Amara stopped thinking about the judges and started playing for herself. The remaining minutes passed like seconds as she poured her soul into the music. When she finished, the audience sat in stunned silence before erupting in applause. She didn't win first place, but a judge approached her afterward. 'Technically, others played better,' he said. 'But no one moved us like you did.'",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The story centers on Amara's internal struggle with perfectionism and fear of failure during her performance."
+    },
+    {
+      "id": "reading-5-rc-044",
+      "bankId": "reading-5-rc",
+      "text": "What does the grandmother's quote reveal about the theme?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Technical skill is the most important aspect of music",
+          "Making emotional connections matters more than being perfect",
+          "Competitions are unfair to performers",
+          "Grandmothers give the best advice"
+        ],
+        "correctAnswer": "Making emotional connections matters more than being perfect"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.1"
+      ],
+      "primaryStandard": "RL.5.1",
+      "passage": "G5-L5: The Imperfect Performance",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The grandmother's words directly state that connection matters more than perfection, which becomes the story's central message."
+    },
+    {
+      "id": "reading-5-rc-045",
+      "bankId": "reading-5-rc",
+      "text": "What does the phrase 'poured her soul into the music' mean?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She played very loudly",
+          "She played with deep emotion and passion",
+          "She forgot the notes completely",
+          "She cried while playing"
+        ],
+        "correctAnswer": "She played with deep emotion and passion"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.4"
+      ],
+      "primaryStandard": "RL.5.4",
+      "passage": "G5-L5: The Imperfect Performance",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "This figurative expression means Amara played with genuine emotion and personal investment."
+    },
+    {
+      "id": "reading-5-rc-046",
+      "bankId": "reading-5-rc",
+      "text": "How does the story's structure contribute to building suspense?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It starts at the end and works backward",
+          "It begins at the moment of crisis and builds to resolution",
+          "It switches between multiple characters' viewpoints",
+          "It includes frequent time jumps"
+        ],
+        "correctAnswer": "It begins at the moment of crisis and builds to resolution"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.5.5"
+      ],
+      "primaryStandard": "RL.5.5",
+      "passage": "G5-L5: The Imperfect Performance",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The story opens with Amara's trembling fingers at the competition, immediately establishing tension that builds toward her transformation."
+    },
+    {
+      "id": "reading-5-rc-047",
+      "bankId": "reading-5-rc",
+      "text": "What can you infer about why the audience 'sat in stunned silence'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "They were disappointed in her performance",
+          "They were confused by the music",
+          "They were deeply moved by the emotional quality of her playing",
+          "They fell asleep during the piece"
+        ],
+        "correctAnswer": "They were deeply moved by the emotional quality of her playing"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.1"
+      ],
+      "primaryStandard": "RL.5.1",
+      "passage": "G5-L5: The Imperfect Performance",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The silence followed by erupting applause and the judge's comment about being moved suggests the audience was emotionally affected."
+    },
+    {
+      "id": "reading-5-rc-048",
+      "bankId": "reading-5-rc",
+      "text": "What is the central idea of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Lewis and Clark were the only explorers of the American West",
+          "The Lewis and Clark expedition faced and overcame numerous challenges while mapping unknown territory",
+          "The Louisiana Purchase was a mistake",
+          "Sacagawea led the entire expedition by herself"
+        ],
+        "correctAnswer": "The Lewis and Clark expedition faced and overcame numerous challenges while mapping unknown territory"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.2"
+      ],
+      "primaryStandard": "RI.5.2",
+      "passage": "G5-I5: Lewis and Clark's Journey",
+      "passageText": "In 1804, Meriwether Lewis and William Clark embarked on one of the most ambitious expeditions in American history. Commissioned by President Thomas Jefferson following the Louisiana Purchase, their mission was to explore the newly acquired western territory and find a water route to the Pacific Ocean. The Corps of Discovery, as the expedition was called, faced incredible hardships: harsh winters, treacherous mountain crossings, and encounters with unfamiliar wildlife including grizzly bears. The assistance of Sacagawea, a Shoshone woman, proved invaluable for translation and navigation. After traveling nearly 8,000 miles over two years, the expedition reached the Pacific Ocean in November 1805. Their detailed journals, maps, and scientific observations expanded Americans' understanding of the continent and opened the door to westward expansion.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage emphasizes the challenges faced and accomplishments achieved during the expedition."
+    },
+    {
+      "id": "reading-5-rc-049",
+      "bankId": "reading-5-rc",
+      "text": "According to the passage, what was the main purpose of the Lewis and Clark expedition?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To establish trade with Native American tribes",
+          "To explore the western territory and find a water route to the Pacific",
+          "To fight in a war against other countries",
+          "To build settlements in the West"
+        ],
+        "correctAnswer": "To explore the western territory and find a water route to the Pacific"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.5.1"
+      ],
+      "primaryStandard": "RI.5.1",
+      "passage": "G5-I5: Lewis and Clark's Journey",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text explicitly states 'their mission was to explore the newly acquired western territory and find a water route to the Pacific Ocean.'"
+    },
+    {
+      "id": "reading-5-rc-050",
+      "bankId": "reading-5-rc",
+      "text": "How did Sacagawea contribute to the expedition's success?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She funded the entire expedition",
+          "She provided translation and navigation assistance",
+          "She served as the military commander",
+          "She wrote all the journal entries"
+        ],
+        "correctAnswer": "She provided translation and navigation assistance"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.3"
+      ],
+      "primaryStandard": "RI.5.3",
+      "passage": "G5-I5: Lewis and Clark's Journey",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states Sacagawea 'proved invaluable for translation and navigation.'"
+    },
+    {
+      "id": "reading-5-rc-051",
+      "bankId": "reading-5-rc",
+      "text": "What does 'treacherous' mean in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Easy and smooth",
+          "Dangerous and hazardous",
+          "Beautiful and scenic",
+          "Short and quick"
+        ],
+        "correctAnswer": "Dangerous and hazardous"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.4"
+      ],
+      "primaryStandard": "RI.5.4",
+      "passage": "G5-I5: Lewis and Clark's Journey",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "In the context of 'incredible hardships' and 'mountain crossings,' treacherous means dangerous or hazardous."
+    },
+    {
+      "id": "reading-5-rc-052",
+      "bankId": "reading-5-rc",
+      "text": "Which evidence from the text best supports the claim that the expedition gathered valuable information?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The expedition faced harsh winters",
+          "Their detailed journals, maps, and scientific observations expanded Americans' understanding",
+          "Sacagawea was a Shoshone woman",
+          "The Louisiana Purchase happened in 1804"
+        ],
+        "correctAnswer": "Their detailed journals, maps, and scientific observations expanded Americans' understanding"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.8"
+      ],
+      "primaryStandard": "RI.5.8",
+      "passage": "G5-I5: Lewis and Clark's Journey",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "This detail directly shows the valuable information produced by the expedition."
+    },
+    {
+      "id": "reading-5-rc-053",
+      "bankId": "reading-5-rc",
+      "text": "What is the theme of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Nature is always dangerous",
+          "Perseverance through difficulty leads to unexpected rewards",
+          "Scientists should not study wildlife",
+          "All wolves are misunderstood"
+        ],
+        "correctAnswer": "Perseverance through difficulty leads to unexpected rewards"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.2"
+      ],
+      "primaryStandard": "RL.5.2",
+      "passage": "G5-L6: The Wolf Researcher",
+      "passageText": "Dr. Elena Vasquez had spent fifteen years studying wolves in Yellowstone, often enduring brutal winters and months of isolation. Many colleagues questioned her dedication to what they considered a dying field. Funding was scarce, and results were slow to come. She was beginning to doubt herself when everything changed. One February dawn, Elena witnessed something never before documented: a wolf pack adopting an orphaned pup from a rival pack. She held her breath as the alpha female cautiously approached the trembling pup, then gently carried it to her den. Elena's hands shook as she recorded the observation. This single moment, born from years of patient watching, would revolutionize scientists' understanding of wolf social behavior. Sometimes, she realized, the most important discoveries come not from dramatic expeditions but from quiet, persistent observation.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Elena's years of difficult, persistent work led to a groundbreaking discovery, illustrating the theme of perseverance being rewarded."
+    },
+    {
+      "id": "reading-5-rc-054",
+      "bankId": "reading-5-rc",
+      "text": "How does Dr. Vasquez change from the beginning to the end of the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She becomes more doubtful about her work",
+          "She decides to quit studying wolves",
+          "She moves from self-doubt to vindication and understanding",
+          "She becomes angry at her colleagues"
+        ],
+        "correctAnswer": "She moves from self-doubt to vindication and understanding"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.3"
+      ],
+      "primaryStandard": "RL.5.3",
+      "passage": "G5-L6: The Wolf Researcher",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Elena goes from 'beginning to doubt herself' to making a revolutionary discovery and gaining new insight about her work."
+    },
+    {
+      "id": "reading-5-rc-055",
+      "bankId": "reading-5-rc",
+      "text": "What does 'revolutionize' mean in the context of the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Destroy completely",
+          "Make small improvements to",
+          "Fundamentally change or transform",
+          "Repeat without changing"
+        ],
+        "correctAnswer": "Fundamentally change or transform"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.4"
+      ],
+      "primaryStandard": "RL.5.4",
+      "passage": "G5-L6: The Wolf Researcher",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "In this context, revolutionize means to bring about a fundamental change in scientists' understanding."
+    },
+    {
+      "id": "reading-5-rc-056",
+      "bankId": "reading-5-rc",
+      "text": "Why does the author include details about Elena's colleagues questioning her?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To show that her colleagues were smarter than her",
+          "To emphasize the obstacles she faced before her success",
+          "To prove that wolf research is unimportant",
+          "To explain why funding is difficult to obtain"
+        ],
+        "correctAnswer": "To emphasize the obstacles she faced before her success"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.5"
+      ],
+      "primaryStandard": "RL.5.5",
+      "passage": "G5-L6: The Wolf Researcher",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The colleagues' skepticism adds to the challenges Elena overcame, making her eventual success more meaningful."
+    },
+    {
+      "id": "reading-5-rc-057",
+      "bankId": "reading-5-rc",
+      "text": "From what point of view is this story told?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "First person (Elena tells her own story)",
+          "Second person (reader is addressed as 'you')",
+          "Third person limited (focuses on Elena's perspective)",
+          "Third person omniscient (knows all characters' thoughts)"
+        ],
+        "correctAnswer": "Third person limited (focuses on Elena's perspective)"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.6"
+      ],
+      "primaryStandard": "RL.5.6",
+      "passage": "G5-L6: The Wolf Researcher",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The story uses third-person pronouns (she, her) and reveals only Elena's thoughts and feelings."
+    },
+    {
+      "id": "reading-5-rc-058",
+      "bankId": "reading-5-rc",
+      "text": "What is the main idea of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Coral reefs are dying everywhere",
+          "Coral reefs are complex ecosystems facing serious environmental threats",
+          "Fish only live in coral reefs",
+          "Climate change affects only oceans"
+        ],
+        "correctAnswer": "Coral reefs are complex ecosystems facing serious environmental threats"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.2"
+      ],
+      "primaryStandard": "RI.5.2",
+      "passage": "G5-I6: Coral Reef Ecosystems",
+      "passageText": "Often called the rainforests of the sea, coral reefs support an astonishing diversity of life despite covering less than one percent of the ocean floor. These underwater structures are built by tiny animals called coral polyps, which secrete calcium carbonate to form hard skeletons. Over thousands of years, these skeletons accumulate to create massive reef structures. Coral reefs provide habitat for approximately 25 percent of all marine species, including fish, sea turtles, and countless invertebrates. However, these vital ecosystems face severe threats from climate change, ocean acidification, and pollution. When ocean temperatures rise, corals expel the colorful algae living in their tissues, causing coral bleaching. Without the algae, corals lose their main food source and often die. Scientists and conservationists are working to protect remaining reefs and restore damaged areas before it's too late.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explains what coral reefs are, their importance, and the threats they face, presenting them as complex ecosystems under threat."
+    },
+    {
+      "id": "reading-5-rc-059",
+      "bankId": "reading-5-rc",
+      "text": "What causes coral bleaching according to the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Too many fish living in the reef",
+          "Rising ocean temperatures causing corals to expel algae",
+          "Chemicals used for cleaning",
+          "Lack of sunlight reaching the reef"
+        ],
+        "correctAnswer": "Rising ocean temperatures causing corals to expel algae"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.3"
+      ],
+      "primaryStandard": "RI.5.3",
+      "passage": "G5-I6: Coral Reef Ecosystems",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text states 'When ocean temperatures rise, corals expel the colorful algae living in their tissues, causing coral bleaching.'"
+    },
+    {
+      "id": "reading-5-rc-060",
+      "bankId": "reading-5-rc",
+      "text": "Why does the author compare coral reefs to rainforests?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Both have the same types of animals",
+          "Both support incredible biodiversity despite their limited size",
+          "Both are located in the same geographic areas",
+          "Both experience the same weather patterns"
+        ],
+        "correctAnswer": "Both support incredible biodiversity despite their limited size"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.5"
+      ],
+      "primaryStandard": "RI.5.5",
+      "passage": "G5-I6: Coral Reef Ecosystems",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The comparison highlights that both ecosystems support enormous biodiversity relative to their size."
+    },
+    {
+      "id": "reading-5-rc-061",
+      "bankId": "reading-5-rc",
+      "text": "What does 'accumulate' mean in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Break apart into pieces",
+          "Build up or gather over time",
+          "Disappear quickly",
+          "Change into something else"
+        ],
+        "correctAnswer": "Build up or gather over time"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.4"
+      ],
+      "primaryStandard": "RI.5.4",
+      "passage": "G5-I6: Coral Reef Ecosystems",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "In context, accumulate means the coral skeletons build up over thousands of years to form reefs."
+    },
+    {
+      "id": "reading-5-rc-062",
+      "bankId": "reading-5-rc",
+      "text": "What is the author's purpose in including the statistic about marine species?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To show that most fish live elsewhere",
+          "To emphasize the importance of coral reefs for ocean life",
+          "To argue against protecting coral reefs",
+          "To compare coral reefs to land habitats"
+        ],
+        "correctAnswer": "To emphasize the importance of coral reefs for ocean life"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.8"
+      ],
+      "primaryStandard": "RI.5.8",
+      "passage": "G5-I6: Coral Reef Ecosystems",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The 25% statistic demonstrates why protecting coral reefs matters for marine biodiversity."
+    },
+    {
+      "id": "reading-5-rc-063",
+      "bankId": "reading-5-rc",
+      "text": "What theme does this passage explore?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Siblings always fight and can never get along",
+          "Working together can achieve what individuals cannot accomplish alone",
+          "Art is more important than sports",
+          "Parents should solve their children's problems"
+        ],
+        "correctAnswer": "Working together can achieve what individuals cannot accomplish alone"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.2"
+      ],
+      "primaryStandard": "RL.5.2",
+      "passage": "G5-L7: The Science Fair Project",
+      "passageText": "When Mrs. Patterson announced that the science fair required team projects, twins Marcus and Mia groaned. They couldn't agree on anything\u2014he loved robots while she preferred biology. Their first meeting dissolved into argument. But facing a deadline, they forced themselves to compromise. Marcus proposed a robot that could sort recyclables; Mia suggested adding living plants to demonstrate a mini-ecosystem. Skeptically, they combined their ideas into an automated greenhouse with a sorting robot. Working together proved surprisingly smooth. Marcus handled the programming while Mia designed the plant system. They discovered that Mia's artistic eye improved Marcus's robot design, and his engineering skills solved Mia's irrigation problems. On presentation day, their project impressed everyone. More importantly, the twins had discovered something better than a ribbon: that their differences, once a source of conflict, were actually their greatest strength when combined.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The twins' success comes from combining their different skills, demonstrating that collaboration achieves more than individual effort."
+    },
+    {
+      "id": "reading-5-rc-064",
+      "bankId": "reading-5-rc",
+      "text": "How do Marcus and Mia's differences contribute to their success?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Their differences made them argue constantly",
+          "Their different skills complemented each other to create a better project",
+          "Their differences were ignored in the final project",
+          "Their differences made them work separately"
+        ],
+        "correctAnswer": "Their different skills complemented each other to create a better project"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.3"
+      ],
+      "primaryStandard": "RL.5.3",
+      "passage": "G5-L7: The Science Fair Project",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explicitly shows how Mia's artistic eye improved Marcus's design and his engineering solved her irrigation problems."
+    },
+    {
+      "id": "reading-5-rc-065",
+      "bankId": "reading-5-rc",
+      "text": "What does 'dissolved into argument' mean?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The meeting melted like ice",
+          "The meeting broke down into fighting",
+          "The argument was solved quickly",
+          "They mixed chemicals together"
+        ],
+        "correctAnswer": "The meeting broke down into fighting"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.4"
+      ],
+      "primaryStandard": "RL.5.4",
+      "passage": "G5-L7: The Science Fair Project",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "This phrase means the meeting fell apart or deteriorated into arguing."
+    },
+    {
+      "id": "reading-5-rc-066",
+      "bankId": "reading-5-rc",
+      "text": "What is the significance of the final sentence?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It shows they won first place",
+          "It reveals the deeper lesson that their different perspectives became an advantage",
+          "It explains why they don't like ribbons",
+          "It describes their next project"
+        ],
+        "correctAnswer": "It reveals the deeper lesson that their different perspectives became an advantage"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.5.5"
+      ],
+      "primaryStandard": "RL.5.5",
+      "passage": "G5-L7: The Science Fair Project",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The final sentence summarizes the story's theme: differences that caused conflict became their greatest strength."
+    },
+    {
+      "id": "reading-5-rc-067",
+      "bankId": "reading-5-rc",
+      "text": "From whose perspective is this story told?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Marcus's first-person perspective",
+          "Mia's first-person perspective",
+          "A third-person narrator observing both twins",
+          "Mrs. Patterson's perspective"
+        ],
+        "correctAnswer": "A third-person narrator observing both twins"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.6"
+      ],
+      "primaryStandard": "RL.5.6",
+      "passage": "G5-L7: The Science Fair Project",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The narrator uses third-person pronouns and describes both twins' actions and thoughts equally."
+    },
+    {
+      "id": "reading-5-rc-068",
+      "bankId": "reading-5-rc",
+      "text": "What is the main idea of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Ancient Egypt was in Africa",
+          "The construction of the Great Pyramid remains one of history's most impressive engineering achievements",
+          "All pyramids were tombs for pharaohs",
+          "Ramps are used in modern construction"
+        ],
+        "correctAnswer": "The construction of the Great Pyramid remains one of history's most impressive engineering achievements"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.2"
+      ],
+      "primaryStandard": "RI.5.2",
+      "passage": "G5-I7: Building the Great Pyramid",
+      "passageText": "The Great Pyramid of Giza, built around 2560 BCE, stands as a testament to ancient Egyptian engineering prowess. This massive structure, originally standing 481 feet tall, was constructed using approximately 2.3 million stone blocks, each weighing an average of 2.5 tons. Without modern machinery, ancient Egyptians accomplished this feat through ingenuity and organized labor. Archaeologists believe workers used a system of ramps to move the massive blocks into position. Some theories suggest straight ramps, while others propose spiral ramps wrapping around the pyramid. The precision of the construction is remarkable: the base is level to within just 2.1 centimeters across its 756-foot length. This accuracy, achieved without modern surveying equipment, continues to astonish engineers today. The pyramid took an estimated twenty years to complete, requiring thousands of skilled workers including stonecutters, surveyors, and engineers.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage focuses on the impressive engineering and construction achievement of building the Great Pyramid."
+    },
+    {
+      "id": "reading-5-rc-069",
+      "bankId": "reading-5-rc",
+      "text": "What evidence from the text supports the claim that ancient Egyptians were skilled engineers?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The pyramid was built around 2560 BCE",
+          "The base is level to within 2.1 centimeters across 756 feet",
+          "The pyramid is located in Giza",
+          "Workers used ramps"
+        ],
+        "correctAnswer": "The base is level to within 2.1 centimeters across 756 feet"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.8"
+      ],
+      "primaryStandard": "RI.5.8",
+      "passage": "G5-I7: Building the Great Pyramid",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "This precise measurement demonstrates remarkable engineering skill, especially without modern equipment."
+    },
+    {
+      "id": "reading-5-rc-070",
+      "bankId": "reading-5-rc",
+      "text": "What does 'testament' mean in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "A legal document",
+          "A type of building material",
+          "Evidence or proof of something",
+          "An ancient measurement"
+        ],
+        "correctAnswer": "Evidence or proof of something"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.4"
+      ],
+      "primaryStandard": "RI.5.4",
+      "passage": "G5-I7: Building the Great Pyramid",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "In this context, testament means evidence or proof of the Egyptians' engineering abilities."
+    },
+    {
+      "id": "reading-5-rc-071",
+      "bankId": "reading-5-rc",
+      "text": "How does the author organize information in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By comparing ancient and modern construction methods",
+          "By presenting a problem and its solution",
+          "By describing facts and providing supporting details about the pyramid's construction",
+          "By telling events in the order they happened during construction"
+        ],
+        "correctAnswer": "By describing facts and providing supporting details about the pyramid's construction"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.5"
+      ],
+      "primaryStandard": "RI.5.5",
+      "passage": "G5-I7: Building the Great Pyramid",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage presents facts about the pyramid (size, blocks, precision) with supporting details explaining how it was built."
+    },
+    {
+      "id": "reading-5-rc-072",
+      "bankId": "reading-5-rc",
+      "text": "What is the author's point of view about the pyramid's construction?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The author believes aliens built the pyramid",
+          "The author thinks modern construction is inferior",
+          "The author views the construction as an impressive human achievement",
+          "The author doubts the pyramid was actually built by Egyptians"
+        ],
+        "correctAnswer": "The author views the construction as an impressive human achievement"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.6"
+      ],
+      "primaryStandard": "RI.5.6",
+      "passage": "G5-I7: Building the Great Pyramid",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Words like 'impressive,' 'remarkable,' 'prowess,' and 'astonish' reveal the author's admiration."
+    },
+    {
+      "id": "reading-5-rc-073",
+      "bankId": "reading-5-rc",
+      "text": "What is the main theme of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Winning is everything in sports",
+          "Individual glory is more important than team success",
+          "True leadership means putting others' success first",
+          "Being the best player guarantees team victory"
+        ],
+        "correctAnswer": "True leadership means putting others' success first"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.2"
+      ],
+      "primaryStandard": "RL.5.2",
+      "passage": "G5-L8: The Captain's Choice",
+      "passageText": "Jordan had been the basketball team's leading scorer for two seasons, but something felt wrong this year. Despite her impressive statistics, the team kept losing. During a timeout in their fifth straight loss, she noticed her teammates' defeated expressions. That night, Jordan watched game footage and saw the problem clearly: she was holding the ball too long, missing open teammates to take difficult shots herself. The next practice, Jordan did something that shocked everyone\u2014she asked Coach Martinez to move her to point guard, a position focused on passing rather than scoring. Her personal statistics dropped dramatically, but something magical happened: the team started winning. Players who had been invisible suddenly shone. By season's end, three teammates had set personal records. In the championship game, Jordan passed up the final shot, finding Destiny open under the basket. The ball swished through the net as the buzzer sounded. The trophy belonged to everyone.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Jordan's transformation from top scorer to facilitator, sacrificing personal glory for team success, illustrates true leadership."
+    },
+    {
+      "id": "reading-5-rc-074",
+      "bankId": "reading-5-rc",
+      "text": "How does Jordan change throughout the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She becomes a worse basketball player",
+          "She transforms from a self-focused scorer to a team-focused leader",
+          "She quits the basketball team",
+          "She becomes the coach instead of a player"
+        ],
+        "correctAnswer": "She transforms from a self-focused scorer to a team-focused leader"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.3"
+      ],
+      "primaryStandard": "RL.5.3",
+      "passage": "G5-L8: The Captain's Choice",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Jordan goes from holding the ball too long to becoming a point guard focused on making her teammates better."
+    },
+    {
+      "id": "reading-5-rc-075",
+      "bankId": "reading-5-rc",
+      "text": "What does the phrase 'something magical happened' suggest?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The team used actual magic spells",
+          "The positive change was unexpected and wonderful",
+          "The games were no longer real",
+          "Jordan developed supernatural abilities"
+        ],
+        "correctAnswer": "The positive change was unexpected and wonderful"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.4"
+      ],
+      "primaryStandard": "RL.5.4",
+      "passage": "G5-L8: The Captain's Choice",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The figurative language emphasizes how remarkable and positive the transformation was."
+    },
+    {
+      "id": "reading-5-rc-076",
+      "bankId": "reading-5-rc",
+      "text": "Why does the author include the detail about Jordan watching game footage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To show that Jordan likes technology",
+          "To explain how Jordan recognized her own role in the team's problems",
+          "To prove that video cameras help teams win",
+          "To suggest that coaches should watch more footage"
+        ],
+        "correctAnswer": "To explain how Jordan recognized her own role in the team's problems"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.5"
+      ],
+      "primaryStandard": "RL.5.5",
+      "passage": "G5-L8: The Captain's Choice",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The footage scene shows Jordan's self-reflection and realization, which leads to her transformation."
+    },
+    {
+      "id": "reading-5-rc-077",
+      "bankId": "reading-5-rc",
+      "text": "What does the final sentence 'The trophy belonged to everyone' mean?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The trophy was physically divided among players",
+          "The championship was won through collective team effort, not individual achievement",
+          "Everyone had to take turns holding the trophy",
+          "The trophy was shared with other schools"
+        ],
+        "correctAnswer": "The championship was won through collective team effort, not individual achievement"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.4"
+      ],
+      "primaryStandard": "RL.5.4",
+      "passage": "G5-L8: The Captain's Choice",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "This statement emphasizes that the victory was a shared accomplishment resulting from teamwork."
+    },
+    {
+      "id": "reading-5-rc-078",
+      "bankId": "reading-5-rc",
+      "text": "What is the main idea of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The human brain has only five regions",
+          "The human brain is incredibly complex, with different regions controlling different functions",
+          "Scientists have completely mapped the brain",
+          "The brain only controls movement"
+        ],
+        "correctAnswer": "The human brain is incredibly complex, with different regions controlling different functions"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.2"
+      ],
+      "primaryStandard": "RI.5.2",
+      "passage": "G5-I8: The Amazing Human Brain",
+      "passageText": "The human brain, weighing only about three pounds, is the most complex organ in the known universe. It contains approximately 86 billion neurons, each connecting to thousands of others, creating trillions of connections called synapses. Different regions of the brain control different functions. The frontal lobe, located behind your forehead, manages decision-making, planning, and personality. The occipital lobe at the back of your head processes visual information. The temporal lobes on the sides handle hearing and memory. Remarkably, the brain can reorganize itself through a process called neuroplasticity, forming new neural pathways when needed. This ability allows people to learn new skills throughout their lives and even recover some functions after brain injuries. Scientists estimate that we have only begun to understand the brain's capabilities, with new discoveries being made every year.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage focuses on explaining the brain's complexity and how different regions perform different functions."
+    },
+    {
+      "id": "reading-5-rc-079",
+      "bankId": "reading-5-rc",
+      "text": "According to the passage, what is neuroplasticity?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "A type of brain disease",
+          "The brain's ability to reorganize itself and form new pathways",
+          "A part of the frontal lobe",
+          "The total number of neurons in the brain"
+        ],
+        "correctAnswer": "The brain's ability to reorganize itself and form new pathways"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.1"
+      ],
+      "primaryStandard": "RI.5.1",
+      "passage": "G5-I8: The Amazing Human Brain",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text defines neuroplasticity as the brain's ability to 'reorganize itself' and form 'new neural pathways.'"
+    },
+    {
+      "id": "reading-5-rc-080",
+      "bankId": "reading-5-rc",
+      "text": "Which brain region would be most active when you're looking at a photograph?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Frontal lobe",
+          "Temporal lobe",
+          "Occipital lobe",
+          "Brain stem"
+        ],
+        "correctAnswer": "Occipital lobe"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.3"
+      ],
+      "primaryStandard": "RI.5.3",
+      "passage": "G5-I8: The Amazing Human Brain",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states that 'The occipital lobe at the back of your head processes visual information.'"
+    },
+    {
+      "id": "reading-5-rc-081",
+      "bankId": "reading-5-rc",
+      "text": "What does 'approximately' mean in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Exactly",
+          "About or roughly",
+          "Less than",
+          "More than"
+        ],
+        "correctAnswer": "About or roughly"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.5.4"
+      ],
+      "primaryStandard": "RI.5.4",
+      "passage": "G5-I8: The Amazing Human Brain",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Approximately means about or roughly, indicating an estimated rather than exact number."
+    },
+    {
+      "id": "reading-5-rc-082",
+      "bankId": "reading-5-rc",
+      "text": "Why does the author describe the brain as 'the most complex organ in the known universe'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To frighten readers about their own brains",
+          "To emphasize how remarkable and intricate the brain is",
+          "To compare the brain to other planets",
+          "To suggest the brain is too complicated to study"
+        ],
+        "correctAnswer": "To emphasize how remarkable and intricate the brain is"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.6"
+      ],
+      "primaryStandard": "RI.5.6",
+      "passage": "G5-I8: The Amazing Human Brain",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "This description emphasizes the brain's extraordinary complexity and sets up the passage's tone of wonder."
+    },
+    {
+      "id": "reading-5-rc-083",
+      "bankId": "reading-5-rc",
+      "text": "What theme does the author develop in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Honesty is always rewarded",
+          "Facing your fears requires courage but leads to growth",
+          "Competition brings out the worst in people",
+          "Adults don't understand children"
+        ],
+        "correctAnswer": "Facing your fears requires courage but leads to growth"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.2"
+      ],
+      "primaryStandard": "RL.5.2",
+      "passage": "G5-L9: The Deep End",
+      "passageText": "For as long as she could remember, Zara had been terrified of deep water. While her friends dove and splashed in the lake, she stayed in the shallows, pretending she preferred it there. This summer, everything changed when her family planned a trip to a coral reef. 'You can snorkel with us,' her mother said gently, 'or you can watch from the boat.' Zara spent sleepless nights imagining dark waters beneath her. But she also imagined the colorful fish and coral she'd only seen in books. The morning of the trip, her hands shook as she put on her mask and fins. Her father held her hand as she lowered herself into the water. The first moment was terrifying\u2014nothing but blue beneath her. Then she looked down and gasped. A world of wonder spread below: purple sea fans waving, yellow fish darting, a sea turtle gliding past. In that moment, Zara understood that sometimes the most beautiful experiences wait just beyond our fears.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Zara overcomes her fear of deep water and discovers beauty on the other side, illustrating that confronting fears leads to growth."
+    },
+    {
+      "id": "reading-5-rc-084",
+      "bankId": "reading-5-rc",
+      "text": "What motivates Zara to face her fear?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Her friends forced her to swim",
+          "Her mother's pressure made her feel guilty",
+          "Her desire to see the coral reef outweighed her fear",
+          "She forgot she was afraid of water"
+        ],
+        "correctAnswer": "Her desire to see the coral reef outweighed her fear"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.3"
+      ],
+      "primaryStandard": "RL.5.3",
+      "passage": "G5-L9: The Deep End",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage shows Zara imagining both her fear and 'the colorful fish and coral she'd only seen in books,' suggesting her curiosity motivated her."
+    },
+    {
+      "id": "reading-5-rc-085",
+      "bankId": "reading-5-rc",
+      "text": "What does the phrase 'A world of wonder spread below' suggest?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The water was very wide",
+          "The underwater scene was amazingly beautiful and surprising",
+          "Zara was confused about what she saw",
+          "The ocean floor was flat"
+        ],
+        "correctAnswer": "The underwater scene was amazingly beautiful and surprising"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.4"
+      ],
+      "primaryStandard": "RL.5.4",
+      "passage": "G5-L9: The Deep End",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "This phrase emphasizes the beauty and awe Zara experienced seeing the coral reef for the first time."
+    },
+    {
+      "id": "reading-5-rc-086",
+      "bankId": "reading-5-rc",
+      "text": "How does the author create contrast in the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By using only happy descriptions throughout",
+          "By comparing Zara's fear and sleepless nights with the wonder she discovers",
+          "By focusing only on Zara's mother",
+          "By describing only the negative aspects of the ocean"
+        ],
+        "correctAnswer": "By comparing Zara's fear and sleepless nights with the wonder she discovers"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.5"
+      ],
+      "primaryStandard": "RL.5.5",
+      "passage": "G5-L9: The Deep End",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage contrasts Zara's terror and sleepless nights with the beautiful, wonderful world she discovers."
+    },
+    {
+      "id": "reading-5-rc-087",
+      "bankId": "reading-5-rc",
+      "text": "What does the last sentence reveal about the passage's message?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "That swimming is dangerous",
+          "That parents should force children to overcome fears",
+          "That beautiful experiences often lie beyond our comfort zones",
+          "That coral reefs are the only beautiful places"
+        ],
+        "correctAnswer": "That beautiful experiences often lie beyond our comfort zones"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.1"
+      ],
+      "primaryStandard": "RL.5.1",
+      "passage": "G5-L9: The Deep End",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The final sentence directly states the theme: 'the most beautiful experiences wait just beyond our fears.'"
+    },
+    {
+      "id": "reading-5-rc-088",
+      "bankId": "reading-5-rc",
+      "text": "What is the central idea of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "All American colonists wanted independence from Britain",
+          "The American Revolution began immediately in 1765",
+          "Growing tensions over taxation and representation led American colonists toward revolution",
+          "The Boston Tea Party was the only protest against British rule"
+        ],
+        "correctAnswer": "Growing tensions over taxation and representation led American colonists toward revolution"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.2"
+      ],
+      "primaryStandard": "RI.5.2",
+      "passage": "G5-I9: The Road to Revolution",
+      "passageText": "By the 1760s, tensions between American colonists and Great Britain had reached a critical point. After the costly French and Indian War, Britain imposed new taxes on the colonies, including the Stamp Act of 1765 and the Townshend Acts of 1767. Colonists protested these measures with the rallying cry 'No taxation without representation,' arguing they should not pay taxes to a government in which they had no voice. The Boston Massacre of 1770 and the Boston Tea Party of 1773 demonstrated the growing anger. Britain responded with the Intolerable Acts, which further restricted colonial self-government. Colonial leaders formed the First Continental Congress in 1774 to coordinate their response. Not all colonists supported independence\u2014approximately one-third remained loyal to Britain\u2014but the movement toward revolution had become unstoppable. The first shots at Lexington and Concord in April 1775 marked the beginning of the Revolutionary War.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage traces how taxation disputes and British responses created escalating tensions leading to revolution."
+    },
+    {
+      "id": "reading-5-rc-089",
+      "bankId": "reading-5-rc",
+      "text": "What was the colonists' main complaint about British taxation?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The taxes were too low",
+          "They had no representation in the British government that taxed them",
+          "The taxes were only collected in Boston",
+          "They wanted to pay more taxes"
+        ],
+        "correctAnswer": "They had no representation in the British government that taxed them"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.1"
+      ],
+      "primaryStandard": "RI.5.1",
+      "passage": "G5-I9: The Road to Revolution",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states colonists argued 'they should not pay taxes to a government in which they had no voice.'"
+    },
+    {
+      "id": "reading-5-rc-090",
+      "bankId": "reading-5-rc",
+      "text": "What caused Britain to impose new taxes on the colonies?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The colonists requested higher taxes",
+          "Britain needed money after the costly French and Indian War",
+          "The king wanted a new palace",
+          "The colonies had too much money"
+        ],
+        "correctAnswer": "Britain needed money after the costly French and Indian War"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.3"
+      ],
+      "primaryStandard": "RI.5.3",
+      "passage": "G5-I9: The Road to Revolution",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text explicitly states that 'After the costly French and Indian War, Britain imposed new taxes.'"
+    },
+    {
+      "id": "reading-5-rc-091",
+      "bankId": "reading-5-rc",
+      "text": "What does 'rallying cry' mean in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "A sad song sung at funerals",
+          "A word or phrase used to unite people for a cause",
+          "A type of military weapon",
+          "A formal written petition"
+        ],
+        "correctAnswer": "A word or phrase used to unite people for a cause"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.4"
+      ],
+      "primaryStandard": "RI.5.4",
+      "passage": "G5-I9: The Road to Revolution",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "A rallying cry is a phrase that unites people around a common cause or purpose."
+    },
+    {
+      "id": "reading-5-rc-092",
+      "bankId": "reading-5-rc",
+      "text": "How does the author organize the events in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By comparing British and colonial perspectives equally",
+          "In chronological order, showing how events led to revolution",
+          "By order of importance, starting with the least important",
+          "By alternating between causes and effects randomly"
+        ],
+        "correctAnswer": "In chronological order, showing how events led to revolution"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.5"
+      ],
+      "primaryStandard": "RI.5.5",
+      "passage": "G5-I9: The Road to Revolution",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage presents events in order from the 1760s through 1775, showing the progression toward revolution."
+    },
+    {
+      "id": "reading-5-rc-093",
+      "bankId": "reading-5-rc",
+      "text": "What does the detail about one-third of colonists remaining loyal reveal?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "All colonists agreed on independence",
+          "The movement toward independence was not universally supported",
+          "Britain had very few supporters",
+          "The Revolutionary War was short"
+        ],
+        "correctAnswer": "The movement toward independence was not universally supported"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.8"
+      ],
+      "primaryStandard": "RI.5.8",
+      "passage": "G5-I9: The Road to Revolution",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "This detail shows that colonial opinion was divided, with significant numbers remaining loyal to Britain."
+    },
+    {
+      "id": "reading-5-rc-094",
+      "bankId": "reading-5-rc",
+      "text": "What theme does the author develop through Grandpa Joe's story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Old things are always better than new things",
+          "The past and present are connected through family memories and stories",
+          "Farming is the best profession",
+          "Technology has ruined family relationships"
+        ],
+        "correctAnswer": "The past and present are connected through family memories and stories"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.2"
+      ],
+      "primaryStandard": "RL.5.2",
+      "passage": "G5-L10: The Old Barn",
+      "passageText": "The old barn had stood on their property for over a hundred years, its red paint faded to a weathered gray. When developers offered to buy the land, Maya expected her grandfather to refuse immediately. Instead, Grandpa Joe walked her to the barn and opened the creaking door. 'Your great-great-grandfather built this with his own hands,' he said, running his fingers along a carved beam. 'This mark here? That's where your grandmother measured your father's height every birthday.' He showed her initials carved into wood, a rusty horseshoe nailed for luck, generations of memories embedded in every board. 'I thought you should understand what we'd be giving up.' That night, Maya couldn't sleep. In the morning, she found her grandfather in the kitchen. 'Grandpa,' she said, 'some things are worth more than money.' He smiled, his eyes glistening. 'I was hoping you'd say that.'",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The story shows how the barn connects multiple generations through memories and physical marks, linking past to present."
+    },
+    {
+      "id": "reading-5-rc-095",
+      "bankId": "reading-5-rc",
+      "text": "Why does Grandpa Joe show Maya the barn instead of simply refusing the developers?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He wants Maya to help fix the barn",
+          "He wants Maya to understand the barn's emotional and historical value",
+          "He's considering selling the barn",
+          "He wants to show her his carpentry skills"
+        ],
+        "correctAnswer": "He wants Maya to understand the barn's emotional and historical value"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.3"
+      ],
+      "primaryStandard": "RL.5.3",
+      "passage": "G5-L10: The Old Barn",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Grandpa Joe explicitly says 'I thought you should understand what we'd be giving up,' wanting Maya to value the barn's meaning."
+    },
+    {
+      "id": "reading-5-rc-096",
+      "bankId": "reading-5-rc",
+      "text": "What does the phrase 'generations of memories embedded in every board' mean?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The boards are made of memories",
+          "Photographs are hidden in the wood",
+          "The barn contains physical traces and stories from many family generations",
+          "The barn was built by multiple generations"
+        ],
+        "correctAnswer": "The barn contains physical traces and stories from many family generations"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.4"
+      ],
+      "primaryStandard": "RL.5.4",
+      "passage": "G5-L10: The Old Barn",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "This phrase means the barn holds marks, carvings, and associations with family history throughout its structure."
+    },
+    {
+      "id": "reading-5-rc-097",
+      "bankId": "reading-5-rc",
+      "text": "What is the significance of Grandpa Joe's glistening eyes at the end?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He has allergies",
+          "He is emotionally moved that Maya understands the barn's value",
+          "He is sad about the developers",
+          "He is tired from walking"
+        ],
+        "correctAnswer": "He is emotionally moved that Maya understands the barn's value"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.5.1"
+      ],
+      "primaryStandard": "RL.5.1",
+      "passage": "G5-L10: The Old Barn",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "His emotional response shows his happiness that Maya has come to understand what the barn means to their family."
+    },
+    {
+      "id": "reading-5-rc-098",
+      "bankId": "reading-5-rc",
+      "text": "What is the main idea of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Water is important only for drinking",
+          "Water exists in only one form",
+          "The water cycle is a continuous process that distributes water around Earth",
+          "Water never changes form"
+        ],
+        "correctAnswer": "The water cycle is a continuous process that distributes water around Earth"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.2"
+      ],
+      "primaryStandard": "RI.5.2",
+      "passage": "G5-I10: The Water Cycle",
+      "passageText": "Every drop of water on Earth is part of an endless journey called the water cycle. This continuous process moves water between the oceans, atmosphere, and land. The cycle begins when the sun's energy heats water in oceans, lakes, and rivers, causing it to evaporate and rise as water vapor. As this vapor rises and cools, it condenses into tiny droplets that form clouds through a process called condensation. When these droplets combine and become heavy enough, they fall back to Earth as precipitation\u2014rain, snow, sleet, or hail. Some precipitation flows over the land as runoff, eventually returning to oceans and lakes. Other water soaks into the ground, becoming groundwater that may emerge in springs or be absorbed by plant roots. Remarkably, the water you drink today might have fallen as rain on dinosaurs millions of years ago. The water cycle ensures that Earth's water is constantly recycled and renewed.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explains how the water cycle continuously moves water through different stages and locations."
+    },
+    {
+      "id": "reading-5-rc-099",
+      "bankId": "reading-5-rc",
+      "text": "What is the correct order of the water cycle as described in the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Condensation, evaporation, precipitation, runoff",
+          "Evaporation, condensation, precipitation, runoff/absorption",
+          "Precipitation, evaporation, runoff, condensation",
+          "Runoff, condensation, evaporation, precipitation"
+        ],
+        "correctAnswer": "Evaporation, condensation, precipitation, runoff/absorption"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.3"
+      ],
+      "primaryStandard": "RI.5.3",
+      "passage": "G5-I10: The Water Cycle",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage describes the cycle as: water evaporates, condenses into clouds, falls as precipitation, then runs off or is absorbed."
+    },
+    {
+      "id": "reading-5-rc-100",
+      "bankId": "reading-5-rc",
+      "text": "Why does the author include the detail about dinosaurs?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To teach readers about dinosaur biology",
+          "To emphasize how old and continuously recycled Earth's water is",
+          "To argue that dinosaurs caused climate change",
+          "To compare dinosaurs to modern animals"
+        ],
+        "correctAnswer": "To emphasize how old and continuously recycled Earth's water is"
+      },
+      "subject": "Reading",
+      "gradeLevel": "5",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.5.5"
+      ],
+      "primaryStandard": "RI.5.5",
+      "passage": "G5-I10: The Water Cycle",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The dinosaur reference illustrates that Earth's water has been recycling for millions of years, emphasizing the cycle's continuity."
+    }
+  ]
+}

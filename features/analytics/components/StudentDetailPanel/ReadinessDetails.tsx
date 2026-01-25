@@ -25,28 +25,44 @@ interface ReadinessDetailsProps {
   isLoading?: boolean;
 }
 
-const statusConfig: Record<ReadinessStatus, { color: string; bg: string; lightBg: string; label: string; description: string }> = {
-  'ready': {
-    color: 'text-emerald-600',
-    bg: 'bg-emerald-500',
-    lightBg: 'bg-emerald-50',
-    label: 'Ready',
-    description: 'Student has demonstrated mastery of prerequisite skills',
-  },
-  'approaching': {
-    color: 'text-amber-600',
-    bg: 'bg-amber-500',
-    lightBg: 'bg-amber-50',
-    label: 'Approaching',
-    description: 'Student is close but needs support in some areas',
-  },
-  'not-yet-ready': {
-    color: 'text-rose-600',
-    bg: 'bg-rose-500',
-    lightBg: 'bg-rose-50',
-    label: 'Not Yet Ready',
-    description: 'Student needs significant support before starting',
-  },
+// Determine if this is a grade-level assessment (e.g., "Grade 7 Performance") vs AP/IGCSE readiness
+const isGradeLevelAssessment = (courseLabel: string) => {
+  return courseLabel.startsWith('Grade');
+};
+
+// Status labels that adapt based on whether this is grade-level or readiness assessment
+const getStatusConfig = (courseLabel: string): Record<ReadinessStatus, { color: string; bg: string; lightBg: string; label: string; description: string }> => {
+  const isGradeLevel = isGradeLevelAssessment(courseLabel);
+
+  return {
+    'ready': {
+      color: 'text-emerald-600',
+      bg: 'bg-emerald-500',
+      lightBg: 'bg-emerald-50',
+      label: isGradeLevel ? 'On Track' : 'Ready',
+      description: isGradeLevel
+        ? `Student is performing at or above ${courseLabel} expectations`
+        : 'Student has demonstrated mastery of prerequisite skills',
+    },
+    'approaching': {
+      color: 'text-amber-600',
+      bg: 'bg-amber-500',
+      lightBg: 'bg-amber-50',
+      label: isGradeLevel ? 'Approaching' : 'Approaching',
+      description: isGradeLevel
+        ? `Student is approaching ${courseLabel} expectations`
+        : 'Student is close but needs support in some areas',
+    },
+    'not-yet-ready': {
+      color: 'text-rose-600',
+      bg: 'bg-rose-500',
+      lightBg: 'bg-rose-50',
+      label: isGradeLevel ? 'Below Level' : 'Not Yet Ready',
+      description: isGradeLevel
+        ? `Student is below ${courseLabel} expectations and needs intervention`
+        : 'Student needs significant support before starting',
+    },
+  };
 };
 
 export const ReadinessDetails: React.FC<ReadinessDetailsProps> = ({
@@ -69,8 +85,10 @@ export const ReadinessDetails: React.FC<ReadinessDetailsProps> = ({
     });
   };
 
+  const statusConfig = getStatusConfig(courseLabel);
   const statusInfo = statusConfig[status];
   const completionPercentage = Math.round((prerequisitesMet / prerequisitesTotal) * 100);
+  const isGradeLevel = isGradeLevelAssessment(courseLabel);
 
   if (isLoading) {
     return (
@@ -90,7 +108,7 @@ export const ReadinessDetails: React.FC<ReadinessDetailsProps> = ({
     <div className="p-6 border-t border-slate-100">
       <div className="flex items-center justify-between mb-4">
         <h3 className="text-sm font-bold text-slate-600 uppercase tracking-wider">
-          {courseLabel} Readiness
+          {isGradeLevel ? `${courseLabel} Performance` : `${courseLabel} Readiness`}
         </h3>
         <span className="text-xs text-slate-400">{formatDate(assessmentDate)}</span>
       </div>
@@ -123,14 +141,14 @@ export const ReadinessDetails: React.FC<ReadinessDetailsProps> = ({
           </div>
           <div className="text-right">
             <p className="text-2xl font-black text-slate-800">{score}%</p>
-            <p className="text-xs text-slate-500">Readiness Score</p>
+            <p className="text-xs text-slate-500">{isGradeLevel ? 'Performance Score' : 'Readiness Score'}</p>
           </div>
         </div>
 
-        {/* Prerequisites progress */}
+        {/* Prerequisites/Standards progress */}
         <div className="mt-4">
           <div className="flex items-center justify-between text-xs mb-1.5">
-            <span className="font-medium text-slate-600">Prerequisites Met</span>
+            <span className="font-medium text-slate-600">{isGradeLevel ? 'Standards Mastered' : 'Prerequisites Met'}</span>
             <span className="font-bold text-slate-700">
               {prerequisitesMet} of {prerequisitesTotal} ({completionPercentage}%)
             </span>
@@ -185,8 +203,14 @@ export const ReadinessDetails: React.FC<ReadinessDetailsProps> = ({
           <svg className="w-10 h-10 text-emerald-500 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
           </svg>
-          <p className="font-bold text-emerald-700">No Skill Gaps Identified</p>
-          <p className="text-xs text-emerald-600">Student has met all prerequisite requirements</p>
+          <p className="font-bold text-emerald-700">
+            {isGradeLevel ? 'Meeting Grade-Level Standards' : 'No Skill Gaps Identified'}
+          </p>
+          <p className="text-xs text-emerald-600">
+            {isGradeLevel
+              ? `Student is on track for ${courseLabel} expectations`
+              : 'Student has met all prerequisite requirements'}
+          </p>
         </div>
       )}
     </div>

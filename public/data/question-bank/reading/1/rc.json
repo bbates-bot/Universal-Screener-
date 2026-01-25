@@ -1,0 +1,2034 @@
+{
+  "metadata": {
+    "subject": "Reading",
+    "gradeLevel": "1",
+    "domain": "RC",
+    "domainName": "Reading Comprehension",
+    "lastUpdated": "2026-01-25",
+    "totalQuestions": 100,
+    "description": "CCSS-aligned reading comprehension assessment with literary and informational texts",
+    "lexileRange": "190L-530L"
+  },
+  "questions": [
+    {
+      "id": "reading-1-rc-001",
+      "bankId": "reading-1-rc",
+      "text": "What color was Sam's ball?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Blue", "Red", "Green", "Yellow"],
+        "correctAnswer": "Red"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.1.1"],
+      "primaryStandard": "RL.1.1",
+      "passage": "G1-L1: The Red Ball",
+      "passageText": "Sam had a red ball. It was his best toy. One day, the ball rolled away. It went under a big bush. Sam was sad. He looked and looked. Then his dog Max came. Max found the ball! Sam was so happy. He gave Max a big hug. \"Thank you, Max!\" said Sam. They played with the ball all day.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text states 'Sam had a red ball.'"
+    },
+    {
+      "id": "reading-1-rc-002",
+      "bankId": "reading-1-rc",
+      "text": "How did Sam feel when the ball rolled away?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Happy", "Angry", "Sad", "Sleepy"],
+        "correctAnswer": "Sad"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.1.3"],
+      "primaryStandard": "RL.1.3",
+      "passage": "G1-L1: The Red Ball",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'Sam was sad.'"
+    },
+    {
+      "id": "reading-1-rc-003",
+      "bankId": "reading-1-rc",
+      "text": "What is this story mostly about?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["A dog named Max", "A boy who loses and finds his ball", "Playing in the yard", "A big bush"],
+        "correctAnswer": "A boy who loses and finds his ball"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RL.1.2"],
+      "primaryStandard": "RL.1.2",
+      "passage": "G1-L1: The Red Ball",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The main idea is Sam losing his ball and finding it with Max's help."
+    },
+    {
+      "id": "reading-1-rc-004",
+      "bankId": "reading-1-rc",
+      "text": "What did Max do to help Sam?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Bought a new ball", "Found the ball", "Played a game", "Took a nap"],
+        "correctAnswer": "Found the ball"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Integration of Knowledge",
+      "difficulty": 1,
+      "ccssStandards": ["RL.1.7"],
+      "primaryStandard": "RL.1.7",
+      "passage": "G1-L1: The Red Ball",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text states 'Max found the ball!'"
+    },
+    {
+      "id": "reading-1-rc-005",
+      "bankId": "reading-1-rc",
+      "text": "Where did the ball go?",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "Under a big bush",
+        "acceptableAnswers": ["under a bush", "under the bush", "a big bush"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.1.1"],
+      "primaryStandard": "RL.1.1",
+      "passage": "G1-L1: The Red Ball",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'It went under a big bush.'"
+    },
+    {
+      "id": "reading-1-rc-006",
+      "bankId": "reading-1-rc",
+      "text": "What do cows give us?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Eggs", "Milk", "Meat", "Bread"],
+        "correctAnswer": "Milk"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RI.1.1"],
+      "primaryStandard": "RI.1.1",
+      "passage": "G1-I1: At the Farm",
+      "passageText": "Farms have many animals. Cows live on farms. They give us milk. Chickens live on farms too. They give us eggs. Pigs also live on farms. Farmers take care of all the animals. They feed them every day. They make sure the animals have water. Farmers work very hard. The animals help us get food.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text states 'They give us milk.'"
+    },
+    {
+      "id": "reading-1-rc-007",
+      "bankId": "reading-1-rc",
+      "text": "What is this text mainly about?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["How to cook eggs", "Animals on farms", "How to drink milk", "Building a barn"],
+        "correctAnswer": "Animals on farms"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RI.1.2"],
+      "primaryStandard": "RI.1.2",
+      "passage": "G1-I1: At the Farm",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The main topic is farm animals."
+    },
+    {
+      "id": "reading-1-rc-008",
+      "bankId": "reading-1-rc",
+      "text": "What do farmers do for the animals?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Play games with them", "Feed them and give them water", "Take them to school", "Read to them"],
+        "correctAnswer": "Feed them and give them water"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RI.1.3"],
+      "primaryStandard": "RI.1.3",
+      "passage": "G1-I1: At the Farm",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says farmers 'feed them every day' and 'make sure the animals have water.'"
+    },
+    {
+      "id": "reading-1-rc-009",
+      "bankId": "reading-1-rc",
+      "text": "In this text, what does 'take care of' mean?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Carry around", "Look after and help", "Paint pictures of", "Sing songs to"],
+        "correctAnswer": "Look after and help"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RI.1.4"],
+      "primaryStandard": "RI.1.4",
+      "passage": "G1-I1: At the Farm",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Taking care of means looking after and helping."
+    },
+    {
+      "id": "reading-1-rc-010",
+      "bankId": "reading-1-rc",
+      "text": "Name two animals that live on farms.",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "Cows and chickens",
+        "acceptableAnswers": ["cows, chickens", "cows and pigs", "chickens and pigs", "pigs and cows"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RI.1.1"],
+      "primaryStandard": "RI.1.1",
+      "passage": "G1-I1: At the Farm",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text mentions cows, chickens, and pigs."
+    },
+    {
+      "id": "reading-1-rc-011",
+      "bankId": "reading-1-rc",
+      "text": "How did Lily feel during the storm?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Excited", "A little scared", "Very happy", "Tired"],
+        "correctAnswer": "A little scared"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.1.3"],
+      "primaryStandard": "RL.1.3",
+      "passage": "G1-L2: The Big Storm",
+      "passageText": "Dark clouds came over the house. The wind began to blow. \"A storm is coming,\" said Mom. Lily looked out the window. She saw the trees bend. Rain started to fall. It made a loud sound on the roof. Lily felt a little scared. Mom sat next to her. \"Don't worry,\" Mom said. \"We are safe inside.\" They watched the storm together. Soon the rain stopped. The sun came out. Lily smiled.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'Lily felt a little scared.'"
+    },
+    {
+      "id": "reading-1-rc-012",
+      "bankId": "reading-1-rc",
+      "text": "What did Mom and Lily do during the storm?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["They went outside", "They watched the storm together", "They went to sleep", "They ate dinner"],
+        "correctAnswer": "They watched the storm together"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.1.1"],
+      "primaryStandard": "RL.1.1",
+      "passage": "G1-L2: The Big Storm",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'They watched the storm together.'"
+    },
+    {
+      "id": "reading-1-rc-013",
+      "bankId": "reading-1-rc",
+      "text": "What does 'bend' mean in this story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Break apart", "Move and curve", "Stand still", "Fall down"],
+        "correctAnswer": "Move and curve"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RL.1.4"],
+      "primaryStandard": "RL.1.4",
+      "passage": "G1-L2: The Big Storm",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "When trees bend in wind, they curve and move."
+    },
+    {
+      "id": "reading-1-rc-014",
+      "bankId": "reading-1-rc",
+      "text": "What happens at the end of the story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["The storm gets worse", "The sun comes out and Lily smiles", "Lily goes to bed", "Mom leaves the room"],
+        "correctAnswer": "The sun comes out and Lily smiles"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.1.2"],
+      "primaryStandard": "RL.1.2",
+      "passage": "G1-L2: The Big Storm",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The story ends with 'The sun came out. Lily smiled.'"
+    },
+    {
+      "id": "reading-1-rc-015",
+      "bankId": "reading-1-rc",
+      "text": "How did Mom help Lily feel better?",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "She sat next to her and said they were safe",
+        "acceptableAnswers": ["sat next to her", "told her they were safe", "she said don't worry"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RL.1.3"],
+      "primaryStandard": "RL.1.3",
+      "passage": "G1-L2: The Big Storm",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Mom comforted Lily by sitting with her and reassuring her."
+    },
+    {
+      "id": "reading-1-rc-016",
+      "bankId": "reading-1-rc",
+      "text": "What is the main idea of this text?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Bees like to fly", "Bees and flowers help each other", "Flowers are pretty", "Bees make honey"],
+        "correctAnswer": "Bees and flowers help each other"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RI.1.2"],
+      "primaryStandard": "RI.1.2",
+      "passage": "G1-I2: How Bees Help Flowers",
+      "passageText": "Bees are very busy. They fly from flower to flower. Bees drink a sweet juice from flowers. This juice is called nectar. When bees visit flowers, something special happens. Yellow dust sticks to the bee. This dust is called pollen. The bee carries the pollen to other flowers. This helps new flowers grow. Bees and flowers help each other.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The main idea is how bees and flowers help each other."
+    },
+    {
+      "id": "reading-1-rc-017",
+      "bankId": "reading-1-rc",
+      "text": "What is nectar?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Yellow dust", "A type of flower", "Sweet juice from flowers", "A bee's home"],
+        "correctAnswer": "Sweet juice from flowers"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Craft and Structure",
+      "difficulty": 1,
+      "ccssStandards": ["RI.1.4"],
+      "primaryStandard": "RI.1.4",
+      "passage": "G1-I2: How Bees Help Flowers",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'Bees drink a sweet juice from flowers. This juice is called nectar.'"
+    },
+    {
+      "id": "reading-1-rc-018",
+      "bankId": "reading-1-rc",
+      "text": "What sticks to the bee when it visits flowers?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Water", "Leaves", "Pollen", "Seeds"],
+        "correctAnswer": "Pollen"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RI.1.1"],
+      "primaryStandard": "RI.1.1",
+      "passage": "G1-I2: How Bees Help Flowers",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'Yellow dust sticks to the bee. This dust is called pollen.'"
+    },
+    {
+      "id": "reading-1-rc-019",
+      "bankId": "reading-1-rc",
+      "text": "What happens after the bee carries pollen to other flowers?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["The bee sleeps", "New flowers can grow", "The flowers close", "Rain falls"],
+        "correctAnswer": "New flowers can grow"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RI.1.3"],
+      "primaryStandard": "RI.1.3",
+      "passage": "G1-I2: How Bees Help Flowers",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'This helps new flowers grow.'"
+    },
+    {
+      "id": "reading-1-rc-020",
+      "bankId": "reading-1-rc",
+      "text": "What do bees drink from flowers?",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "Nectar",
+        "acceptableAnswers": ["nectar", "sweet juice", "juice"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RI.1.1"],
+      "primaryStandard": "RI.1.1",
+      "passage": "G1-I2: How Bees Help Flowers",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text states bees drink nectar from flowers."
+    },
+    {
+      "id": "reading-1-rc-021",
+      "bankId": "reading-1-rc",
+      "text": "How old was Ana on her birthday?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Five", "Six", "Seven", "Eight"],
+        "correctAnswer": "Six"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RL.1.1"],
+      "primaryStandard": "RL.1.1",
+      "passage": "G1-L3: Ana's Birthday",
+      "passageText": "Today was Ana's birthday. She woke up early. She was very excited. Her family made her favorite breakfast—pancakes with strawberries. After breakfast, Ana's friends came over. They played games in the backyard. Then it was time for cake. The cake had six candles. Ana made a wish and blew them out. Everyone clapped and sang. Ana thought it was the best day ever.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The cake had six candles, showing Ana turned six."
+    },
+    {
+      "id": "reading-1-rc-022",
+      "bankId": "reading-1-rc",
+      "text": "How did Ana feel when she woke up?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Tired", "Sad", "Very excited", "Hungry"],
+        "correctAnswer": "Very excited"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.1.3"],
+      "primaryStandard": "RL.1.3",
+      "passage": "G1-L3: Ana's Birthday",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'She was very excited.'"
+    },
+    {
+      "id": "reading-1-rc-023",
+      "bankId": "reading-1-rc",
+      "text": "What happened first in the story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Ana ate cake", "Ana woke up early", "Ana's friends came", "Ana made a wish"],
+        "correctAnswer": "Ana woke up early"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RL.1.5"],
+      "primaryStandard": "RL.1.5",
+      "passage": "G1-L3: Ana's Birthday",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The first event is 'She woke up early.'"
+    },
+    {
+      "id": "reading-1-rc-024",
+      "bankId": "reading-1-rc",
+      "text": "What is this story mostly about?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Making pancakes", "Ana's special birthday", "Playing games", "Eating strawberries"],
+        "correctAnswer": "Ana's special birthday"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.1.2"],
+      "primaryStandard": "RL.1.2",
+      "passage": "G1-L3: Ana's Birthday",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The main idea is Ana's birthday celebration."
+    },
+    {
+      "id": "reading-1-rc-025",
+      "bankId": "reading-1-rc",
+      "text": "What was Ana's favorite breakfast?",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "Pancakes with strawberries",
+        "acceptableAnswers": ["pancakes", "pancakes and strawberries"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.1.1"],
+      "primaryStandard": "RL.1.1",
+      "passage": "G1-L3: Ana's Birthday",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'Her family made her favorite breakfast—pancakes with strawberries.'"
+    },
+    {
+      "id": "reading-1-rc-026",
+      "bankId": "reading-1-rc",
+      "text": "What is this text mostly about?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["How eyes work", "The five senses", "Sweet and sour foods", "Soft and hard things"],
+        "correctAnswer": "The five senses"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RI.1.2"],
+      "primaryStandard": "RI.1.2",
+      "passage": "G1-I3: The Five Senses",
+      "passageText": "You have five senses. Your eyes help you see. You can see colors, shapes, and people. Your ears help you hear. You hear music, voices, and sounds. Your nose helps you smell. Flowers smell sweet. Your tongue helps you taste. You can taste if food is sweet or sour. Your skin helps you feel. You can feel if something is soft or hard. Your five senses help you learn about the world.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The main topic is the five senses."
+    },
+    {
+      "id": "reading-1-rc-027",
+      "bankId": "reading-1-rc",
+      "text": "Which body part helps you smell?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Eyes", "Ears", "Nose", "Tongue"],
+        "correctAnswer": "Nose"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RI.1.1"],
+      "primaryStandard": "RI.1.1",
+      "passage": "G1-I3: The Five Senses",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'Your nose helps you smell.'"
+    },
+    {
+      "id": "reading-1-rc-028",
+      "bankId": "reading-1-rc",
+      "text": "How do the five senses help you?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["They help you sleep", "They help you learn about the world", "They help you eat faster", "They help you run"],
+        "correctAnswer": "They help you learn about the world"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RI.1.3"],
+      "primaryStandard": "RI.1.3",
+      "passage": "G1-I3: The Five Senses",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'Your five senses help you learn about the world.'"
+    },
+    {
+      "id": "reading-1-rc-029",
+      "bankId": "reading-1-rc",
+      "text": "What does 'sour' mean?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Very sweet", "Having a sharp, tangy taste", "Very cold", "Very hot"],
+        "correctAnswer": "Having a sharp, tangy taste"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RI.1.4"],
+      "primaryStandard": "RI.1.4",
+      "passage": "G1-I3: The Five Senses",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Sour is a sharp, tangy taste, opposite of sweet."
+    },
+    {
+      "id": "reading-1-rc-030",
+      "bankId": "reading-1-rc",
+      "text": "Name three of the five senses.",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "See, hear, smell, taste, feel",
+        "acceptableAnswers": ["sight hearing smell", "see hear smell", "taste touch smell"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RI.1.5"],
+      "primaryStandard": "RI.1.5",
+      "passage": "G1-I3: The Five Senses",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The five senses are seeing, hearing, smelling, tasting, and feeling."
+    },
+    {
+      "id": "reading-1-rc-031",
+      "bankId": "reading-1-rc",
+      "text": "How did the tree feel when the boy did not visit?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Happy", "Sad", "Angry", "Excited"],
+        "correctAnswer": "Sad"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.1.3"],
+      "primaryStandard": "RL.1.3",
+      "passage": "G1-L4: The Giving Tree",
+      "passageText": "There was a big apple tree. A little boy loved the tree. Every day, the boy would climb the tree and eat apples. The tree was happy. The boy grew older. He did not visit as much. The tree felt sad. One day, the boy came back. He was now a man. \"I need wood to build a house,\" he said. The tree gave him branches. \"Thank you,\" said the man. The tree smiled.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'The tree felt sad.'"
+    },
+    {
+      "id": "reading-1-rc-032",
+      "bankId": "reading-1-rc",
+      "text": "What is the lesson of this story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Apples are good to eat", "Giving makes others happy", "Trees are tall", "Boys like to climb"],
+        "correctAnswer": "Giving makes others happy"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RL.1.2"],
+      "primaryStandard": "RL.1.2",
+      "passage": "G1-L4: The Giving Tree",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The story is about giving and making others happy."
+    },
+    {
+      "id": "reading-1-rc-033",
+      "bankId": "reading-1-rc",
+      "text": "What did the man need from the tree?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Apples", "Leaves", "Wood for a house", "A place to sit"],
+        "correctAnswer": "Wood for a house"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.1.1"],
+      "primaryStandard": "RL.1.1",
+      "passage": "G1-L4: The Giving Tree",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'I need wood to build a house.'"
+    },
+    {
+      "id": "reading-1-rc-034",
+      "bankId": "reading-1-rc",
+      "text": "Who is telling this story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["The boy", "The tree", "The man", "Someone outside the story"],
+        "correctAnswer": "Someone outside the story"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RL.1.6"],
+      "primaryStandard": "RL.1.6",
+      "passage": "G1-L4: The Giving Tree",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "A narrator tells the story, not a character."
+    },
+    {
+      "id": "reading-1-rc-035",
+      "bankId": "reading-1-rc",
+      "text": "How did the boy change in the story?",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "He grew from a little boy into a man",
+        "acceptableAnswers": ["he grew up", "he became a man", "he got older"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RL.1.3"],
+      "primaryStandard": "RL.1.3",
+      "passage": "G1-L4: The Giving Tree",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text shows the boy growing older and becoming a man."
+    },
+    {
+      "id": "reading-1-rc-036",
+      "bankId": "reading-1-rc",
+      "text": "Where do polar bears live?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["In the jungle", "Near the North Pole", "In the desert", "In the ocean"],
+        "correctAnswer": "Near the North Pole"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RI.1.1"],
+      "primaryStandard": "RI.1.1",
+      "passage": "G1-I4: Polar Bears",
+      "passageText": "Polar bears live where it is very cold. They live near the North Pole. Polar bears have thick white fur. The fur keeps them warm. They also have a layer of fat under their skin. This fat is called blubber. Blubber helps them stay warm too. Polar bears are good swimmers. They swim in cold water to catch seals. Seals are their favorite food.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'They live near the North Pole.'"
+    },
+    {
+      "id": "reading-1-rc-037",
+      "bankId": "reading-1-rc",
+      "text": "What is this text mainly about?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["How seals swim", "Cold weather", "Polar bears and how they survive", "White fur"],
+        "correctAnswer": "Polar bears and how they survive"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RI.1.2"],
+      "primaryStandard": "RI.1.2",
+      "passage": "G1-I4: Polar Bears",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The main topic is polar bears and their survival adaptations."
+    },
+    {
+      "id": "reading-1-rc-038",
+      "bankId": "reading-1-rc",
+      "text": "What is blubber?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Thick white fur", "A layer of fat", "Cold water", "A type of seal"],
+        "correctAnswer": "A layer of fat"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Craft and Structure",
+      "difficulty": 1,
+      "ccssStandards": ["RI.1.4"],
+      "primaryStandard": "RI.1.4",
+      "passage": "G1-I4: Polar Bears",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'They also have a layer of fat under their skin. This fat is called blubber.'"
+    },
+    {
+      "id": "reading-1-rc-039",
+      "bankId": "reading-1-rc",
+      "text": "Why do polar bears have thick fur?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["To look pretty", "To swim faster", "To keep them warm", "To catch seals"],
+        "correctAnswer": "To keep them warm"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RI.1.3"],
+      "primaryStandard": "RI.1.3",
+      "passage": "G1-I4: Polar Bears",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'The fur keeps them warm.'"
+    },
+    {
+      "id": "reading-1-rc-040",
+      "bankId": "reading-1-rc",
+      "text": "What do polar bears like to eat?",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "Seals",
+        "acceptableAnswers": ["seals", "seal"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RI.1.1"],
+      "primaryStandard": "RI.1.1",
+      "passage": "G1-I4: Polar Bears",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'Seals are their favorite food.'"
+    },
+    {
+      "id": "reading-1-rc-041",
+      "bankId": "reading-1-rc",
+      "text": "What color were Mia's mittens?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Blue", "Green", "Red", "White"],
+        "correctAnswer": "Red"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.1.1"],
+      "primaryStandard": "RL.1.1",
+      "passage": "G1-L5: The Lost Mitten",
+      "passageText": "Mia had two red mittens. She wore them to play in the snow. She made a snowman. She threw snowballs. It was fun! Then Mia looked at her hands. One mitten was gone! \"Oh no!\" she said. Mia looked everywhere. She looked by the snowman. She looked by the sled. Then she saw something red in the snow. It was her mitten! Mia put it back on her cold hand.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'Mia had two red mittens.'"
+    },
+    {
+      "id": "reading-1-rc-042",
+      "bankId": "reading-1-rc",
+      "text": "What did Mia do before she lost her mitten?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Went inside", "Made a snowman and threw snowballs", "Found her mitten", "Put on her coat"],
+        "correctAnswer": "Made a snowman and threw snowballs"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RL.1.5"],
+      "primaryStandard": "RL.1.5",
+      "passage": "G1-L5: The Lost Mitten",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text shows Mia making a snowman and throwing snowballs before losing her mitten."
+    },
+    {
+      "id": "reading-1-rc-043",
+      "bankId": "reading-1-rc",
+      "text": "How did Mia feel when she saw her mitten was gone?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Happy", "Sleepy", "Worried", "Hungry"],
+        "correctAnswer": "Worried"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.1.3"],
+      "primaryStandard": "RL.1.3",
+      "passage": "G1-L5: The Lost Mitten",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Mia said 'Oh no!' showing she was worried."
+    },
+    {
+      "id": "reading-1-rc-044",
+      "bankId": "reading-1-rc",
+      "text": "What is the problem in this story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Mia is cold", "Mia loses her mitten", "The snow melts", "Mia cannot make a snowman"],
+        "correctAnswer": "Mia loses her mitten"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.1.2"],
+      "primaryStandard": "RL.1.2",
+      "passage": "G1-L5: The Lost Mitten",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The main problem is that Mia loses her mitten."
+    },
+    {
+      "id": "reading-1-rc-045",
+      "bankId": "reading-1-rc",
+      "text": "Where did Mia find her mitten?",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "In the snow",
+        "acceptableAnswers": ["in the snow", "the snow"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.1.1"],
+      "primaryStandard": "RL.1.1",
+      "passage": "G1-L5: The Lost Mitten",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'Then she saw something red in the snow. It was her mitten!'"
+    },
+    {
+      "id": "reading-1-rc-046",
+      "bankId": "reading-1-rc",
+      "text": "What is this text mainly about?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["The moon", "Why we have day and night", "Playing outside", "Stars in the sky"],
+        "correctAnswer": "Why we have day and night"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RI.1.2"],
+      "primaryStandard": "RI.1.2",
+      "passage": "G1-I5: Day and Night",
+      "passageText": "The Earth is always spinning. This gives us day and night. When your side of Earth faces the sun, it is day. The sun gives us light. We can see and play. When your side of Earth turns away from the sun, it is night. The sky gets dark. We see the moon and stars. Day and night happen every day. This pattern never stops.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The main topic is what causes day and night."
+    },
+    {
+      "id": "reading-1-rc-047",
+      "bankId": "reading-1-rc",
+      "text": "What happens when your side of Earth faces the sun?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["It is night", "It is day", "You see stars", "The sky gets dark"],
+        "correctAnswer": "It is day"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RI.1.3"],
+      "primaryStandard": "RI.1.3",
+      "passage": "G1-I5: Day and Night",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'When your side of Earth faces the sun, it is day.'"
+    },
+    {
+      "id": "reading-1-rc-048",
+      "bankId": "reading-1-rc",
+      "text": "What gives us light during the day?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["The moon", "The stars", "The sun", "A lamp"],
+        "correctAnswer": "The sun"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RI.1.1"],
+      "primaryStandard": "RI.1.1",
+      "passage": "G1-I5: Day and Night",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'The sun gives us light.'"
+    },
+    {
+      "id": "reading-1-rc-049",
+      "bankId": "reading-1-rc",
+      "text": "What does 'spinning' mean?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Standing still", "Falling down", "Going around in circles", "Moving up"],
+        "correctAnswer": "Going around in circles"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RI.1.4"],
+      "primaryStandard": "RI.1.4",
+      "passage": "G1-I5: Day and Night",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Spinning means rotating or going around in circles."
+    },
+    {
+      "id": "reading-1-rc-050",
+      "bankId": "reading-1-rc",
+      "text": "What do you see in the sky at night?",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "The moon and stars",
+        "acceptableAnswers": ["moon and stars", "stars and moon", "the moon", "stars"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Craft and Structure",
+      "difficulty": 1,
+      "ccssStandards": ["RI.1.5"],
+      "primaryStandard": "RI.1.5",
+      "passage": "G1-I5: Day and Night",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'We see the moon and stars.'"
+    },
+    {
+      "id": "reading-1-rc-051",
+      "bankId": "reading-1-rc",
+      "text": "What does Kenji do first in the garden?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Water the flowers", "Pick vegetables", "Pull the weeds", "Plant seeds"],
+        "correctAnswer": "Pull the weeds"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RL.1.5"],
+      "primaryStandard": "RL.1.5",
+      "passage": "G1-L6: Grandma's Garden",
+      "passageText": "Every Saturday, Kenji helps his grandma in her garden. First, they pull the weeds. Weeds are plants that don't belong. Next, they water the flowers. The flowers need water to grow. Then they pick vegetables. Today they picked tomatoes and beans. \"You are a good helper,\" Grandma said. Kenji smiled. He loved spending time with Grandma.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'First, they pull the weeds.'"
+    },
+    {
+      "id": "reading-1-rc-052",
+      "bankId": "reading-1-rc",
+      "text": "What vegetables did they pick?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Carrots and peas", "Tomatoes and beans", "Corn and lettuce", "Peppers and onions"],
+        "correctAnswer": "Tomatoes and beans"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.1.1"],
+      "primaryStandard": "RL.1.1",
+      "passage": "G1-L6: Grandma's Garden",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'Today they picked tomatoes and beans.'"
+    },
+    {
+      "id": "reading-1-rc-053",
+      "bankId": "reading-1-rc",
+      "text": "What are weeds?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Pretty flowers", "Plants that don't belong", "Vegetables to eat", "Special seeds"],
+        "correctAnswer": "Plants that don't belong"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Craft and Structure",
+      "difficulty": 1,
+      "ccssStandards": ["RL.1.4"],
+      "primaryStandard": "RL.1.4",
+      "passage": "G1-L6: Grandma's Garden",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'Weeds are plants that don't belong.'"
+    },
+    {
+      "id": "reading-1-rc-054",
+      "bankId": "reading-1-rc",
+      "text": "How does Kenji feel about helping Grandma?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Bored", "Sad", "Happy", "Tired"],
+        "correctAnswer": "Happy"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.1.3"],
+      "primaryStandard": "RL.1.3",
+      "passage": "G1-L6: Grandma's Garden",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'Kenji smiled. He loved spending time with Grandma.'"
+    },
+    {
+      "id": "reading-1-rc-055",
+      "bankId": "reading-1-rc",
+      "text": "What is this story mostly about?",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "Kenji helping his grandma in her garden",
+        "acceptableAnswers": ["helping grandma", "working in the garden", "kenji and grandma gardening"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RL.1.2"],
+      "primaryStandard": "RL.1.2",
+      "passage": "G1-L6: Grandma's Garden",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The main idea is Kenji and Grandma working together in the garden."
+    },
+    {
+      "id": "reading-1-rc-056",
+      "bankId": "reading-1-rc",
+      "text": "What is this text mainly about?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Lakes and oceans", "The water cycle", "Clouds in the sky", "Hot summer days"],
+        "correctAnswer": "The water cycle"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RI.1.2"],
+      "primaryStandard": "RI.1.2",
+      "passage": "G1-I6: The Water Cycle",
+      "passageText": "Water moves in a circle. This is called the water cycle. First, the sun heats water in lakes and oceans. The water turns into vapor and goes up into the sky. This is called evaporation. High in the sky, the vapor gets cold. It turns into tiny drops. These drops make clouds. When the clouds get full, the drops fall down as rain. The rain fills lakes and oceans again. Then the cycle starts over.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The main topic is the water cycle."
+    },
+    {
+      "id": "reading-1-rc-057",
+      "bankId": "reading-1-rc",
+      "text": "What is evaporation?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["When water falls as rain", "When water turns to vapor and goes up", "When clouds form", "When lakes get full"],
+        "correctAnswer": "When water turns to vapor and goes up"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RI.1.4"],
+      "primaryStandard": "RI.1.4",
+      "passage": "G1-I6: The Water Cycle",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'The water turns into vapor and goes up into the sky. This is called evaporation.'"
+    },
+    {
+      "id": "reading-1-rc-058",
+      "bankId": "reading-1-rc",
+      "text": "What happens after vapor gets cold in the sky?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["It becomes the sun", "It turns into tiny drops and makes clouds", "It goes back to the ocean", "It disappears"],
+        "correctAnswer": "It turns into tiny drops and makes clouds"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RI.1.5"],
+      "primaryStandard": "RI.1.5",
+      "passage": "G1-I6: The Water Cycle",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'It turns into tiny drops. These drops make clouds.'"
+    },
+    {
+      "id": "reading-1-rc-059",
+      "bankId": "reading-1-rc",
+      "text": "What makes water turn into vapor?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["The moon", "The wind", "The sun", "The clouds"],
+        "correctAnswer": "The sun"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RI.1.3"],
+      "primaryStandard": "RI.1.3",
+      "passage": "G1-I6: The Water Cycle",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'the sun heats water' causing evaporation."
+    },
+    {
+      "id": "reading-1-rc-060",
+      "bankId": "reading-1-rc",
+      "text": "What happens when clouds get full?",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "Drops fall down as rain",
+        "acceptableAnswers": ["rain falls", "it rains", "water falls as rain"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RI.1.1"],
+      "primaryStandard": "RI.1.1",
+      "passage": "G1-I6: The Water Cycle",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'When the clouds get full, the drops fall down as rain.'"
+    },
+    {
+      "id": "reading-1-rc-061",
+      "bankId": "reading-1-rc",
+      "text": "What is the lesson of this story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Fish like to swim", "Be smart and stay safe", "Boys like to fish", "Ponds are nice"],
+        "correctAnswer": "Be smart and stay safe"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RL.1.2"],
+      "primaryStandard": "RL.1.2",
+      "passage": "G1-L7: The Three Fish",
+      "passageText": "Three fish lived in a pond. One day, a boy came to fish. The first fish swam away fast. \"I will find a new pond,\" she said. The second fish hid under a rock. \"I will stay very still,\" he said. The third fish did not move. \"Nothing will happen to me,\" she said. The boy caught the third fish. The first two fish were safe because they were smart.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The lesson is about being smart to stay safe."
+    },
+    {
+      "id": "reading-1-rc-062",
+      "bankId": "reading-1-rc",
+      "text": "What did the first fish do?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Hid under a rock", "Swam away to find a new pond", "Did not move", "Got caught"],
+        "correctAnswer": "Swam away to find a new pond"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.1.1"],
+      "primaryStandard": "RL.1.1",
+      "passage": "G1-L7: The Three Fish",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'The first fish swam away fast. \"I will find a new pond,\" she said.'"
+    },
+    {
+      "id": "reading-1-rc-063",
+      "bankId": "reading-1-rc",
+      "text": "Why did the third fish get caught?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["She swam too fast", "She hid in the wrong place", "She did not try to get away", "She helped the boy"],
+        "correctAnswer": "She did not try to get away"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RL.1.3"],
+      "primaryStandard": "RL.1.3",
+      "passage": "G1-L7: The Three Fish",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The third fish 'did not move' and said 'Nothing will happen to me.'"
+    },
+    {
+      "id": "reading-1-rc-064",
+      "bankId": "reading-1-rc",
+      "text": "How are the three fish different?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["They are different colors", "They make different choices", "They live in different ponds", "They are different sizes"],
+        "correctAnswer": "They make different choices"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RL.1.6"],
+      "primaryStandard": "RL.1.6",
+      "passage": "G1-L7: The Three Fish",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Each fish makes a different choice about what to do."
+    },
+    {
+      "id": "reading-1-rc-065",
+      "bankId": "reading-1-rc",
+      "text": "How did the second fish stay safe?",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "He hid under a rock and stayed very still",
+        "acceptableAnswers": ["hid under a rock", "stayed still", "hid and stayed still"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RL.1.3"],
+      "primaryStandard": "RL.1.3",
+      "passage": "G1-L7: The Three Fish",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says the second fish hid under a rock and stayed still."
+    },
+    {
+      "id": "reading-1-rc-066",
+      "bankId": "reading-1-rc",
+      "text": "What is this text mainly about?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Making clothes", "Recycling and how it helps", "Different kinds of bins", "How paper is made"],
+        "correctAnswer": "Recycling and how it helps"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RI.1.2"],
+      "primaryStandard": "RI.1.2",
+      "passage": "G1-I7: Recycling",
+      "passageText": "Recycling helps our planet. When you recycle, old things become new things. Paper can be made into new paper. Plastic bottles can become new bottles or even clothes! Cans can be made into new cans. To recycle, put items in the right bin. Paper goes in one bin. Plastic goes in another. Cans go in a metal bin. Recycling is easy. Everyone can help.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The main topic is recycling."
+    },
+    {
+      "id": "reading-1-rc-067",
+      "bankId": "reading-1-rc",
+      "text": "What can plastic bottles become?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Only new bottles", "Paper", "New bottles or clothes", "Cans"],
+        "correctAnswer": "New bottles or clothes"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RI.1.1"],
+      "primaryStandard": "RI.1.1",
+      "passage": "G1-I7: Recycling",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'Plastic bottles can become new bottles or even clothes!'"
+    },
+    {
+      "id": "reading-1-rc-068",
+      "bankId": "reading-1-rc",
+      "text": "How is this text organized?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["It tells a story", "It explains what recycling is and how to do it", "It compares two things", "It describes a problem"],
+        "correctAnswer": "It explains what recycling is and how to do it"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RI.1.5"],
+      "primaryStandard": "RI.1.5",
+      "passage": "G1-I7: Recycling",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text explains recycling and gives steps to do it."
+    },
+    {
+      "id": "reading-1-rc-069",
+      "bankId": "reading-1-rc",
+      "text": "Why did the author write this text?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["To tell a funny story", "To teach about recycling", "To describe a trip", "To explain how to make paper"],
+        "correctAnswer": "To teach about recycling"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RI.1.6"],
+      "primaryStandard": "RI.1.6",
+      "passage": "G1-I7: Recycling",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author wrote to inform readers about recycling."
+    },
+    {
+      "id": "reading-1-rc-070",
+      "bankId": "reading-1-rc",
+      "text": "Name two things that can be recycled.",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "Paper and plastic",
+        "acceptableAnswers": ["paper, plastic", "cans and paper", "plastic and cans"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RI.1.3"],
+      "primaryStandard": "RI.1.3",
+      "passage": "G1-I7: Recycling",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text mentions paper, plastic bottles, and cans."
+    },
+    {
+      "id": "reading-1-rc-071",
+      "bankId": "reading-1-rc",
+      "text": "How did Maya feel at first?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Happy", "Nervous", "Angry", "Sleepy"],
+        "correctAnswer": "Nervous"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.1.3"],
+      "primaryStandard": "RL.1.3",
+      "passage": "G1-L8: The New Kid",
+      "passageText": "A new girl came to class. Her name was Maya. She looked nervous. No one talked to her at lunch. Ava saw Maya sitting alone. \"Can I sit with you?\" Ava asked. Maya smiled and said yes. They talked about their favorite books. They both liked animal stories. \"Do you want to play at recess?\" asked Maya. \"Yes!\" said Ava. Now Ava had a new friend.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'She looked nervous.'"
+    },
+    {
+      "id": "reading-1-rc-072",
+      "bankId": "reading-1-rc",
+      "text": "What did Ava and Maya talk about?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Sports", "Their favorite books", "TV shows", "Their families"],
+        "correctAnswer": "Their favorite books"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.1.1"],
+      "primaryStandard": "RL.1.1",
+      "passage": "G1-L8: The New Kid",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'They talked about their favorite books.'"
+    },
+    {
+      "id": "reading-1-rc-073",
+      "bankId": "reading-1-rc",
+      "text": "What is the message of this story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Books are fun", "Being kind can help you make friends", "Lunch is important", "Recess is the best"],
+        "correctAnswer": "Being kind can help you make friends"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RL.1.2"],
+      "primaryStandard": "RL.1.2",
+      "passage": "G1-L8: The New Kid",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The story shows how Ava's kindness led to a new friendship."
+    },
+    {
+      "id": "reading-1-rc-074",
+      "bankId": "reading-1-rc",
+      "text": "How did Maya change from the beginning to the end?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["She went from nervous to happy", "She went from happy to sad", "She stayed the same", "She went from loud to quiet"],
+        "correctAnswer": "She went from nervous to happy"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RL.1.3"],
+      "primaryStandard": "RL.1.3",
+      "passage": "G1-L8: The New Kid",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Maya went from looking nervous to smiling and making a friend."
+    },
+    {
+      "id": "reading-1-rc-075",
+      "bankId": "reading-1-rc",
+      "text": "What kind of stories do both girls like?",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "Animal stories",
+        "acceptableAnswers": ["animal stories", "stories about animals"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.1.1"],
+      "primaryStandard": "RL.1.1",
+      "passage": "G1-L8: The New Kid",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'They both liked animal stories.'"
+    },
+    {
+      "id": "reading-1-rc-076",
+      "bankId": "reading-1-rc",
+      "text": "What is an amphibian?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["An animal that lives only on land", "An animal that can live on land and in water", "An animal that has wings", "An animal that lives only in water"],
+        "correctAnswer": "An animal that can live on land and in water"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RI.1.4"],
+      "primaryStandard": "RI.1.4",
+      "passage": "G1-I8: Frogs",
+      "passageText": "Frogs are amphibians. This means they can live on land and in water. Frogs start life as eggs in the water. The eggs hatch into tadpoles. Tadpoles have tails and live in water. They breathe through gills like fish. As tadpoles grow, they change. They grow legs and lose their tails. Their gills become lungs. Now they are frogs! Adult frogs can hop on land and swim in water.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'This means they can live on land and in water.'"
+    },
+    {
+      "id": "reading-1-rc-077",
+      "bankId": "reading-1-rc",
+      "text": "How is this text organized?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["It compares frogs and fish", "It shows how frogs grow and change", "It tells a story about a frog", "It lists different kinds of frogs"],
+        "correctAnswer": "It shows how frogs grow and change"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RI.1.5"],
+      "primaryStandard": "RI.1.5",
+      "passage": "G1-I8: Frogs",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text shows the sequence of how frogs develop."
+    },
+    {
+      "id": "reading-1-rc-078",
+      "bankId": "reading-1-rc",
+      "text": "What do tadpoles change into?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Fish", "Eggs", "Frogs", "Gills"],
+        "correctAnswer": "Frogs"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RI.1.3"],
+      "primaryStandard": "RI.1.3",
+      "passage": "G1-I8: Frogs",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text shows tadpoles changing into frogs."
+    },
+    {
+      "id": "reading-1-rc-079",
+      "bankId": "reading-1-rc",
+      "text": "How do tadpoles breathe?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["With lungs", "Through their skin", "Through gills", "They don't breathe"],
+        "correctAnswer": "Through gills"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RI.1.1"],
+      "primaryStandard": "RI.1.1",
+      "passage": "G1-I8: Frogs",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'They breathe through gills like fish.'"
+    },
+    {
+      "id": "reading-1-rc-080",
+      "bankId": "reading-1-rc",
+      "text": "What are two changes that happen when a tadpole becomes a frog?",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "They grow legs and lose their tails",
+        "acceptableAnswers": ["grow legs, lose tails", "gills become lungs", "legs and lungs"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RI.1.3"],
+      "primaryStandard": "RI.1.3",
+      "passage": "G1-I8: Frogs",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text describes these changes in the transformation."
+    },
+    {
+      "id": "reading-1-rc-081",
+      "bankId": "reading-1-rc",
+      "text": "Why did Bear share his honey?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["He didn't like honey", "He saw Rabbit was hungry", "Rabbit asked for some", "He had too much"],
+        "correctAnswer": "He saw Rabbit was hungry"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RL.1.3"],
+      "primaryStandard": "RL.1.3",
+      "passage": "G1-L9: The Kind Bear",
+      "passageText": "Bear found a pot of honey. \"Yum!\" he said. He wanted to eat it all. Then he saw Rabbit. Rabbit looked hungry. Bear thought for a moment. \"Would you like some honey?\" Bear asked. Rabbit's eyes got big. \"Really? Thank you!\" They shared the honey together. Bear felt happy inside. Sharing made the honey taste even sweeter.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Bear saw that 'Rabbit looked hungry.'"
+    },
+    {
+      "id": "reading-1-rc-082",
+      "bankId": "reading-1-rc",
+      "text": "What is the lesson of this story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Honey is sweet", "Bears like to eat", "Sharing makes you happy", "Rabbits are hungry"],
+        "correctAnswer": "Sharing makes you happy"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RL.1.2"],
+      "primaryStandard": "RL.1.2",
+      "passage": "G1-L9: The Kind Bear",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The story shows that 'Sharing made the honey taste even sweeter.'"
+    },
+    {
+      "id": "reading-1-rc-083",
+      "bankId": "reading-1-rc",
+      "text": "What did Bear find?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["A pot of honey", "Some berries", "A rabbit", "A nice house"],
+        "correctAnswer": "A pot of honey"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.1.1"],
+      "primaryStandard": "RL.1.1",
+      "passage": "G1-L9: The Kind Bear",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'Bear found a pot of honey.'"
+    },
+    {
+      "id": "reading-1-rc-084",
+      "bankId": "reading-1-rc",
+      "text": "What does 'felt happy inside' mean?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Bear's tummy was full", "Bear felt good about what he did", "Bear was warm", "Bear was excited"],
+        "correctAnswer": "Bear felt good about what he did"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RL.1.4"],
+      "primaryStandard": "RL.1.4",
+      "passage": "G1-L9: The Kind Bear",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "It means Bear felt good about sharing."
+    },
+    {
+      "id": "reading-1-rc-085",
+      "bankId": "reading-1-rc",
+      "text": "How did Bear change his mind in the story?",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "He wanted to eat it all, but then decided to share",
+        "acceptableAnswers": ["he decided to share", "from eating alone to sharing", "he shared with rabbit"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RL.1.6"],
+      "primaryStandard": "RL.1.6",
+      "passage": "G1-L9: The Kind Bear",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Bear changed from wanting to eat it all to choosing to share."
+    },
+    {
+      "id": "reading-1-rc-086",
+      "bankId": "reading-1-rc",
+      "text": "What is this text mainly about?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Different toothbrushes", "How to brush your teeth", "Why teeth fall out", "Going to the dentist"],
+        "correctAnswer": "How to brush your teeth"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RI.1.2"],
+      "primaryStandard": "RI.1.2",
+      "passage": "G1-I9: Brushing Your Teeth",
+      "passageText": "Brushing your teeth keeps them healthy. You should brush twice a day. Brush in the morning and before bed. Here is how to brush: First, put toothpaste on your brush. Use only a little bit. Next, brush the front of your teeth. Move the brush up and down. Then brush the back of your teeth. Don't forget the top! Brush for two minutes. Then rinse and spit. Now your teeth are clean!",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The main topic is how to brush teeth properly."
+    },
+    {
+      "id": "reading-1-rc-087",
+      "bankId": "reading-1-rc",
+      "text": "How is this text organized?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["As a story", "As steps to follow", "As a list of facts", "As questions and answers"],
+        "correctAnswer": "As steps to follow"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RI.1.5"],
+      "primaryStandard": "RI.1.5",
+      "passage": "G1-I9: Brushing Your Teeth",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text gives step-by-step instructions."
+    },
+    {
+      "id": "reading-1-rc-088",
+      "bankId": "reading-1-rc",
+      "text": "How long should you brush your teeth?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["One minute", "Two minutes", "Five minutes", "Ten minutes"],
+        "correctAnswer": "Two minutes"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RI.1.1"],
+      "primaryStandard": "RI.1.1",
+      "passage": "G1-I9: Brushing Your Teeth",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'Brush for two minutes.'"
+    },
+    {
+      "id": "reading-1-rc-089",
+      "bankId": "reading-1-rc",
+      "text": "Why did the author write this text?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["To tell a funny story", "To teach how to brush teeth", "To sell toothpaste", "To describe a dentist"],
+        "correctAnswer": "To teach how to brush teeth"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RI.1.6"],
+      "primaryStandard": "RI.1.6",
+      "passage": "G1-I9: Brushing Your Teeth",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author wrote to teach proper tooth brushing."
+    },
+    {
+      "id": "reading-1-rc-090",
+      "bankId": "reading-1-rc",
+      "text": "When should you brush your teeth?",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "In the morning and before bed",
+        "acceptableAnswers": ["morning and night", "twice a day", "morning and before bed"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RI.1.3"],
+      "primaryStandard": "RI.1.3",
+      "passage": "G1-I9: Brushing Your Teeth",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'Brush in the morning and before bed.'"
+    },
+    {
+      "id": "reading-1-rc-091",
+      "bankId": "reading-1-rc",
+      "text": "Why did the garden need rain?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["It was too hot", "It was dry and the flowers drooped", "Grandpa was thirsty", "Tomas wanted to play"],
+        "correctAnswer": "It was dry and the flowers drooped"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.1.1"],
+      "primaryStandard": "RL.1.1",
+      "passage": "G1-L10: Waiting for Rain",
+      "passageText": "The garden was dry. The flowers drooped. \"We need rain,\" said Grandpa. Tomas looked at the sky. No clouds. The next day, Tomas looked again. Still no clouds. He felt worried about the flowers. On the third day, dark clouds came. Then it started to rain! Tomas and Grandpa danced. The flowers lifted their heads. \"The rain came just in time,\" said Grandpa.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'The garden was dry. The flowers drooped.'"
+    },
+    {
+      "id": "reading-1-rc-092",
+      "bankId": "reading-1-rc",
+      "text": "How did Tomas feel while waiting for rain?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Excited", "Bored", "Worried", "Happy"],
+        "correctAnswer": "Worried"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.1.3"],
+      "primaryStandard": "RL.1.3",
+      "passage": "G1-L10: Waiting for Rain",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'He felt worried about the flowers.'"
+    },
+    {
+      "id": "reading-1-rc-093",
+      "bankId": "reading-1-rc",
+      "text": "On which day did it rain?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["The first day", "The second day", "The third day", "The fourth day"],
+        "correctAnswer": "The third day"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Craft and Structure",
+      "difficulty": 1,
+      "ccssStandards": ["RL.1.5"],
+      "primaryStandard": "RL.1.5",
+      "passage": "G1-L10: Waiting for Rain",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'On the third day, dark clouds came.'"
+    },
+    {
+      "id": "reading-1-rc-094",
+      "bankId": "reading-1-rc",
+      "text": "What is this story mostly about?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Dancing in the rain", "Waiting for rain to save the garden", "Looking at clouds", "Planting flowers"],
+        "correctAnswer": "Waiting for rain to save the garden"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RL.1.2"],
+      "primaryStandard": "RL.1.2",
+      "passage": "G1-L10: Waiting for Rain",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The main idea is waiting for rain to help the dry garden."
+    },
+    {
+      "id": "reading-1-rc-095",
+      "bankId": "reading-1-rc",
+      "text": "How did Tomas and Grandpa feel when it rained?",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "Happy",
+        "acceptableAnswers": ["happy", "excited", "they danced"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.1.3"],
+      "primaryStandard": "RL.1.3",
+      "passage": "G1-L10: Waiting for Rain",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "They were happy; the text says 'Tomas and Grandpa danced.'"
+    },
+    {
+      "id": "reading-1-rc-096",
+      "bankId": "reading-1-rc",
+      "text": "What is this text mainly about?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Firefighters", "People who help in our community", "Schools", "The post office"],
+        "correctAnswer": "People who help in our community"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RI.1.2"],
+      "primaryStandard": "RI.1.2",
+      "passage": "G1-I10: Community Helpers",
+      "passageText": "Many people help in our community. Firefighters put out fires. They keep us safe from flames. Police officers help people follow rules. They make sure everyone is safe. Doctors and nurses help sick people get well. They work in hospitals and clinics. Teachers help children learn. They work in schools. Mail carriers bring letters to our homes. All these helpers work together. They make our community a good place to live.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The main topic is community helpers."
+    },
+    {
+      "id": "reading-1-rc-097",
+      "bankId": "reading-1-rc",
+      "text": "Where do doctors and nurses work?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Schools", "Post offices", "Hospitals and clinics", "Fire stations"],
+        "correctAnswer": "Hospitals and clinics"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RI.1.1"],
+      "primaryStandard": "RI.1.1",
+      "passage": "G1-I10: Community Helpers",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'They work in hospitals and clinics.'"
+    },
+    {
+      "id": "reading-1-rc-098",
+      "bankId": "reading-1-rc",
+      "text": "How do community helpers work together?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["They all wear the same clothes", "They each do different jobs to make the community good", "They live in the same place", "They all help children"],
+        "correctAnswer": "They each do different jobs to make the community good"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RI.1.3"],
+      "primaryStandard": "RI.1.3",
+      "passage": "G1-I10: Community Helpers",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text shows different helpers doing different jobs to help everyone."
+    },
+    {
+      "id": "reading-1-rc-099",
+      "bankId": "reading-1-rc",
+      "text": "Why did the author write this text?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["To tell a story about firefighters", "To teach about people who help in our community", "To explain how to become a doctor", "To describe a school"],
+        "correctAnswer": "To teach about people who help in our community"
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RI.1.6"],
+      "primaryStandard": "RI.1.6",
+      "passage": "G1-I10: Community Helpers",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author wrote to inform about community helpers."
+    },
+    {
+      "id": "reading-1-rc-100",
+      "bankId": "reading-1-rc",
+      "text": "Name three community helpers from the text.",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "Firefighters, police officers, doctors",
+        "acceptableAnswers": ["firefighters, police, teachers", "doctors, nurses, mail carriers", "teachers, police officers, firefighters"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "1",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RI.1.1"],
+      "primaryStandard": "RI.1.1",
+      "passage": "G1-I10: Community Helpers",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text mentions several community helpers."
+    }
+  ]
+}

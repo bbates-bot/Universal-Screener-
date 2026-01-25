@@ -29,15 +29,14 @@ export const ReadinessSection: React.FC<ReadinessSectionProps> = ({
   onToggleCollapse,
   className = '',
 }) => {
-  // Get curriculum-specific label
+  // Get curriculum-specific label - now uses grade-level performance terminology
   const curriculumLabel = useMemo(() => {
     switch (curriculum) {
       case 'EDEXCEL_INTERNATIONAL':
         return 'IGCSE';
       case 'US_COMMON_CORE_AP':
-        return 'AP';
       default:
-        return 'Course';
+        return 'Grade-Level';
     }
   }, [curriculum]);
 
@@ -66,7 +65,7 @@ export const ReadinessSection: React.FC<ReadinessSectionProps> = ({
       <div className="flex items-center gap-2 px-3 py-1.5 bg-emerald-50 rounded-lg">
         <span className="w-2 h-2 rounded-full bg-emerald-500" />
         <span className="font-bold text-emerald-700">{quickStats.readyPercentage}%</span>
-        <span className="text-emerald-600 text-xs">Ready</span>
+        <span className="text-emerald-600 text-xs">On Track</span>
       </div>
       <div className="flex items-center gap-2 px-3 py-1.5 bg-amber-50 rounded-lg">
         <span className="w-2 h-2 rounded-full bg-amber-500" />
@@ -78,8 +77,8 @@ export const ReadinessSection: React.FC<ReadinessSectionProps> = ({
 
   return (
     <CollapsibleSection
-      title={`${curriculumLabel} Readiness Analytics`}
-      subtitle={`Course readiness and prerequisite skill gap analysis`}
+      title="Performance Analytics"
+      subtitle="Student performance distribution and skill gap analysis"
       defaultExpanded={!isCollapsed}
       isExpanded={!isCollapsed}
       onToggle={(expanded) => onToggleCollapse?.(!expanded)}
@@ -149,7 +148,7 @@ const ReadinessInsights: React.FC<ReadinessInsightsProps> = ({
       </h4>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        {/* Readiness insight */}
+        {/* Performance insight */}
         <InsightCard
           icon={
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -157,13 +156,13 @@ const ReadinessInsights: React.FC<ReadinessInsightsProps> = ({
             </svg>
           }
           iconColor={readyPercentage >= 50 ? 'text-emerald-600 bg-emerald-50' : 'text-amber-600 bg-amber-50'}
-          title={`${readyPercentage}% Ready for ${curriculumLabel}`}
+          title={`${readyPercentage}% On Grade Level`}
           description={
             readyPercentage >= 70
-              ? 'Strong prerequisite foundation across the cohort'
+              ? 'Strong foundation across the selected cohort'
               : readyPercentage >= 50
-              ? 'Majority of students are prepared for advanced coursework'
-              : 'Additional support may be needed before starting'
+              ? 'Majority of students are meeting grade-level expectations'
+              : 'Additional support may be needed for this group'
           }
         />
 
@@ -191,7 +190,7 @@ const ReadinessInsights: React.FC<ReadinessInsightsProps> = ({
             }
             iconColor="text-indigo-600 bg-indigo-50"
             title="Intervention Recommended"
-            description={`${notReadyPercentage}% of students need prerequisite support before ${curriculumLabel} coursework`}
+            description={`${notReadyPercentage}% of students are below grade level and need targeted support`}
           />
         )}
 
@@ -204,8 +203,8 @@ const ReadinessInsights: React.FC<ReadinessInsightsProps> = ({
               </svg>
             }
             iconColor="text-emerald-600 bg-emerald-50"
-            title="Strong Cohort Readiness"
-            description={`Most students are well-prepared for ${curriculumLabel} coursework`}
+            title="Strong Performance"
+            description="Most students are meeting or exceeding grade-level expectations"
           />
         )}
       </div>

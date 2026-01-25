@@ -21,7 +21,7 @@ interface TestReviewProps {
 
 type CurriculumType = 'CCSS' | 'Edexcel' | 'AP';
 
-const SUBJECTS: QuestionSubject[] = ['Mathematics', 'Reading', 'ELA'];
+const SUBJECTS: QuestionSubject[] = ['Mathematics', 'Reading', 'Reading Comprehension', 'ELA'];
 
 const AP_COURSES = [
   { value: 'ap-precalculus', label: 'AP Precalculus', subject: 'Mathematics' as QuestionSubject },

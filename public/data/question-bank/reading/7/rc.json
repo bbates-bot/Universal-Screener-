@@ -1,0 +1,2731 @@
+{
+  "metadata": {
+    "subject": "Reading",
+    "gradeLevel": "7",
+    "domain": "RC",
+    "domainName": "Reading Comprehension",
+    "lastUpdated": "2026-01-25",
+    "totalQuestions": 100,
+    "description": "CCSS-aligned reading comprehension assessment with literary and informational texts for Grade 7",
+    "lexileRange": "800L-1050L"
+  },
+  "questions": [
+    {
+      "id": "reading-7-rc-001",
+      "bankId": "reading-7-rc",
+      "text": "Based on the passage, what can you infer about Marcus's feelings when he discovers his grandmother's journal?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He is disappointed by what he reads",
+          "He feels a deep connection to his family history",
+          "He is confused and wants to stop reading",
+          "He is angry that no one told him about it"
+        ],
+        "correctAnswer": "He feels a deep connection to his family history"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.7.1"
+      ],
+      "primaryStandard": "RL.7.1",
+      "passage": "G7-L1: The Hidden Journal",
+      "passageText": "Marcus climbed into the dusty attic, searching for old photographs for his history project. Behind a stack of yellowed newspapers, he found a leather-bound journal with his grandmother's name embossed on the cover. His hands trembled slightly as he opened it. The entries described her journey from Puerto Rico to New York City in 1952, her struggles learning English, and her determination to become a teacher. Marcus read for hours, losing track of time. He had always known his grandmother was strong, but now he understood the depth of her courage. The faded ink seemed to bring her voice back to life, and Marcus felt as though she was speaking directly to him across the decades.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage shows Marcus reading for hours, his trembling hands showing emotion, and feeling his grandmother was speaking to him, indicating a deep connection."
+    },
+    {
+      "id": "reading-7-rc-002",
+      "bankId": "reading-7-rc",
+      "text": "What theme does the passage develop through Marcus's discovery?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Technology makes communication easier",
+          "Understanding our heritage connects us to who we are",
+          "Education is the key to success",
+          "Hard work always leads to rewards"
+        ],
+        "correctAnswer": "Understanding our heritage connects us to who we are"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.7.2"
+      ],
+      "primaryStandard": "RL.7.2",
+      "passage": "G7-L1: The Hidden Journal",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The theme centers on Marcus connecting with his heritage through his grandmother's journal and understanding his family history."
+    },
+    {
+      "id": "reading-7-rc-003",
+      "bankId": "reading-7-rc",
+      "text": "How does the setting of the attic contribute to the mood of the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It creates a sense of mystery and discovery",
+          "It suggests Marcus is being punished",
+          "It shows the family is disorganized",
+          "It indicates the story takes place long ago"
+        ],
+        "correctAnswer": "It creates a sense of mystery and discovery"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.7.3"
+      ],
+      "primaryStandard": "RL.7.3",
+      "passage": "G7-L1: The Hidden Journal",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The dusty attic with hidden items creates an atmosphere of mystery and the potential for meaningful discovery."
+    },
+    {
+      "id": "reading-7-rc-004",
+      "bankId": "reading-7-rc",
+      "text": "What does the phrase 'faded ink seemed to bring her voice back to life' suggest about Marcus's experience?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The journal was written recently",
+          "Reading the journal made his grandmother feel present",
+          "Marcus could literally hear his grandmother speaking",
+          "The ink was changing colors"
+        ],
+        "correctAnswer": "Reading the journal made his grandmother feel present"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.7.4"
+      ],
+      "primaryStandard": "RL.7.4",
+      "passage": "G7-L1: The Hidden Journal",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "This figurative language suggests that through reading, Marcus felt an emotional connection as if his grandmother were speaking to him."
+    },
+    {
+      "id": "reading-7-rc-005",
+      "bankId": "reading-7-rc",
+      "text": "How does the author structure the passage to build emotional impact?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By using flashbacks throughout the passage",
+          "By moving from a mundane task to a profound discovery",
+          "By alternating between different narrators",
+          "By starting with the most emotional moment"
+        ],
+        "correctAnswer": "By moving from a mundane task to a profound discovery"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.7.5"
+      ],
+      "primaryStandard": "RL.7.5",
+      "passage": "G7-L1: The Hidden Journal",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage begins with a simple search for photos and builds to the emotional discovery of the journal and Marcus's connection to his grandmother."
+    },
+    {
+      "id": "reading-7-rc-006",
+      "bankId": "reading-7-rc",
+      "text": "From whose point of view is the story told, and how does this affect what the reader knows?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "First person from Marcus; readers know only his thoughts",
+          "Third person limited; readers experience events through Marcus",
+          "Third person omniscient; readers know everyone's thoughts",
+          "Second person; readers feel they are Marcus"
+        ],
+        "correctAnswer": "Third person limited; readers experience events through Marcus"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.7.6"
+      ],
+      "primaryStandard": "RL.7.6",
+      "passage": "G7-L1: The Hidden Journal",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The story uses third person limited, focusing on Marcus's experience and emotions while using 'he' pronouns."
+    },
+    {
+      "id": "reading-7-rc-007",
+      "bankId": "reading-7-rc",
+      "text": "What is the central idea of this passage about coral reefs?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Coral reefs are beautiful tourist attractions",
+          "Coral reefs are complex ecosystems facing significant threats",
+          "Scientists have solved the coral bleaching problem",
+          "Coral reefs are only found in tropical waters"
+        ],
+        "correctAnswer": "Coral reefs are complex ecosystems facing significant threats"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.7.2"
+      ],
+      "primaryStandard": "RI.7.2",
+      "passage": "G7-I1: The Crisis Facing Coral Reefs",
+      "passageText": "Coral reefs, often called the rainforests of the sea, support approximately 25% of all marine species despite covering less than 1% of the ocean floor. These intricate ecosystems face an unprecedented crisis. Rising ocean temperatures cause coral bleaching, a process where stressed corals expel the algae living in their tissues, turning white and often dying. Since 2016, the Great Barrier Reef has experienced three mass bleaching events. Ocean acidification, caused by increased carbon dioxide absorption, weakens coral skeletons and slows growth rates. Additionally, pollution, overfishing, and coastal development compound these problems. Scientists estimate that 70-90% of coral reefs could disappear within the next 20 years if current trends continue. Conservation efforts, including coral nurseries and marine protected areas, offer hope but require global cooperation.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage describes coral reef ecosystems and the multiple threats they face, making their crisis the central idea."
+    },
+    {
+      "id": "reading-7-rc-008",
+      "bankId": "reading-7-rc",
+      "text": "Which piece of evidence best supports the claim that coral reefs are vital to ocean life?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Rising ocean temperatures cause coral bleaching",
+          "70-90% of coral reefs could disappear in 20 years",
+          "Coral reefs support 25% of marine species while covering less than 1% of the ocean",
+          "Conservation efforts include coral nurseries"
+        ],
+        "correctAnswer": "Coral reefs support 25% of marine species while covering less than 1% of the ocean"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.7.1"
+      ],
+      "primaryStandard": "RI.7.1",
+      "passage": "G7-I1: The Crisis Facing Coral Reefs",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "This statistic directly demonstrates the outsized importance of coral reefs to marine biodiversity."
+    },
+    {
+      "id": "reading-7-rc-009",
+      "bankId": "reading-7-rc",
+      "text": "How does the author use the comparison to rainforests to develop the reader's understanding?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To suggest coral reefs have trees",
+          "To emphasize coral reefs' biodiversity and ecological importance",
+          "To explain that rainforests are underwater",
+          "To show that rainforests are more important than reefs"
+        ],
+        "correctAnswer": "To emphasize coral reefs' biodiversity and ecological importance"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.7.3"
+      ],
+      "primaryStandard": "RI.7.3",
+      "passage": "G7-I1: The Crisis Facing Coral Reefs",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The rainforest comparison helps readers understand coral reefs' rich biodiversity, similar to the well-known diversity of rainforests."
+    },
+    {
+      "id": "reading-7-rc-010",
+      "bankId": "reading-7-rc",
+      "text": "What does 'unprecedented' mean in the context of the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Expected and normal",
+          "Never before seen or experienced",
+          "Slowly developing over time",
+          "Easily solvable"
+        ],
+        "correctAnswer": "Never before seen or experienced"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.7.4"
+      ],
+      "primaryStandard": "RI.7.4",
+      "passage": "G7-I1: The Crisis Facing Coral Reefs",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Unprecedented means without previous instance, emphasizing the unique severity of the current crisis."
+    },
+    {
+      "id": "reading-7-rc-011",
+      "bankId": "reading-7-rc",
+      "text": "How is the passage organized to present information about coral reefs?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Chronological order of events",
+          "Problem-solution with multiple causes leading to potential solutions",
+          "Comparison of different reef types",
+          "Step-by-step instructions for reef conservation"
+        ],
+        "correctAnswer": "Problem-solution with multiple causes leading to potential solutions"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.7.5"
+      ],
+      "primaryStandard": "RI.7.5",
+      "passage": "G7-I1: The Crisis Facing Coral Reefs",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage presents problems (threats to reefs) and moves toward solutions (conservation efforts)."
+    },
+    {
+      "id": "reading-7-rc-012",
+      "bankId": "reading-7-rc",
+      "text": "What is the author's purpose in including the statistic about 70-90% of reefs disappearing?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To entertain readers with interesting facts",
+          "To create urgency about the need for action",
+          "To criticize scientists for not doing enough",
+          "To compare reefs to other ecosystems"
+        ],
+        "correctAnswer": "To create urgency about the need for action"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.7.6"
+      ],
+      "primaryStandard": "RI.7.6",
+      "passage": "G7-I1: The Crisis Facing Coral Reefs",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "This alarming statistic is intended to emphasize the urgency of the situation and motivate concern."
+    },
+    {
+      "id": "reading-7-rc-013",
+      "bankId": "reading-7-rc",
+      "text": "What claim does the author make about the factors threatening coral reefs?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Only climate change affects coral reefs",
+          "Multiple interconnected factors are causing reef decline",
+          "Pollution is the only serious threat",
+          "The threats are exaggerated by scientists"
+        ],
+        "correctAnswer": "Multiple interconnected factors are causing reef decline"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.7.8"
+      ],
+      "primaryStandard": "RI.7.8",
+      "passage": "G7-I1: The Crisis Facing Coral Reefs",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author presents multiple factors (temperature, acidification, pollution, overfishing) as interconnected threats."
+    },
+    {
+      "id": "reading-7-rc-014",
+      "bankId": "reading-7-rc",
+      "text": "What inference can be made about Elena based on her reaction to the announcement?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She doesn't care about the competition",
+          "She is naturally talented and doesn't need practice",
+          "She is determined and hardworking despite challenges",
+          "She wants to quit music altogether"
+        ],
+        "correctAnswer": "She is determined and hardworking despite challenges"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.7.1"
+      ],
+      "primaryStandard": "RL.7.1",
+      "passage": "G7-L2: The Competition",
+      "passageText": "When Mrs. Hernandez announced the regional piano competition, Elena's heart raced with both excitement and fear. She had only been playing for two years, while most competitors had studied since childhood. Her family couldn't afford private lessons, so she practiced on the old keyboard at the community center, often waiting until other programs ended. Every evening after finishing her homework, Elena walked the six blocks to practice, even in winter. Her fingers sometimes ached from the cold, but she pushed through, playing scales and pieces until the center closed. When her classmates asked why she worked so hard, Elena simply said, 'Music is the language my grandmother taught me to speak. I want to honor her memory.'",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Elena's dedication to practicing despite obstacles (no private lessons, cold weather, walking far) shows her determination."
+    },
+    {
+      "id": "reading-7-rc-015",
+      "bankId": "reading-7-rc",
+      "text": "What theme does Elena's story develop?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Talent is more important than practice",
+          "Dedication and personal meaning drive perseverance",
+          "Competitions are unfair to poor students",
+          "Family traditions should be abandoned"
+        ],
+        "correctAnswer": "Dedication and personal meaning drive perseverance"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.7.2"
+      ],
+      "primaryStandard": "RL.7.2",
+      "passage": "G7-L2: The Competition",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage shows how Elena's personal connection to music and dedication help her overcome obstacles."
+    },
+    {
+      "id": "reading-7-rc-016",
+      "bankId": "reading-7-rc",
+      "text": "How do the story elements of Elena's limited resources and her grandmother's memory interact?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "They create conflict that Elena cannot resolve",
+          "Her grandmother's memory motivates her to overcome resource limitations",
+          "Limited resources prevent her from honoring her grandmother",
+          "They are unrelated elements in the story"
+        ],
+        "correctAnswer": "Her grandmother's memory motivates her to overcome resource limitations"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.7.3"
+      ],
+      "primaryStandard": "RL.7.3",
+      "passage": "G7-L2: The Competition",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Elena's emotional connection to her grandmother's memory gives her the motivation to persist despite financial challenges."
+    },
+    {
+      "id": "reading-7-rc-017",
+      "bankId": "reading-7-rc",
+      "text": "What does the phrase 'Music is the language my grandmother taught me to speak' reveal about Elena?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She learned a foreign language from her grandmother",
+          "Music has deep emotional and cultural significance for her",
+          "Her grandmother was a professional musician",
+          "She prefers music to speaking"
+        ],
+        "correctAnswer": "Music has deep emotional and cultural significance for her"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.7.4"
+      ],
+      "primaryStandard": "RL.7.4",
+      "passage": "G7-L2: The Competition",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "This metaphor shows that music is a form of emotional expression and connection to her heritage, not just a skill."
+    },
+    {
+      "id": "reading-7-rc-018",
+      "bankId": "reading-7-rc",
+      "text": "How does the author use contrast to develop Elena's character?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By comparing her to famous pianists",
+          "By contrasting her limited experience and resources with her extraordinary dedication",
+          "By showing how she is different from her grandmother",
+          "By contrasting summer and winter weather"
+        ],
+        "correctAnswer": "By contrasting her limited experience and resources with her extraordinary dedication"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.7.5"
+      ],
+      "primaryStandard": "RL.7.5",
+      "passage": "G7-L2: The Competition",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author contrasts Elena's disadvantages with her determination, making her dedication more impressive."
+    },
+    {
+      "id": "reading-7-rc-019",
+      "bankId": "reading-7-rc",
+      "text": "According to the passage, what is the primary cause of the bystander effect?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "People are naturally cruel",
+          "Diffusion of responsibility among multiple witnesses",
+          "Witnesses don't notice emergencies",
+          "People always help in small groups"
+        ],
+        "correctAnswer": "Diffusion of responsibility among multiple witnesses"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.7.1"
+      ],
+      "primaryStandard": "RI.7.1",
+      "passage": "G7-I2: The Bystander Effect",
+      "passageText": "In 1964, Kitty Genovese was attacked outside her New York apartment while 38 neighbors allegedly watched without calling police. This tragic event sparked research into the bystander effect, a psychological phenomenon where individuals are less likely to help when others are present. Psychologists John Darley and Bibb Latane conducted groundbreaking experiments proving that people help less in groups due to diffusion of responsibility. When multiple people witness an emergency, each person feels less personal responsibility to act, assuming someone else will help. Their studies showed that a person alone helps 85% of the time, but this drops to 31% in groups of five. Understanding this effect has practical applications. Emergency responders now teach people to point at a specific person and say, 'You in the blue shirt, call 911,' rather than making general requests for help.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explicitly states that diffusion of responsibility causes the bystander effect."
+    },
+    {
+      "id": "reading-7-rc-020",
+      "bankId": "reading-7-rc",
+      "text": "What is the central idea of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Kitty Genovese's attack was the most important event in psychology",
+          "The bystander effect explains why groups help less and how to overcome it",
+          "People should never trust their neighbors",
+          "Psychologists conduct too many experiments"
+        ],
+        "correctAnswer": "The bystander effect explains why groups help less and how to overcome it"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.7.2"
+      ],
+      "primaryStandard": "RI.7.2",
+      "passage": "G7-I2: The Bystander Effect",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explains the bystander effect, its causes, and practical ways to overcome it."
+    },
+    {
+      "id": "reading-7-rc-021",
+      "bankId": "reading-7-rc",
+      "text": "How does the author connect the Genovese case to the scientific research?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By claiming the case was entirely false",
+          "By showing how the tragedy inspired systematic study of the phenomenon",
+          "By arguing that the research disproved the case",
+          "By suggesting the neighbors should have been arrested"
+        ],
+        "correctAnswer": "By showing how the tragedy inspired systematic study of the phenomenon"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.7.3"
+      ],
+      "primaryStandard": "RI.7.3",
+      "passage": "G7-I2: The Bystander Effect",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage shows the case 'sparked research,' connecting real-world tragedy to scientific investigation."
+    },
+    {
+      "id": "reading-7-rc-022",
+      "bankId": "reading-7-rc",
+      "text": "What does 'diffusion of responsibility' mean based on context clues?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Taking full responsibility for actions",
+          "Spreading responsibility so each person feels less obligated",
+          "Refusing to accept any responsibility",
+          "Blaming others for problems"
+        ],
+        "correctAnswer": "Spreading responsibility so each person feels less obligated"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.7.4"
+      ],
+      "primaryStandard": "RI.7.4",
+      "passage": "G7-I2: The Bystander Effect",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The context explains that each person feels less personal responsibility when others are present."
+    },
+    {
+      "id": "reading-7-rc-023",
+      "bankId": "reading-7-rc",
+      "text": "Why does the author include the specific statistics about helping rates?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To make the text longer",
+          "To provide concrete evidence supporting the claim about group behavior",
+          "To criticize psychologists' methods",
+          "To confuse readers with numbers"
+        ],
+        "correctAnswer": "To provide concrete evidence supporting the claim about group behavior"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.7.5"
+      ],
+      "primaryStandard": "RI.7.5",
+      "passage": "G7-I2: The Bystander Effect",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The statistics (85% alone vs. 31% in groups) provide specific evidence for the bystander effect."
+    },
+    {
+      "id": "reading-7-rc-024",
+      "bankId": "reading-7-rc",
+      "text": "How does the author's inclusion of practical applications affect the passage's purpose?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It shifts focus from informing to persuading",
+          "It makes the information useful and actionable for readers",
+          "It undermines the scientific credibility",
+          "It suggests the research is incomplete"
+        ],
+        "correctAnswer": "It makes the information useful and actionable for readers"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.7.6"
+      ],
+      "primaryStandard": "RI.7.6",
+      "passage": "G7-I2: The Bystander Effect",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Including how to overcome the effect gives readers practical knowledge they can use."
+    },
+    {
+      "id": "reading-7-rc-025",
+      "bankId": "reading-7-rc",
+      "text": "Is the claim that the bystander effect is real well-supported in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "No, only opinions are presented",
+          "Yes, with experimental evidence and statistics",
+          "No, the examples are all fictional",
+          "Yes, but only with one anecdote"
+        ],
+        "correctAnswer": "Yes, with experimental evidence and statistics"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.7.8"
+      ],
+      "primaryStandard": "RI.7.8",
+      "passage": "G7-I2: The Bystander Effect",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage supports its claims with named researchers, experiments, and specific statistics."
+    },
+    {
+      "id": "reading-7-rc-026",
+      "bankId": "reading-7-rc",
+      "text": "What internal conflict does Amara experience throughout the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Whether to move to a new city",
+          "Whether to remain loyal to her friend or speak the truth",
+          "Whether to join the basketball team",
+          "Whether to change schools"
+        ],
+        "correctAnswer": "Whether to remain loyal to her friend or speak the truth"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.7.1"
+      ],
+      "primaryStandard": "RL.7.1",
+      "passage": "G7-L3: The Lie",
+      "passageText": "Amara watched as her best friend Destiny received the Student of the Month award for her community service project. The principal praised Destiny's 'outstanding dedication' to tutoring younger students. Amara clapped along with everyone else, but her stomach churned. She knew the truth. Destiny had barely shown up to tutoring sessions, while Amara had done most of the work. Destiny had simply put her name on the report. After the assembly, Destiny squeezed Amara's hand and whispered, 'Thanks for not saying anything. I really needed this for my transcript.' Amara forced a smile, but the words felt like stones in her throat. That night, she stared at her phone, drafting and deleting messages to the principal. Was protecting her friendship worth living with this secret?",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Amara struggles between loyalty to Destiny and her own desire to tell the truth about the unfair situation."
+    },
+    {
+      "id": "reading-7-rc-027",
+      "bankId": "reading-7-rc",
+      "text": "What theme does this passage explore?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Awards are always given fairly",
+          "The conflict between loyalty and integrity",
+          "Community service is unimportant",
+          "Best friends never disagree"
+        ],
+        "correctAnswer": "The conflict between loyalty and integrity"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.7.2"
+      ],
+      "primaryStandard": "RL.7.2",
+      "passage": "G7-L3: The Lie",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage centers on Amara's dilemma between being loyal to her friend and being honest about what happened."
+    },
+    {
+      "id": "reading-7-rc-028",
+      "bankId": "reading-7-rc",
+      "text": "How does Destiny's dialogue reveal her character?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It shows she is apologetic and plans to confess",
+          "It reveals she prioritizes personal gain over fairness",
+          "It demonstrates her gratitude for Amara's help",
+          "It proves she plans to share the award"
+        ],
+        "correctAnswer": "It reveals she prioritizes personal gain over fairness"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.7.3"
+      ],
+      "primaryStandard": "RL.7.3",
+      "passage": "G7-L3: The Lie",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Destiny thanks Amara for staying silent because she needs it for her transcript, showing self-interest over fairness."
+    },
+    {
+      "id": "reading-7-rc-029",
+      "bankId": "reading-7-rc",
+      "text": "What does the phrase 'the words felt like stones in her throat' suggest about Amara?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She has a sore throat",
+          "She finds it physically difficult to stay silent about the injustice",
+          "She is eating while talking",
+          "She doesn't understand what happened"
+        ],
+        "correctAnswer": "She finds it physically difficult to stay silent about the injustice"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.7.4"
+      ],
+      "primaryStandard": "RL.7.4",
+      "passage": "G7-L3: The Lie",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "This metaphor conveys how emotionally difficult and uncomfortable it is for Amara to suppress the truth."
+    },
+    {
+      "id": "reading-7-rc-030",
+      "bankId": "reading-7-rc",
+      "text": "How does the structure of ending with a question affect the reader?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It resolves all conflict neatly",
+          "It invites readers to consider the moral dilemma themselves",
+          "It shows Amara has made her decision",
+          "It proves the story will continue"
+        ],
+        "correctAnswer": "It invites readers to consider the moral dilemma themselves"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.7.5"
+      ],
+      "primaryStandard": "RL.7.5",
+      "passage": "G7-L3: The Lie",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Ending with Amara's question engages readers in thinking about what they would do in this situation."
+    },
+    {
+      "id": "reading-7-rc-031",
+      "bankId": "reading-7-rc",
+      "text": "What claim does the author make about sleep's importance for teenagers?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Sleep is optional for academic success",
+          "Sleep is essential for learning, health, and emotional well-being",
+          "Teenagers need less sleep than adults",
+          "Only sick teenagers need extra sleep"
+        ],
+        "correctAnswer": "Sleep is essential for learning, health, and emotional well-being"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.7.2"
+      ],
+      "primaryStandard": "RI.7.2",
+      "passage": "G7-I3: The Science of Teen Sleep",
+      "passageText": "Teenagers need 8-10 hours of sleep per night, yet studies show most get only 6-7 hours. This chronic sleep deprivation has serious consequences. During sleep, the brain consolidates memories and processes information learned during the day. Students who sleep well perform better on tests and retain more information. Sleep also regulates hormones that affect growth, appetite, and mood. Sleep-deprived teens face higher risks of depression, obesity, and weakened immune systems. Compounding the problem, adolescent circadian rhythms naturally shift, making teens feel alert later at night and sleepy later in the morning. This biological reality conflicts with early school start times. The American Academy of Pediatrics recommends schools start no earlier than 8:30 AM. Districts that have adopted later start times report improved attendance, reduced tardiness, and better academic performance.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explains multiple ways sleep affects learning, health, and emotions, establishing its essential nature."
+    },
+    {
+      "id": "reading-7-rc-032",
+      "bankId": "reading-7-rc",
+      "text": "What evidence supports the claim that sleep helps academic performance?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Teens feel alert at night",
+          "The brain consolidates memories during sleep and well-rested students test better",
+          "Schools should start at 8:30 AM",
+          "Most teens get only 6-7 hours of sleep"
+        ],
+        "correctAnswer": "The brain consolidates memories during sleep and well-rested students test better"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.7.1"
+      ],
+      "primaryStandard": "RI.7.1",
+      "passage": "G7-I3: The Science of Teen Sleep",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage directly connects sleep to memory consolidation and better test performance."
+    },
+    {
+      "id": "reading-7-rc-033",
+      "bankId": "reading-7-rc",
+      "text": "How does the author connect teen biology to school policy?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By ignoring biological factors entirely",
+          "By explaining how circadian rhythm shifts conflict with early start times",
+          "By suggesting teens should change their biology",
+          "By criticizing teenagers for staying up late"
+        ],
+        "correctAnswer": "By explaining how circadian rhythm shifts conflict with early start times"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.7.3"
+      ],
+      "primaryStandard": "RI.7.3",
+      "passage": "G7-I3: The Science of Teen Sleep",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage shows how natural teenage sleep patterns conflict with early school times, connecting biology to policy."
+    },
+    {
+      "id": "reading-7-rc-034",
+      "bankId": "reading-7-rc",
+      "text": "What does 'chronic sleep deprivation' mean in this context?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Occasional tiredness",
+          "Long-term, ongoing lack of sufficient sleep",
+          "Sleeping too much",
+          "A medical disease requiring medication"
+        ],
+        "correctAnswer": "Long-term, ongoing lack of sufficient sleep"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.7.4"
+      ],
+      "primaryStandard": "RI.7.4",
+      "passage": "G7-I3: The Science of Teen Sleep",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Chronic means ongoing/long-term, and deprivation means lacking something needed."
+    },
+    {
+      "id": "reading-7-rc-035",
+      "bankId": "reading-7-rc",
+      "text": "How does the inclusion of the American Academy of Pediatrics recommendation strengthen the argument?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It adds a personal opinion",
+          "It provides expert authority supporting the claims",
+          "It weakens the argument with bias",
+          "It contradicts the earlier evidence"
+        ],
+        "correctAnswer": "It provides expert authority supporting the claims"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.7.5"
+      ],
+      "primaryStandard": "RI.7.5",
+      "passage": "G7-I3: The Science of Teen Sleep",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Citing a respected medical organization adds credibility and expert support to the argument."
+    },
+    {
+      "id": "reading-7-rc-036",
+      "bankId": "reading-7-rc",
+      "text": "What is the author's purpose in writing this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To entertain readers with sleep stories",
+          "To inform readers about teen sleep science and advocate for policy changes",
+          "To criticize teenagers for poor habits",
+          "To advertise sleep products"
+        ],
+        "correctAnswer": "To inform readers about teen sleep science and advocate for policy changes"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.7.6"
+      ],
+      "primaryStandard": "RI.7.6",
+      "passage": "G7-I3: The Science of Teen Sleep",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage both informs about sleep science and advocates for later school start times."
+    },
+    {
+      "id": "reading-7-rc-037",
+      "bankId": "reading-7-rc",
+      "text": "Evaluate whether the evidence in the passage sufficiently supports the recommendation for later school start times.",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "No, only opinions are presented",
+          "Yes, with biological evidence, expert recommendations, and district outcomes",
+          "No, the evidence contradicts the recommendation",
+          "Yes, but only with student testimonials"
+        ],
+        "correctAnswer": "Yes, with biological evidence, expert recommendations, and district outcomes"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Integration of Knowledge",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.7.8"
+      ],
+      "primaryStandard": "RI.7.8",
+      "passage": "G7-I3: The Science of Teen Sleep",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage provides multiple types of evidence: biological facts, expert recommendations, and real district results."
+    },
+    {
+      "id": "reading-7-rc-038",
+      "bankId": "reading-7-rc",
+      "text": "What can you infer about the narrator's feelings toward the old house?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Pure excitement about moving there",
+          "Mixed feelings of curiosity and unease",
+          "Complete terror and desire to leave",
+          "Total indifference to the surroundings"
+        ],
+        "correctAnswer": "Mixed feelings of curiosity and unease"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.7.1"
+      ],
+      "primaryStandard": "RL.7.1",
+      "passage": "G7-L4: The New House",
+      "passageText": "The Victorian house stood at the end of Maple Street like a forgotten sentinel. Its peeling paint and crooked shutters should have made me dread moving there, but something about it whispered of secrets waiting to be discovered. On my first night, I explored the attic and found a trunk of old photographs showing children playing in the very room where I now slept. Their faces seemed familiar somehow, as if I had dreamed them before. The floorboards creaked with every step, and shadows played tricks in the corners, yet I felt no fear. Instead, a strange sense of belonging settled over me. Perhaps this house had been waiting for someone to love it again, and perhaps that someone was me.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The narrator describes both potentially frightening elements (creaking, shadows) and positive feelings (belonging, curiosity)."
+    },
+    {
+      "id": "reading-7-rc-039",
+      "bankId": "reading-7-rc",
+      "text": "What theme does the passage develop?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Old houses are always dangerous",
+          "Finding belonging in unexpected places",
+          "Children should fear the unknown",
+          "Moving is always traumatic"
+        ],
+        "correctAnswer": "Finding belonging in unexpected places"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.7.2"
+      ],
+      "primaryStandard": "RL.7.2",
+      "passage": "G7-L4: The New House",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The narrator finds an unexpected sense of belonging in a house that initially seems unwelcoming."
+    },
+    {
+      "id": "reading-7-rc-040",
+      "bankId": "reading-7-rc",
+      "text": "How does the setting interact with the narrator's emotional development?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The setting has no effect on the narrator",
+          "The mysterious house transforms from threatening to welcoming as the narrator explores",
+          "The house becomes more frightening over time",
+          "The narrator changes the house completely"
+        ],
+        "correctAnswer": "The mysterious house transforms from threatening to welcoming as the narrator explores"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.7.3"
+      ],
+      "primaryStandard": "RL.7.3",
+      "passage": "G7-L4: The New House",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The house's characteristics that seemed negative become part of its charm as the narrator's perspective shifts."
+    },
+    {
+      "id": "reading-7-rc-041",
+      "bankId": "reading-7-rc",
+      "text": "What effect does the personification 'the house had been waiting' create?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It makes the house seem dangerous",
+          "It suggests a mutual connection between narrator and house",
+          "It proves the house is haunted",
+          "It shows the house is newly built"
+        ],
+        "correctAnswer": "It suggests a mutual connection between narrator and house"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.7.4"
+      ],
+      "primaryStandard": "RL.7.4",
+      "passage": "G7-L4: The New House",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Personifying the house as 'waiting' creates a sense of destiny and mutual need between character and setting."
+    },
+    {
+      "id": "reading-7-rc-042",
+      "bankId": "reading-7-rc",
+      "text": "How does the author create mood through sensory details?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By only describing pleasant things",
+          "By combining unsettling details with the narrator's unexpected comfort",
+          "By avoiding any description of the setting",
+          "By focusing only on dialogue"
+        ],
+        "correctAnswer": "By combining unsettling details with the narrator's unexpected comfort"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.7.5"
+      ],
+      "primaryStandard": "RL.7.5",
+      "passage": "G7-L4: The New House",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author juxtaposes creepy details (creaking, shadows) with the narrator's comfort, creating an intriguing mood."
+    },
+    {
+      "id": "reading-7-rc-043",
+      "bankId": "reading-7-rc",
+      "text": "From what point of view is the passage written, and how does this shape the reader's experience?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Third person, giving objective distance",
+          "First person, allowing intimate access to the narrator's changing feelings",
+          "Second person, making the reader the main character",
+          "Third person omniscient, showing everyone's thoughts"
+        ],
+        "correctAnswer": "First person, allowing intimate access to the narrator's changing feelings"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.7.6"
+      ],
+      "primaryStandard": "RL.7.6",
+      "passage": "G7-L4: The New House",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "First person point of view lets readers directly experience the narrator's emotions and perspective shifts."
+    },
+    {
+      "id": "reading-7-rc-044",
+      "bankId": "reading-7-rc",
+      "text": "What is the main claim the author makes about social media's effects on teenagers?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Social media is entirely beneficial",
+          "Social media has complex effects with both benefits and significant concerns",
+          "Social media should be banned completely",
+          "Social media only affects adults"
+        ],
+        "correctAnswer": "Social media has complex effects with both benefits and significant concerns"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.7.2"
+      ],
+      "primaryStandard": "RI.7.2",
+      "passage": "G7-I4: Social Media and Teen Mental Health",
+      "passageText": "Social media platforms have become central to teenage life, with 95% of teens having access to smartphones and 45% reporting they are online 'almost constantly.' Research reveals complex effects on mental health. On one hand, social media enables connections with friends, provides support communities for marginalized youth, and offers creative outlets. On the other hand, studies link heavy social media use to increased rates of anxiety, depression, and poor body image. The constant comparison with curated, idealized posts can distort teens' self-perception. Cyberbullying affects approximately 37% of students, with lasting psychological impacts. The addictive design of these platforms, using variable rewards and notifications, keeps users scrolling even when they want to stop. Experts recommend setting time limits, curating feeds intentionally, and taking regular breaks from screens.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage presents both positive aspects (connections, communities) and negative effects (anxiety, cyberbullying)."
+    },
+    {
+      "id": "reading-7-rc-045",
+      "bankId": "reading-7-rc",
+      "text": "What evidence does the author provide about social media's negative effects?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Only personal opinions from teens",
+          "Links to anxiety, depression, poor body image, and cyberbullying statistics",
+          "Evidence that social media is completely harmless",
+          "Proof that no teens use social media"
+        ],
+        "correctAnswer": "Links to anxiety, depression, poor body image, and cyberbullying statistics"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.7.1"
+      ],
+      "primaryStandard": "RI.7.1",
+      "passage": "G7-I4: Social Media and Teen Mental Health",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage cites studies linking social media to mental health issues and statistics about cyberbullying."
+    },
+    {
+      "id": "reading-7-rc-046",
+      "bankId": "reading-7-rc",
+      "text": "How does the author explain the relationship between social media design and user behavior?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By ignoring how platforms are designed",
+          "By explaining how variable rewards and notifications create addictive patterns",
+          "By claiming users have complete control",
+          "By blaming only parents for teen usage"
+        ],
+        "correctAnswer": "By explaining how variable rewards and notifications create addictive patterns"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.7.3"
+      ],
+      "primaryStandard": "RI.7.3",
+      "passage": "G7-I4: Social Media and Teen Mental Health",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explains how platform design (variable rewards, notifications) keeps users engaged addictively."
+    },
+    {
+      "id": "reading-7-rc-047",
+      "bankId": "reading-7-rc",
+      "text": "What does 'curated' mean in the phrase 'curated, idealized posts'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Random and unplanned",
+          "Carefully selected and arranged to present a certain image",
+          "Scientific and factual",
+          "Quickly deleted"
+        ],
+        "correctAnswer": "Carefully selected and arranged to present a certain image"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.7.4"
+      ],
+      "primaryStandard": "RI.7.4",
+      "passage": "G7-I4: Social Media and Teen Mental Health",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Curated means deliberately chosen and arranged, like items in a museum exhibit."
+    },
+    {
+      "id": "reading-7-rc-048",
+      "bankId": "reading-7-rc",
+      "text": "How does the author structure the passage to present a balanced view?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By only discussing negative effects",
+          "By presenting benefits first, then concerns, then recommendations",
+          "By avoiding all evidence",
+          "By focusing only on expert opinions"
+        ],
+        "correctAnswer": "By presenting benefits first, then concerns, then recommendations"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.7.5"
+      ],
+      "primaryStandard": "RI.7.5",
+      "passage": "G7-I4: Social Media and Teen Mental Health",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage follows a structure: positive effects, negative effects, then practical recommendations."
+    },
+    {
+      "id": "reading-7-rc-049",
+      "bankId": "reading-7-rc",
+      "text": "Does the author maintain objectivity in presenting information about social media?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "No, the author only criticizes social media",
+          "Yes, the author presents both benefits and concerns with evidence",
+          "No, the author only praises social media",
+          "Yes, but no evidence is provided"
+        ],
+        "correctAnswer": "Yes, the author presents both benefits and concerns with evidence"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.7.6"
+      ],
+      "primaryStandard": "RI.7.6",
+      "passage": "G7-I4: Social Media and Teen Mental Health",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author presents both positive (connections, communities) and negative (anxiety, bullying) aspects objectively."
+    },
+    {
+      "id": "reading-7-rc-050",
+      "bankId": "reading-7-rc",
+      "text": "Evaluate whether the evidence supports the claim about social media's addictive design.",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "No evidence is provided about design",
+          "Yes, the explanation of variable rewards and notifications supports the addiction claim",
+          "The evidence contradicts the claim",
+          "Only opinions support the claim"
+        ],
+        "correctAnswer": "Yes, the explanation of variable rewards and notifications supports the addiction claim"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Integration of Knowledge",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.7.8"
+      ],
+      "primaryStandard": "RI.7.8",
+      "passage": "G7-I4: Social Media and Teen Mental Health",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage provides specific mechanisms (variable rewards, notifications) that explain the addictive design."
+    },
+    {
+      "id": "reading-7-rc-051",
+      "bankId": "reading-7-rc",
+      "text": "What inference can be made about Maya's attitude toward failure?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She avoids all challenges to prevent failure",
+          "She sees failure as a learning opportunity",
+          "She blames others when she fails",
+          "She gives up easily after setbacks"
+        ],
+        "correctAnswer": "She sees failure as a learning opportunity"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.7.1"
+      ],
+      "primaryStandard": "RL.7.1",
+      "passage": "G7-L5: The Robotics Competition",
+      "passageText": "Maya's robot lay in pieces on the competition floor, its arm mechanism completely failed during the final round. Months of work, hundreds of hours of coding and building, and it had all fallen apart in front of the judges. Her teammates looked devastated, some wiping away tears. Maya took a deep breath and began collecting the parts. 'We're coming back next year,' she announced, her voice steady. 'And we're going to figure out exactly why this joint failed.' On the bus ride home, while others sat in defeated silence, Maya filled her notebook with observations and sketches. 'The servo motor couldn't handle the torque,' she wrote. 'Solution: redesign the gear ratio. This failure just taught us something no success could have.'",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Maya's response to failure - taking notes, planning improvements, stating failure taught her - shows a growth mindset."
+    },
+    {
+      "id": "reading-7-rc-052",
+      "bankId": "reading-7-rc",
+      "text": "What theme does Maya's response to failure develop?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Competitions are unfair and should be avoided",
+          "Resilience and learning from setbacks lead to growth",
+          "Robots are too difficult to build",
+          "Teamwork always prevents failure"
+        ],
+        "correctAnswer": "Resilience and learning from setbacks lead to growth"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.7.2"
+      ],
+      "primaryStandard": "RL.7.2",
+      "passage": "G7-L5: The Robotics Competition",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Maya's determination to learn from failure and improve demonstrates the theme of resilience leading to growth."
+    },
+    {
+      "id": "reading-7-rc-053",
+      "bankId": "reading-7-rc",
+      "text": "How does the contrast between Maya and her teammates develop the story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It shows Maya is mean to her team",
+          "It highlights Maya's exceptional resilience against a backdrop of normal disappointment",
+          "It proves the team will break apart",
+          "It suggests Maya didn't care about winning"
+        ],
+        "correctAnswer": "It highlights Maya's exceptional resilience against a backdrop of normal disappointment"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.7.3"
+      ],
+      "primaryStandard": "RL.7.3",
+      "passage": "G7-L5: The Robotics Competition",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The teammates' tears and silence contrast with Maya's constructive response, emphasizing her resilience."
+    },
+    {
+      "id": "reading-7-rc-054",
+      "bankId": "reading-7-rc",
+      "text": "What does the phrase 'This failure just taught us something no success could have' reveal about Maya's perspective?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She prefers losing to winning",
+          "She values the deep learning that comes from analyzing mistakes",
+          "She doesn't care about the competition",
+          "She thinks success is meaningless"
+        ],
+        "correctAnswer": "She values the deep learning that comes from analyzing mistakes"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.7.4"
+      ],
+      "primaryStandard": "RL.7.4",
+      "passage": "G7-L5: The Robotics Competition",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Maya believes failure provides unique learning opportunities that success doesn't offer."
+    },
+    {
+      "id": "reading-7-rc-055",
+      "bankId": "reading-7-rc",
+      "text": "How does the author use pacing to develop tension and resolution in the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The passage moves slowly throughout",
+          "Quick action during failure transitions to slower reflection during the bus ride",
+          "There is no change in pacing",
+          "The passage ends with more action"
+        ],
+        "correctAnswer": "Quick action during failure transitions to slower reflection during the bus ride"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.7.5"
+      ],
+      "primaryStandard": "RL.7.5",
+      "passage": "G7-L5: The Robotics Competition",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The dramatic moment of failure is followed by the quieter bus ride where Maya reflects and plans."
+    },
+    {
+      "id": "reading-7-rc-056",
+      "bankId": "reading-7-rc",
+      "text": "What is the central idea of this passage about artificial intelligence?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "AI will definitely destroy all jobs",
+          "AI presents both opportunities and challenges that require thoughtful preparation",
+          "AI is not a real technology",
+          "AI only affects the technology industry"
+        ],
+        "correctAnswer": "AI presents both opportunities and challenges that require thoughtful preparation"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.7.2"
+      ],
+      "primaryStandard": "RI.7.2",
+      "passage": "G7-I5: The Future of Work and AI",
+      "passageText": "Artificial intelligence is transforming the workplace faster than many predicted. AI systems can now write articles, create art, analyze medical images, and even practice law. Some economists predict that 300 million jobs worldwide could be affected by AI automation by 2030. However, history shows that technological revolutions create new jobs even as they eliminate others. The invention of computers, for example, eventually led to millions of jobs that didn't exist before. The key challenge is managing the transition. Workers will need to develop skills that complement AI rather than compete with it. Creativity, emotional intelligence, complex problem-solving, and ethical judgment remain uniquely human strengths. Education systems are beginning to adapt, emphasizing critical thinking and adaptability over rote memorization. The future belongs to those who can work alongside intelligent machines.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage presents both AI's disruptive potential and opportunities, emphasizing the need for adaptation."
+    },
+    {
+      "id": "reading-7-rc-057",
+      "bankId": "reading-7-rc",
+      "text": "What evidence does the author use to counter fears about job loss?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Personal opinions about AI",
+          "Historical precedent showing technology revolutions create new jobs",
+          "Claims that AI doesn't really work",
+          "Statistics proving no jobs will be lost"
+        ],
+        "correctAnswer": "Historical precedent showing technology revolutions create new jobs"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.7.1"
+      ],
+      "primaryStandard": "RI.7.1",
+      "passage": "G7-I5: The Future of Work and AI",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author cites the computer revolution as historical evidence that technology creates new job categories."
+    },
+    {
+      "id": "reading-7-rc-058",
+      "bankId": "reading-7-rc",
+      "text": "How does the author connect current AI developments to educational changes?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By ignoring education entirely",
+          "By showing education must emphasize skills that complement AI",
+          "By arguing schools should teach less",
+          "By claiming education doesn't matter anymore"
+        ],
+        "correctAnswer": "By showing education must emphasize skills that complement AI"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.7.3"
+      ],
+      "primaryStandard": "RI.7.3",
+      "passage": "G7-I5: The Future of Work and AI",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explains how education systems are adapting to emphasize skills AI cannot replicate."
+    },
+    {
+      "id": "reading-7-rc-059",
+      "bankId": "reading-7-rc",
+      "text": "What does 'rote memorization' mean in this context?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Creative problem-solving",
+          "Mechanical memorization without understanding",
+          "Physical exercise routines",
+          "Advanced computer programming"
+        ],
+        "correctAnswer": "Mechanical memorization without understanding"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.7.4"
+      ],
+      "primaryStandard": "RI.7.4",
+      "passage": "G7-I5: The Future of Work and AI",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Rote memorization refers to learning through repetition without deep understanding."
+    },
+    {
+      "id": "reading-7-rc-060",
+      "bankId": "reading-7-rc",
+      "text": "How does the author structure the argument about AI's impact?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Only negative effects are discussed",
+          "Concern about disruption is balanced with historical perspective and adaptation strategies",
+          "Only positive effects are mentioned",
+          "No structure is apparent"
+        ],
+        "correctAnswer": "Concern about disruption is balanced with historical perspective and adaptation strategies"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.7.5"
+      ],
+      "primaryStandard": "RI.7.5",
+      "passage": "G7-I5: The Future of Work and AI",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage presents concerns, counters with historical context, and offers adaptation strategies."
+    },
+    {
+      "id": "reading-7-rc-061",
+      "bankId": "reading-7-rc",
+      "text": "What is the author's position on AI's impact on employment?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Completely pessimistic",
+          "Cautiously optimistic with emphasis on adaptation",
+          "Entirely dismissive of concerns",
+          "Neutral without any opinion"
+        ],
+        "correctAnswer": "Cautiously optimistic with emphasis on adaptation"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.7.6"
+      ],
+      "primaryStandard": "RI.7.6",
+      "passage": "G7-I5: The Future of Work and AI",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author acknowledges challenges but emphasizes opportunities for those who adapt."
+    },
+    {
+      "id": "reading-7-rc-062",
+      "bankId": "reading-7-rc",
+      "text": "Evaluate the strength of the claim that creativity remains a uniquely human strength.",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The claim is well-supported with extensive evidence",
+          "The claim is stated but not fully supported given AI's creative capabilities mentioned earlier",
+          "The claim is completely false",
+          "The claim is irrelevant to the passage"
+        ],
+        "correctAnswer": "The claim is stated but not fully supported given AI's creative capabilities mentioned earlier"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Integration of Knowledge",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.7.8"
+      ],
+      "primaryStandard": "RI.7.8",
+      "passage": "G7-I5: The Future of Work and AI",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage mentions AI can 'create art,' which somewhat contradicts the claim that creativity is uniquely human."
+    },
+    {
+      "id": "reading-7-rc-063",
+      "bankId": "reading-7-rc",
+      "text": "What can be inferred about the relationship between Grandpa Joe and the narrator?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "They have a distant, formal relationship",
+          "They share a close bond built on shared experiences",
+          "They have never met before",
+          "They disagree about everything"
+        ],
+        "correctAnswer": "They share a close bond built on shared experiences"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.7.1"
+      ],
+      "primaryStandard": "RL.7.1",
+      "passage": "G7-L6: The Last Summer",
+      "passageText": "Every summer, Grandpa Joe and I fished at dawn on Lake Michigan. This summer felt different. His hands trembled as he baited hooks, and he tired more quickly than before. I pretended not to notice, just as he pretended the doctors' visits were routine checkups. One morning, he handed me his favorite fishing rod, the one his father had given him. 'It's yours now,' he said simply. I wanted to refuse, to push back time itself. Instead, I gripped the worn handle and cast my line, blinking hard against the sunrise. We sat in comfortable silence, watching the water ripple golden in the early light. Some conversations don't need words. That summer, I learned that love means being present, even when presence is the hardest thing.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The rituals they share, comfortable silence, and unspoken understanding show their deep bond."
+    },
+    {
+      "id": "reading-7-rc-064",
+      "bankId": "reading-7-rc",
+      "text": "What theme does the passage develop through the fishing rod?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Material possessions are unimportant",
+          "Legacy and love transcend generations",
+          "Fishing is the best hobby",
+          "Old people give away too many things"
+        ],
+        "correctAnswer": "Legacy and love transcend generations"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.7.2"
+      ],
+      "primaryStandard": "RL.7.2",
+      "passage": "G7-L6: The Last Summer",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The fishing rod, passed from great-grandfather to grandfather to narrator, symbolizes continuing family bonds."
+    },
+    {
+      "id": "reading-7-rc-065",
+      "bankId": "reading-7-rc",
+      "text": "How do the narrator's actions of 'pretending not to notice' and 'blinking hard' interact to reveal character?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "They show the narrator is unobservant",
+          "They reveal the narrator's struggle between acknowledging pain and maintaining composure",
+          "They prove the narrator doesn't care about Grandpa",
+          "They indicate the narrator is tired"
+        ],
+        "correctAnswer": "They reveal the narrator's struggle between acknowledging pain and maintaining composure"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.7.3"
+      ],
+      "primaryStandard": "RL.7.3",
+      "passage": "G7-L6: The Last Summer",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Both actions show the narrator is aware of what's happening but trying to remain strong."
+    },
+    {
+      "id": "reading-7-rc-066",
+      "bankId": "reading-7-rc",
+      "text": "What does the phrase 'Some conversations don't need words' suggest about their relationship?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "They don't like talking to each other",
+          "Their bond is so deep that understanding transcends verbal communication",
+          "They speak different languages",
+          "They are both very quiet people"
+        ],
+        "correctAnswer": "Their bond is so deep that understanding transcends verbal communication"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.7.4"
+      ],
+      "primaryStandard": "RL.7.4",
+      "passage": "G7-L6: The Last Summer",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "This phrase shows their relationship has reached a level where they understand each other without speaking."
+    },
+    {
+      "id": "reading-7-rc-067",
+      "bankId": "reading-7-rc",
+      "text": "How does the symbolism of the golden sunrise contribute to the passage's meaning?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It shows the weather was nice",
+          "It creates beauty in a moment of impending loss, suggesting hope and preciousness",
+          "It indicates the passage takes place in summer",
+          "It proves they were fishing too early"
+        ],
+        "correctAnswer": "It creates beauty in a moment of impending loss, suggesting hope and preciousness"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.7.4"
+      ],
+      "primaryStandard": "RL.7.4",
+      "passage": "G7-L6: The Last Summer",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The golden light beautifies a bittersweet moment, emphasizing its preciousness despite underlying sadness."
+    },
+    {
+      "id": "reading-7-rc-068",
+      "bankId": "reading-7-rc",
+      "text": "What is the central claim of this passage about microplastics?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Microplastics are harmless",
+          "Microplastics are an invisible but pervasive environmental and health concern",
+          "Microplastics only affect ocean life",
+          "Scientists have solved the microplastic problem"
+        ],
+        "correctAnswer": "Microplastics are an invisible but pervasive environmental and health concern"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.7.2"
+      ],
+      "primaryStandard": "RI.7.2",
+      "passage": "G7-I6: The Invisible Threat of Microplastics",
+      "passageText": "Microplastics, tiny plastic fragments smaller than five millimeters, have infiltrated every corner of Earth. Scientists have found them in Arctic ice, deep ocean trenches, and even in human blood samples. These particles originate from degrading plastic waste, synthetic clothing fibers, and cosmetic products. Research indicates that an average person ingests approximately five grams of plastic weekly, equivalent to a credit card. The health effects remain under investigation, but studies on animals show microplastics can cause inflammation, cellular damage, and disrupt hormones. Marine ecosystems face particular threats, as filter-feeding organisms accumulate high concentrations. Potential solutions include biodegradable alternatives, improved recycling systems, and regulations on single-use plastics. However, the microplastics already in our environment will persist for centuries, making this a challenge future generations will inherit.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explains the widespread presence and potential dangers of microplastics."
+    },
+    {
+      "id": "reading-7-rc-069",
+      "bankId": "reading-7-rc",
+      "text": "What evidence demonstrates the pervasive nature of microplastics?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Only opinions from environmentalists",
+          "Their presence in Arctic ice, ocean trenches, and human blood",
+          "Evidence that they don't exist",
+          "Statistics about plastic recycling"
+        ],
+        "correctAnswer": "Their presence in Arctic ice, ocean trenches, and human blood"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.7.1"
+      ],
+      "primaryStandard": "RI.7.1",
+      "passage": "G7-I6: The Invisible Threat of Microplastics",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Finding microplastics in remote locations and inside human bodies proves their widespread presence."
+    },
+    {
+      "id": "reading-7-rc-070",
+      "bankId": "reading-7-rc",
+      "text": "How does the author connect microplastics' origins to their presence in ecosystems?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The connection is not explained",
+          "By showing how plastics degrade into particles that spread through environment and accumulate in organisms",
+          "By blaming only cosmetic companies",
+          "By ignoring the sources entirely"
+        ],
+        "correctAnswer": "By showing how plastics degrade into particles that spread through environment and accumulate in organisms"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.7.3"
+      ],
+      "primaryStandard": "RI.7.3",
+      "passage": "G7-I6: The Invisible Threat of Microplastics",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage traces microplastics from sources (degrading plastic, synthetic fibers) to their accumulation in ecosystems and bodies."
+    },
+    {
+      "id": "reading-7-rc-071",
+      "bankId": "reading-7-rc",
+      "text": "What does 'infiltrated' mean in the context of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Cleaned and purified",
+          "Spread into and throughout, often without being noticed",
+          "Completely eliminated",
+          "Remained in one location"
+        ],
+        "correctAnswer": "Spread into and throughout, often without being noticed"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.7.4"
+      ],
+      "primaryStandard": "RI.7.4",
+      "passage": "G7-I6: The Invisible Threat of Microplastics",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Infiltrated means to enter or spread through gradually, often in a harmful or undetected way."
+    },
+    {
+      "id": "reading-7-rc-072",
+      "bankId": "reading-7-rc",
+      "text": "Why does the author compare weekly plastic ingestion to a credit card?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To discuss financial matters",
+          "To make an abstract amount concrete and relatable for readers",
+          "To suggest people should eat credit cards",
+          "To criticize credit card companies"
+        ],
+        "correctAnswer": "To make an abstract amount concrete and relatable for readers"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.7.5"
+      ],
+      "primaryStandard": "RI.7.5",
+      "passage": "G7-I6: The Invisible Threat of Microplastics",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Comparing to a familiar object helps readers understand the otherwise abstract measurement."
+    },
+    {
+      "id": "reading-7-rc-073",
+      "bankId": "reading-7-rc",
+      "text": "Evaluate the author's claim about health effects of microplastics.",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The claim is stated as definite fact",
+          "The author appropriately notes research is ongoing while citing concerning animal studies",
+          "No evidence is provided about health effects",
+          "The author claims microplastics are healthy"
+        ],
+        "correctAnswer": "The author appropriately notes research is ongoing while citing concerning animal studies"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Integration of Knowledge",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.7.8"
+      ],
+      "primaryStandard": "RI.7.8",
+      "passage": "G7-I6: The Invisible Threat of Microplastics",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author acknowledges uncertainty ('remain under investigation') while citing animal study evidence."
+    },
+    {
+      "id": "reading-7-rc-074",
+      "bankId": "reading-7-rc",
+      "text": "What inference can be made about Kai's character based on his actions during the storm?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He is reckless and doesn't think before acting",
+          "He is brave and puts others' safety above his own comfort",
+          "He is fearful and hides during emergencies",
+          "He only helps people he knows well"
+        ],
+        "correctAnswer": "He is brave and puts others' safety above his own comfort"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.7.1"
+      ],
+      "primaryStandard": "RL.7.1",
+      "passage": "G7-L7: The Storm",
+      "passageText": "The hurricane warning came too late for the coastal town of Cedar Bay. Kai watched through his window as waves crashed over the seawall. His phone buzzed with an emergency alert. The elderly residents at Sunrise Assisted Living needed evacuation help, but emergency services were overwhelmed. Kai grabbed his rain jacket and headed out. His mother called after him, worry cracking her voice. 'I'll be careful,' he shouted back, already running. At the facility, he found residents confused and frightened. Working alongside the staff, Kai helped guide wheelchairs through ankle-deep water to higher ground. By midnight, everyone was safe at the community center. Kai finally sat down, exhausted but unable to stop smiling. Sometimes the person you become in a crisis reveals who you were meant to be all along.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Kai leaves safety to help elderly strangers despite the dangerous storm, showing courage and selflessness."
+    },
+    {
+      "id": "reading-7-rc-075",
+      "bankId": "reading-7-rc",
+      "text": "What theme does the final sentence develop?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Hurricanes are dangerous and should be feared",
+          "Difficult situations reveal our true character and potential",
+          "Elderly people need constant help",
+          "Emergency services are unreliable"
+        ],
+        "correctAnswer": "Difficult situations reveal our true character and potential"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.7.2"
+      ],
+      "primaryStandard": "RL.7.2",
+      "passage": "G7-L7: The Storm",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The final sentence explicitly states that crisis reveals character, the theme demonstrated by Kai's actions."
+    },
+    {
+      "id": "reading-7-rc-076",
+      "bankId": "reading-7-rc",
+      "text": "How does the interaction between Kai and his mother contribute to the story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It shows Kai is disobedient",
+          "It adds emotional tension by showing what Kai risks and his mother's fear",
+          "It proves his mother doesn't care about others",
+          "It slows down the story unnecessarily"
+        ],
+        "correctAnswer": "It adds emotional tension by showing what Kai risks and his mother's fear"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.7.3"
+      ],
+      "primaryStandard": "RL.7.3",
+      "passage": "G7-L7: The Storm",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The mother's worried voice emphasizes the danger Kai faces and the sacrifice he makes."
+    },
+    {
+      "id": "reading-7-rc-077",
+      "bankId": "reading-7-rc",
+      "text": "What does the phrase 'worry cracking her voice' suggest about Kai's mother?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She has a cold",
+          "Her fear for Kai is so intense it affects how she speaks",
+          "She is angry at Kai",
+          "She doesn't want him to help others"
+        ],
+        "correctAnswer": "Her fear for Kai is so intense it affects how she speaks"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.7.4"
+      ],
+      "primaryStandard": "RL.7.4",
+      "passage": "G7-L7: The Storm",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The metaphor of worry 'cracking' her voice shows intense emotion affecting her speech."
+    },
+    {
+      "id": "reading-7-rc-078",
+      "bankId": "reading-7-rc",
+      "text": "How does the author use pacing to build tension in the story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The story moves slowly throughout",
+          "Short sentences and quick actions create urgency during the crisis",
+          "The pacing is inconsistent and confusing",
+          "Long descriptions slow down all action"
+        ],
+        "correctAnswer": "Short sentences and quick actions create urgency during the crisis"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.7.5"
+      ],
+      "primaryStandard": "RL.7.5",
+      "passage": "G7-L7: The Storm",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Phrases like 'Kai grabbed,' 'headed out,' and 'already running' create rapid pacing that builds urgency."
+    },
+    {
+      "id": "reading-7-rc-079",
+      "bankId": "reading-7-rc",
+      "text": "What is the central claim of this passage about space exploration?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Space exploration is a waste of money",
+          "Space exploration yields valuable scientific and practical benefits",
+          "Space exploration is impossible",
+          "Only governments should explore space"
+        ],
+        "correctAnswer": "Space exploration yields valuable scientific and practical benefits"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.7.2"
+      ],
+      "primaryStandard": "RI.7.2",
+      "passage": "G7-I7: The Value of Space Exploration",
+      "passageText": "Critics question whether space exploration is worth its enormous cost, but the benefits extend far beyond scientific discovery. NASA's research has produced over 2,000 spinoff technologies used in everyday life, including memory foam, water purification systems, and scratch-resistant lenses. The space program has inspired generations of scientists and engineers. Studying other planets helps us understand Earth's climate and geology. Mars missions develop technologies useful for addressing challenges on Earth, from sustainable food production to renewable energy. International cooperation on space projects like the International Space Station promotes diplomacy and shared human achievement. Looking toward the future, asteroid mining could provide rare minerals, and establishing colonies might ensure humanity's long-term survival. The cost of space exploration represents less than 0.5% of the federal budget yet drives innovation with immeasurable returns.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage argues for space exploration's value through technology, inspiration, and future benefits."
+    },
+    {
+      "id": "reading-7-rc-080",
+      "bankId": "reading-7-rc",
+      "text": "What evidence supports the claim that space exploration benefits daily life?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Only opinions from NASA employees",
+          "Specific examples like memory foam, water purification, and scratch-resistant lenses",
+          "Evidence that space exploration has no benefits",
+          "Statistics about astronaut training"
+        ],
+        "correctAnswer": "Specific examples like memory foam, water purification, and scratch-resistant lenses"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.7.1"
+      ],
+      "primaryStandard": "RI.7.1",
+      "passage": "G7-I7: The Value of Space Exploration",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage provides concrete examples of spinoff technologies that benefit everyday life."
+    },
+    {
+      "id": "reading-7-rc-081",
+      "bankId": "reading-7-rc",
+      "text": "How does the author connect space research to Earth's challenges?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By ignoring Earth entirely",
+          "By explaining how Mars mission technologies address sustainable food and energy challenges",
+          "By claiming space is more important than Earth",
+          "By separating space research from Earth benefits"
+        ],
+        "correctAnswer": "By explaining how Mars mission technologies address sustainable food and energy challenges"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.7.3"
+      ],
+      "primaryStandard": "RI.7.3",
+      "passage": "G7-I7: The Value of Space Exploration",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage shows how Mars research develops technologies applicable to Earth's problems."
+    },
+    {
+      "id": "reading-7-rc-082",
+      "bankId": "reading-7-rc",
+      "text": "What does 'spinoff technologies' mean in this context?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Technologies that spin in circles",
+          "Technologies developed for space that find practical uses elsewhere",
+          "Failed space experiments",
+          "Television shows about space"
+        ],
+        "correctAnswer": "Technologies developed for space that find practical uses elsewhere"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.7.4"
+      ],
+      "primaryStandard": "RI.7.4",
+      "passage": "G7-I7: The Value of Space Exploration",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Spinoff technologies are innovations originally developed for one purpose (space) that become useful elsewhere."
+    },
+    {
+      "id": "reading-7-rc-083",
+      "bankId": "reading-7-rc",
+      "text": "How does the author address the counterargument about cost?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By ignoring cost concerns completely",
+          "By acknowledging cost but showing it's a small percentage with significant returns",
+          "By agreeing space exploration costs too much",
+          "By providing no data about costs"
+        ],
+        "correctAnswer": "By acknowledging cost but showing it's a small percentage with significant returns"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.7.5"
+      ],
+      "primaryStandard": "RI.7.5",
+      "passage": "G7-I7: The Value of Space Exploration",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author addresses the cost criticism by noting it's less than 0.5% of budget with immeasurable returns."
+    },
+    {
+      "id": "reading-7-rc-084",
+      "bankId": "reading-7-rc",
+      "text": "Evaluate the strength of the argument for space exploration's value.",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The argument relies only on emotions",
+          "The argument is supported by statistics, examples, and addresses counterarguments",
+          "The argument provides no evidence",
+          "The argument contradicts itself"
+        ],
+        "correctAnswer": "The argument is supported by statistics, examples, and addresses counterarguments"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Integration of Knowledge",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.7.8"
+      ],
+      "primaryStandard": "RI.7.8",
+      "passage": "G7-I7: The Value of Space Exploration",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage uses numbers (2,000 spinoffs, 0.5% budget), specific examples, and addresses the cost concern."
+    },
+    {
+      "id": "reading-7-rc-085",
+      "bankId": "reading-7-rc",
+      "text": "What can be inferred about Zara's relationship with her father based on the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "They have no relationship at all",
+          "They have a complicated relationship affected by his absence due to deployment",
+          "They see each other every day",
+          "They don't know each other exists"
+        ],
+        "correctAnswer": "They have a complicated relationship affected by his absence due to deployment"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.7.1"
+      ],
+      "primaryStandard": "RL.7.1",
+      "passage": "G7-L8: The Video Call",
+      "passageText": "Zara positioned her laptop carefully, checking the angle three times. In ten minutes, she would see her father's face for the first time in four months. Military deployment had taken him to a base overseas, and their communication had been limited to occasional emails. The video call connected, and there he was, looking tired but smiling. 'You cut your hair,' he said. 'You look grown up.' She touched her shorter locks self-consciously. Four months felt like forever when you were twelve. They talked about school, her soccer games, the neighbor's new dog. So many ordinary things that felt extraordinary to share. When the signal began to falter, her father leaned closer to the camera. 'I'm proud of you, Zara. Keep being brave.' After the call ended, she stared at the blank screen, missing him more than before, yet somehow feeling stronger.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The details about missing him, carefully preparing for the call, and the emotional ending show a loving but strained-by-distance relationship."
+    },
+    {
+      "id": "reading-7-rc-086",
+      "bankId": "reading-7-rc",
+      "text": "What theme does the passage develop through Zara's experience?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Technology is always reliable",
+          "Connection and love persist despite physical separation",
+          "Military life is easy for families",
+          "Video calls are better than in-person visits"
+        ],
+        "correctAnswer": "Connection and love persist despite physical separation"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.7.2"
+      ],
+      "primaryStandard": "RL.7.2",
+      "passage": "G7-L8: The Video Call",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Despite distance and limited communication, Zara and her father maintain their bond and support each other."
+    },
+    {
+      "id": "reading-7-rc-087",
+      "bankId": "reading-7-rc",
+      "text": "How does the detail about Zara checking the laptop angle three times reveal her emotional state?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It shows she is bored",
+          "It reveals her anxiety and desire for everything to be perfect for this important moment",
+          "It proves she doesn't know how to use technology",
+          "It indicates she doesn't care about the call"
+        ],
+        "correctAnswer": "It reveals her anxiety and desire for everything to be perfect for this important moment"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.7.3"
+      ],
+      "primaryStandard": "RL.7.3",
+      "passage": "G7-L8: The Video Call",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The repeated checking shows nervous anticipation and how much this call means to her."
+    },
+    {
+      "id": "reading-7-rc-088",
+      "bankId": "reading-7-rc",
+      "text": "What does the phrase 'missing him more than before, yet somehow feeling stronger' reveal?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Zara is confused about her feelings",
+          "The connection reinforced her love while also giving her emotional strength",
+          "She doesn't want to see him again",
+          "The call made her feel worse overall"
+        ],
+        "correctAnswer": "The connection reinforced her love while also giving her emotional strength"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.7.4"
+      ],
+      "primaryStandard": "RL.7.4",
+      "passage": "G7-L8: The Video Call",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "This paradox shows how connecting with loved ones can increase longing while also providing emotional support."
+    },
+    {
+      "id": "reading-7-rc-089",
+      "bankId": "reading-7-rc",
+      "text": "How does the contrast between 'ordinary things' and 'extraordinary to share' contribute to meaning?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It shows their conversation was boring",
+          "It emphasizes how separation makes everyday moments precious",
+          "It proves they have nothing in common",
+          "It indicates the call was too short"
+        ],
+        "correctAnswer": "It emphasizes how separation makes everyday moments precious"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.7.4"
+      ],
+      "primaryStandard": "RL.7.4",
+      "passage": "G7-L8: The Video Call",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The contrast shows how distance transforms mundane sharing into meaningful connection."
+    },
+    {
+      "id": "reading-7-rc-090",
+      "bankId": "reading-7-rc",
+      "text": "What is the author's main claim about indigenous land management practices?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "They are outdated and should be abandoned",
+          "They offer valuable knowledge for modern environmental challenges",
+          "They have no scientific basis",
+          "They are only useful for small areas"
+        ],
+        "correctAnswer": "They offer valuable knowledge for modern environmental challenges"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.7.2"
+      ],
+      "primaryStandard": "RI.7.2",
+      "passage": "G7-I8: Indigenous Knowledge and Environmental Science",
+      "passageText": "For thousands of years, indigenous peoples developed sophisticated land management practices passed down through generations. Modern scientists are now recognizing the value of this traditional ecological knowledge. In Australia, Aboriginal fire management techniques, known as 'cultural burning,' reduce wildfire severity by clearing undergrowth during cooler periods. California has begun incorporating these practices after devastating recent fires. Indigenous knowledge about medicinal plants has led to numerous pharmaceutical discoveries. Traditional fishing practices often prove more sustainable than industrial methods. However, this knowledge faces threats from climate change, which alters ecosystems faster than traditional patterns can adapt, and from cultural disruption that breaks generational knowledge transfer. Scientists increasingly advocate for collaborative approaches that combine indigenous wisdom with modern research methods, creating more complete understanding of ecological systems.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage argues that indigenous practices offer valuable environmental knowledge that complements modern science."
+    },
+    {
+      "id": "reading-7-rc-091",
+      "bankId": "reading-7-rc",
+      "text": "What evidence supports the value of traditional fire management?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Only theoretical arguments",
+          "Cultural burning reduces wildfire severity, and California has begun incorporating these practices",
+          "Evidence that traditional practices don't work",
+          "Statistics about fire department budgets"
+        ],
+        "correctAnswer": "Cultural burning reduces wildfire severity, and California has begun incorporating these practices"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.7.1"
+      ],
+      "primaryStandard": "RI.7.1",
+      "passage": "G7-I8: Indigenous Knowledge and Environmental Science",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage provides evidence that cultural burning works and is being adopted by California."
+    },
+    {
+      "id": "reading-7-rc-092",
+      "bankId": "reading-7-rc",
+      "text": "How does the author explain the threats to indigenous knowledge?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By ignoring any threats",
+          "By connecting climate change ecosystem disruption and cultural disruption to knowledge loss",
+          "By blaming indigenous communities",
+          "By claiming the knowledge was never valuable"
+        ],
+        "correctAnswer": "By connecting climate change ecosystem disruption and cultural disruption to knowledge loss"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.7.3"
+      ],
+      "primaryStandard": "RI.7.3",
+      "passage": "G7-I8: Indigenous Knowledge and Environmental Science",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage identifies both environmental (climate change) and social (cultural disruption) threats to knowledge preservation."
+    },
+    {
+      "id": "reading-7-rc-093",
+      "bankId": "reading-7-rc",
+      "text": "What does 'collaborative approaches' mean in this context?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Indigenous communities working alone",
+          "Scientists and indigenous knowledge holders working together",
+          "Ignoring traditional knowledge entirely",
+          "Replacing science with traditional knowledge"
+        ],
+        "correctAnswer": "Scientists and indigenous knowledge holders working together"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.7.4"
+      ],
+      "primaryStandard": "RI.7.4",
+      "passage": "G7-I8: Indigenous Knowledge and Environmental Science",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Collaborative approaches mean combining indigenous wisdom with modern research methods through cooperation."
+    },
+    {
+      "id": "reading-7-rc-094",
+      "bankId": "reading-7-rc",
+      "text": "How does the author organize the passage to present a balanced perspective?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By only discussing benefits",
+          "By presenting value and examples, then addressing challenges, then suggesting solutions",
+          "By criticizing all traditional knowledge",
+          "By avoiding any structure"
+        ],
+        "correctAnswer": "By presenting value and examples, then addressing challenges, then suggesting solutions"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.7.5"
+      ],
+      "primaryStandard": "RI.7.5",
+      "passage": "G7-I8: Indigenous Knowledge and Environmental Science",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage moves from explaining value to acknowledging threats to proposing collaborative solutions."
+    },
+    {
+      "id": "reading-7-rc-095",
+      "bankId": "reading-7-rc",
+      "text": "Evaluate whether the author adequately supports the claim about pharmaceutical discoveries.",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Yes, with specific examples of medicines",
+          "No, the claim is made without specific examples or statistics",
+          "Yes, with detailed scientific studies",
+          "The claim is not made in the passage"
+        ],
+        "correctAnswer": "No, the claim is made without specific examples or statistics"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Integration of Knowledge",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.7.8"
+      ],
+      "primaryStandard": "RI.7.8",
+      "passage": "G7-I8: Indigenous Knowledge and Environmental Science",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage claims 'numerous pharmaceutical discoveries' but doesn't name specific medicines or provide data."
+    },
+    {
+      "id": "reading-7-rc-096",
+      "bankId": "reading-7-rc",
+      "text": "What can be inferred about the twins' different approaches to their shared situation?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "They both react identically to everything",
+          "They have contrasting perspectives that ultimately complement each other",
+          "They never communicate about their feelings",
+          "They want to be separated permanently"
+        ],
+        "correctAnswer": "They have contrasting perspectives that ultimately complement each other"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.7.1"
+      ],
+      "primaryStandard": "RL.7.1",
+      "passage": "G7-L9: The Twins' Perspectives",
+      "passageText": "When their parents announced the move from Chicago to a small town in Oregon, the twins reacted very differently. Mia saw adventure in every unknown; Noah saw only loss. On moving day, Mia counted the states they crossed while Noah counted the miles from everything familiar. Their first week in Oregon followed the same pattern. Mia joined clubs, made friends, explored hiking trails. Noah stayed in his room, video calling Chicago friends, refusing to unpack. One evening, Mia knocked on his door. 'I know you're scared,' she said. 'I am too. I just handle it differently.' Noah looked up, surprised. He hadn't considered that her enthusiasm might be her way of coping. 'Show me the hiking trail?' he asked. That weekend, they explored together, and Noah began to understand that moving forward didn't mean forgetting the past.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Mia's adventurous approach and Noah's reluctance contrast but eventually combine as they support each other."
+    },
+    {
+      "id": "reading-7-rc-097",
+      "bankId": "reading-7-rc",
+      "text": "What theme emerges from the twins' experience?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Twins always agree about everything",
+          "Different coping strategies can both be valid responses to change",
+          "Moving is always a positive experience",
+          "Siblings should handle problems identically"
+        ],
+        "correctAnswer": "Different coping strategies can both be valid responses to change"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.7.2"
+      ],
+      "primaryStandard": "RL.7.2",
+      "passage": "G7-L9: The Twins' Perspectives",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage shows that both Mia's enthusiasm and Noah's reluctance are valid ways of coping with change."
+    },
+    {
+      "id": "reading-7-rc-098",
+      "bankId": "reading-7-rc",
+      "text": "How does Mia's revelation 'I'm scared too' change Noah's understanding?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It makes him more afraid",
+          "It helps him see her enthusiasm as a coping mechanism rather than lack of feeling",
+          "It proves she doesn't care about the move",
+          "It has no effect on Noah"
+        ],
+        "correctAnswer": "It helps him see her enthusiasm as a coping mechanism rather than lack of feeling"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.7.3"
+      ],
+      "primaryStandard": "RL.7.3",
+      "passage": "G7-L9: The Twins' Perspectives",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Noah is surprised because he hadn't realized her enthusiasm was also a response to fear."
+    },
+    {
+      "id": "reading-7-rc-099",
+      "bankId": "reading-7-rc",
+      "text": "What does the phrase 'moving forward didn't mean forgetting the past' suggest about Noah's growth?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He decides to move back to Chicago",
+          "He learns he can embrace new experiences while honoring his memories",
+          "He forgets about his old friends completely",
+          "He refuses to change at all"
+        ],
+        "correctAnswer": "He learns he can embrace new experiences while honoring his memories"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.7.4"
+      ],
+      "primaryStandard": "RL.7.4",
+      "passage": "G7-L9: The Twins' Perspectives",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "This realization shows Noah understanding that accepting change doesn't require abandoning his past."
+    },
+    {
+      "id": "reading-7-rc-100",
+      "bankId": "reading-7-rc",
+      "text": "How does the parallel structure of 'Mia counted the states... Noah counted the miles' contribute to characterization?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It shows they are exactly the same",
+          "It efficiently highlights their contrasting attitudes toward the same journey",
+          "It proves counting is important to both",
+          "It has no literary purpose"
+        ],
+        "correctAnswer": "It efficiently highlights their contrasting attitudes toward the same journey"
+      },
+      "subject": "Reading",
+      "gradeLevel": "7",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.7.5"
+      ],
+      "primaryStandard": "RL.7.5",
+      "passage": "G7-L9: The Twins' Perspectives",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The parallel sentence structure emphasizes how the same experience produces opposite responses in each twin."
+    }
+  ]
+}

@@ -17,7 +17,7 @@ import { ReadinessDistribution, ReadinessStatus } from '../../types';
 interface ReadinessDonutChartProps {
   data: ReadinessDistribution;
   isLoading?: boolean;
-  curriculumLabel?: string; // "AP" or "IGCSE"
+  curriculumLabel?: string; // "Grade-Level" or "IGCSE"
   className?: string;
 }
 
@@ -37,7 +37,7 @@ const LIGHT_COLORS: Record<ReadinessStatus, string> = {
 export const ReadinessDonutChart: React.FC<ReadinessDonutChartProps> = ({
   data,
   isLoading = false,
-  curriculumLabel = 'IGCSE',
+  curriculumLabel = 'Grade-Level',
   className = '',
 }) => {
   // Transform data for Recharts
@@ -50,7 +50,7 @@ export const ReadinessDonutChart: React.FC<ReadinessDonutChartProps> = ({
 
     return [
       {
-        name: 'Ready',
+        name: 'On Track',
         value: data.ready,
         status: 'ready' as ReadinessStatus,
         percentage: Math.round((data.ready / total) * 100),
@@ -62,7 +62,7 @@ export const ReadinessDonutChart: React.FC<ReadinessDonutChartProps> = ({
         percentage: Math.round((data.approaching / total) * 100),
       },
       {
-        name: 'Not Yet Ready',
+        name: 'Below Level',
         value: data.notYetReady,
         status: 'not-yet-ready' as ReadinessStatus,
         percentage: Math.round((data.notYetReady / total) * 100),
@@ -152,9 +152,9 @@ export const ReadinessDonutChart: React.FC<ReadinessDonutChartProps> = ({
               />
             </svg>
           </div>
-          <h3 className="font-bold text-slate-600 mb-1">No Readiness Data</h3>
+          <h3 className="font-bold text-slate-600 mb-1">No Performance Data</h3>
           <p className="text-sm text-slate-400 max-w-xs">
-            Complete assessments to see {curriculumLabel} readiness distribution
+            Complete assessments to see performance distribution
           </p>
         </div>
       </div>
@@ -166,7 +166,7 @@ export const ReadinessDonutChart: React.FC<ReadinessDonutChartProps> = ({
       {/* Chart title */}
       <div className="text-center mb-4">
         <h3 className="text-sm font-bold text-slate-600 uppercase tracking-wider">
-          {curriculumLabel} Readiness Distribution
+          Performance Distribution
         </h3>
         <p className="text-xs text-slate-400 mt-1">
           {total} students assessed
@@ -215,7 +215,7 @@ export const ReadinessDonutChart: React.FC<ReadinessDonutChartProps> = ({
       {/* Detailed breakdown */}
       <div className="grid grid-cols-3 gap-3 mt-6">
         <ReadinessStatCard
-          label="Ready"
+          label="On Track"
           value={data.ready}
           percentage={total > 0 ? Math.round((data.ready / total) * 100) : 0}
           status="ready"
@@ -227,7 +227,7 @@ export const ReadinessDonutChart: React.FC<ReadinessDonutChartProps> = ({
           status="approaching"
         />
         <ReadinessStatCard
-          label="Not Yet Ready"
+          label="Below Level"
           value={data.notYetReady}
           percentage={total > 0 ? Math.round((data.notYetReady / total) * 100) : 0}
           status="not-yet-ready"

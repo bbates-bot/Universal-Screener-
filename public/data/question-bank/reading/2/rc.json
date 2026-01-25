@@ -1,0 +1,2034 @@
+{
+  "metadata": {
+    "subject": "Reading",
+    "gradeLevel": "2",
+    "domain": "RC",
+    "domainName": "Reading Comprehension",
+    "lastUpdated": "2026-01-25",
+    "totalQuestions": 100,
+    "description": "CCSS-aligned reading comprehension assessment with literary and informational texts",
+    "lexileRange": "420L-650L"
+  },
+  "questions": [
+    {
+      "id": "reading-2-rc-001",
+      "bankId": "reading-2-rc",
+      "text": "How did Ma Liang get the magic paintbrush?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["He bought it at a store", "An old man gave it to him in a dream", "He found it on the ground", "The emperor gave it to him"],
+        "correctAnswer": "An old man gave it to him in a dream"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.2.1"],
+      "primaryStandard": "RL.2.1",
+      "passage": "G2-L1: The Magic Paintbrush",
+      "passageText": "Long ago in China, there lived a poor boy named Ma Liang. He loved to draw but had no brush. One night, an old man appeared in his dream and gave him a magic paintbrush. \"Use it wisely,\" the man said. When Ma Liang woke up, the brush was real! Whatever he painted came to life. He painted food for hungry people and tools for farmers. The greedy emperor heard about the brush. He wanted it for himself. But Ma Liang was clever. He used the brush to help people escape from the emperor. The paintbrush only worked for those with kind hearts.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text states an old man appeared in his dream and gave him the brush."
+    },
+    {
+      "id": "reading-2-rc-002",
+      "bankId": "reading-2-rc",
+      "text": "What is the central message of this story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Emperors are always bad", "Use your gifts to help others", "Dreams always come true", "Painting is easy"],
+        "correctAnswer": "Use your gifts to help others"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RL.2.2"],
+      "primaryStandard": "RL.2.2",
+      "passage": "G2-L1: The Magic Paintbrush",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The story shows Ma Liang using his gift to help people."
+    },
+    {
+      "id": "reading-2-rc-003",
+      "bankId": "reading-2-rc",
+      "text": "How did Ma Liang respond when the emperor wanted his brush?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["He gave it away", "He ran away and hid", "He cleverly used it to help people escape", "He stopped painting"],
+        "correctAnswer": "He cleverly used it to help people escape"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RL.2.3"],
+      "primaryStandard": "RL.2.3",
+      "passage": "G2-L1: The Magic Paintbrush",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'He used the brush to help people escape from the emperor.'"
+    },
+    {
+      "id": "reading-2-rc-004",
+      "bankId": "reading-2-rc",
+      "text": "From whose point of view is this story told?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Ma Liang's", "The emperor's", "The old man's", "A narrator outside the story"],
+        "correctAnswer": "A narrator outside the story"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RL.2.6"],
+      "primaryStandard": "RL.2.6",
+      "passage": "G2-L1: The Magic Paintbrush",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The story is told by a third-person narrator."
+    },
+    {
+      "id": "reading-2-rc-005",
+      "bankId": "reading-2-rc",
+      "text": "What does 'Use it wisely' mean in this story?",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "Use it carefully and for good purposes",
+        "acceptableAnswers": ["use it for good", "be careful with it", "help others with it"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RL.2.4"],
+      "primaryStandard": "RL.2.4",
+      "passage": "G2-L1: The Magic Paintbrush",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The old man wants Ma Liang to use the gift responsibly to help others."
+    },
+    {
+      "id": "reading-2-rc-006",
+      "bankId": "reading-2-rc",
+      "text": "What makes leaves green?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Sunlight", "Chlorophyll", "Sugar", "Water"],
+        "correctAnswer": "Chlorophyll"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RI.2.1"],
+      "primaryStandard": "RI.2.1",
+      "passage": "G2-I1: Why Do Leaves Change Color?",
+      "passageText": "In autumn, leaves change from green to beautiful colors like red, orange, and yellow. But why does this happen? Leaves are green because of chlorophyll. Chlorophyll helps plants make food from sunlight. In fall, there is less sunlight. The chlorophyll breaks down and goes away. Without the green chlorophyll, we can see other colors that were hiding in the leaves all along. Yellow and orange colors were always there. Red colors are made when sugars get trapped in the leaves. Different trees make different colors. Oak trees turn red and brown. Maple trees can be bright orange or red. Aspen trees turn golden yellow. The shorter days and cooler nights of autumn create this colorful show.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text states 'Leaves are green because of chlorophyll.'"
+    },
+    {
+      "id": "reading-2-rc-007",
+      "bankId": "reading-2-rc",
+      "text": "What is the main topic of this text?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["How trees grow", "Why leaves change color in fall", "Different types of trees", "How to rake leaves"],
+        "correctAnswer": "Why leaves change color in fall"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RI.2.2"],
+      "primaryStandard": "RI.2.2",
+      "passage": "G2-I1: Why Do Leaves Change Color?",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The main topic is explaining why leaves change color."
+    },
+    {
+      "id": "reading-2-rc-008",
+      "bankId": "reading-2-rc",
+      "text": "What does 'breaks down' mean in this text?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Falls off the tree", "Stops working and disappears", "Gets stronger", "Changes to red"],
+        "correctAnswer": "Stops working and disappears"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RI.2.4"],
+      "primaryStandard": "RI.2.4",
+      "passage": "G2-I1: Why Do Leaves Change Color?",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "In this context, it means the chlorophyll stops working and goes away."
+    },
+    {
+      "id": "reading-2-rc-009",
+      "bankId": "reading-2-rc",
+      "text": "What happens to cause red colors in leaves?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["The sun shines more", "Chlorophyll increases", "Sugars get trapped in the leaves", "The leaves fall off"],
+        "correctAnswer": "Sugars get trapped in the leaves"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RI.2.3"],
+      "primaryStandard": "RI.2.3",
+      "passage": "G2-I1: Why Do Leaves Change Color?",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'Red colors are made when sugars get trapped in the leaves.'"
+    },
+    {
+      "id": "reading-2-rc-010",
+      "bankId": "reading-2-rc",
+      "text": "How is this text organized?",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "Cause and effect",
+        "acceptableAnswers": ["cause and effect", "explains why leaves change", "explains causes"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RI.2.5"],
+      "primaryStandard": "RI.2.5",
+      "passage": "G2-I1: Why Do Leaves Change Color?",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text explains the causes that lead to leaves changing color."
+    },
+    {
+      "id": "reading-2-rc-011",
+      "bankId": "reading-2-rc",
+      "text": "What problem did the crow face?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["He was lost in the desert", "He could see water but could not reach it", "The water was too hot", "There were no stones nearby"],
+        "correctAnswer": "He could see water but could not reach it"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.2.3"],
+      "primaryStandard": "RL.2.3",
+      "passage": "G2-L2: The Crow and the Pitcher",
+      "passageText": "A thirsty crow flew over the hot desert. He had not had a drink in days. At last, he spotted a pitcher on the ground. He flew down and looked inside. There was water at the bottom! But when the crow put his beak in, he could not reach the water. The pitcher was too deep. The crow thought and thought. Then he had an idea. He picked up a small stone and dropped it in the pitcher. The water rose a tiny bit. He dropped in another stone, and another. Each stone made the water rise higher. Finally, the water was high enough. The crow drank until he was no longer thirsty. His clever thinking had saved his life.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The crow could not reach the water at the bottom of the deep pitcher."
+    },
+    {
+      "id": "reading-2-rc-012",
+      "bankId": "reading-2-rc",
+      "text": "What lesson does this fable teach?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Crows are smarter than other birds", "Always carry water with you", "Clever thinking can solve problems", "Deserts are dangerous"],
+        "correctAnswer": "Clever thinking can solve problems"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RL.2.2"],
+      "primaryStandard": "RL.2.2",
+      "passage": "G2-L2: The Crow and the Pitcher",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The fable teaches that using your mind can help solve difficult problems."
+    },
+    {
+      "id": "reading-2-rc-013",
+      "bankId": "reading-2-rc",
+      "text": "How does the story build to the solution?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["The crow immediately finds water", "The crow tries one stone, then keeps adding more", "Other animals help the crow", "Rain falls into the pitcher"],
+        "correctAnswer": "The crow tries one stone, then keeps adding more"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RL.2.5"],
+      "primaryStandard": "RL.2.5",
+      "passage": "G2-L2: The Crow and the Pitcher",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The story shows the crow's repeated action of adding stones until he succeeds."
+    },
+    {
+      "id": "reading-2-rc-014",
+      "bankId": "reading-2-rc",
+      "text": "What made the water rise in the pitcher?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["More water was added", "The pitcher got smaller", "The crow dropped stones in", "The sun heated the water"],
+        "correctAnswer": "The crow dropped stones in"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.2.1"],
+      "primaryStandard": "RL.2.1",
+      "passage": "G2-L2: The Crow and the Pitcher",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says he dropped stones in and 'Each stone made the water rise higher.'"
+    },
+    {
+      "id": "reading-2-rc-015",
+      "bankId": "reading-2-rc",
+      "text": "What does 'clever thinking' mean in this story?",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "Using your brain to find a smart solution",
+        "acceptableAnswers": ["being smart", "thinking of a solution", "using intelligence"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RL.2.4"],
+      "primaryStandard": "RL.2.4",
+      "passage": "G2-L2: The Crow and the Pitcher",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The crow used his intelligence to solve the problem of reaching the water."
+    },
+    {
+      "id": "reading-2-rc-016",
+      "bankId": "reading-2-rc",
+      "text": "What is the main idea of this text?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Caterpillars are hungry", "Butterflies have colorful wings", "Butterflies change through four stages", "Eggs are found on leaves"],
+        "correctAnswer": "Butterflies change through four stages"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RI.2.2"],
+      "primaryStandard": "RI.2.2",
+      "passage": "G2-I2: The Life of a Butterfly",
+      "passageText": "Butterflies go through an amazing change called metamorphosis. It happens in four stages. First, a butterfly lays tiny eggs on a leaf. After a few days, a caterpillar hatches from each egg. The caterpillar is very hungry. It eats and eats leaves. It grows bigger and bigger. Next comes the chrysalis stage. The caterpillar makes a hard shell around itself. Inside this shell, something magical happens. The caterpillar's body completely changes. Finally, a butterfly emerges. It has colorful wings and can fly. The whole process takes about one month. The butterfly that comes out looks nothing like the caterpillar that went in!",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The main idea is the four-stage metamorphosis of butterflies."
+    },
+    {
+      "id": "reading-2-rc-017",
+      "bankId": "reading-2-rc",
+      "text": "What does 'emerges' mean?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Goes to sleep", "Comes out", "Disappears", "Eats more"],
+        "correctAnswer": "Comes out"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Craft and Structure",
+      "difficulty": 1,
+      "ccssStandards": ["RI.2.4"],
+      "primaryStandard": "RI.2.4",
+      "passage": "G2-I2: The Life of a Butterfly",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Emerges means comes out of the chrysalis."
+    },
+    {
+      "id": "reading-2-rc-018",
+      "bankId": "reading-2-rc",
+      "text": "How is this text organized?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["By comparing two things", "In the order things happen (sequence)", "By listing problems and solutions", "By giving opinions"],
+        "correctAnswer": "In the order things happen (sequence)"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RI.2.5"],
+      "primaryStandard": "RI.2.5",
+      "passage": "G2-I2: The Life of a Butterfly",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text follows the sequence of butterfly development."
+    },
+    {
+      "id": "reading-2-rc-019",
+      "bankId": "reading-2-rc",
+      "text": "What happens during the chrysalis stage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["The butterfly lays eggs", "The caterpillar eats leaves", "The caterpillar's body completely changes", "The butterfly flies away"],
+        "correctAnswer": "The caterpillar's body completely changes"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RI.2.3"],
+      "primaryStandard": "RI.2.3",
+      "passage": "G2-I2: The Life of a Butterfly",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text states that inside the chrysalis, the body 'completely changes.'"
+    },
+    {
+      "id": "reading-2-rc-020",
+      "bankId": "reading-2-rc",
+      "text": "How long does the metamorphosis process take?",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "About one month",
+        "acceptableAnswers": ["one month", "a month", "about a month"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RI.2.1"],
+      "primaryStandard": "RI.2.1",
+      "passage": "G2-I2: The Life of a Butterfly",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'The whole process takes about one month.'"
+    },
+    {
+      "id": "reading-2-rc-021",
+      "bankId": "reading-2-rc",
+      "text": "Where did the tamale recipe come from?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["A cookbook", "Abuela's grandmother", "A cooking show", "Rosa's mother"],
+        "correctAnswer": "Abuela's grandmother"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.2.1"],
+      "primaryStandard": "RL.2.1",
+      "passage": "G2-L3: Abuela's Special Recipe",
+      "passageText": "Every Sunday, Rosa visited her abuela's house. Abuela always made tamales. Rosa watched carefully as Abuela spread masa on corn husks. \"This recipe is from my grandmother,\" Abuela said. \"Now I teach you.\" Rosa felt proud. She spread the masa just like Abuela showed her. It was harder than it looked! Some masa went on her nose. Abuela laughed warmly. \"Practice makes perfect, mija.\" They filled the tamales with chicken and wrapped them tight. As they steamed, the kitchen filled with delicious smells. Rosa thought about how this recipe traveled through her family for generations. Someday, she would teach her own children. The tamales were more than food—they were love wrapped in corn husks.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'This recipe is from my grandmother.'"
+    },
+    {
+      "id": "reading-2-rc-022",
+      "bankId": "reading-2-rc",
+      "text": "What is the theme of this story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Cooking is difficult", "Sundays are special", "Family traditions connect generations", "Tamales are delicious"],
+        "correctAnswer": "Family traditions connect generations"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RL.2.2"],
+      "primaryStandard": "RL.2.2",
+      "passage": "G2-L3: Abuela's Special Recipe",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The story emphasizes how recipes and traditions pass through generations."
+    },
+    {
+      "id": "reading-2-rc-023",
+      "bankId": "reading-2-rc",
+      "text": "How did Rosa feel about learning to make tamales?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Bored", "Proud", "Angry", "Scared"],
+        "correctAnswer": "Proud"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.2.3"],
+      "primaryStandard": "RL.2.3",
+      "passage": "G2-L3: Abuela's Special Recipe",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'Rosa felt proud.'"
+    },
+    {
+      "id": "reading-2-rc-024",
+      "bankId": "reading-2-rc",
+      "text": "What does 'mija' most likely mean?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Teacher", "Friend", "A term of endearment for a girl", "Cook"],
+        "correctAnswer": "A term of endearment for a girl"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RL.2.4"],
+      "primaryStandard": "RL.2.4",
+      "passage": "G2-L3: Abuela's Special Recipe",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Mija is a Spanish term of endearment meaning 'my daughter.'"
+    },
+    {
+      "id": "reading-2-rc-025",
+      "bankId": "reading-2-rc",
+      "text": "Why does the author say tamales were 'love wrapped in corn husks'?",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "Because making tamales together showed the family's love for each other",
+        "acceptableAnswers": ["the family shares love through cooking", "they represent family love", "making them together shows love"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RL.2.6"],
+      "primaryStandard": "RL.2.6",
+      "passage": "G2-L3: Abuela's Special Recipe",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The tamales represent the love and tradition shared between family members."
+    },
+    {
+      "id": "reading-2-rc-026",
+      "bankId": "reading-2-rc",
+      "text": "What is this text mainly about?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Ocean water temperatures", "How hurricanes form and why they're dangerous", "How scientists study weather", "Different types of storms"],
+        "correctAnswer": "How hurricanes form and why they're dangerous"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RI.2.2"],
+      "primaryStandard": "RI.2.2",
+      "passage": "G2-I3: Hurricanes",
+      "passageText": "Hurricanes are powerful storms that form over warm ocean water. They can be very dangerous. A hurricane starts when warm, moist air rises from the ocean. As this air goes up, it leaves an area of low pressure below. More air rushes in to fill the space, and this air also rises. This pattern makes the air spin. If conditions are right, the storm gets stronger and becomes a hurricane. Hurricanes have strong winds that spin around a center called the eye. The eye is surprisingly calm. Around the eye, winds can blow faster than 157 miles per hour! Hurricanes bring heavy rain and can cause floods. Scientists use satellites and planes to track hurricanes. This helps people know when to stay safe or leave their homes.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The main topic is explaining hurricanes."
+    },
+    {
+      "id": "reading-2-rc-027",
+      "bankId": "reading-2-rc",
+      "text": "What does 'track' mean in this text?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["A path to run on", "Follow and observe the movement of", "A song on an album", "Mark with lines"],
+        "correctAnswer": "Follow and observe the movement of"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RI.2.4"],
+      "primaryStandard": "RI.2.4",
+      "passage": "G2-I3: Hurricanes",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "To track hurricanes means to follow and observe where they go."
+    },
+    {
+      "id": "reading-2-rc-028",
+      "bankId": "reading-2-rc",
+      "text": "What is the eye of a hurricane?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["The strongest part", "The calm center", "The wettest part", "Where lightning strikes"],
+        "correctAnswer": "The calm center"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RI.2.1"],
+      "primaryStandard": "RI.2.1",
+      "passage": "G2-I3: Hurricanes",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'The eye is surprisingly calm.'"
+    },
+    {
+      "id": "reading-2-rc-029",
+      "bankId": "reading-2-rc",
+      "text": "Why do scientists track hurricanes?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["To make them stop", "To take pictures", "To help people know when to stay safe", "To measure the ocean"],
+        "correctAnswer": "To help people know when to stay safe"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": ["RI.2.8"],
+      "primaryStandard": "RI.2.8",
+      "passage": "G2-I3: Hurricanes",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'This helps people know when to stay safe or leave their homes.'"
+    },
+    {
+      "id": "reading-2-rc-030",
+      "bankId": "reading-2-rc",
+      "text": "What causes the air to spin in a hurricane?",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "Warm air rises, creating low pressure, and more air rushes in and rises, making it spin",
+        "acceptableAnswers": ["rising air creates spinning", "low pressure and rising air", "air rushing in"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RI.2.3"],
+      "primaryStandard": "RI.2.3",
+      "passage": "G2-I3: Hurricanes",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text explains this cycle of rising air that creates spinning motion."
+    },
+    {
+      "id": "reading-2-rc-031",
+      "bankId": "reading-2-rc",
+      "text": "What is the lesson of this story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Plants need water to grow", "Honesty is the most important quality", "Emperors make the best choices", "Seeds need good soil"],
+        "correctAnswer": "Honesty is the most important quality"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RL.2.2"],
+      "primaryStandard": "RL.2.2",
+      "passage": "G2-L4: The Empty Pot",
+      "passageText": "In ancient China, an emperor needed to choose the next ruler. He gave each child a seed. \"Return in one year with what you have grown,\" he said. Jun planted his seed carefully. He watered it every day. He made sure it had sunlight. But nothing grew. He tried different soil. Still nothing. A year passed, and Jun had only an empty pot. He was ashamed, but his mother said, \"You must go. Tell the truth.\" At the palace, Jun saw children with beautiful flowers. The emperor walked past them without smiling. Then he saw Jun's empty pot. \"Ah!\" The emperor smiled. \"I boiled all the seeds. None could grow. You are the only honest one.\" Jun became the next emperor because he told the truth.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The story teaches that honesty is rewarded, even when it's difficult."
+    },
+    {
+      "id": "reading-2-rc-032",
+      "bankId": "reading-2-rc",
+      "text": "Why did the other children have beautiful flowers?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["They had better seeds", "They watered more carefully", "They must have gotten different seeds", "They worked harder"],
+        "correctAnswer": "They must have gotten different seeds"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RL.2.3"],
+      "primaryStandard": "RL.2.3",
+      "passage": "G2-L4: The Empty Pot",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Since the emperor boiled all seeds, the other children must have cheated with different seeds."
+    },
+    {
+      "id": "reading-2-rc-033",
+      "bankId": "reading-2-rc",
+      "text": "Why did the emperor smile when he saw Jun's empty pot?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["He thought it was funny", "He knew Jun was honest", "He liked empty pots", "He felt sorry for Jun"],
+        "correctAnswer": "He knew Jun was honest"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RL.2.1"],
+      "primaryStandard": "RL.2.1",
+      "passage": "G2-L4: The Empty Pot",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The emperor was looking for someone honest, and Jun proved his honesty."
+    },
+    {
+      "id": "reading-2-rc-034",
+      "bankId": "reading-2-rc",
+      "text": "How does the author want readers to feel about Jun?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Sorry for him", "Proud of his honesty", "Annoyed with him", "Confused by him"],
+        "correctAnswer": "Proud of his honesty"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RL.2.6"],
+      "primaryStandard": "RL.2.6",
+      "passage": "G2-L4: The Empty Pot",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author shows Jun's honesty being rewarded, making readers feel proud of him."
+    },
+    {
+      "id": "reading-2-rc-035",
+      "bankId": "reading-2-rc",
+      "text": "How did Jun feel about bringing an empty pot? How did his feelings change?",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "He felt ashamed at first but was rewarded for being honest",
+        "acceptableAnswers": ["ashamed then proud", "embarrassed but he was rewarded", "nervous but became emperor"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RL.2.3"],
+      "primaryStandard": "RL.2.3",
+      "passage": "G2-L4: The Empty Pot",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Jun went from feeling ashamed to being chosen as the next emperor."
+    },
+    {
+      "id": "reading-2-rc-036",
+      "bankId": "reading-2-rc",
+      "text": "What reasons does the author give for why bats are helpful?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["They are cute and quiet", "They eat insects, spread seeds, and pollinate flowers", "They sleep during the day", "They can fly"],
+        "correctAnswer": "They eat insects, spread seeds, and pollinate flowers"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": ["RI.2.8"],
+      "primaryStandard": "RI.2.8",
+      "passage": "G2-I4: Bats: Helpers of the Night",
+      "passageText": "Many people are afraid of bats, but bats are actually very helpful. Bats are mammals, like dogs and cats. They are the only mammals that can truly fly. Most bats are nocturnal, meaning they are active at night. Bats help us in many ways. Some bats eat insects. A single bat can eat over 1,000 mosquitoes in one night! This helps control bug populations. Other bats eat fruit and spread seeds. This helps new plants grow in forests. Some bats drink nectar from flowers and spread pollen, just like bees. Without bats, many plants could not make seeds. Bats use echolocation to find food in the dark. They make sounds that bounce off objects and return to their ears. This tells them where things are. Bats are important members of our ecosystems.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text gives these three ways bats help: eating insects, spreading seeds, and spreading pollen."
+    },
+    {
+      "id": "reading-2-rc-037",
+      "bankId": "reading-2-rc",
+      "text": "What does 'nocturnal' mean?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Sleeping all the time", "Active at night", "Flying high", "Living in caves"],
+        "correctAnswer": "Active at night"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Craft and Structure",
+      "difficulty": 1,
+      "ccssStandards": ["RI.2.4"],
+      "primaryStandard": "RI.2.4",
+      "passage": "G2-I4: Bats: Helpers of the Night",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'nocturnal, meaning they are active at night.'"
+    },
+    {
+      "id": "reading-2-rc-038",
+      "bankId": "reading-2-rc",
+      "text": "What is the author's purpose for writing this text?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["To scare readers about bats", "To explain how bats find food", "To change how people think about bats", "To describe bat habitats"],
+        "correctAnswer": "To change how people think about bats"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RI.2.6"],
+      "primaryStandard": "RI.2.6",
+      "passage": "G2-I4: Bats: Helpers of the Night",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author wants to change people's fear of bats by showing how helpful they are."
+    },
+    {
+      "id": "reading-2-rc-039",
+      "bankId": "reading-2-rc",
+      "text": "How do bats find food in the dark?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["They have good eyesight", "They use echolocation", "They follow smells", "They only eat at sunset"],
+        "correctAnswer": "They use echolocation"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RI.2.1"],
+      "primaryStandard": "RI.2.1",
+      "passage": "G2-I4: Bats: Helpers of the Night",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'Bats use echolocation to find food in the dark.'"
+    },
+    {
+      "id": "reading-2-rc-040",
+      "bankId": "reading-2-rc",
+      "text": "What are two facts that support the idea that bats are helpful?",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "They eat 1,000+ mosquitoes per night; they spread seeds; they pollinate flowers",
+        "acceptableAnswers": ["eat mosquitoes and spread seeds", "control bugs and help plants grow", "pollinate and spread seeds"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RI.2.2"],
+      "primaryStandard": "RI.2.2",
+      "passage": "G2-I4: Bats: Helpers of the Night",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text provides several facts showing bats' benefits."
+    },
+    {
+      "id": "reading-2-rc-041",
+      "bankId": "reading-2-rc",
+      "text": "How did Mei feel at the beginning of the story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Excited", "Nervous", "Angry", "Tired"],
+        "correctAnswer": "Nervous"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.2.3"],
+      "primaryStandard": "RL.2.3",
+      "passage": "G2-L5: The Singing Competition",
+      "passageText": "Mei was nervous. Tomorrow was the school singing competition. She had practiced her song many times, but her voice shook when she was scared. That night, her older brother Chen found her pacing in her room. \"What's wrong?\" he asked. Mei explained her fear. Chen nodded. \"I get scared too,\" he said. \"But I imagine I'm singing just for one person I love. Focus on that feeling, not the crowd.\" The next day, Mei walked onto the stage. Her hands were sweaty. She saw hundreds of faces. Then she spotted her family in the front row. She imagined singing just for them. Her voice started shaky, but it grew stronger. By the end, she was smiling. She didn't win first place, but she finished. That felt like the biggest victory of all.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text opens with 'Mei was nervous.'"
+    },
+    {
+      "id": "reading-2-rc-042",
+      "bankId": "reading-2-rc",
+      "text": "What advice did Chen give Mei?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Practice more", "Imagine singing for one person you love", "Look at the floor", "Sing louder"],
+        "correctAnswer": "Imagine singing for one person you love"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.2.1"],
+      "primaryStandard": "RL.2.1",
+      "passage": "G2-L5: The Singing Competition",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Chen said 'I imagine I'm singing just for one person I love.'"
+    },
+    {
+      "id": "reading-2-rc-043",
+      "bankId": "reading-2-rc",
+      "text": "What is the theme of this story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Winning is everything", "Older brothers are always helpful", "Overcoming fear is a personal victory", "Singing competitions are fun"],
+        "correctAnswer": "Overcoming fear is a personal victory"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RL.2.2"],
+      "primaryStandard": "RL.2.2",
+      "passage": "G2-L5: The Singing Competition",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The story shows that finishing despite fear was Mei's 'biggest victory.'"
+    },
+    {
+      "id": "reading-2-rc-044",
+      "bankId": "reading-2-rc",
+      "text": "How does the story's structure show Mei's growth?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["It starts with her winning and ends with her practicing", "It starts with her fear and ends with her feeling successful", "It only describes the competition", "It compares her to other singers"],
+        "correctAnswer": "It starts with her fear and ends with her feeling successful"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RL.2.5"],
+      "primaryStandard": "RL.2.5",
+      "passage": "G2-L5: The Singing Competition",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The story moves from Mei's nervousness to her feeling victorious."
+    },
+    {
+      "id": "reading-2-rc-045",
+      "bankId": "reading-2-rc",
+      "text": "How did Mei change from the beginning to the end of the story?",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "She went from being scared and shaky to feeling confident and successful",
+        "acceptableAnswers": ["from nervous to proud", "from scared to confident", "overcame her fear"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RL.2.3"],
+      "primaryStandard": "RL.2.3",
+      "passage": "G2-L5: The Singing Competition",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Mei overcame her fear and felt proud of herself."
+    },
+    {
+      "id": "reading-2-rc-046",
+      "bankId": "reading-2-rc",
+      "text": "What is this text mainly about?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["The Golden Gate Bridge", "How different types of bridges work", "The history of bridges", "How to build a bridge"],
+        "correctAnswer": "How different types of bridges work"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RI.2.2"],
+      "primaryStandard": "RI.2.2",
+      "passage": "G2-I5: How Bridges Work",
+      "passageText": "Bridges help us cross rivers, valleys, and roads. But how do they stay up? All bridges must handle two forces: compression and tension. Compression is a pushing force that squeezes things together. Tension is a pulling force that stretches things. Different bridges handle these forces in different ways. Beam bridges are the simplest. A flat surface rests on supports at each end. The supports handle the weight by pushing down. Arch bridges curve upward. The curved shape pushes forces outward to the ground. Arch bridges have been built for thousands of years. Suspension bridges hang from cables attached to tall towers. The cables are in tension—they are being pulled. The Golden Gate Bridge in San Francisco is a famous suspension bridge. Engineers choose which type of bridge to build based on what needs to be crossed.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The main topic is explaining how different bridge types handle forces."
+    },
+    {
+      "id": "reading-2-rc-047",
+      "bankId": "reading-2-rc",
+      "text": "What is compression?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["A pulling force", "A twisting force", "A pushing force that squeezes things", "A lifting force"],
+        "correctAnswer": "A pushing force that squeezes things"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RI.2.4"],
+      "primaryStandard": "RI.2.4",
+      "passage": "G2-I5: How Bridges Work",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'Compression is a pushing force that squeezes things together.'"
+    },
+    {
+      "id": "reading-2-rc-048",
+      "bankId": "reading-2-rc",
+      "text": "How is this text organized?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["By telling a story", "By comparing different types of bridges", "By giving opinions about bridges", "By listing events in order"],
+        "correctAnswer": "By comparing different types of bridges"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RI.2.5"],
+      "primaryStandard": "RI.2.5",
+      "passage": "G2-I5: How Bridges Work",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text compares beam, arch, and suspension bridges."
+    },
+    {
+      "id": "reading-2-rc-049",
+      "bankId": "reading-2-rc",
+      "text": "What kind of bridge is the Golden Gate Bridge?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Beam bridge", "Arch bridge", "Suspension bridge", "Rope bridge"],
+        "correctAnswer": "Suspension bridge"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RI.2.1"],
+      "primaryStandard": "RI.2.1",
+      "passage": "G2-I5: How Bridges Work",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says it 'is a famous suspension bridge.'"
+    },
+    {
+      "id": "reading-2-rc-050",
+      "bankId": "reading-2-rc",
+      "text": "How is an arch bridge different from a beam bridge?",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "An arch bridge curves upward and pushes forces outward; a beam bridge is flat and rests on supports",
+        "acceptableAnswers": ["arch curves, beam is flat", "arch pushes outward, beam pushes down", "one curves, one is straight"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RI.2.3"],
+      "primaryStandard": "RI.2.3",
+      "passage": "G2-I5: How Bridges Work",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text describes these different shapes and how they handle weight differently."
+    },
+    {
+      "id": "reading-2-rc-051",
+      "bankId": "reading-2-rc",
+      "text": "What is the lesson of this fable?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Running is important", "Slow and steady wins the race", "Rabbits are always fast", "Naps help you win"],
+        "correctAnswer": "Slow and steady wins the race"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RL.2.2"],
+      "primaryStandard": "RL.2.2",
+      "passage": "G2-L6: The Rabbit and the Turtle Race",
+      "passageText": "Rabbit was the fastest animal in the forest. He bragged every day. \"No one can beat me!\" Turtle was tired of his bragging. \"I will race you,\" Turtle said. Rabbit laughed. \"You? That's the funniest thing I've heard!\" They agreed to race to the big oak tree. When the race started, Rabbit zoomed ahead. He ran so fast that Turtle disappeared behind him. \"I have plenty of time,\" Rabbit thought. He stopped to eat some clover. Then he felt sleepy and took a nap under a tree. Meanwhile, Turtle kept walking. Step by step. Slow but steady. When Rabbit woke up, he saw Turtle near the finish line! Rabbit ran as fast as he could, but it was too late. Turtle crossed the finish line first. \"Slow and steady wins the race,\" Turtle said with a smile.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The turtle states the lesson at the end: 'Slow and steady wins the race.'"
+    },
+    {
+      "id": "reading-2-rc-052",
+      "bankId": "reading-2-rc",
+      "text": "Why did Rabbit lose the race?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["He ran the wrong way", "He stopped to eat and take a nap", "Turtle cheated", "He got hurt"],
+        "correctAnswer": "He stopped to eat and take a nap"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.2.3"],
+      "primaryStandard": "RL.2.3",
+      "passage": "G2-L6: The Rabbit and the Turtle Race",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Rabbit lost because he was overconfident and wasted time."
+    },
+    {
+      "id": "reading-2-rc-053",
+      "bankId": "reading-2-rc",
+      "text": "How does the author make Rabbit look foolish?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["By showing how he brags and then loses", "By describing his appearance", "By having other animals laugh at him", "By making him trip"],
+        "correctAnswer": "By showing how he brags and then loses"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RL.2.6"],
+      "primaryStandard": "RL.2.6",
+      "passage": "G2-L6: The Rabbit and the Turtle Race",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author shows Rabbit's bragging followed by his loss to teach a lesson."
+    },
+    {
+      "id": "reading-2-rc-054",
+      "bankId": "reading-2-rc",
+      "text": "What did Rabbit do while Turtle kept walking?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Practiced running", "Ate clover and took a nap", "Cheered for Turtle", "Talked to other animals"],
+        "correctAnswer": "Ate clover and took a nap"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.2.1"],
+      "primaryStandard": "RL.2.1",
+      "passage": "G2-L6: The Rabbit and the Turtle Race",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says Rabbit 'stopped to eat some clover' and 'took a nap.'"
+    },
+    {
+      "id": "reading-2-rc-055",
+      "bankId": "reading-2-rc",
+      "text": "What does 'slow and steady' mean?",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "Going at a careful, consistent pace without stopping",
+        "acceptableAnswers": ["keep going at a steady pace", "not giving up", "continuing without stopping"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RL.2.4"],
+      "primaryStandard": "RL.2.4",
+      "passage": "G2-L6: The Rabbit and the Turtle Race",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "It means continuing at a regular pace without giving up or getting distracted."
+    },
+    {
+      "id": "reading-2-rc-056",
+      "bankId": "reading-2-rc",
+      "text": "What is the main idea of this text?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Peanuts are delicious", "George Washington Carver helped farmers with his inventions", "Cotton is bad for soil", "College is important"],
+        "correctAnswer": "George Washington Carver helped farmers with his inventions"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RI.2.2"],
+      "primaryStandard": "RI.2.2",
+      "passage": "G2-I6: George Washington Carver",
+      "passageText": "George Washington Carver was an amazing scientist who helped farmers. He was born into slavery around 1864. After slavery ended, he worked hard to get an education. He became the first Black student at his college. Later, he became a famous professor. Carver saw that many Southern farmers were struggling. They had planted cotton for so many years that the soil was worn out. Carver found a solution: peanuts! Peanut plants put nutrients back into the soil. But there was a problem. Farmers didn't want to grow peanuts because no one would buy them. So Carver invented over 300 uses for peanuts—including dyes, plastics, and even gasoline! He also found uses for sweet potatoes and pecans. Thanks to Carver, farmers could make money and heal their land at the same time.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The main idea is how Carver used science to help struggling farmers."
+    },
+    {
+      "id": "reading-2-rc-057",
+      "bankId": "reading-2-rc",
+      "text": "What problem did Carver solve?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Farmers didn't have enough water", "The soil was worn out from growing cotton", "Peanuts cost too much", "There were too many farmers"],
+        "correctAnswer": "The soil was worn out from growing cotton"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RI.2.3"],
+      "primaryStandard": "RI.2.3",
+      "passage": "G2-I6: George Washington Carver",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Carver solved the problem of worn-out soil caused by cotton farming."
+    },
+    {
+      "id": "reading-2-rc-058",
+      "bankId": "reading-2-rc",
+      "text": "How many uses did Carver find for peanuts?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Over 100", "Over 200", "Over 300", "Over 400"],
+        "correctAnswer": "Over 300"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RI.2.1"],
+      "primaryStandard": "RI.2.1",
+      "passage": "G2-I6: George Washington Carver",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'Carver invented over 300 uses for peanuts.'"
+    },
+    {
+      "id": "reading-2-rc-059",
+      "bankId": "reading-2-rc",
+      "text": "Why did Carver need to find uses for peanuts?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["He liked peanuts", "Farmers wouldn't grow them if no one would buy them", "Peanuts grew too fast", "Cotton was illegal"],
+        "correctAnswer": "Farmers wouldn't grow them if no one would buy them"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": ["RI.2.8"],
+      "primaryStandard": "RI.2.8",
+      "passage": "G2-I6: George Washington Carver",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text explains 'Farmers didn't want to grow peanuts because no one would buy them.'"
+    },
+    {
+      "id": "reading-2-rc-060",
+      "bankId": "reading-2-rc",
+      "text": "What does the author want readers to understand about George Washington Carver?",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "He was a brilliant scientist who overcame challenges and helped many people",
+        "acceptableAnswers": ["he was brilliant and helpful", "he helped farmers", "he overcame obstacles and invented many things"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RI.2.6"],
+      "primaryStandard": "RI.2.6",
+      "passage": "G2-I6: George Washington Carver",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author presents Carver as someone who used his intelligence to solve real problems."
+    },
+    {
+      "id": "reading-2-rc-061",
+      "bankId": "reading-2-rc",
+      "text": "Where did Grandfather make the kite?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["In China", "In Japan", "In America", "In the field"],
+        "correctAnswer": "In Japan"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.2.1"],
+      "primaryStandard": "RL.2.1",
+      "passage": "G2-L7: The Dragon Kite",
+      "passageText": "Kai and his grandfather stood in the field on a windy spring day. Grandfather held a beautiful kite shaped like a dragon. \"I made this kite in Japan when I was your age,\" Grandfather said. The dragon had golden scales and long ribbons for a tail. Kai was excited but also worried. \"What if it breaks?\" he asked. Grandfather smiled. \"Then we fix it together. That's part of loving something.\" He showed Kai how to hold the string and feel the wind. At first, the kite dipped and dove. But Kai learned to pull and release at the right times. Soon the dragon soared high above them. Its ribbons danced against the blue sky. \"You're a natural,\" Grandfather said proudly. Kai knew this wasn't just about flying a kite. It was about learning from someone who loved him.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'I made this kite in Japan when I was your age.'"
+    },
+    {
+      "id": "reading-2-rc-062",
+      "bankId": "reading-2-rc",
+      "text": "What is the deeper message of this story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Kites are fun to fly", "Learning from loved ones is special", "Dragons are scary", "Wind is important"],
+        "correctAnswer": "Learning from loved ones is special"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RL.2.2"],
+      "primaryStandard": "RL.2.2",
+      "passage": "G2-L7: The Dragon Kite",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The story is about the bond between Kai and his grandfather, not just kite flying."
+    },
+    {
+      "id": "reading-2-rc-063",
+      "bankId": "reading-2-rc",
+      "text": "How did Kai feel about the kite at first?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Only excited", "Excited but worried", "Only worried", "Bored"],
+        "correctAnswer": "Excited but worried"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.2.3"],
+      "primaryStandard": "RL.2.3",
+      "passage": "G2-L7: The Dragon Kite",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'Kai was excited but also worried.'"
+    },
+    {
+      "id": "reading-2-rc-064",
+      "bankId": "reading-2-rc",
+      "text": "What does 'You're a natural' mean?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["You like nature", "You're doing something well without much practice", "You prefer being outside", "You look natural"],
+        "correctAnswer": "You're doing something well without much practice"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RL.2.4"],
+      "primaryStandard": "RL.2.4",
+      "passage": "G2-L7: The Dragon Kite",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "It means Kai learned quickly and did well naturally."
+    },
+    {
+      "id": "reading-2-rc-065",
+      "bankId": "reading-2-rc",
+      "text": "Why does the author include Grandfather's words 'Then we fix it together'?",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "To show that Grandfather cares about teaching Kai and spending time with him, not just the kite",
+        "acceptableAnswers": ["shows their bond", "relationship matters more than the kite", "grandfather cares about kai"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RL.2.6"],
+      "primaryStandard": "RL.2.6",
+      "passage": "G2-L7: The Dragon Kite",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "These words reveal that the relationship matters more than the object."
+    },
+    {
+      "id": "reading-2-rc-066",
+      "bankId": "reading-2-rc",
+      "text": "What is the main idea of this text?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Earth's surface looks solid", "Earthquakes happen when tectonic plates move", "Seismographs are useful machines", "Buildings fall during earthquakes"],
+        "correctAnswer": "Earthquakes happen when tectonic plates move"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RI.2.2"],
+      "primaryStandard": "RI.2.2",
+      "passage": "G2-I7: Earthquakes",
+      "passageText": "The ground beneath our feet might seem solid and still, but Earth's surface is actually always moving. The outer layer of Earth is made of huge pieces called tectonic plates. These plates float on hot, melted rock below. The plates move very slowly—about as fast as your fingernails grow. Sometimes plates push against each other. They can get stuck. Pressure builds up. When the plates suddenly slip and move, an earthquake happens! The place underground where the plates slip is called the focus. The spot directly above it on the surface is called the epicenter. The epicenter usually has the strongest shaking. Scientists use machines called seismographs to measure earthquakes. The strength is measured on a scale. Small earthquakes happen every day around the world. Most are so small that people don't feel them. Large earthquakes can cause buildings to fall and create cracks in the ground.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The main idea is explaining what causes earthquakes."
+    },
+    {
+      "id": "reading-2-rc-067",
+      "bankId": "reading-2-rc",
+      "text": "What is the 'epicenter'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["The place underground where plates slip", "The spot on the surface directly above where plates slip", "A machine that measures earthquakes", "The edge of a tectonic plate"],
+        "correctAnswer": "The spot on the surface directly above where plates slip"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RI.2.4"],
+      "primaryStandard": "RI.2.4",
+      "passage": "G2-I7: Earthquakes",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'The spot directly above it on the surface is called the epicenter.'"
+    },
+    {
+      "id": "reading-2-rc-068",
+      "bankId": "reading-2-rc",
+      "text": "What causes an earthquake?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Hot weather", "Plates suddenly slipping after building pressure", "Heavy rain", "Volcanoes exploding"],
+        "correctAnswer": "Plates suddenly slipping after building pressure"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RI.2.3"],
+      "primaryStandard": "RI.2.3",
+      "passage": "G2-I7: Earthquakes",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text explains that plates get stuck, pressure builds, and 'when the plates suddenly slip and move, an earthquake happens.'"
+    },
+    {
+      "id": "reading-2-rc-069",
+      "bankId": "reading-2-rc",
+      "text": "How does the author explain how fast plates move?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["By giving exact measurements", "By comparing to fingernail growth", "By showing a diagram", "By describing past earthquakes"],
+        "correctAnswer": "By comparing to fingernail growth"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RI.2.5"],
+      "primaryStandard": "RI.2.5",
+      "passage": "G2-I7: Earthquakes",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author says plates move 'about as fast as your fingernails grow.'"
+    },
+    {
+      "id": "reading-2-rc-070",
+      "bankId": "reading-2-rc",
+      "text": "How do scientists measure earthquakes?",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "They use machines called seismographs",
+        "acceptableAnswers": ["seismographs", "with seismographs", "machines called seismographs"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RI.2.1"],
+      "primaryStandard": "RI.2.1",
+      "passage": "G2-I7: Earthquakes",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text states 'Scientists use machines called seismographs to measure earthquakes.'"
+    },
+    {
+      "id": "reading-2-rc-071",
+      "bankId": "reading-2-rc",
+      "text": "How did Carlos feel about Mrs. Kim at the beginning?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["They were good friends", "He had never spoken to her", "He was afraid of her", "He disliked her"],
+        "correctAnswer": "He had never spoken to her"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.2.3"],
+      "primaryStandard": "RL.2.3",
+      "passage": "G2-L8: The Garden Wall",
+      "passageText": "On one side of the wall lived Carlos. On the other side lived Mrs. Kim. Carlos had never spoken to her. His ball sometimes flew over the wall into her garden. She always threw it back. One day, Carlos noticed a hole in the wall. Through it, he saw the most beautiful garden—flowers of every color, vegetables in neat rows, and a small pond. \"Hello,\" said a voice. It was Mrs. Kim, kneeling by her tomatoes. Carlos froze. \"I've seen you watching,\" she said kindly. \"Would you like to see the garden?\" Carlos walked around the wall and through her gate. Mrs. Kim showed him everything. She even let him pick a ripe tomato. \"Gardens need friends,\" she said. \"Would you help me sometimes?\" Carlos nodded eagerly. The wall was still there, but it didn't seem so tall anymore.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'Carlos had never spoken to her.'"
+    },
+    {
+      "id": "reading-2-rc-072",
+      "bankId": "reading-2-rc",
+      "text": "What is the theme of this story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Walls are important for gardens", "Tomatoes are easy to grow", "Connection with others is valuable", "Balls should stay in your yard"],
+        "correctAnswer": "Connection with others is valuable"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RL.2.2"],
+      "primaryStandard": "RL.2.2",
+      "passage": "G2-L8: The Garden Wall",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The story shows how Carlos and Mrs. Kim formed a connection that made the wall seem less important."
+    },
+    {
+      "id": "reading-2-rc-073",
+      "bankId": "reading-2-rc",
+      "text": "What did Carlos see through the hole in the wall?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Just some weeds", "A beautiful garden with flowers, vegetables, and a pond", "A swimming pool", "Another wall"],
+        "correctAnswer": "A beautiful garden with flowers, vegetables, and a pond"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.2.1"],
+      "primaryStandard": "RL.2.1",
+      "passage": "G2-L8: The Garden Wall",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text describes 'the most beautiful garden—flowers of every color, vegetables in neat rows, and a small pond.'"
+    },
+    {
+      "id": "reading-2-rc-074",
+      "bankId": "reading-2-rc",
+      "text": "What does the author mean by 'the wall didn't seem so tall anymore'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["The wall got shorter", "Carlos grew taller", "Their friendship made the barrier between them feel smaller", "Mrs. Kim removed part of the wall"],
+        "correctAnswer": "Their friendship made the barrier between them feel smaller"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RL.2.6"],
+      "primaryStandard": "RL.2.6",
+      "passage": "G2-L8: The Garden Wall",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The wall represents the barrier between them, which their friendship made feel less significant."
+    },
+    {
+      "id": "reading-2-rc-075",
+      "bankId": "reading-2-rc",
+      "text": "How did the relationship between Carlos and Mrs. Kim change?",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "They went from strangers to friends who would help each other in the garden",
+        "acceptableAnswers": ["strangers to friends", "they became friends", "neighbors became friends"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RL.2.3"],
+      "primaryStandard": "RL.2.3",
+      "passage": "G2-L8: The Garden Wall",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Their relationship grew from distant neighbors to friends."
+    },
+    {
+      "id": "reading-2-rc-076",
+      "bankId": "reading-2-rc",
+      "text": "What is the main idea of this text?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Octopuses have eight arms", "Octopuses are amazing animals with many special abilities", "Octopuses squirt ink", "Octopuses live in the ocean"],
+        "correctAnswer": "Octopuses are amazing animals with many special abilities"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RI.2.2"],
+      "primaryStandard": "RI.2.2",
+      "passage": "G2-I8: The Amazing Octopus",
+      "passageText": "The octopus is one of the most incredible animals in the ocean. It has eight arms, no bones, and three hearts! Octopuses are very intelligent. Scientists have watched them solve puzzles and open jars to get food. They can even recognize different people! One of the octopus's most amazing abilities is camouflage. It can change its color and texture in less than a second. It does this to hide from predators or sneak up on prey. If camouflage doesn't work, the octopus has another trick. It can squirt ink to confuse enemies. The ink creates a dark cloud that lets the octopus escape. An octopus can also squeeze through incredibly tiny spaces. Because it has no bones, it can fit through any hole larger than its beak. An octopus the size of a soccer ball can squeeze through a hole the size of a quarter!",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The main idea is describing the octopus's amazing abilities."
+    },
+    {
+      "id": "reading-2-rc-077",
+      "bankId": "reading-2-rc",
+      "text": "What is 'camouflage'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Swimming fast", "Changing appearance to blend in", "Squirting ink", "Solving puzzles"],
+        "correctAnswer": "Changing appearance to blend in"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Craft and Structure",
+      "difficulty": 1,
+      "ccssStandards": ["RI.2.4"],
+      "primaryStandard": "RI.2.4",
+      "passage": "G2-I8: The Amazing Octopus",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text explains camouflage is when the octopus 'can change its color and texture' to hide."
+    },
+    {
+      "id": "reading-2-rc-078",
+      "bankId": "reading-2-rc",
+      "text": "How many hearts does an octopus have?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["One", "Two", "Three", "Eight"],
+        "correctAnswer": "Three"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RI.2.1"],
+      "primaryStandard": "RI.2.1",
+      "passage": "G2-I8: The Amazing Octopus",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says an octopus has 'three hearts.'"
+    },
+    {
+      "id": "reading-2-rc-079",
+      "bankId": "reading-2-rc",
+      "text": "Why can an octopus squeeze through tiny spaces?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["It is very small", "It has no bones", "It uses ink", "It moves fast"],
+        "correctAnswer": "It has no bones"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RI.2.3"],
+      "primaryStandard": "RI.2.3",
+      "passage": "G2-I8: The Amazing Octopus",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text explains 'Because it has no bones, it can fit through any hole larger than its beak.'"
+    },
+    {
+      "id": "reading-2-rc-080",
+      "bankId": "reading-2-rc",
+      "text": "How does the author support the idea that octopuses are intelligent?",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "By describing how they solve puzzles, open jars, and recognize different people",
+        "acceptableAnswers": ["they solve puzzles", "open jars and recognize people", "solve puzzles and open jars"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": ["RI.2.8"],
+      "primaryStandard": "RI.2.8",
+      "passage": "G2-I8: The Amazing Octopus",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author gives specific examples of intelligent behavior."
+    },
+    {
+      "id": "reading-2-rc-081",
+      "bankId": "reading-2-rc",
+      "text": "Why did Sophie want to be a cat?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["She wanted to chase mice", "She thought cats had easy lives", "She wanted fur", "She was tired of Whiskers"],
+        "correctAnswer": "She thought cats had easy lives"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.2.3"],
+      "primaryStandard": "RL.2.3",
+      "passage": "G2-L9: Trading Places",
+      "passageText": "Sophie wanted to be a cat. Cats got to sleep all day and play whenever they wanted. Her cat Whiskers wanted to be a girl. Girls got treats whenever they asked and could open doors themselves. One magical morning, they switched places! Sophie-the-cat tried to nap in the sunny spot. But the dog kept barking. The vacuum cleaner was terrifying. And she was so hungry, but she couldn't open the refrigerator. Whiskers-the-girl tried to get ice cream. But she had to do homework first. Then she had to clean her room. And everyone kept asking her questions she couldn't answer. By evening, they were both exhausted. \"I miss being me,\" Sophie whispered. \"Me too,\" Whiskers seemed to say. They touched noses, and—POOF—they were themselves again. \"Being a cat looks easier than it is,\" Sophie said, scratching Whiskers's ears. They both agreed that their own life was just right.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Sophie thought 'Cats got to sleep all day and play whenever they wanted.'"
+    },
+    {
+      "id": "reading-2-rc-082",
+      "bankId": "reading-2-rc",
+      "text": "What lesson does this story teach?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Cats make good pets", "Magic is real", "Appreciate your own life", "Ice cream is delicious"],
+        "correctAnswer": "Appreciate your own life"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RL.2.2"],
+      "primaryStandard": "RL.2.2",
+      "passage": "G2-L9: Trading Places",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The story shows that both learned their own lives were 'just right.'"
+    },
+    {
+      "id": "reading-2-rc-083",
+      "bankId": "reading-2-rc",
+      "text": "What problem did Sophie-the-cat have?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["She couldn't find the sunny spot", "She couldn't open the refrigerator when hungry", "The cat food was bad", "Whiskers was being mean"],
+        "correctAnswer": "She couldn't open the refrigerator when hungry"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.2.1"],
+      "primaryStandard": "RL.2.1",
+      "passage": "G2-L9: Trading Places",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'she was so hungry, but she couldn't open the refrigerator.'"
+    },
+    {
+      "id": "reading-2-rc-084",
+      "bankId": "reading-2-rc",
+      "text": "How is the story organized?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["It tells what Sophie experienced, then what Whiskers experienced", "It compares different animals", "It goes backward in time", "It only follows Sophie"],
+        "correctAnswer": "It tells what Sophie experienced, then what Whiskers experienced"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RL.2.5"],
+      "primaryStandard": "RL.2.5",
+      "passage": "G2-L9: Trading Places",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The story describes both experiences separately to show parallel problems."
+    },
+    {
+      "id": "reading-2-rc-085",
+      "bankId": "reading-2-rc",
+      "text": "How does the author show that both characters learned something?",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "By having them both miss being themselves and agree their own life was just right",
+        "acceptableAnswers": ["they both miss being themselves", "they agree their life was right", "both wanted to be themselves again"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RL.2.6"],
+      "primaryStandard": "RL.2.6",
+      "passage": "G2-L9: Trading Places",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Both characters realize their original life was better than they thought."
+    },
+    {
+      "id": "reading-2-rc-086",
+      "bankId": "reading-2-rc",
+      "text": "What evidence supports the claim that plastic pollution hurts sea turtles?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Turtles don't like plastic", "Turtles mistake plastic bags for jellyfish and get sick", "Beaches have plastic", "Plastic is hard to see"],
+        "correctAnswer": "Turtles mistake plastic bags for jellyfish and get sick"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": ["RI.2.8"],
+      "primaryStandard": "RI.2.8",
+      "passage": "G2-I9: Saving Sea Turtles",
+      "passageText": "Sea turtles have lived on Earth for over 100 million years—even longer than dinosaurs. But today, many species are in danger. People are working hard to save them. One big threat is plastic pollution. Sea turtles sometimes mistake plastic bags for jellyfish, their favorite food. Eating plastic can make them very sick. Many beaches now ban plastic bags to help. Another problem is that turtles nest on beaches that have been built up with hotels and houses. Bright lights from buildings confuse baby turtles. They crawl toward the lights instead of the ocean. Volunteers protect nests and turn off lights during nesting season. Climate change also affects sea turtles. The temperature of sand determines whether eggs become male or female turtles. Warmer temperatures mean more females are born. Scientists are studying how to help balance this. Everyone can help by reducing plastic use and supporting protected beaches.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text explains turtles 'mistake plastic bags for jellyfish' and 'eating plastic can make them very sick.'"
+    },
+    {
+      "id": "reading-2-rc-087",
+      "bankId": "reading-2-rc",
+      "text": "What causes baby turtles to crawl toward buildings instead of the ocean?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["They are hungry", "Bright lights confuse them", "They are lost", "Buildings are warmer"],
+        "correctAnswer": "Bright lights confuse them"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RI.2.3"],
+      "primaryStandard": "RI.2.3",
+      "passage": "G2-I9: Saving Sea Turtles",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'Bright lights from buildings confuse baby turtles.'"
+    },
+    {
+      "id": "reading-2-rc-088",
+      "bankId": "reading-2-rc",
+      "text": "What is the main idea of this text?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Sea turtles eat jellyfish", "Sea turtles are in danger and people are working to save them", "Climate change affects all animals", "Beaches should not have hotels"],
+        "correctAnswer": "Sea turtles are in danger and people are working to save them"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RI.2.2"],
+      "primaryStandard": "RI.2.2",
+      "passage": "G2-I9: Saving Sea Turtles",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The main idea is about threats to sea turtles and conservation efforts."
+    },
+    {
+      "id": "reading-2-rc-089",
+      "bankId": "reading-2-rc",
+      "text": "What does the author want readers to do after reading this text?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Visit the beach more often", "Study to become scientists", "Help by reducing plastic use and supporting conservation", "Learn more about dinosaurs"],
+        "correctAnswer": "Help by reducing plastic use and supporting conservation"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RI.2.6"],
+      "primaryStandard": "RI.2.6",
+      "passage": "G2-I9: Saving Sea Turtles",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author ends with 'Everyone can help by reducing plastic use and supporting protected beaches.'"
+    },
+    {
+      "id": "reading-2-rc-090",
+      "bankId": "reading-2-rc",
+      "text": "How long have sea turtles lived on Earth?",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "Over 100 million years",
+        "acceptableAnswers": ["100 million years", "more than 100 million years", "over 100 million"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RI.2.1"],
+      "primaryStandard": "RI.2.1",
+      "passage": "G2-I9: Saving Sea Turtles",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'Sea turtles have lived on Earth for over 100 million years.'"
+    },
+    {
+      "id": "reading-2-rc-091",
+      "bankId": "reading-2-rc",
+      "text": "What could Marco NOT do well?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Help backstage", "Juggle, dance, and do magic", "Tell jokes", "Chop vegetables"],
+        "correctAnswer": "Juggle, dance, and do magic"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RL.2.1"],
+      "primaryStandard": "RL.2.1",
+      "passage": "G2-L10: The Talent Show",
+      "passageText": "\"I can't do anything special,\" Marco told his sister Elena. The school talent show was next week, and everyone had an act except him. \"What about juggling?\" Elena asked. Marco tried. Oranges flew everywhere. \"Dancing?\" Marco stepped on his own feet. \"Magic tricks?\" The cards scattered across the floor. Marco felt hopeless. That night, he helped his dad make dinner. He chopped vegetables perfectly while telling jokes that made his dad laugh. \"Marco,\" his dad said, \"you have many talents. You're kind, funny, and a great helper. Not all talents belong on a stage.\" Marco thought about this. On talent show day, he volunteered to help backstage. He made nervous performers laugh. He found lost costumes. He cheered everyone on. After the show, the principal thanked him. \"The show couldn't have happened without you,\" she said. Marco smiled. Helping others was his talent.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text shows Marco failing at juggling, dancing, and magic tricks."
+    },
+    {
+      "id": "reading-2-rc-092",
+      "bankId": "reading-2-rc",
+      "text": "What is the message of this story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Practice makes perfect", "Everyone has different valuable talents", "Talent shows are hard", "Family should help each other"],
+        "correctAnswer": "Everyone has different valuable talents"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RL.2.2"],
+      "primaryStandard": "RL.2.2",
+      "passage": "G2-L10: The Talent Show",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The story teaches that talents aren't just stage performances; helping others is a talent too."
+    },
+    {
+      "id": "reading-2-rc-093",
+      "bankId": "reading-2-rc",
+      "text": "How did Marco change from the beginning to the end?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["He went from feeling hopeless to proud", "He learned to juggle", "He became shy", "He stopped helping"],
+        "correctAnswer": "He went from feeling hopeless to proud"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RL.2.3"],
+      "primaryStandard": "RL.2.3",
+      "passage": "G2-L10: The Talent Show",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Marco went from feeling 'hopeless' to smiling when recognized for his real talents."
+    },
+    {
+      "id": "reading-2-rc-094",
+      "bankId": "reading-2-rc",
+      "text": "What does 'not all talents belong on a stage' mean?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Some people shouldn't perform", "Valuable abilities aren't always performances", "Stages are too small", "Talent shows should be cancelled"],
+        "correctAnswer": "Valuable abilities aren't always performances"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RL.2.4"],
+      "primaryStandard": "RL.2.4",
+      "passage": "G2-L10: The Talent Show",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Dad means that valuable abilities aren't just things you perform in front of others."
+    },
+    {
+      "id": "reading-2-rc-095",
+      "bankId": "reading-2-rc",
+      "text": "How did the author show that helping is a talent?",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "By showing how Marco helped backstage and the principal thanking him, saying the show couldn't have happened without him",
+        "acceptableAnswers": ["principal thanked him", "show couldn't happen without him", "he helped everyone backstage"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RL.2.6"],
+      "primaryStandard": "RL.2.6",
+      "passage": "G2-L10: The Talent Show",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author demonstrates the value of helping through the principal's recognition."
+    },
+    {
+      "id": "reading-2-rc-096",
+      "bankId": "reading-2-rc",
+      "text": "What is the main idea of this text?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["Queen Margherita loved pizza", "Pizza has a long history from ancient times to today", "New York has good pizza", "Pizza is cheap to make"],
+        "correctAnswer": "Pizza has a long history from ancient times to today"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RI.2.2"],
+      "primaryStandard": "RI.2.2",
+      "passage": "G2-I10: The History of Pizza",
+      "passageText": "Pizza is one of the world's favorite foods, but where did it come from? Flatbreads with toppings have been eaten for thousands of years. Ancient Egyptians, Greeks, and Romans all ate similar foods. However, modern pizza came from Italy. In the 1800s, poor people in Naples, Italy, needed cheap, quick food. They put tomatoes, cheese, and other toppings on flatbread. In 1889, a baker named Raffaele Esposito made a special pizza for Queen Margherita of Italy. He used tomatoes, mozzarella cheese, and basil—red, white, and green like the Italian flag. The queen loved it! This pizza is still called Margherita pizza today. Italian immigrants brought pizza to America in the late 1800s. The first American pizzeria opened in New York City in 1905. After World War II, pizza became popular across America. Soldiers who had been to Italy wanted pizza when they came home. Today, about 5 billion pizzas are sold around the world every year!",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The main idea traces pizza's history from ancient times to the present."
+    },
+    {
+      "id": "reading-2-rc-097",
+      "bankId": "reading-2-rc",
+      "text": "How is this text organized?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["By comparing different pizzas", "In time order (chronological)", "By listing pizza toppings", "By giving opinions about pizza"],
+        "correctAnswer": "In time order (chronological)"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RI.2.5"],
+      "primaryStandard": "RI.2.5",
+      "passage": "G2-I10: The History of Pizza",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text follows pizza's history in order from ancient times to today."
+    },
+    {
+      "id": "reading-2-rc-098",
+      "bankId": "reading-2-rc",
+      "text": "Why did poor people in Naples eat pizza?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["It was fancy", "It was cheap and quick", "They liked Italian food", "Tomatoes were healthy"],
+        "correctAnswer": "It was cheap and quick"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": ["RI.2.1"],
+      "primaryStandard": "RI.2.1",
+      "passage": "G2-I10: The History of Pizza",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'poor people in Naples, Italy, needed cheap, quick food.'"
+    },
+    {
+      "id": "reading-2-rc-099",
+      "bankId": "reading-2-rc",
+      "text": "What helped pizza become popular in America after World War II?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": ["TV commercials", "Soldiers who had eaten pizza in Italy", "Italian restaurants", "Queen Margherita visited America"],
+        "correctAnswer": "Soldiers who had eaten pizza in Italy"
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": ["RI.2.3"],
+      "primaryStandard": "RI.2.3",
+      "passage": "G2-I10: The History of Pizza",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'Soldiers who had been to Italy wanted pizza when they came home.'"
+    },
+    {
+      "id": "reading-2-rc-100",
+      "bankId": "reading-2-rc",
+      "text": "Why did Esposito choose red, white, and green toppings for the Queen's pizza?",
+      "format": "short_answer",
+      "questionOptions": {
+        "correctAnswer": "To match the colors of the Italian flag",
+        "acceptableAnswers": ["italian flag colors", "matched the flag", "like the italian flag"]
+      },
+      "subject": "Reading",
+      "gradeLevel": "2",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": ["RI.2.6"],
+      "primaryStandard": "RI.2.6",
+      "passage": "G2-I10: The History of Pizza",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says he 'used tomatoes, mozzarella cheese, and basil—red, white, and green like the Italian flag.'"
+    }
+  ]
+}

@@ -18,7 +18,7 @@ export enum DifficultyLevel {
   VERY_HARD = 5
 }
 
-export type QuestionSubject = 'Mathematics' | 'Reading' | 'ELA';
+export type QuestionSubject = 'Mathematics' | 'Reading' | 'Reading Comprehension' | 'ELA';
 
 export type ReviewStatus = 'draft' | 'reviewed' | 'approved';
 

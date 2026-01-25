@@ -1,0 +1,2734 @@
+{
+  "metadata": {
+    "subject": "Reading",
+    "gradeLevel": "4",
+    "domain": "RC",
+    "domainName": "Reading Comprehension",
+    "lastUpdated": "2026-01-25",
+    "totalQuestions": 100,
+    "description": "CCSS-aligned reading comprehension assessment with literary and informational texts",
+    "lexileRange": "640L-860L"
+  },
+  "questions": [
+    {
+      "id": "reading-4-rc-001",
+      "bankId": "reading-4-rc",
+      "text": "What is the main reason Prometheus stole fire from the gods?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He wanted to anger Zeus",
+          "He wanted to help humans survive",
+          "He wanted the fire for himself",
+          "He wanted to cook his food"
+        ],
+        "correctAnswer": "He wanted to help humans survive"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.4.1"
+      ],
+      "primaryStandard": "RL.4.1",
+      "passage": "G4-L1: The Gift of Fire",
+      "passageText": "Long ago, the Greek gods lived on Mount Olympus. Prometheus was a Titan who cared deeply about humans. He saw that people shivered in the cold and ate raw meat. They had no way to keep warm or cook their food. Prometheus decided to help them, even though it was forbidden. He climbed to the sun and stole a spark of fire. He carried it back to Earth hidden inside a hollow reed. When Zeus discovered what Prometheus had done, he was furious. But the humans were grateful, for fire changed their lives forever.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states that Prometheus saw humans shivering and eating raw meat, so he decided to help them by stealing fire."
+    },
+    {
+      "id": "reading-4-rc-002",
+      "bankId": "reading-4-rc",
+      "text": "How did Prometheus hide the fire when bringing it to Earth?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "In a clay pot",
+          "Inside a hollow reed",
+          "Under his cloak",
+          "In a golden box"
+        ],
+        "correctAnswer": "Inside a hollow reed"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RL.4.1"
+      ],
+      "primaryStandard": "RL.4.1",
+      "passage": "G4-L1: The Gift of Fire",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text states 'He carried it back to Earth hidden inside a hollow reed.'"
+    },
+    {
+      "id": "reading-4-rc-003",
+      "bankId": "reading-4-rc",
+      "text": "What is the theme of this myth?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Fire is dangerous",
+          "Helping others may require sacrifice",
+          "Gods are always angry",
+          "Humans cannot survive without gods"
+        ],
+        "correctAnswer": "Helping others may require sacrifice"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.4.2"
+      ],
+      "primaryStandard": "RL.4.2",
+      "passage": "G4-L1: The Gift of Fire",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Prometheus risked Zeus's anger to help humans, showing that helping others may come at a personal cost."
+    },
+    {
+      "id": "reading-4-rc-004",
+      "bankId": "reading-4-rc",
+      "text": "What does the word 'furious' mean in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Very happy",
+          "Extremely angry",
+          "Quite confused",
+          "Slightly worried"
+        ],
+        "correctAnswer": "Extremely angry"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft and Structure",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RL.4.4"
+      ],
+      "primaryStandard": "RL.4.4",
+      "passage": "G4-L1: The Gift of Fire",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Furious means extremely angry. Zeus was furious because Prometheus disobeyed him."
+    },
+    {
+      "id": "reading-4-rc-005",
+      "bankId": "reading-4-rc",
+      "text": "From whose point of view is this myth told?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "First person (Prometheus telling the story)",
+          "Second person (the reader is addressed)",
+          "Third person (an outside narrator)",
+          "Multiple points of view"
+        ],
+        "correctAnswer": "Third person (an outside narrator)"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.4.6"
+      ],
+      "primaryStandard": "RL.4.6",
+      "passage": "G4-L1: The Gift of Fire",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The story uses third-person pronouns like 'he' and 'they' and is told by a narrator outside the story."
+    },
+    {
+      "id": "reading-4-rc-006",
+      "bankId": "reading-4-rc",
+      "text": "What was Thomas Edison's most famous invention?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The telephone",
+          "The practical light bulb",
+          "The automobile",
+          "The radio"
+        ],
+        "correctAnswer": "The practical light bulb"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.4.1"
+      ],
+      "primaryStandard": "RI.4.1",
+      "passage": "G4-I1: Thomas Edison - The Wizard of Menlo Park",
+      "passageText": "Thomas Edison was born in Ohio in 1847. As a child, he was curious about everything and loved to conduct experiments. Edison went on to become one of the greatest inventors in history. His most famous invention was the practical light bulb. Before Edison, people used candles and gas lamps for light. Edison worked tirelessly, testing over a thousand different materials before finding one that would glow for many hours. He also invented the phonograph, which could record and play back sound. Edison's laboratory in Menlo Park, New Jersey, became known as an 'invention factory.' He believed that 'genius is one percent inspiration and ninety-nine percent perspiration.'",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'His most famous invention was the practical light bulb.'"
+    },
+    {
+      "id": "reading-4-rc-007",
+      "bankId": "reading-4-rc",
+      "text": "What is the main idea of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Edison was born in Ohio",
+          "Edison was a hardworking inventor who created many important things",
+          "Light bulbs are better than candles",
+          "Menlo Park was a nice place to live"
+        ],
+        "correctAnswer": "Edison was a hardworking inventor who created many important things"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.4.2"
+      ],
+      "primaryStandard": "RI.4.2",
+      "passage": "G4-I1: Thomas Edison - The Wizard of Menlo Park",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The main idea focuses on Edison's hard work and his important inventions."
+    },
+    {
+      "id": "reading-4-rc-008",
+      "bankId": "reading-4-rc",
+      "text": "According to the passage, what did people use for light before Edison's invention?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Flashlights and batteries",
+          "Candles and gas lamps",
+          "Electric lamps and torches",
+          "Sunlight and moonlight"
+        ],
+        "correctAnswer": "Candles and gas lamps"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.4.3"
+      ],
+      "primaryStandard": "RI.4.3",
+      "passage": "G4-I1: Thomas Edison - The Wizard of Menlo Park",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text states 'Before Edison, people used candles and gas lamps for light.'"
+    },
+    {
+      "id": "reading-4-rc-009",
+      "bankId": "reading-4-rc",
+      "text": "What does 'perspiration' mean in Edison's famous quote?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Rest and relaxation",
+          "Hard work and effort",
+          "Luck and fortune",
+          "Ideas and thoughts"
+        ],
+        "correctAnswer": "Hard work and effort"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.4.4"
+      ],
+      "primaryStandard": "RI.4.4",
+      "passage": "G4-I1: Thomas Edison - The Wizard of Menlo Park",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Perspiration literally means sweat, but in this context it represents hard work and effort."
+    },
+    {
+      "id": "reading-4-rc-010",
+      "bankId": "reading-4-rc",
+      "text": "Why was Edison's laboratory called an 'invention factory'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It made products to sell",
+          "It produced many inventions",
+          "It had factory machines",
+          "It employed many workers"
+        ],
+        "correctAnswer": "It produced many inventions"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.4.8"
+      ],
+      "primaryStandard": "RI.4.8",
+      "passage": "G4-I1: Thomas Edison - The Wizard of Menlo Park",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The laboratory was called an 'invention factory' because Edison created many inventions there, like a factory produces goods."
+    },
+    {
+      "id": "reading-4-rc-011",
+      "bankId": "reading-4-rc",
+      "text": "Why did Maya not want to enter the old library at first?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It was closed",
+          "The building looked mysterious and a bit frightening",
+          "She didn't like books",
+          "Her friends told her not to"
+        ],
+        "correctAnswer": "The building looked mysterious and a bit frightening"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.4.1"
+      ],
+      "primaryStandard": "RL.4.1",
+      "passage": "G4-L2: The Secret of the Old Library",
+      "passageText": "Maya stood before the old library, its stone walls covered in ivy. The building had been abandoned for years, and people whispered that it held secrets. Maya's heart pounded as she pushed open the heavy wooden door. Dust floated in the air, and ancient books lined the shelves from floor to ceiling. Then she noticed something strange - one book seemed to glow faintly. When Maya pulled it from the shelf, a hidden door creaked open behind a bookcase. She hesitated, her curiosity battling with her fear. Finally, courage won. She stepped through the doorway into a room filled with maps of places that existed only in imagination.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage describes the building as 'abandoned for years' with people whispering about secrets, and Maya's 'heart pounded,' showing she was nervous about entering."
+    },
+    {
+      "id": "reading-4-rc-012",
+      "bankId": "reading-4-rc",
+      "text": "What was unusual about one of the books Maya found?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It was very old",
+          "It seemed to glow faintly",
+          "It was written in another language",
+          "It had no title"
+        ],
+        "correctAnswer": "It seemed to glow faintly"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RL.4.1"
+      ],
+      "primaryStandard": "RL.4.1",
+      "passage": "G4-L2: The Secret of the Old Library",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text states 'one book seemed to glow faintly.'"
+    },
+    {
+      "id": "reading-4-rc-013",
+      "bankId": "reading-4-rc",
+      "text": "Which trait best describes Maya based on her actions in the story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Careless and reckless",
+          "Curious and brave",
+          "Timid and afraid",
+          "Bored and uninterested"
+        ],
+        "correctAnswer": "Curious and brave"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.4.3"
+      ],
+      "primaryStandard": "RL.4.3",
+      "passage": "G4-L2: The Secret of the Old Library",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Maya's curiosity led her to explore the library, and her courage won over her fear when she stepped through the hidden door."
+    },
+    {
+      "id": "reading-4-rc-014",
+      "bankId": "reading-4-rc",
+      "text": "What does 'her curiosity battling with her fear' mean?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She was having a fight with someone",
+          "She was deciding between exploring and staying safe",
+          "She was reading about battles",
+          "She was afraid of being curious"
+        ],
+        "correctAnswer": "She was deciding between exploring and staying safe"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.4.4"
+      ],
+      "primaryStandard": "RL.4.4",
+      "passage": "G4-L2: The Secret of the Old Library",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "This figurative language describes Maya's internal conflict between wanting to explore (curiosity) and being afraid."
+    },
+    {
+      "id": "reading-4-rc-015",
+      "bankId": "reading-4-rc",
+      "text": "What can you predict might happen next in this story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Maya will leave the library and go home",
+          "Maya will explore the imaginary places on the maps",
+          "Maya will call her friends for help",
+          "The library will close forever"
+        ],
+        "correctAnswer": "Maya will explore the imaginary places on the maps"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Integration of Knowledge",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.4.7"
+      ],
+      "primaryStandard": "RL.4.7",
+      "passage": "G4-L2: The Secret of the Old Library",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Since Maya chose courage over fear and discovered maps of imaginary places, she will likely explore them."
+    },
+    {
+      "id": "reading-4-rc-016",
+      "bankId": "reading-4-rc",
+      "text": "What is the water cycle?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "A type of bicycle that works in water",
+          "The continuous movement of water on Earth",
+          "A machine that cleans water",
+          "The way fish swim in circles"
+        ],
+        "correctAnswer": "The continuous movement of water on Earth"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.4.1"
+      ],
+      "primaryStandard": "RI.4.1",
+      "passage": "G4-I2: The Amazing Water Cycle",
+      "passageText": "Water is constantly moving around our planet in a process called the water cycle. The sun heats water in oceans, lakes, and rivers, causing it to evaporate and rise into the air as water vapor. As this vapor rises higher, it cools and condenses into tiny droplets that form clouds. When these droplets combine and become heavy enough, they fall back to Earth as precipitation - rain, snow, sleet, or hail. The water then collects in bodies of water or soaks into the ground, where plants absorb it through their roots. Eventually, the water evaporates again, and the cycle continues. This process has been happening for billions of years and is essential for all life on Earth.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage defines the water cycle as 'water constantly moving around our planet.'"
+    },
+    {
+      "id": "reading-4-rc-017",
+      "bankId": "reading-4-rc",
+      "text": "What causes water to evaporate?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The moon's gravity",
+          "Heat from the sun",
+          "Wind from the mountains",
+          "Movement of fish"
+        ],
+        "correctAnswer": "Heat from the sun"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.4.3"
+      ],
+      "primaryStandard": "RI.4.3",
+      "passage": "G4-I2: The Amazing Water Cycle",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text states 'The sun heats water in oceans, lakes, and rivers, causing it to evaporate.'"
+    },
+    {
+      "id": "reading-4-rc-018",
+      "bankId": "reading-4-rc",
+      "text": "What are four types of precipitation mentioned in the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Rain, fog, mist, and dew",
+          "Rain, snow, sleet, and hail",
+          "Clouds, rain, snow, and ice",
+          "Rivers, lakes, oceans, and streams"
+        ],
+        "correctAnswer": "Rain, snow, sleet, and hail"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.4.1"
+      ],
+      "primaryStandard": "RI.4.1",
+      "passage": "G4-I2: The Amazing Water Cycle",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage lists 'rain, snow, sleet, or hail' as types of precipitation."
+    },
+    {
+      "id": "reading-4-rc-019",
+      "bankId": "reading-4-rc",
+      "text": "What does 'condenses' mean in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Spreads out and expands",
+          "Changes from gas to liquid",
+          "Heats up and boils",
+          "Disappears completely"
+        ],
+        "correctAnswer": "Changes from gas to liquid"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.4.4"
+      ],
+      "primaryStandard": "RI.4.4",
+      "passage": "G4-I2: The Amazing Water Cycle",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explains that vapor 'cools and condenses into tiny droplets,' showing condensation is the change from gas (vapor) to liquid (droplets)."
+    },
+    {
+      "id": "reading-4-rc-020",
+      "bankId": "reading-4-rc",
+      "text": "What text structure does this passage primarily use?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Compare and contrast",
+          "Problem and solution",
+          "Sequence/process",
+          "Cause and effect"
+        ],
+        "correctAnswer": "Sequence/process"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RI.4.5"
+      ],
+      "primaryStandard": "RI.4.5",
+      "passage": "G4-I2: The Amazing Water Cycle",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage describes the water cycle as a sequential process: evaporation, condensation, precipitation, collection, and back to evaporation."
+    },
+    {
+      "id": "reading-4-rc-021",
+      "bankId": "reading-4-rc",
+      "text": "Why did the other animals think Tortoise was foolish for challenging Hare?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Tortoise had never raced before",
+          "Hare was much faster than Tortoise",
+          "The race was too long",
+          "Tortoise was too old"
+        ],
+        "correctAnswer": "Hare was much faster than Tortoise"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.4.1"
+      ],
+      "primaryStandard": "RL.4.1",
+      "passage": "G4-L3: The Tortoise and the Hare",
+      "passageText": "Hare was always boasting about how fast he could run. One day, Tortoise grew tired of hearing this and challenged Hare to a race. The other animals thought Tortoise was foolish - everyone knew Hare was the fastest animal in the forest. When the race began, Hare sprinted ahead, leaving Tortoise far behind. Confident of his victory, Hare decided to take a nap under a shady tree. Meanwhile, Tortoise plodded along steadily, never stopping to rest. When Hare finally woke up, he saw Tortoise crossing the finish line. The animals cheered as Tortoise won the race. Hare learned that day that being talented is not enough - hard work and determination matter too.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'everyone knew Hare was the fastest animal in the forest.'"
+    },
+    {
+      "id": "reading-4-rc-022",
+      "bankId": "reading-4-rc",
+      "text": "What is the moral or lesson of this fable?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Always take naps when you are tired",
+          "Slow and steady wins the race",
+          "Racing is not a good idea",
+          "Never listen to animals who boast"
+        ],
+        "correctAnswer": "Slow and steady wins the race"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.4.2"
+      ],
+      "primaryStandard": "RL.4.2",
+      "passage": "G4-L3: The Tortoise and the Hare",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The fable teaches that steady effort and determination can beat natural talent when talent is wasted through overconfidence."
+    },
+    {
+      "id": "reading-4-rc-023",
+      "bankId": "reading-4-rc",
+      "text": "How do Tortoise and Hare's approaches to the race differ?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Tortoise is faster but lazy, Hare is slow but determined",
+          "Tortoise is slow but steady, Hare is fast but overconfident",
+          "Both approach the race the same way",
+          "Tortoise gives up but Hare keeps going"
+        ],
+        "correctAnswer": "Tortoise is slow but steady, Hare is fast but overconfident"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.4.3"
+      ],
+      "primaryStandard": "RL.4.3",
+      "passage": "G4-L3: The Tortoise and the Hare",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Tortoise 'plodded along steadily, never stopping' while Hare was 'confident' and took a nap, showing their contrasting approaches."
+    },
+    {
+      "id": "reading-4-rc-024",
+      "bankId": "reading-4-rc",
+      "text": "What does 'plodded' mean in this story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Ran very quickly",
+          "Walked slowly and steadily",
+          "Jumped high",
+          "Stopped moving"
+        ],
+        "correctAnswer": "Walked slowly and steadily"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft and Structure",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RL.4.4"
+      ],
+      "primaryStandard": "RL.4.4",
+      "passage": "G4-L3: The Tortoise and the Hare",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Plodded means to walk slowly and heavily. The context shows Tortoise moving steadily but not quickly."
+    },
+    {
+      "id": "reading-4-rc-025",
+      "bankId": "reading-4-rc",
+      "text": "This story is an example of what type of traditional literature?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Myth - explains natural phenomena",
+          "Fable - teaches a moral through animals",
+          "Legend - based on historical events",
+          "Fairy tale - includes magic and fantasy"
+        ],
+        "correctAnswer": "Fable - teaches a moral through animals"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Integration of Knowledge",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.4.5"
+      ],
+      "primaryStandard": "RL.4.5",
+      "passage": "G4-L3: The Tortoise and the Hare",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "A fable is a short story with animal characters that teaches a moral lesson, which matches this story perfectly."
+    },
+    {
+      "id": "reading-4-rc-026",
+      "bankId": "reading-4-rc",
+      "text": "What is the main reason butterflies migrate?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To find mates",
+          "To escape cold weather and find food",
+          "To lay eggs in new places",
+          "To explore new territories"
+        ],
+        "correctAnswer": "To escape cold weather and find food"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.4.1"
+      ],
+      "primaryStandard": "RI.4.1",
+      "passage": "G4-I3: The Monarch Butterfly's Incredible Journey",
+      "passageText": "Every fall, millions of monarch butterflies begin an incredible journey. These delicate insects travel up to 3,000 miles from Canada and the United States to the warm forests of central Mexico. Unlike birds, no single butterfly makes the complete round trip. The butterflies that fly south in autumn are the great-great-grandchildren of those that left Mexico the previous spring. Scientists are still amazed by how monarchs navigate so precisely to a place they have never been. They believe monarchs use the position of the sun and Earth's magnetic field as guides. In Mexico, the butterflies cluster together on trees to survive the cool mountain nights. When spring arrives, they begin the journey north again.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explains that monarchs travel to 'warm forests' and need to 'survive the cool mountain nights,' indicating they migrate to escape cold and find suitable conditions."
+    },
+    {
+      "id": "reading-4-rc-027",
+      "bankId": "reading-4-rc",
+      "text": "How far do monarch butterflies travel during migration?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Up to 300 miles",
+          "Up to 1,000 miles",
+          "Up to 3,000 miles",
+          "Up to 30,000 miles"
+        ],
+        "correctAnswer": "Up to 3,000 miles"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.4.1"
+      ],
+      "primaryStandard": "RI.4.1",
+      "passage": "G4-I3: The Monarch Butterfly's Incredible Journey",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text states they 'travel up to 3,000 miles.'"
+    },
+    {
+      "id": "reading-4-rc-028",
+      "bankId": "reading-4-rc",
+      "text": "What is unusual about the monarch's migration compared to birds?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Monarchs fly at night while birds fly during the day",
+          "No single monarch makes the complete round trip",
+          "Monarchs travel farther than any bird",
+          "Monarchs fly alone while birds fly in groups"
+        ],
+        "correctAnswer": "No single monarch makes the complete round trip"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.4.3"
+      ],
+      "primaryStandard": "RI.4.3",
+      "passage": "G4-I3: The Monarch Butterfly's Incredible Journey",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'Unlike birds, no single butterfly makes the complete round trip.'"
+    },
+    {
+      "id": "reading-4-rc-029",
+      "bankId": "reading-4-rc",
+      "text": "What does 'delicate' mean when describing the butterflies?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Very strong",
+          "Easily damaged or fragile",
+          "Brightly colored",
+          "Fast moving"
+        ],
+        "correctAnswer": "Easily damaged or fragile"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.4.4"
+      ],
+      "primaryStandard": "RI.4.4",
+      "passage": "G4-I3: The Monarch Butterfly's Incredible Journey",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Delicate means fragile or easily damaged. The author uses this word to emphasize how remarkable it is that such fragile creatures can travel so far."
+    },
+    {
+      "id": "reading-4-rc-030",
+      "bankId": "reading-4-rc",
+      "text": "According to scientists, how do monarchs navigate?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "By following rivers",
+          "By using the sun's position and Earth's magnetic field",
+          "By following other butterflies",
+          "By remembering the route from previous trips"
+        ],
+        "correctAnswer": "By using the sun's position and Earth's magnetic field"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.4.1"
+      ],
+      "primaryStandard": "RI.4.1",
+      "passage": "G4-I3: The Monarch Butterfly's Incredible Journey",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text states scientists believe 'monarchs use the position of the sun and Earth's magnetic field as guides.'"
+    },
+    {
+      "id": "reading-4-rc-031",
+      "bankId": "reading-4-rc",
+      "text": "What problem did Elena face in the story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She couldn't find her art supplies",
+          "She was nervous about showing her painting to the class",
+          "She forgot to do her homework",
+          "She didn't like her teacher"
+        ],
+        "correctAnswer": "She was nervous about showing her painting to the class"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RL.4.1"
+      ],
+      "primaryStandard": "RL.4.1",
+      "passage": "G4-L4: The Art Contest",
+      "passageText": "Elena stared at her painting, her stomach filled with butterflies. Today was the day she would show her artwork to the entire class. She had worked on it for weeks, carefully blending the colors of the sunset over the mountains. But what if no one liked it? What if they laughed? Her hands trembled as she carried the canvas to the front of the room. When she turned it around, there was silence. Then her teacher smiled. 'Elena, this is extraordinary,' she said. 'You've captured the light perfectly.' One by one, her classmates began to clap. Elena felt a warm glow spread through her chest - brighter than any sunset she could ever paint.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Elena's 'stomach filled with butterflies' and she worried 'what if they laughed,' showing her nervousness about sharing her painting."
+    },
+    {
+      "id": "reading-4-rc-032",
+      "bankId": "reading-4-rc",
+      "text": "What does 'her stomach filled with butterflies' mean?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She was hungry",
+          "She felt nervous and anxious",
+          "She had eaten something bad",
+          "She was excited about butterflies"
+        ],
+        "correctAnswer": "She felt nervous and anxious"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.4.4"
+      ],
+      "primaryStandard": "RL.4.4",
+      "passage": "G4-L4: The Art Contest",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "This is an idiom meaning to feel nervous. The fluttering feeling of nervousness is compared to butterflies moving in one's stomach."
+    },
+    {
+      "id": "reading-4-rc-033",
+      "bankId": "reading-4-rc",
+      "text": "How did Elena feel at the end of the story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Disappointed and sad",
+          "Proud and happy",
+          "Angry and upset",
+          "Confused and worried"
+        ],
+        "correctAnswer": "Proud and happy"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RL.4.3"
+      ],
+      "primaryStandard": "RL.4.3",
+      "passage": "G4-L4: The Art Contest",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Elena felt 'a warm glow spread through her chest' when everyone appreciated her work, showing pride and happiness."
+    },
+    {
+      "id": "reading-4-rc-034",
+      "bankId": "reading-4-rc",
+      "text": "What is the theme of this story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Art is more important than school",
+          "Facing your fears can lead to rewarding experiences",
+          "Teachers are always right",
+          "Painting sunsets is easy"
+        ],
+        "correctAnswer": "Facing your fears can lead to rewarding experiences"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.4.2"
+      ],
+      "primaryStandard": "RL.4.2",
+      "passage": "G4-L4: The Art Contest",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Elena overcame her fear of showing her art, and the result was praise and appreciation from others."
+    },
+    {
+      "id": "reading-4-rc-035",
+      "bankId": "reading-4-rc",
+      "text": "Why did the author compare Elena's happy feeling to a sunset?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Because Elena was tired",
+          "Because her painting was of a sunset and the warmth of success matched its brightness",
+          "Because it was evening",
+          "Because the room was painted orange"
+        ],
+        "correctAnswer": "Because her painting was of a sunset and the warmth of success matched its brightness"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft and Structure",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.4.4"
+      ],
+      "primaryStandard": "RL.4.4",
+      "passage": "G4-L4: The Art Contest",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The author connects Elena's 'warm glow' to the sunset she painted, showing that her emotional warmth was even brighter than her artistic achievement."
+    },
+    {
+      "id": "reading-4-rc-036",
+      "bankId": "reading-4-rc",
+      "text": "What is the main topic of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The history of ancient Egypt",
+          "How volcanoes form and erupt",
+          "Different types of mountains",
+          "The dangers of living near volcanoes"
+        ],
+        "correctAnswer": "How volcanoes form and erupt"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.4.2"
+      ],
+      "primaryStandard": "RI.4.2",
+      "passage": "G4-I4: How Volcanoes Work",
+      "passageText": "Deep beneath Earth's surface, it is incredibly hot. This heat melts rock into a thick, flowing substance called magma. When pressure builds up underground, the magma pushes upward, looking for a way to escape. A volcano forms where magma breaks through Earth's crust. When a volcano erupts, the magma that flows onto the surface is called lava. Volcanic eruptions can be gentle, with lava slowly oozing out, or violent, with explosions that shoot ash and rock miles into the sky. Some of the world's most fertile farmland is found near volcanoes because volcanic ash adds rich minerals to the soil. However, living near an active volcano can also be dangerous.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explains how volcanoes form from magma and how they erupt."
+    },
+    {
+      "id": "reading-4-rc-037",
+      "bankId": "reading-4-rc",
+      "text": "What is the difference between magma and lava?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Magma is hotter than lava",
+          "Magma is underground, lava is on the surface",
+          "Lava is thicker than magma",
+          "There is no difference"
+        ],
+        "correctAnswer": "Magma is underground, lava is on the surface"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.4.3"
+      ],
+      "primaryStandard": "RI.4.3",
+      "passage": "G4-I4: How Volcanoes Work",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'the magma that flows onto the surface is called lava,' showing the location difference."
+    },
+    {
+      "id": "reading-4-rc-038",
+      "bankId": "reading-4-rc",
+      "text": "What causes magma to push upward?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Gravity pulling it up",
+          "Pressure building up underground",
+          "Wind from the surface",
+          "Movement of the ocean"
+        ],
+        "correctAnswer": "Pressure building up underground"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.4.3"
+      ],
+      "primaryStandard": "RI.4.3",
+      "passage": "G4-I4: How Volcanoes Work",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text states 'When pressure builds up underground, the magma pushes upward.'"
+    },
+    {
+      "id": "reading-4-rc-039",
+      "bankId": "reading-4-rc",
+      "text": "Why is farmland near volcanoes often very fertile?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The lava keeps the soil warm",
+          "Volcanic ash adds rich minerals to the soil",
+          "Volcanoes provide water for crops",
+          "The explosions clear away weeds"
+        ],
+        "correctAnswer": "Volcanic ash adds rich minerals to the soil"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.4.1"
+      ],
+      "primaryStandard": "RI.4.1",
+      "passage": "G4-I4: How Volcanoes Work",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'volcanic ash adds rich minerals to the soil.'"
+    },
+    {
+      "id": "reading-4-rc-040",
+      "bankId": "reading-4-rc",
+      "text": "What does 'fertile' mean in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Very dangerous",
+          "Good for growing plants",
+          "Covered with rocks",
+          "Near the ocean"
+        ],
+        "correctAnswer": "Good for growing plants"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.4.4"
+      ],
+      "primaryStandard": "RI.4.4",
+      "passage": "G4-I4: How Volcanoes Work",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The context mentions 'fertile farmland' near volcanoes because of rich minerals, indicating fertile means good for growing plants."
+    },
+    {
+      "id": "reading-4-rc-041",
+      "bankId": "reading-4-rc",
+      "text": "Why was Athena angry with Arachne?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Arachne stole Athena's weaving loom",
+          "Arachne claimed to be a better weaver than Athena",
+          "Arachne refused to weave",
+          "Arachne broke Athena's tapestry"
+        ],
+        "correctAnswer": "Arachne claimed to be a better weaver than Athena"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.4.1"
+      ],
+      "primaryStandard": "RL.4.1",
+      "passage": "G4-L5: Arachne the Weaver",
+      "passageText": "In ancient Greece, there lived a young woman named Arachne who was famous for her weaving. Her tapestries were so beautiful that people came from far away to see them. Arachne became proud of her talent. 'I am the greatest weaver in the world,' she boasted. 'Even the goddess Athena could not match my skill.' When Athena heard this, she disguised herself as an old woman and warned Arachne to be humble. But Arachne only boasted more. Athena revealed herself and challenged Arachne to a contest. Both wove magnificent tapestries, but Athena was furious that a mortal dared compare herself to a goddess. She transformed Arachne into a spider, destined to weave forever. Today, spiders are called arachnids after Arachne.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Arachne boasted 'Even the goddess Athena could not match my skill,' which angered Athena."
+    },
+    {
+      "id": "reading-4-rc-042",
+      "bankId": "reading-4-rc",
+      "text": "What happened to Arachne at the end of the myth?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She won the contest",
+          "She apologized to Athena",
+          "She was transformed into a spider",
+          "She became a goddess"
+        ],
+        "correctAnswer": "She was transformed into a spider"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RL.4.1"
+      ],
+      "primaryStandard": "RL.4.1",
+      "passage": "G4-L5: Arachne the Weaver",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text states 'She transformed Arachne into a spider.'"
+    },
+    {
+      "id": "reading-4-rc-043",
+      "bankId": "reading-4-rc",
+      "text": "What lesson does this myth teach?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Weaving is an important skill",
+          "Pride and boasting can lead to consequences",
+          "Goddesses are always right",
+          "Spiders are magical creatures"
+        ],
+        "correctAnswer": "Pride and boasting can lead to consequences"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.4.2"
+      ],
+      "primaryStandard": "RL.4.2",
+      "passage": "G4-L5: Arachne the Weaver",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Arachne's excessive pride and boasting led to her transformation into a spider, teaching that humility is important."
+    },
+    {
+      "id": "reading-4-rc-044",
+      "bankId": "reading-4-rc",
+      "text": "Why are spiders called arachnids?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Because they have eight legs",
+          "Because they weave webs",
+          "Because the name comes from Arachne in Greek mythology",
+          "Because a scientist named them"
+        ],
+        "correctAnswer": "Because the name comes from Arachne in Greek mythology"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Integration of Knowledge",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.4.7"
+      ],
+      "primaryStandard": "RL.4.7",
+      "passage": "G4-L5: Arachne the Weaver",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'spiders are called arachnids after Arachne.'"
+    },
+    {
+      "id": "reading-4-rc-045",
+      "bankId": "reading-4-rc",
+      "text": "What does 'mortal' mean in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "A very talented person",
+          "A human who will eventually die",
+          "A type of weaver",
+          "An enemy of the gods"
+        ],
+        "correctAnswer": "A human who will eventually die"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.4.4"
+      ],
+      "primaryStandard": "RL.4.4",
+      "passage": "G4-L5: Arachne the Weaver",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "In mythology, mortals are humans who can die, as opposed to immortal gods who live forever."
+    },
+    {
+      "id": "reading-4-rc-046",
+      "bankId": "reading-4-rc",
+      "text": "What is the main idea of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Harriet Tubman was a brave woman who helped enslaved people escape to freedom",
+          "The Underground Railroad was an actual railroad",
+          "Harriet Tubman was born in Maryland",
+          "Escaping slavery was easy"
+        ],
+        "correctAnswer": "Harriet Tubman was a brave woman who helped enslaved people escape to freedom"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.4.2"
+      ],
+      "primaryStandard": "RI.4.2",
+      "passage": "G4-I5: Harriet Tubman - A Hero of Freedom",
+      "passageText": "Harriet Tubman was born into slavery in Maryland around 1822. As a young woman, she dreamed of freedom. In 1849, she escaped to the North by following the North Star at night. But Tubman did not forget those she left behind. She became a 'conductor' on the Underground Railroad - a secret network of people and safe houses that helped enslaved people escape to freedom. Over ten years, Tubman made approximately nineteen dangerous trips back to the South. She guided about seventy people to freedom, including her elderly parents. 'I never ran my train off the track,' she said proudly, 'and I never lost a passenger.' Tubman risked her life many times, but her courage never wavered.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The main idea focuses on Tubman's bravery and her work helping enslaved people escape through the Underground Railroad."
+    },
+    {
+      "id": "reading-4-rc-047",
+      "bankId": "reading-4-rc",
+      "text": "What was the Underground Railroad?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "A train that ran underground",
+          "A secret network of people and safe houses",
+          "A tunnel under the mountains",
+          "A road to Canada"
+        ],
+        "correctAnswer": "A secret network of people and safe houses"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.4.1"
+      ],
+      "primaryStandard": "RI.4.1",
+      "passage": "G4-I5: Harriet Tubman - A Hero of Freedom",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage defines it as 'a secret network of people and safe houses that helped enslaved people escape to freedom.'"
+    },
+    {
+      "id": "reading-4-rc-048",
+      "bankId": "reading-4-rc",
+      "text": "Why did Harriet Tubman say she 'never lost a passenger'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She was a train conductor",
+          "Everyone she guided reached freedom safely",
+          "She had a good memory",
+          "She traveled by boat"
+        ],
+        "correctAnswer": "Everyone she guided reached freedom safely"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.4.4"
+      ],
+      "primaryStandard": "RI.4.4",
+      "passage": "G4-I5: Harriet Tubman - A Hero of Freedom",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Tubman used railroad language metaphorically - she was the 'conductor' and the people she helped were 'passengers.' Never losing a passenger meant everyone arrived safely."
+    },
+    {
+      "id": "reading-4-rc-049",
+      "bankId": "reading-4-rc",
+      "text": "About how many people did Tubman guide to freedom?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "About seven",
+          "About seventy",
+          "About seven hundred",
+          "About seven thousand"
+        ],
+        "correctAnswer": "About seventy"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.4.1"
+      ],
+      "primaryStandard": "RI.4.1",
+      "passage": "G4-I5: Harriet Tubman - A Hero of Freedom",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text states 'She guided about seventy people to freedom.'"
+    },
+    {
+      "id": "reading-4-rc-050",
+      "bankId": "reading-4-rc",
+      "text": "What does 'her courage never wavered' mean?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She was sometimes scared",
+          "She never became less brave",
+          "She waved at people",
+          "She traveled in straight lines"
+        ],
+        "correctAnswer": "She never became less brave"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.4.4"
+      ],
+      "primaryStandard": "RI.4.4",
+      "passage": "G4-I5: Harriet Tubman - A Hero of Freedom",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "To waver means to become less steady or less certain. Her courage never wavering means she stayed brave throughout."
+    },
+    {
+      "id": "reading-4-rc-051",
+      "bankId": "reading-4-rc",
+      "text": "What was Kaito's main problem in the story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He couldn't find his baseball glove",
+          "He struggled to control his pitches",
+          "He didn't like his teammates",
+          "He was too tired to practice"
+        ],
+        "correctAnswer": "He struggled to control his pitches"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RL.4.1"
+      ],
+      "primaryStandard": "RL.4.1",
+      "passage": "G4-L6: The Winning Pitch",
+      "passageText": "Kaito had dreamed of being a pitcher since he was five years old. But lately, his pitches went everywhere except where he aimed them. 'Focus on your breathing,' Coach Martinez suggested. 'A calm mind leads to a steady arm.' Kaito practiced every day, trying to quiet the nervous thoughts that raced through his head. When the championship game arrived, Kaito stood on the mound with the bases loaded. He could hear his heart pounding. Then he remembered his coach's words. He took a deep breath, focused on the catcher's mitt, and threw. Strike! The crowd erupted in cheers. Kaito smiled - he had finally learned that sometimes the biggest battles are won in your mind.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'his pitches went everywhere except where he aimed them,' showing his struggle with control."
+    },
+    {
+      "id": "reading-4-rc-052",
+      "bankId": "reading-4-rc",
+      "text": "What advice did Coach Martinez give Kaito?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Practice more often",
+          "Focus on your breathing",
+          "Throw harder",
+          "Watch professional players"
+        ],
+        "correctAnswer": "Focus on your breathing"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RL.4.1"
+      ],
+      "primaryStandard": "RL.4.1",
+      "passage": "G4-L6: The Winning Pitch",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The coach said 'Focus on your breathing. A calm mind leads to a steady arm.'"
+    },
+    {
+      "id": "reading-4-rc-053",
+      "bankId": "reading-4-rc",
+      "text": "What does 'the biggest battles are won in your mind' mean?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Fighting is done by thinking",
+          "Mental preparation is key to success",
+          "You should imagine winning",
+          "Baseball is a mental game"
+        ],
+        "correctAnswer": "Mental preparation is key to success"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.4.2"
+      ],
+      "primaryStandard": "RL.4.2",
+      "passage": "G4-L6: The Winning Pitch",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Kaito learned that controlling his thoughts and staying calm was essential to throwing well - mental preparation was the key."
+    },
+    {
+      "id": "reading-4-rc-054",
+      "bankId": "reading-4-rc",
+      "text": "How did Kaito change throughout the story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "He became a worse pitcher",
+          "He learned to control his nervousness",
+          "He quit baseball",
+          "He changed coaches"
+        ],
+        "correctAnswer": "He learned to control his nervousness"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.4.3"
+      ],
+      "primaryStandard": "RL.4.3",
+      "passage": "G4-L6: The Winning Pitch",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Kaito went from having nervous thoughts that affected his pitching to being able to calm himself and throw a strike."
+    },
+    {
+      "id": "reading-4-rc-055",
+      "bankId": "reading-4-rc",
+      "text": "What does 'erupted' mean when describing the crowd?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Became quiet",
+          "Burst out loudly",
+          "Left the stadium",
+          "Sat down"
+        ],
+        "correctAnswer": "Burst out loudly"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.4.4"
+      ],
+      "primaryStandard": "RL.4.4",
+      "passage": "G4-L6: The Winning Pitch",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Like a volcano erupts suddenly, the crowd suddenly burst out in loud cheers."
+    },
+    {
+      "id": "reading-4-rc-056",
+      "bankId": "reading-4-rc",
+      "text": "What is the main purpose of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To persuade readers to eat healthy",
+          "To explain how ecosystems work",
+          "To entertain readers with a story",
+          "To describe different biomes"
+        ],
+        "correctAnswer": "To explain how ecosystems work"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.4.6"
+      ],
+      "primaryStandard": "RI.4.6",
+      "passage": "G4-I6: The Balance of Ecosystems",
+      "passageText": "An ecosystem is a community of living things interacting with each other and their environment. Every organism plays an important role. Producers, like plants and algae, make their own food using sunlight. Consumers, like rabbits and wolves, eat other organisms for energy. Decomposers, like mushrooms and bacteria, break down dead matter and return nutrients to the soil. These roles are connected like links in a chain. If one link is removed, the whole chain can fall apart. For example, if wolves disappear from a forest, deer populations may grow too large and eat too many plants. This can lead to soil erosion and fewer homes for other animals. Protecting ecosystems means understanding how all the pieces fit together.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage's main purpose is to explain how ecosystems function and how different organisms depend on each other."
+    },
+    {
+      "id": "reading-4-rc-057",
+      "bankId": "reading-4-rc",
+      "text": "What role do decomposers play in an ecosystem?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "They make food using sunlight",
+          "They hunt other animals",
+          "They break down dead matter and return nutrients to soil",
+          "They provide shelter for animals"
+        ],
+        "correctAnswer": "They break down dead matter and return nutrients to soil"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.4.1"
+      ],
+      "primaryStandard": "RI.4.1",
+      "passage": "G4-I6: The Balance of Ecosystems",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text states decomposers 'break down dead matter and return nutrients to the soil.'"
+    },
+    {
+      "id": "reading-4-rc-058",
+      "bankId": "reading-4-rc",
+      "text": "According to the passage, what might happen if wolves disappear from a forest?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "More wolves will come from other areas",
+          "Deer populations may grow too large",
+          "Plants will grow better",
+          "The forest will become healthier"
+        ],
+        "correctAnswer": "Deer populations may grow too large"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.4.3"
+      ],
+      "primaryStandard": "RI.4.3",
+      "passage": "G4-I6: The Balance of Ecosystems",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'if wolves disappear from a forest, deer populations may grow too large.'"
+    },
+    {
+      "id": "reading-4-rc-059",
+      "bankId": "reading-4-rc",
+      "text": "What comparison does the author use to explain ecosystem connections?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "A puzzle with missing pieces",
+          "Links in a chain",
+          "A house of cards",
+          "A spider's web"
+        ],
+        "correctAnswer": "Links in a chain"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.4.5"
+      ],
+      "primaryStandard": "RI.4.5",
+      "passage": "G4-I6: The Balance of Ecosystems",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text says 'These roles are connected like links in a chain.'"
+    },
+    {
+      "id": "reading-4-rc-060",
+      "bankId": "reading-4-rc",
+      "text": "What does 'erosion' mean in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The growth of new plants",
+          "The wearing away of soil",
+          "The building of animal homes",
+          "The falling of rain"
+        ],
+        "correctAnswer": "The wearing away of soil"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.4.4"
+      ],
+      "primaryStandard": "RI.4.4",
+      "passage": "G4-I6: The Balance of Ecosystems",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The context shows erosion happens when plants are eaten and can no longer hold soil in place, indicating erosion is the wearing away of soil."
+    },
+    {
+      "id": "reading-4-rc-061",
+      "bankId": "reading-4-rc",
+      "text": "What is the setting of this story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "A modern city",
+          "Ancient Egypt",
+          "A fantasy kingdom",
+          "A spaceship"
+        ],
+        "correctAnswer": "Ancient Egypt"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft and Structure",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RL.4.5"
+      ],
+      "primaryStandard": "RL.4.5",
+      "passage": "G4-L7: The Pharaoh's Riddle",
+      "passageText": "Young Neferu stood before the great Pharaoh, her heart racing. As the daughter of a scribe, she had been taught to read and write - skills rare for a girl in ancient Egypt. The Pharaoh held up a papyrus scroll. 'Whoever solves the riddle on this scroll shall receive a great reward,' he announced. Many scholars had tried and failed. Neferu studied the hieroglyphics carefully. The riddle spoke of something that 'runs but has no legs, has a bed but never sleeps.' Suddenly, her eyes lit up. 'The answer is a river, great Pharaoh!' The Pharaoh smiled. 'At last, someone with true wisdom. You shall become a royal scribe.' Neferu had proven that knowledge, not birth, determines one's worth.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage mentions 'ancient Egypt,' 'Pharaoh,' 'papyrus scroll,' and 'hieroglyphics,' all indicating ancient Egyptian setting."
+    },
+    {
+      "id": "reading-4-rc-062",
+      "bankId": "reading-4-rc",
+      "text": "What was the answer to the riddle?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "A snake",
+          "A river",
+          "The wind",
+          "A shadow"
+        ],
+        "correctAnswer": "A river"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RL.4.1"
+      ],
+      "primaryStandard": "RL.4.1",
+      "passage": "G4-L7: The Pharaoh's Riddle",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Neferu answered 'The answer is a river, great Pharaoh!'"
+    },
+    {
+      "id": "reading-4-rc-063",
+      "bankId": "reading-4-rc",
+      "text": "What made Neferu unusual for a girl in ancient Egypt?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She could run very fast",
+          "She could read and write",
+          "She was very tall",
+          "She had met the Pharaoh before"
+        ],
+        "correctAnswer": "She could read and write"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.4.3"
+      ],
+      "primaryStandard": "RL.4.3",
+      "passage": "G4-L7: The Pharaoh's Riddle",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states she had been 'taught to read and write - skills rare for a girl in ancient Egypt.'"
+    },
+    {
+      "id": "reading-4-rc-064",
+      "bankId": "reading-4-rc",
+      "text": "What is the theme of this story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Riddles are always easy to solve",
+          "Knowledge and wisdom are more important than social status",
+          "Girls should not go to school",
+          "Pharaohs are always kind"
+        ],
+        "correctAnswer": "Knowledge and wisdom are more important than social status"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.4.2"
+      ],
+      "primaryStandard": "RL.4.2",
+      "passage": "G4-L7: The Pharaoh's Riddle",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The final sentence states 'knowledge, not birth, determines one's worth,' emphasizing that wisdom matters more than social position."
+    },
+    {
+      "id": "reading-4-rc-065",
+      "bankId": "reading-4-rc",
+      "text": "What are hieroglyphics?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "A type of Egyptian food",
+          "Ancient Egyptian picture writing",
+          "A kind of building",
+          "A royal crown"
+        ],
+        "correctAnswer": "Ancient Egyptian picture writing"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.4.4"
+      ],
+      "primaryStandard": "RL.4.4",
+      "passage": "G4-L7: The Pharaoh's Riddle",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The context shows Neferu 'studied the hieroglyphics carefully' on a scroll to read the riddle, indicating hieroglyphics are a form of writing."
+    },
+    {
+      "id": "reading-4-rc-066",
+      "bankId": "reading-4-rc",
+      "text": "What is the main idea of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Mars is a dangerous place to visit",
+          "Scientists are learning more about Mars and considering human exploration",
+          "Mars has no water at all",
+          "Earth is better than Mars"
+        ],
+        "correctAnswer": "Scientists are learning more about Mars and considering human exploration"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.4.2"
+      ],
+      "primaryStandard": "RI.4.2",
+      "passage": "G4-I7: Exploring the Red Planet",
+      "passageText": "Mars, often called the Red Planet because of its rusty color, has fascinated humans for centuries. Today, robots called rovers explore its surface, sending back photographs and data. Scientists have discovered that Mars once had water - perhaps even rivers and lakes. They have found evidence of ancient riverbeds and minerals that only form in water. This discovery is exciting because where there was water, there might have been life. Future missions may send astronauts to Mars. The journey would take about seven months, and astronauts would need to bring everything they need to survive. Despite the challenges, many scientists believe humans will walk on Mars within the next few decades.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage discusses Mars exploration by rovers, discoveries about water, and future plans for human missions."
+    },
+    {
+      "id": "reading-4-rc-067",
+      "bankId": "reading-4-rc",
+      "text": "Why is Mars called the Red Planet?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Because it is very hot",
+          "Because of its rusty color",
+          "Because it is close to the sun",
+          "Because it has red aliens"
+        ],
+        "correctAnswer": "Because of its rusty color"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.4.1"
+      ],
+      "primaryStandard": "RI.4.1",
+      "passage": "G4-I7: Exploring the Red Planet",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states Mars is 'often called the Red Planet because of its rusty color.'"
+    },
+    {
+      "id": "reading-4-rc-068",
+      "bankId": "reading-4-rc",
+      "text": "What evidence have scientists found that Mars once had water?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Photographs of current rivers",
+          "Ancient riverbeds and water-formed minerals",
+          "Living fish fossils",
+          "Ice caps at the equator"
+        ],
+        "correctAnswer": "Ancient riverbeds and water-formed minerals"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.4.3"
+      ],
+      "primaryStandard": "RI.4.3",
+      "passage": "G4-I7: Exploring the Red Planet",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text mentions 'evidence of ancient riverbeds and minerals that only form in water.'"
+    },
+    {
+      "id": "reading-4-rc-069",
+      "bankId": "reading-4-rc",
+      "text": "Why is the discovery of past water on Mars exciting?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Water is good for rovers",
+          "Where there was water, there might have been life",
+          "Astronauts need water to drink",
+          "Water makes pretty pictures"
+        ],
+        "correctAnswer": "Where there was water, there might have been life"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.4.1"
+      ],
+      "primaryStandard": "RI.4.1",
+      "passage": "G4-I7: Exploring the Red Planet",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'This discovery is exciting because where there was water, there might have been life.'"
+    },
+    {
+      "id": "reading-4-rc-070",
+      "bankId": "reading-4-rc",
+      "text": "How long would a journey to Mars take?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "About seven days",
+          "About seven weeks",
+          "About seven months",
+          "About seven years"
+        ],
+        "correctAnswer": "About seven months"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.4.1"
+      ],
+      "primaryStandard": "RI.4.1",
+      "passage": "G4-I7: Exploring the Red Planet",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text states 'The journey would take about seven months.'"
+    },
+    {
+      "id": "reading-4-rc-071",
+      "bankId": "reading-4-rc",
+      "text": "Why was Grandmother excited about the first winter snow?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She could stay inside",
+          "Snow held special memories from her childhood",
+          "She didn't have to go to work",
+          "She wanted to build a snowman"
+        ],
+        "correctAnswer": "Snow held special memories from her childhood"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.4.1"
+      ],
+      "primaryStandard": "RL.4.1",
+      "passage": "G4-L8: Grandmother's Stories",
+      "passageText": "Every time the first winter snow fell, Grandmother's eyes sparkled with memories. 'When I was your age,' she would begin, settling into her rocking chair, 'snow meant something magical.' She told Isabella about sledding down Miller's Hill with her brothers, about her mother's hot cocoa waiting when they came inside, and about the quiet beauty of the world wrapped in white. 'We didn't have televisions or video games,' Grandmother said. 'We made our own fun.' Isabella realized that though times had changed, the joy of childhood remained the same. She took Grandmother's wrinkled hand. 'Will you come watch me sled tomorrow?' Grandmother smiled. 'I wouldn't miss it for the world.'",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage says 'Grandmother's eyes sparkled with memories' and she shared childhood stories about snow activities."
+    },
+    {
+      "id": "reading-4-rc-072",
+      "bankId": "reading-4-rc",
+      "text": "What does 'her eyes sparkled with memories' suggest?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Her eyes were wet",
+          "She was thinking happily about the past",
+          "She needed glasses",
+          "She was looking at something shiny"
+        ],
+        "correctAnswer": "She was thinking happily about the past"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.4.4"
+      ],
+      "primaryStandard": "RL.4.4",
+      "passage": "G4-L8: Grandmother's Stories",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Eyes sparkling with memories is figurative language meaning she was happily remembering the past."
+    },
+    {
+      "id": "reading-4-rc-073",
+      "bankId": "reading-4-rc",
+      "text": "What did Isabella realize from her grandmother's stories?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Life was better in the old days",
+          "The joy of childhood stays the same across generations",
+          "Television is bad for children",
+          "Sledding is dangerous"
+        ],
+        "correctAnswer": "The joy of childhood stays the same across generations"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.4.2"
+      ],
+      "primaryStandard": "RL.4.2",
+      "passage": "G4-L8: Grandmother's Stories",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text states 'Isabella realized that though times had changed, the joy of childhood remained the same.'"
+    },
+    {
+      "id": "reading-4-rc-074",
+      "bankId": "reading-4-rc",
+      "text": "What is the relationship between Isabella and the narrator's Grandmother?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Mother and daughter",
+          "Grandmother and granddaughter",
+          "Teacher and student",
+          "Neighbors"
+        ],
+        "correctAnswer": "Grandmother and granddaughter"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RL.4.3"
+      ],
+      "primaryStandard": "RL.4.3",
+      "passage": "G4-L8: Grandmother's Stories",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text shows Grandmother telling stories to Isabella, and Isabella calling her 'Grandmother' and holding her hand."
+    },
+    {
+      "id": "reading-4-rc-075",
+      "bankId": "reading-4-rc",
+      "text": "What does 'I wouldn't miss it for the world' mean?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She might forget about it",
+          "She will definitely be there",
+          "She needs to check her schedule",
+          "She is worried about getting lost"
+        ],
+        "correctAnswer": "She will definitely be there"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.4.4"
+      ],
+      "primaryStandard": "RL.4.4",
+      "passage": "G4-L8: Grandmother's Stories",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "This idiom means nothing could keep her away - she will definitely be there."
+    },
+    {
+      "id": "reading-4-rc-076",
+      "bankId": "reading-4-rc",
+      "text": "What is the author's purpose in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To persuade readers to recycle",
+          "To inform readers about renewable energy sources",
+          "To entertain readers with a story about windmills",
+          "To describe how to build solar panels"
+        ],
+        "correctAnswer": "To inform readers about renewable energy sources"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.4.6"
+      ],
+      "primaryStandard": "RI.4.6",
+      "passage": "G4-I8: The Power of Wind and Sun",
+      "passageText": "As fossil fuels like coal and oil become scarcer and contribute to pollution, scientists are turning to renewable energy sources. Solar energy captures power from the sun using special panels that convert sunlight into electricity. Wind energy uses large turbines - like modern windmills - to generate power when the wind turns their blades. These energy sources are called renewable because they won't run out. The sun will keep shining, and the wind will keep blowing. Many countries are now building large solar and wind farms. Some experts believe that by 2050, most of our electricity could come from renewable sources. The challenge is storing this energy for times when the sun isn't shining or the wind isn't blowing.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage provides information about solar and wind energy, explaining how they work and their benefits."
+    },
+    {
+      "id": "reading-4-rc-077",
+      "bankId": "reading-4-rc",
+      "text": "Why are solar and wind energy called renewable?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "They are expensive",
+          "They won't run out",
+          "They are new inventions",
+          "They work everywhere"
+        ],
+        "correctAnswer": "They won't run out"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.4.1"
+      ],
+      "primaryStandard": "RI.4.1",
+      "passage": "G4-I8: The Power of Wind and Sun",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text states 'These energy sources are called renewable because they won't run out.'"
+    },
+    {
+      "id": "reading-4-rc-078",
+      "bankId": "reading-4-rc",
+      "text": "What is a challenge with renewable energy mentioned in the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "It costs too much to build",
+          "Storing energy for when conditions aren't ideal",
+          "People don't like how it looks",
+          "It creates too much pollution"
+        ],
+        "correctAnswer": "Storing energy for when conditions aren't ideal"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.4.3"
+      ],
+      "primaryStandard": "RI.4.3",
+      "passage": "G4-I8: The Power of Wind and Sun",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage mentions 'The challenge is storing this energy for times when the sun isn't shining or the wind isn't blowing.'"
+    },
+    {
+      "id": "reading-4-rc-079",
+      "bankId": "reading-4-rc",
+      "text": "What does 'scarcer' mean in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "More frightening",
+          "Less available",
+          "More expensive",
+          "More polluting"
+        ],
+        "correctAnswer": "Less available"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.4.4"
+      ],
+      "primaryStandard": "RI.4.4",
+      "passage": "G4-I8: The Power of Wind and Sun",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Scarcer means harder to find or less available, which is why scientists are looking for alternatives to fossil fuels."
+    },
+    {
+      "id": "reading-4-rc-080",
+      "bankId": "reading-4-rc",
+      "text": "According to experts, what might happen by 2050?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Fossil fuels will be completely gone",
+          "Most electricity could come from renewable sources",
+          "Everyone will have solar panels",
+          "Wind turbines will replace all cars"
+        ],
+        "correctAnswer": "Most electricity could come from renewable sources"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.4.1"
+      ],
+      "primaryStandard": "RI.4.1",
+      "passage": "G4-I8: The Power of Wind and Sun",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text states 'Some experts believe that by 2050, most of our electricity could come from renewable sources.'"
+    },
+    {
+      "id": "reading-4-rc-081",
+      "bankId": "reading-4-rc",
+      "text": "What problem did the village face?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "They had no leader",
+          "They had no water during the drought",
+          "They were at war with another village",
+          "They had too many dragons"
+        ],
+        "correctAnswer": "They had no water during the drought"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RL.4.1"
+      ],
+      "primaryStandard": "RL.4.1",
+      "passage": "G4-L9: The Dragon's Pearl",
+      "passageText": "In ancient China, a terrible drought struck a small village. The rivers dried up, and the crops withered. Young Chen Li set out to find the legendary Dragon's Pearl, said to grant one wish. He climbed treacherous mountains and crossed scorching deserts. Finally, he found the pearl guarded by an ancient dragon. 'What do you wish for?' the dragon asked. Chen Li thought of all the things he could ask for - gold, power, eternal life. But he remembered his suffering village. 'I wish for rain to save my people,' he said. The dragon smiled. 'You have chosen wisely. A selfless wish is the most powerful of all.' Storm clouds gathered, and life-giving rain fell upon the village. Chen Li returned home a hero.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage states 'a terrible drought struck a small village' and 'The rivers dried up.'"
+    },
+    {
+      "id": "reading-4-rc-082",
+      "bankId": "reading-4-rc",
+      "text": "What did Chen Li wish for?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Gold and treasures",
+          "Eternal life",
+          "Rain for his village",
+          "Power over the dragon"
+        ],
+        "correctAnswer": "Rain for his village"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RL.4.1"
+      ],
+      "primaryStandard": "RL.4.1",
+      "passage": "G4-L9: The Dragon's Pearl",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Chen Li said 'I wish for rain to save my people.'"
+    },
+    {
+      "id": "reading-4-rc-083",
+      "bankId": "reading-4-rc",
+      "text": "Why did the dragon say Chen Li 'chose wisely'?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Because he asked for the right amount of rain",
+          "Because he made a selfless wish to help others",
+          "Because he found the pearl quickly",
+          "Because he wasn't afraid of the dragon"
+        ],
+        "correctAnswer": "Because he made a selfless wish to help others"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.4.2"
+      ],
+      "primaryStandard": "RL.4.2",
+      "passage": "G4-L9: The Dragon's Pearl",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The dragon said 'A selfless wish is the most powerful of all,' praising Chen Li for wishing for others rather than himself."
+    },
+    {
+      "id": "reading-4-rc-084",
+      "bankId": "reading-4-rc",
+      "text": "What does 'withered' mean in this story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Grew very tall",
+          "Dried up and died",
+          "Changed color",
+          "Spread to new areas"
+        ],
+        "correctAnswer": "Dried up and died"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.4.4"
+      ],
+      "primaryStandard": "RL.4.4",
+      "passage": "G4-L9: The Dragon's Pearl",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "During the drought, crops withered - they dried up from lack of water."
+    },
+    {
+      "id": "reading-4-rc-085",
+      "bankId": "reading-4-rc",
+      "text": "What is the theme of this folk tale?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Dragons are dangerous creatures",
+          "Putting others first is noble and rewarding",
+          "Wishes always come true",
+          "Mountains are difficult to climb"
+        ],
+        "correctAnswer": "Putting others first is noble and rewarding"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.4.2"
+      ],
+      "primaryStandard": "RL.4.2",
+      "passage": "G4-L9: The Dragon's Pearl",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Chen Li chose to help his village instead of gaining personal wealth, and this selflessness was praised and rewarded."
+    },
+    {
+      "id": "reading-4-rc-086",
+      "bankId": "reading-4-rc",
+      "text": "What is the main idea of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Octopuses are dangerous to humans",
+          "Octopuses are remarkably intelligent ocean creatures",
+          "Octopuses live only in deep water",
+          "Octopuses are the largest sea animals"
+        ],
+        "correctAnswer": "Octopuses are remarkably intelligent ocean creatures"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.4.2"
+      ],
+      "primaryStandard": "RI.4.2",
+      "passage": "G4-I9: The Amazing Octopus",
+      "passageText": "The octopus is one of the most intelligent creatures in the ocean. With eight arms and a soft body, it can squeeze through incredibly small spaces. Scientists have observed octopuses solving puzzles, opening jars, and even using tools. One octopus at an aquarium learned to unscrew the lid of its tank and escape at night to eat fish in nearby tanks! Octopuses can also change their skin color and texture in milliseconds, helping them camouflage against predators or communicate with other octopuses. Each of their arms can taste and smell independently. Perhaps most remarkable is that octopuses have three hearts and blue blood. These amazing animals continue to surprise scientists with their abilities.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage focuses on the intelligence and remarkable abilities of octopuses."
+    },
+    {
+      "id": "reading-4-rc-087",
+      "bankId": "reading-4-rc",
+      "text": "What did one octopus learn to do at an aquarium?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Perform tricks for visitors",
+          "Unscrew the lid of its tank to escape",
+          "Change into different colors",
+          "Communicate with scientists"
+        ],
+        "correctAnswer": "Unscrew the lid of its tank to escape"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.4.1"
+      ],
+      "primaryStandard": "RI.4.1",
+      "passage": "G4-I9: The Amazing Octopus",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text states 'One octopus at an aquarium learned to unscrew the lid of its tank and escape at night.'"
+    },
+    {
+      "id": "reading-4-rc-088",
+      "bankId": "reading-4-rc",
+      "text": "Why can octopuses change their skin color?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To attract mates and for decoration",
+          "To hide from predators and communicate",
+          "To scare away humans",
+          "To keep warm in cold water"
+        ],
+        "correctAnswer": "To hide from predators and communicate"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.4.3"
+      ],
+      "primaryStandard": "RI.4.3",
+      "passage": "G4-I9: The Amazing Octopus",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage says color change helps them 'camouflage against predators or communicate with other octopuses.'"
+    },
+    {
+      "id": "reading-4-rc-089",
+      "bankId": "reading-4-rc",
+      "text": "What does 'camouflage' mean in this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "To blend in with surroundings",
+          "To move very quickly",
+          "To grow larger",
+          "To make loud sounds"
+        ],
+        "correctAnswer": "To blend in with surroundings"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.4.4"
+      ],
+      "primaryStandard": "RI.4.4",
+      "passage": "G4-I9: The Amazing Octopus",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The context shows octopuses change color to camouflage against predators, meaning they blend in to avoid being seen."
+    },
+    {
+      "id": "reading-4-rc-090",
+      "bankId": "reading-4-rc",
+      "text": "How many hearts does an octopus have?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "One",
+          "Two",
+          "Three",
+          "Eight"
+        ],
+        "correctAnswer": "Three"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.4.1"
+      ],
+      "primaryStandard": "RI.4.1",
+      "passage": "G4-I9: The Amazing Octopus",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text states 'octopuses have three hearts.'"
+    },
+    {
+      "id": "reading-4-rc-091",
+      "bankId": "reading-4-rc",
+      "text": "What was Mia's internal conflict in the story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Whether to tell the truth or protect her friend",
+          "Whether to go to school or stay home",
+          "Whether to play soccer or basketball",
+          "Whether to finish her homework or watch TV"
+        ],
+        "correctAnswer": "Whether to tell the truth or protect her friend"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.4.3"
+      ],
+      "primaryStandard": "RL.4.3",
+      "passage": "G4-L10: The Honest Choice",
+      "passageText": "Mia found a crumpled note on the playground. It was the answer key to tomorrow's math test, and she recognized the handwriting - it belonged to her best friend, Lily. Mia's stomach churned. She knew Lily had been struggling in math and was desperate for a good grade. But cheating was wrong. Mia spent all night thinking about what to do. She imagined Lily getting caught and facing serious consequences. She also thought about what kind of friend she wanted to be. The next morning, Mia found Lily before class. 'I found this,' she said gently. 'You don't need it. I'll help you study instead.' Tears filled Lily's eyes. 'Thank you for being honest with me,' she whispered. 'That's what real friends do.'",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Mia struggled with whether to ignore the cheating (protecting Lily) or address it honestly."
+    },
+    {
+      "id": "reading-4-rc-092",
+      "bankId": "reading-4-rc",
+      "text": "What solution did Mia offer instead of letting Lily cheat?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She offered to take the test for Lily",
+          "She offered to help Lily study",
+          "She told the teacher about the note",
+          "She threw the answer key away"
+        ],
+        "correctAnswer": "She offered to help Lily study"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RL.4.1"
+      ],
+      "primaryStandard": "RL.4.1",
+      "passage": "G4-L10: The Honest Choice",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Mia said 'I'll help you study instead.'"
+    },
+    {
+      "id": "reading-4-rc-093",
+      "bankId": "reading-4-rc",
+      "text": "What does 'her stomach churned' suggest about how Mia felt?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "She was hungry",
+          "She felt sick with worry",
+          "She was excited",
+          "She was tired"
+        ],
+        "correctAnswer": "She felt sick with worry"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.4.4"
+      ],
+      "primaryStandard": "RL.4.4",
+      "passage": "G4-L10: The Honest Choice",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "When someone's stomach churns, it means they feel anxious or worried, often making them feel slightly sick."
+    },
+    {
+      "id": "reading-4-rc-094",
+      "bankId": "reading-4-rc",
+      "text": "What is the theme of this story?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Cheating on tests is common",
+          "True friendship includes honesty, even when it's difficult",
+          "Math is too hard for some students",
+          "Notes should not be left on playgrounds"
+        ],
+        "correctAnswer": "True friendship includes honesty, even when it's difficult"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 3,
+      "ccssStandards": [
+        "RL.4.2"
+      ],
+      "primaryStandard": "RL.4.2",
+      "passage": "G4-L10: The Honest Choice",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Mia chose honesty over easy friendship, and Lily recognized this as 'what real friends do.'"
+    },
+    {
+      "id": "reading-4-rc-095",
+      "bankId": "reading-4-rc",
+      "text": "Why did Lily thank Mia?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "For helping her cheat",
+          "For being honest and caring about her",
+          "For keeping her secret",
+          "For not telling the teacher"
+        ],
+        "correctAnswer": "For being honest and caring about her"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RL.4.3"
+      ],
+      "primaryStandard": "RL.4.3",
+      "passage": "G4-L10: The Honest Choice",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "Lily said 'Thank you for being honest with me. That's what real friends do.'"
+    },
+    {
+      "id": "reading-4-rc-096",
+      "bankId": "reading-4-rc",
+      "text": "What is the main topic of this passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The history of ancient civilizations",
+          "How earthquakes happen",
+          "Different types of mountains",
+          "The weather in California"
+        ],
+        "correctAnswer": "How earthquakes happen"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.4.2"
+      ],
+      "primaryStandard": "RI.4.2",
+      "passage": "G4-I10: Understanding Earthquakes",
+      "passageText": "Earth's surface is not one solid piece. Instead, it is made up of large sections called tectonic plates that fit together like a giant puzzle. These plates float on hot, melted rock deep underground and are constantly moving, though very slowly. When plates push against each other, pull apart, or slide past one another, pressure builds up along the edges. Eventually, this pressure releases suddenly, causing the ground to shake. This shaking is called an earthquake. The place underground where the earthquake starts is called the focus, and the spot directly above it on the surface is the epicenter. Scientists use instruments called seismographs to measure earthquake strength. Understanding how earthquakes work helps communities prepare for these powerful natural events.",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explains what causes earthquakes and how they work."
+    },
+    {
+      "id": "reading-4-rc-097",
+      "bankId": "reading-4-rc",
+      "text": "What are tectonic plates?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Rocks that fall from the sky",
+          "Large sections of Earth's surface",
+          "Instruments that measure earthquakes",
+          "Underground rivers"
+        ],
+        "correctAnswer": "Large sections of Earth's surface"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 1,
+      "ccssStandards": [
+        "RI.4.1"
+      ],
+      "primaryStandard": "RI.4.1",
+      "passage": "G4-I10: Understanding Earthquakes",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text states Earth's surface 'is made up of large sections called tectonic plates.'"
+    },
+    {
+      "id": "reading-4-rc-098",
+      "bankId": "reading-4-rc",
+      "text": "What causes earthquakes according to the passage?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "Wind and rain",
+          "Volcanic eruptions",
+          "Pressure releasing when tectonic plates move",
+          "The moon's gravity"
+        ],
+        "correctAnswer": "Pressure releasing when tectonic plates move"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.4.3"
+      ],
+      "primaryStandard": "RI.4.3",
+      "passage": "G4-I10: Understanding Earthquakes",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text explains that when plates move, 'pressure builds up' and 'releases suddenly, causing the ground to shake.'"
+    },
+    {
+      "id": "reading-4-rc-099",
+      "bankId": "reading-4-rc",
+      "text": "What is a seismograph?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "A type of earthquake",
+          "An instrument that measures earthquake strength",
+          "The center of an earthquake",
+          "A tectonic plate"
+        ],
+        "correctAnswer": "An instrument that measures earthquake strength"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Craft and Structure",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.4.4"
+      ],
+      "primaryStandard": "RI.4.4",
+      "passage": "G4-I10: Understanding Earthquakes",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The text states 'Scientists use instruments called seismographs to measure earthquake strength.'"
+    },
+    {
+      "id": "reading-4-rc-100",
+      "bankId": "reading-4-rc",
+      "text": "What is the difference between the focus and the epicenter of an earthquake?",
+      "format": "multiple_choice",
+      "questionOptions": {
+        "choices": [
+          "The focus is stronger than the epicenter",
+          "The focus is underground and the epicenter is on the surface",
+          "The epicenter happens first",
+          "There is no difference"
+        ],
+        "correctAnswer": "The focus is underground and the epicenter is on the surface"
+      },
+      "subject": "Reading",
+      "gradeLevel": "4",
+      "strand": "Key Ideas and Details",
+      "difficulty": 2,
+      "ccssStandards": [
+        "RI.4.3"
+      ],
+      "primaryStandard": "RI.4.3",
+      "passage": "G4-I10: Understanding Earthquakes",
+      "source": "static",
+      "reviewStatus": "approved",
+      "explanation": "The passage explains that 'The place underground where the earthquake starts is called the focus, and the spot directly above it on the surface is the epicenter.'"
+    }
+  ]
+}
