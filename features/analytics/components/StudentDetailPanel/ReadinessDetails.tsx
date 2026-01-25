@@ -13,6 +13,11 @@ interface SkillGap {
   domain: string;
 }
 
+interface MasteredStandard {
+  code: string;
+  name: string;
+}
+
 interface ReadinessDetailsProps {
   course: string;
   courseLabel: string;
@@ -22,6 +27,7 @@ interface ReadinessDetailsProps {
   prerequisitesMet: number;
   prerequisitesTotal: number;
   gaps: SkillGap[];
+  masteredStandards?: MasteredStandard[];
   isLoading?: boolean;
 }
 
@@ -74,6 +80,7 @@ export const ReadinessDetails: React.FC<ReadinessDetailsProps> = ({
   prerequisitesMet,
   prerequisitesTotal,
   gaps,
+  masteredStandards = [],
   isLoading = false,
 }) => {
   const formatDate = (dateStr: string) => {
@@ -211,6 +218,36 @@ export const ReadinessDetails: React.FC<ReadinessDetailsProps> = ({
               ? `Student is on track for ${courseLabel} expectations`
               : 'Student has met all prerequisite requirements'}
           </p>
+        </div>
+      )}
+
+      {/* Mastered Standards List */}
+      {masteredStandards.length > 0 && (
+        <div className="mt-6">
+          <div className="flex items-center gap-2 mb-3">
+            <svg className="w-4 h-4 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+            </svg>
+            <p className="text-xs font-bold text-slate-500 uppercase tracking-wider">
+              Standards Met ({masteredStandards.length})
+            </p>
+          </div>
+
+          <div className="space-y-2">
+            {masteredStandards.map((standard, index) => (
+              <div
+                key={index}
+                className="bg-emerald-50 border border-emerald-100 rounded-lg p-3"
+              >
+                <div className="flex items-start gap-2">
+                  <span className="px-1.5 py-0.5 bg-emerald-200 text-emerald-700 text-[10px] font-bold rounded shrink-0">
+                    {standard.code}
+                  </span>
+                  <p className="text-sm font-medium text-slate-700">{standard.name}</p>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       )}
     </div>

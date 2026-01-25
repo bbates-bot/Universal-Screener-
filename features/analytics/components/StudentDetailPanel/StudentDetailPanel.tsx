@@ -27,6 +27,11 @@ interface SkillGap {
   domain: string;
 }
 
+interface MasteredStandard {
+  code: string;
+  name: string;
+}
+
 export interface StudentDetailData {
   id: string;
   firstName: string;
@@ -45,7 +50,6 @@ export interface StudentDetailData {
     overallPercentage: number;
     domains: DomainResult[];
     masteredStandards?: string[];
-    gapStandards?: string[];
   } | null;
   readiness: {
     course: string;
@@ -56,6 +60,7 @@ export interface StudentDetailData {
     prerequisitesMet: number;
     prerequisitesTotal: number;
     gaps: SkillGap[];
+    masteredStandards?: MasteredStandard[];
   } | null;
   recommendations: string[];
 }
@@ -227,13 +232,10 @@ export const StudentDetailPanel: React.FC<StudentDetailPanelProps> = ({
                 <ScreenerResults
                   subject={student.screener.subject}
                   testDate={student.screener.testDate}
-                  overallScore={student.screener.overallScore}
-                  maxScore={student.screener.maxScore}
                   overallPercentage={student.screener.overallPercentage}
                   overallLevel={student.screenerStatus}
                   domains={student.screener.domains}
                   masteredStandards={student.screener.masteredStandards}
-                  gapStandards={student.screener.gapStandards}
                 />
               )}
 
@@ -264,6 +266,7 @@ export const StudentDetailPanel: React.FC<StudentDetailPanelProps> = ({
                   prerequisitesMet={student.readiness.prerequisitesMet}
                   prerequisitesTotal={student.readiness.prerequisitesTotal}
                   gaps={student.readiness.gaps}
+                  masteredStandards={student.readiness.masteredStandards}
                 />
               )}
 

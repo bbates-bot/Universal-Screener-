@@ -390,7 +390,6 @@ const UnifiedAnalyticsContent: React.FC<UnifiedAnalyticsPageProps> = ({
                'non-applicable' as GradeCategory,
       })) || [],
       masteredStandards: (latestResult as any).masteredObjectives || [],
-      gapStandards: (latestResult as any).gapObjectives || [],
     } : null;
 
     // Determine if student has AP or IGCSE assessments assigned
@@ -443,6 +442,28 @@ const UnifiedAnalyticsContent: React.FC<UnifiedAnalyticsPageProps> = ({
       ? Math.round((latestResult.percentile || ((latestResult as any).totalCorrect / (latestResult as any).totalQuestions * 100)))
       : category === 'on-or-above' ? 85 : category === 'below' ? 65 : 45;
 
+    // Build mastered standards from result's standardsPerformance
+    const masteredStandardsList = latestResult?.standardsPerformance
+      ?.filter((sp: any) => sp.mastery === 'proficient')
+      ?.map((sp: any) => ({
+        code: sp.standardCode,
+        name: sp.standardName,
+      })) || [];
+
+    // Build gap standards from result's standardsPerformance
+    const gapStandardsList = latestResult?.standardsPerformance
+      ?.filter((sp: any) => sp.mastery === 'needs-support')
+      ?.map((sp: any) => ({
+        code: sp.standardCode,
+        standard: sp.standardName,
+        description: `Student needs support with ${sp.standardName}`,
+        domain: sp.standardName,
+      })) || [];
+
+    // Calculate prerequisites met based on actual data
+    const totalStandards = latestResult?.standardsPerformance?.length || 10;
+    const metStandards = masteredStandardsList.length;
+
     // Build readiness/performance data based on screener status
     const readinessData = readinessStatus ? {
       course: courseTitle,
@@ -450,9 +471,9 @@ const UnifiedAnalyticsContent: React.FC<UnifiedAnalyticsPageProps> = ({
       status: readinessStatus,
       score: performanceScore,
       assessmentDate: latestResult?.testDate || new Date().toISOString(),
-      prerequisitesMet: category === 'on-or-above' ? 8 : category === 'below' ? 6 : 3,
-      prerequisitesTotal: 10,
-      gaps: category !== 'on-or-above' ? [
+      prerequisitesMet: metStandards || (category === 'on-or-above' ? 8 : category === 'below' ? 6 : 3),
+      prerequisitesTotal: totalStandards || 10,
+      gaps: gapStandardsList.length > 0 ? gapStandardsList : (category !== 'on-or-above' ? [
         {
           code: 'NBT.5',
           standard: 'Fluently multiply multi-digit whole numbers',
@@ -467,7 +488,8 @@ const UnifiedAnalyticsContent: React.FC<UnifiedAnalyticsPageProps> = ({
             domain: 'Fractions',
           },
         ] : []),
-      ] : [],
+      ] : []),
+      masteredStandards: masteredStandardsList,
     } : null;
 
     return {

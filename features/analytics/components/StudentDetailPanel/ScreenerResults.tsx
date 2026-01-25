@@ -14,12 +14,6 @@ interface DomainResult {
   level: GradeCategory;
 }
 
-interface StandardPerformance {
-  standardCode: string;
-  standardName: string;
-  mastery: 'proficient' | 'developing' | 'needs-support';
-}
-
 interface ScreenerResultsProps {
   subject: string;
   testDate: string;
@@ -29,8 +23,6 @@ interface ScreenerResultsProps {
   overallLevel: GradeCategory;
   domains: DomainResult[];
   masteredStandards?: string[];
-  gapStandards?: string[];
-  standardsPerformance?: StandardPerformance[];
   isLoading?: boolean;
 }
 
@@ -44,14 +36,10 @@ const levelConfig: Record<GradeCategory, { color: string; bg: string; label: str
 export const ScreenerResults: React.FC<ScreenerResultsProps> = ({
   subject,
   testDate,
-  overallScore,
-  maxScore,
   overallPercentage,
   overallLevel,
   domains,
   masteredStandards = [],
-  gapStandards = [],
-  standardsPerformance = [],
   isLoading = false,
 }) => {
   const formatDate = (dateStr: string) => {
@@ -144,7 +132,7 @@ export const ScreenerResults: React.FC<ScreenerResultsProps> = ({
 
       {/* Standards Being Met */}
       {masteredStandards.length > 0 && (
-        <div className="space-y-3 mb-6">
+        <div className="space-y-3">
           <p className="text-xs font-bold text-emerald-600 uppercase tracking-wider flex items-center gap-2">
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
@@ -156,28 +144,6 @@ export const ScreenerResults: React.FC<ScreenerResultsProps> = ({
               <div
                 key={index}
                 className="bg-emerald-50 border border-emerald-100 rounded-lg px-3 py-2 text-sm text-emerald-800"
-              >
-                {standard}
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
-
-      {/* Standards Not Being Met */}
-      {gapStandards.length > 0 && (
-        <div className="space-y-3">
-          <p className="text-xs font-bold text-rose-600 uppercase tracking-wider flex items-center gap-2">
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
-            </svg>
-            Standards Not Being Met
-          </p>
-          <div className="space-y-2">
-            {gapStandards.map((standard, index) => (
-              <div
-                key={index}
-                className="bg-rose-50 border border-rose-100 rounded-lg px-3 py-2 text-sm text-rose-800"
               >
                 {standard}
               </div>
