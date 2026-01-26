@@ -15,6 +15,7 @@ import { StudentDetailPanel, StudentDetailData } from './StudentDetailPanel';
 import { ErrorMessage } from './ErrorBoundary';
 import { SkipLink, LiveRegion, useAnnouncer } from './common';
 import { School, Student, StudentResult, ScreenerLevel } from '../../../types';
+import { CCSS_LEARNING_OBJECTIVES } from '../../../constants';
 import { SummaryData, MetricType, GradeCategory, ReadinessDistribution, SkillGap, ReadinessStatus } from '../types';
 
 interface UnifiedAnalyticsPageProps {
@@ -369,6 +370,40 @@ const UnifiedAnalyticsContent: React.FC<UnifiedAnalyticsPageProps> = ({
       : null;
 
     // Build screener data
+    // Get mastered/gap standards from masteredObjectives/gapObjectives arrays,
+    // or derive from standardsPerformance if those arrays are empty
+    const getMasteredStandards = () => {
+      const masteredFromArray = (latestResult as any)?.masteredObjectives || [];
+      if (masteredFromArray.length > 0) {
+        return [...new Set(masteredFromArray)].map((code: string) =>
+          `${code}: ${CCSS_LEARNING_OBJECTIVES[code] || 'Standard description not available'}`
+        );
+      }
+      // Fallback: derive from standardsPerformance
+      const fromPerformance = (latestResult?.standardsPerformance || [])
+        .filter((sp: any) => sp.mastery === 'proficient')
+        .map((sp: any) => sp.standardCode);
+      return [...new Set(fromPerformance)].map((code: string) =>
+        `${code}: ${CCSS_LEARNING_OBJECTIVES[code] || 'Standard description not available'}`
+      );
+    };
+
+    const getGapStandards = () => {
+      const gapsFromArray = (latestResult as any)?.gapObjectives || [];
+      if (gapsFromArray.length > 0) {
+        return [...new Set(gapsFromArray)].map((code: string) =>
+          `${code}: ${CCSS_LEARNING_OBJECTIVES[code] || 'Standard description not available'}`
+        );
+      }
+      // Fallback: derive from standardsPerformance
+      const fromPerformance = (latestResult?.standardsPerformance || [])
+        .filter((sp: any) => sp.mastery === 'needs-support' || sp.mastery === 'developing')
+        .map((sp: any) => sp.standardCode);
+      return [...new Set(fromPerformance)].map((code: string) =>
+        `${code}: ${CCSS_LEARNING_OBJECTIVES[code] || 'Standard description not available'}`
+      );
+    };
+
     const screenerData = latestResult ? {
       subject: latestResult.subject,
       testDate: latestResult.testDate,
@@ -389,7 +424,8 @@ const UnifiedAnalyticsContent: React.FC<UnifiedAnalyticsPageProps> = ({
                d.level === ScreenerLevel.FAR_BELOW ? 'far-below' as GradeCategory :
                'non-applicable' as GradeCategory,
       })) || [],
-      masteredStandards: (latestResult as any).masteredObjectives || [],
+      masteredStandards: getMasteredStandards(),
+      gapStandards: getGapStandards(),
     } : null;
 
     // Determine if student has AP or IGCSE assessments assigned
@@ -442,23 +478,35 @@ const UnifiedAnalyticsContent: React.FC<UnifiedAnalyticsPageProps> = ({
       ? Math.round((latestResult.percentile || ((latestResult as any).totalCorrect / (latestResult as any).totalQuestions * 100)))
       : category === 'on-or-above' ? 85 : category === 'below' ? 65 : 45;
 
-    // Build mastered standards from result's standardsPerformance
-    const masteredStandardsList = latestResult?.standardsPerformance
-      ?.filter((sp: any) => sp.mastery === 'proficient')
-      ?.map((sp: any) => ({
+    // Build mastered standards from result's standardsPerformance (deduplicated with descriptions)
+    const masteredCodes = new Set<string>();
+    const masteredStandardsList = (latestResult?.standardsPerformance || [])
+      .filter((sp: any) => sp.mastery === 'proficient')
+      .filter((sp: any) => {
+        if (masteredCodes.has(sp.standardCode)) return false;
+        masteredCodes.add(sp.standardCode);
+        return true;
+      })
+      .map((sp: any) => ({
         code: sp.standardCode,
-        name: sp.standardName,
-      })) || [];
+        name: CCSS_LEARNING_OBJECTIVES[sp.standardCode] || sp.standardName || 'Standard description not available',
+      }));
 
-    // Build gap standards from result's standardsPerformance
-    const gapStandardsList = latestResult?.standardsPerformance
-      ?.filter((sp: any) => sp.mastery === 'needs-support')
-      ?.map((sp: any) => ({
+    // Build gap standards from result's standardsPerformance (deduplicated with descriptions)
+    const gapCodes = new Set<string>();
+    const gapStandardsList = (latestResult?.standardsPerformance || [])
+      .filter((sp: any) => sp.mastery === 'needs-support' || sp.mastery === 'developing')
+      .filter((sp: any) => {
+        if (gapCodes.has(sp.standardCode)) return false;
+        gapCodes.add(sp.standardCode);
+        return true;
+      })
+      .map((sp: any) => ({
         code: sp.standardCode,
-        standard: sp.standardName,
-        description: `Student needs support with ${sp.standardName}`,
-        domain: sp.standardName,
-      })) || [];
+        standard: CCSS_LEARNING_OBJECTIVES[sp.standardCode] || sp.standardName || 'Standard description not available',
+        description: `Student needs support with this skill`,
+        domain: sp.standardName || 'General',
+      }));
 
     // Calculate prerequisites met based on actual data
     const totalStandards = latestResult?.standardsPerformance?.length || 10;

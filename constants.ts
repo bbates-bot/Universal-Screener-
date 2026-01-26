@@ -863,7 +863,121 @@ export const CCSS_LEARNING_OBJECTIVES: Record<string, string> = {
   // IG Stage 2 - Spoken Language
   'EDEXCEL.ENG.IG2.SL1.1': 'Present ideas clearly and confidently',
   'EDEXCEL.ENG.IG2.SL1.2': 'Respond appropriately in discussions',
-  'EDEXCEL.ENG.IG2.SL1.3': 'Use Standard English in formal contexts'
+  'EDEXCEL.ENG.IG2.SL1.3': 'Use Standard English in formal contexts',
+
+  // ELA-LITERACY Reading Foundational Skills (RF) - Kindergarten
+  'CCSS.ELA-LITERACY.RF.K.1.A': 'Follow words from left to right, top to bottom, and page by page',
+  'CCSS.ELA-LITERACY.RF.K.1.B': 'Recognize that spoken words are represented by sequences of letters',
+  'CCSS.ELA-LITERACY.RF.K.1.C': 'Understand that words are separated by spaces in print',
+  'CCSS.ELA-LITERACY.RF.K.1.D': 'Recognize and name all upper- and lowercase letters',
+  'CCSS.ELA-LITERACY.RF.K.2.A': 'Recognize and produce rhyming words',
+  'CCSS.ELA-LITERACY.RF.K.2.D': 'Isolate and pronounce initial, medial, and final sounds in CVC words',
+  'CCSS.ELA-LITERACY.RF.K.3.A': 'Demonstrate basic knowledge of one-to-one letter-sound correspondences',
+  'CCSS.ELA-LITERACY.RF.K.3.B': 'Associate long and short sounds with common spellings for vowels',
+
+  // ELA-LITERACY Reading Foundational Skills (RF) - Grade 1
+  'CCSS.ELA-LITERACY.RF.1.1.A': 'Recognize the distinguishing features of a sentence',
+  'CCSS.ELA-LITERACY.RF.1.2.A': 'Distinguish long from short vowel sounds in spoken single-syllable words',
+  'CCSS.ELA-LITERACY.RF.1.2.B': 'Orally produce single-syllable words by blending sounds',
+  'CCSS.ELA-LITERACY.RF.1.2.C': 'Isolate and pronounce sounds in spoken single-syllable words',
+  'CCSS.ELA-LITERACY.RF.1.2.D': 'Segment spoken single-syllable words into complete sequence of sounds',
+  'CCSS.ELA-LITERACY.RF.1.3.A': 'Know the spelling-sound correspondences for common consonant digraphs',
+  'CCSS.ELA-LITERACY.RF.1.3.B': 'Decode regularly spelled one-syllable words',
+  'CCSS.ELA-LITERACY.RF.1.3.C': 'Know final -e and common vowel team conventions for long vowel sounds',
+  'CCSS.ELA-LITERACY.RF.1.3.F': 'Read words with inflectional endings',
+
+  // ELA-LITERACY Reading Literature (RL) - Grade 2
+  'CCSS.ELA-LITERACY.RL.2.1': 'Ask and answer questions about key details in a text',
+  'CCSS.ELA-LITERACY.RL.2.2': 'Recount stories and determine their central message or lesson',
+  'CCSS.ELA-LITERACY.RL.2.3': 'Describe how characters respond to major events and challenges',
+  'CCSS.ELA-LITERACY.RL.2.5': 'Describe the overall structure of a story',
+  'CCSS.ELA-LITERACY.RL.2.6': 'Acknowledge differences in points of view of characters',
+  'CCSS.ELA-LITERACY.RL.2.7': 'Use information from illustrations and words to demonstrate understanding',
+  'CCSS.ELA-LITERACY.RL.2.9': 'Compare and contrast two or more versions of the same story',
+
+  // ELA-LITERACY Reading Literature (RL) - Grade 3
+  'CCSS.ELA-LITERACY.RL.3.1': 'Ask and answer questions to demonstrate understanding of a text',
+  'CCSS.ELA-LITERACY.RL.3.2': 'Recount stories and determine the central message, lesson, or moral',
+  'CCSS.ELA-LITERACY.RL.3.3': 'Describe characters and explain how their actions contribute to events',
+  'CCSS.ELA-LITERACY.RL.3.4': 'Determine the meaning of words and phrases as used in a text',
+  'CCSS.ELA-LITERACY.RL.3.5': 'Refer to parts of stories, dramas, and poems using terms like chapter and stanza',
+  'CCSS.ELA-LITERACY.RL.3.6': 'Distinguish their own point of view from that of the narrator or characters',
+  'CCSS.ELA-LITERACY.RL.3.7': 'Explain how illustrations contribute to mood or character understanding',
+  'CCSS.ELA-LITERACY.RL.3.9': 'Compare and contrast themes, settings, and plots of stories',
+
+  // ELA-LITERACY Reading Informational Text (RI) - Grade 4
+  'CCSS.ELA-LITERACY.RI.4.1': 'Refer to details and examples when explaining what the text says',
+  'CCSS.ELA-LITERACY.RI.4.2': 'Determine the main idea and explain how key details support it',
+  'CCSS.ELA-LITERACY.RI.4.3': 'Explain events, procedures, ideas, or concepts in a text',
+  'CCSS.ELA-LITERACY.RI.4.4': 'Determine the meaning of academic and domain-specific words',
+  'CCSS.ELA-LITERACY.RI.4.5': 'Describe the overall structure of events, ideas, or information',
+
+  // ELA-LITERACY Reading Literature (RL) - Grade 5
+  'CCSS.ELA-LITERACY.RL.5.1': 'Quote accurately from a text when explaining and drawing inferences',
+  'CCSS.ELA-LITERACY.RL.5.2': 'Determine a theme and summarize the text',
+  'CCSS.ELA-LITERACY.RL.5.3': 'Compare and contrast characters, settings, or events using details',
+  'CCSS.ELA-LITERACY.RL.5.4': 'Determine the meaning of words and phrases including figurative language',
+  'CCSS.ELA-LITERACY.RL.5.5': 'Explain how chapters, scenes, or stanzas fit together',
+  'CCSS.ELA-LITERACY.RL.5.6': 'Describe how a narrator or speaker point of view influences the text',
+  'CCSS.ELA-LITERACY.RL.5.9': 'Compare and contrast stories in the same genre on approaches to themes',
+
+  // ELA-LITERACY Reading Informational Text (RI) - Grade 6
+  'CCSS.ELA-LITERACY.RI.6.1': 'Cite textual evidence to support analysis of what the text says',
+  'CCSS.ELA-LITERACY.RI.6.2': 'Determine a central idea and how it is conveyed through details',
+  'CCSS.ELA-LITERACY.RI.6.3': 'Analyze how a key individual, event, or idea is introduced and developed',
+  'CCSS.ELA-LITERACY.RI.6.4': 'Determine the meaning of words and phrases including figurative uses',
+  'CCSS.ELA-LITERACY.RI.6.5': 'Analyze how a sentence, paragraph, or section fits into overall structure',
+  'CCSS.ELA-LITERACY.RI.6.6': 'Determine an author purpose or point of view in a text',
+  'CCSS.ELA-LITERACY.RI.6.7': 'Integrate information presented in different media or formats',
+  'CCSS.ELA-LITERACY.RI.6.8': 'Trace and evaluate the argument and specific claims in a text',
+  'CCSS.ELA-LITERACY.RI.6.9': 'Compare and contrast one author presentation of events with another',
+
+  // ELA-LITERACY Reading Literature (RL) - Grade 7
+  'CCSS.ELA-LITERACY.RL.7.1': 'Cite several pieces of textual evidence to support analysis',
+  'CCSS.ELA-LITERACY.RL.7.2': 'Determine a theme and analyze its development over the course of the text',
+  'CCSS.ELA-LITERACY.RL.7.3': 'Analyze how particular elements of a story interact',
+  'CCSS.ELA-LITERACY.RL.7.4': 'Determine the meaning of words and phrases including figurative language',
+  'CCSS.ELA-LITERACY.RL.7.5': 'Analyze how a drama or poem form or structure contributes to meaning',
+  'CCSS.ELA-LITERACY.RL.7.6': 'Analyze how an author develops and contrasts points of view',
+  'CCSS.ELA-LITERACY.RL.7.9': 'Compare and contrast a fictional portrayal to a historical account',
+
+  // ELA-LITERACY Reading Informational Text (RI) - Grade 8
+  'CCSS.ELA-LITERACY.RI.8.1': 'Cite the textual evidence that most strongly supports an analysis',
+  'CCSS.ELA-LITERACY.RI.8.2': 'Determine a central idea and analyze its development including relationship to supporting ideas',
+  'CCSS.ELA-LITERACY.RI.8.3': 'Analyze how a text makes connections among individuals, ideas, or events',
+  'CCSS.ELA-LITERACY.RI.8.4': 'Determine the meaning of words and phrases including figurative and technical meanings',
+  'CCSS.ELA-LITERACY.RI.8.5': 'Analyze structure of a specific paragraph including the role of particular sentences',
+  'CCSS.ELA-LITERACY.RI.8.6': 'Determine an author point of view and analyze how the author responds to conflicting viewpoints',
+  'CCSS.ELA-LITERACY.RI.8.8': 'Delineate and evaluate the argument and specific claims in a text',
+  'CCSS.ELA-LITERACY.RI.8.9': 'Analyze a case in which two or more texts provide conflicting information',
+
+  // ELA-LITERACY Reading Literature (RL) - Grades 9-10
+  'CCSS.ELA-LITERACY.RL.9-10.1': 'Cite strong and thorough textual evidence to support analysis',
+  'CCSS.ELA-LITERACY.RL.9-10.2': 'Determine a theme and analyze its development including how it emerges and is refined',
+  'CCSS.ELA-LITERACY.RL.9-10.3': 'Analyze how complex characters develop and interact to advance plot or theme',
+  'CCSS.ELA-LITERACY.RL.9-10.4': 'Determine the meaning of words and phrases including figurative and connotative meanings',
+  'CCSS.ELA-LITERACY.RL.9-10.5': 'Analyze how an author choices concerning structure create effects like mystery or tension',
+  'CCSS.ELA-LITERACY.RL.9-10.6': 'Analyze a particular point of view or cultural experience reflected in world literature',
+  'CCSS.ELA-LITERACY.RL.9-10.9': 'Analyze how an author draws on and transforms source material',
+
+  // ELA-LITERACY Reading Literature (RL) - Grades 11-12
+  'CCSS.ELA-LITERACY.RL.11-12.1': 'Cite strong and thorough textual evidence to support analysis including determining unclear meanings',
+  'CCSS.ELA-LITERACY.RL.11-12.2': 'Determine two or more themes and analyze their development including how they interact',
+  'CCSS.ELA-LITERACY.RL.11-12.3': 'Analyze the impact of author choices regarding how to develop and relate story elements',
+  'CCSS.ELA-LITERACY.RL.11-12.4': 'Determine the meaning of words and phrases including figurative and connotative meanings',
+  'CCSS.ELA-LITERACY.RL.11-12.5': 'Analyze how an author choices concerning structure contribute to overall meaning and aesthetic impact',
+  'CCSS.ELA-LITERACY.RL.11-12.6': 'Analyze a case in which grasping point of view requires distinguishing what is directly stated versus what is meant',
+  'CCSS.ELA-LITERACY.RL.11-12.9': 'Demonstrate knowledge of foundational works of American literature',
+
+  // ELA-LITERACY Reading Informational Text (RI) - Grades 11-12
+  'CCSS.ELA-LITERACY.RI.11-12.1': 'Cite strong and thorough textual evidence to support analysis including determining unclear meanings',
+  'CCSS.ELA-LITERACY.RI.11-12.2': 'Determine two or more central ideas and analyze their development including how they interact',
+  'CCSS.ELA-LITERACY.RI.11-12.4': 'Determine the meaning of words and phrases including figurative, connotative, and technical meanings',
+  'CCSS.ELA-LITERACY.RI.11-12.5': 'Analyze and evaluate the effectiveness of the structure an author uses',
+  'CCSS.ELA-LITERACY.RI.11-12.6': 'Determine an author point of view in a text with effective rhetoric',
+  'CCSS.ELA-LITERACY.RI.11-12.7': 'Integrate and evaluate multiple sources of information presented in different formats',
+  'CCSS.ELA-LITERACY.RI.11-12.8': 'Delineate and evaluate the reasoning in seminal U.S. texts',
+  'CCSS.ELA-LITERACY.RI.11-12.9': 'Analyze foundational U.S. documents of historical and literary significance'
 };
 
 // Get strands for a subject
