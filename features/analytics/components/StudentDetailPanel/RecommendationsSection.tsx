@@ -150,153 +150,207 @@ export const RecommendationsSection: React.FC<RecommendationsSectionProps> = ({
     try {
       const doc = new jsPDF();
       const pageWidth = doc.internal.pageSize.getWidth();
-      let yPosition = 20;
-      const leftMargin = 20;
-      const lineHeight = 7;
+      let yPosition = 12;
+      const leftMargin = 15;
+      const rightMargin = 15;
+      const contentWidth = pageWidth - leftMargin - rightMargin;
 
-      // Header
-      doc.setFontSize(10);
-      doc.setTextColor(100);
-      doc.text('COMPASS STUDENT ASSESSMENT REPORT', leftMargin, yPosition);
-      yPosition += lineHeight * 2;
+      // Helper to draw rounded rectangle
+      const drawRoundedRect = (x: number, y: number, w: number, h: number, r: number, fillColor: [number, number, number]) => {
+        doc.setFillColor(fillColor[0], fillColor[1], fillColor[2]);
+        doc.roundedRect(x, y, w, h, r, r, 'F');
+      };
 
-      // Student Name
-      doc.setFontSize(24);
-      doc.setTextColor(30, 41, 59);
-      doc.text(`${studentInfo.firstName} ${studentInfo.lastName}`, leftMargin, yPosition);
-      yPosition += lineHeight * 1.5;
+      // Header bar (indigo) - compact
+      drawRoundedRect(0, 0, pageWidth, 38, 0, [79, 70, 229]);
 
-      // Grade and School
-      doc.setFontSize(11);
-      doc.setTextColor(100);
-      doc.text(`Grade ${studentInfo.grade} • ${studentInfo.schoolName}`, leftMargin, yPosition);
-      yPosition += lineHeight;
+      // Header text
+      doc.setFontSize(8);
+      doc.setTextColor(199, 210, 254);
+      doc.text('COMPASS STUDENT ASSESSMENT REPORT', leftMargin, 10);
 
-      if (studentInfo.testDate) {
-        doc.text(`Assessment Date: ${new Date(studentInfo.testDate).toLocaleDateString()}`, leftMargin, yPosition);
-        yPosition += lineHeight;
+      // Student Name (white on indigo)
+      doc.setFontSize(16);
+      doc.setTextColor(255, 255, 255);
+      doc.setFont('helvetica', 'bold');
+      doc.text(`${studentInfo.firstName} ${studentInfo.lastName}`, leftMargin, 22);
+
+      // Grade and School (light text)
+      doc.setFontSize(9);
+      doc.setFont('helvetica', 'normal');
+      doc.setTextColor(199, 210, 254);
+      doc.text(`Grade ${studentInfo.grade}  •  ${studentInfo.schoolName}`, leftMargin, 32);
+
+      yPosition = 46;
+
+      // Status boxes row - compact
+      const boxWidth = (contentWidth - 8) / 2;
+      const boxHeight = 20;
+
+      // Screener Status box
+      const statusConfig: Record<string, { bg: [number, number, number]; text: [number, number, number]; label: string }> = {
+        'on-or-above': { bg: [209, 250, 229], text: [4, 120, 87], label: 'On/Above Grade Level' },
+        'below': { bg: [254, 243, 199], text: [180, 83, 9], label: 'Below Grade Level' },
+        'far-below': { bg: [254, 226, 226], text: [185, 28, 28], label: 'Far Below Grade Level' },
+        'non-applicable': { bg: [241, 245, 249], text: [100, 116, 139], label: 'Not Yet Assessed' },
+      };
+
+      const status = statusConfig[screenerStatus] || statusConfig['non-applicable'];
+      drawRoundedRect(leftMargin, yPosition, boxWidth, boxHeight, 3, status.bg);
+
+      doc.setFontSize(7);
+      doc.setTextColor(100, 116, 139);
+      doc.setFont('helvetica', 'bold');
+      doc.text('SCREENER STATUS', leftMargin + 6, yPosition + 7);
+
+      doc.setFontSize(9);
+      doc.setTextColor(status.text[0], status.text[1], status.text[2]);
+      doc.text(status.label, leftMargin + 6, yPosition + 15);
+
+      // Readiness box
+      const readinessConfig: Record<string, { dot: [number, number, number]; text: [number, number, number]; label: string }> = {
+        'ready': { dot: [16, 185, 129], text: [4, 120, 87], label: 'Ready' },
+        'approaching': { dot: [245, 158, 11], text: [180, 83, 9], label: 'Approaching' },
+        'not-yet-ready': { dot: [239, 68, 68], text: [185, 28, 28], label: 'Not Yet Ready' },
+      };
+
+      drawRoundedRect(leftMargin + boxWidth + 8, yPosition, boxWidth, boxHeight, 3, [248, 250, 252]);
+
+      doc.setFontSize(7);
+      doc.setTextColor(100, 116, 139);
+      doc.text('READINESS', leftMargin + boxWidth + 14, yPosition + 7);
+
+      if (readinessStatus && readinessConfig[readinessStatus]) {
+        const readiness = readinessConfig[readinessStatus];
+        doc.setFillColor(readiness.dot[0], readiness.dot[1], readiness.dot[2]);
+        doc.circle(leftMargin + boxWidth + 16, yPosition + 14, 2, 'F');
+        doc.setFontSize(9);
+        doc.setTextColor(readiness.text[0], readiness.text[1], readiness.text[2]);
+        doc.setFont('helvetica', 'bold');
+        doc.text(readiness.label, leftMargin + boxWidth + 21, yPosition + 15);
+      } else {
+        doc.setFontSize(9);
+        doc.setTextColor(148, 163, 184);
+        doc.setFont('helvetica', 'bold');
+        doc.text('Not Assessed', leftMargin + boxWidth + 14, yPosition + 15);
       }
 
-      if (studentInfo.subject) {
-        doc.text(`Subject: ${studentInfo.subject}`, leftMargin, yPosition);
-        yPosition += lineHeight;
+      yPosition += boxHeight + 8;
+
+      // Assessment info line - compact
+      doc.setFont('helvetica', 'normal');
+      doc.setFontSize(8);
+      doc.setTextColor(100, 116, 139);
+      const infoText = [];
+      if (studentInfo.subject) infoText.push(studentInfo.subject);
+      if (studentInfo.testDate) infoText.push(`Assessed: ${new Date(studentInfo.testDate).toLocaleDateString()}`);
+      if (infoText.length > 0) {
+        doc.text(infoText.join('  •  '), leftMargin, yPosition);
+        yPosition += 8;
       }
 
-      // Status
-      yPosition += lineHeight;
-      doc.setFontSize(12);
-      doc.setTextColor(30, 41, 59);
-      const statusLabel = screenerStatus === 'on-or-above' ? 'On/Above Grade Level' :
-                          screenerStatus === 'below' ? 'Below Grade Level' :
-                          screenerStatus === 'far-below' ? 'Far Below Grade Level' : 'Not Assessed';
-      doc.text(`Status: ${statusLabel}`, leftMargin, yPosition);
-      yPosition += lineHeight * 2;
-
-      // Standards Met Section
+      // Standards Met Section - compact
       if (masteredStandards.length > 0) {
-        doc.setFontSize(14);
-        doc.setTextColor(16, 185, 129); // Emerald color
-        doc.text('STANDARDS MET', leftMargin, yPosition);
-        yPosition += lineHeight * 1.5;
-
-        doc.setFontSize(10);
-        doc.setTextColor(30, 41, 59);
+        doc.setFontSize(9);
+        doc.setTextColor(16, 185, 129);
+        doc.setFont('helvetica', 'bold');
+        doc.text('STANDARDS BEING MET', leftMargin, yPosition);
+        yPosition += 6;
 
         masteredStandards.forEach((standard) => {
-          if (yPosition > 270) {
-            doc.addPage();
-            yPosition = 20;
-          }
-          doc.setFont('helvetica', 'bold');
-          doc.text(`${standard.code}`, leftMargin, yPosition);
+          const standardText = standard.code;
+          const boxH = 6;
+
+          drawRoundedRect(leftMargin, yPosition, contentWidth, boxH, 2, [220, 252, 231]);
+
+          doc.setFillColor(16, 185, 129);
+          doc.roundedRect(leftMargin, yPosition, 2, boxH, 1, 1, 'F');
+
+          doc.setFontSize(8);
+          doc.setTextColor(22, 101, 52);
           doc.setFont('helvetica', 'normal');
-          const nameText = doc.splitTextToSize(standard.name, pageWidth - leftMargin - 60);
-          doc.text(nameText, leftMargin + 50, yPosition);
-          yPosition += lineHeight * Math.max(nameText.length, 1) + 2;
+          doc.text(standardText, leftMargin + 6, yPosition + 4.5);
+
+          yPosition += boxH + 2;
         });
 
-        yPosition += lineHeight;
+        yPosition += 4;
       }
 
-      // Skill Gaps Section
+      // Skill Gaps Section - compact
       if (skillGaps.length > 0) {
-        if (yPosition > 250) {
-          doc.addPage();
-          yPosition = 20;
-        }
-
-        doc.setFontSize(14);
-        doc.setTextColor(239, 68, 68); // Rose color
+        doc.setFontSize(9);
+        doc.setTextColor(239, 68, 68);
+        doc.setFont('helvetica', 'bold');
         doc.text('SKILL GAPS', leftMargin, yPosition);
-        yPosition += lineHeight * 1.5;
-
-        doc.setFontSize(10);
-        doc.setTextColor(30, 41, 59);
+        yPosition += 6;
 
         skillGaps.forEach((gap) => {
-          if (yPosition > 260) {
-            doc.addPage();
-            yPosition = 20;
-          }
-          doc.setFont('helvetica', 'bold');
-          doc.text(`${gap.code}`, leftMargin, yPosition);
-          doc.setFont('helvetica', 'normal');
-          const standardText = doc.splitTextToSize(gap.standard, pageWidth - leftMargin - 60);
-          doc.text(standardText, leftMargin + 50, yPosition);
-          yPosition += lineHeight * Math.max(standardText.length, 1);
+          const gapText = gap.code;
+          const boxH = 6;
 
-          if (gap.description) {
-            doc.setTextColor(100);
-            const descText = doc.splitTextToSize(gap.description, pageWidth - leftMargin - 30);
-            doc.text(descText, leftMargin + 10, yPosition);
-            doc.setTextColor(30, 41, 59);
-            yPosition += lineHeight * descText.length;
-          }
-          yPosition += 3;
+          drawRoundedRect(leftMargin, yPosition, contentWidth, boxH, 2, [254, 242, 242]);
+
+          doc.setFillColor(239, 68, 68);
+          doc.roundedRect(leftMargin, yPosition, 2, boxH, 1, 1, 'F');
+
+          doc.setFontSize(8);
+          doc.setTextColor(153, 27, 27);
+          doc.setFont('helvetica', 'normal');
+          doc.text(gapText, leftMargin + 6, yPosition + 4.5);
+
+          yPosition += boxH + 2;
         });
 
-        yPosition += lineHeight;
+        yPosition += 4;
       }
 
-      // Recommendations Section
+      // Recommendations Section - compact
       if (defaultRecs.length > 0) {
-        if (yPosition > 240) {
-          doc.addPage();
-          yPosition = 20;
-        }
-
-        doc.setFontSize(14);
-        doc.setTextColor(79, 70, 229); // Indigo color
+        doc.setFontSize(9);
+        doc.setTextColor(79, 70, 229);
+        doc.setFont('helvetica', 'bold');
         doc.text('RECOMMENDATIONS', leftMargin, yPosition);
-        yPosition += lineHeight * 1.5;
+        yPosition += 6;
 
-        doc.setFontSize(10);
-        doc.setTextColor(30, 41, 59);
+        const priorityColors: Record<string, [number, number, number]> = {
+          high: [254, 242, 242],
+          medium: [255, 251, 235],
+          low: [236, 253, 245],
+        };
+        const borderColors: Record<string, [number, number, number]> = {
+          high: [239, 68, 68],
+          medium: [245, 158, 11],
+          low: [16, 185, 129],
+        };
 
         defaultRecs.forEach((rec, index) => {
-          if (yPosition > 270) {
-            doc.addPage();
-            yPosition = 20;
-          }
-          const recText = doc.splitTextToSize(`${index + 1}. ${rec.text}`, pageWidth - leftMargin - 20);
-          doc.text(recText, leftMargin, yPosition);
-          yPosition += lineHeight * recText.length + 2;
+          const recText = doc.splitTextToSize(`${index + 1}. ${rec.text}`, contentWidth - 10);
+          const boxH = 4 + (recText.length * 4);
+
+          drawRoundedRect(leftMargin, yPosition, contentWidth, boxH, 2, priorityColors[rec.priority]);
+
+          doc.setFillColor(borderColors[rec.priority][0], borderColors[rec.priority][1], borderColors[rec.priority][2]);
+          doc.roundedRect(leftMargin, yPosition, 2, boxH, 1, 1, 'F');
+
+          doc.setFontSize(8);
+          doc.setTextColor(30, 41, 59);
+          doc.setFont('helvetica', 'normal');
+          doc.text(recText, leftMargin + 6, yPosition + 3.5);
+
+          yPosition += boxH + 2;
         });
       }
 
       // Footer
-      const pageCount = doc.getNumberOfPages();
-      for (let i = 1; i <= pageCount; i++) {
-        doc.setPage(i);
-        doc.setFontSize(8);
-        doc.setTextColor(150);
-        doc.text(
-          `Generated by Compass • Page ${i} of ${pageCount}`,
-          pageWidth / 2,
-          doc.internal.pageSize.getHeight() - 10,
-          { align: 'center' }
-        );
-      }
+      doc.setFontSize(7);
+      doc.setTextColor(150);
+      doc.text(
+        'Generated by Compass',
+        pageWidth / 2,
+        doc.internal.pageSize.getHeight() - 8,
+        { align: 'center' }
+      );
 
       // Save the PDF
       doc.save(`${studentInfo.firstName}_${studentInfo.lastName}_Assessment_Report.pdf`);
