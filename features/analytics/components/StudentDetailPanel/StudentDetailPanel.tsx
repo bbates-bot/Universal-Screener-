@@ -32,6 +32,18 @@ interface MasteredStandard {
   name: string;
 }
 
+export interface ScreenerResultData {
+  subject: string;
+  testDate: string;
+  overallScore: number;
+  maxScore: number;
+  overallPercentage: number;
+  overallLevel: GradeCategory;
+  domains: DomainResult[];
+  masteredStandards?: string[];
+  gapStandards?: string[];
+}
+
 export interface StudentDetailData {
   id: string;
   firstName: string;
@@ -52,6 +64,7 @@ export interface StudentDetailData {
     masteredStandards?: string[];
     gapStandards?: string[];
   } | null;
+  allScreenerResults: ScreenerResultData[];
   readiness: {
     course: string;
     courseLabel: string;
@@ -228,21 +241,72 @@ export const StudentDetailPanel: React.FC<StudentDetailPanelProps> = ({
                   closeButtonRef={closeButtonRef}
                 />
 
-              {/* Screener Results */}
-              {student.screener && (
-                <ScreenerResults
-                  subject={student.screener.subject}
-                  testDate={student.screener.testDate}
-                  overallPercentage={student.screener.overallPercentage}
-                  overallLevel={student.screenerStatus}
-                  domains={student.screener.domains}
-                  masteredStandards={student.screener.masteredStandards}
-                  gapStandards={student.screener.gapStandards}
-                />
-              )}
+              {/* All Screener Results - show each completed test */}
+              {student.allScreenerResults.length > 0 ? (
+                <>
+                  {student.allScreenerResults.map((result, index) => (
+                    <ScreenerResults
+                      key={`${result.subject}-${result.testDate}-${index}`}
+                      subject={result.subject}
+                      testDate={result.testDate}
+                      overallPercentage={result.overallPercentage}
+                      overallLevel={result.overallLevel}
+                      domains={result.domains}
+                      hideStandards={true}
+                    />
+                  ))}
 
-              {/* No screener data state */}
-              {!student.screener && (
+                  {/* Consolidated Standards Being Met - across all tests */}
+                  {(() => {
+                    const allMastered = [...new Set(
+                      student.allScreenerResults.flatMap(r => r.masteredStandards || [])
+                    )];
+                    const allGaps = [...new Set(
+                      student.allScreenerResults.flatMap(r => r.gapStandards || [])
+                    )];
+                    if (allMastered.length === 0 && allGaps.length === 0) return null;
+                    return (
+                      <div className="p-6">
+                        {allMastered.length > 0 && (
+                          <div className="space-y-3">
+                            <p className="text-xs font-bold text-emerald-600 uppercase tracking-wider flex items-center gap-2">
+                              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                              </svg>
+                              Standards Being Met
+                            </p>
+                            <div className="space-y-2">
+                              {allMastered.map((standard, i) => (
+                                <div key={i} className="bg-emerald-50 border border-emerald-100 rounded-lg px-3 py-2 text-sm text-emerald-800">
+                                  {standard}
+                                </div>
+                              ))}
+                            </div>
+                          </div>
+                        )}
+
+                        {allGaps.length > 0 && (
+                          <div className="space-y-3 mt-6">
+                            <p className="text-xs font-bold text-rose-600 uppercase tracking-wider flex items-center gap-2">
+                              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                              </svg>
+                              Learning Gaps
+                            </p>
+                            <div className="space-y-2">
+                              {allGaps.map((standard, i) => (
+                                <div key={i} className="bg-rose-50 border border-rose-100 rounded-lg px-3 py-2 text-sm text-rose-800">
+                                  {standard}
+                                </div>
+                              ))}
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    );
+                  })()}
+                </>
+              ) : (
                 <div className="p-6">
                   <h3 className="text-sm font-bold text-slate-600 uppercase tracking-wider mb-4">
                     Screener Results

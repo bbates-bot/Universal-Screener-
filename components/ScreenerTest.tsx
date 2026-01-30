@@ -76,25 +76,34 @@ const getStandardsForStrand = (strand: string, gradeLevel: string, subjectName: 
   }
 
   // ELA/Reading strands
-  if (subjectName === 'Reading' || subjectName === 'ELA') {
+  if (subjectName === 'Reading' || subjectName === 'ELA' || subjectName === 'Reading Comprehension') {
     const gradePattern = grade === '9' || grade === '10' ? '9-10'
       : grade === '11' || grade === '12' ? '11-12' : grade;
 
-    if (strand === 'Key Ideas & Details' || strand === 'Reading Literature') {
-      return findMatching([`ELA-LITERACY.RL.${gradePattern}.`]);
+    // Normalize strand for comparison (handle both "and" and "&" variations)
+    const normalizedStrand = strand.toLowerCase().replace(/\s+and\s+/g, ' & ');
+
+    if (normalizedStrand.includes('key ideas') || normalizedStrand.includes('reading literature')) {
+      // Key Ideas & Details - both RL and RI standards
+      return findMatching([`ELA-LITERACY.RL.${gradePattern}.`, `ELA-LITERACY.RI.${gradePattern}.`]);
     }
-    if (strand === 'Craft & Structure' || strand === 'Vocabulary Acquisition') {
-      return findMatching([`ELA-LITERACY.L.${gradePattern}.`]);
+    if (normalizedStrand.includes('craft') || normalizedStrand.includes('structure') || normalizedStrand.includes('vocabulary')) {
+      // Craft & Structure - both RL and RI standards
+      return findMatching([`ELA-LITERACY.RL.${gradePattern}.`, `ELA-LITERACY.RI.${gradePattern}.`]);
     }
-    if (strand === 'Phonics & Word Recognition' || strand === 'Fluency') {
+    if (normalizedStrand.includes('integration') || normalizedStrand.includes('knowledge')) {
+      // Integration of Knowledge - both RL and RI standards
+      return findMatching([`ELA-LITERACY.RL.${gradePattern}.`, `ELA-LITERACY.RI.${gradePattern}.`]);
+    }
+    if (normalizedStrand.includes('phonics') || normalizedStrand.includes('word recognition') || normalizedStrand.includes('fluency')) {
       return findMatching([`ELA-LITERACY.RF.${grade}.`]);
     }
-    if (strand === 'Language') {
+    if (normalizedStrand.includes('language')) {
       return findMatching([`ELA-LITERACY.L.${gradePattern}.`]);
     }
-    // Fallback for ELA
-    const fallback = findMatching([`ELA-LITERACY.RL.${gradePattern}.`, `ELA-LITERACY.L.${gradePattern}.`]);
-    if (fallback.length > 0) return fallback.slice(0, 3);
+    // Fallback for ELA - return RL and RI standards for grade
+    const fallback = findMatching([`ELA-LITERACY.RL.${gradePattern}.`, `ELA-LITERACY.RI.${gradePattern}.`]);
+    if (fallback.length > 0) return fallback.slice(0, 5);
   }
 
   // Edexcel Math strands

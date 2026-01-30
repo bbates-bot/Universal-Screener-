@@ -24,6 +24,7 @@ interface ScreenerResultsProps {
   domains: DomainResult[];
   masteredStandards?: string[];
   gapStandards?: string[];
+  hideStandards?: boolean;
   isLoading?: boolean;
 }
 
@@ -42,6 +43,7 @@ export const ScreenerResults: React.FC<ScreenerResultsProps> = ({
   domains,
   masteredStandards = [],
   gapStandards = [],
+  hideStandards = false,
   isLoading = false,
 }) => {
   const formatDate = (dateStr: string) => {
@@ -133,7 +135,7 @@ export const ScreenerResults: React.FC<ScreenerResultsProps> = ({
       )}
 
       {/* Standards Being Met */}
-      {masteredStandards.length > 0 && (
+      {!hideStandards && masteredStandards.length > 0 && (
         <div className="space-y-3">
           <p className="text-xs font-bold text-emerald-600 uppercase tracking-wider flex items-center gap-2">
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -155,7 +157,7 @@ export const ScreenerResults: React.FC<ScreenerResultsProps> = ({
       )}
 
       {/* Learning Gaps */}
-      {gapStandards.length > 0 && (
+      {!hideStandards && gapStandards.length > 0 && (
         <div className="space-y-3 mt-6">
           <p className="text-xs font-bold text-rose-600 uppercase tracking-wider flex items-center gap-2">
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

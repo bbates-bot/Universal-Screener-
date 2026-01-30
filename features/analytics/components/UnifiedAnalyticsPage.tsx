@@ -369,64 +369,181 @@ const UnifiedAnalyticsContent: React.FC<UnifiedAnalyticsPageProps> = ({
         )[0]
       : null;
 
-    // Build screener data
-    // Get mastered/gap standards from masteredObjectives/gapObjectives arrays,
-    // or derive from standardsPerformance if those arrays are empty
-    const getMasteredStandards = () => {
-      const masteredFromArray = (latestResult as any)?.masteredObjectives || [];
-      if (masteredFromArray.length > 0) {
-        return [...new Set(masteredFromArray)].map((code: string) =>
-          `${code}: ${CCSS_LEARNING_OBJECTIVES[code] || 'Standard description not available'}`
-        );
+    // Helper to get standards for a strand (mirrors ScreenerTest logic)
+    const getStandardsForStrandLocal = (strand: string, gradeLevel: string, subjectName: string): string[] => {
+      const allStandardKeys = Object.keys(CCSS_LEARNING_OBJECTIVES);
+      const grade = gradeLevel === 'K' ? 'K' : gradeLevel;
+
+      const findMatching = (patterns: string[]): string[] => {
+        return allStandardKeys.filter(key => patterns.some(p => key.includes(p)));
+      };
+
+      // Math strands
+      if (subjectName === 'Math' || subjectName === 'Mathematics') {
+        if (strand.includes('Fraction')) return findMatching([`MATH.CONTENT.${grade}.NF.`]);
+        if (strand.includes('Operations') || strand.includes('Algebraic')) {
+          const results = findMatching([`MATH.CONTENT.${grade}.OA.`]);
+          return results.length > 0 ? results : findMatching(['MATH.CONTENT.HSA']);
+        }
+        if (strand.includes('Counting') || strand.includes('Cardinality')) return findMatching([`MATH.CONTENT.K.CC.`]);
+        if (strand.includes('Geometry')) {
+          const results = findMatching([`MATH.CONTENT.${grade}.G.`]);
+          return results.length > 0 ? results : findMatching(['MATH.CONTENT.HSG']);
+        }
+        if (strand.includes('Measurement') || strand.includes('Data')) return findMatching([`MATH.CONTENT.${grade}.MD.`]);
+        if (strand.includes('Expressions') || strand.includes('Equations')) return findMatching([`MATH.CONTENT.${grade}.EE.`]);
+        if (strand.includes('Ratio') || strand.includes('Proportion')) return findMatching([`MATH.CONTENT.${grade}.RP.`]);
+        const fallback = findMatching([`MATH.CONTENT.${grade}.`]);
+        return fallback.slice(0, 3);
       }
-      // Fallback: derive from standardsPerformance
-      const fromPerformance = (latestResult?.standardsPerformance || [])
-        .filter((sp: any) => sp.mastery === 'proficient')
-        .map((sp: any) => sp.standardCode);
-      return [...new Set(fromPerformance)].map((code: string) =>
-        `${code}: ${CCSS_LEARNING_OBJECTIVES[code] || 'Standard description not available'}`
-      );
+
+      // ELA/Reading strands
+      if (subjectName === 'Reading' || subjectName === 'ELA' || subjectName === 'Reading Comprehension') {
+        const gradePattern = grade === '9' || grade === '10' ? '9-10' : grade === '11' || grade === '12' ? '11-12' : grade;
+        const normalizedStrand = strand.toLowerCase();
+        if (normalizedStrand.includes('key ideas') || normalizedStrand.includes('detail')) {
+          return findMatching([`ELA-LITERACY.RL.${gradePattern}.`, `ELA-LITERACY.RI.${gradePattern}.`]);
+        }
+        if (normalizedStrand.includes('craft') || normalizedStrand.includes('structure')) {
+          return findMatching([`ELA-LITERACY.RL.${gradePattern}.`, `ELA-LITERACY.RI.${gradePattern}.`]);
+        }
+        if (normalizedStrand.includes('integration') || normalizedStrand.includes('knowledge')) {
+          return findMatching([`ELA-LITERACY.RL.${gradePattern}.`, `ELA-LITERACY.RI.${gradePattern}.`]);
+        }
+        if (normalizedStrand.includes('phonics') || normalizedStrand.includes('fluency')) {
+          return findMatching([`ELA-LITERACY.RF.${grade}.`]);
+        }
+        const fallback = findMatching([`ELA-LITERACY.RL.${gradePattern}.`, `ELA-LITERACY.RI.${gradePattern}.`]);
+        return fallback.slice(0, 5);
+      }
+
+      return [];
     };
 
-    const getGapStandards = () => {
-      const gapsFromArray = (latestResult as any)?.gapObjectives || [];
-      if (gapsFromArray.length > 0) {
-        return [...new Set(gapsFromArray)].map((code: string) =>
-          `${code}: ${CCSS_LEARNING_OBJECTIVES[code] || 'Standard description not available'}`
-        );
-      }
-      // Fallback: derive from standardsPerformance
-      const fromPerformance = (latestResult?.standardsPerformance || [])
-        .filter((sp: any) => sp.mastery === 'needs-support' || sp.mastery === 'developing')
-        .map((sp: any) => sp.standardCode);
-      return [...new Set(fromPerformance)].map((code: string) =>
-        `${code}: ${CCSS_LEARNING_OBJECTIVES[code] || 'Standard description not available'}`
-      );
-    };
+    // Build screener data for a single result
+    const buildScreenerDataForResult = (result: StudentResult) => {
+      // Get mastered standards from multiple sources
+      const getMasteredForResult = (): string[] => {
+        // Source 1: masteredObjectives array
+        const masteredFromArray = (result as any)?.masteredObjectives || [];
+        if (masteredFromArray.length > 0) {
+          return [...new Set(masteredFromArray)].map((code: string) =>
+            `${code}: ${CCSS_LEARNING_OBJECTIVES[code] || 'Standard description not available'}`
+          );
+        }
+        // Source 2: standardsPerformance
+        const standardsPerf = result?.standardsPerformance || [];
+        if (standardsPerf.length > 0) {
+          const fromPerformance = standardsPerf
+            .filter((sp: any) => sp.mastery === 'proficient')
+            .map((sp: any) => sp.standardCode);
+          if (fromPerformance.length > 0) {
+            return [...new Set(fromPerformance)].map((code: string) =>
+              `${code}: ${CCSS_LEARNING_OBJECTIVES[code] || 'Standard description not available'}`
+            );
+          }
+        }
+        // Source 3: strandScores >= 70%
+        const strandScores = (result as any)?.strandScores || {};
+        const subjectName = result.subject === 'Math' ? 'Mathematics' : result.subject;
+        const masteredStrands = Object.entries(strandScores)
+          .filter(([_, score]) => (score as number) >= 70)
+          .map(([strand]) => strand);
+        if (masteredStrands.length > 0) {
+          const matching: string[] = [];
+          masteredStrands.forEach(strand => {
+            getStandardsForStrandLocal(strand, student.grade, subjectName).forEach(code => {
+              matching.push(`${code}: ${CCSS_LEARNING_OBJECTIVES[code]}`);
+            });
+          });
+          if (matching.length > 0) return [...new Set(matching)];
+        }
+        return [];
+      };
 
-    const screenerData = latestResult ? {
-      subject: latestResult.subject,
-      testDate: latestResult.testDate,
-      overallScore: latestResult.totalCorrect || 0,
-      maxScore: latestResult.totalQuestions || 1,
-      overallPercentage: latestResult.totalCorrect && latestResult.totalQuestions
-        ? Math.round((latestResult.totalCorrect / latestResult.totalQuestions) * 100)
-        : 0,
-      domains: latestResult.domains?.map((d: any) => ({
-        domain: d.name || d.domain,
-        score: d.correct || d.score || 0,
-        maxScore: d.total || d.maxScore || 1,
-        percentage: (d.correct || d.score) && (d.total || d.maxScore)
-          ? Math.round(((d.correct || d.score) / (d.total || d.maxScore)) * 100)
+      // Get gap standards from multiple sources
+      const getGapsForResult = (): string[] => {
+        // Source 1: gapObjectives array
+        const gapsFromArray = (result as any)?.gapObjectives || [];
+        if (gapsFromArray.length > 0) {
+          return [...new Set(gapsFromArray)].map((code: string) =>
+            `${code}: ${CCSS_LEARNING_OBJECTIVES[code] || 'Standard description not available'}`
+          );
+        }
+        // Source 2: standardsPerformance
+        const standardsPerf = result?.standardsPerformance || [];
+        if (standardsPerf.length > 0) {
+          const fromPerformance = standardsPerf
+            .filter((sp: any) => sp.mastery === 'needs-support' || sp.mastery === 'developing')
+            .map((sp: any) => sp.standardCode);
+          if (fromPerformance.length > 0) {
+            return [...new Set(fromPerformance)].map((code: string) =>
+              `${code}: ${CCSS_LEARNING_OBJECTIVES[code] || 'Standard description not available'}`
+            );
+          }
+        }
+        // Source 3: strandScores < 60%
+        const strandScores = (result as any)?.strandScores || {};
+        const subjectName = result.subject === 'Math' ? 'Mathematics' : result.subject;
+        const gapStrands = Object.entries(strandScores)
+          .filter(([_, score]) => (score as number) < 60)
+          .map(([strand]) => strand);
+        if (gapStrands.length > 0) {
+          const matching: string[] = [];
+          gapStrands.forEach(strand => {
+            getStandardsForStrandLocal(strand, student.grade, subjectName).forEach(code => {
+              matching.push(`${code}: ${CCSS_LEARNING_OBJECTIVES[code]}`);
+            });
+          });
+          if (matching.length > 0) return [...new Set(matching)];
+        }
+        return [];
+      };
+
+      const resultLevel = result.overallLevel === ScreenerLevel.ON_ABOVE ? 'on-or-above' as GradeCategory :
+        result.overallLevel === ScreenerLevel.BELOW ? 'below' as GradeCategory :
+        result.overallLevel === ScreenerLevel.FAR_BELOW ? 'far-below' as GradeCategory :
+        'non-applicable' as GradeCategory;
+
+      return {
+        subject: result.subject,
+        testDate: result.testDate,
+        overallScore: result.totalCorrect || 0,
+        maxScore: result.totalQuestions || 1,
+        overallPercentage: result.totalCorrect && result.totalQuestions
+          ? Math.round((result.totalCorrect / result.totalQuestions) * 100)
           : 0,
-        level: d.level === ScreenerLevel.ON_ABOVE ? 'on-or-above' as GradeCategory :
-               d.level === ScreenerLevel.BELOW ? 'below' as GradeCategory :
-               d.level === ScreenerLevel.FAR_BELOW ? 'far-below' as GradeCategory :
-               'non-applicable' as GradeCategory,
-      })) || [],
-      masteredStandards: getMasteredStandards(),
-      gapStandards: getGapStandards(),
-    } : null;
+        overallLevel: resultLevel,
+        domains: result.domains?.map((d: any) => ({
+          domain: d.name || d.domain,
+          score: d.correct || d.score || 0,
+          maxScore: d.total || d.maxScore || 1,
+          percentage: (d.correct || d.score) && (d.total || d.maxScore)
+            ? Math.round(((d.correct || d.score) / (d.total || d.maxScore)) * 100)
+            : 0,
+          level: d.level === ScreenerLevel.ON_ABOVE ? 'on-or-above' as GradeCategory :
+                 d.level === ScreenerLevel.BELOW ? 'below' as GradeCategory :
+                 d.level === ScreenerLevel.FAR_BELOW ? 'far-below' as GradeCategory :
+                 'non-applicable' as GradeCategory,
+        })) || [],
+        masteredStandards: getMasteredForResult(),
+        gapStandards: getGapsForResult(),
+      };
+    };
+
+    // Build screener data for ALL results (one per subject, most recent)
+    const resultsBySubject = new Map<string, StudentResult>();
+    studentResults
+      .sort((a, b) => new Date(b.testDate).getTime() - new Date(a.testDate).getTime())
+      .forEach(result => {
+        if (!resultsBySubject.has(result.subject)) {
+          resultsBySubject.set(result.subject, result);
+        }
+      });
+
+    const allScreenerResults = Array.from(resultsBySubject.values()).map(buildScreenerDataForResult);
+
+    const screenerData = latestResult ? buildScreenerDataForResult(latestResult) : null;
 
     // Determine if student has AP or IGCSE assessments assigned
     const hasAPAssessments = student.assignedAssessments?.some(a => a.type === 'AP Readiness') || false;
@@ -551,6 +668,7 @@ const UnifiedAnalyticsContent: React.FC<UnifiedAnalyticsPageProps> = ({
       screenerStatus: category,
       readinessStatus,
       screener: screenerData,
+      allScreenerResults,
       readiness: readinessData,
       recommendations: [],
     };
