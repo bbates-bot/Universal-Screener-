@@ -24,7 +24,9 @@ import {
 } from '../services/adaptiveTestingService';
 import {
   loadAllQuestionsForGrade,
-  getQuestionsWithFormatDistribution
+  loadQuestionsForScreener,
+  getQuestionsWithFormatDistribution,
+  getQuestionsWithStrandCoverage
 } from '../services/questionBankService';
 import { ADAPTIVE_TEST_CONFIG, CCSS_LEARNING_OBJECTIVES } from '../constants';
 
@@ -261,18 +263,23 @@ const ScreenerTest: React.FC<ScreenerTestProps> = ({
           const questionSubject = getQuestionSubject();
           console.log('[ScreenerTest] Initializing adaptive test:', { subject, questionSubject, grade, effectiveGrade, questionBankGrade });
 
-          // Try to load from static question bank first
-          // For Edexcel, this uses the stage (e.g., 'Pre-IG1')
-          // For CCSS, this uses the grade (e.g., '7')
-          let questions = await loadAllQuestionsForGrade(questionSubject, questionBankGrade);
-          console.log(`[ScreenerTest] Loaded ${questions.length} questions from question bank`);
+          // Load questions from multiple grade levels (current ±1) for comprehensive assessment
+          // This ensures students are tested across a range while never adapting more than 1 grade level
+          let questions = await loadQuestionsForScreener(questionSubject, questionBankGrade, {
+            includeAdjacentGrades: true,
+            minQuestionsPerStrand: 2
+          });
+          console.log(`[ScreenerTest] Loaded ${questions.length} questions from multi-grade question bank`);
 
           // If no static questions, generate with AI
           if (questions.length < 10) {
             console.log('[ScreenerTest] Less than 10 questions loaded, falling back to AI generation');
             questions = await generateHybridQuestionSet(effectiveGrade, questionSubject, 25, questions);
           } else {
-            // Get a balanced set
+            // Get a balanced set with comprehensive strand coverage
+            // This ensures all learning objectives are tested for a complete snapshot
+            questions = getQuestionsWithStrandCoverage(questions, 30, 2);
+            // Also apply format distribution for variety
             questions = getQuestionsWithFormatDistribution(questions, 30);
           }
 

@@ -136,9 +136,82 @@ const calculateStandardError = (numResponses: number): number => {
 };
 
 /**
+ * Grade order for determining grade level bounds
+ */
+const GRADE_ORDER = ['K', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'];
+
+/**
+ * Maximum grade level deviation allowed during adaptive testing
+ * This ensures tests never adapt more than 1 grade level away from the student's grade
+ */
+const MAX_GRADE_DEVIATION = 1;
+
+/**
+ * Check if a question's grade level is within allowed bounds
+ */
+const isWithinGradeBounds = (questionGrade: string, sessionGrade: string): boolean => {
+  const sessionIndex = GRADE_ORDER.indexOf(sessionGrade);
+  const questionIndex = GRADE_ORDER.indexOf(questionGrade);
+
+  // If either grade isn't in the standard order (e.g., AP courses), allow it
+  if (sessionIndex === -1 || questionIndex === -1) {
+    return true;
+  }
+
+  const deviation = Math.abs(questionIndex - sessionIndex);
+  return deviation <= MAX_GRADE_DEVIATION;
+};
+
+/**
+ * Get required strands for comprehensive assessment coverage
+ */
+const getRequiredStrands = (subject: string): string[] => {
+  const strandsBySubject: Record<string, string[]> = {
+    'Mathematics': [
+      'Operations & Algebraic Thinking',
+      'Number & Operations in Base Ten',
+      'Number & Operations - Fractions',
+      'Measurement & Data',
+      'Geometry'
+    ],
+    'Math': [
+      'Operations & Algebraic Thinking',
+      'Number & Operations in Base Ten',
+      'Measurement & Data',
+      'Geometry'
+    ],
+    'Reading': [
+      'Key Ideas & Details',
+      'Craft & Structure',
+      'Integration of Knowledge'
+    ],
+    'Reading Comprehension': [
+      'Key Ideas & Details',
+      'Craft & Structure',
+      'Integration of Knowledge'
+    ],
+    'ELA': [
+      'Key Ideas & Details',
+      'Craft & Structure',
+      'Integration of Knowledge',
+      'Phonics & Word Recognition'
+    ]
+  };
+
+  return strandsBySubject[subject] || [];
+};
+
+/**
+ * Minimum questions required per strand for comprehensive coverage
+ */
+const MIN_QUESTIONS_PER_STRAND = 2;
+
+/**
  * Select the next question based on current ability estimate
- * IMPORTANT: Only selects from available questions - never tries to go below
- * the minimum difficulty level in the question bank
+ * IMPORTANT:
+ * - Only selects from available questions within ±1 grade level
+ * - Prioritizes strand coverage for comprehensive assessment
+ * - Never adapts more than one grade level away
  */
 export const selectNextQuestion = (
   availableQuestions: ExtendedQuestion[],
@@ -146,9 +219,22 @@ export const selectNextQuestion = (
 ): QuestionSelectionResult | null => {
   // Filter out already-answered questions
   const answeredIds = new Set(session.questionHistory.map(r => r.questionId));
-  const unanswered = availableQuestions.filter(q => !answeredIds.has(q.id));
+  let unanswered = availableQuestions.filter(q => !answeredIds.has(q.id));
 
   if (unanswered.length === 0) return null;
+
+  // CRITICAL: Filter to only questions within ±1 grade level
+  // This ensures we never adapt more than one grade level away
+  const withinBounds = unanswered.filter(q =>
+    isWithinGradeBounds(q.gradeLevel, session.gradeLevel)
+  );
+
+  if (withinBounds.length > 0) {
+    unanswered = withinBounds;
+    console.log(`Adaptive: Filtered to ${unanswered.length} questions within ±${MAX_GRADE_DEVIATION} grade levels`);
+  } else {
+    console.log(`Adaptive: Warning - no questions within grade bounds, using all ${unanswered.length} available`);
+  }
 
   // Find the difficulty bounds of available questions
   const difficulties = unanswered.map(q => q.difficulty);
@@ -170,17 +256,32 @@ export const selectNextQuestion = (
     console.log(`Adaptive: Clamping target ability from ${originalTarget.toFixed(2)} to max available ${maxTheta.toFixed(2)}`);
   }
 
+  // Check for underrepresented strands for comprehensive coverage
+  const requiredStrands = getRequiredStrands(session.subject);
+  const underrepresentedStrands = requiredStrands.filter(strand =>
+    (session.strandsTouch[strand] || 0) < MIN_QUESTIONS_PER_STRAND
+  );
+
   const scored = unanswered.map(q => {
     const questionTheta = difficultyToTheta(q.difficulty);
     const distance = Math.abs(questionTheta - targetTheta);
 
-    // Prefer questions from underrepresented strands
-    const strandBonus = (session.strandsTouch[q.strand] || 0) < 2 ? 0.5 : 0;
+    // Prefer questions from underrepresented strands (stronger bonus for required strands)
+    let strandBonus = 0;
+    const strandUsage = session.strandsTouch[q.strand] || 0;
+
+    if (underrepresentedStrands.includes(q.strand)) {
+      // High priority: required strand not yet covered enough
+      strandBonus = 1.0 - (strandUsage * 0.3);
+    } else if (strandUsage < MIN_QUESTIONS_PER_STRAND) {
+      // Medium priority: any strand not yet covered
+      strandBonus = 0.5;
+    }
 
     // Calculate information value (higher = better)
     const information = 1 / (1 + distance) + strandBonus;
 
-    return { question: q, information, distance };
+    return { question: q, information, distance, strandBonus };
   });
 
   // Sort by information value (descending)
@@ -190,11 +291,17 @@ export const selectNextQuestion = (
 
   // Provide more detailed selection reason
   let reason = `Selected based on ability match (distance: ${selected.distance.toFixed(2)})`;
-  if (originalTarget < minTheta) {
+  if (selected.strandBonus > 0.5) {
+    reason = `Prioritizing strand coverage: ${selected.question.strand}`;
+  } else if (originalTarget < minTheta) {
     reason = `Selected easiest available question (student ability below question bank range)`;
   } else if (originalTarget > maxTheta) {
     reason = `Selected hardest available question (student ability above question bank range)`;
   }
+
+  // Log strand coverage status
+  const strandsCount = Object.keys(session.strandsTouch).length;
+  console.log(`Adaptive: Strands covered: ${strandsCount}, Underrepresented: ${underrepresentedStrands.length}`);
 
   return {
     selectedQuestion: selected.question,
@@ -207,6 +314,7 @@ export const selectNextQuestion = (
 
 /**
  * Check if test should terminate
+ * Ensures comprehensive coverage of learning objectives before allowing early termination
  */
 export const shouldTerminate = (
   session: AdaptiveTestSession
@@ -224,17 +332,43 @@ export const shouldTerminate = (
     return { shouldStop: false, reason: 'Minimum questions not reached' };
   }
 
-  // SE threshold met
+  // Check strand coverage for comprehensive assessment
+  const requiredStrands = getRequiredStrands(session.subject);
+  const strandsCovered = Object.keys(session.strandsTouch);
+  const strandsWithMinCoverage = strandsCovered.filter(
+    strand => (session.strandsTouch[strand] || 0) >= MIN_QUESTIONS_PER_STRAND
+  );
+
+  // Calculate how many required strands have minimum coverage
+  const requiredStrandsCovered = requiredStrands.filter(
+    strand => strandsWithMinCoverage.includes(strand)
+  ).length;
+
+  const requiredCoveragePercentage = requiredStrands.length > 0
+    ? requiredStrandsCovered / requiredStrands.length
+    : 1;
+
+  // SE threshold met - but also check strand coverage
   if (session.standardError <= criteria.targetStandardError) {
-    // Check strand coverage if required
-    if (criteria.requireAllStrands) {
-      const strandsCount = Object.keys(session.strandsTouch).length;
-      if (strandsCount < 3) { // Require at least 3 strands
-        return { shouldStop: false, reason: 'Strand coverage incomplete' };
-      }
+    // Require at least 75% of required strands to be covered with minimum questions
+    if (criteria.requireAllStrands && requiredCoveragePercentage < 0.75) {
+      console.log(`Adaptive: SE target met but strand coverage at ${Math.round(requiredCoveragePercentage * 100)}% (need 75%)`);
+      return {
+        shouldStop: false,
+        reason: `Strand coverage incomplete: ${requiredStrandsCovered}/${requiredStrands.length} required strands covered`
+      };
     }
-    return { shouldStop: true, reason: 'Target precision achieved' };
+
+    // Also require at least 3 different strands for general coverage
+    if (strandsCovered.length < 3) {
+      return { shouldStop: false, reason: 'Need at least 3 strands for comprehensive assessment' };
+    }
+
+    return { shouldStop: true, reason: 'Target precision achieved with comprehensive coverage' };
   }
+
+  // Log progress for debugging
+  console.log(`Adaptive: Questions: ${numQuestions}, SE: ${session.standardError.toFixed(3)}, Strands: ${strandsCovered.length}, Required coverage: ${Math.round(requiredCoveragePercentage * 100)}%`);
 
   return { shouldStop: false, reason: 'Continuing assessment' };
 };

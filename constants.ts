@@ -299,7 +299,70 @@ export const ADAPTIVE_TEST_CONFIG = {
   MAX_TIME_MINUTES: 25,
   STARTING_THETA: 0,
   STATIC_QUESTION_RATIO: 0.7,
-  AI_QUESTION_RATIO: 0.3
+  AI_QUESTION_RATIO: 0.3,
+  // Grade level adaptation constraint - never adapt more than 1 grade level up or down
+  MAX_GRADE_LEVEL_DEVIATION: 1,
+  // Require testing across all core strands for complete snapshot
+  REQUIRE_ALL_CORE_STRANDS: true,
+  // Minimum questions per strand for valid coverage
+  MIN_QUESTIONS_PER_STRAND: 2,
+};
+
+// Core strands that must be covered per subject for a complete assessment
+export const REQUIRED_STRANDS_BY_SUBJECT: Record<string, string[]> = {
+  'Math': [
+    'Operations & Algebraic Thinking',
+    'Number & Operations in Base Ten',
+    'Number & Operations - Fractions',
+    'Measurement & Data',
+    'Geometry',
+  ],
+  'Mathematics': [
+    'Operations & Algebraic Thinking',
+    'Number & Operations in Base Ten',
+    'Number & Operations - Fractions',
+    'Measurement & Data',
+    'Geometry',
+  ],
+  'Reading': [
+    'Key Ideas & Details',
+    'Craft & Structure',
+    'Integration of Knowledge',
+  ],
+  'Reading Comprehension': [
+    'Key Ideas & Details',
+    'Craft & Structure',
+    'Integration of Knowledge',
+  ],
+  'ELA': [
+    'Key Ideas & Details',
+    'Craft & Structure',
+    'Integration of Knowledge',
+    'Phonics & Word Recognition',
+  ],
+  'Reading Foundations': [
+    'Phonics & Word Recognition',
+    'Fluency',
+    'Print Concepts',
+  ],
+};
+
+// Grade level mapping for question loading (grade ±1)
+export const getGradeLevelsForAssessment = (grade: string): string[] => {
+  const gradeOrder = ['K', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'];
+  const currentIndex = gradeOrder.indexOf(grade);
+  if (currentIndex === -1) return [grade];
+
+  const levels: string[] = [grade];
+  // Add one grade below if exists
+  if (currentIndex > 0) {
+    levels.push(gradeOrder[currentIndex - 1]);
+  }
+  // Add one grade above if exists
+  if (currentIndex < gradeOrder.length - 1) {
+    levels.push(gradeOrder[currentIndex + 1]);
+  }
+  return levels;
 };
 
 // Question counts per grade/subject
@@ -886,24 +949,13 @@ export const CCSS_LEARNING_OBJECTIVES: Record<string, string> = {
   'CCSS.ELA-LITERACY.RF.1.3.C': 'Know final -e and common vowel team conventions for long vowel sounds',
   'CCSS.ELA-LITERACY.RF.1.3.F': 'Read words with inflectional endings',
 
-  // ELA-LITERACY Reading Literature (RL) - Grade 2
-  'CCSS.ELA-LITERACY.RL.2.1': 'Ask and answer questions about key details in a text',
+  // ELA-LITERACY Reading Literature (RL) - Grade 2 (expanded)
   'CCSS.ELA-LITERACY.RL.2.2': 'Recount stories and determine their central message or lesson',
   'CCSS.ELA-LITERACY.RL.2.3': 'Describe how characters respond to major events and challenges',
   'CCSS.ELA-LITERACY.RL.2.5': 'Describe the overall structure of a story',
   'CCSS.ELA-LITERACY.RL.2.6': 'Acknowledge differences in points of view of characters',
   'CCSS.ELA-LITERACY.RL.2.7': 'Use information from illustrations and words to demonstrate understanding',
   'CCSS.ELA-LITERACY.RL.2.9': 'Compare and contrast two or more versions of the same story',
-
-  // ELA-LITERACY Reading Literature (RL) - Grade 3
-  'CCSS.ELA-LITERACY.RL.3.1': 'Ask and answer questions to demonstrate understanding of a text',
-  'CCSS.ELA-LITERACY.RL.3.2': 'Recount stories and determine the central message, lesson, or moral',
-  'CCSS.ELA-LITERACY.RL.3.3': 'Describe characters and explain how their actions contribute to events',
-  'CCSS.ELA-LITERACY.RL.3.4': 'Determine the meaning of words and phrases as used in a text',
-  'CCSS.ELA-LITERACY.RL.3.5': 'Refer to parts of stories, dramas, and poems using terms like chapter and stanza',
-  'CCSS.ELA-LITERACY.RL.3.6': 'Distinguish their own point of view from that of the narrator or characters',
-  'CCSS.ELA-LITERACY.RL.3.7': 'Explain how illustrations contribute to mood or character understanding',
-  'CCSS.ELA-LITERACY.RL.3.9': 'Compare and contrast themes, settings, and plots of stories',
 
   // ELA-LITERACY Reading Informational Text (RI) - Grade 4
   'CCSS.ELA-LITERACY.RI.4.1': 'Refer to details and examples when explaining what the text says',
@@ -912,8 +964,7 @@ export const CCSS_LEARNING_OBJECTIVES: Record<string, string> = {
   'CCSS.ELA-LITERACY.RI.4.4': 'Determine the meaning of academic and domain-specific words',
   'CCSS.ELA-LITERACY.RI.4.5': 'Describe the overall structure of events, ideas, or information',
 
-  // ELA-LITERACY Reading Literature (RL) - Grade 5
-  'CCSS.ELA-LITERACY.RL.5.1': 'Quote accurately from a text when explaining and drawing inferences',
+  // ELA-LITERACY Reading Literature (RL) - Grade 5 (expanded - non-duplicates)
   'CCSS.ELA-LITERACY.RL.5.2': 'Determine a theme and summarize the text',
   'CCSS.ELA-LITERACY.RL.5.3': 'Compare and contrast characters, settings, or events using details',
   'CCSS.ELA-LITERACY.RL.5.4': 'Determine the meaning of words and phrases including figurative language',

@@ -186,12 +186,18 @@ export const QuestionRenderer: React.FC<QuestionRendererProps> = ({
 
   // Render based on question format
   if (question.format === QuestionFormat.MULTIPLE_CHOICE && isMultipleChoiceOptions(question.questionOptions)) {
+    // K-2 gets larger text and spacing for better visibility (especially for emoji visuals)
+    const isYoungLearner = isK2Grade(gradeLevel || question.gradeLevel);
+
     return (
-      <div className="bg-white p-8 rounded-3xl shadow-xl border border-gray-100">
+      <div className={`bg-white ${isYoungLearner ? 'p-10' : 'p-8'} rounded-3xl shadow-xl border border-gray-100`}>
         <PassageSection />
-        <div className="space-y-6">
-          <p className="text-2xl font-semibold text-gray-800 leading-tight">{question.text}</p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className={isYoungLearner ? 'space-y-8' : 'space-y-6'}>
+          {/* Question text - larger for K-2 to display emoji visuals (🍎⭐) better */}
+          <p className={`${isYoungLearner ? 'text-3xl md:text-4xl' : 'text-2xl'} font-semibold text-gray-800 leading-relaxed ${isYoungLearner ? 'text-center' : ''}`}>
+            {question.text}
+          </p>
+          <div className={`grid grid-cols-1 md:grid-cols-2 ${isYoungLearner ? 'gap-6' : 'gap-4'}`}>
             {question.questionOptions.choices.map((choice, i) => {
               const isSelected = selectedAnswer === choice;
               const isCorrectAnswer = showFeedback && answered && choice === question.questionOptions.correctAnswer;
@@ -201,7 +207,7 @@ export const QuestionRenderer: React.FC<QuestionRendererProps> = ({
                   key={i}
                   onClick={() => handleMultipleChoiceSelect(choice)}
                   disabled={answered}
-                  className={`p-5 text-left border-2 rounded-2xl transition-all text-gray-700 font-medium text-lg
+                  className={`${isYoungLearner ? 'p-6' : 'p-5'} text-left border-2 rounded-2xl transition-all text-gray-700 font-medium ${isYoungLearner ? 'text-xl md:text-2xl' : 'text-lg'}
                     ${isSelected
                       ? isCorrectAnswer || !showFeedback
                         ? 'border-blue-500 bg-blue-50'
@@ -213,7 +219,7 @@ export const QuestionRenderer: React.FC<QuestionRendererProps> = ({
                     ${answered ? 'cursor-default' : 'active:scale-[0.98]'}
                   `}
                 >
-                  <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-gray-100 text-gray-600 font-bold mr-3">
+                  <span className={`inline-flex items-center justify-center ${isYoungLearner ? 'w-10 h-10' : 'w-8 h-8'} rounded-full bg-gray-100 text-gray-600 font-bold mr-3`}>
                     {String.fromCharCode(65 + i)}
                   </span>
                   {choice}
@@ -222,10 +228,10 @@ export const QuestionRenderer: React.FC<QuestionRendererProps> = ({
             })}
           </div>
           {!answered && selectedAnswer !== null && (
-            <div className="flex justify-end">
+            <div className={isYoungLearner ? 'flex justify-center' : 'flex justify-end'}>
               <button
                 onClick={handleMultipleChoiceSubmit}
-                className="px-8 py-3 bg-blue-600 text-white rounded-xl font-bold text-lg hover:bg-blue-700 transition-colors"
+                className={`${isYoungLearner ? 'px-12 py-4 text-xl' : 'px-8 py-3 text-lg'} bg-blue-600 text-white rounded-xl font-bold hover:bg-blue-700 transition-colors`}
               >
                 Submit
               </button>
@@ -242,14 +248,16 @@ export const QuestionRenderer: React.FC<QuestionRendererProps> = ({
 
     if (useK2Visual) {
       // K-2 Visual Yes/No with large buttons and icons
+      // Extra large for young children to easily tap/click
       return (
-        <div className="bg-white p-8 rounded-3xl shadow-xl border border-gray-100">
+        <div className="bg-white p-10 rounded-3xl shadow-xl border border-gray-100">
           <PassageSection />
-          <div className="space-y-8">
-            <p className="text-2xl md:text-3xl font-semibold text-gray-800 leading-tight text-center">
+          <div className="space-y-10">
+            {/* Larger question text for K-2 with emoji support */}
+            <p className="text-3xl md:text-4xl font-semibold text-gray-800 leading-relaxed text-center">
               {question.text}
             </p>
-            <div className="flex gap-6 justify-center">
+            <div className="flex gap-8 md:gap-12 justify-center">
               {[
                 { value: true, label: 'YES', Icon: ThumbsUpIcon, color: 'green' },
                 { value: false, label: 'NO', Icon: ThumbsDownIcon, color: 'red' }
@@ -262,7 +270,7 @@ export const QuestionRenderer: React.FC<QuestionRendererProps> = ({
                     key={String(value)}
                     onClick={() => handleTrueFalseSelect(value)}
                     disabled={answered}
-                    className={`w-36 h-36 md:w-44 md:h-44 flex flex-col items-center justify-center border-4 rounded-3xl transition-all
+                    className={`w-40 h-40 md:w-52 md:h-52 lg:w-60 lg:h-60 flex flex-col items-center justify-center border-4 rounded-3xl transition-all
                       ${isSelected
                         ? isCorrectAnswer || !showFeedback
                           ? `border-${color}-500 bg-${color}-50 ring-4 ring-${color}-200`
@@ -290,11 +298,12 @@ export const QuestionRenderer: React.FC<QuestionRendererProps> = ({
                           : '#e5e7eb'
                     }}
                   >
-                    <span className={isSelected ? (color === 'green' ? 'text-green-600' : 'text-red-600') : (color === 'green' ? 'text-green-500' : 'text-red-500')}>
+                    {/* Larger icon for K-2 */}
+                    <span className={`${isSelected ? (color === 'green' ? 'text-green-600' : 'text-red-600') : (color === 'green' ? 'text-green-500' : 'text-red-500')} transform scale-125 md:scale-150`}>
                       <Icon />
                     </span>
                     <span
-                      className="mt-2 font-bold text-2xl md:text-3xl"
+                      className="mt-3 md:mt-4 font-bold text-3xl md:text-4xl"
                       style={{
                         color: isSelected
                           ? color === 'green' ? '#16a34a' : '#dc2626'
@@ -311,7 +320,7 @@ export const QuestionRenderer: React.FC<QuestionRendererProps> = ({
               <div className="flex justify-center">
                 <button
                   onClick={handleTrueFalseSubmit}
-                  className="px-10 py-4 bg-blue-600 text-white rounded-2xl font-bold text-xl hover:bg-blue-700 transition-colors"
+                  className="px-14 py-5 bg-blue-600 text-white rounded-2xl font-bold text-2xl hover:bg-blue-700 transition-colors"
                 >
                   Submit
                 </button>
@@ -496,17 +505,29 @@ export const QuestionRenderer: React.FC<QuestionRendererProps> = ({
   }
 
   // PICTURE_CHOICE format for visual K-2 questions
+  // Enhanced with larger images and more spacing for young learners
   if (question.format === QuestionFormat.PICTURE_CHOICE && isPictureChoiceOptions(question.questionOptions)) {
     const { images, correctAnswerIndex } = question.questionOptions;
+    const isYoungLearner = isK2Grade(question.gradeLevel);
+
+    // K-2 gets larger images with more spacing
+    const imageClasses = isYoungLearner
+      ? 'w-40 h-40 md:w-52 md:h-52 lg:w-60 lg:h-60'
+      : 'w-32 h-32 md:w-40 md:h-40';
+    const gapClass = isYoungLearner ? 'gap-8 md:gap-10' : 'gap-6';
+    const labelClasses = isYoungLearner
+      ? 'mt-4 font-bold text-2xl md:text-3xl text-gray-700'
+      : 'mt-3 font-bold text-xl md:text-2xl text-gray-700';
+    const paddingClasses = isYoungLearner ? 'p-6' : 'p-4';
 
     return (
-      <div className="bg-white p-8 rounded-3xl shadow-xl border border-gray-100">
+      <div className={`bg-white ${isYoungLearner ? 'p-10' : 'p-8'} rounded-3xl shadow-xl border border-gray-100`}>
         <PassageSection />
-        <div className="space-y-8">
-          <p className="text-2xl md:text-3xl font-semibold text-gray-800 leading-tight text-center">
+        <div className={isYoungLearner ? 'space-y-10' : 'space-y-8'}>
+          <p className={`${isYoungLearner ? 'text-3xl md:text-4xl' : 'text-2xl md:text-3xl'} font-semibold text-gray-800 leading-tight text-center`}>
             {question.text}
           </p>
-          <div className={`grid gap-6 justify-center ${images.length === 2 ? 'grid-cols-2' : 'grid-cols-2 md:grid-cols-3'}`}>
+          <div className={`grid ${gapClass} justify-center ${images.length === 2 ? 'grid-cols-2' : 'grid-cols-2 md:grid-cols-3'}`}>
             {images.map((image, index) => {
               const isSelected = pictureChoiceSelection === index;
               const isCorrectAnswer = showFeedback && answered && index === correctAnswerIndex;
@@ -516,7 +537,7 @@ export const QuestionRenderer: React.FC<QuestionRendererProps> = ({
                   key={index}
                   onClick={() => handlePictureChoiceSelect(index)}
                   disabled={answered}
-                  className={`flex flex-col items-center p-4 border-4 rounded-3xl transition-all
+                  className={`flex flex-col items-center ${paddingClasses} border-4 rounded-3xl transition-all
                     ${isSelected
                       ? isCorrectAnswer || !showFeedback
                         ? 'border-blue-500 bg-blue-50 ring-4 ring-blue-200'
@@ -531,10 +552,11 @@ export const QuestionRenderer: React.FC<QuestionRendererProps> = ({
                   <img
                     src={image.imageUrl}
                     alt={image.altText}
-                    className="w-32 h-32 md:w-40 md:h-40 object-contain rounded-xl"
+                    className={`${imageClasses} object-contain rounded-xl`}
+                    loading="eager"
                   />
                   {image.label && (
-                    <span className="mt-3 font-bold text-xl md:text-2xl text-gray-700">
+                    <span className={labelClasses}>
                       {image.label}
                     </span>
                   )}
@@ -546,7 +568,7 @@ export const QuestionRenderer: React.FC<QuestionRendererProps> = ({
             <div className="flex justify-center">
               <button
                 onClick={handlePictureChoiceSubmit}
-                className="px-10 py-4 bg-blue-600 text-white rounded-2xl font-bold text-xl hover:bg-blue-700 transition-colors"
+                className={`${isYoungLearner ? 'px-14 py-5 text-2xl' : 'px-10 py-4 text-xl'} bg-blue-600 text-white rounded-2xl font-bold hover:bg-blue-700 transition-colors`}
               >
                 Submit
               </button>

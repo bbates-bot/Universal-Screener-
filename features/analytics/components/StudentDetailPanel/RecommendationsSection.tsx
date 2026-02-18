@@ -28,6 +28,13 @@ interface StudentInfo {
   subject?: string;
 }
 
+// Helper to check if grade is K-2 (young learners need larger fonts and visual elements)
+const isK2Grade = (gradeLevel: string): boolean => {
+  const grade = gradeLevel.toUpperCase().trim();
+  return grade === 'K' || grade === '1' || grade === '2' ||
+         grade === 'KINDERGARTEN' || grade === 'YEAR 1' || grade === 'YEAR 2';
+};
+
 interface RecommendationsSectionProps {
   screenerStatus: GradeCategory;
   readinessStatus: ReadinessStatus | null;
@@ -150,10 +157,14 @@ export const RecommendationsSection: React.FC<RecommendationsSectionProps> = ({
     try {
       const doc = new jsPDF();
       const pageWidth = doc.internal.pageSize.getWidth();
-      let yPosition = 12;
-      const leftMargin = 15;
-      const rightMargin = 15;
+      const pageHeight = doc.internal.pageSize.getHeight();
+
+      // K-2 specific settings: larger fonts and visual elements for young children
+      const isYoungLearner = isK2Grade(studentInfo.grade);
+      const leftMargin = isYoungLearner ? 18 : 15;
+      const rightMargin = isYoungLearner ? 18 : 15;
       const contentWidth = pageWidth - leftMargin - rightMargin;
+      let yPosition = isYoungLearner ? 15 : 12;
 
       // Helper to draw rounded rectangle
       const drawRoundedRect = (x: number, y: number, w: number, h: number, r: number, fillColor: [number, number, number]) => {
@@ -161,31 +172,40 @@ export const RecommendationsSection: React.FC<RecommendationsSectionProps> = ({
         doc.roundedRect(x, y, w, h, r, r, 'F');
       };
 
-      // Header bar (indigo) - compact
-      drawRoundedRect(0, 0, pageWidth, 38, 0, [79, 70, 229]);
+      // Header bar (indigo) - larger for K-2
+      const headerHeight = isYoungLearner ? 50 : 38;
+      drawRoundedRect(0, 0, pageWidth, headerHeight, 0, [79, 70, 229]);
 
       // Header text
-      doc.setFontSize(8);
+      doc.setFontSize(isYoungLearner ? 10 : 8);
       doc.setTextColor(199, 210, 254);
-      doc.text('COMPASS STUDENT ASSESSMENT REPORT', leftMargin, 10);
+      doc.text('COMPASS STUDENT ASSESSMENT REPORT', leftMargin, isYoungLearner ? 12 : 10);
 
-      // Student Name (white on indigo)
-      doc.setFontSize(16);
+      // Student Name (white on indigo) - larger for K-2
+      doc.setFontSize(isYoungLearner ? 22 : 16);
       doc.setTextColor(255, 255, 255);
       doc.setFont('helvetica', 'bold');
-      doc.text(`${studentInfo.firstName} ${studentInfo.lastName}`, leftMargin, 22);
+      doc.text(`${studentInfo.firstName} ${studentInfo.lastName}`, leftMargin, isYoungLearner ? 28 : 22);
 
       // Grade and School (light text)
-      doc.setFontSize(9);
+      doc.setFontSize(isYoungLearner ? 11 : 9);
       doc.setFont('helvetica', 'normal');
       doc.setTextColor(199, 210, 254);
-      doc.text(`Grade ${studentInfo.grade}  •  ${studentInfo.schoolName}`, leftMargin, 32);
+      doc.text(`Grade ${studentInfo.grade}  •  ${studentInfo.schoolName}`, leftMargin, isYoungLearner ? 42 : 32);
 
-      yPosition = 46;
+      // Add encouraging message for K-2
+      if (isYoungLearner) {
+        doc.setFontSize(10);
+        doc.setTextColor(254, 240, 138); // Yellow
+        doc.text('Great work! Keep learning and growing!', pageWidth - rightMargin - 80, 42);
+      }
 
-      // Status boxes row - compact
-      const boxWidth = (contentWidth - 8) / 2;
-      const boxHeight = 20;
+      yPosition = headerHeight + (isYoungLearner ? 12 : 8);
+
+      // Status boxes row - larger for K-2
+      const boxWidth = (contentWidth - (isYoungLearner ? 12 : 8)) / 2;
+      const boxHeight = isYoungLearner ? 28 : 20;
+      const boxSpacing = isYoungLearner ? 12 : 8;
 
       // Screener Status box
       const statusConfig: Record<string, { bg: [number, number, number]; text: [number, number, number]; label: string }> = {
@@ -196,16 +216,16 @@ export const RecommendationsSection: React.FC<RecommendationsSectionProps> = ({
       };
 
       const status = statusConfig[screenerStatus] || statusConfig['non-applicable'];
-      drawRoundedRect(leftMargin, yPosition, boxWidth, boxHeight, 3, status.bg);
+      drawRoundedRect(leftMargin, yPosition, boxWidth, boxHeight, isYoungLearner ? 5 : 3, status.bg);
 
-      doc.setFontSize(7);
+      doc.setFontSize(isYoungLearner ? 9 : 7);
       doc.setTextColor(100, 116, 139);
       doc.setFont('helvetica', 'bold');
-      doc.text('SCREENER STATUS', leftMargin + 6, yPosition + 7);
+      doc.text('SCREENER STATUS', leftMargin + (isYoungLearner ? 8 : 6), yPosition + (isYoungLearner ? 10 : 7));
 
-      doc.setFontSize(9);
+      doc.setFontSize(isYoungLearner ? 12 : 9);
       doc.setTextColor(status.text[0], status.text[1], status.text[2]);
-      doc.text(status.label, leftMargin + 6, yPosition + 15);
+      doc.text(status.label, leftMargin + (isYoungLearner ? 8 : 6), yPosition + (isYoungLearner ? 22 : 15));
 
       // Readiness box
       const readinessConfig: Record<string, { dot: [number, number, number]; text: [number, number, number]; label: string }> = {
@@ -214,28 +234,28 @@ export const RecommendationsSection: React.FC<RecommendationsSectionProps> = ({
         'not-yet-ready': { dot: [239, 68, 68], text: [185, 28, 28], label: 'Not Yet Ready' },
       };
 
-      drawRoundedRect(leftMargin + boxWidth + 8, yPosition, boxWidth, boxHeight, 3, [248, 250, 252]);
+      drawRoundedRect(leftMargin + boxWidth + boxSpacing, yPosition, boxWidth, boxHeight, isYoungLearner ? 5 : 3, [248, 250, 252]);
 
-      doc.setFontSize(7);
+      doc.setFontSize(isYoungLearner ? 9 : 7);
       doc.setTextColor(100, 116, 139);
-      doc.text('READINESS', leftMargin + boxWidth + 14, yPosition + 7);
+      doc.text('READINESS', leftMargin + boxWidth + boxSpacing + (isYoungLearner ? 8 : 6), yPosition + (isYoungLearner ? 10 : 7));
 
       if (readinessStatus && readinessConfig[readinessStatus]) {
         const readiness = readinessConfig[readinessStatus];
         doc.setFillColor(readiness.dot[0], readiness.dot[1], readiness.dot[2]);
-        doc.circle(leftMargin + boxWidth + 16, yPosition + 14, 2, 'F');
-        doc.setFontSize(9);
+        doc.circle(leftMargin + boxWidth + boxSpacing + (isYoungLearner ? 10 : 8), yPosition + (isYoungLearner ? 20 : 14), isYoungLearner ? 3 : 2, 'F');
+        doc.setFontSize(isYoungLearner ? 12 : 9);
         doc.setTextColor(readiness.text[0], readiness.text[1], readiness.text[2]);
         doc.setFont('helvetica', 'bold');
-        doc.text(readiness.label, leftMargin + boxWidth + 21, yPosition + 15);
+        doc.text(readiness.label, leftMargin + boxWidth + boxSpacing + (isYoungLearner ? 17 : 13), yPosition + (isYoungLearner ? 22 : 15));
       } else {
-        doc.setFontSize(9);
+        doc.setFontSize(isYoungLearner ? 12 : 9);
         doc.setTextColor(148, 163, 184);
         doc.setFont('helvetica', 'bold');
-        doc.text('Not Assessed', leftMargin + boxWidth + 14, yPosition + 15);
+        doc.text('Not Assessed', leftMargin + boxWidth + boxSpacing + (isYoungLearner ? 8 : 6), yPosition + (isYoungLearner ? 22 : 15));
       }
 
-      yPosition += boxHeight + 8;
+      yPosition += boxHeight + (isYoungLearner ? 12 : 8);
 
       // Assessment info line - compact
       doc.setFont('helvetica', 'normal');
@@ -249,69 +269,69 @@ export const RecommendationsSection: React.FC<RecommendationsSectionProps> = ({
         yPosition += 8;
       }
 
-      // Standards Met Section - compact
+      // Standards Met Section - larger for K-2
       if (masteredStandards.length > 0) {
-        doc.setFontSize(9);
+        doc.setFontSize(isYoungLearner ? 12 : 9);
         doc.setTextColor(16, 185, 129);
         doc.setFont('helvetica', 'bold');
-        doc.text('STANDARDS BEING MET', leftMargin, yPosition);
-        yPosition += 6;
+        doc.text(isYoungLearner ? 'WHAT YOU LEARNED' : 'STANDARDS BEING MET', leftMargin, yPosition);
+        yPosition += isYoungLearner ? 10 : 6;
 
         masteredStandards.forEach((standard) => {
           const standardText = standard.code;
-          const boxH = 6;
+          const boxH = isYoungLearner ? 10 : 6;
 
-          drawRoundedRect(leftMargin, yPosition, contentWidth, boxH, 2, [220, 252, 231]);
+          drawRoundedRect(leftMargin, yPosition, contentWidth, boxH, isYoungLearner ? 4 : 2, [220, 252, 231]);
 
           doc.setFillColor(16, 185, 129);
-          doc.roundedRect(leftMargin, yPosition, 2, boxH, 1, 1, 'F');
+          doc.roundedRect(leftMargin, yPosition, isYoungLearner ? 4 : 2, boxH, 2, 2, 'F');
 
-          doc.setFontSize(8);
+          doc.setFontSize(isYoungLearner ? 10 : 8);
           doc.setTextColor(22, 101, 52);
           doc.setFont('helvetica', 'normal');
-          doc.text(standardText, leftMargin + 6, yPosition + 4.5);
+          doc.text(standardText, leftMargin + (isYoungLearner ? 10 : 6), yPosition + (isYoungLearner ? 7 : 4.5));
 
-          yPosition += boxH + 2;
+          yPosition += boxH + (isYoungLearner ? 4 : 2);
         });
 
-        yPosition += 4;
+        yPosition += isYoungLearner ? 8 : 4;
       }
 
-      // Skill Gaps Section - compact
+      // Skill Gaps Section - larger for K-2
       if (skillGaps.length > 0) {
-        doc.setFontSize(9);
+        doc.setFontSize(isYoungLearner ? 12 : 9);
         doc.setTextColor(239, 68, 68);
         doc.setFont('helvetica', 'bold');
-        doc.text('SKILL GAPS', leftMargin, yPosition);
-        yPosition += 6;
+        doc.text(isYoungLearner ? 'WHAT TO PRACTICE' : 'SKILL GAPS', leftMargin, yPosition);
+        yPosition += isYoungLearner ? 10 : 6;
 
         skillGaps.forEach((gap) => {
           const gapText = gap.code;
-          const boxH = 6;
+          const boxH = isYoungLearner ? 10 : 6;
 
-          drawRoundedRect(leftMargin, yPosition, contentWidth, boxH, 2, [254, 242, 242]);
+          drawRoundedRect(leftMargin, yPosition, contentWidth, boxH, isYoungLearner ? 4 : 2, [254, 242, 242]);
 
           doc.setFillColor(239, 68, 68);
-          doc.roundedRect(leftMargin, yPosition, 2, boxH, 1, 1, 'F');
+          doc.roundedRect(leftMargin, yPosition, isYoungLearner ? 4 : 2, boxH, 2, 2, 'F');
 
-          doc.setFontSize(8);
+          doc.setFontSize(isYoungLearner ? 10 : 8);
           doc.setTextColor(153, 27, 27);
           doc.setFont('helvetica', 'normal');
-          doc.text(gapText, leftMargin + 6, yPosition + 4.5);
+          doc.text(gapText, leftMargin + (isYoungLearner ? 10 : 6), yPosition + (isYoungLearner ? 7 : 4.5));
 
-          yPosition += boxH + 2;
+          yPosition += boxH + (isYoungLearner ? 4 : 2);
         });
 
-        yPosition += 4;
+        yPosition += isYoungLearner ? 8 : 4;
       }
 
-      // Recommendations Section - compact
+      // Recommendations Section - larger for K-2
       if (defaultRecs.length > 0) {
-        doc.setFontSize(9);
+        doc.setFontSize(isYoungLearner ? 12 : 9);
         doc.setTextColor(79, 70, 229);
         doc.setFont('helvetica', 'bold');
-        doc.text('RECOMMENDATIONS', leftMargin, yPosition);
-        yPosition += 6;
+        doc.text(isYoungLearner ? 'NEXT STEPS' : 'RECOMMENDATIONS', leftMargin, yPosition);
+        yPosition += isYoungLearner ? 10 : 6;
 
         const priorityColors: Record<string, [number, number, number]> = {
           high: [254, 242, 242],
@@ -325,32 +345,41 @@ export const RecommendationsSection: React.FC<RecommendationsSectionProps> = ({
         };
 
         defaultRecs.forEach((rec, index) => {
-          const recText = doc.splitTextToSize(`${index + 1}. ${rec.text}`, contentWidth - 10);
-          const boxH = 4 + (recText.length * 4);
+          const recText = doc.splitTextToSize(`${index + 1}. ${rec.text}`, contentWidth - (isYoungLearner ? 15 : 10));
+          const lineHeight = isYoungLearner ? 6 : 4;
+          const boxH = (isYoungLearner ? 8 : 4) + (recText.length * lineHeight);
 
-          drawRoundedRect(leftMargin, yPosition, contentWidth, boxH, 2, priorityColors[rec.priority]);
+          drawRoundedRect(leftMargin, yPosition, contentWidth, boxH, isYoungLearner ? 4 : 2, priorityColors[rec.priority]);
 
           doc.setFillColor(borderColors[rec.priority][0], borderColors[rec.priority][1], borderColors[rec.priority][2]);
-          doc.roundedRect(leftMargin, yPosition, 2, boxH, 1, 1, 'F');
+          doc.roundedRect(leftMargin, yPosition, isYoungLearner ? 4 : 2, boxH, 2, 2, 'F');
 
-          doc.setFontSize(8);
+          doc.setFontSize(isYoungLearner ? 10 : 8);
           doc.setTextColor(30, 41, 59);
           doc.setFont('helvetica', 'normal');
-          doc.text(recText, leftMargin + 6, yPosition + 3.5);
+          doc.text(recText, leftMargin + (isYoungLearner ? 10 : 6), yPosition + (isYoungLearner ? 6 : 3.5));
 
-          yPosition += boxH + 2;
+          yPosition += boxH + (isYoungLearner ? 4 : 2);
         });
       }
 
-      // Footer
-      doc.setFontSize(7);
+      // Footer - encouraging for K-2
+      doc.setFontSize(isYoungLearner ? 10 : 7);
       doc.setTextColor(150);
       doc.text(
-        'Generated by Compass',
+        isYoungLearner ? 'Keep up the great work!' : 'Generated by Compass',
         pageWidth / 2,
-        doc.internal.pageSize.getHeight() - 8,
+        pageHeight - (isYoungLearner ? 12 : 8),
         { align: 'center' }
       );
+
+      // Add star decorations for K-2 footer
+      if (isYoungLearner) {
+        doc.setFontSize(8);
+        doc.setTextColor(245, 158, 11); // Amber
+        doc.text('★', leftMargin + 10, pageHeight - 12);
+        doc.text('★', pageWidth - rightMargin - 15, pageHeight - 12);
+      }
 
       // Save the PDF
       doc.save(`${studentInfo.firstName}_${studentInfo.lastName}_Assessment_Report.pdf`);

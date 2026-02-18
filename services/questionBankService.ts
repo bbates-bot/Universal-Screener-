@@ -462,6 +462,160 @@ export const clearQuestionCache = (): void => {
 };
 
 /**
+ * Get adjacent grade levels for comprehensive assessment
+ * Returns current grade plus one grade above and below (when available)
+ */
+export const getAdjacentGradeLevels = (grade: string): string[] => {
+  const gradeOrder = ['K', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'];
+  const currentIndex = gradeOrder.indexOf(grade);
+
+  if (currentIndex === -1) {
+    // Handle AP/Edexcel or unknown grades
+    return [grade];
+  }
+
+  const levels: string[] = [grade]; // Always include current grade
+
+  // Add one grade below (for easier questions)
+  if (currentIndex > 0) {
+    levels.push(gradeOrder[currentIndex - 1]);
+  }
+
+  // Add one grade above (for challenge questions)
+  if (currentIndex < gradeOrder.length - 1) {
+    levels.push(gradeOrder[currentIndex + 1]);
+  }
+
+  return levels;
+};
+
+/**
+ * Load questions from multiple grade levels for comprehensive screener assessment
+ * This ensures students are tested across a range (current grade ±1) while
+ * never adapting more than one grade level away
+ */
+export const loadQuestionsForScreener = async (
+  subject: QuestionSubject | string,
+  grade: string,
+  options?: {
+    includeAdjacentGrades?: boolean;
+    minQuestionsPerStrand?: number;
+  }
+): Promise<ExtendedQuestion[]> => {
+  const includeAdjacent = options?.includeAdjacentGrades ?? true;
+
+  // Get all grades to load from
+  const gradesToLoad = includeAdjacent ? getAdjacentGradeLevels(grade) : [grade];
+
+  console.log(`[QuestionBank] Loading screener questions for grade ${grade}, including grades: ${gradesToLoad.join(', ')}`);
+
+  // Load questions from all relevant grades
+  const allQuestions: ExtendedQuestion[] = [];
+  for (const g of gradesToLoad) {
+    const questions = await loadAllQuestionsForGrade(subject, g);
+    allQuestions.push(...questions);
+  }
+
+  // Deduplicate by question ID (in case same question appears in multiple banks)
+  const uniqueQuestions = Array.from(
+    new Map(allQuestions.map(q => [q.id, q])).values()
+  );
+
+  console.log(`[QuestionBank] Loaded ${uniqueQuestions.length} unique questions across ${gradesToLoad.length} grade levels`);
+
+  return uniqueQuestions;
+};
+
+/**
+ * Get questions ensuring coverage across all required strands
+ * This ensures a complete snapshot of learner ability across learning objectives
+ */
+export const getQuestionsWithStrandCoverage = (
+  questions: ExtendedQuestion[],
+  targetCount: number,
+  minPerStrand: number = 2
+): ExtendedQuestion[] => {
+  // Group questions by strand
+  const byStrand: Map<string, ExtendedQuestion[]> = new Map();
+
+  questions.forEach(q => {
+    const strand = q.strand || 'General';
+    if (!byStrand.has(strand)) {
+      byStrand.set(strand, []);
+    }
+    byStrand.get(strand)!.push(q);
+  });
+
+  const strands = Array.from(byStrand.keys());
+  console.log(`[QuestionBank] Found ${strands.length} unique strands: ${strands.join(', ')}`);
+
+  const selected: ExtendedQuestion[] = [];
+  const usedIds = new Set<string>();
+
+  // First pass: ensure minimum coverage per strand
+  strands.forEach(strand => {
+    const strandQuestions = byStrand.get(strand)!;
+    const shuffled = [...strandQuestions].sort(() => Math.random() - 0.5);
+
+    let added = 0;
+    for (const q of shuffled) {
+      if (added >= minPerStrand) break;
+      if (!usedIds.has(q.id)) {
+        selected.push(q);
+        usedIds.add(q.id);
+        added++;
+      }
+    }
+  });
+
+  console.log(`[QuestionBank] Selected ${selected.length} questions for strand coverage (min ${minPerStrand} per strand)`);
+
+  // Second pass: fill remaining slots with balanced difficulty
+  if (selected.length < targetCount) {
+    const remaining = questions.filter(q => !usedIds.has(q.id));
+
+    // Sort by difficulty to get a good mix
+    const byDifficulty = [...remaining].sort((a, b) => (a.difficulty || 3) - (b.difficulty || 3));
+
+    // Take from different difficulty levels
+    const easy = byDifficulty.filter(q => (q.difficulty || 3) <= 2);
+    const medium = byDifficulty.filter(q => (q.difficulty || 3) === 3);
+    const hard = byDifficulty.filter(q => (q.difficulty || 3) >= 4);
+
+    const shuffleAndTake = (arr: ExtendedQuestion[], count: number) => {
+      const shuffled = [...arr].sort(() => Math.random() - 0.5);
+      return shuffled.slice(0, count);
+    };
+
+    const slotsRemaining = targetCount - selected.length;
+    const easyCount = Math.floor(slotsRemaining * 0.3);
+    const hardCount = Math.floor(slotsRemaining * 0.2);
+    const mediumCount = slotsRemaining - easyCount - hardCount;
+
+    const additionalQuestions = [
+      ...shuffleAndTake(easy, easyCount),
+      ...shuffleAndTake(medium, mediumCount),
+      ...shuffleAndTake(hard, hardCount)
+    ];
+
+    for (const q of additionalQuestions) {
+      if (selected.length >= targetCount) break;
+      if (!usedIds.has(q.id)) {
+        selected.push(q);
+        usedIds.add(q.id);
+      }
+    }
+  }
+
+  // Shuffle final selection to avoid predictable ordering
+  const finalSelection = [...selected].sort(() => Math.random() - 0.5);
+
+  console.log(`[QuestionBank] Final selection: ${finalSelection.length} questions`);
+
+  return finalSelection;
+};
+
+/**
  * Load all available questions for all grades of a subject
  */
 export const loadAllQuestionsForSubject = async (
