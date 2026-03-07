@@ -505,27 +505,34 @@ const UnifiedAnalyticsContent: React.FC<UnifiedAnalyticsPageProps> = ({
         result.overallLevel === ScreenerLevel.FAR_BELOW ? 'far-below' as GradeCategory :
         'non-applicable' as GradeCategory;
 
+      // Calculate overall percentage from strand scores
+      const strandValues = Object.values(result.strandScores || {});
+      const overallPercentage = strandValues.length > 0
+        ? Math.round(strandValues.reduce((sum, val) => sum + val, 0) / strandValues.length)
+        : result.percentile || 0;
+
+      // Build domains from strandScores
+      const domains = Object.entries(result.strandScores || {}).map(([strandName, score]) => {
+        const strandLevel = score >= 70 ? 'on-or-above' as GradeCategory :
+                           score >= 40 ? 'below' as GradeCategory :
+                           'far-below' as GradeCategory;
+        return {
+          domain: strandName,
+          score: Math.round(score),
+          maxScore: 100,
+          percentage: Math.round(score),
+          level: strandLevel,
+        };
+      });
+
       return {
         subject: result.subject,
         testDate: result.testDate,
-        overallScore: result.totalCorrect || 0,
-        maxScore: result.totalQuestions || 1,
-        overallPercentage: result.totalCorrect && result.totalQuestions
-          ? Math.round((result.totalCorrect / result.totalQuestions) * 100)
-          : 0,
+        overallScore: Math.round(overallPercentage),
+        maxScore: 100,
+        overallPercentage,
         overallLevel: resultLevel,
-        domains: result.domains?.map((d: any) => ({
-          domain: d.name || d.domain,
-          score: d.correct || d.score || 0,
-          maxScore: d.total || d.maxScore || 1,
-          percentage: (d.correct || d.score) && (d.total || d.maxScore)
-            ? Math.round(((d.correct || d.score) / (d.total || d.maxScore)) * 100)
-            : 0,
-          level: d.level === ScreenerLevel.ON_ABOVE ? 'on-or-above' as GradeCategory :
-                 d.level === ScreenerLevel.BELOW ? 'below' as GradeCategory :
-                 d.level === ScreenerLevel.FAR_BELOW ? 'far-below' as GradeCategory :
-                 'non-applicable' as GradeCategory,
-        })) || [],
+        domains,
         masteredStandards: getMasteredForResult(),
         gapStandards: getGapsForResult(),
       };

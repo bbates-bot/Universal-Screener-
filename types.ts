@@ -37,6 +37,7 @@ export type Subject =
   | 'AP Statistics'
   | 'AP English Language'
   | 'AP English Literature'
+  | 'AP Macroeconomics'
   // Pearson Edexcel IGCSE aligned subjects
   | 'Edexcel Math Pre-IG1'
   | 'Edexcel Math Pre-IG2'

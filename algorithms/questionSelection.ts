@@ -42,10 +42,11 @@ const DEFAULT_CONFIG: SelectionConfig = {
   contentWeight: 0.3,
   exposureWeight: 0.1,
   formatDistribution: {
-    [QuestionFormat.MULTIPLE_CHOICE]: 0.6,
+    [QuestionFormat.MULTIPLE_CHOICE]: 0.55,
     [QuestionFormat.TRUE_FALSE]: 0.15,
-    [QuestionFormat.MATCHING]: 0.15,
-    [QuestionFormat.DRAG_AND_DROP]: 0.1
+    [QuestionFormat.MATCHING]: 0.12,
+    [QuestionFormat.DRAG_AND_DROP]: 0.10,
+    [QuestionFormat.PICTURE_CHOICE]: 0.08
   },
   randomizationFactor: 0.1
 };

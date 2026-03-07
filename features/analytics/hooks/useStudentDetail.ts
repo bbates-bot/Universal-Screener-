@@ -136,6 +136,17 @@ export const useStudentDetail = ({
         screenerStatus: category,
         readinessStatus,
         screener: screenerData,
+        allScreenerResults: screenerData ? [{
+          subject: screenerData.subject,
+          testDate: screenerData.testDate,
+          overallScore: screenerData.overallScore,
+          maxScore: screenerData.maxScore,
+          overallPercentage: screenerData.overallPercentage,
+          overallLevel: category,
+          domains: screenerData.domains,
+          masteredStandards: [],
+          gapStandards: [],
+        }] : [],
         readiness: readinessData,
         recommendations: [],
       };

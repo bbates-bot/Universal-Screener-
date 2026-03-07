@@ -219,7 +219,8 @@ const TestReview: React.FC<TestReviewProps> = ({ userRole }) => {
       [QuestionFormat.MULTIPLE_CHOICE]: { bg: 'bg-blue-100', text: 'text-blue-700', label: 'Multiple Choice' },
       [QuestionFormat.TRUE_FALSE]: { bg: 'bg-green-100', text: 'text-green-700', label: 'True/False' },
       [QuestionFormat.MATCHING]: { bg: 'bg-purple-100', text: 'text-purple-700', label: 'Matching' },
-      [QuestionFormat.DRAG_AND_DROP]: { bg: 'bg-orange-100', text: 'text-orange-700', label: 'Drag & Drop' }
+      [QuestionFormat.DRAG_AND_DROP]: { bg: 'bg-orange-100', text: 'text-orange-700', label: 'Drag & Drop' },
+      [QuestionFormat.PICTURE_CHOICE]: { bg: 'bg-pink-100', text: 'text-pink-700', label: 'Picture Choice' }
     };
     const style = styles[format] || { bg: 'bg-gray-100', text: 'text-gray-700', label: format };
     return (

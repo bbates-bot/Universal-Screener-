@@ -192,7 +192,8 @@ function getFormatLabel(format: QuestionFormat): string {
     [QuestionFormat.MULTIPLE_CHOICE]: 'Multiple Choice',
     [QuestionFormat.TRUE_FALSE]: 'True/False',
     [QuestionFormat.MATCHING]: 'Matching',
-    [QuestionFormat.DRAG_AND_DROP]: 'Drag & Drop'
+    [QuestionFormat.DRAG_AND_DROP]: 'Drag & Drop',
+    [QuestionFormat.PICTURE_CHOICE]: 'Picture Choice'
   };
   return labels[format] || format;
 }

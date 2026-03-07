@@ -88,6 +88,7 @@ export const generateHybridQuestionSet = async (
   const subjectMap: Record<QuestionSubject, Subject> = {
     'Mathematics': 'Math',
     'Reading': 'Reading Foundations',
+    'Reading Comprehension': 'Reading Foundations',
     'ELA': 'ELA'
   };
 
